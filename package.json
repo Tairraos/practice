@@ -1,0 +1,15 @@
+{
+  "name": "checkio",
+  "version": "1.0.0",
+  "description": "check io py and js",
+  "main": "index.js",
+  "repository": "https://github.com/Tairraos/checkio.git",
+  "author": "xiaole.tao@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "assert": "^1.4.1"
+  },
+  "dependencies": {
+  }
+}
