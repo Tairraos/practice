@@ -15,7 +15,7 @@
 // Let's look at an example, hereâs the sequence of commands:
 // ["PUSH 3", "POP", "POP", "PUSH 4", "PEEK", "PUSH 9", "PUSH 0", "PEEK", "POP", "PUSH 1", "PEEK"]
 // 
-// #example-table {        border-collapse: collapse;        margin-bottom: 10px;    }    #example-table td,    #example-table th {        border: 1px #294270 solid;        padding: 4px;        font-size: 16px;        text-align: center;    }CommandStackSumPUSH 330POP0+3POP3+0PUSH 443PEEK43+4PUSH 94,97PUSH 04,9,07PEEK4,9,07+0POP4,97+0PUSH 14,9,17PEEK4,9,17+1=8Input:A sequence of commands as a list of strings.
+// CommandStackSumPUSH 330POP0+3POP3+0PUSH 443PEEK43+4PUSH 94,97PUSH 04,9,07PEEK4,9,07+0POP4,97+0PUSH 14,9,17PEEK4,9,17+1=8Input:A sequence of commands as a list of strings.
 // 
 // Output:The sum of the taken digits as an integer.
 // 

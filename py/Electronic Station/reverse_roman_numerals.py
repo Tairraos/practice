@@ -2,7 +2,6 @@
 
 # https://py.checkio.org/mission/reverse-roman-numerals/
 
-# .numeral-table {    margin: auto;    border-collapse: collapse;    text-align: center;  }  .numeral-table * {    border: 1px solid black;    padding: 8px;    width: 50%;  }In the CheckiO missionRoman Numeralsyou have to convert a decimal    number into its representation as a roman number.
 # Here you have to do the same but the other way around.
 # 
 # You are given a Roman number as a string and your job is to convert this number into  its decimal representation.

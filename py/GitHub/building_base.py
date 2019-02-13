@@ -2,7 +2,7 @@
 
 # https://py.checkio.org/mission/building-base/
 
-# pre.example {        border: 1px solid #aaa;        border-radius: 3px;        background: #eee;        margin-left: 20px;        padding: 5px;        overflow: auto;    }    p.indent {        margin-left: 20px;    }The singularity has happened and we are being made to build the ideal robo-city for our    overlords. In this shining robotropolis, all buildings will be rectangular and all streets laid    along south-north and east-west lines in a glorious grid. Before we get started, we to create a    class to represent the perfect building.
+# The singularity has happened and we are being made to build the ideal robo-city for our    overlords. In this shining robotropolis, all buildings will be rectangular and all streets laid    along south-north and east-west lines in a glorious grid. Before we get started, we to create a    class to represent the perfect building.
 # 
 # Because all the buildings in the city are rectangular and their walls are parallel to the    streets, we can define any building using only the coordinates of South-Western corner as two    arguments (the length of the west to east walls, and the length of the north to south wall)    along with the height of the building. These values are described as positive numbers using    conventional units.The origin point of our coordinate system lies in the South-West, as a result the northern corner ends up having the greater coordinate value than the southern    corner. To complete this mission we need to use a couple operations. See the class description    below.
 # 
