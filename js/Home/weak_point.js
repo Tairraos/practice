@@ -12,31 +12,10 @@
 "use strict";
 
 function weakPoint(matrix) {
-    let sumx = [],
-        sumy = [],
-        len = matrix.length;
+    let sumx = matrix.map((a) => a.reduce((i, j) => i + j)),
+        sumy = matrix.reduce((a, b) => b.map((i, j) => a[j] + i));
 
-    function sum(r, n, row) {
-        var s = 0;
-        for (let i = 0; i < len; i++)
-            s += row ? r[n][i] : r[i][n];
-        return s;
-    };
-    for (let i = 0; i < len; i++) {
-        sumx.push(sum(matrix, i, true));
-        sumy.push(sum(matrix, i, false));
-    }
-    let v = sumx[0] + sumy[0],
-        p = [0, 0];
-    for (let x = 0; x < len; x++)
-        for (let y = 0; y < len; y++) {
-            let nv = sumx[y] + sumy[x];
-            if (nv < v) {
-                v = nv;
-                p = [y, x]
-            }
-        }
-    return p;
+    return [sumx.indexOf(Math.min(...sumx)), sumy.indexOf(Math.min(...sumy))];
 }
 
 var assert = require('assert');
