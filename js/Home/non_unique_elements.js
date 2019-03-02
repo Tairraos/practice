@@ -26,6 +26,7 @@
 "use strict";
 
 function nonUniqueElements(data) {
+    //分别从两端查找同一个值，找到的位置不同说明该值不只有一个
     return data.filter((d) => data.indexOf(d) !== data.lastIndexOf(d));
 }
 

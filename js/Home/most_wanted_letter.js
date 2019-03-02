@@ -21,7 +21,8 @@
 "use strict";
 
 function mostWanted(data) {
-    return data;
+    //转小写 -> 切成单安符 -> 排序后再合并回去 -> 按字母切成字串 -> 查找最长的字串 -> 返回第一个字母
+    return data.toLowerCase().split("").sort().join("").match(/([a-z])\1+|[a-z]/g).reduce((a, b) => b.length > a.length ? b : a)[0];
 }
 
 var assert = require('assert');

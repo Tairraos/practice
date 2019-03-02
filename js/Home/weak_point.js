@@ -12,10 +12,10 @@
 "use strict";
 
 function weakPoint(matrix) {
-    let sumx = matrix.map((a) => a.reduce((i, j) => i + j)),
-        sumy = matrix.reduce((a, b) => b.map((i, j) => a[j] + i));
+    let sumx = matrix.map((a) => a.reduce((i, j) => i + j)), //每一行都加起来
+        sumy = matrix.reduce((a, b) => b.map((i, j) => a[j] + i)); //每一列都加起来
 
-    return [sumx.indexOf(Math.min(...sumx)), sumy.indexOf(Math.min(...sumy))];
+    return [sumx.indexOf(Math.min(...sumx)), sumy.indexOf(Math.min(...sumy))]; //找出行列的最小值
 }
 
 var assert = require('assert');

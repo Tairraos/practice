@@ -14,10 +14,8 @@
 "use strict";
 
 function longRepeat(line) {
-    // length the longest substring that consists of the same char
-
-    // your code here
-    return 0;
+    //正则把连续的字串切开来 -> map把值转成字串长度 —> 从小到大排序 -> 弹出最大值
+    return line ? line.match(/(.)\1+|./g).map(s => s.length).sort((a, b) => a - b).pop() : 0;
 }
 
 var assert = require('assert');

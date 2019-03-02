@@ -37,10 +37,14 @@
 
 "use strict";
 
-function countNeighbours(data, row, col) {
-    return (data[row - 1] ? !!data[row - 1][col - 1] + !!data[row - 1][col] + !!data[row - 1][col + 1] : 0) +
-           (data[row + 1] ? !!data[row + 1][col - 1] + !!data[row + 1][col] + !!data[row + 1][col + 1] : 0 )+
-                            !!data[row][col - 1]     + !!data[row][col + 1];
+function countNeighbours(m, x, y) {
+    //存在上面一行的话，左中右加起来
+    //存在下面一行的话，左中右加起来
+    //本行左右加起来。
+    //!!是把undefined转成false, 做加法的时候会自动转成0
+    return (m[x - 1] ? !!m[x - 1][y - 1] + !!m[x - 1][y] + !!m[x - 1][y + 1] : 0) +
+           (m[x + 1] ? !!m[x + 1][y - 1] + !!m[x + 1][y] + !!m[x + 1][y + 1] : 0) +
+                       !!m[x][y - 1]     + !!m[x][y + 1];
 }
 
 var assert = require('assert');

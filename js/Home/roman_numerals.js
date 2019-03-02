@@ -45,6 +45,8 @@ function romanNumerals(number) {
         ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"],
         ["", "M", "MM", "MMM"]
     ]
+    //数字变字串 -> 切成个位 -> 查表转换 -> 拼起来
+    //表是从个位十位百位排列，所以查表的时候先反过来查，查完再反回去。
     return number.toString().split("").reverse().map((n, i) => dict[i][+n]).reverse().join("");
 }
 

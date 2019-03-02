@@ -19,10 +19,9 @@
 
 "use strict";
 
-function median(data) {
-    data = data.sort((a, b) => a - b);
-    var n = Math.floor(data.length / 2);
-    return data.length % 2 ? data[n] : (data[n] + data[n - 1]) / 2;
+function median(d) {
+    //保持数组>2个元素 -> 排序 -> 取中间1或2位 -> 加起来除平均
+    return d.concat(Infinity, -Infinity).sort((a, b) => a - b).slice(d.length / 2 + 0.5, -d.length / 2 - 0.5).reduce((a, b) => (a + b) / 2);
 }
 
 var assert = require('assert');
