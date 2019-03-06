@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run compass-map-and-spyglass
+#!/usr/bin/env checkio --domain=js check compass-map-and-spyglass
 
 // https://js.checkio.org/mission/compass-map-and-spyglass/
 

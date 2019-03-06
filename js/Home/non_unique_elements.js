@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run non-unique-elements
+#!/usr/bin/env checkio --domain=js check non-unique-elements
 // https://js.checkio.org/mission/non-unique-elements/
 
 "use strict";

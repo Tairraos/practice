@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run create-intervals
+#!/usr/bin/env checkio --domain=js check create-intervals
 
 // https://js.checkio.org/mission/create-intervals/
 

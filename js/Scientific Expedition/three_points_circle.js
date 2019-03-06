@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run three-points-circle
+#!/usr/bin/env checkio --domain=js check three-points-circle
 
 // https://js.checkio.org/mission/three-points-circle/
 

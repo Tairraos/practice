@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run super-root
+#!/usr/bin/env checkio --domain=js check super-root
 
 // https://js.checkio.org/mission/super-root/
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run hamming-distance
+#!/usr/bin/env checkio --domain=js check hamming-distance
 
 // https://js.checkio.org/mission/hamming-distance/
 

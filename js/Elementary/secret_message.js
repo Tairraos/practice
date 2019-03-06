@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run secret-message
+#!/usr/bin/env checkio --domain=js check secret-message
 
 // https://js.checkio.org/mission/secret-message/
 

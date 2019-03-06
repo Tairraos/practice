@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run rectangles-union
+#!/usr/bin/env checkio --domain=js check rectangles-union
 
 // https://js.checkio.org/mission/rectangles-union/
 

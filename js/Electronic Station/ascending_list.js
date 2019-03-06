@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run ascending-list
+#!/usr/bin/env checkio --domain=js check ascending-list
 
 // https://js.checkio.org/mission/ascending-list/
 

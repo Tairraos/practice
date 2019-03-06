@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run repeating-decimals
+#!/usr/bin/env checkio --domain=js check repeating-decimals
 
 // https://js.checkio.org/mission/repeating-decimals/
 

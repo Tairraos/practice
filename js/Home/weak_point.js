@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run weak-point
+#!/usr/bin/env checkio --domain=js check weak-point
 // https://js.checkio.org/mission/weak-point/
 
 "use strict";

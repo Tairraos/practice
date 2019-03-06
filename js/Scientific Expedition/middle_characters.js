@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run middle-characters
+#!/usr/bin/env checkio --domain=js check middle-characters
 
 // https://js.checkio.org/mission/middle-characters/
 

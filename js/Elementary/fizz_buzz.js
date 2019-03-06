@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run fizz-buzz
+#!/usr/bin/env checkio --domain=js check fizz-buzz
 
 // https://js.checkio.org/mission/fizz-buzz/
 

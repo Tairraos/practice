@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run common-words
+#!/usr/bin/env checkio --domain=js check common-words
 
 // https://js.checkio.org/mission/common-words/
 

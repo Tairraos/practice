@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run network-attack
+#!/usr/bin/env checkio --domain=js check network-attack
 
 // https://js.checkio.org/mission/network-attack/
 

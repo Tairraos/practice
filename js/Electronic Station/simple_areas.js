@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run simple-areas
+#!/usr/bin/env checkio --domain=js check simple-areas
 
 // https://js.checkio.org/mission/simple-areas/
 

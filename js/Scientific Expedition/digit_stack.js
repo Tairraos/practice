@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run digit-stack
+#!/usr/bin/env checkio --domain=js check digit-stack
 
 // https://js.checkio.org/mission/digit-stack/
 

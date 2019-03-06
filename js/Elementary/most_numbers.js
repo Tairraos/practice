@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run most-numbers
+#!/usr/bin/env checkio --domain=js check most-numbers
 
 // https://js.checkio.org/mission/most-numbers/
 

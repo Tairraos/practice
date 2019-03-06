@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run fractions-addition
+#!/usr/bin/env checkio --domain=js check fractions-addition
 
 // https://js.checkio.org/mission/fractions-addition/
 

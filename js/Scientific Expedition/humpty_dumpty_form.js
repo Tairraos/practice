@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run humpty-dumpty-form
+#!/usr/bin/env checkio --domain=js check humpty-dumpty-form
 
 // https://js.checkio.org/mission/humpty-dumpty-form/
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run double-substring
+#!/usr/bin/env checkio --domain=js check double-substring
 
 // https://js.checkio.org/mission/double-substring/
 

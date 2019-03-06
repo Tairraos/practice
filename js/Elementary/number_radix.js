@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run number-radix
+#!/usr/bin/env checkio --domain=js check number-radix
 
 // https://js.checkio.org/mission/number-radix/
 

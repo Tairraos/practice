@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run say-hi
+#!/usr/bin/env checkio --domain=js check say-hi
 
 // https://js.checkio.org/mission/say-hi/
 

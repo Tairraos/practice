@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run between-markers
+#!/usr/bin/env checkio --domain=js check between-markers
 
 // https://js.checkio.org/mission/between-markers/
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run median
+#!/usr/bin/env checkio --domain=js check median
 // https://js.checkio.org/mission/median/
 
 "use strict";

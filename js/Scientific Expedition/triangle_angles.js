@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run triangle-angles
+#!/usr/bin/env checkio --domain=js check triangle-angles
 
 // https://js.checkio.org/mission/triangle-angles/
 

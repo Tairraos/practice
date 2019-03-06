@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run bigger-price
+#!/usr/bin/env checkio --domain=js check bigger-price
 
 // https://js.checkio.org/mission/bigger-price/
 

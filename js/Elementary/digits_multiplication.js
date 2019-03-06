@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run digits-multiplication
+#!/usr/bin/env checkio --domain=js check digits-multiplication
 
 // https://js.checkio.org/mission/digits-multiplication/
 

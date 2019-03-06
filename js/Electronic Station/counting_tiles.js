@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run counting-tiles
+#!/usr/bin/env checkio --domain=js check counting-tiles
 
 // https://js.checkio.org/mission/counting-tiles/
 

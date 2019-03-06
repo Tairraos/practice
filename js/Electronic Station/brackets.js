@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run brackets
+#!/usr/bin/env checkio --domain=js check brackets
 
 // https://js.checkio.org/mission/brackets/
 

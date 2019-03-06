@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run index-power
+#!/usr/bin/env checkio --domain=js check index-power
 
 // https://js.checkio.org/mission/index-power/
 

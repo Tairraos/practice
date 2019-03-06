@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run matrix-pattern
+#!/usr/bin/env checkio --domain=js check matrix-pattern
 
 // https://js.checkio.org/mission/matrix-pattern/
 

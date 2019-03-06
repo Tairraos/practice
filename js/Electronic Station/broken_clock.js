@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run broken-clock
+#!/usr/bin/env checkio --domain=js check broken-clock
 
 // https://js.checkio.org/mission/broken-clock/
 

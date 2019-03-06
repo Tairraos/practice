@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run time-converter-24h-to-12h
+#!/usr/bin/env checkio --domain=js check time-converter-24h-to-12h
 
 // https://js.checkio.org/mission/time-converter-24h-to-12h/
 

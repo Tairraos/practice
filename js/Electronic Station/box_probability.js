@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run box-probability
+#!/usr/bin/env checkio --domain=js check box-probability
 
 // https://js.checkio.org/mission/box-probability/
 

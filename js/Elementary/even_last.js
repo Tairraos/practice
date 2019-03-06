@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run even-last
+#!/usr/bin/env checkio --domain=js check even-last
 
 // https://js.checkio.org/mission/even-last/
 

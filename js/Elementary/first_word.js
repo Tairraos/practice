@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run first-word
+#!/usr/bin/env checkio --domain=js check first-word
 
 // https://js.checkio.org/mission/first-word/
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run three-words
+#!/usr/bin/env checkio --domain=js check three-words
 
 // https://js.checkio.org/mission/three-words/
 

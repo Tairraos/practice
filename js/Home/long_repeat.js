@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run long-repeat
+#!/usr/bin/env checkio --domain=js check long-repeat
 // https://js.checkio.org/mission/long-repeat/
 
 "use strict";

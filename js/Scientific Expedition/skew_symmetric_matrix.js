@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run skew-symmetric-matrix
+#!/usr/bin/env checkio --domain=js check skew-symmetric-matrix
 
 // https://js.checkio.org/mission/skew-symmetric-matrix/
 

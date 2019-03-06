@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run caesar-cipher-encryptor
+#!/usr/bin/env checkio --domain=js check caesar-cipher-encryptor
 
 // https://js.checkio.org/mission/caesar-cipher-encryptor/
 

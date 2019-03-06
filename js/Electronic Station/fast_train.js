@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run fast-train
+#!/usr/bin/env checkio --domain=js check fast-train
 
 // https://js.checkio.org/mission/fast-train/
 

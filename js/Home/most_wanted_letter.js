@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run most-wanted-letter
+#!/usr/bin/env checkio --domain=js check most-wanted-letter
 // https://js.checkio.org/mission/most-wanted-letter/
 
 "use strict";

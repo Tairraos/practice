@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run find-sequence
+#!/usr/bin/env checkio --domain=js check find-sequence
 
 // https://js.checkio.org/mission/find-sequence/
 

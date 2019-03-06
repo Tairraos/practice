@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run cipher-map
+#!/usr/bin/env checkio --domain=js check cipher-map
 
 // https://js.checkio.org/mission/cipher-map/
 

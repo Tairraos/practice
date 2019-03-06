@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run count-inversions
+#!/usr/bin/env checkio --domain=js check count-inversions
 
 // https://js.checkio.org/mission/count-inversions/
 

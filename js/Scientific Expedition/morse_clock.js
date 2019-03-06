@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run morse-clock
+#!/usr/bin/env checkio --domain=js check morse-clock
 
 // https://js.checkio.org/mission/morse-clock/
 

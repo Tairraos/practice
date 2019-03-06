@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run short-string-conversion
+#!/usr/bin/env checkio --domain=js check short-string-conversion
 
 // https://js.checkio.org/mission/short-string-conversion/
 

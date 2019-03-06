@@ -22,8 +22,8 @@
 "use strict";
 
 function timeConverter(dayTime) {
-    var params = dayTime.replace(/^[^\d]*(\d+):(\d+)[^p]*(p?).*$/,"$1,$2,$3").split(",");
-    return ("0"+(+params[0]%12 +(params[2]?12:0)) + ":0" + params[1]).replace(/^\d*(\d\d):\d*(\d\d)$/,"$1:$2");
+    var t = dayTime.replace(/^(\d+):(\d+)\s*(p?).*$/,"$1,$2,$3").split(",");
+    return ("0"+(+t[0]%12 +(t[2]?12:0)) + ":0" + t[1]).replace(/^0*(\d\d):0*(\d\d)$/,"$1:$2");
 }
 
 var assert = require('assert');

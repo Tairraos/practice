@@ -1,9 +1,5 @@
-#!/usr/bin/env checkio --domain=js run ground-for-the-house
-
+#!/usr/bin/env checkio --domain=js check ground-for-the-house
 // https://js.checkio.org/mission/ground-for-the-house/
-
-// 
-// END_DESC
 
 "use strict";
 

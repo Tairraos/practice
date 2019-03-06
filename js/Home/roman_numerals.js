@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run roman-numerals
+#!/usr/bin/env checkio --domain=js check roman-numerals
 // https://js.checkio.org/mission/roman-numerals/
 
 "use strict";

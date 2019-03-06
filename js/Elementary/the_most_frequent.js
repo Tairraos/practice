@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run the-most-frequent
+#!/usr/bin/env checkio --domain=js check the-most-frequent
 
 // https://js.checkio.org/mission/the-most-frequent/
 

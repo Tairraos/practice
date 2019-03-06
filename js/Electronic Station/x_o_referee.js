@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run x-o-referee
+#!/usr/bin/env checkio --domain=js check x-o-referee
 
 // https://js.checkio.org/mission/x-o-referee/
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run count-neighbours
+#!/usr/bin/env checkio --domain=js check count-neighbours
 // https://js.checkio.org/mission/count-neighbours/
 
 "use strict";

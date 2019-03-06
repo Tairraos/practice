@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run determinant
+#!/usr/bin/env checkio --domain=js check determinant
 
 // https://js.checkio.org/mission/determinant/
 

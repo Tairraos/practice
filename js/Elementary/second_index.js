@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run second-index
+#!/usr/bin/env checkio --domain=js check second-index
 
 // https://js.checkio.org/mission/second-index/
 

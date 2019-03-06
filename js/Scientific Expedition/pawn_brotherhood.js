@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=js run pawn-brotherhood
+#!/usr/bin/env checkio --domain=js check pawn-brotherhood
 
 // https://js.checkio.org/mission/pawn-brotherhood/
 
