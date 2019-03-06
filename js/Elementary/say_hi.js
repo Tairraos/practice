@@ -17,7 +17,7 @@
 // 2. the function should return the right answer, not print it.
 
 function sayHi(name, age) {
-    return "Hi. My name is " + name + " and I'm "+ age +" years old";
+    return `Hi. My name is ${name} and I'm ${age} years old`;
 }
 
 var assert = require('assert');

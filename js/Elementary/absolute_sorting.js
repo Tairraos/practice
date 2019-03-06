@@ -1,32 +1,28 @@
 #!/usr/bin/env checkio --domain=js run absolute-sorting
 
 // https://js.checkio.org/mission/absolute-sorting/
-
-// Let's try some sorting. Here is an array with the specific rules.
+// 让我们尝试一下排序。下面是一个包含特定规则的数组。
+// 数组有各种数字。您应该对其进行排序, 但按升序的绝对值对其进行排序。
+//    例如, 序列 (-20,-5, 10, 15) 将按如下排序: (-5、10、15、-20)。
+//    您的函数应返回排序后的数组。
+// 预置条件: 数组中的数字绝对值是唯一的。
+// 输入: 数字数组。
+// 输出: 按绝对值按升序排序的列表或元组 (不能是生成器)。
+// 附加: 您的函数的结果将显示为测试面板中的列表。
 // 
-// The array        has various numbers. You should sort it, but sort it by absolute value in ascending order.    For example, the sequence (-20, -5, 10, 15) will be sorted like so: (-5, 10, 15, -20).    Your function should return the sorted list .
-// 
-// Precondition:The numbers in the array are unique by their absolute values.
-// 
-// Input:An array of numbers .
-// 
-// Output:The list or tuple (but not a generator) sorted by absolute values in ascending order.
-// 
-// Addition:The results of your function will be shown as a list in the tests explanation panel.
-// 
-// Precondition:    len(set(abs(x) for x in array)) == len(array)
+// 预置条件:
+// len(set(abs(x) for x in array)) == len(array)
 // 0 < len(array) < 100
 // all(isinstance(x, int) for x in array)
 // all(-100 < x < 100 for x in array)
-// 
-// 
 // 
 // END_DESC
 
 "use strict";
 
-function absoluteSorting(numbers){
-    return numbers
+function absoluteSorting(numbers) {
+    //平常的sort方法调用
+    return numbers.sort((a, b) => Math.abs(a) - Math.abs(b));
 }
 
 var assert = require('assert');

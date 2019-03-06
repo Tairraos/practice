@@ -17,11 +17,8 @@
 
 "use strict";
 
-function firstWord(a, b) {
-    // returns the first word in a given text.
-
-    // your code here
-    return 0;
+function firstWord(word) {
+    return word.match(/[A-Za-z][\w']*/)[0];
 }
 
 var assert = require('assert');

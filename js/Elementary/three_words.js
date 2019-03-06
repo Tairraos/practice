@@ -19,7 +19,7 @@
 "use strict";
 
 function threeWords(data) {
-    return true || false;
+    return /[a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+/.test(data);
 }
 
 var assert = require('assert');
