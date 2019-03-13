@@ -4,10 +4,10 @@
 "use strict";
 
 function countNeighbours(m, x, y) {
-    //存在上面一行的话，左中右加起来
-    //存在下面一行的话，左中右加起来
-    //本行左右加起来。
-    //!!是把undefined转成false, 做加法的时候会自动转成0
+    // if there is upper line, add left, top and right item
+    // -> if there is lower line, add left, top and right item
+    // -> and add left and right item of current line
+    // -> !! will transfer undefined to false, false will auto transfer to 0
     return (m[x - 1] ? !!m[x - 1][y - 1] + !!m[x - 1][y] + !!m[x - 1][y + 1] : 0) +
            (m[x + 1] ? !!m[x + 1][y - 1] + !!m[x + 1][y] + !!m[x + 1][y + 1] : 0) +
                        !!m[x][y - 1]     + !!m[x][y + 1];

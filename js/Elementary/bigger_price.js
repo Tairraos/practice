@@ -1,25 +1,11 @@
 #!/usr/bin/env checkio --domain=js check bigger-price
-
 // https://js.checkio.org/mission/bigger-price/
-
-// You have a table with all available goods in the store. The data is represented as a list of objects
-// 
-// Your mission here is to find the TOP most expensive goods. The amount we are looking for will be given as a first argument and the whole data as the second one
-// 
-// Input:Integer and array of objects. Each objects has two attributes "name" and "price"
-// 
-// Output:the same as the second Input argument.
-// 
-// 
-// END_DESC
 
 "use strict";
 
 function biggerPrice(limit, data) {
-    // TOP most expensive goods
-
-    // your code here
-    return 0;
+    // Sort and fetch the amount
+    return data.sort((a, b) => b.price - a.price).slice(0, limit);
 }
 
 var assert = require('assert');

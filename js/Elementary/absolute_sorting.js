@@ -4,7 +4,7 @@
 "use strict";
 
 function absoluteSorting(numbers) {
-    //平常的sort方法调用
+    // sort is enough
     return numbers.sort((a, b) => Math.abs(a) - Math.abs(b));
 }
 

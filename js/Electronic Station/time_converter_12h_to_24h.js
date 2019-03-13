@@ -4,7 +4,9 @@
 "use strict";
 
 function timeConverter(dayTime) {
-    //split Hour/Miniute/PM to array, and if there is "p", add 12 to Hour
+    // split Hour/Miniute/PM to array
+    // -> if there is "p", add 12 to Hour
+    // -> format data to time
     var t = dayTime.replace(/^(\d+):(\d+)\s*(p?).*$/,"$1,$2,$3").split(",");
     return ("0"+(+t[0]%12 +(t[2]?12:0)) + ":0" + t[1]).replace(/^0*(\d\d):0*(\d\d)$/,"$1:$2");
 }

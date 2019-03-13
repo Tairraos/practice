@@ -4,8 +4,10 @@
 "use strict";
 
 function twoTeams(sailors) {
+    //get all sailor's name and sort them
     let members = Object.keys(sailors).sort();
     return [
+        //filter the names by age
         members.filter(p => sailors[p] > 40 || sailors[p] < 20),
         members.filter(p => sailors[p] <= 40 && sailors[p] >= 20)
     ];

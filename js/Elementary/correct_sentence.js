@@ -4,8 +4,9 @@
 "use strict";
 
 function correctSentence(text) {
-    //首字转大写 -> 末尾非字符替换成句号
-    return text.replace(/^./,s=>s.toUpperCase()).replace(/\W*$/,".");
+    // transfer the first letter to upper case
+    // -> replace the last one not letter to ".", so "Hi!" will become to "Hi."
+    return text.replace(/^./, s => s.toUpperCase()).replace(/\W*$/, ".");
 }
 
 var assert = require('assert');

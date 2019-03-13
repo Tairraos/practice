@@ -4,7 +4,12 @@
 "use strict";
 
 function mostWanted(data) {
-    //lowcase -> 切成单字符 -> 排序后再合并回去 -> 按字母切成字串 -> 查找最长的字串 -> 返回第一个字母
+    // lowcase 
+    // -> split to array by each letter
+    // -> sort and join to string
+    // -> split to array by same letters 
+    // -> use reduce to find the longgest item(string)
+    // -> get the first letter of this string
     return data.toLowerCase().split("").sort().join("").match(/([a-z])\1*/g).reduce((a, b) => b.length > a.length ? b : a)[0];
 }
 

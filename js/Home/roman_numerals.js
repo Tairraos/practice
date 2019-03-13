@@ -4,15 +4,19 @@
 "use strict";
 
 function romanNumerals(number) {
+    // make a dictionary, 
     let dict = [
-        ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"],
-        ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"],
+        ["", "M", "MM", "MMM"],
         ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"],
-        ["", "M", "MM", "MMM"]
+        ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"],
+        ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
     ]
-    //数字变字串 -> 切成个位 -> 查表转换 -> 拼起来
-    //表是从个位十位百位排列，所以查表的时候先反过来查，查完再反回去。
-    return number.toString().split("").reverse().map((n, i) => dict[i][+n]).reverse().join("");
+    // number to string and get 4 place digits
+    // -> reverse it, because dictionary is lower place to higher place
+    // -> translate each number by dictionary
+    // -> reverse back and join to string
+    // cause you don know the 
+    return ("000" + number).replace(/.*(....)$/, "$1").split("").map((n, i) => dict[i][+n]).join("");
 }
 
 var assert = require('assert');

@@ -4,7 +4,10 @@
 "use strict";
 
 function median(d) {
-    //保持数组>2个元素 -> 排序 -> 取中间1或2位 -> 加起来除平均
+    // add +-Infinity to make sure array length >=2 
+    // -> sort 
+    // -> fetch the mid one or 2 
+    // -> calculate avg
     return d.concat(Infinity, -Infinity).sort((a, b) => a - b).slice(d.length / 2 + 0.5, -d.length / 2 - 0.5).reduce((a, b) => (a + b) / 2);
 }
 

@@ -1,29 +1,12 @@
 #!/usr/bin/env checkio --domain=js check count-inversions
-
 // https://js.checkio.org/mission/count-inversions/
-
-// In computer science and discrete mathematics,    aninversionis a pair of places in a sequence where the elements in these places are out of their natural order. So, if we use    ascending order for a group of numbers, then an inversion is when larger numbers appear before lower number in a    sequence.
-// 
-// Check out this example sequence: (1, 2, 5, 3, 4, 7, 6) and we can see here three inversions
-// - 5 and 3;    - 5 and 4;    - 7 and 6.
-// 
-// You are given a sequence of unique numbers and you should count the number of inversions in this sequence.
-// 
-// Input:A sequence as a tuple of integers.
-// 
-// Output:The inversion number as an integer.
-// 
-// Precondition:2 < len(sequence) < 200
-// len(sequence) == len(set(sequence))
-// all(-100 < x < 100 for x in sequence)
-// 
-// 
-// END_DESC
 
 "use strict";
 
-function countInversion(sequence){
-    return 0;
+function countInversion(sequence) {
+    // calculate every item how much after numbers are smaller than it
+    // -> sum result
+    return sequence.map((n, i) => sequence.slice(i + 1).filter(m => m < n).length).reduce((a, b) => a + b);
 }
 
 var assert = require('assert');

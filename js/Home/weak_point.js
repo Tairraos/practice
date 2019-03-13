@@ -4,10 +4,11 @@
 "use strict";
 
 function weakPoint(matrix) {
-    let sumx = matrix.map((a) => a.reduce((i, j) => i + j)), //每一行都加起来
-        sumy = matrix.reduce((a, b) => b.map((i, j) => a[j] + i)); //每一列都加起来
-
-    return [sumx.indexOf(Math.min(...sumx)), sumy.indexOf(Math.min(...sumy))]; //找出行列的最小值
+    // sum every row & column, 
+    let sumRow = matrix.map((a) => a.reduce((i, j) => i + j)),
+        sumCol = matrix.reduce((a, b) => b.map((i, j) => a[j] + i));
+    // find the minimal row sum and column cum
+    return [sumRow.indexOf(Math.min(...sumRow)), sumCol.indexOf(Math.min(...sumCol))];
 }
 
 var assert = require('assert');

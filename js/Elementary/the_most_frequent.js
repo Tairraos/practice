@@ -1,23 +1,13 @@
 #!/usr/bin/env checkio --domain=js check the-most-frequent
-
 // https://js.checkio.org/mission/the-most-frequent/
-
-// You have a sequence of strings, and you’d like to determine the most frequently occurring string in the sequence.
-// 
-// Input:a Array of strings.
-// 
-// Output:a string.
-// 
-// 
-// END_DESC
 
 "use strict";
 
 function mostFrequent(data) {
-    // sums two passed arguments
-
-    // your code here
-    return '';
+    // get all times of item
+    let lens = data.map(item => data.join("").match(RegExp(item, "g")).length);
+    // find the biggest one
+    return data[lens.indexOf(Math.max(...lens))];
 }
 
 var assert = require('assert');
