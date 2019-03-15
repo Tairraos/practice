@@ -17,10 +17,11 @@ https://leetcode-cn.com/problems/two-sum
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
+    //暴力解，全组合 C(nums.length, 2)
     for (var i = 0; i <= nums.length; i++) {
         for (var j = i + 1; j <= nums.length; j++) {
             if (nums[i] + nums[j] === target) {
-                return [i, j];
+                return [i, j]; //找到立刻结果，不用完全遍历
             }
         }
     }

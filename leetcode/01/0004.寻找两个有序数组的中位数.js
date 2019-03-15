@@ -23,6 +23,8 @@ nums2 = [3, 4]
  * @return {number}
  */
 var findMedianSortedArrays = function(nums1, nums2) {
+    //排序，从两头各取一个中间值，加起来除2
     let a = [...nums1, ...nums2].sort((a, b) => a - b);
+    //奇数长度两次都会取到中间值，偶数长度会取到中间两个值
     return (a[a.length / 2 | 0] + a[a.length - (a.length / 2 | 0) - 1]) / 2;
 };

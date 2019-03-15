@@ -28,11 +28,11 @@ https://leetcode-cn.com/problems/longest-substring-without-repeating-characters
 var lengthOfLongestSubstring = function (s) {
     let lens = 0;
     for (let i = 0; i < s.length; i++) {
-        for (let j = i + lens; j <= s.length; j++) {
-            //如果去重后长度未变
+        for (let j = i + lens; j <= s.length; j++) { //加上目前找到的最长串长度开始
+            //如果去重后长度未变说明不重复
             if ([...new Set(s.slice(i, j).split(""))].length === j - i) {
                 lens = j - i;
-            } else break;
+            } else break; //长度有变化即中止本次子循环
         }
     }
     return lens;
