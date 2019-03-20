@@ -22,6 +22,6 @@
  */
 var maxArea = function (h) {
     //两柱间的面积 = 距离 * min(柱1高, 柱2高)
-    //把每根柱子和右侧柱子可能组成的最大面积求出来，然后取最大值。
+    //求每根柱子和右侧柱子可能组成的最大面积，取最大值。
     return Math.max(...h.map((n, i) => Math.max(...h.slice(i + 1).map((m, j) => (j + 1) * Math.min(m, n)))));
 };
