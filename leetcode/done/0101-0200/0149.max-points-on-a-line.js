@@ -42,6 +42,7 @@
  * @return {number}
  */
 var maxPoints = function (points) {
+    //对的，就是很任性，用一行代码解题~
     return points.length > 2 ? Math.max(...points.map((o, i) => points.slice(i+1).map(
         p => {let dx=p.x-o.x, dy=p.y - o.y; return dx===0?dy===0?0:"y":dy===0?"x":dx/dy;}
     )).map(x => Math.max(...x.map(
@@ -49,7 +50,7 @@ var maxPoints = function (points) {
     )))) + 1 :　points.length;
 };
 
-//带注释版本
+//带注释版本, 帮助理解单行解
 var maxPoints_Comments = function (points) {
     //0，1，2个点的case，所有的点都在一条直线上。
     if (points.length <= 2) return points.length;
@@ -71,4 +72,3 @@ var maxPoints_Comments = function (points) {
         .map(x => Math.max(...x.map(item => filterPoint(item))))
     ) + 1; //取出最大值后要加1，参考点自己也要算进去   
 };
-
