@@ -26,12 +26,9 @@
  */
 var deleteDuplicates = function (head) {
     //链表转数组
-    let toArr = a => a.next ? [a.val].concat(toArr(a.next)) : [a.val],
-        //数组转链表
-        toTab = a => a.length ? ({
-            val: +a[0],
-            next: a.slice(1).length ? toTab(a.slice(1)) : null
-        }) : null;
+    let toArr = a => a.next ? [a.val].concat(toArr(a.next)) : [a.val];
+    //数组转链表
+    let toTab = a => a.length ? ({ val: +a[0], next: a.slice(1).length ? toTab(a.slice(1)) : null }) : null;
     //在数组里查找元素，只保留从左向右找和从右向左找位置一样的元素
     return head ? toTab(toArr(head).filter((n, i, s) => s.indexOf(n) === s.lastIndexOf(n))) : head;
 };
