@@ -24,6 +24,7 @@
  * @param {number} target
  * @return {boolean}
  */
-var search = function(nums, target) {
+var search = function (nums, target) {
+    //JS的语法糖就是这样任性
     return nums.includes(target);
 };
