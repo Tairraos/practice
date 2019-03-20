@@ -32,7 +32,7 @@ var lengthOfLongestSubstring = function (s) {
             //如果去重后长度未变说明不重复
             if ([...new Set(s.slice(i, j).split(""))].length === j - i) {
                 lens = j - i;
-            } else break; //长度有变化即中止本次子循环
+            } else break; //长度有变化则中止本次子循环
         }
     }
     return lens;
