@@ -32,19 +32,3 @@ var longestPalindrome = function (s) {
     }
     return p;
 };
-
-
-
-
-var assert = require('assert');
-assert.equal(longestPalindrome("a"), "a");
-assert.equal(longestPalindrome(""), "");
-assert.equal(longestPalindrome("bb"), "bb");
-assert.equal(longestPalindrome("bbbbb"), "bbbbb");
-assert.equal(longestPalindrome("babad"), "bab");
-assert.equal(longestPalindrome("cbbd"), "bb");
-assert.equal(longestPalindrome("abcba"), "abcba");
-assert.equal(longestPalindrome("abcbaabcba"), "abcbaabcba");
-assert.equal(longestPalindrome("uihzttzixwcsknksogsb"), "sknks");
-
-console.log("All case passed")
