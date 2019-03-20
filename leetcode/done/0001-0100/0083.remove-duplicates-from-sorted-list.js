@@ -25,10 +25,10 @@
  * @return {ListNode}
  */
 var deleteDuplicates = function (head) {
-    let point = head; //指针
-    while (point !== null && point.next !== null) {
+    let p = head; //指针
+    while (p !== null && p.next !== null) {
         //如果重复，指针不动，next跳过一级。否则指针向下一级
-        point.val === point.next.val ? point.next = point.next.next : point = point.next;
+        p.val === p.next.val ? p.next = p.next.next : p = p.next;
     }
     return head
 };
