@@ -26,13 +26,17 @@
  * @param {number} x
  * @return {boolean}
  */
+
+//取模逆排法, 题目说是否能不用字串解题
 var isPalindrome = function (x) {
-    //转字串，折成数组，逆排，拼合成字串，转成数字 === 输入数字
-    return +("" + x).split("").reverse().join("") === x;
+    let n = 0, y = x;
+    //把x的每一位数倒过来组装成n
+    while (x) { n = n * 10 + x % 10;  x = (x - x % 10) / 10; }
+    return y >= 0 && n === y;
 };
 
-//进阶
-var isPalindrome_advance = function (x) {
-// for (let i=)
-
+//字串逆排法，当然，用字串好看又好读
+var isPalindrome_string = function (x) {
+    //转字串，折成数组，逆排，拼合成字串，转成数字 === 输入数字
+    return +("" + x).split("").reverse().join("") === x;
 };

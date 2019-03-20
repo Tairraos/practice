@@ -23,16 +23,18 @@
  * @return {string}
  */
 var longestPalindrome = function (s) {
-    let p = s.length ? s[0] : "", r = 1;
-    //如果一个字串正反一样则暂存为结果
-    let check = u => u.split("").reverse().join("") === u ? p = u : null;
-    for (let i = 1; i <= s.length - r; i++) {
-        r = Math.ceil(p.length / 2); //回文半径
-        check(s.slice(i - r, i + r)); //检查偶数长度的回文
-        check(s.slice(i - r, i + r + 1)); //检查奇数长度的回文
+    let re = ro = 1, p = s.length ? s[0] : "";
+    let check = u => u.split("").reverse().join("") === u ? p = u : null; //检查是否回文串
+    for (let i = 1; i <= s.length - re;) {
+        re = (p.length / 2 | 0) + 1; //待检测偶数字母回文半径
+        ro = Math.ceil(p.length / 2); //待检测奇数字母回文半径
+        check(s.slice(i - re, i + re)) || check(s.slice(i - ro, i + ro + 1)) ? re >= i ? i++ : null : i++; //没有匹配的话指针向后移
     }
     return p;
 };
+
+
+
 
 var assert = require('assert');
 assert.equal(longestPalindrome("a"), "a");
@@ -43,6 +45,6 @@ assert.equal(longestPalindrome("babad"), "bab");
 assert.equal(longestPalindrome("cbbd"), "bb");
 assert.equal(longestPalindrome("abcba"), "abcba");
 assert.equal(longestPalindrome("abcbaabcba"), "abcbaabcba");
-assert.equal(longestPalindrome("abcbababcba"), "abcbababcba");
+assert.equal(longestPalindrome("uihzttzixwcsknksogsb"), "sknks");
 
 console.log("All case passed")
