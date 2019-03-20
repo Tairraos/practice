@@ -26,15 +26,13 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function (l1, l2) {
-    let empty = { val: 0, next: null }, //不影响加法结果的占位链
+    let empty = {val: 0, next: null}, //不影响加法结果的占位链
         add = (p1, p2, ex) => {
             if (!p1 && !p2 && !ex) { return null; } //递归出口
             p1 = p1 || empty; p2 = p2 || empty; //链空则使用占位链进行运算
             x = p1.val + p2.val + ex; ex = 0; //加起来。进位归位
-            if (x > 9) {
-                x = x % 10; ex = 1; //如果有进位，结果为个位数，保留进位
-            }
-            return { val: x, next: add(p1.next, p2.next, ex) } //递归下一级链
+            if (x > 9) { x = x % 10; ex = 1; } //如果有进位，结果为个位数，保留进位
+            return {val: x, next: add(p1.next, p2.next, ex)} //递归下一级链
         }
     return add(l1, l2, 0);
 };
