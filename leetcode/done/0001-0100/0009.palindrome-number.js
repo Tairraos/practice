@@ -27,7 +27,7 @@
  * @return {boolean}
  */
 
-//取模逆排法, 题目说是否能不用字串解题
+//取模逆排法, 题目说最好不用字串解题
 var isPalindrome = function (x) {
     let n = 0, y = x;
     //把x的每一位数倒过来组装成n
@@ -35,7 +35,7 @@ var isPalindrome = function (x) {
     return y >= 0 && n === y;
 };
 
-//字串逆排法，当然，用字串好看又好读
+//字串逆排法，当然，用字串解题好看又好读
 var isPalindrome_string = function (x) {
     //转字串，折成数组，逆排，拼合成字串，转成数字 === 输入数字
     return +("" + x).split("").reverse().join("") === x;
