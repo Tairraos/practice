@@ -1,14 +1,17 @@
 #!/usr/bin/env checkio --domain=js check cipher-map
-
 // https://js.checkio.org/mission/cipher-map/
-
-// 
-// END_DESC
 
 "use strict";
 
-function recallPassword(grille, password){
-    return ""
+function recallPassword(grille, password) {
+    //rotate 4 strings array -90deg
+    let rot = a => a.map((r, i) => r.split("").map((c, j) => a[j][a.length - 1 - i]).join(""));
+    
+    return [1,2,3,4].map(i => {
+        grille = rot(grille);
+        //filter with rotated array
+        return password.map((r, i) => r.split("").filter((c, j) => grille[i][j] === "X")).join("").replace(/,/g, "");
+    }).reverse().join("");
 }
 
 var assert = require('assert');
