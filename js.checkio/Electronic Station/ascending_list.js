@@ -1,17 +1,5 @@
 #!/usr/bin/env checkio --domain=js check ascending-list
-
 // https://js.checkio.org/mission/ascending-list/
-
-// Determine whether the sequence of elements items is  ascending so that its each element is  strictly larger   than (and not merely equal to) the element that precedes it.
-// 
-// Input:Iterable with ints.
-// 
-// Output:Bool.
-// 
-// The mission was taken from Python CCPS 109 Fall 2018. It is taught for Ryerson Chang School of Continuing Education byIlkka Kokkarinen
-// 
-// 
-// END_DESC
 
 "use strict";
 

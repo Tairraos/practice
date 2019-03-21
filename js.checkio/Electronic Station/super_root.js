@@ -1,22 +1,5 @@
 #!/usr/bin/env checkio --domain=js check super-root
-
 // https://js.checkio.org/mission/super-root/
-
-// Square roots, cube roots, 4th roots... each one of them is too boring for Nicola.    He needs to find the super root! With your help he'll almost certainly achieve this goal.
-// 
-// The super root of a numberNis the numberx,    such thatxx=N.
-// 
-// The result should be accurate, so thatxx≈ N±0.001,    orN - 0.001 < xx< N + 0.001.
-// 
-// Input:A number (N) as an integer.
-// 
-// Output:The super root (x) as a float or an integer.
-// 
-// Precondition:
-// 1 ≤ number ≤ 10 ** 10
-// 
-// 
-// END_DESC
 
 "use strict";
 

@@ -1,22 +1,5 @@
 #!/usr/bin/env checkio --domain=js check short-string-conversion
-
 // https://js.checkio.org/mission/short-string-conversion/
-
-// You are given two strings, line1 and line2. Answer, what is the smallest number of operations you need to transform line1 to line2?
-// 
-// Operations are:
-// 
-// Delete one letter from one of stringsInsert one letter into one of stringsReplace one of letters from one of strings with another letter
-// 
-// Input:two arguments, two strings.
-// 
-// Output:int, minimum number of operations.
-// 
-// 
-// Precondition:0<= len(line)<100
-// 
-// 
-// END_DESC
 
 "use strict";
 

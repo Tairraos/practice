@@ -1,19 +1,5 @@
 #!/usr/bin/env checkio --domain=js check rectangles-union
-
 // https://js.checkio.org/mission/rectangles-union/
-
-// Your mission is to calculate the area covered by a union of rectangles. The rectangles can have a non-empty intersection, which means that a simple sum of given rectangle areas doesn't work. Every rectangle is represented as 4 integers. The first two integers are the coordinates of a left-top corner, and the next two - of a bottom right corner.
-// 
-// 
-// 
-// 
-// 
-// Input:Array of arrays.
-// 
-// Output:Int.
-// 
-// 
-// END_DESC
 
 "use strict";
 
