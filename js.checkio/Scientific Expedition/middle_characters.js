@@ -1,20 +1,5 @@
 #!/usr/bin/env checkio --domain=js check middle-characters
-
 // https://js.checkio.org/mission/middle-characters/
-
-// You are given some string where you need to find its middle characters. The string may contain one word, a few symbols or a whole sentence. If the length of the string is even, then you should return two middle characters, but if the length is odd, return just one. For more details look at the Example.
-// 
-// 
-// 
-// Input:A string.
-// 
-// Output:The middle characters.
-// 
-// Precondition:
-// 1<= the length of the text<= 100
-// 
-// 
-// END_DESC
 
 "use strict";
 

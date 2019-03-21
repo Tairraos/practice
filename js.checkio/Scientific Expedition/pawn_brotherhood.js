@@ -1,9 +1,5 @@
 #!/usr/bin/env checkio --domain=js check pawn-brotherhood
-
 // https://js.checkio.org/mission/pawn-brotherhood/
-
-// 
-// END_DESC
 
 "use strict";
 
