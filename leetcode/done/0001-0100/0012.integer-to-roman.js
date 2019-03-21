@@ -48,7 +48,6 @@
  * @return {string}
  */
 var intToRoman = function (num) {
-  // make a dictionary, 
   let dict = [
     ["", "M", "MM", "MMM"],
     ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"],
