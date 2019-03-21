@@ -5,7 +5,7 @@
 
 function navigation(m) {
     //calculate coordinate of letter
-    let coord = s => { 
+    let coord = s => {
             // try to find letter(s) in each line, if not found, the value is -1
             // so the biggest is the x coordinate of letter(s)
             let pos = m.map(x => x.indexOf(s));
