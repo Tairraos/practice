@@ -1,9 +1,5 @@
 #!/usr/bin/env checkio --domain=js run wild-dogs
-
 // https://js.checkio.org/mission/wild-dogs/
-
-// 
-// END_DESC
 
 "use strict";
 
