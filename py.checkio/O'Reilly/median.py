@@ -10,3 +10,4 @@ def checkio(data: List[int]) -> [int, float]:
     l = int(len(data) / 2)
 
     return data[l] if len(data) % 2 else (data[l] + data[l - 1]) / 2
+    

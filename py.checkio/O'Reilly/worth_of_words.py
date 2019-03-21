@@ -10,3 +10,4 @@ VALUES = {'e': 1,  'a': 1, 'i': 1, 'o': 1, 'n': 1, 'r': 1,
 
 def worth_of_words(words):
     return max(words, key=lambda w:sum([VALUES[x] for x in w.lower()]))
+    

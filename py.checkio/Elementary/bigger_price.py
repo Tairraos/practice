@@ -4,3 +4,4 @@
 
 def bigger_price(limit: int, data: list) -> list:
     return sorted(data, key=lambda x: x["price"], reverse=True)[:limit]
+    

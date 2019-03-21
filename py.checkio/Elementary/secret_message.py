@@ -4,3 +4,4 @@
 
 def find_message(text: str) -> str:
     return "".join([x for x in text if x in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"])
+    

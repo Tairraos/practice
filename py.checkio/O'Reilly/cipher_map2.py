@@ -18,3 +18,4 @@ def recall_password(c, p):
     
     # if tuple start with X, the follower should be plain text
     return "".join([x[1] if x[0] == "X" else "" for x in ss])
+    

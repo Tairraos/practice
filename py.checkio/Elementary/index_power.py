@@ -4,3 +4,4 @@
 
 def index_power(array: list, n: int) -> int:
     return -1 if len(array)<n+1 else array[n]**n
+    

@@ -20,3 +20,4 @@ def non_repeat_old(line):
                 r.append(line[i:j])
 
     return line if len(line) < 2 else max(r, key=lambda s: len(s))
+    

@@ -4,3 +4,4 @@
 
 def checkio(number: int) -> int:
     return eval("*".join([x for x in str(number).replace("0","")]))
+    

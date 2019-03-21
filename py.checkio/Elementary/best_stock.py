@@ -4,3 +4,4 @@
 
 def best_stock(data):
     return max(data, key=lambda v:data[v])
+    

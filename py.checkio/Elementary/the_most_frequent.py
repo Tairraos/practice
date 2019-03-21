@@ -4,3 +4,4 @@
 
 def most_frequent(data: list) -> str:
     return max(data, key=lambda x:data.count(x))
+    
