@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run flatten-a-list-generator-version
+#!/usr/bin/env checkio --domain=py check flatten-a-list-generator-version
 # https://py.checkio.org/mission/flatten-a-list-generator-version/
 
 

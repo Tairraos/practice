@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run army-battles
+#!/usr/bin/env checkio --domain=py check army-battles
 # https://py.checkio.org/mission/army-battles/
 
 

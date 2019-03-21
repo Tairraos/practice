@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run even-last
+#!/usr/bin/env checkio --domain=py check even-last
 # https://py.checkio.org/mission/even-last/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run remove-accents
+#!/usr/bin/env checkio --domain=py check remove-accents
 # https://py.checkio.org/mission/remove-accents/
 
 

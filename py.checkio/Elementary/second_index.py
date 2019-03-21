@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run second-index
+#!/usr/bin/env checkio --domain=py check second-index
 # https://py.checkio.org/mission/second-index/
 
 

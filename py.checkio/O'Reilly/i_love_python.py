@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run i-love-python
+#!/usr/bin/env checkio --domain=py check i-love-python
 # https://py.checkio.org/mission/i-love-python/
 
 

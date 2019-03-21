@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run text-editor
+#!/usr/bin/env checkio --domain=py check text-editor
 # https://py.checkio.org/mission/text-editor/
 
 

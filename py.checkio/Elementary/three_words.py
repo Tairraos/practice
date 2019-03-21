@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run three-words
+#!/usr/bin/env checkio --domain=py check three-words
 # https://py.checkio.org/mission/three-words/
 
 

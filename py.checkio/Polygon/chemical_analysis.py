@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run chemical-analysis
+#!/usr/bin/env checkio --domain=py check chemical-analysis
 # https://py.checkio.org/mission/chemical-analysis/
 
 

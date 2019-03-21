@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run brackets
+#!/usr/bin/env checkio --domain=py check brackets
 # https://py.checkio.org/mission/brackets/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run determine-the-order
+#!/usr/bin/env checkio --domain=py check determine-the-order
 # https://py.checkio.org/mission/determine-the-order/
 
 

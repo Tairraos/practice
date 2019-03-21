@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run fizz-buzz
+#!/usr/bin/env checkio --domain=py check fizz-buzz
 # https://py.checkio.org/mission/fizz-buzz/
 
 

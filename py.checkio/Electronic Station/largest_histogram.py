@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run largest-histogram
+#!/usr/bin/env checkio --domain=py check largest-histogram
 # https://py.checkio.org/mission/largest-histogram/
 
 

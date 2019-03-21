@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run sort-array-by-element-frequency
+#!/usr/bin/env checkio --domain=py check sort-array-by-element-frequency
 # https://py.checkio.org/mission/sort-array-by-element-frequency/
 
 

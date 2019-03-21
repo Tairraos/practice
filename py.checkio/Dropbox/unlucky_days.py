@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run unlucky-days
+#!/usr/bin/env checkio --domain=py check unlucky-days
 # https://py.checkio.org/mission/unlucky-days/
 
 

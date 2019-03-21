@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run best-stock
+#!/usr/bin/env checkio --domain=py check best-stock
 # https://py.checkio.org/mission/best-stock/
 
 

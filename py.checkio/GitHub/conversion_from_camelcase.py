@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run conversion-from-camelcase
+#!/usr/bin/env checkio --domain=py check conversion-from-camelcase
 # https://py.checkio.org/mission/conversion-from-camelcase/
 
 

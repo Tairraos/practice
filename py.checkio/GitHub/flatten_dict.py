@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run flatten-dict
+#!/usr/bin/env checkio --domain=py check flatten-dict
 # https://py.checkio.org/mission/flatten-dict/
 
 

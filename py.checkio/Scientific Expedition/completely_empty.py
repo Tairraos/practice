@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run completely-empty
+#!/usr/bin/env checkio --domain=py check completely-empty
 # https://py.checkio.org/mission/completely-empty/
 
 

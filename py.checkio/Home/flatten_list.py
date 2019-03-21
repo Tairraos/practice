@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run flatten-list
+#!/usr/bin/env checkio --domain=py check flatten-list
 # https://py.checkio.org/mission/flatten-list/
 
 

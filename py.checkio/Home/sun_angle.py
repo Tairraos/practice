@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run sun-angle
+#!/usr/bin/env checkio --domain=py check sun-angle
 # https://py.checkio.org/mission/sun-angle/
 
 

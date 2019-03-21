@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run probably-dice
+#!/usr/bin/env checkio --domain=py check probably-dice
 # https://py.checkio.org/mission/probably-dice/
 
 

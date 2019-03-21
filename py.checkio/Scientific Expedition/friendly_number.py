@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run friendly-number
+#!/usr/bin/env checkio --domain=py check friendly-number
 # https://py.checkio.org/mission/friendly-number/
 
 

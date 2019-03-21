@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run merge-intervals-generator-version
+#!/usr/bin/env checkio --domain=py check merge-intervals-generator-version
 # https://py.checkio.org/mission/merge-intervals-generator-version/
 
 

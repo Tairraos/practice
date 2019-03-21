@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run calculate-islands
+#!/usr/bin/env checkio --domain=py check calculate-islands
 # https://py.checkio.org/mission/calculate-islands/
 
 

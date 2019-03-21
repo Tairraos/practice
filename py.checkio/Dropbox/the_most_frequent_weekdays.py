@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run the-most-frequent-weekdays
+#!/usr/bin/env checkio --domain=py check the-most-frequent-weekdays
 # https://py.checkio.org/mission/the-most-frequent-weekdays/
 
 

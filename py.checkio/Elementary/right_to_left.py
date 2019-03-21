@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run right-to-left
+#!/usr/bin/env checkio --domain=py check right-to-left
 # https://py.checkio.org/mission/right-to-left/
 
 

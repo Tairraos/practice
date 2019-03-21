@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run group-equal-consecutive
+#!/usr/bin/env checkio --domain=py check group-equal-consecutive
 # https://py.checkio.org/mission/group-equal-consecutive/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run light-up
+#!/usr/bin/env checkio --domain=py check light-up
 # https://py.checkio.org/mission/light-up/
 
 

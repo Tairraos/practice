@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run sendgrid-geo-stats
+#!/usr/bin/env checkio --domain=py check sendgrid-geo-stats
 # https://py.checkio.org/mission/sendgrid-geo-stats/
 
 

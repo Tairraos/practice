@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run verify-anagrams
+#!/usr/bin/env checkio --domain=py check verify-anagrams
 # https://py.checkio.org/mission/verify-anagrams/
 
 

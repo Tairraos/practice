@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run node-crucial
+#!/usr/bin/env checkio --domain=py check node-crucial
 # https://py.checkio.org/mission/node-crucial/
 
 

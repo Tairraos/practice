@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run most-numbers
+#!/usr/bin/env checkio --domain=py check most-numbers
 # https://py.checkio.org/mission/most-numbers/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run roman-numerals
+#!/usr/bin/env checkio --domain=py check roman-numerals
 # https://py.checkio.org/mission/roman-numerals/
 
 

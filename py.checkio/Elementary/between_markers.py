@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run between-markers
+#!/usr/bin/env checkio --domain=py check between-markers
 # https://py.checkio.org/mission/between-markers/
 
 

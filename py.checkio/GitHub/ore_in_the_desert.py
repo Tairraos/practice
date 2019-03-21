@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run ore-in-the-desert
+#!/usr/bin/env checkio --domain=py check ore-in-the-desert
 # https://py.checkio.org/mission/ore-in-the-desert/
 
 

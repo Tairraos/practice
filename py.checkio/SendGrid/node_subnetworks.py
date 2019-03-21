@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run node-subnetworks
+#!/usr/bin/env checkio --domain=py check node-subnetworks
 # https://py.checkio.org/mission/node-subnetworks/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run median
+#!/usr/bin/env checkio --domain=py check median
 # https://py.checkio.org/mission/median/
 
 

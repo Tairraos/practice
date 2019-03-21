@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run bigger-price
+#!/usr/bin/env checkio --domain=py check bigger-price
 # https://py.checkio.org/mission/bigger-price/
 
 

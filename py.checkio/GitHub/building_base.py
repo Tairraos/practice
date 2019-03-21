@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run building-base
+#!/usr/bin/env checkio --domain=py check building-base
 # https://py.checkio.org/mission/building-base/
 
 

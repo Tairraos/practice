@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run pawn-brotherhood
+#!/usr/bin/env checkio --domain=py check pawn-brotherhood
 # https://py.checkio.org/mission/pawn-brotherhood/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run seven-segment
+#!/usr/bin/env checkio --domain=py check seven-segment
 # https://py.checkio.org/mission/seven-segment/
 
 

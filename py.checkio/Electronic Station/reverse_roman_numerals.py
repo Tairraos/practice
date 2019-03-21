@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run reverse-roman-numerals
+#!/usr/bin/env checkio --domain=py check reverse-roman-numerals
 # https://py.checkio.org/mission/reverse-roman-numerals/
 
 

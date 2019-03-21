@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run speechmodule
+#!/usr/bin/env checkio --domain=py check speechmodule
 # https://py.checkio.org/mission/speechmodule/
 
 

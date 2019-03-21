@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run secret-message
+#!/usr/bin/env checkio --domain=py check secret-message
 # https://py.checkio.org/mission/secret-message/
 
 

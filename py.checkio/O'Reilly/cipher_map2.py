@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run cipher-map2
+#!/usr/bin/env checkio --domain=py check cipher-map2
 # https://py.checkio.org/mission/cipher-map2/
 
 

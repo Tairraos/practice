@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run bird-language
+#!/usr/bin/env checkio --domain=py check bird-language
 # https://py.checkio.org/mission/bird-language/
 
 

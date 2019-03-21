@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run the-most-frequent
+#!/usr/bin/env checkio --domain=py check the-most-frequent
 # https://py.checkio.org/mission/the-most-frequent/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run sendgrid-sendone
+#!/usr/bin/env checkio --domain=py check sendgrid-sendone
 # https://py.checkio.org/mission/sendgrid-sendone/
 
 

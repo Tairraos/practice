@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run every-person-is-unique
+#!/usr/bin/env checkio --domain=py check every-person-is-unique
 # https://py.checkio.org/mission/every-person-is-unique/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run periodic-table
+#!/usr/bin/env checkio --domain=py check periodic-table
 # https://py.checkio.org/mission/periodic-table/
 
 

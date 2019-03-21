@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run create-intervals-generator-version
+#!/usr/bin/env checkio --domain=py check create-intervals-generator-version
 # https://py.checkio.org/mission/create-intervals-generator-version/
 
 

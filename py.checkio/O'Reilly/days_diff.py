@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run days-diff
+#!/usr/bin/env checkio --domain=py check days-diff
 # https://py.checkio.org/mission/days-diff/
 
 

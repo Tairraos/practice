@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run x-o-referee
+#!/usr/bin/env checkio --domain=py check x-o-referee
 # https://py.checkio.org/mission/x-o-referee/
 
 

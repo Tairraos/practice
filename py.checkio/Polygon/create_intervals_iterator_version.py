@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run create-intervals-iterator-version
+#!/usr/bin/env checkio --domain=py check create-intervals-iterator-version
 # https://py.checkio.org/mission/create-intervals-iterator-version/
 
 

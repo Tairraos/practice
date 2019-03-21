@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run open-labyrinth
+#!/usr/bin/env checkio --domain=py check open-labyrinth
 # https://py.checkio.org/mission/open-labyrinth/
 
 

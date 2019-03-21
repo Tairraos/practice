@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run voice-tv-control
+#!/usr/bin/env checkio --domain=py check voice-tv-control
 # https://py.checkio.org/mission/voice-tv-control/
 
 

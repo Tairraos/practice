@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run triangle-angles
+#!/usr/bin/env checkio --domain=py check triangle-angles
 # https://py.checkio.org/mission/triangle-angles/
 
 

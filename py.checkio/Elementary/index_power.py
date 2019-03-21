@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run index-power
+#!/usr/bin/env checkio --domain=py check index-power
 # https://py.checkio.org/mission/index-power/
 
 

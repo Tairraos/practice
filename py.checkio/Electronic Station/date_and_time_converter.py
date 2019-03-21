@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run date-and-time-converter
+#!/usr/bin/env checkio --domain=py check date-and-time-converter
 # https://py.checkio.org/mission/date-and-time-converter/
 
 

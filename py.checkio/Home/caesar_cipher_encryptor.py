@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run caesar-cipher-encryptor
+#!/usr/bin/env checkio --domain=py check caesar-cipher-encryptor
 # https://py.checkio.org/mission/caesar-cipher-encryptor/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run the-defenders
+#!/usr/bin/env checkio --domain=py check the-defenders
 # https://py.checkio.org/mission/the-defenders/
 
 

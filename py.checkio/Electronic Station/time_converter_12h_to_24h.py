@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run time-converter-12h-to-24h
+#!/usr/bin/env checkio --domain=py check time-converter-12h-to-24h
 # https://py.checkio.org/mission/time-converter-12h-to-24h/
 
 

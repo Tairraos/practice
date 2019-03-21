@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run sendgrid-daily-spam
+#!/usr/bin/env checkio --domain=py check sendgrid-daily-spam
 # https://py.checkio.org/mission/sendgrid-daily-spam/
 
 

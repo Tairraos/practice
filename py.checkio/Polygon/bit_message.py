@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run bit-message
+#!/usr/bin/env checkio --domain=py check bit-message
 # https://py.checkio.org/mission/bit-message/
 
 def checkio(data):

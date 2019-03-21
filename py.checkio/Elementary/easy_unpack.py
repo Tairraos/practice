@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run easy-unpack
+#!/usr/bin/env checkio --domain=py check easy-unpack
 # https://py.checkio.org/mission/easy-unpack/
 
 

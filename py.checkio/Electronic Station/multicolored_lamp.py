@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run multicolored-lamp
+#!/usr/bin/env checkio --domain=py check multicolored-lamp
 # https://py.checkio.org/mission/multicolored-lamp/
 
 

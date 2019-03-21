@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run inside-block
+#!/usr/bin/env checkio --domain=py check inside-block
 # https://py.checkio.org/mission/inside-block/
 
 

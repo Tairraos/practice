@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run correct-sentence
+#!/usr/bin/env checkio --domain=py check correct-sentence
 # https://py.checkio.org/mission/correct-sentence/
 
 

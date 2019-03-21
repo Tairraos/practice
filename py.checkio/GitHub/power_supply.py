@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run power-supply
+#!/usr/bin/env checkio --domain=py check power-supply
 # https://py.checkio.org/mission/power-supply/
 
 

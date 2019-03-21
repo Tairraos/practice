@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run popular-words
+#!/usr/bin/env checkio --domain=py check popular-words
 # https://py.checkio.org/mission/popular-words/
 
 

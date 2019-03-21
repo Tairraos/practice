@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run count-consecutive-summers
+#!/usr/bin/env checkio --domain=py check count-consecutive-summers
 # https://py.checkio.org/mission/count-consecutive-summers/
 
 

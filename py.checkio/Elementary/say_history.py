@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run say-history
+#!/usr/bin/env checkio --domain=py check say-history
 # https://py.checkio.org/mission/say-history/
 
 

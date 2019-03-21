@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run long-non-repeat
+#!/usr/bin/env checkio --domain=py check long-non-repeat
 # https://py.checkio.org/mission/long-non-repeat/
 
 

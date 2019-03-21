@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run number-factory
+#!/usr/bin/env checkio --domain=py check number-factory
 # https://py.checkio.org/mission/number-factory/
 
 

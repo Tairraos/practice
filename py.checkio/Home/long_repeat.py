@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run long-repeat
+#!/usr/bin/env checkio --domain=py check long-repeat
 # https://py.checkio.org/mission/long-repeat/
 
 

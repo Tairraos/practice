@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run the-longest-palindromic
+#!/usr/bin/env checkio --domain=py check the-longest-palindromic
 # https://py.checkio.org/mission/the-longest-palindromic/
 
 

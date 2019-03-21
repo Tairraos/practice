@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run common-words
+#!/usr/bin/env checkio --domain=py check common-words
 # https://py.checkio.org/mission/common-words/
 
 

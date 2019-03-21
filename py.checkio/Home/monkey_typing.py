@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run monkey-typing
+#!/usr/bin/env checkio --domain=py check monkey-typing
 # https://py.checkio.org/mission/monkey-typing/
 
 

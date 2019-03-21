@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run stressful-subject
+#!/usr/bin/env checkio --domain=py check stressful-subject
 # https://py.checkio.org/mission/stressful-subject/
 
 

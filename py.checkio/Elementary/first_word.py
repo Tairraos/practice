@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run first-word
+#!/usr/bin/env checkio --domain=py check first-word
 # https://py.checkio.org/mission/first-word/
 
 

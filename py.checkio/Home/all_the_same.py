@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run all-the-same
+#!/usr/bin/env checkio --domain=py check all-the-same
 # https://py.checkio.org/mission/all-the-same/
 
 

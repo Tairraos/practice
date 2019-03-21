@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run number-radix
+#!/usr/bin/env checkio --domain=py check number-radix
 # https://py.checkio.org/mission/number-radix/
 
 

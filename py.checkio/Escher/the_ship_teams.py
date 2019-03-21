@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run the-ship-teams
+#!/usr/bin/env checkio --domain=py check the-ship-teams
 # https://py.checkio.org/mission/the-ship-teams/
 
 

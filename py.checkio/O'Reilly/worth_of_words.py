@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run worth-of-words
+#!/usr/bin/env checkio --domain=py check worth-of-words
 # https://py.checkio.org/mission/worth-of-words/
 
 

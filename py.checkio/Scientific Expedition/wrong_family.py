@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run wrong-family
+#!/usr/bin/env checkio --domain=py check wrong-family
 # https://py.checkio.org/mission/wrong-family/
 
 

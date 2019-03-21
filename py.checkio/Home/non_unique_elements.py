@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run non-unique-elements
+#!/usr/bin/env checkio --domain=py check non-unique-elements
 # https://py.checkio.org/mission/non-unique-elements/
 
 

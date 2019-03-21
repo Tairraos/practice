@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run network-attack
+#!/usr/bin/env checkio --domain=py check network-attack
 # https://py.checkio.org/mission/network-attack/
 
 

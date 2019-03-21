@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run most-wanted-letter
+#!/usr/bin/env checkio --domain=py check most-wanted-letter
 # https://py.checkio.org/mission/most-wanted-letter/
 
 

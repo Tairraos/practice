@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run hacker-language
+#!/usr/bin/env checkio --domain=py check hacker-language
 # https://py.checkio.org/mission/hacker-language/
 
 

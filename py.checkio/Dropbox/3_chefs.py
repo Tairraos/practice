@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run 3-chefs
+#!/usr/bin/env checkio --domain=py check 3-chefs
 # https://py.checkio.org/mission/3-chefs/
 
 

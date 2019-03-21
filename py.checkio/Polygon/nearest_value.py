@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run nearest-value
+#!/usr/bin/env checkio --domain=py check nearest-value
 # https://py.checkio.org/mission/nearest-value/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run the-vampires
+#!/usr/bin/env checkio --domain=py check the-vampires
 # https://py.checkio.org/mission/the-vampires/
 
 

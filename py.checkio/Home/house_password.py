@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run house-password
+#!/usr/bin/env checkio --domain=py check house-password
 # https://py.checkio.org/mission/house-password/
 
 

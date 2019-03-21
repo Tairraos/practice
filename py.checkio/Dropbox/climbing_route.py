@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run climbing-route
+#!/usr/bin/env checkio --domain=py check climbing-route
 # https://py.checkio.org/mission/climbing-route/
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run multiply-intro
+#!/usr/bin/env checkio --domain=py check multiply-intro
 # https://py.checkio.org/mission/multiply-intro/
 
 

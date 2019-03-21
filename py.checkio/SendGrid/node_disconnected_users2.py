@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run node-disconnected-users2
+#!/usr/bin/env checkio --domain=py check node-disconnected-users2
 # https://py.checkio.org/mission/node-disconnected-users2/
 
 
