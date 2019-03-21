@@ -1,11 +1,6 @@
 #!/usr/bin/env checkio --domain=py run house-password
-
 # https://py.checkio.org/mission/house-password/
 
-# 
-# END_DESC
-
-# https://py.checkio.org/mission/house-password
 
 import re
 

@@ -1,9 +1,6 @@
 #!/usr/bin/env checkio --domain=py run pawn-brotherhood
-
 # https://py.checkio.org/mission/pawn-brotherhood/
 
-# 
-# END_DESC
 
 #https://py.checkio.org/mission/pawn-brotherhood
 def safe_pawns(pawns: set) -> int:

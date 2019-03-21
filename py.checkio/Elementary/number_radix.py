@@ -1,11 +1,6 @@
 #!/usr/bin/env checkio --domain=py run number-radix
-
 # https://py.checkio.org/mission/number-radix/
 
-# 
-# END_DESC
-
-# https://py.checkio.org/mission/number-radix/solve/
 
 def checkio(str_number: str, radix: int) -> int:
     try: return int(str_number, radix)

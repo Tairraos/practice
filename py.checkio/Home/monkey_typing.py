@@ -1,11 +1,6 @@
 #!/usr/bin/env checkio --domain=py run monkey-typing
-
 # https://py.checkio.org/mission/monkey-typing/
 
-# p.quote-source {        float: right;        font-size: 10px;    }
-# END_DESC
-
-# https://py.checkio.org/mission/monkey-typing
 
 import re
 

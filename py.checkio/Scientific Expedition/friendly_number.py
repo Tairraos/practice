@@ -1,9 +1,6 @@
 #!/usr/bin/env checkio --domain=py run friendly-number
-
 # https://py.checkio.org/mission/friendly-number/
 
-# 
-# END_DESC
 
 def friendly_number(number, base=1000, decimals=0, suffix='',
                     powers=['', 'k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y']):

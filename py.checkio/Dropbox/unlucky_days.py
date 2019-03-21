@@ -1,19 +1,6 @@
 #!/usr/bin/env checkio --domain=py run unlucky-days
-
 # https://py.checkio.org/mission/unlucky-days/
 
-# Friday 13th or Black Friday is considered as unlucky day. Calculate how many unlucky days are in the given year.
-# 
-# Find the number of Friday 13th in the given year.
-# 
-# Input:Year as an integer.
-# 
-# Output:Number of Black Fridays in the year as an integer.
-# 
-# Precondition:1000<|year|<3000
-# 
-# 
-# END_DESC
 
 def checkio(year):
     return 0

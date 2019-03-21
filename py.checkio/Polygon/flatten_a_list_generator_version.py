@@ -1,9 +1,6 @@
 #!/usr/bin/env checkio --domain=py run flatten-a-list-generator-version
-
 # https://py.checkio.org/mission/flatten-a-list-generator-version/
 
-# 
-# END_DESC
 
 def flat_list(array):
     return array

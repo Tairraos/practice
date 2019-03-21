@@ -1,9 +1,6 @@
 #!/usr/bin/env checkio --domain=py run cipher-map2
-
 # https://py.checkio.org/mission/cipher-map2/
 
-# 
-# END_DESC
 
 def recall_password(c, p):
     #transfer the matrix 90 deg

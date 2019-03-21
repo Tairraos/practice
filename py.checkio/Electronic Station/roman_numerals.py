@@ -1,8 +1,6 @@
 #!/usr/bin/env checkio --domain=py run roman-numerals
-
 # https://py.checkio.org/mission/roman-numerals/
 
-# 罗马数字来源于古罗马编码系统。它们是基于字母表的特定字母的组合，所表示的数等于这些数字相加（或者是相减）得到的数。前十位的罗马数字是：
 
 # I，II，III，IV，V，VI，VII，VIII，IX和X。
 

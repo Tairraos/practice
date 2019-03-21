@@ -1,9 +1,6 @@
 #!/usr/bin/env checkio --domain=py run stressful-subject
-
 # https://py.checkio.org/mission/stressful-subject/
 
-# 
-# END_DESC
 
 def is_stressful(subj):
     """

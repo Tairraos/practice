@@ -1,9 +1,6 @@
 #!/usr/bin/env checkio --domain=py run the-vampires
-
 # https://py.checkio.org/mission/the-vampires/
 
-# 
-# END_DESC
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing

@@ -1,9 +1,6 @@
 #!/usr/bin/env checkio --domain=py run node-crucial
-
 # https://py.checkio.org/mission/node-crucial/
 
-# 
-# END_DESC
 
 def most_crucial(net, users):
     return ['B']

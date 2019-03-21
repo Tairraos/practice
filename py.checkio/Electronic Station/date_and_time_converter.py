@@ -1,26 +1,6 @@
 #!/usr/bin/env checkio --domain=py run date-and-time-converter
-
 # https://py.checkio.org/mission/date-and-time-converter/
 
-# Computer date and time format consists only of numbers, for example: 21.05.2018 16:30
-# Humans prefer to see something like this: 21 May 2018 year, 16 hours 30 minutes
-# Your task is simple - convert the input date and time from computer format into a "human" format.
-# 
-# 
-# 
-# Input:Date and time as a string
-# 
-# Output:The same date and time, but in a more readable format
-# 
-# Precondition:
-# 0<date<= 31
-# 0<month<= 12
-# 0<year<= 3000
-# 0<hours<24
-# 0<minutes<60
-# 
-# 
-# END_DESC
 
 def date_time(time: str) -> str:
     #replace this for solution

@@ -1,11 +1,5 @@
 #!/usr/bin/env checkio --domain=py run flatten-dict
-
 # https://py.checkio.org/mission/flatten-dict/
-
-# 
-# END_DESC
-
-# https://py.checkio.org/mission/flatten-dict
 
 
 def flatten(dictionary):

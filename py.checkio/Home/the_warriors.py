@@ -1,9 +1,6 @@
 #!/usr/bin/env checkio --domain=py run the-warriors
-
 # https://py.checkio.org/mission/the-warriors/
 
-# 
-# END_DESC
 
 class Warrior:
     pass

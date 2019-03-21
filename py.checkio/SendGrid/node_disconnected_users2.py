@@ -1,9 +1,6 @@
 #!/usr/bin/env checkio --domain=py run node-disconnected-users2
-
 # https://py.checkio.org/mission/node-disconnected-users2/
 
-# 
-# END_DESC
 
 def disconnected_users(net, users, source, crushes):
     return 0
