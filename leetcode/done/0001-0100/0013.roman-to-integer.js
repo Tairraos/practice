@@ -47,14 +47,11 @@
  * @param {string} s
  * @return {number}
  */
-var romanToInt = function(s) {
-    // make a dictionary, 
-     let dict = [
-         ["", "M", "MM", "MMM"],
-         ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"],
-         ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"],
-         ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
-     ]
-
-     
- };
+var romanToInt = function (s) {
+    let dict = [["CM",900],["XC",90],["IX",9],["CD",400],["XL",40],["IV",4],
+        ["M",1000],["D",500],["C",100],["L",50],["X",10],["V",5],["I",1]];
+    //按字典顺序把罗马字替换为相应的权重
+    for (var u of dict) s = s.replace(RegExp(u[0], "g"), u[1] + ",");
+    //全部加起来
+    return s.split(",").reduce((a, b) => +a + +b);
+};
