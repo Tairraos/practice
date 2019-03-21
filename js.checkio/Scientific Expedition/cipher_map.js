@@ -11,7 +11,7 @@ function recallPassword(grille, password) {
         grille = rot(grille);
         //filter with rotated array
         return password.map((r, i) => r.split("").filter((c, j) => grille[i][j] === "X")).join("").replace(/,/g, "");
-    }).reverse().join("");
+    }).reverse().join(""); //join array to string
 }
 
 var assert = require('assert');
