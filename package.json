@@ -1,9 +1,9 @@
 {
-  "name": "checkio",
+  "name": "xiaole_s_practice",
   "version": "1.0.0",
-  "description": "check io py and js",
+  "description": "leetcode, checkio py and js",
   "main": "index.js",
-  "repository": "https://github.com/Tairraos/checkio.git",
+  "repository": "https://github.com/Tairraos/practice.git",
   "author": "xiaole.tao@gmail.com",
   "license": "MIT",
   "private": true,
