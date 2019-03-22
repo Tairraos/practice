@@ -58,8 +58,9 @@ var isMatch = function (s, p) {
     if (p[0] === "*" || p.includes("**")) return false;
     //处理正则，拆成四种情形，[单个字符]，[字符*], [.], [.*]
     let r = []; p.split("").forEach(c => c === "*" ? r.push(r.pop() + "*") : r.push(c));
-    let ignore = false, cur = r.shift() ;
+    let ignore = "", cur = r.shift();
     s.split.forEach((c, i) => {
+        if (c=r){}
         // switch
 
     });
@@ -68,5 +69,13 @@ var isMatch = function (s, p) {
 
 var assert = require('assert');
 assert.equal(isMatch("a", "."), true);
+assert.equal(isMatch("aa", "a"), false);
+assert.equal(isMatch("ab", ".*"), true);
+assert.equal(isMatch("aaaabbbbccccdddd", "aa.*"), true);
+assert.equal(isMatch("aaaabbbbccccdddd", "aa.*bb.*"), true);
+assert.equal(isMatch("aaaabbbbccccdddd", "aa...bb.*"), true);
+assert.equal(isMatch("aaaabbbbccccdddd", "aa.*dd.*"), true);
+assert.equal(isMatch("aaaabbbbccccdddd", "aa.*dd.dd.*"), true);
+assert.equal(isMatch("aaaabbbbccccdddd", "aa.*dd"), true);
 
 console.log("All case passed")

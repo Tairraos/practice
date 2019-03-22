@@ -22,6 +22,11 @@
  * @param {string[]} strs
  * @return {string}
  */
-var longestCommonPrefix = function(strs) {
-    
+var longestCommonPrefix = function (strs) {
+
 };
+
+var assert = require('assert');
+assert.equal(longestCommonPrefix(["flower", "flow", "flight"], "fl"), true);
+assert.equal(longestCommonPrefix(["dog", "racecar", "car"], ""), true);
+console.log("All case passed")
