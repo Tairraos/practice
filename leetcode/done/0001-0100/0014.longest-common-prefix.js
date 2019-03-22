@@ -23,10 +23,12 @@
  * @return {string}
  */
 var longestCommonPrefix = function (strs) {
-
+    //字串两两比较
+    return strs.reduce((a, b) => {
+        for (let i = 0; i < a.length; i++)
+            //截字串从0开始到第一处不同的位置
+            if (a[i] !== b[i]) return a.slice(0, i);
+        //找不到不同就把整串返回
+        return a;
+    });
 };
-
-var assert = require('assert');
-assert.equal(longestCommonPrefix(["flower", "flow", "flight"], "fl"), true);
-assert.equal(longestCommonPrefix(["dog", "racecar", "car"], ""), true);
-console.log("All case passed")
