@@ -1,16 +1,14 @@
-/*
- * https://leetcode-cn.com/problems/longest-palindromic-substring
+/**
+ * https://leetcode-cn.com/problems/longest-palindromic-substring/
  * 0005.最长回文子串
+ * 难度：中等
  * 
- * 题目描述
- * 评论 (400)
- * 题解
- * 提交记录
  * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
  * 
  * 示例 1：
  * 输入: "babad"
  * 输出: "bab"
+ * 
  * 注意: "aba" 也是一个有效答案。
  * 
  * 示例 2：
