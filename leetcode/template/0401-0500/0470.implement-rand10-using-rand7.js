@@ -1,7 +1,47 @@
-/*
- * https://leetcode-cn.com/problems/implement-rand10-using-rand7
- * 0470.用Rand7()实现Rand10()
+/**
+ * https://leetcode-cn.com/problems/implement-rand10-using-rand7/
+ * 0470.用 Rand7() 实现 Rand10()
+ * 难度：中等
  * 
-
+ * 已有方法 rand7 可生成 1 到 7 范围内的均匀随机整数，试写一个方法 rand10 生成 1 到 10 范围内的均匀随机整数。
+ * 不要使用系统的 Math.random() 方法。
+ * 
+ * 示例 1：
+ * 输入: 1
+ * 输出: [7]
+ * 
+ * 示例 2：
+ * 输入: 2
+ * 输出: [8,4]
+ * 
+ * 示例 3：
+ * 输入: 3
+ * 输出: [8,1,10]
+ * 
+ * 提示：
+ *   - rand7 已定义。
+ *   - 传入参数: n 表示 rand10 的调用次数。
+ * 
+ * 进阶：
+ *   - rand7()调用次数的 [期望值](https://en.wikipedia.org/wiki/Expected_value) 是多少 ?
+ *   - 你能否尽量少调用 rand7() ?
  */
 
+/**
+ * The rand7() API is already defined for you.
+ * var rand7 = function() {}
+ * @return {number} a random integer in the range 1 to 7
+ */
+var rand10 = function() {
+    
+};
+
+// Local test
+let assert = require("assert");
+console.time("leetcode");
+
+assert.deepEqual(rand7("参数"), "期望结果");
+assert.deepEqual(rand7("参数"), "期望结果");
+
+console.log("哈哈哈哈，所有Case都通过了");
+console.timeEnd("leetcode");

@@ -1,7 +1,34 @@
-/*
- * https://leetcode-cn.com/problems/bitwise-and-of-numbers-range
+/**
+ * https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/
  * 0201.数字范围按位与
+ * 难度：中等
  * 
-
+ * 给定范围 [m, n]，其中 0 <= m <= n <= 2147483647，返回此范围内所有数字的按位与（包含 m, n 两端点）。
+ * 
+ * 示例 1：
+ * 输入: [5,7]
+ * 输出: 4
+ * 
+ * 示例 2：
+ * 输入: [0,1]
+ * 输出: 0
  */
 
+/**
+ * @param {number} m
+ * @param {number} n
+ * @return {number}
+ */
+var rangeBitwiseAnd = function(m, n) {
+    
+};
+
+// Local test
+let assert = require("assert");
+console.time("leetcode");
+
+assert.deepEqual(rangeBitwiseAnd("参数"), "期望结果");
+assert.deepEqual(rangeBitwiseAnd("参数"), "期望结果");
+
+console.log("哈哈哈哈，所有Case都通过了");
+console.timeEnd("leetcode");

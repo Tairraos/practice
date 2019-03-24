@@ -1,7 +1,49 @@
-/*
- * https://leetcode-cn.com/problems/clone-graph
+/**
+ * https://leetcode-cn.com/problems/clone-graph/
  * 0133.克隆图
+ * 难度：中等
  * 
-
+ * 给定无向[连通](https://baike.baidu.com/item/连通图/6460995)图中一个节点的引用，返回该图的[深拷贝](https://baike.baidu.com/item/深拷贝/22785317)（克隆）。图中的每个节点都包含它的值 val（Int） 和其邻居的列表（list[Node]）。
+ * 
+ * 示例：
+ * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/113_sample.png)
+ * 输入：
+ * {"$id":"1","neighbors":[{"$id":"2","neighbors":[{"$ref":"1"},{"$id":"3","neighbors":[{"$ref":"2"},{"$id":"4","neighbors":[{"$ref":"3"},{"$ref":"1"}],"val":4}],"val":3}],"val":2},{"$ref":"4"}],"val":1}
+ * 
+ * 解释：
+ * 节点 1 的值是 1，它有两个邻居：节点 2 和 4 。
+ * 节点 2 的值是 2，它有两个邻居：节点 1 和 3 。
+ * 节点 3 的值是 3，它有两个邻居：节点 2 和 4 。
+ * 节点 4 的值是 4，它有两个邻居：节点 1 和 3 。
+ * 
+ * 提示：
+ *   - 节点数介于 1 到 100 之间。
+ *   - 无向图是一个[简单图](https://baike.baidu.com/item/简单图/1680528)，这意味着图中没有重复的边，也没有自环。
+ *   - 由于图是无向的，如果节点 p 是节点 q 的邻居，那么节点 q 也必须是节点 p 的邻居。
+ *   - 必须将给定节点的拷贝作为对克隆图的引用返回。
  */
 
+/**
+ * // Definition for a Node.
+ * function Node(val,neighbors) {
+ *    this.val = val;
+ *    this.neighbors = neighbors;
+ * };
+ */
+/**
+ * @param {Node} node
+ * @return {Node}
+ */
+var cloneGraph = function(node) {
+    
+};
+
+// Local test
+let assert = require("assert");
+console.time("leetcode");
+
+assert.deepEqual(cloneGraph("参数"), "期望结果");
+assert.deepEqual(cloneGraph("参数"), "期望结果");
+
+console.log("哈哈哈哈，所有Case都通过了");
+console.timeEnd("leetcode");
