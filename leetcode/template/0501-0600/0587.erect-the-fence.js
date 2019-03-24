@@ -9,13 +9,13 @@
  * 输入: [[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]
  * 输出: [[1,1],[2,0],[4,2],[3,3],[2,4]]
  * 解释：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/erect_the_fence_1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0587-1.png)
  * 
  * 示例 2：
  * 输入: [[1,2],[2,2],[4,2]]
  * 输出: [[1,2],[2,2],[4,2]]
  * 解释：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/erect_the_fence_2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0587-2.png)
  * 即使树都在一条直线上，你也需要先用绳子包围它们。
  * 
  * 注意：

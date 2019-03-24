@@ -29,7 +29,7 @@
  * ['B', 'B', 'B', 'B', 'B']]
  * 
  * 解释：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/minesweeper_example_1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0529-1.png)
  * 
  * 示例 2：
  * 输入：
@@ -49,7 +49,7 @@
  * ['B', 'B', 'B', 'B', 'B']]
  * 
  * 解释：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/minesweeper_example_2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0529-2.png)
  * 
  * 注意：
  *   - 输入矩阵的宽和高的范围为 [1,50]。

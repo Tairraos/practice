@@ -12,7 +12,7 @@
  * 
  * 示例：
  * 
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/ring.jpg)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0514.jpg)
  * 输入: ring = "godding", key = "gd"
  * 输出: 4
  * 解释：

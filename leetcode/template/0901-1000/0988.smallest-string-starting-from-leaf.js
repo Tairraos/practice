@@ -8,17 +8,17 @@
  * （小贴士：字符串中任何较短的前缀在字典序上都是较小的：例如，在字典序上 "ab" 比 "aba" 要小。叶结点是指没有子结点的结点。）
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/02/tree1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0988-1.png)
  * 输入：[0,1,2,3,4,3,4]
  * 输出："dba"
  * 
  * 示例 2：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/02/tree2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0988-2.png)
  * 输入：[25,1,3,1,3,0,2]
  * 输出："adz"
  * 
  * 示例 3：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/02/tree3.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0988-3.png)
  * 输入：[2,2,1,null,1,0,null,0]
  * 输出："abc"
  * 提示：

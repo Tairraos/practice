@@ -7,7 +7,7 @@
  * 现有一个 “马”（也译作 “骑士”）位于 (r, c) ，并打算进行 K 次移动。
  * 如下图所示，国际象棋的 “马” 每一步先沿水平或垂直方向移动 2 个格子，然后向与之相垂直的方向再移动 1 个格子，共有 8 个可选的位置。
  * 
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/knight.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0688.png)
  * 
  * 现在 “马” 每一步都从可选的位置（包括棋盘外部的）中独立随机地选择一个进行移动，直到移动了 K 次或跳到了棋盘外面。
  * 求移动结束后，“马” 仍留在棋盘上的概率。

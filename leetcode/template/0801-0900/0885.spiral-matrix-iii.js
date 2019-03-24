@@ -14,13 +14,13 @@
  * 输入：R = 1, C = 4, r0 = 0, c0 = 0
  * 输出：[[0,0],[0,1],[0,2],[0,3]]
  * 
- * [示意图](https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/uploads/2018/08/24/example_1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0885-1.png)
  * 
  * 示例 2：
  * 输入：R = 5, C = 6, r0 = 1, c0 = 4
  * 输出：[[1,4],[1,5],[2,5],[2,4],[2,3],[1,3],[0,3],[0,4],[0,5],[3,5],[3,4],[3,3],[3,2],[2,2],[1,2],[0,2],[4,5],[4,4],[4,3],[4,2],[4,1],[3,1],[2,1],[1,1],[0,1],[4,0],[3,0],[2,0],[1,0],[0,0]]
  * 
- * [示意图](https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/uploads/2018/08/24/example_2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0885-2.png)
  * 
  * 提示：
  *   - 1 <= R <= 100

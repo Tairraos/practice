@@ -5,7 +5,7 @@
  * 
  * 一行中有 N 张多米诺骨牌，我们将每张多米诺骨牌垂直竖立。
  * 在开始时，我们同时把一些多米诺骨牌向左或向右推。
- * [示意图](https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/uploads/2018/05/19/domino.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0838.png)
  * 每过一秒，倒向左边的多米诺骨牌会推动其左侧相邻的多米诺骨牌。
  * 同样地，倒向右边的多米诺骨牌也会推动竖立在其右侧的相邻多米诺骨牌。
  * 如果同时有多米诺骨牌落在一张垂直竖立的多米诺骨牌的两边，由于受力平衡， 该骨牌仍然保持不变。

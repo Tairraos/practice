@@ -19,7 +19,7 @@
  * 输出：17
  * 解释：
  * 这里有该形体在三个轴对齐平面上的三个投影(“阴影部分”)。
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/02/shadow.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0883.png)
  * 
  * 示例 3：
  * 输入：[[1,0],[0,2]]

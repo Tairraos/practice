@@ -8,7 +8,7 @@
  * 
  * 例如，给定一个 3叉树：
  * 
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/narytreeexample.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0559.png)
  * 
  * 我们应返回其最大深度，3。
  * 

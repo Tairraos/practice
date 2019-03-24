@@ -12,17 +12,17 @@
  * 如果不能，则返回列表 [-1]。
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/05/1219-01.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0971-1.png)
  * 输入：root = [1,2], voyage = [2,1]
  * 输出：[-1]
  * 
  * 示例 2：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/05/1219-02.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0971-2.png)
  * 输入：root = [1,2,3], voyage = [1,3,2]
  * 输出：[1]
  * 
  * 示例 3：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/05/1219-02.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0971-2.png)
  * 输入：root = [1,2,3], voyage = [1,2,3]
  * 输出：[]
  * 

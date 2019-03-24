@@ -7,25 +7,25 @@
  * 如果没有任何矩形，就返回 0。
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/22/1a.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0963-1.png)
  * 输入：[[1,2],[2,1],[1,0],[0,1]]
  * 输出：2.00000
  * 解释：最小面积的矩形出现在 [1,2],[2,1],[1,0],[0,1] 处，面积为 2。
  * 
  * 示例 2：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/23/2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0963-2.png)
  * 输入：[[0,1],[2,1],[1,1],[1,0],[2,0]]
  * 输出：1.00000
  * 解释：最小面积的矩形出现在 [1,0],[1,1],[2,1],[2,0] 处，面积为 1。
  * 
  * 示例 3：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/23/3.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0963-3.png)
  * 输入：[[0,3],[1,2],[3,1],[1,3],[2,1]]
  * 输出：0
  * 解释：没法从这些点中组成任何矩形。
  * 
  * 示例 4：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/21/4c.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0963-4.png)
  * 输入：[[3,1],[1,1],[0,1],[2,1],[3,3],[3,2],[0,2],[2,3]]
  * 输出：2.00000
  * 解释：最小面积的矩形出现在 [2,1],[2,3],[3,3],[3,1] 处，面积为 2。

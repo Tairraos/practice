@@ -11,10 +11,10 @@
  *   - 数字 1-9 在每一个以粗实线分隔的 3x3 宫内只能出现一次。
  * 
  * 空白格用 '.' 表示。
- * [示意图](http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png)
+ * [示意图](https://github.com/Tairraos/practice/tree/master/leetcode/figs/0036.png)
  * 一个数独。
  * 
- * [示意图](http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-20050714_solution.svg/250px-Sudoku-by-L2G-20050714_solution.svg.png)
+ * [示意图](https://github.com/Tairraos/practice/tree/master/leetcode/figs/0037.png)
  * 答案被标成红色。
  * 
  * Note：

@@ -16,7 +16,7 @@
  * 输出：13
  * 解释：
  * 在 M = 6 次移动之后在最终图中可到达的结点如下所示。
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/01/origfinal.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0882.png)
  * 
  * 示例 2：
  * 输入：edges = [[0,1,4],[1,2,6],[0,2,8],[1,3,1]], M = 10, N = 4

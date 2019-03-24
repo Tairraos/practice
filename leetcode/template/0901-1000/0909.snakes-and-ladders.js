@@ -4,7 +4,7 @@
  * 难度：中等
  * 
  * 在一块 N x N 的棋盘 board 上，从棋盘的左下角开始，每一行交替方向，按从 1 到 N*N 的数字给方格编号。例如，对于一块 6 x 6 大小的棋盘，可以编号如下：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/31/snakes.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0909.png)
  * 
  * 玩家从棋盘上的方格 1 （总是在最后一行、第一列）开始出发。
  * 每一次从方格 x 起始的移动都由以下部分组成：

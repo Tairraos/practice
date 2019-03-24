@@ -11,7 +11,7 @@
  * 输入： p = 2, q = 1
  * 输出： 2
  * 解释： 这条光线在第一次被反射回左边的墙时就遇到了接收器 2 。
- * [示意图](https://ibb.co/mYSFJT)[示意图](https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/uploads/2018/06/22/reflection.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0858.png)
  * 
  * 提示：
  *   - 1 <= p <= 1000

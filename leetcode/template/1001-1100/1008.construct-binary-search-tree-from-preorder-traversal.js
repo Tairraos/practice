@@ -9,7 +9,7 @@
  * 示例：
  * 输入：[8,5,1,7,10,12]
  * 输出：[8,5,10,1,7,null,12]
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/03/08/1266.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/1008.png)
  * 
  * 提示：
  *   - 1 <= preorder.length <= 100

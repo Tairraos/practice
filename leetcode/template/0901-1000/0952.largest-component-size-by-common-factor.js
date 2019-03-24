@@ -12,17 +12,17 @@
  * 示例 1：
  * 输入：[4,6,15,35]
  * 输出：4
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-uploads/uploads/2018/12/01/ex1.png)[示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/01/ex1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0952-1.png)
  * 
  * 示例 2：
  * 输入：[20,50,9,63]
  * 输出：2
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/01/ex2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0952-2.png)
  * 
  * 示例 3：
  * 输入：[2,3,6,7,4,12,21,39]
  * 输出：8
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/01/ex3.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0952-3.png)
  * 
  * 提示：
  *   - 1 <= A.length <= 20000

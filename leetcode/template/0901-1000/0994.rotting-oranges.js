@@ -12,7 +12,7 @@
  * 返回直到单元格中没有新鲜橘子为止所必须经过的最小分钟数。如果不可能，返回 -1。
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/16/oranges.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0994.png)
  * 输入：[[2,1,1],[1,1,0],[0,1,1]]
  * 输出：4
  * 

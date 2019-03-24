@@ -14,19 +14,19 @@
  * 只有红色节点满足条件“所有不包含 1 的子树”。
  * 右图为返回的答案。
  * 
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0814-1.png)
  * 
  * 示例2：
  * 输入: [1,0,1,0,0,0,1]
  * 输出: [1,null,1,null,1]
  * 
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0814-2.png)
  * 
  * 示例3：
  * 输入: [1,1,0,1,1,0,1,0]
  * 输出: [1,1,0,1,1,null,1]
  * 
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/05/1028.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0814-3.png)
  * 
  * 说明：
  *   - 给定的二叉树最多有 100 个节点。

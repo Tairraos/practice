@@ -4,7 +4,7 @@
  * 难度：容易
  * 
  * 给定一个非负索引 k，其中 k ≤ 33，返回杨辉三角的第 k 行。
- * [示意图](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0118.gif)
  * 在杨辉三角中，每个数是它左上方和右上方的数的和。
  * 
  * 示例：

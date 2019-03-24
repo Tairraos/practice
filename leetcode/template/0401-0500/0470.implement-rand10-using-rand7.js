@@ -23,7 +23,7 @@
  *   - 传入参数: n 表示 rand10 的调用次数。
  * 
  * 进阶：
- *   - rand7()调用次数的 [期望值](https://en.wikipedia.org/wiki/Expected_value) 是多少 ?
+ *   - rand7()调用次数的 [期望值](https://zh.wikipedia.org/wiki/%E6%9C%9F%E6%9C%9B%E5%80%BC) 是多少 ?
  *   - 你能否尽量少调用 rand7() ?
  */
 

@@ -7,12 +7,12 @@
  * 只有给定的树是单值二叉树时，才返回 true；否则返回 false。
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/29/screen-shot-2018-12-25-at-50104-pm.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0965-1.png)
  * 输入：[1,1,1,1,1,null,1]
  * 输出：true
  * 
  * 示例 2：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/29/screen-shot-2018-12-25-at-50050-pm.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0965-2.png)
  * 输入：[2,2,2,5,2]
  * 输出：false
  * 

@@ -9,17 +9,17 @@
  * 只有与值 x 和 y 对应的节点是堂兄弟节点时，才返回 true。否则，返回 false。
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/16/q1248-01.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0993-1.png)
  * 输入：root = [1,2,3,4], x = 4, y = 3
  * 输出：false
  * 
  * 示例 2：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/16/q1248-02.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0993-2.png)
  * 输入：root = [1,2,3,null,4,null,5], x = 5, y = 4
  * 输出：true
  * 
  * 示例 3：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/16/q1248-03.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0993-3.png)
  * 输入：root = [1,2,3,null,4], x = 2, y = 3
  * 输出：false
  * 

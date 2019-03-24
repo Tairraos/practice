@@ -8,7 +8,7 @@
  *   - 数字 1-9 在每一列只能出现一次。
  *   - 数字 1-9 在每一个以粗实线分隔的 3x3 宫内只能出现一次。
  * 
- * [示意图](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png)
+ * [示意图](https://github.com/Tairraos/practice/tree/master/leetcode/figs/0036.png)
  * 上图是一个部分填充的有效的数独。
  * 数独部分空格内已填入了数字，空白格用 '.' 表示。
  * 

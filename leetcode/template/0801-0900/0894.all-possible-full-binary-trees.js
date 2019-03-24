@@ -12,7 +12,7 @@
  * 输入：7
  * 输出：[[0,0,0,null,null,0,0,null,null,0,0],[0,0,0,null,null,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,null,null,null,null,0,0],[0,0,0,0,0,null,null,0,0]]
  * 解释：
- * [示意图](https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/uploads/2018/08/24/fivetrees.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0894.png)
  * 
  * 提示：
  *   - 1 <= N <= 20

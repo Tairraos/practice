@@ -13,7 +13,7 @@
  * 输出: 200
  * 解释：
  * 城市航班图如下
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/02/16/995.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0787.png)
  * 
  * 从城市 0 到城市 2 在 1 站中转以内的最便宜价格是 200，如图中红色所示。
  * 
@@ -24,7 +24,7 @@
  * 输出: 500
  * 解释：
  * 城市航班图如下
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/02/16/995.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0787.png)
  * 
  * 从城市 0 到城市 2 在 0 站中转以内的最便宜价格是 500，如图中蓝色所示。
  * 提示：

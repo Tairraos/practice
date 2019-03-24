@@ -11,7 +11,7 @@
  * 输入：root1 = [1,2,3,4,5,6,null,null,null,7,8], root2 = [1,3,2,null,6,4,5,null,null,null,null,8,7]
  * 输出：true
  * 解释：We flipped at nodes with values 1, 3, and 5.
- * [示意图](https://assets.leetcode.com/uploads/2018/11/29/tree_ex.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0951.png)
  * 
  * 提示：
  *   - 每棵树最多有 100 个节点。

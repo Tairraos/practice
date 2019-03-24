@@ -19,7 +19,7 @@
  * 输出: 2
  * 
  * 解释：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/brick_wall.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0554.png)
  * 
  * 提示：
  *   - 每一行砖块的宽度之和应该相等，并且不能超过 INT_MAX。

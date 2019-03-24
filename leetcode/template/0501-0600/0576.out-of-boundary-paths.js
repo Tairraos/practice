@@ -9,13 +9,13 @@
  * 输入: m = 2, n = 2, N = 2, i = 0, j = 0
  * 输出: 6
  * 解释：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/out_of_boundary_paths_1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0576-1.png)
  * 
  * 示例 2：
  * 输入: m = 1, n = 3, N = 3, i = 0, j = 1
  * 输出: 12
  * 解释：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/out_of_boundary_paths_2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0576-2.png)
  * 
  * 说明：
  *   - 球一旦出界，就不能再被移动回网格内。

@@ -18,7 +18,7 @@
  * 
  * 解释: 它的周长是下面图片中的 16 个黄色的边：
  * 
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/island.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0463.png)
  */
 
 /**

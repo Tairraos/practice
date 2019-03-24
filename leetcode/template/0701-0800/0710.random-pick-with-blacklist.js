@@ -8,7 +8,7 @@
  * 提示：
  *   - 1 <= N <= 1000000000
  *   - 0 <= B.length < min(100000, N)
- *   - [0, N) 不包含 N，详细参见 [interval notation](https://en.wikipedia.org/wiki/Interval_(mathematics)) 。
+ *   - [0, N) 不包含 N，详细参见 [区间](https://zh.wikipedia.org/wiki/%E5%8D%80%E9%96%93) 。
  * 
  * 示例 1：
  * 输入：

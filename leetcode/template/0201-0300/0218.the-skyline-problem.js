@@ -4,7 +4,8 @@
  * 难度：困难
  * 
  * 城市的天际线是从远处观看该城市中所有建筑物形成的轮廓的外部轮廓。现在，假设您获得了城市风光照片（图A）上显示的所有建筑物的位置和高度，请编写一个程序以输出由这些建筑物形成的天际线（图B）。
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/skyline1.png) [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/skyline2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0218-1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0218-2.png)
  * 每个建筑物的几何信息用三元组 [Li，Ri，Hi] 表示，其中 Li 和 Ri 分别是第 i 座建筑物左右边缘的 x 坐标，Hi 是其高度。可以保证 0 ≤ Li, Ri ≤ INT_MAX, 0 < Hi ≤ INT_MAX 和 Ri - Li > 0。您可以假设所有建筑物都是在绝对平坦且高度为 0 的表面上的完美矩形。
  * 
  * 例如，图A中所有建筑物的尺寸记录为：[ [2 9 10], [3 7 15], [5 12 12], [15 20 10], [19 24 8] ] 。

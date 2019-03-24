@@ -4,10 +4,10 @@
  * 难度：中等
  * 
  * 给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
- * [百度百科](https://baike.baidu.com/item/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/8918834)中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
+ * [百度百科](https://baike.baidu.com/item/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88)中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
  * 
  * 例如，给定如下二叉树:  root = [3,5,1,6,2,0,8,null,null,7,4]
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/15/binarytree.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0236.png)
  * 
  * 示例 1：
  * 输入: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1

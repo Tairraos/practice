@@ -7,7 +7,7 @@
  * 调用 next() 将返回二叉搜索树中的下一个最小的数。
  * 
  * 示例：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/25/bst-tree.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0173.png)
  * BSTIterator iterator = new BSTIterator(root);
  * iterator.next();    // 返回 3
  * iterator.next();    // 返回 7

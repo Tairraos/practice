@@ -10,7 +10,7 @@
  * 按 X 坐标顺序返回非空报告的列表。每个报告都有一个结点值列表。
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/02/1236_example_1.PNG)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0987-1.png)
  * 输入：[3,9,20,null,null,15,7]
  * 输出：[[9],[3,15],[20],[7]]
  * 解释：
@@ -21,7 +21,7 @@
  * 值为 7 的结点出现在 (2, -2)。
  * 
  * 示例 2：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/tree2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0987-2.png)
  * 输入：[1,2,3,4,5,6,7]
  * 输出：[[4],[2],[1,5,6],[3],[7]]
  * 解释：

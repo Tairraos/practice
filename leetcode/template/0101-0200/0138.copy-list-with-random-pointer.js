@@ -4,10 +4,10 @@
  * 难度：中等
  * 
  * 给定一个链表，每个节点包含一个额外增加的随机指针，该指针可以指向链表中的任何节点或空节点。
- * 要求返回这个链表的[深拷贝](https://baike.baidu.com/item/深拷贝/22785317)。
+ * 要求返回这个链表的[深拷贝](https://baike.baidu.com/item/%E6%B7%B1%E6%8B%B7%E8%B4%9D)。
  * 
  * 示例：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/1470150906153-2yxeznm.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0138.png)
  * 输入：
  * {"$id":"1","next":{"$id":"2","next":null,"random":{"$ref":"2"},"val":2},"random":{"$ref":"2"},"val":1}
  * 

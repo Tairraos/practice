@@ -12,7 +12,7 @@
  * 输出：[2,4,5,6]
  * 这里是上图的示意图。
  * 
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/17/picture1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0802.png)
  * 提示：
  *   - graph 节点数不超过 10000.
  *   - 图的边数不会超过 32000.

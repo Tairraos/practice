@@ -8,24 +8,24 @@
  * 返回使每个结点上只有一枚硬币所需的移动次数。
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/tree1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0979-1.png)
  * 输入：[3,0,0]
  * 输出：2
  * 解释：从树的根结点开始，我们将一枚硬币移到它的左子结点上，一枚硬币移到它的右子结点上。
  * 
  * 示例 2：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/tree2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0979-2.png)
  * 输入：[0,3,0]
  * 输出：3
  * 解释：从根结点的左子结点开始，我们将两枚硬币移到根结点上 [移动两次]。然后，我们把一枚硬币从根结点移到右子结点上。
  * 
  * 示例 3：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/tree3.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0979-3.png)
  * 输入：[1,0,2]
  * 输出：2
  * 
  * 示例 4：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/tree4.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0979-4.png)
  * 输入：[1,0,0,null,3]
  * 输出：4
  * 

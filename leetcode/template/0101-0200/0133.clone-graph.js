@@ -3,10 +3,10 @@
  * 0133.克隆图
  * 难度：中等
  * 
- * 给定无向[连通](https://baike.baidu.com/item/连通图/6460995)图中一个节点的引用，返回该图的[深拷贝](https://baike.baidu.com/item/深拷贝/22785317)（克隆）。图中的每个节点都包含它的值 val（Int） 和其邻居的列表（list[Node]）。
+ * 给定无向[连通](https://baike.baidu.com/item/%E8%BF%9E%E9%80%9A%E5%9B%BE)图中一个节点的引用，返回该图的[深拷贝](https://baike.baidu.com/item/%E6%B7%B1%E6%8B%B7%E8%B4%9D)（克隆）。图中的每个节点都包含它的值 val（Int） 和其邻居的列表（list[Node]）。
  * 
  * 示例：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/113_sample.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0133.png)
  * 输入：
  * {"$id":"1","neighbors":[{"$id":"2","neighbors":[{"$ref":"1"},{"$id":"3","neighbors":[{"$ref":"2"},{"$id":"4","neighbors":[{"$ref":"3"},{"$ref":"1"}],"val":4}],"val":3}],"val":2},{"$ref":"4"}],"val":1}
  * 

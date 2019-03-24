@@ -8,13 +8,13 @@
  * 计算监控树的所有节点所需的最小摄像头数量。
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/29/bst_cameras_01.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0968-1.png)
  * 输入：[0,0,null,0,0]
  * 输出：1
  * 解释：如图所示，一台摄像头足以监控所有节点。
  * 
  * 示例 2：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/29/bst_cameras_02.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0968-2.png)
  * 输入：[0,0,null,0,null,0,null,null,0]
  * 输出：2
  * 解释：需要至少两个摄像头来监视树的所有节点。 上图显示了摄像头放置的有效位置之一。

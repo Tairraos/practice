@@ -61,8 +61,15 @@ var isMatch = function(s, p) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(isMatch("参数"), "期望结果");
-assert.deepEqual(isMatch("参数"), "期望结果");
+assert.deepEqual(isMatch("a", "."), true);
+assert.deepEqual(isMatch("aa", "a"), false);
+assert.deepEqual(isMatch("ab", "*"), true);
+assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*"), true);
+assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*bb*"), true);
+assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa...bb*"), true);
+assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*dd*"), true);
+assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*dd.dd*"), false);
+assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*dd"), true);
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

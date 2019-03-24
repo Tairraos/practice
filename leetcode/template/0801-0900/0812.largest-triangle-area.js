@@ -10,7 +10,7 @@
  * 解释：
  * 这五个点如下图所示。组成的橙色三角形是最大的，面积为2。
  * 
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/04/1027.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0812.png)
  * 
  * 注意：
  *   - 3 <= points.length <= 50.

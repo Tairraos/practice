@@ -16,7 +16,7 @@
  * 输出:  [1,2,4,7,5,3,6,8,9]
  * 
  * 解释：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/diagonal_traverse.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0498.png)
  * 
  * 说明：
  *   - 给定矩阵中的元素总数不会超过 100000 。

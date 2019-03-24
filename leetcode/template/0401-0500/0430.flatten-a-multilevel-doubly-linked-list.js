@@ -19,10 +19,10 @@
  * 
  * 以上示例的说明：
  * 给出以下多级双向链表：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/multilevellinkedlist.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0430-1.png)
  * 
  * 我们应该返回如下所示的扁平双向链表：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/multilevellinkedlistflattened.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0430-2.png)
  */
 
 /**

@@ -17,19 +17,22 @@
  * 返回 Construct(B)。
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/maximum-binary-tree-1-1.png)[示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/maximum-binary-tree-1-2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0998-1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0998-2.png)
  * 输入：root = [4,1,3,null,null,2], val = 5
  * 输出：[5,4,null,1,3,null,null,2]
  * 解释：A = [1,4,2,3], B = [1,4,2,3,5]
  * 
  * 示例 2：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/maximum-binary-tree-2-1.png)[示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/maximum-binary-tree-2-2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0998-3.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0998-4.png)
  * 输入：root = [5,2,4,null,1], val = 3
  * 输出：[5,2,4,null,1,null,3]
  * 解释：A = [2,1,5,4], B = [2,1,5,4,3]
  * 
  * 示例 3：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/maximum-binary-tree-3-1.png)[示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/maximum-binary-tree-3-2.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0998-5.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0998-6.png)
  * 输入：root = [5,2,3,null,1], val = 4
  * 输出：[5,2,4,null,1,3]
  * 解释：A = [2,1,5,3], B = [2,1,5,3,4]

@@ -12,7 +12,7 @@
  * 输入：[3,5,1,6,2,0,8,null,null,7,4]
  * 输出：[2,7,4]
  * 解释：
- * [示意图](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/01/sketch1.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0865.png)
  * 我们返回值为 2 的结点，在图中用黄色标记。
  * 在图中用蓝色标记的是树的最深的结点。
  * 输入 "[3, 5, 1, 6, 2, 0, 8, null, null, 7, 4]" 是对给定的树的序列化表述。

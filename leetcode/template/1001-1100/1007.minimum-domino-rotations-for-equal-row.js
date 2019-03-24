@@ -9,7 +9,7 @@
  * 如果无法做到，返回 -1.
  * 
  * 示例 1：
- * [示意图](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/03/08/domino.png)
+ * [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/1007.png)
  * 输入：A = [2,1,2,4,2,2], B = [5,2,6,2,3,2]
  * 输出：2
  * 解释：
