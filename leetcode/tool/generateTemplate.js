@@ -23413,5 +23413,5 @@ data.forEach(item => {
         out.push("");
     }
 
-    x.saveFile("/Users/xiaole/Workspace/practice/leetcode/template/" + dir + "/" + name, out.join("\n"));
+    x.saveFile("./leetcode/template/" + dir + "/" + name, out.join("\n"));
 });
