@@ -1,3 +1,8 @@
+/**
+ * 工具会生成leetcode答题模板
+ * 按题目编号每100题一个目录
+ * 题目中间有不连号的情况，那些缺少的题目是付费题目
+ */
 let x = require('xtool.js');
 var data = [{
     "questionId": "0001",
