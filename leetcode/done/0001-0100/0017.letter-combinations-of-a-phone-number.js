@@ -31,16 +31,17 @@
  * @param {string} digits
  * @return {string[]}
  */
-var letterCombinations = function(digits) {
-    
+var letterCombinations = function (digits) {
+    let dict = [
+        0, 0,                 ["a", "b", "c"], ["d", "e", "f"],
+        ["g", "h", "i"],      ["j", "k", "l"], ["m", "n", "o"],
+        ["p", "q", "r", "s"], ["t", "u", "v"], ["w", "x", "y", "z"]
+    ];
+    return digits.length ? digits.split("").map(i => dict[i]).reduce((a, b) =>
+        //遍历所有数组的组合
+        a.map(x => b.map(y => x + y)).join(",").split(",")
+    ) : [];
 };
 
-// Local test
-let assert = require("assert");
-console.time("leetcode");
-
-assert.deepEqual(letterCombinations("参数"), "期望结果");
-assert.deepEqual(letterCombinations("参数"), "期望结果");
-
-console.log("哈哈哈哈，所有Case都通过了");
-console.timeEnd("leetcode");
+// 执行用时 : 88 ms, 在Letter Combinations of a Phone Number的JavaScript提交中击败了35.74% 的用户
+// 内存消耗 : 33.7 MB, 在Letter Combinations of a Phone Number的JavaScript提交中击败了0.00% 的用户

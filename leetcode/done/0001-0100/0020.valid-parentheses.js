@@ -35,16 +35,17 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
-    
+var isValid = function (s) {
+    var stack = [], dict = {"}": "{", "]": "[", ")": "("};
+    for (let i = 0; i < s.length; i++) {
+        //如果是开括号，压栈
+        if (!dict[s[i]]) stack.push(s[i]);
+        //如果是闭括号，需要和栈里最后一个成员匹配
+        else if (dict[s[i]] !== stack.pop()) return false;
+    }
+    //如果遍历完全匹配的话栈应该清空
+    return !stack.length;
 };
 
-// Local test
-let assert = require("assert");
-console.time("leetcode");
-
-assert.deepEqual(isValid("参数"), "期望结果");
-assert.deepEqual(isValid("参数"), "期望结果");
-
-console.log("哈哈哈哈，所有Case都通过了");
-console.timeEnd("leetcode");
+// 执行用时 : 100 ms, 在Valid Parentheses的JavaScript提交中击败了34.29% 的用户
+// 内存消耗 : 33.6 MB, 在Valid Parentheses的JavaScript提交中击败了0.99% 的用户
