@@ -19,48 +19,52 @@ CheckIO：
 - 用户通过循序渐进的答题获取积分开放更多题目
 - 目前 162 题，其中 145 题免费
 
-## check io client 使用指南
-### 安装
+## leetcode 本地IDE调试指南
+### 获取所有代码
+```
+npm i xtool.js
+node generateTemplate.js
+```
+会在当前目录下生成leetcode/template目录，按题目编码分别放进相应的子目录里。  
+生成的答题模板包含题目描述，难度，和调试用的框架代码。  
+执行的时候会统计代码执行时间。  
+
+### 安装断言支持
+``` 
+npm i assert
+```
+安装完断言库，可以直接使用node-inspector来打断点调试代码。用vscode或webstorms来调试会更方便。  
+以上步骤生成的代码模板带着test case模板，还需要在写代码的时候补写测试case。  
+建议先考虑Case，尽可能多地考虑边界条件。空输入，超大超长输入，负数，都应该考虑。TDD是一种修养。  
+
+## check io 本地IDE调试指南
+### 安装client
 ```
 pip3 install checkio_client
 ```
 
 ### 初始化
-```
-checkio config
-```
-会生成 `~/.checkio/config.ini`文件
-```
-[Main]
-default_domain = js
-
-[py_checkio]
-key = xxxxxxxxxxxx
-solutions = your_dirctory
-
-[js_checkio]
-key = xxxxxxxxxxxx
-solutions = your_dirctory
-```
-
-配置文件里的key获取方式：从浏览器访问 `js.checkio.org` 和 `py.checkio.org`, `edit profile` 页面里可以看到 `Api Access Code Key`
-
-### 检查指定挑战代码是否通过, 需要check一次 
-用shell直接run本地代码, 会执行代码第一行的指令：
-```shell
-#!/usr/bin/env checkio --domain=js run ascending-list
-```
-run只是跑本地case, 需要通过 check 指令来提交代码。把程序第一行的命令复制下来, `run`修改成`check`执行一次即提交代码到服务器上了。
-```shell
-checkio --domain=js check ascending-list
-```
-如果`config.ini`里`default_domain = js`, 那上面命令里的`--domain=js`可以省略。后面的参数不需要`.js`
+key获取方式：从浏览器访问 `js.checkio.org`，`edit profile` 页面里可以看到 `Api Access Code Key`
+执行 `checkio config` 配置本地文件保存路径及access key
 
 ### 同步repo
 做完题目后, 服务器上会有更多的新题目开放。通过`sync`参数来获取服务器上的新题目。
+第一次执行 `checkio sync` 会把服务器上所有能回答的题目都同步到本地。
+
+### 检查指定挑战代码是否通过, 需要check一次 
+用ide打开本地的js文件，看到文件第一行代码
 ```shell
-checkio --domain=py sync
+#!/usr/bin/env checkio --domain=js run ascending-list
 ```
-```shell
-checkio --domain=js sync
+把后面半行`checkio --domain=js run ascending-list`拷贝出来，把里面的`run`改成`check`后在terminal里执行。
+terminal里会显示test case执行的情况, 如果全部通过会显示`Congratulations`字样。
+
+### 得到更多的题目
+答题完成并通过检查后，再次执行该命令`checkio sync`会把更多可以回答的题目同步回来。
+如果你在浏览器里回答了题目并通过了测试，也一样会同步回来。
+
+### 安装断言支持
+``` 
+npm i assert
 ```
+安装完断言库，可以直接使用node-inspector来打断点调试代码。用vscode或webstorms来调试会更方便。
