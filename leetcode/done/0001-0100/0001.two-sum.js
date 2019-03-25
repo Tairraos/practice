@@ -28,3 +28,6 @@ var twoSum = function (nums, target) {
         }
     }
 };
+
+// 执行用时 : 228 ms, 在Two Sum的JavaScript提交中击败了27.90% 的用户
+// 内存消耗 : 34.4 MB, 在Two Sum的JavaScript提交中击败了0.99% 的用户

@@ -73,3 +73,6 @@ var maxPoints_Comments = function (points) {
         .map(x => Math.max(...x.map(item => filterPoint(item))))
     ) + 1; //取出最大值后要加1，参考点自己也要算进去   
 };
+
+// 执行用时 : 1132 ms, 在Max Points on a Line的JavaScript提交中击败了2.63% 的用户
+// 内存消耗 : 74.7 MB, 在Max Points on a Line的JavaScript提交中击败了0.00% 的用户

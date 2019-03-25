@@ -55,3 +55,6 @@ var romanToInt = function (s) {
     //按位加权，CM XC IX CD XL IV 几种情况，左侧字母权重小于右侧，减权重
     return [0, ...s.split("")].reduce((a, b, i, s) => a + (d[b] < d[s[i + 1]] ? -d[b] : d[b]));
 };
+
+// 执行用时 : 316 ms, 在Roman to Integer的JavaScript提交中击败了17.00% 的用户
+// 内存消耗 : 40.8 MB, 在Roman to Integer的JavaScript提交中击败了0.78% 的用户

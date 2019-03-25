@@ -41,3 +41,6 @@ var isPalindrome_string = function (x) {
     //转字串，折成数组，逆排，拼合成字串，转成数字 === 输入数字
     return +("" + x).split("").reverse().join("") === x;
 };
+
+// 执行用时 : 436 ms, 在Palindrome Number的JavaScript提交中击败了32.60% 的用户
+// 内存消耗 : 45.2 MB, 在Palindrome Number的JavaScript提交中击败了0.88% 的用户
