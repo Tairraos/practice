@@ -1,2 +1,32 @@
-/node_modules
-/temp.js
+### Mac
+~*
+.DS_Store
+*xcuserdata
+*.gcno
+
+### Windows
+*.bak
+thumb.db
+
+### npm
+npm-debug.log
+node_modules
+
+### JetBrains
+.idea
+.idea_modules
+/out/
+
+### Visual Studio
+.project
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### common
+/localTemp/
+_tmp*.*
+.history
+coverage

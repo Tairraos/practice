@@ -25,16 +25,28 @@
  * @param {number} divisor
  * @return {number}
  */
-var divide = function(dividend, divisor) {
-    
+var divide = function (dividend, divisor) {
+    let result = 0, isNag = dividend < 0 ^ divisor < 0;
+    if (dividend <= -2147483648 && divisor === -1) return 2147483647;
+    [dividend, divisor] = [Math.abs(dividend), Math.abs(divisor)];
+    while (dividend >= divisor) {
+        divisor += divisor;
+        result++;
+    }
+    return isNag ? -result : result;
 };
 
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(divide("参数"), "期望结果");
-assert.deepEqual(divide("参数"), "期望结果");
+assert.deepEqual(divide(10, 3), 3);
+assert.deepEqual(divide(10, 4), 2);
+assert.deepEqual(divide(10, 2), 5);
+assert.deepEqual(divide(10, -2), -5);
+assert.deepEqual(divide(-10, 2), -5);
+assert.deepEqual(divide(-10, -2), 5);
+assert.deepEqual(divide(-10, -2), 5);
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");
