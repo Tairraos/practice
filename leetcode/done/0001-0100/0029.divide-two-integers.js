@@ -26,27 +26,22 @@
  * @return {number}
  */
 var divide = function (dividend, divisor) {
-    let result = 0, isNag = dividend < 0 ^ divisor < 0;
+    //32位整符号整型运算超界特例
     if (dividend <= -2147483648 && divisor === -1) return 2147483647;
-    [dividend, divisor] = [Math.abs(dividend), Math.abs(divisor)];
+    var [isNag, dividend, divisor] = [dividend < 0 ^ divisor < 0, Math.abs(dividend), Math.abs(divisor)];
+
+    let result = 0;
     while (dividend >= divisor) {
-        divisor += divisor;
-        result++;
+        let times = 1, temp = divisor;
+        while ((dividend >> 1) >= temp) { //右移试商, 不够除2除2就是结果
+            temp <<= 1;
+            times <<= 1;
+        }
+        dividend -= temp;
+        result += times;
     }
     return isNag ? -result : result;
 };
 
-// Local test
-let assert = require("assert");
-console.time("leetcode");
-
-assert.deepEqual(divide(10, 3), 3);
-assert.deepEqual(divide(10, 4), 2);
-assert.deepEqual(divide(10, 2), 5);
-assert.deepEqual(divide(10, -2), -5);
-assert.deepEqual(divide(-10, 2), -5);
-assert.deepEqual(divide(-10, -2), 5);
-assert.deepEqual(divide(-10, -2), 5);
-
-console.log("哈哈哈哈，所有Case都通过了");
-console.timeEnd("leetcode");
+// 执行用时 : 136 ms, 在Divide Two Integers的JavaScript提交中击败了43.14% 的用户
+// 内存消耗 : 35.5 MB, 在Divide Two Integers的JavaScript提交中击败了0.00% 的用户
