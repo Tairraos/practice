@@ -64,13 +64,12 @@ var primePalindrome = function (N) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(primePalindrome(9989900), 100030001);
-assert.deepEqual(primePalindrome(1), 2);
-assert.deepEqual(primePalindrome(11), 11);
 assert.deepEqual(primePalindrome(1), 2);
 assert.deepEqual(primePalindrome(6), 7);
 assert.deepEqual(primePalindrome(8), 11);
+assert.deepEqual(primePalindrome(11), 11);
 assert.deepEqual(primePalindrome(13), 101);
+assert.deepEqual(primePalindrome(9989900), 100030001);
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");
