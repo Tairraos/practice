@@ -24,16 +24,10 @@
  * @param {string} S
  * @return {number}
  */
-var numJewelsInStones = function(J, S) {
-    
+var numJewelsInStones = function (J, S) {
+    //S按字母拆成数组，把J里包含的字母留下来，数组长度就是答案
+    return S.split("").filter(s => J.includes(s)).length;
 };
 
-// Local test
-let assert = require("assert");
-console.time("leetcode");
-
-assert.deepEqual(numJewelsInStones("参数"), "期望结果");
-assert.deepEqual(numJewelsInStones("参数"), "期望结果");
-
-console.log("哈哈哈哈，所有Case都通过了");
-console.timeEnd("leetcode");
+// 执行用时 : 92 ms, 在Jewels and Stones的JavaScript提交中击败了40.71% 的用户
+// 内存消耗 : 33.7 MB, 在Jewels and Stones的JavaScript提交中击败了0.58% 的用户
