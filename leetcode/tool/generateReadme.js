@@ -21,7 +21,7 @@ while (pointer < maxId) {
     questionId = ("000" + pointer).slice(-4);
     if (!(pointer % 10)) mdLine = "|`" + questionId.slice(0, 3) + "x`";
     if (doneList[pointer]) mdLine += "|[" + questionId + "](" + doneList[pointer] + ")";
-    else mdLine += "|`" + questionId + "`";
+    else mdLine += "| . ";
     pointer += 1;
     if (!(pointer % 10) || pointer === doneList.length) {
         mdLine += "|";
