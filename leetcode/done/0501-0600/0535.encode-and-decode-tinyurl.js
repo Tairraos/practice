@@ -13,8 +13,11 @@
  * @param {string} longUrl
  * @return {string}
  */
-var encode = function(longUrl) {
-    
+var encode = function (longUrl) {
+    let db = global.db = global.db || {}, //用全局变量模拟数据库
+        key = (Math.random() * (16 ** 6) | 0).toString(16); //产生随机hash
+    db[key] = longUrl; //写库
+    return key;
 };
 
 /**
@@ -23,8 +26,9 @@ var encode = function(longUrl) {
  * @param {string} shortUrl
  * @return {string}
  */
-var decode = function(shortUrl) {
-    
+var decode = function (shortUrl) {
+    let db = global.db = global.db || {};
+    return db[shortUrl]; //读库
 };
 
 /**
@@ -32,12 +36,16 @@ var decode = function(shortUrl) {
  * decode(encode(url));
  */
 
+// 执行用时 : 112 ms, 在Encode and Decode TinyURL的JavaScript提交中击败了82.80% 的用户
+// 内存消耗 : 34.7 MB, 在Encode and Decode TinyURL的JavaScript提交中击败了67.21% 的用户
+
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(encode("参数"), "期望结果");
-assert.deepEqual(encode("参数"), "期望结果");
+assert.deepEqual(decode(encode("test")), "test");
+assert.deepEqual(decode(encode("111")), "111");
+assert.deepEqual(decode(encode("222")), "222");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");
