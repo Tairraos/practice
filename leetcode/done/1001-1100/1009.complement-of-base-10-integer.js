@@ -32,16 +32,22 @@
  * @param {number} N
  * @return {number}
  */
-var bitwiseComplement = function(N) {
-    
+var bitwiseComplement = function (N) {
+    return parseInt(N.toString(2).replace(/./g, i => +!(+i)), 2);
 };
+
+// 执行用时 : 100 ms, 在Complement of Base 10 Integer的JavaScript提交中击败了55.36% 的用户
+// 内存消耗 : 33.8 MB, 在Complement of Base 10 Integer的JavaScript提交中击败了15.05% 的用户
 
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(bitwiseComplement("参数"), "期望结果");
-assert.deepEqual(bitwiseComplement("参数"), "期望结果");
+assert.deepEqual(bitwiseComplement(5), 2);
+assert.deepEqual(bitwiseComplement(7), 0);
+assert.deepEqual(bitwiseComplement(10), 5);
+assert.deepEqual(bitwiseComplement(0), 1);
+assert.deepEqual(bitwiseComplement(10**9), 73741823);
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");
