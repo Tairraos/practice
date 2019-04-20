@@ -23,7 +23,7 @@ data.forEach(item => {
         name = fid + "." + item.titleSlug + ".js",
         url = "https://leetcode-cn.com/problems/" + item.titleSlug + "/",
         ord = id - 1,
-        dir = (("000" + (ord - ord % 100 + 1)) + "-" + ("000" + (ord - ord % 100 + 100))).replace(/^\d*(\d{4})-\d*(\d{4})$/, "$1-$2"),
+        dir = (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)),
         out = [];
 
     out.push("/**");

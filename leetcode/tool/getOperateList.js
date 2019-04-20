@@ -8,17 +8,17 @@
  * 本工具用来从网站获取所有的题目列表，把还没有生成模板过的题目抓出来
  */
 
- let x = require("xtool.js"),
+let x = require("xtool.js"),
     oldData = require("./oldData"),
     request = require("request"),
-    existDataList = oldData.map(item => +item.questionId), //已经存在的模板
-    operateList; //待生成的模板
+    existDataList = {};
 
 //抓取问题列表，忽略已经存在的模板
+oldData.forEach(item => existDataList[item.questionId] = item.titleSlug);
 request("https://leetcode-cn.com/api/problems/all/", function (error, response, body) {
     let respData = JSON.parse(body);
     console.log(JSON.stringify(respData.stat_status_pairs.map(item => ({
-        "questionId": item.stat.question_id,
+        "questionId": ("000" + item.stat.frontend_question_id).slice(-4),
         "titleSlug": item.stat.question__title_slug
-    })).filter(item => !existDataList.includes(item.questionId)).map(item => item.titleSlug)));
+    })).filter(item => existDataList[item.questionId] !== item.titleSlug).map(item => item.titleSlug)));
 });

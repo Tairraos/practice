@@ -11,8 +11,7 @@
  * 
  */
 
-var operateList = ["recover-a-tree-from-preorder-traversal", "maximum-difference-between-node-and-ancestor", "longest-arithmetic-sequence", "divisor-game", "video-stitching", "camelcase-matching", "sum-of-root-to-leaf-binary-numbers", "remove-outermost-parentheses", "number-of-enclaves", "next-greater-node-in-linked-list", "binary-prefix-divisible-by-5", "convert-to-base-2", "binary-string-with-substrings-representing-1-to-n", "smallest-integer-divisible-by-k", "best-sightseeing-pair", "partition-array-into-three-parts-with-equal-sum", "numbers-with-repeated-digits", "capacity-to-ship-packages-within-d-days", "pairs-of-songs-with-total-durations-divisible-by-60", "complement-of-base-10-integer", "construct-binary-search-tree-from-preorder-traversal", "minimum-domino-rotations-for-equal-row", "clumsy-factorial", "maximize-sum-of-array-after-k-negations", "max-consecutive-ones-iii", "check-if-word-is-valid-after-substitutions", "find-common-characters", "grid-illumination", "minimum-cost-to-merge-stones", "available-captures-for-rook", "maximum-binary-tree-ii", "find-the-town-judge", "number-of-squareful-arrays", "minimum-number-of-k-consecutive-bit-flips", "rotting-oranges", "cousins-in-binary-tree", "subarrays-with-k-different-integers", "broken-calculator", "satisfiability-of-equality-equations", "add-to-array-form-of-integer", "smallest-string-starting-from-leaf", "vertical-order-traversal-of-a-binary-tree", "interval-list-intersections", "sum-of-even-numbers-after-queries", "string-without-aaa-or-bbb", "minimum-cost-for-tickets", "triples-with-bitwise-and-equal-to-zero", "time-based-key-value-store", "unique-paths-iii", "distribute-coins-in-binary-tree", "longest-turbulent-subarray", "squares-of-a-sorted-array", "largest-perimeter-triangle", "odd-even-jump", "subarray-sums-divisible-by-k", "flip-binary-tree-to-match-preorder-traversal", "powerful-integers", "pancake-sorting", "random-pick-with-weight", "letter-case-permutation", "n-ary-tree-postorder-traversal", "maximum-depth-of-n-ary-tree", "construct-quad-tree", "set-intersection-size-at-least-two", "reach-a-number", "contain-virus", "to-lower-case"];
-
+var operateList = ["recover-a-tree-from-preorder-traversal", "maximum-difference-between-node-and-ancestor", "longest-arithmetic-sequence", "divisor-game", "video-stitching", "camelcase-matching", "sum-of-root-to-leaf-binary-numbers", "remove-outermost-parentheses", "number-of-enclaves", "next-greater-node-in-linked-list", "binary-prefix-divisible-by-5", "convert-to-base-2", "binary-string-with-substrings-representing-1-to-n", "smallest-integer-divisible-by-k", "best-sightseeing-pair", "partition-array-into-three-parts-with-equal-sum", "numbers-with-repeated-digits", "capacity-to-ship-packages-within-d-days", "pairs-of-songs-with-total-durations-divisible-by-60", "complement-of-base-10-integer"];
 var dictDiffculty = {
         "Easy": "容易",
         "Medium": "中等",
@@ -44,7 +43,6 @@ function html2txt(str) {
         .replace(/&nbsp;/g, " ")
         .replace(/&quot;/g, "\"")
         .replace(/\n +\n/g, "\n\n")
-        .replace(/：/g, ": ")
         .replace(/\n\n+/g, "\n\n")
         .replace(/^\s+|\s+$/, "")
         .replace(/(\n(示例|提示)[^\n]*\n)\n/g, "$1")
@@ -72,6 +70,7 @@ function getQues(name) {
         success: data => {
             var question = data.data.question,
                 code = "N/A";
+            question.questionFrontendId = ("000" + question.questionFrontendId).slice(-4);
             //抓回来所有语言的题目，只保留JS的
             question.codeSnippets.forEach(i => {
                 if (i.lang === "JavaScript") code = i.code;
