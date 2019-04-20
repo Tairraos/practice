@@ -8,7 +8,9 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "assert": "^1.4.1"
+    "assert": "^1.4.1",
+    "xtool.js": "^1.1.4",
+    "request": "^2.88.0"
   },
   "dependencies": {
   }
