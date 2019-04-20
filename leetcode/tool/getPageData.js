@@ -1,5 +1,5 @@
 /**
- * 先在 node 里执行 getOperateList.js，抓回缺失的模板slugTitle列表，把列表替换第 12 行的 operateList
+ * 先在 node 里执行 getOperateList.js，抓回缺失的模板slugTitle列表，把列表替换第 14 行的 operateList
  * 然后把所有代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑，因为有 CSRF 校验，必须在这个页面跑
  * 如果有错误，需要更新本代码 21 行的 csrfToken，可以从页面的 cookie 里看到有效的 token
  * 得到输出后，把它帖到 data.js 里，用 node 执行 getPageData.js 生成模板
@@ -8,32 +8,33 @@
  * 本工具用来从网站上获取题目数据，用于生成模板。
  * 本工具获取数据的 graphQl 查询受跨站请求限制，必须在 leetcode-cn.com 的域名下执行。
  * https://leetcode-cn.com/problemset/all/ 存在jQuery，所以直接使用 jQuery 的 ajax 工具
- * 
  */
 
-var operateList = ["recover-a-tree-from-preorder-traversal", "maximum-difference-between-node-and-ancestor", "longest-arithmetic-sequence", "divisor-game", "video-stitching", "camelcase-matching", "sum-of-root-to-leaf-binary-numbers", "remove-outermost-parentheses", "number-of-enclaves", "next-greater-node-in-linked-list", "binary-prefix-divisible-by-5", "convert-to-base-2", "binary-string-with-substrings-representing-1-to-n", "smallest-integer-divisible-by-k", "best-sightseeing-pair", "partition-array-into-three-parts-with-equal-sum", "numbers-with-repeated-digits", "capacity-to-ship-packages-within-d-days", "pairs-of-songs-with-total-durations-divisible-by-60", "complement-of-base-10-integer"];
+//把 getOperateList.js 生成的 var 语句粘贴在下面，然后全文选中复制，粘贴到浏览器里执行
+var operateList = [];
+
 var dictDiffculty = {
         "Easy": "容易",
         "Medium": "中等",
         "Hard": "困难"
     },
-    csrfToken = "16Bj6wbYhAzcorp39MEqGdJbTu0Is0I1NwHwbO7NCHtMXvDjmSwVQqkHbK1aKqAp";
-
-window.leetCodeData = [];
+    csrfToken = "7UwpxgzgtAcPiPtp6JKTusM8EYuTAxL9bya5KuRhVRxaRME33mKfp8GJTjKZhPed",
+    leetCodeData = [];
 
 /**
- * 调用 getQues 把数据保存到 leetCodeData, 然后输出 
+ * 调用 getQues 把数据保存到 leetCodeData, 然后输出
  */
 function getQuestionData() {
     operateList.forEach(item => getQues(item));
 
-    let outData = JSON.stringify(window.leetCodeData).replace(/"questionFrontendId"/g, "\"questionId\"");
-    console.log("let data = " + outData + ";module.exports = data;");
+    leetCodeData = leetCodeData.sort((a, b) => +a.questionFrontendId - +b.questionFrontendId);
+
+    console.log("let data = " + JSON.stringify(leetCodeData).replace(/"questionFrontendId"/g, "\"questionId\"") + ";module.exports = data;");
     console.log("//格式化，再做下面替换，再格式化。 (\\[|\", )\" => $1\\n\"");
 }
 
 /** 
- * 把HTML转成txt 
+ * 把 HTML 转成 txt
  */
 function html2txt(str) {
     return str.replace(/<img[^>]*href="([^"]+)"[^>]*>/, "[示意图]($1)")
@@ -78,7 +79,7 @@ function getQues(name) {
             question.codeSnippets = code;
             question.difficulty = dictDiffculty[question.difficulty];
             question.translatedContent = html2txt(question.translatedContent);
-            window.leetCodeData.push(question);
+            leetCodeData.push(question);
             // console.log(JSON.stringify(question) + ",");
         }
     });

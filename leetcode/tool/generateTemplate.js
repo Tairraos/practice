@@ -1,5 +1,5 @@
 /**
- * 先在 node 里执行 getOperateList.js，抓回缺失的模板slugTitle列表，把列表替换第 11 行的 operateList
+ * 先在 node 里执行 getOperateList.js，抓回缺失的模板slugTitle列表，把列表替换第 14 行的 operateList
  * 然后把所有代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑，因为有 CSRF 校验，必须在这个页面跑
  * 如果有错误，需要更新本代码里的 x-csrftoken，可以从页面的 cookie 里看到有效的 token
  * 得到输出后，把它帖到 data.js 里，用 node 执行 getPageData.js 生成模板
