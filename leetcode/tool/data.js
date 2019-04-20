@@ -1,5 +1,5 @@
 let data = [{
-    "questionFrontendId": "1028",
+    "questionId": "1028",
     "titleSlug": "recover-a-tree-from-preorder-traversal",
     "translatedTitle": "从先序遍历还原二叉树",
     "translatedContent": [
@@ -30,7 +30,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {string} S\r\n * @return {TreeNode}\r\n */\r\nvar recoverFromPreorder = function(S) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1026",
+    "questionId": "1026",
     "titleSlug": "maximum-difference-between-node-and-ancestor",
     "translatedTitle": "节点与其祖先之间的最大差值",
     "translatedContent": [
@@ -56,7 +56,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar maxAncestorDiff = function(root) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1027",
+    "questionId": "1027",
     "titleSlug": "longest-arithmetic-sequence",
     "translatedTitle": "最长等差数列",
     "translatedContent": [
@@ -89,7 +89,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar longestArithSeqLength = function(A) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1025",
+    "questionId": "1025",
     "titleSlug": "divisor-game",
     "translatedTitle": "除数博弈",
     "translatedContent": [
@@ -120,7 +120,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\r\n * @param {number} N\r\n * @return {boolean}\r\n */\r\nvar divisorGame = function(N) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1024",
+    "questionId": "1024",
     "titleSlug": "video-stitching",
     "translatedTitle": "视频拼接",
     "translatedContent": [
@@ -165,7 +165,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * @param {number[][]} clips\r\n * @param {number} T\r\n * @return {number}\r\n */\r\nvar videoStitching = function(clips, T) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1023",
+    "questionId": "1023",
     "titleSlug": "camelcase-matching",
     "translatedTitle": "驼峰式匹配",
     "translatedContent": [
@@ -203,7 +203,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * @param {string[]} queries\r\n * @param {string} pattern\r\n * @return {boolean[]}\r\n */\r\nvar camelMatch = function(queries, pattern) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1022",
+    "questionId": "1022",
     "titleSlug": "sum-of-root-to-leaf-binary-numbers",
     "translatedTitle": "从根到叶的二进制数之和",
     "translatedContent": [
@@ -225,7 +225,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar sumRootToLeaf = function(root) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1021",
+    "questionId": "1021",
     "titleSlug": "remove-outermost-parentheses",
     "translatedTitle": "删除最外层的括号",
     "translatedContent": [
@@ -266,7 +266,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\r\n * @param {string} S\r\n * @return {string}\r\n */\r\nvar removeOuterParentheses = function(S) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1020",
+    "questionId": "1020",
     "titleSlug": "number-of-enclaves",
     "translatedTitle": "飞地的数量",
     "translatedContent": [
@@ -297,7 +297,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * @param {number[][]} A\r\n * @return {number}\r\n */\r\nvar numEnclaves = function(A) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1019",
+    "questionId": "1019",
     "titleSlug": "next-greater-node-in-linked-list",
     "translatedTitle": "链表中的下一个更大节点",
     "translatedContent": [
@@ -328,7 +328,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n/**\r\n * @param {ListNode} head\r\n * @return {number[]}\r\n */\r\nvar nextLargerNodes = function(head) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1018",
+    "questionId": "1018",
     "titleSlug": "binary-prefix-divisible-by-5",
     "translatedTitle": "可被 5 整除的二进制前缀",
     "translatedContent": [
@@ -361,7 +361,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @return {boolean[]}\r\n */\r\nvar prefixesDivBy5 = function(A) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1017",
+    "questionId": "1017",
     "titleSlug": "convert-to-base-2",
     "translatedTitle": "负二进制转换",
     "translatedContent": [
@@ -390,7 +390,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * @param {number} N\r\n * @return {string}\r\n */\r\nvar baseNeg2 = function(N) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1016",
+    "questionId": "1016",
     "titleSlug": "binary-string-with-substrings-representing-1-to-n",
     "translatedTitle": "子串能表示从 1 到 N 数字的二进制串",
     "translatedContent": [
@@ -411,7 +411,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * @param {string} S\r\n * @param {number} N\r\n * @return {boolean}\r\n */\r\nvar queryString = function(S, N) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1015",
+    "questionId": "1015",
     "titleSlug": "smallest-integer-divisible-by-k",
     "translatedTitle": "可被 K 整除的最小整数",
     "translatedContent": [
@@ -440,7 +440,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * @param {number} K\r\n * @return {number}\r\n */\r\nvar smallestRepunitDivByK = function(K) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1014",
+    "questionId": "1014",
     "titleSlug": "best-sightseeing-pair",
     "translatedTitle": "最佳观光组合",
     "translatedContent": [
@@ -462,7 +462,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar maxScoreSightseeingPair = function(A) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1013",
+    "questionId": "1013",
     "titleSlug": "partition-array-into-three-parts-with-equal-sum",
     "translatedTitle": "将数组分成和相等的三个部分",
     "translatedContent": [
@@ -491,7 +491,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @return {boolean}\r\n */\r\nvar canThreePartsEqualSum = function(A) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1012",
+    "questionId": "1012",
     "titleSlug": "numbers-with-repeated-digits",
     "translatedTitle": "至少有 1 位重复的数字",
     "translatedContent": [
@@ -517,7 +517,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\r\n * @param {number} N\r\n * @return {number}\r\n */\r\nvar numDupDigitsAtMostN = function(N) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1011",
+    "questionId": "1011",
     "titleSlug": "capacity-to-ship-packages-within-d-days",
     "translatedTitle": "在 D 天内送达包裹的能力",
     "translatedContent": [
@@ -565,7 +565,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\r\n * @param {number[]} weights\r\n * @param {number} D\r\n * @return {number}\r\n */\r\nvar shipWithinDays = function(weights, D) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1010",
+    "questionId": "1010",
     "titleSlug": "pairs-of-songs-with-total-durations-divisible-by-60",
     "translatedTitle": "总持续时间可被 60 整除的歌曲",
     "translatedContent": [
@@ -593,7 +593,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\r\n * @param {number[]} time\r\n * @return {number}\r\n */\r\nvar numPairsDivisibleBy60 = function(time) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1009",
+    "questionId": "1009",
     "titleSlug": "complement-of-base-10-integer",
     "translatedTitle": "十进制整数的反码",
     "translatedContent": [
@@ -624,7 +624,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\r\n * @param {number} N\r\n * @return {number}\r\n */\r\nvar bitwiseComplement = function(N) {\r\n    \r\n};"
 }, {
-    "questionFrontendId": "1008",
+    "questionId": "1008",
     "titleSlug": "construct-binary-search-tree-from-preorder-traversal",
     "translatedTitle": "先序遍历构造二叉树",
     "translatedContent": [
@@ -643,7 +643,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} preorder\n * @return {TreeNode}\n */\nvar bstFromPreorder = function(preorder) {\n    \n};"
 }, {
-    "questionFrontendId": "1007",
+    "questionId": "1007",
     "titleSlug": "minimum-domino-rotations-for-equal-row",
     "translatedTitle": "行相等的最少多米诺旋转",
     "translatedContent": [
@@ -675,7 +675,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number}\n */\nvar minDominoRotations = function(A, B) {\n    \n};"
 }, {
-    "questionFrontendId": "1006",
+    "questionId": "1006",
     "titleSlug": "clumsy-factorial",
     "translatedTitle": "笨阶乘",
     "translatedContent": [
@@ -706,7 +706,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar clumsy = function(N) {\n    \n};"
 }, {
-    "questionFrontendId": "1005",
+    "questionId": "1005",
     "titleSlug": "maximize-sum-of-array-after-k-negations",
     "translatedTitle": "K 次取反后最大化的数组和",
     "translatedContent": [
@@ -737,7 +737,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar largestSumAfterKNegations = function(A, K) {\n    \n};"
 }, {
-    "questionFrontendId": "1004",
+    "questionId": "1004",
     "titleSlug": "max-consecutive-ones-iii",
     "translatedTitle": "最大连续1的个数 III",
     "translatedContent": [
@@ -767,7 +767,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar longestOnes = function(A, K) {\n    \n};"
 }, {
-    "questionFrontendId": "1003",
+    "questionId": "1003",
     "titleSlug": "check-if-word-is-valid-after-substitutions",
     "translatedTitle": "检查替换后的词是否有效",
     "translatedContent": [
@@ -808,7 +808,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {string} S\n * @return {boolean}\n */\nvar isValid = function(S) {\n    \n};"
 }, {
-    "questionFrontendId": "1002",
+    "questionId": "1002",
     "titleSlug": "find-common-characters",
     "translatedTitle": "查找常用字符",
     "translatedContent": [
@@ -832,7 +832,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {string[]} A\n * @return {string[]}\n */\nvar commonChars = function(A) {\n    \n};"
 }, {
-    "questionFrontendId": "1001",
+    "questionId": "1001",
     "titleSlug": "grid-illumination",
     "translatedTitle": "网格照明",
     "translatedContent": [
@@ -874,7 +874,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number} N\n * @param {number[][]} lamps\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar gridIllumination = function(N, lamps, queries) {\n    \n};"
 }, {
-    "questionFrontendId": "1000",
+    "questionId": "1000",
     "titleSlug": "minimum-cost-to-merge-stones",
     "translatedTitle": "合并石头的最低成本",
     "translatedContent": [
@@ -916,7 +916,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number[]} stones\n * @param {number} K\n * @return {number}\n */\nvar mergeStones = function(stones, K) {\n    \n};"
 }, {
-    "questionFrontendId": "999",
+    "questionId": "999",
     "titleSlug": "available-captures-for-rook",
     "translatedTitle": "车的可用捕获量",
     "translatedContent": [
@@ -952,7 +952,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {character[][]} board\n * @return {number}\n */\nvar numRookCaptures = function(board) {\n    \n};"
 }, {
-    "questionFrontendId": "998",
+    "questionId": "998",
     "titleSlug": "maximum-binary-tree-ii",
     "translatedTitle": "最大二叉树 II",
     "translatedContent": [
@@ -995,7 +995,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} val\n * @return {TreeNode}\n */\nvar insertIntoMaxTree = function(root, val) {\n    \n};"
 }, {
-    "questionFrontendId": "997",
+    "questionId": "997",
     "titleSlug": "find-the-town-judge",
     "translatedTitle": "找到小镇的法官",
     "translatedContent": [
@@ -1041,7 +1041,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {number} N\n * @param {number[][]} trust\n * @return {number}\n */\nvar findJudge = function(N, trust) {\n    \n};"
 }, {
-    "questionFrontendId": "996",
+    "questionId": "996",
     "titleSlug": "number-of-squareful-arrays",
     "translatedTitle": "正方形数组的数目",
     "translatedContent": [
@@ -1066,7 +1066,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar numSquarefulPerms = function(A) {\n    \n};"
 }, {
-    "questionFrontendId": "995",
+    "questionId": "995",
     "titleSlug": "minimum-number-of-k-consecutive-bit-flips",
     "translatedTitle": "K 连续位的最小翻转次数",
     "translatedContent": [
@@ -1099,7 +1099,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar minKBitFlips = function(A, K) {\n    \n};"
 }, {
-    "questionFrontendId": "994",
+    "questionId": "994",
     "titleSlug": "rotting-oranges",
     "translatedTitle": "腐烂的橘子",
     "translatedContent": [
@@ -1135,7 +1135,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar orangesRotting = function(grid) {\n    \n};"
 }, {
-    "questionFrontendId": "993",
+    "questionId": "993",
     "titleSlug": "cousins-in-binary-tree",
     "translatedTitle": "二叉树的堂兄弟节点",
     "translatedContent": [
@@ -1166,7 +1166,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} x\n * @param {number} y\n * @return {boolean}\n */\nvar isCousins = function(root, x, y) {\n    \n};"
 }, {
-    "questionFrontendId": "992",
+    "questionId": "992",
     "titleSlug": "subarrays-with-k-different-integers",
     "translatedTitle": "K 个不同整数的子数组",
     "translatedContent": [
@@ -1194,7 +1194,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar subarraysWithKDistinct = function(A, K) {\n    \n};"
 }, {
-    "questionFrontendId": "991",
+    "questionId": "991",
     "titleSlug": "broken-calculator",
     "translatedTitle": "坏了的计算器",
     "translatedContent": [
@@ -1234,7 +1234,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number} X\n * @param {number} Y\n * @return {number}\n */\nvar brokenCalc = function(X, Y) {\n    \n};"
 }, {
-    "questionFrontendId": "990",
+    "questionId": "990",
     "titleSlug": "satisfiability-of-equality-equations",
     "translatedTitle": "等式方程的可满足性",
     "translatedContent": [
@@ -1274,7 +1274,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {string[]} equations\n * @return {boolean}\n */\nvar equationsPossible = function(equations) {\n    \n};"
 }, {
-    "questionFrontendId": "989",
+    "questionId": "989",
     "titleSlug": "add-to-array-form-of-integer",
     "translatedTitle": "数组形式的整数加法",
     "translatedContent": [
@@ -1312,7 +1312,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number[]}\n */\nvar addToArrayForm = function(A, K) {\n    \n};"
 }, {
-    "questionFrontendId": "988",
+    "questionId": "988",
     "titleSlug": "smallest-string-starting-from-leaf",
     "translatedTitle": "从叶结点开始的最小字符串",
     "translatedContent": [
@@ -1341,7 +1341,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {string}\n */\nvar smallestFromLeaf = function(root) {\n    \n};"
 }, {
-    "questionFrontendId": "987",
+    "questionId": "987",
     "titleSlug": "vertical-order-traversal-of-a-binary-tree",
     "translatedTitle": "二叉树的垂序遍历",
     "translatedContent": [
@@ -1379,7 +1379,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[][]}\n */\nvar verticalTraversal = function(root) {\n    \n};"
 }, {
-    "questionFrontendId": "986",
+    "questionId": "986",
     "titleSlug": "interval-list-intersections",
     "translatedTitle": "区间列表的交集",
     "translatedContent": [
@@ -1402,7 +1402,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * Definition for an interval.\n * function Interval(start, end) {\n *     this.start = start;\n *     this.end = end;\n * }\n */\n/**\n * @param {Interval[]} A\n * @param {Interval[]} B\n * @return {Interval[]}\n */\nvar intervalIntersection = function(A, B) {\n    \n};"
 }, {
-    "questionFrontendId": "985",
+    "questionId": "985",
     "titleSlug": "sum-of-even-numbers-after-queries",
     "translatedTitle": "查询后的偶数和",
     "translatedContent": [
@@ -1434,7 +1434,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {number[]} A\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar sumEvenAfterQueries = function(A, queries) {\n    \n};"
 }, {
-    "questionFrontendId": "984",
+    "questionId": "984",
     "titleSlug": "string-without-aaa-or-bbb",
     "translatedTitle": "不含 AAA 或 BBB 的字符串",
     "translatedContent": [
@@ -1461,7 +1461,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number} A\n * @param {number} B\n * @return {string}\n */\nvar strWithout3a3b = function(A, B) {\n    \n};"
 }, {
-    "questionFrontendId": "983",
+    "questionId": "983",
     "titleSlug": "minimum-cost-for-tickets",
     "translatedTitle": "最低票价",
     "translatedContent": [
@@ -1506,7 +1506,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number[]} days\n * @param {number[]} costs\n * @return {number}\n */\nvar mincostTickets = function(days, costs) {\n    \n};"
 }, {
-    "questionFrontendId": "982",
+    "questionId": "982",
     "titleSlug": "triples-with-bitwise-and-equal-to-zero",
     "translatedTitle": "按位与为零的三元组",
     "translatedContent": [
@@ -1541,7 +1541,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar countTriplets = function(A) {\n    \n};"
 }, {
-    "questionFrontendId": "981",
+    "questionId": "981",
     "titleSlug": "time-based-key-value-store",
     "translatedTitle": "基于时间的键值存储",
     "translatedContent": [
@@ -1583,7 +1583,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar TimeMap = function() {\n    \n};\n\n/** \n * @param {string} key \n * @param {string} value \n * @param {number} timestamp\n * @return {void}\n */\nTimeMap.prototype.set = function(key, value, timestamp) {\n    \n};\n\n/** \n * @param {string} key \n * @param {number} timestamp\n * @return {string}\n */\nTimeMap.prototype.get = function(key, timestamp) {\n    \n};\n\n/** \n * Your TimeMap object will be instantiated and called as such:\n * var obj = new TimeMap()\n * obj.set(key,value,timestamp)\n * var param_2 = obj.get(key,timestamp)\n */"
 }, {
-    "questionFrontendId": "980",
+    "questionId": "980",
     "titleSlug": "unique-paths-iii",
     "translatedTitle": "不同路径 III",
     "translatedContent": [
@@ -1625,7 +1625,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar uniquePathsIII = function(grid) {\n    \n};"
 }, {
-    "questionFrontendId": "979",
+    "questionId": "979",
     "titleSlug": "distribute-coins-in-binary-tree",
     "translatedTitle": "在二叉树中分配硬币",
     "translatedContent": [
@@ -1660,7 +1660,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar distributeCoins = function(root) {\n    \n};"
 }, {
-    "questionFrontendId": "978",
+    "questionId": "978",
     "titleSlug": "longest-turbulent-subarray",
     "translatedTitle": "最长湍流子数组",
     "translatedContent": [
@@ -1693,7 +1693,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar maxTurbulenceSize = function(A) {\n    \n};"
 }, {
-    "questionFrontendId": "977",
+    "questionId": "977",
     "titleSlug": "squares-of-a-sorted-array",
     "translatedTitle": "有序数组的平方",
     "translatedContent": [
@@ -1715,7 +1715,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar sortedSquares = function(A) {\n    \n};"
 }, {
-    "questionFrontendId": "976",
+    "questionId": "976",
     "titleSlug": "largest-perimeter-triangle",
     "translatedTitle": "三角形的最大周长",
     "translatedContent": [
@@ -1746,7 +1746,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar largestPerimeter = function(A) {\n    \n};"
 }, {
-    "questionFrontendId": "975",
+    "questionId": "975",
     "titleSlug": "odd-even-jump",
     "translatedTitle": "奇偶跳",
     "translatedContent": [
@@ -1806,7 +1806,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar oddEvenJumps = function(A) {\n    \n};"
 }, {
-    "questionFrontendId": "974",
+    "questionId": "974",
     "titleSlug": "subarray-sums-divisible-by-k",
     "translatedTitle": "和可被 K 整除的子数组",
     "translatedContent": [
@@ -1827,7 +1827,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar subarraysDivByK = function(A, K) {\n    \n};"
 }, {
-    "questionFrontendId": "971",
+    "questionId": "971",
     "titleSlug": "flip-binary-tree-to-match-preorder-traversal",
     "translatedTitle": "翻转二叉树以匹配先序遍历",
     "translatedContent": [
@@ -1863,7 +1863,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number[]} voyage\n * @return {number[]}\n */\nvar flipMatchVoyage = function(root, voyage) {\n    \n};"
 }, {
-    "questionFrontendId": "970",
+    "questionId": "970",
     "titleSlug": "powerful-integers",
     "translatedTitle": "强整数",
     "translatedContent": [
@@ -1897,7 +1897,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {number} x\n * @param {number} y\n * @param {number} bound\n * @return {number[]}\n */\nvar powerfulIntegers = function(x, y, bound) {\n    \n};"
 }, {
-    "questionFrontendId": "969",
+    "questionId": "969",
     "titleSlug": "pancake-sorting",
     "translatedTitle": "煎饼排序",
     "translatedContent": [
@@ -1930,7 +1930,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar pancakeSort = function(A) {\n    \n};"
 }, {
-    "questionFrontendId": "528",
+    "questionId": "528",
     "titleSlug": "random-pick-with-weight",
     "translatedTitle": "按权重随机选择",
     "translatedContent": [
@@ -1961,7 +1961,7 @@ let data = [{
     "difficulty": "中等",
     "codeSnippets": "/**\n * @param {number[]} w\n */\nvar Solution = function(w) {\n    \n};\n\n/**\n * @return {number}\n */\nSolution.prototype.pickIndex = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(w)\n * var param_1 = obj.pickIndex()\n */"
 }, {
-    "questionFrontendId": "784",
+    "questionId": "784",
     "titleSlug": "letter-case-permutation",
     "translatedTitle": "字母大小写全排列",
     "translatedContent": [
@@ -1985,7 +1985,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {string} S\n * @return {string[]}\n */\nvar letterCasePermutation = function(S) {\n    \n};"
 }, {
-    "questionFrontendId": "590",
+    "questionId": "590",
     "titleSlug": "n-ary-tree-postorder-traversal",
     "translatedTitle": "N叉树的后序遍历",
     "translatedContent": [
@@ -2000,7 +2000,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number[]}\n */\nvar postorder = function(root) {\n    \n};"
 }, {
-    "questionFrontendId": "559",
+    "questionId": "559",
     "titleSlug": "maximum-depth-of-n-ary-tree",
     "translatedTitle": "N叉树的最大深度",
     "translatedContent": [
@@ -2020,7 +2020,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number}\n */\nvar maxDepth = function(root) {\n    \n};"
 }, {
-    "questionFrontendId": "427",
+    "questionId": "427",
     "titleSlug": "construct-quad-tree",
     "translatedTitle": "建立四叉树",
     "translatedContent": [
@@ -2045,7 +2045,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * // Definition for a QuadTree node.\n * function Node(val,isLeaf,topLeft,topRight,bottomLeft,bottomRight) {\n *    this.val = val;\n *    this.isLeaf = isLeaf;\n *    this.topLeft = topLeft;\n *    this.topRight = topRight;\n *    this.bottomLeft = bottomLeft;\n *    this.bottomRight = bottomRight;\n * };\n */\n/**\n * @param {number[][]} grid\n * @return {Node}\n */\nvar construct = function(grid) {\n    \n};"
 }, {
-    "questionFrontendId": "757",
+    "questionId": "757",
     "titleSlug": "set-intersection-size-at-least-two",
     "translatedTitle": " 设置交集大小至少为2",
     "translatedContent": [
@@ -2077,7 +2077,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number[][]} intervals\n * @return {number}\n */\nvar intersectionSizeTwo = function(intervals) {\n    \n};"
 }, {
-    "questionFrontendId": "754",
+    "questionId": "754",
     "titleSlug": "reach-a-number",
     "translatedTitle": "到达终点数字",
     "translatedContent": [
@@ -2109,7 +2109,7 @@ let data = [{
     "difficulty": "容易",
     "codeSnippets": "/**\n * @param {number} target\n * @return {number}\n */\nvar reachNumber = function(target) {\n    \n};"
 }, {
-    "questionFrontendId": "749",
+    "questionId": "749",
     "titleSlug": "contain-virus",
     "translatedTitle": "隔离病毒",
     "translatedContent": [
@@ -2165,7 +2165,7 @@ let data = [{
     "difficulty": "困难",
     "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar containVirus = function(grid) {\n    \n};"
 }, {
-    "questionFrontendId": "709",
+    "questionId": "709",
     "titleSlug": "to-lower-case",
     "translatedTitle": "转换成小写字母",
     "translatedContent": [

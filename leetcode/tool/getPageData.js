@@ -27,7 +27,9 @@ window.leetCodeData = [];
  */
 function getQuestionData() {
     operateList.forEach(item => getQues(item));
-    console.log("let data = " + JSON.stringify(window.leetCodeData) + ";module.exports = data;");
+
+    let outData = JSON.stringify(window.leetCodeData).replace(/"questionFrontendId"/g, "\"questionId\"");
+    console.log("let data = " + outData + ";module.exports = data;");
     console.log("//格式化，再做下面替换，再格式化。 (\\[|\", )\" => $1\\n\"");
 }
 
