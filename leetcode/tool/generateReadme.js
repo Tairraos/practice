@@ -32,4 +32,4 @@ while (pointer < list.length) {
 
 x.saveFile(path.resolve(__dirname, "..", "README.md"), out.join("\n"));
 
-console.log()
+console.log("已经生成新的Readme");
