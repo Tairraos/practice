@@ -17,11 +17,15 @@ let x = require("xtool.js"),
 oldData.forEach(item => existDataList[item.questionId] = item.titleSlug);
 request("https://leetcode-cn.com/api/problems/all/", function (error, response, body) {
     let respData = JSON.parse(body);
-    console.log("\033[31m把下面这行代码拷贝到 getPageData.js 第 14 行:");
-    console.log("\033[32m");
-    console.log("var operateList = " + JSON.stringify(respData.stat_status_pairs.map(item => ({
-        "questionId": ("000" + item.stat.frontend_question_id).slice(-4),
-        "titleSlug": item.stat.question__title_slug
-    })).filter(item => existDataList[item.questionId] !== item.titleSlug).map(item => item.titleSlug)) + ";");
-    console.log("\033[0m");
+    if (respData.length) {
+        console.log("\033[31m把下面这行代码拷贝到 getPageData.js 第 14 行:");
+        console.log("\033[32m");
+        console.log("var operateList = " + JSON.stringify(respData.stat_status_pairs.map(item => ({
+            "questionId": ("000" + item.stat.frontend_question_id).slice(-4),
+            "titleSlug": item.stat.question__title_slug
+        })).filter(item => existDataList[item.questionId] !== item.titleSlug).map(item => item.titleSlug)) + ";");
+        console.log("\033[0m");
+    } else {
+        console.log("\033[32m题库模板已经保持最新\033[0m");
+    }
 });
