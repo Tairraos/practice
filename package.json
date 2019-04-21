@@ -12,6 +12,8 @@
     "xtool.js": "^1.1.4",
     "request": "^2.88.0"
   },
-  "dependencies": {
+  "dependencies": {},
+  "scripts": {
+    "sync": "node leetcode/tool/getOperateList.js && node leetcode/tool/generateReadme.js"
   }
 }
