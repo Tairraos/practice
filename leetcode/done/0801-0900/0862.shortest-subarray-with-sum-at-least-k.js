@@ -50,6 +50,9 @@ var shortestSubarray = function (A, K) { //本题思路是从评论区抄来的�
     }) ? 1 : result === 50001 ? -1 : result; //提前结果，则为1, resule没有被更新，则为-1
 };
 
+// 执行用时 : 156 ms, 在Shortest Subarray with Sum at Least K的JavaScript提交中击败了84.62% 的用户
+// 内存消耗 : 44.7 MB, 在Shortest Subarray with Sum at Least K的JavaScript提交中击败了18.75% 的用户
+
 // Local test
 let assert = require("assert");
 console.time("leetcode");
