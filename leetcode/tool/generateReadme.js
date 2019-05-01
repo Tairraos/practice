@@ -2,7 +2,7 @@ let x = require("xtool.js"),
     path = require("path"),
     oldData = require("./oldData"),
     maxId = +oldData.slice(-1)[0].questionId, totalQuestion = oldData.length,
-    doneList = {}, difficultyList = {}, dmap = {"容易": "1", "中等": "2", "困难": "3"},
+    doneList = {}, difficultyList = {}, dmap = {"容易": "easy", "中等": "medium", "困难": "hard"},
     mdContent = [], table = [], pointer = 0, mdLine = "|",
     status = {counter: 0, easy: 0, medium: 0, hard: 0};
 
@@ -15,11 +15,11 @@ oldData.forEach(item => difficultyList[item.questionId] = dmap[item.difficulty])
 while (pointer <= maxId) {
     let questionId = ("000" + pointer).slice(-4);
     if (doneList[pointer]) {
-        mdLine += `[${questionId}](${doneList[pointer]})\`${difficultyList[questionId]}\`|`;
+        mdLine += `[${questionId}](${doneList[pointer]})![${difficultyList[questionId]}](figs/${difficultyList[questionId]}.png)|`;
         status.counter++;
-        status.easy += difficultyList[questionId] === "1";
-        status.medium += difficultyList[questionId] === "2";
-        status.hard += difficultyList[questionId] === "3";
+        status.easy += difficultyList[questionId] === "easy";
+        status.medium += difficultyList[questionId] === "medium";
+        status.hard += difficultyList[questionId] === "hard";
     } else {
         mdLine += difficultyList[questionId] ? ` |` : ` ~~${questionId}~~ |`;
     }
