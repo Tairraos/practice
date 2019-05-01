@@ -1,10 +1,10 @@
 let x = require("xtool.js"),
     path = require("path"),
     oldData = require("./oldData"),
-    maxId = +oldData.pop().questionId,
+    maxId = +oldData.slice(-1)[0].questionId, totalQuestion = oldData.length,
     doneList = {}, difficultyList = {}, dmap = {"容易": "易", "中等": "中", "困难": "难"},
     mdContent = [], table = [], pointer = 0, mdLine = "|",
-    status = {counter: 0, easy: 0, mid: 0, difficult: 0};
+    status = {counter: 0, easy: 0, medium: 0, hard: 0};
 
 x.readDir(path.resolve(__dirname, "..", "done"), {
     find: "*.js",
@@ -18,13 +18,13 @@ while (pointer <= maxId) {
         mdLine += "[" + questionId + "](" + doneList[pointer] + ")`" + difficultyList[questionId] + "`|";
         status.counter++;
         status.easy += difficultyList[questionId] === "易";
-        status.mid += difficultyList[questionId] === "中";
-        status.difficult += difficultyList[questionId] === "难";
+        status.medium += difficultyList[questionId] === "中";
+        status.hard += difficultyList[questionId] === "难";
     } else {
-        mdLine += " |";
+        mdLine += difficultyList[questionId] ? " |" : " -- |";
     }
     if (!(++pointer % 10)) {
-        if (!mdLine.match(/^(\| )*\|$/)) { //不写入全空行
+        if (!mdLine.match(/^(\|[ -]+)*\|$/)) { //不写入全空行
             table.push(mdLine);
         }
         mdLine = "|";
@@ -32,7 +32,7 @@ while (pointer <= maxId) {
 }
 
 mdContent.push("### Leetcode 已完成题目列表");
-mdContent.push(`| -> | 已解答 | ${status.counter} | 容易 | ${status.easy} | 中等 | ${status.mid} | 困难 | ${status.difficult} | <- |`);
+mdContent.push(`| 总题数 | ${totalQuestion} | 已解答 | ${status.counter} | 容易 | ${status.easy} | 中等 | ${status.medium} | 困难 | ${status.hard} |`);
 mdContent.push("|----|----|----|----|----|----|----|----|----|----|");
 
 x.saveFile(path.resolve(__dirname, "..", "README.md"), [...mdContent, ...table].join("\n"));
