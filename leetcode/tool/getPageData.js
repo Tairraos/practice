@@ -11,14 +11,15 @@
  */
 
 //把 getOperateList.js 生成的 var 语句粘贴在下面，然后全文选中复制，粘贴到浏览器里执行
-var operateList = [];
+var operateList = ["stream-of-characters","maximum-sum-of-two-non-overlapping-subarrays","two-city-scheduling","matrix-cells-in-distance-order","sort-an-array"];
 
 var dictDiffculty = {
         "Easy": "容易",
         "Medium": "中等",
         "Hard": "困难"
     },
-    csrfToken = "7UwpxgzgtAcPiPtp6JKTusM8EYuTAxL9bya5KuRhVRxaRME33mKfp8GJTjKZhPed",
+    //如果失败，需要去网页里更新token
+    csrfToken = "BT9HAxX3LXjE2o2wpnsYghHkHjlcTH5Z8hiPdKmyBjzdhEYS3qaDbHpwIl7bWWYj",
     leetCodeData = [];
 
 /**
