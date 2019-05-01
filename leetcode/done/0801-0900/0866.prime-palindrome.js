@@ -43,7 +43,7 @@ var primePalindrome = function (N) {
             return true;
         },
         nextPalindrome = n => {
-            let s = ("" + (n + 1)).replace(/^([2468])/, i => ++i),
+            let s = ("" + (n + 1)).replace(/^([2468])/, i => ++i), //素数不可能是2468开头的回文数
                 len = s.length,
                 left = s.slice(0, Math.ceil(len / 2));
             //如果左侧反过来比右侧小, 左侧需要加大一位
