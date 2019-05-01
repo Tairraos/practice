@@ -21,10 +21,10 @@ while (pointer <= maxId) {
         status.medium += difficultyList[questionId] === "中";
         status.hard += difficultyList[questionId] === "难";
     } else {
-        mdLine += difficultyList[questionId] ? " |" : " -- |";
+        mdLine += difficultyList[questionId] ? " |" : ` ~~${questionId}~~ |`;
     }
     if (!(++pointer % 10)) {
-        if (!mdLine.match(/^(\|[ -]+)*\|$/)) { //不写入全空行
+        if (!mdLine.match(/^(\|[ ~0-9]+)*\|$/)) { //不写入全空行
             table.push(mdLine);
         }
         mdLine = "|";
