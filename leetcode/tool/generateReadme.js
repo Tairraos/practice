@@ -15,7 +15,7 @@ oldData.forEach(item => difficultyList[item.questionId] = dmap[item.difficulty])
 while (pointer <= maxId) {
     let questionId = ("000" + pointer).slice(-4);
     if (doneList[pointer]) {
-        mdLine += "[" + questionId + "](" + doneList[pointer] + ")`" + difficultyList[questionId] + "`|";
+        mdLine += "[" + questionId + "](" + doneList[pointer] + ")" + difficultyList[questionId] + "|";
         status.counter++;
         status.easy += difficultyList[questionId] === "易";
         status.medium += difficultyList[questionId] === "中";
@@ -32,7 +32,7 @@ while (pointer <= maxId) {
 }
 
 mdContent.push("### Leetcode 已完成题目列表");
-mdContent.push(`| 总题数 | ${totalQuestion} | 已解答 | ${status.counter} | 容易 | ${status.easy} | 中等 | ${status.medium} | 困难 | ${status.hard} |`);
+mdContent.push(`| 总 | ${totalQuestion} | 已答 | ${status.counter} | 易 | ${status.easy} | 中 | ${status.medium} | 难 | ${status.hard} |`);
 mdContent.push("|----|----|----|----|----|----|----|----|----|----|");
 
 x.saveFile(path.resolve(__dirname, "..", "README.md"), [...mdContent, ...table].join("\n"));
