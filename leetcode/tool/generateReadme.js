@@ -15,13 +15,13 @@ oldData.forEach(item => difficultyList[item.questionId] = dmap[item.difficulty])
 while (pointer <= maxId) {
     let questionId = ("000" + pointer).slice(-4);
     if (doneList[pointer]) {
-        mdLine += "[" + questionId + "](" + doneList[pointer] + ")" + difficultyList[questionId] + "|";
+        mdLine += `[${questionId}](${doneList[pointer]})${difficultyList[questionId]}|`;
         status.counter++;
         status.easy += difficultyList[questionId] === "易";
         status.medium += difficultyList[questionId] === "中";
         status.hard += difficultyList[questionId] === "难";
     } else {
-        mdLine += difficultyList[questionId] ? " |" : ` ~~${questionId}~~ |`;
+        mdLine += difficultyList[questionId] ? ` |` : ` ~~${questionId}~~ |`;
     }
     if (!(++pointer % 10)) {
         if (!mdLine.match(/^(\|[ ~0-9]+)*\|$/)) { //不写入全空行
@@ -31,9 +31,13 @@ while (pointer <= maxId) {
     }
 }
 
-mdContent.push("### Leetcode 已完成题目列表");
-mdContent.push(`| 总 | ${totalQuestion} | 已答 | ${status.counter} | 易 | ${status.easy} | 中 | ${status.medium} | 难 | ${status.hard} |`);
-mdContent.push("|----|----|----|----|----|----|----|----|----|----|");
+mdContent.push(`### Leetcode 已完成题目列表`);
+mdContent.push(`总题数: ${totalQuestion}, 已答: ${status.counter}  `);
+mdContent.push(`已答: 容易: ${status.easy}, 中等: ${status.medium}, 困难: ${status.hard}  `);
+mdContent.push(`  `);
+mdContent.push(` ~~删除线~~表示无此题，空格表示未解答  `);
+mdContent.push(`| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |`);
+mdContent.push(`|----|----|----|----|----|----|----|----|----|----|`);
 
 x.saveFile(path.resolve(__dirname, "..", "README.md"), [...mdContent, ...table].join("\n"));
-console.log("已经生成新的Readme, 最大题目：" + maxId);
+console.log(`已经生成新的Readme, 总题数: ${totalQuestion}, 已答: ${status.counter}`);
