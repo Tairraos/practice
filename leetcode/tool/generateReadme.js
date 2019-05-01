@@ -2,7 +2,7 @@ let x = require("xtool.js"),
     path = require("path"),
     oldData = require("./oldData"),
     maxId = +oldData.slice(-1)[0].questionId, totalQuestion = oldData.length,
-    doneList = {}, difficultyList = {}, dmap = {"容易": "易", "中等": "中", "困难": "难"},
+    doneList = {}, difficultyList = {}, dmap = {"容易": ":suspect:", "中等": ":rage2:", "困难": ":feelsgood:"},
     mdContent = [], table = [], pointer = 0, mdLine = "|",
     status = {counter: 0, easy: 0, medium: 0, hard: 0};
 
@@ -17,9 +17,9 @@ while (pointer <= maxId) {
     if (doneList[pointer]) {
         mdLine += `[${questionId}](${doneList[pointer]})${difficultyList[questionId]}|`;
         status.counter++;
-        status.easy += difficultyList[questionId] === "易";
-        status.medium += difficultyList[questionId] === "中";
-        status.hard += difficultyList[questionId] === "难";
+        status.easy += difficultyList[questionId] === ":suspect:";
+        status.medium += difficultyList[questionId] === ":rage2:";
+        status.hard += difficultyList[questionId] === ":feelsgood:";
     } else {
         mdLine += difficultyList[questionId] ? ` |` : ` ~~${questionId}~~ |`;
     }
@@ -36,6 +36,7 @@ mdContent.push(`总题数: ${totalQuestion}, 已答: ${status.counter}  `);
 mdContent.push(`已答: 容易: ${status.easy}, 中等: ${status.medium}, 困难: ${status.hard}  `);
 mdContent.push(`  `);
 mdContent.push(` ~~删除线~~表示无此题，空格表示未解答  `);
+mdContent.push(``);
 mdContent.push(`|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|`);
 mdContent.push(`|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|`);
 
