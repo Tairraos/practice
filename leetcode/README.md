@@ -1,6 +1,6 @@
 ### Leetcode 已完成题目列表
-总题数: 865, 已答: 27  
-已答: 容易:cowboy_hat_face:: 9, 中等:smiling_imp:: 13, 困难:rage:: 5  
+总题数: 865, 已答: 27, 
+其中: 容易:cowboy_hat_face:: 9, 中等:smiling_imp:: 13, 困难:rage:: 5  
   
  ~~删除线~~表示无此题，空格表示未解答  
 

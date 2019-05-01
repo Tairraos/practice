@@ -32,8 +32,8 @@ while (pointer <= maxId) {
 }
 
 mdContent.push(`### Leetcode 已完成题目列表`);
-mdContent.push(`总题数: ${totalQuestion}, 已答: ${status.counter}  `);
-mdContent.push(`已答: 容易:cowboy_hat_face:: ${status.easy}, 中等:smiling_imp:: ${status.medium}, 困难:rage:: ${status.hard}  `);
+mdContent.push(`总题数: ${totalQuestion}, 已答: ${status.counter}, `);
+mdContent.push(`其中: 容易:cowboy_hat_face:: ${status.easy}, 中等:smiling_imp:: ${status.medium}, 困难:rage:: ${status.hard}  `);
 mdContent.push(`  `);
 mdContent.push(` ~~删除线~~表示无此题，空格表示未解答  `);
 mdContent.push(``);
