@@ -36,8 +36,8 @@ mdContent.push(`总题数: ${totalQuestion}, 已答: ${status.counter}  `);
 mdContent.push(`已答: 容易: ${status.easy}, 中等: ${status.medium}, 困难: ${status.hard}  `);
 mdContent.push(`  `);
 mdContent.push(` ~~删除线~~表示无此题，空格表示未解答  `);
-mdContent.push(`| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |`);
-mdContent.push(`|----|----|----|----|----|----|----|----|----|----|`);
+mdContent.push(`|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|:octocat:|`);
+mdContent.push(`|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|`);
 
 x.saveFile(path.resolve(__dirname, "..", "README.md"), [...mdContent, ...table].join("\n"));
 console.log(`已经生成新的Readme, 总题数: ${totalQuestion}, 已答: ${status.counter}`);
