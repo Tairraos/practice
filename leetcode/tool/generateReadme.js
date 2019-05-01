@@ -4,6 +4,7 @@ let x = require("xtool.js"),
     maxId = +oldData.pop().questionId,
     doneList = {},
     difficultyList = {},
+    dmap = {"容易": "易", "中等": "中", "困难": "难"},
     mdContent = [],
     pointer = 0,
     mdLine = "",
@@ -13,22 +14,22 @@ x.readDir(path.resolve(__dirname, "..", "done"), {
     find: "*.js",
     recursive: true
 }).forEach(item => doneList[+item.replace(/.*(\d\d\d\d)\..*/, "$1")] = "done/" + item);
-oldData.forEach(item => difficultyList[item.questionId] = item.difficulty);
+oldData.forEach(item => difficultyList[item.questionId] = dmap[item.difficulty]);
 
 mdContent.push("### Leetcode 已完成题目列表");
-mdContent.push("| | LE | ET | CO | DE | 已经 | 解答 | 完成 | 题目 | 索引 | 列表 |");
-mdContent.push("|------|------|------|------|------|------|------|------|------|------|------|");
+mdContent.push("| LE | ET | CO | DE | 已经 | 解答 | 完成 | 题目 | 索引 | 列表 |");
+mdContent.push("|----|----|----|----|----|----|----|----|----|----|");
 
 while (pointer <= maxId) {
     questionId = ("000" + pointer).slice(-4);
-    if (!(pointer % 10)) mdLine = "|`" + questionId.slice(0, 3) + "x`";
     if (doneList[pointer]) mdLine += "|[" + questionId + "](" + doneList[pointer] + ")" + difficultyList[questionId];
     else mdLine += "| ";
     pointer += 1;
     if (!(pointer % 10) || pointer === maxId) {
         mdLine += "|";
-        if (!mdLine.match(/x`(\| )*\|$/)) //不写入全空行
+        if (!mdLine.match(/^(\| )*\|$/)) //不写入全空行
             mdContent.push(mdLine);
+        mdLine="";
     }
 }
 
