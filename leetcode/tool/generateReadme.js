@@ -2,7 +2,7 @@ let x = require("xtool.js"),
     path = require("path"),
     oldData = require("./oldData"),
     maxId = +oldData.slice(-1)[0].questionId, totalQuestion = oldData.length,
-    doneList = {}, difficultyList = {}, dmap = {"容易": ":cowboy_hat_face:", "中等": ":smiling_imp:", "困难": ":rage:"},
+    doneList = {}, difficultyList = {}, dmap = {"容易": "1", "中等": "2", "困难": "3"},
     mdContent = [], table = [], pointer = 0, mdLine = "|",
     status = {counter: 0, easy: 0, medium: 0, hard: 0};
 
@@ -15,11 +15,11 @@ oldData.forEach(item => difficultyList[item.questionId] = dmap[item.difficulty])
 while (pointer <= maxId) {
     let questionId = ("000" + pointer).slice(-4);
     if (doneList[pointer]) {
-        mdLine += `[${questionId}](${doneList[pointer]})${difficultyList[questionId]}|`;
+        mdLine += `[${questionId}](${doneList[pointer]})\`${difficultyList[questionId]}\`|`;
         status.counter++;
-        status.easy += difficultyList[questionId] === ":cowboy_hat_face:";
-        status.medium += difficultyList[questionId] === ":smiling_imp:";
-        status.hard += difficultyList[questionId] === ":rage:";
+        status.easy += difficultyList[questionId] === "1";
+        status.medium += difficultyList[questionId] === "2";
+        status.hard += difficultyList[questionId] === "3";
     } else {
         mdLine += difficultyList[questionId] ? ` |` : ` ~~${questionId}~~ |`;
     }
@@ -33,7 +33,7 @@ while (pointer <= maxId) {
 
 mdContent.push(`### Leetcode 已完成题目列表`);
 mdContent.push(`总题数: ${totalQuestion}, 已答: ${status.counter}, `);
-mdContent.push(`其中: 容易:cowboy_hat_face:: ${status.easy}, 中等:smiling_imp:: ${status.medium}, 困难:rage:: ${status.hard}  `);
+mdContent.push(`其中: 容易(1): ${status.easy}, 中等(2): ${status.medium}, 困难(3): ${status.hard}  `);
 mdContent.push(`  `);
 mdContent.push(` ~~删除线~~表示无此题，空格表示未解答  `);
 mdContent.push(``);
