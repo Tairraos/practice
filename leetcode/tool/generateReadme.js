@@ -2,7 +2,7 @@ let x = require("xtool.js"),
     path = require("path"),
     oldData = require("./oldData"),
     maxId = +oldData.slice(-1)[0].questionId, totalQuestion = oldData.length,
-    doneList = {}, difficultyList = {}, dmap = {"容易": ":suspect:", "中等": ":rage2:", "困难": ":feelsgood:"},
+    doneList = {}, difficultyList = {}, dmap = {"容易": ":cowboy_hat_face:", "中等": ":smiling_imp:", "困难": ":rage:"},
     mdContent = [], table = [], pointer = 0, mdLine = "|",
     status = {counter: 0, easy: 0, medium: 0, hard: 0};
 
@@ -17,9 +17,9 @@ while (pointer <= maxId) {
     if (doneList[pointer]) {
         mdLine += `[${questionId}](${doneList[pointer]})${difficultyList[questionId]}|`;
         status.counter++;
-        status.easy += difficultyList[questionId] === ":suspect:";
-        status.medium += difficultyList[questionId] === ":rage2:";
-        status.hard += difficultyList[questionId] === ":feelsgood:";
+        status.easy += difficultyList[questionId] === ":cowboy_hat_face:";
+        status.medium += difficultyList[questionId] === ":smiling_imp:";
+        status.hard += difficultyList[questionId] === ":rage:";
     } else {
         mdLine += difficultyList[questionId] ? ` |` : ` ~~${questionId}~~ |`;
     }
@@ -33,7 +33,7 @@ while (pointer <= maxId) {
 
 mdContent.push(`### Leetcode 已完成题目列表`);
 mdContent.push(`总题数: ${totalQuestion}, 已答: ${status.counter}  `);
-mdContent.push(`已答: 容易: ${status.easy}, 中等: ${status.medium}, 困难: ${status.hard}  `);
+mdContent.push(`已答: 容易:cowboy_hat_face:: ${status.easy}, 中等:smiling_imp:: ${status.medium}, 困难:rage:: ${status.hard}  `);
 mdContent.push(`  `);
 mdContent.push(` ~~删除线~~表示无此题，空格表示未解答  `);
 mdContent.push(``);
