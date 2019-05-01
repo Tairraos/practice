@@ -3,7 +3,7 @@ let x = require("xtool.js"),
     oldData = require("./oldData"),
     maxId = +oldData.slice(-1)[0].questionId, totalQuestion = oldData.length,
     doneList = {}, difficultyList = {}, dmap = {"容易": "easy", "中等": "medium", "困难": "hard"},
-    mdContent = [], table = [], pointer = 0, mdLine = "|",
+    mdContent = [], table = [], pointer = 1, mdLine = "|",
     status = {counter: 0, easy: 0, medium: 0, hard: 0};
 
 x.readDir(path.resolve(__dirname, "..", "done"), {
@@ -23,7 +23,7 @@ while (pointer <= maxId) {
     } else {
         mdLine += difficultyList[questionId] ? ` |` : ` ~~${questionId}~~ |`;
     }
-    if (!(++pointer % 10)) {
+    if (!(pointer++ % 10)) {
         if (!mdLine.match(/^(\|[ ~0-9]+)*\|$/)) { //不写入全空行
             table.push(mdLine);
         }
