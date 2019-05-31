@@ -19,9 +19,10 @@ doneList.forEach(
     item => {
         let qid = item.replace(/.*(\d\d\d\d)\.[\w-]+\.js/, "$1"),
             title = `${qid} - ${titleDict[+qid].titleCn}`,
+            url = `https://github.com/Tairraos/practice/blob/master/leetcode/done/${item}`
             remote = `https://leetcode-cn.com/problems/${titleDict[+qid].titleSlug}/`,
             difficulty = difficultyDict[titleDict[+qid].level];
-        mdContent.push(`- [${title}](${item}) ${difficulty} [Leetcode链接](${remote})`);
+        mdContent.push(`- [${title}](${url}) ${difficulty} [源](${remote})`);
     }
 );
 
