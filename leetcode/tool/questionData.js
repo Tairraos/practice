@@ -8,15 +8,17 @@ let graphql = {"data":{"translations":[{"title":"\u4e24\u6570\u4e4b\u548c","ques
 let translations = {},
     level = ["", "easy", "medium", "hard"];;
 graphql.data.translations.map(item => translations[item.questionId] = item.title);
-let questons = problemAll.stat_status_pairs.map(item => ({
-    rawId: item.stat.question_id,
-    questionId: item.stat.frontend_question_id,
-    titleEn: item.stat.question__title,
-    titleCn: translations[item.stat.question_id],
-    titleSlug: item.stat.question__title_slug,
-    difficulty: level[item.difficulty.level],
-    level: item.difficulty.level,
-    isPaidOnly: item.paid_only
-})).sort((a, b) => a.questionId - b.questionId);
+let questons = problemAll.stat_status_pairs.map(
+    item => ({
+        rawId: item.stat.question_id,
+        questionId: item.stat.frontend_question_id,
+        qid: ("000" + item.stat.frontend_question_id).slice(-4),
+        titleEn: item.stat.question__title,
+        titleCn: translations[item.stat.question_id],
+        titleSlug: item.stat.question__title_slug,
+        difficulty: level[item.difficulty.level],
+        level: item.difficulty.level,
+        isPaidOnly: item.paid_only
+    })).sort((a, b) => a.questionId - b.questionId);
 
 module.exports = questons;

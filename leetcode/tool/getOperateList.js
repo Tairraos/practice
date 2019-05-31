@@ -26,11 +26,11 @@ x.readDir(path.resolve(__dirname, ".."), {
 request("https://leetcode-cn.com/api/problems/all/", function (error, response, body) {
     let respData = JSON.parse(body),
         operateList = respData.stat_status_pairs.map(item => ({
-            "questionId": ("000" + item.stat.frontend_question_id).slice(-4),
+            "qid": ("000" + item.stat.frontend_question_id).slice(-4),
             "paid": item.paid_only,
             "titleSlug": item.stat.question__title_slug
         })).filter(item =>
-            !item.paid && existDataList[item.questionId] !== item.titleSlug
+            !item.paid && existDataList[item.qid] !== item.titleSlug
         ).map(item => item.titleSlug);
 
     if (operateList.length) {
