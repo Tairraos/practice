@@ -1,9 +1,10 @@
 /**
- * 先在 node 里执行 getOperateList.js，抓回缺失的模板slugTitle列表，把列表替换第 14 行的 operateList
- * 然后把所有代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑，因为有 CSRF 校验，必须在这个页面跑
- * 如果有错误，需要更新本代码 21 行的 csrfToken，可以从页面的 cookie 里看到有效的 token
- * 得到输出后，把它帖到 data.js 里，用 node 执行 getPageData.js 生成模板
- * 生成完后把 data.js 里的数据移动到 oldData.js 里备份。
+ * 1 用 node 执行 getOperateList.js，抓回缺失的模板slugTitle列表，执行结果为待抓取题目的 titleSlug 列表
+ * 2 打开 getPageData.js，用上面步骤的执行结果替换第 15 行的 operateList
+ * 3 从页面里得到有效的 csrfToken，更新在 getPageData.js 第 22 行
+ * 4 把修改过的 getPageData.js 代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑
+ * 5 从 console 得到输出后，把它帖到 data.js 里，用 node 执行 generateTemplate.js 生成模板
+ * 6 生成完后把 data.js 里的数据移动到 oldData.js 里备份。
  * 
  * 本工具用来从网站上获取题目数据，用于生成模板。
  * 本工具获取数据的 graphQl 查询受跨站请求限制，必须在 leetcode-cn.com 的域名下执行。
@@ -11,15 +12,14 @@
  */
 
 //把 getOperateList.js 生成的 var 语句粘贴在下面，然后全文选中复制，粘贴到浏览器里执行
-var operateList = ["stream-of-characters","maximum-sum-of-two-non-overlapping-subarrays","two-city-scheduling","matrix-cells-in-distance-order","sort-an-array"];
-
+var operateList = [];
 var dictDiffculty = {
         "Easy": "容易",
         "Medium": "中等",
         "Hard": "困难"
     },
-    //如果失败，需要去网页里更新token
-    csrfToken = "BT9HAxX3LXjE2o2wpnsYghHkHjlcTH5Z8hiPdKmyBjzdhEYS3qaDbHpwIl7bWWYj",
+    //需要去网页里更新token
+    csrfToken = "rUwnJGBRYswRIOWYdqHwKBXf2EqUqIhwJGJ7oFlSkttTkUitueVCs7A1VJCSVycW",
     leetCodeData = [];
 
 /**
@@ -74,13 +74,15 @@ function getQues(name) {
                 code = "N/A";
             question.questionFrontendId = ("000" + question.questionFrontendId).slice(-4);
             //抓回来所有语言的题目，只保留JS的
-            question.codeSnippets.forEach(i => {
-                if (i.lang === "JavaScript") code = i.code;
-            });
-            question.codeSnippets = code;
-            question.difficulty = dictDiffculty[question.difficulty];
-            question.translatedContent = html2txt(question.translatedContent);
-            leetCodeData.push(question);
+            if (question.codeSnippets) {
+                question.codeSnippets.forEach(i => {
+                    if (i.lang === "JavaScript") code = i.code;
+                });
+                question.codeSnippets = code;
+                question.difficulty = dictDiffculty[question.difficulty];
+                question.translatedContent = html2txt(question.translatedContent);
+                leetCodeData.push(question);
+            }
             // console.log(JSON.stringify(question) + ",");
         }
     });

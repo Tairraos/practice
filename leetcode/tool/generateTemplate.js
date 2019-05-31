@@ -1,9 +1,10 @@
 /**
- * 先在 node 里执行 getOperateList.js，抓回缺失的模板slugTitle列表，把列表替换第 14 行的 operateList
- * 然后把所有代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑，因为有 CSRF 校验，必须在这个页面跑
- * 如果有错误，需要更新本代码里的 x-csrftoken，可以从页面的 cookie 里看到有效的 token
- * 得到输出后，把它帖到 data.js 里，用 node 执行 getPageData.js 生成模板
- * 生成完后把 data.js 里的数据移动到 oldData.js 里备份。
+ * 1 用 node 执行 getOperateList.js，抓回缺失的模板slugTitle列表，执行结果为待抓取题目的 titleSlug 列表
+ * 2 打开 getPageData.js，用上面步骤的执行结果替换第 15 行的 operateList
+ * 3 从页面里得到有效的 csrfToken，更新在 getPageData.js 第 22 行
+ * 4 把修改过的 getPageData.js 代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑
+ * 5 从 console 得到输出后，把它帖到 data.js 里，用 node 执行 generateTemplate.js 生成模板
+ * 6 生成完后把 data.js 里的数据移动到 oldData.js 里备份。
  * 
  * 本工具会生成leetcode答题模板
  * 按题目编号每100题一个目录

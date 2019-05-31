@@ -54,34 +54,41 @@
  * @return {boolean}
  */
 var isMatch = function (s, p) {
-    //特例，如果s===p返回true，包括了输入一对空
+    //特例
     if (p === s) return true;
-    //特例，如果p是*开头，或包含 ** 正则语法错误，直接返回false
+    //如果p是*开头，或包含 ** 正则语法错误，直接返回false
     if (p[0] === "*" || p.includes("**")) return false;
-    //处理正则，拆成四种情形，[单个字符]，[字符*], [.], [.*]
-    let r = []; p.split("").forEach(c => c === "*" ? r.push(r.pop() + "*") : r.push(c));
-    let ignore = "", cur = r.shift();
-    s.split.forEach((c, i) => {
-        if (c=r){}
-        // switch
+    //处理正则，拆成四种情形，[字串]，[字符*], [.], [.*]
+    let r = [""];
+    p.split("").forEach(c =>
+        c === "*" ?
+        r.push(r.slice(-1)[0].slice(0, -1), r.pop().slice(-1) + "*") :
+        c === "." ? r.push(c) : r.push(r.pop() + c));
 
-    });
+    console.log(r);
+    // let ignore = "",
+    //     cur = r.shift();
+    // s.split.forEach((c, i) => {
+    //     if (c = r) {}
+    //     // switch
+
+    // });
 
 };
+isMatch("", "aa.*dd.ddb*sss.*");
+// // Local test
+// let assert = require("assert");
+// console.time("leetcode");
 
-// Local test
-let assert = require("assert");
-console.time("leetcode");
+// assert.deepEqual(isMatch("a", "."), true);
+// assert.deepEqual(isMatch("aa", "a"), false);
+// assert.deepEqual(isMatch("ab", ".*"), true);
+// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*"), true);
+// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*bb.*"), true);
+// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa...bb.*"), true);
+// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd.*"), true);
+// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd.dd.*"), true);
+// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd"), true);
 
-assert.deepEqual(isMatch("a", "."), true);
-assert.deepEqual(isMatch("aa", "a"), false);
-assert.deepEqual(isMatch("ab", ".*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*bb.*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa...bb.*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd.*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd.dd.*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd"), true);
-
-console.log("哈哈哈哈，所有Case都通过了");
-console.timeEnd("leetcode");
+// console.log("哈哈哈哈，所有Case都通过了");
+// console.timeEnd("leetcode");
