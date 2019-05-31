@@ -15,7 +15,7 @@ let x = require("xtool.js"),
 questionData.forEach(item => titleDict[item.questionId] = item);
 
 readme.push("### Leetcode 已完成题目列表");
-readme.push(`完成度：${doneList.length}/${questionData.length-paid.length} (有${paid.length}题付费题未计算在总数内, 附[所有题目清单](list.md))`);
+readme.push(`完成度：${doneList.length}/${questionData.length-paid.length} (有${paid.length}题付费题未计算在总数内, 附[所有题目清单](LIST.md))`);
 doneList.forEach(
     item => {
         let qid = item.replace(/.*(\d\d\d\d)\.[\w-]+\.js/, "$1"),
