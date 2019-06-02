@@ -1,6 +1,6 @@
 ## 本Repo是小乐解题使用。大家一起来刷题呀。
 
-**拜托 Repo 内容要转裁一定要通过我同意！！！**
+**拜托 Repo 内容要转载一定要通过我同意！！！**
   
 Leetcode：
 - 题目多, 有分类, 非收费题目可以自由选择完成顺序
@@ -10,7 +10,7 @@ Leetcode：
 - 有提交错误记录, 对自己检查代码要求高
 - 部分题目提供解题思路
 - 评论区所有语言解答混在一起，不需要解答完成就能必须在线答题  
-- 目前有 1015 题，其中 844 题免费题目 (中文站仅能看到免费题目)
+- 目前有 1054 题，其中 885 题免费
 
 CheckIO：
 - 提供离线 client, 可以直接把题目同步到本地, 在 IDE 里写代码
@@ -22,18 +22,20 @@ CheckIO：
 ## leetcode 本地IDE调试指南
 ### 获取所有代码
 ```
-npm i xtool.js
+npm i
+cd leetcode/tool/
+mv oldDate.js date.js
 node generateTemplate.js
 ```
-会在当前目录下生成leetcode/template目录，按题目编码分别放进相应的子目录里。  
+会在当前目录下生成 leetcode/template 目录，按题目编码分别放进相应的子目录里。  
 生成的答题模板包含题目描述，难度，和调试用的框架代码。  
 执行的时候会统计代码执行时间。  
 
 ### 安装断言支持
-``` 
-npm i assert
 ```
-安装完断言库，可以直接使用node-inspector来打断点调试代码。用vscode或webstorms来调试会更方便。  
+npm i
+```
+安装完断言库，可以直接使用node-inspector来打断点调试代码。用 vscode 或 webstorms 来调试会更方便。  
 以上步骤生成的代码模板带着test case模板，还需要在写代码的时候补写测试case。  
 建议先考虑Case，尽可能多地考虑边界条件。空输入，超大超长输入，负数，都应该考虑。TDD是一种修养。  
 
