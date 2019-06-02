@@ -37,8 +37,8 @@ var isOneBitCharacter = function(bits) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(isOneBitCharacter("参数"), "期望结果");
-assert.deepEqual(isOneBitCharacter("参数"), "期望结果");
+assert.deepEqual(isOneBitCharacter("param"), "expect", "caseName");
+assert.deepEqual(isOneBitCharacter("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

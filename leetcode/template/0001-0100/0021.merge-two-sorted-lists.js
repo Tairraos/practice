@@ -30,8 +30,8 @@ var mergeTwoLists = function(l1, l2) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(mergeTwoLists("参数"), "期望结果");
-assert.deepEqual(mergeTwoLists("参数"), "期望结果");
+assert.deepEqual(mergeTwoLists("param"), "expect", "caseName");
+assert.deepEqual(mergeTwoLists("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

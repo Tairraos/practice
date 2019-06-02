@@ -43,8 +43,8 @@ var calculateMinimumHP = function(dungeon) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(calculateMinimumHP("参数"), "期望结果");
-assert.deepEqual(calculateMinimumHP("参数"), "期望结果");
+assert.deepEqual(calculateMinimumHP("param"), "expect", "caseName");
+assert.deepEqual(calculateMinimumHP("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

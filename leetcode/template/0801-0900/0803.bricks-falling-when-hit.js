@@ -43,8 +43,8 @@ var hitBricks = function(grid, hits) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(hitBricks("参数"), "期望结果");
-assert.deepEqual(hitBricks("参数"), "期望结果");
+assert.deepEqual(hitBricks("param"), "expect", "caseName");
+assert.deepEqual(hitBricks("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -33,8 +33,8 @@ var maxProfit = function(k, prices) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(maxProfit("参数"), "期望结果");
-assert.deepEqual(maxProfit("参数"), "期望结果");
+assert.deepEqual(maxProfit("param"), "expect", "caseName");
+assert.deepEqual(maxProfit("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

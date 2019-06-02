@@ -39,8 +39,8 @@ var reachingPoints = function(sx, sy, tx, ty) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(reachingPoints("参数"), "期望结果");
-assert.deepEqual(reachingPoints("参数"), "期望结果");
+assert.deepEqual(reachingPoints("param"), "expect", "caseName");
+assert.deepEqual(reachingPoints("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

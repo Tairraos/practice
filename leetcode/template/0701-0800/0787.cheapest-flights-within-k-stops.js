@@ -52,8 +52,8 @@ var findCheapestPrice = function(n, flights, src, dst, K) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findCheapestPrice("参数"), "期望结果");
-assert.deepEqual(findCheapestPrice("参数"), "期望结果");
+assert.deepEqual(findCheapestPrice("param"), "expect", "caseName");
+assert.deepEqual(findCheapestPrice("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

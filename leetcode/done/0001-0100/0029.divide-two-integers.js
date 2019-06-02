@@ -28,7 +28,7 @@
 var divide = function (dividend, divisor) {
     //32位整符号整型运算超界特例
     if (dividend <= -2147483648 && divisor === -1) return 2147483647;
-    var [isNag, dividend, divisor] = [dividend < 0 ^ divisor < 0, Math.abs(dividend), Math.abs(divisor)];
+    let [isNag, dividend, divisor] = [dividend < 0 ^ divisor < 0, Math.abs(dividend), Math.abs(divisor)];
 
     let result = 0;
     while (dividend >= divisor) {

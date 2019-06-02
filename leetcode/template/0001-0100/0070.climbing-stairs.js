@@ -36,8 +36,8 @@ var climbStairs = function(n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(climbStairs("参数"), "期望结果");
-assert.deepEqual(climbStairs("参数"), "期望结果");
+assert.deepEqual(climbStairs("param"), "expect", "caseName");
+assert.deepEqual(climbStairs("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

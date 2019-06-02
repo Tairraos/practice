@@ -40,8 +40,8 @@ var findRestaurant = function(list1, list2) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findRestaurant("参数"), "期望结果");
-assert.deepEqual(findRestaurant("参数"), "期望结果");
+assert.deepEqual(findRestaurant("param"), "expect", "caseName");
+assert.deepEqual(findRestaurant("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

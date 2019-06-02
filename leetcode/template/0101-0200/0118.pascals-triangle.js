@@ -31,8 +31,8 @@ var generate = function(numRows) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(generate("参数"), "期望结果");
-assert.deepEqual(generate("参数"), "期望结果");
+assert.deepEqual(generate("param"), "expect", "caseName");
+assert.deepEqual(generate("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

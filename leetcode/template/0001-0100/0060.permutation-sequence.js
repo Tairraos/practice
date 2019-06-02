@@ -39,8 +39,8 @@ var getPermutation = function(n, k) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(getPermutation("参数"), "期望结果");
-assert.deepEqual(getPermutation("参数"), "期望结果");
+assert.deepEqual(getPermutation("param"), "expect", "caseName");
+assert.deepEqual(getPermutation("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

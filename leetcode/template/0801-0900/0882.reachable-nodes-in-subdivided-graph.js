@@ -46,8 +46,8 @@ var reachableNodes = function(edges, M, N) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(reachableNodes("参数"), "期望结果");
-assert.deepEqual(reachableNodes("参数"), "期望结果");
+assert.deepEqual(reachableNodes("param"), "expect", "caseName");
+assert.deepEqual(reachableNodes("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

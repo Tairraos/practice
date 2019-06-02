@@ -41,7 +41,7 @@
  * @return {number}
  */
 var removeDuplicates = function (nums) {
-    var [index, times] = [0, nums.length];
+    let [index, times] = [0, nums.length];
     //同第26题。如果（值===前2个值）就移除，指针不动。如果值不等于就移动指针。
     while (times--) nums[index] === nums[index - 2] ? nums.splice(index, 1) : index++;
     return nums.length;

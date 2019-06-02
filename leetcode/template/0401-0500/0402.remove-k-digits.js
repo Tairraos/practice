@@ -38,8 +38,8 @@ var removeKdigits = function(num, k) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(removeKdigits("参数"), "期望结果");
-assert.deepEqual(removeKdigits("参数"), "期望结果");
+assert.deepEqual(removeKdigits("param"), "expect", "caseName");
+assert.deepEqual(removeKdigits("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

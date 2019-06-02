@@ -37,8 +37,8 @@ var sortedArrayToBST = function(nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(sortedArrayToBST("参数"), "期望结果");
-assert.deepEqual(sortedArrayToBST("参数"), "期望结果");
+assert.deepEqual(sortedArrayToBST("param"), "expect", "caseName");
+assert.deepEqual(sortedArrayToBST("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

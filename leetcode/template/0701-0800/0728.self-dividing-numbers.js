@@ -31,8 +31,8 @@ var selfDividingNumbers = function(left, right) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(selfDividingNumbers("参数"), "期望结果");
-assert.deepEqual(selfDividingNumbers("参数"), "期望结果");
+assert.deepEqual(selfDividingNumbers("param"), "expect", "caseName");
+assert.deepEqual(selfDividingNumbers("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

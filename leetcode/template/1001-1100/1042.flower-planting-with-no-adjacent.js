@@ -45,8 +45,8 @@ var gardenNoAdj = function(N, paths) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(gardenNoAdj("参数"), "期望结果");
-assert.deepEqual(gardenNoAdj("参数"), "期望结果");
+assert.deepEqual(gardenNoAdj("param"), "expect", "caseName");
+assert.deepEqual(gardenNoAdj("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

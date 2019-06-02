@@ -36,8 +36,8 @@ var imageSmoother = function(M) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(imageSmoother("参数"), "期望结果");
-assert.deepEqual(imageSmoother("参数"), "期望结果");
+assert.deepEqual(imageSmoother("param"), "expect", "caseName");
+assert.deepEqual(imageSmoother("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

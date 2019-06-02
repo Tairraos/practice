@@ -31,8 +31,8 @@ var containsNearbyDuplicate = function(nums, k) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(containsNearbyDuplicate("参数"), "期望结果");
-assert.deepEqual(containsNearbyDuplicate("参数"), "期望结果");
+assert.deepEqual(containsNearbyDuplicate("param"), "expect", "caseName");
+assert.deepEqual(containsNearbyDuplicate("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

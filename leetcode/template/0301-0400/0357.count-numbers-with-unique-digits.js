@@ -23,8 +23,8 @@ var countNumbersWithUniqueDigits = function(n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(countNumbersWithUniqueDigits("参数"), "期望结果");
-assert.deepEqual(countNumbersWithUniqueDigits("参数"), "期望结果");
+assert.deepEqual(countNumbersWithUniqueDigits("param"), "expect", "caseName");
+assert.deepEqual(countNumbersWithUniqueDigits("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

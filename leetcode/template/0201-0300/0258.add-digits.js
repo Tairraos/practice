@@ -26,8 +26,8 @@ var addDigits = function(num) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(addDigits("参数"), "期望结果");
-assert.deepEqual(addDigits("参数"), "期望结果");
+assert.deepEqual(addDigits("param"), "expect", "caseName");
+assert.deepEqual(addDigits("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

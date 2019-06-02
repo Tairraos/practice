@@ -25,7 +25,7 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var sortColors = function (nums) {
-    var [index, times] = [0, nums.length];
+    let [index, times] = [0, nums.length];
     while (times--)
         //遍历数组，index为指针。，指针不动。如果值不等于0就移动指针。
         nums[index] === 0 ? nums.unshift(nums.splice(index++, 1)[0]) : //如果值为 0 就移到开头

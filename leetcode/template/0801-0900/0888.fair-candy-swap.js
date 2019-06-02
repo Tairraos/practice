@@ -46,8 +46,8 @@ var fairCandySwap = function(A, B) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(fairCandySwap("参数"), "期望结果");
-assert.deepEqual(fairCandySwap("参数"), "期望结果");
+assert.deepEqual(fairCandySwap("param"), "expect", "caseName");
+assert.deepEqual(fairCandySwap("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

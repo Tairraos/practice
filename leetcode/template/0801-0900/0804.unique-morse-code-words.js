@@ -38,8 +38,8 @@ var uniqueMorseRepresentations = function(words) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(uniqueMorseRepresentations("参数"), "期望结果");
-assert.deepEqual(uniqueMorseRepresentations("参数"), "期望结果");
+assert.deepEqual(uniqueMorseRepresentations("param"), "expect", "caseName");
+assert.deepEqual(uniqueMorseRepresentations("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

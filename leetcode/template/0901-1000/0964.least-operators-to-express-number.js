@@ -45,8 +45,8 @@ var leastOpsExpressTarget = function(x, target) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(leastOpsExpressTarget("参数"), "期望结果");
-assert.deepEqual(leastOpsExpressTarget("参数"), "期望结果");
+assert.deepEqual(leastOpsExpressTarget("param"), "expect", "caseName");
+assert.deepEqual(leastOpsExpressTarget("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

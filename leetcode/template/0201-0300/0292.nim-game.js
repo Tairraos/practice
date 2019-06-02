@@ -25,8 +25,8 @@ var canWinNim = function(n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(canWinNim("参数"), "期望结果");
-assert.deepEqual(canWinNim("参数"), "期望结果");
+assert.deepEqual(canWinNim("param"), "expect", "caseName");
+assert.deepEqual(canWinNim("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

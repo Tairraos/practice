@@ -27,8 +27,8 @@ var rangeBitwiseAnd = function(m, n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(rangeBitwiseAnd("参数"), "期望结果");
-assert.deepEqual(rangeBitwiseAnd("参数"), "期望结果");
+assert.deepEqual(rangeBitwiseAnd("param"), "expect", "caseName");
+assert.deepEqual(rangeBitwiseAnd("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

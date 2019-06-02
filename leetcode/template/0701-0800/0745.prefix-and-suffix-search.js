@@ -45,8 +45,8 @@ WordFilter.prototype.f = function(prefix, suffix) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(WordFilter("参数"), "期望结果");
-assert.deepEqual(WordFilter("参数"), "期望结果");
+assert.deepEqual(WordFilter("param"), "expect", "caseName");
+assert.deepEqual(WordFilter("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

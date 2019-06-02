@@ -34,8 +34,8 @@ var minSteps = function(n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(minSteps("参数"), "期望结果");
-assert.deepEqual(minSteps("参数"), "期望结果");
+assert.deepEqual(minSteps("param"), "expect", "caseName");
+assert.deepEqual(minSteps("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

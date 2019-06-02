@@ -50,8 +50,8 @@ var numComponents = function(head, G) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(numComponents("参数"), "期望结果");
-assert.deepEqual(numComponents("参数"), "期望结果");
+assert.deepEqual(numComponents("param"), "expect", "caseName");
+assert.deepEqual(numComponents("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

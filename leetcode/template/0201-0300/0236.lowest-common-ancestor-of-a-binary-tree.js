@@ -45,8 +45,8 @@ var lowestCommonAncestor = function(root, p, q) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(lowestCommonAncestor("参数"), "期望结果");
-assert.deepEqual(lowestCommonAncestor("参数"), "期望结果");
+assert.deepEqual(lowestCommonAncestor("param"), "expect", "caseName");
+assert.deepEqual(lowestCommonAncestor("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

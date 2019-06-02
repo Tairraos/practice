@@ -34,8 +34,8 @@ var numberToWords = function(num) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(numberToWords("参数"), "期望结果");
-assert.deepEqual(numberToWords("参数"), "期望结果");
+assert.deepEqual(numberToWords("param"), "expect", "caseName");
+assert.deepEqual(numberToWords("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

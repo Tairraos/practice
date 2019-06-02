@@ -34,8 +34,8 @@ var numBusesToDestination = function(routes, S, T) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(numBusesToDestination("参数"), "期望结果");
-assert.deepEqual(numBusesToDestination("参数"), "期望结果");
+assert.deepEqual(numBusesToDestination("param"), "expect", "caseName");
+assert.deepEqual(numBusesToDestination("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

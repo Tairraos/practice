@@ -36,8 +36,8 @@ var largestValues = function(root) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(largestValues("参数"), "期望结果");
-assert.deepEqual(largestValues("参数"), "期望结果");
+assert.deepEqual(largestValues("param"), "expect", "caseName");
+assert.deepEqual(largestValues("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

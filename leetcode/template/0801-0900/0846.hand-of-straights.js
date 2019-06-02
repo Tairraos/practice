@@ -36,8 +36,8 @@ var isNStraightHand = function(hand, W) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(isNStraightHand("参数"), "期望结果");
-assert.deepEqual(isNStraightHand("参数"), "期望结果");
+assert.deepEqual(isNStraightHand("param"), "expect", "caseName");
+assert.deepEqual(isNStraightHand("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

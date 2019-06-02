@@ -54,8 +54,8 @@ NumArray.prototype.sumRange = function(i, j) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(NumArray("参数"), "期望结果");
-assert.deepEqual(NumArray("参数"), "期望结果");
+assert.deepEqual(NumArray("param"), "expect", "caseName");
+assert.deepEqual(NumArray("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

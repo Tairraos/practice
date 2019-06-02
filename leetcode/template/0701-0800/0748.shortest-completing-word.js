@@ -40,8 +40,8 @@ var shortestCompletingWord = function(licensePlate, words) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(shortestCompletingWord("参数"), "期望结果");
-assert.deepEqual(shortestCompletingWord("参数"), "期望结果");
+assert.deepEqual(shortestCompletingWord("param"), "expect", "caseName");
+assert.deepEqual(shortestCompletingWord("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

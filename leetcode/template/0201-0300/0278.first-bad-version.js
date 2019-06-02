@@ -45,8 +45,8 @@ var solution = function(isBadVersion) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(solution("参数"), "期望结果");
-assert.deepEqual(solution("参数"), "期望结果");
+assert.deepEqual(solution("param"), "expect", "caseName");
+assert.deepEqual(solution("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

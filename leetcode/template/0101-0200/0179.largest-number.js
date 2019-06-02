@@ -28,8 +28,8 @@ var largestNumber = function(nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(largestNumber("参数"), "期望结果");
-assert.deepEqual(largestNumber("参数"), "期望结果");
+assert.deepEqual(largestNumber("param"), "expect", "caseName");
+assert.deepEqual(largestNumber("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

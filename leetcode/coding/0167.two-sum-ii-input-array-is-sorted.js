@@ -22,15 +22,14 @@
  * @return {number[]}
  */
 var twoSum = function(numbers, target) {
-    
 };
 
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(twoSum("参数"), "期望结果");
-assert.deepEqual(twoSum("参数"), "期望结果");
+assert.deepEqual(twoSum("param"), "expect", "caseName");
+assert.deepEqual(twoSum("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

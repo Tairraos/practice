@@ -78,8 +78,8 @@ RandomizedCollection.prototype.getRandom = function() {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(RandomizedCollection("参数"), "期望结果");
-assert.deepEqual(RandomizedCollection("参数"), "期望结果");
+assert.deepEqual(RandomizedCollection("param"), "expect", "caseName");
+assert.deepEqual(RandomizedCollection("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

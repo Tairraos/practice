@@ -39,8 +39,8 @@ var canIWin = function(maxChoosableInteger, desiredTotal) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(canIWin("参数"), "期望结果");
-assert.deepEqual(canIWin("参数"), "期望结果");
+assert.deepEqual(canIWin("param"), "expect", "caseName");
+assert.deepEqual(canIWin("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -36,8 +36,8 @@ var removeBoxes = function(boxes) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(removeBoxes("参数"), "期望结果");
-assert.deepEqual(removeBoxes("参数"), "期望结果");
+assert.deepEqual(removeBoxes("param"), "expect", "caseName");
+assert.deepEqual(removeBoxes("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

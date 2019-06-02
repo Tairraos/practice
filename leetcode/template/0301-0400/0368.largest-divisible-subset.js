@@ -27,8 +27,8 @@ var largestDivisibleSubset = function(nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(largestDivisibleSubset("参数"), "期望结果");
-assert.deepEqual(largestDivisibleSubset("参数"), "期望结果");
+assert.deepEqual(largestDivisibleSubset("param"), "expect", "caseName");
+assert.deepEqual(largestDivisibleSubset("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

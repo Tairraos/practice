@@ -37,8 +37,8 @@ var splitArray = function(nums, m) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(splitArray("参数"), "期望结果");
-assert.deepEqual(splitArray("参数"), "期望结果");
+assert.deepEqual(splitArray("param"), "expect", "caseName");
+assert.deepEqual(splitArray("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

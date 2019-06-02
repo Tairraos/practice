@@ -45,8 +45,8 @@ var evalRPN = function(tokens) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(evalRPN("参数"), "期望结果");
-assert.deepEqual(evalRPN("参数"), "期望结果");
+assert.deepEqual(evalRPN("param"), "expect", "caseName");
+assert.deepEqual(evalRPN("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -49,8 +49,8 @@ var pyramidTransition = function(bottom, allowed) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(pyramidTransition("参数"), "期望结果");
-assert.deepEqual(pyramidTransition("参数"), "期望结果");
+assert.deepEqual(pyramidTransition("param"), "expect", "caseName");
+assert.deepEqual(pyramidTransition("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

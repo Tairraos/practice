@@ -60,8 +60,8 @@ LFUCache.prototype.put = function(key, value) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(LFUCache("参数"), "期望结果");
-assert.deepEqual(LFUCache("参数"), "期望结果");
+assert.deepEqual(LFUCache("param"), "expect", "caseName");
+assert.deepEqual(LFUCache("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

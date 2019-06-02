@@ -40,8 +40,8 @@ var kClosest = function(points, K) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(kClosest("参数"), "期望结果");
-assert.deepEqual(kClosest("参数"), "期望结果");
+assert.deepEqual(kClosest("param"), "expect", "caseName");
+assert.deepEqual(kClosest("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

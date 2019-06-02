@@ -53,8 +53,8 @@ var asteroidCollision = function(asteroids) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(asteroidCollision("参数"), "期望结果");
-assert.deepEqual(asteroidCollision("参数"), "期望结果");
+assert.deepEqual(asteroidCollision("param"), "expect", "caseName");
+assert.deepEqual(asteroidCollision("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

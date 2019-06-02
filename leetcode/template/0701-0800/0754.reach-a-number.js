@@ -38,8 +38,8 @@ var reachNumber = function(target) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(reachNumber("参数"), "期望结果");
-assert.deepEqual(reachNumber("参数"), "期望结果");
+assert.deepEqual(reachNumber("param"), "expect", "caseName");
+assert.deepEqual(reachNumber("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

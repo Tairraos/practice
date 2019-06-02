@@ -33,8 +33,8 @@ var sumSubseqWidths = function(A) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(sumSubseqWidths("参数"), "期望结果");
-assert.deepEqual(sumSubseqWidths("参数"), "期望结果");
+assert.deepEqual(sumSubseqWidths("param"), "expect", "caseName");
+assert.deepEqual(sumSubseqWidths("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

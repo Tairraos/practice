@@ -45,8 +45,8 @@ var findKthNumber = function(m, n, k) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findKthNumber("参数"), "期望结果");
-assert.deepEqual(findKthNumber("参数"), "期望结果");
+assert.deepEqual(findKthNumber("param"), "expect", "caseName");
+assert.deepEqual(findKthNumber("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

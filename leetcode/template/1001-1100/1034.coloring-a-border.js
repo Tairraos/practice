@@ -47,8 +47,8 @@ var colorBorder = function(grid, r0, c0, color) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(colorBorder("参数"), "期望结果");
-assert.deepEqual(colorBorder("参数"), "期望结果");
+assert.deepEqual(colorBorder("param"), "expect", "caseName");
+assert.deepEqual(colorBorder("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

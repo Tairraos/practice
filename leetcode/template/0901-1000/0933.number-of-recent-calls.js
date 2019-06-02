@@ -42,8 +42,8 @@ RecentCounter.prototype.ping = function(t) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(RecentCounter("参数"), "期望结果");
-assert.deepEqual(RecentCounter("参数"), "期望结果");
+assert.deepEqual(RecentCounter("param"), "expect", "caseName");
+assert.deepEqual(RecentCounter("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -25,7 +25,7 @@
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 var merge = function (nums1, m, nums2, n) {
-    var index = 0; //nums1的指针
+    let index = 0; //nums1的指针
     nums1.splice(m), nums2.splice(n); //修剪数组多余尾部元素防止干扰
     while (nums2.length) //如果nums1指针位置的值比nums2[0]要大，或者指针已经到尾部，则把nums2[0]插在指针位置
         nums1[index] >= nums2[0] || index >= nums1.length ? nums1.splice(index++, 0, nums2.shift()) : index++;

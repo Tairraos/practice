@@ -43,8 +43,8 @@ var deleteNode = function(node) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(deleteNode("参数"), "期望结果");
-assert.deepEqual(deleteNode("参数"), "期望结果");
+assert.deepEqual(deleteNode("param"), "expect", "caseName");
+assert.deepEqual(deleteNode("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

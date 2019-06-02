@@ -40,8 +40,8 @@ var findRotateSteps = function(ring, key) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findRotateSteps("参数"), "期望结果");
-assert.deepEqual(findRotateSteps("参数"), "期望结果");
+assert.deepEqual(findRotateSteps("param"), "expect", "caseName");
+assert.deepEqual(findRotateSteps("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -39,8 +39,8 @@ var findPoisonedDuration = function(timeSeries, duration) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findPoisonedDuration("参数"), "期望结果");
-assert.deepEqual(findPoisonedDuration("参数"), "期望结果");
+assert.deepEqual(findPoisonedDuration("param"), "expect", "caseName");
+assert.deepEqual(findPoisonedDuration("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

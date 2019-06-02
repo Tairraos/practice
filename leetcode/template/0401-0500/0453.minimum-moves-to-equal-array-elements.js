@@ -30,8 +30,8 @@ var minMoves = function(nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(minMoves("参数"), "期望结果");
-assert.deepEqual(minMoves("参数"), "期望结果");
+assert.deepEqual(minMoves("param"), "expect", "caseName");
+assert.deepEqual(minMoves("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

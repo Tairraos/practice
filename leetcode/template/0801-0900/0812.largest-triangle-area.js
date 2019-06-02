@@ -31,8 +31,8 @@ var largestTriangleArea = function(points) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(largestTriangleArea("参数"), "期望结果");
-assert.deepEqual(largestTriangleArea("参数"), "期望结果");
+assert.deepEqual(largestTriangleArea("param"), "expect", "caseName");
+assert.deepEqual(largestTriangleArea("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

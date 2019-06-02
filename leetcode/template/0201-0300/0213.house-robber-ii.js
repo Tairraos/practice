@@ -30,8 +30,8 @@ var rob = function(nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(rob("参数"), "期望结果");
-assert.deepEqual(rob("参数"), "期望结果");
+assert.deepEqual(rob("param"), "expect", "caseName");
+assert.deepEqual(rob("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

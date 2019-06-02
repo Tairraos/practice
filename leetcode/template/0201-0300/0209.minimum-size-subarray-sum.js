@@ -27,8 +27,8 @@ var minSubArrayLen = function(s, nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(minSubArrayLen("参数"), "期望结果");
-assert.deepEqual(minSubArrayLen("参数"), "期望结果");
+assert.deepEqual(minSubArrayLen("param"), "expect", "caseName");
+assert.deepEqual(minSubArrayLen("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

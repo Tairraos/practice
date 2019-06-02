@@ -39,8 +39,8 @@ var kSmallestPairs = function(nums1, nums2, k) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(kSmallestPairs("参数"), "期望结果");
-assert.deepEqual(kSmallestPairs("参数"), "期望结果");
+assert.deepEqual(kSmallestPairs("param"), "expect", "caseName");
+assert.deepEqual(kSmallestPairs("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -68,8 +68,8 @@ var printTree = function(root) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(printTree("参数"), "期望结果");
-assert.deepEqual(printTree("参数"), "期望结果");
+assert.deepEqual(printTree("param"), "expect", "caseName");
+assert.deepEqual(printTree("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

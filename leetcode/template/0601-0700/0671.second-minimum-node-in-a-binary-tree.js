@@ -48,8 +48,8 @@ var findSecondMinimumValue = function(root) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findSecondMinimumValue("参数"), "期望结果");
-assert.deepEqual(findSecondMinimumValue("参数"), "期望结果");
+assert.deepEqual(findSecondMinimumValue("param"), "expect", "caseName");
+assert.deepEqual(findSecondMinimumValue("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

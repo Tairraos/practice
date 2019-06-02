@@ -64,8 +64,8 @@ var maskPII = function(S) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(maskPII("参数"), "期望结果");
-assert.deepEqual(maskPII("参数"), "期望结果");
+assert.deepEqual(maskPII("param"), "expect", "caseName");
+assert.deepEqual(maskPII("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

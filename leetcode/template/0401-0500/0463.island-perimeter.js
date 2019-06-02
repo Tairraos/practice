@@ -33,8 +33,8 @@ var islandPerimeter = function(grid) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(islandPerimeter("参数"), "期望结果");
-assert.deepEqual(islandPerimeter("参数"), "期望结果");
+assert.deepEqual(islandPerimeter("param"), "expect", "caseName");
+assert.deepEqual(islandPerimeter("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

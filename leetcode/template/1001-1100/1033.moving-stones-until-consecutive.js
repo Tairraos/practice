@@ -42,8 +42,8 @@ var numMovesStones = function(a, b, c) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(numMovesStones("参数"), "期望结果");
-assert.deepEqual(numMovesStones("参数"), "期望结果");
+assert.deepEqual(numMovesStones("param"), "expect", "caseName");
+assert.deepEqual(numMovesStones("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

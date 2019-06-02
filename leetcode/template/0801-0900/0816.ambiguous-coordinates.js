@@ -44,8 +44,8 @@ var ambiguousCoordinates = function(S) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(ambiguousCoordinates("参数"), "期望结果");
-assert.deepEqual(ambiguousCoordinates("参数"), "期望结果");
+assert.deepEqual(ambiguousCoordinates("param"), "expect", "caseName");
+assert.deepEqual(ambiguousCoordinates("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

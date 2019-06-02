@@ -31,8 +31,8 @@ var originalDigits = function(s) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(originalDigits("参数"), "期望结果");
-assert.deepEqual(originalDigits("参数"), "期望结果");
+assert.deepEqual(originalDigits("param"), "expect", "caseName");
+assert.deepEqual(originalDigits("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

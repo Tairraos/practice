@@ -30,8 +30,8 @@ var findLUSlength = function(a, b) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findLUSlength("参数"), "期望结果");
-assert.deepEqual(findLUSlength("参数"), "期望结果");
+assert.deepEqual(findLUSlength("param"), "expect", "caseName");
+assert.deepEqual(findLUSlength("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

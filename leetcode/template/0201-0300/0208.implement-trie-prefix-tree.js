@@ -66,8 +66,8 @@ Trie.prototype.startsWith = function(prefix) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(Trie("参数"), "期望结果");
-assert.deepEqual(Trie("参数"), "期望结果");
+assert.deepEqual(Trie("param"), "expect", "caseName");
+assert.deepEqual(Trie("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

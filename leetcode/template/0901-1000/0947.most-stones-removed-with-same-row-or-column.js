@@ -38,8 +38,8 @@ var removeStones = function(stones) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(removeStones("参数"), "期望结果");
-assert.deepEqual(removeStones("参数"), "期望结果");
+assert.deepEqual(removeStones("param"), "expect", "caseName");
+assert.deepEqual(removeStones("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

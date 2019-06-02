@@ -45,8 +45,8 @@ var profitableSchemes = function(G, P, group, profit) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(profitableSchemes("参数"), "期望结果");
-assert.deepEqual(profitableSchemes("参数"), "期望结果");
+assert.deepEqual(profitableSchemes("param"), "expect", "caseName");
+assert.deepEqual(profitableSchemes("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

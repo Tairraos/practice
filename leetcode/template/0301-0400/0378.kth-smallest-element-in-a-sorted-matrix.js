@@ -33,8 +33,8 @@ var kthSmallest = function(matrix, k) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(kthSmallest("参数"), "期望结果");
-assert.deepEqual(kthSmallest("参数"), "期望结果");
+assert.deepEqual(kthSmallest("param"), "expect", "caseName");
+assert.deepEqual(kthSmallest("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

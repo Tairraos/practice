@@ -48,8 +48,8 @@ var isValid = function(S) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(isValid("参数"), "期望结果");
-assert.deepEqual(isValid("参数"), "期望结果");
+assert.deepEqual(isValid("param"), "expect", "caseName");
+assert.deepEqual(isValid("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -41,8 +41,8 @@ var isPossible = function(nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(isPossible("参数"), "期望结果");
-assert.deepEqual(isPossible("参数"), "期望结果");
+assert.deepEqual(isPossible("param"), "expect", "caseName");
+assert.deepEqual(isPossible("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

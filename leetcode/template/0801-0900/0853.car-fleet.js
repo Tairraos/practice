@@ -43,8 +43,8 @@ var carFleet = function(target, position, speed) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(carFleet("参数"), "期望结果");
-assert.deepEqual(carFleet("参数"), "期望结果");
+assert.deepEqual(carFleet("param"), "expect", "caseName");
+assert.deepEqual(carFleet("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

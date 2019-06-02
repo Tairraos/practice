@@ -36,7 +36,7 @@
  * @return {boolean}
  */
 var isValid = function (s) {
-    var stack = [], dict = {"}": "{", "]": "[", ")": "("};
+    let stack = [], dict = {"}": "{", "]": "[", ")": "("};
     for (let i = 0; i < s.length; i++) {
         //如果是开括号，压栈
         if (!dict[s[i]]) stack.push(s[i]);

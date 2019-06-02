@@ -30,8 +30,8 @@ var trailingZeroes = function(n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(trailingZeroes("参数"), "期望结果");
-assert.deepEqual(trailingZeroes("参数"), "期望结果");
+assert.deepEqual(trailingZeroes("param"), "expect", "caseName");
+assert.deepEqual(trailingZeroes("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

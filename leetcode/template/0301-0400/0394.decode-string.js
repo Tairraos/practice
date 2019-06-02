@@ -26,8 +26,8 @@ var decodeString = function(s) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(decodeString("参数"), "期望结果");
-assert.deepEqual(decodeString("参数"), "期望结果");
+assert.deepEqual(decodeString("param"), "expect", "caseName");
+assert.deepEqual(decodeString("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

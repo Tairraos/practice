@@ -43,8 +43,8 @@ var invertTree = function(root) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(invertTree("参数"), "期望结果");
-assert.deepEqual(invertTree("参数"), "期望结果");
+assert.deepEqual(invertTree("param"), "expect", "caseName");
+assert.deepEqual(invertTree("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

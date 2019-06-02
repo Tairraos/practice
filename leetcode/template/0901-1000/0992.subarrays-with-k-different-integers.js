@@ -36,8 +36,8 @@ var subarraysWithKDistinct = function(A, K) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(subarraysWithKDistinct("参数"), "期望结果");
-assert.deepEqual(subarraysWithKDistinct("参数"), "期望结果");
+assert.deepEqual(subarraysWithKDistinct("param"), "expect", "caseName");
+assert.deepEqual(subarraysWithKDistinct("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

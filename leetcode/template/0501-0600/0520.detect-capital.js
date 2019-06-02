@@ -34,8 +34,8 @@ var detectCapitalUse = function(word) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(detectCapitalUse("参数"), "期望结果");
-assert.deepEqual(detectCapitalUse("参数"), "期望结果");
+assert.deepEqual(detectCapitalUse("param"), "expect", "caseName");
+assert.deepEqual(detectCapitalUse("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

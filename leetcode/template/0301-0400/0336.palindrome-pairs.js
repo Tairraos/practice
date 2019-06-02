@@ -28,8 +28,8 @@ var palindromePairs = function(words) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(palindromePairs("参数"), "期望结果");
-assert.deepEqual(palindromePairs("参数"), "期望结果");
+assert.deepEqual(palindromePairs("param"), "expect", "caseName");
+assert.deepEqual(palindromePairs("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

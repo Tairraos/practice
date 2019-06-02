@@ -45,8 +45,8 @@ var mergeTrees = function(t1, t2) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(mergeTrees("参数"), "期望结果");
-assert.deepEqual(mergeTrees("参数"), "期望结果");
+assert.deepEqual(mergeTrees("param"), "expect", "caseName");
+assert.deepEqual(mergeTrees("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

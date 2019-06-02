@@ -44,8 +44,8 @@ var sortedListToBST = function(head) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(sortedListToBST("参数"), "期望结果");
-assert.deepEqual(sortedListToBST("参数"), "期望结果");
+assert.deepEqual(sortedListToBST("param"), "expect", "caseName");
+assert.deepEqual(sortedListToBST("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

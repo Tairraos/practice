@@ -95,8 +95,8 @@ Twitter.prototype.unfollow = function(followerId, followeeId) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(Twitter("参数"), "期望结果");
-assert.deepEqual(Twitter("参数"), "期望结果");
+assert.deepEqual(Twitter("param"), "expect", "caseName");
+assert.deepEqual(Twitter("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -70,8 +70,8 @@ MyHashSet.prototype.contains = function(key) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(MyHashSet("参数"), "期望结果");
-assert.deepEqual(MyHashSet("参数"), "期望结果");
+assert.deepEqual(MyHashSet("param"), "expect", "caseName");
+assert.deepEqual(MyHashSet("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

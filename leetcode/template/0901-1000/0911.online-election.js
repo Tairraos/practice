@@ -50,8 +50,8 @@ TopVotedCandidate.prototype.q = function(t) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(TopVotedCandidate("参数"), "期望结果");
-assert.deepEqual(TopVotedCandidate("参数"), "期望结果");
+assert.deepEqual(TopVotedCandidate("param"), "expect", "caseName");
+assert.deepEqual(TopVotedCandidate("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

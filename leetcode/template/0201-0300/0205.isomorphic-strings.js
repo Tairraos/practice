@@ -36,8 +36,8 @@ var isIsomorphic = function(s, t) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(isIsomorphic("参数"), "期望结果");
-assert.deepEqual(isIsomorphic("参数"), "期望结果");
+assert.deepEqual(isIsomorphic("param"), "expect", "caseName");
+assert.deepEqual(isIsomorphic("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

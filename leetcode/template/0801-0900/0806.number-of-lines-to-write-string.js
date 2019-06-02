@@ -45,8 +45,8 @@ var numberOfLines = function(widths, S) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(numberOfLines("参数"), "期望结果");
-assert.deepEqual(numberOfLines("参数"), "期望结果");
+assert.deepEqual(numberOfLines("param"), "expect", "caseName");
+assert.deepEqual(numberOfLines("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

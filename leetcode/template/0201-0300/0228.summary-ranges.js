@@ -28,8 +28,8 @@ var summaryRanges = function(nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(summaryRanges("参数"), "期望结果");
-assert.deepEqual(summaryRanges("参数"), "期望结果");
+assert.deepEqual(summaryRanges("param"), "expect", "caseName");
+assert.deepEqual(summaryRanges("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -28,8 +28,8 @@ var convertToBase7 = function(num) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(convertToBase7("参数"), "期望结果");
-assert.deepEqual(convertToBase7("参数"), "期望结果");
+assert.deepEqual(convertToBase7("param"), "expect", "caseName");
+assert.deepEqual(convertToBase7("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

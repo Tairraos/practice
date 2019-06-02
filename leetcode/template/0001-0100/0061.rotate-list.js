@@ -42,8 +42,8 @@ var rotateRight = function(head, k) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(rotateRight("参数"), "期望结果");
-assert.deepEqual(rotateRight("参数"), "期望结果");
+assert.deepEqual(rotateRight("param"), "expect", "caseName");
+assert.deepEqual(rotateRight("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

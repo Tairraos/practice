@@ -53,8 +53,8 @@ var splitListToParts = function(root, k) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(splitListToParts("参数"), "期望结果");
-assert.deepEqual(splitListToParts("参数"), "期望结果");
+assert.deepEqual(splitListToParts("param"), "expect", "caseName");
+assert.deepEqual(splitListToParts("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -42,8 +42,8 @@ var numMagicSquaresInside = function(grid) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(numMagicSquaresInside("参数"), "期望结果");
-assert.deepEqual(numMagicSquaresInside("参数"), "期望结果");
+assert.deepEqual(numMagicSquaresInside("param"), "expect", "caseName");
+assert.deepEqual(numMagicSquaresInside("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

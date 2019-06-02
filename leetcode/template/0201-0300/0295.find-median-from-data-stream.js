@@ -57,8 +57,8 @@ MedianFinder.prototype.findMedian = function() {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(MedianFinder("参数"), "期望结果");
-assert.deepEqual(MedianFinder("参数"), "期望结果");
+assert.deepEqual(MedianFinder("param"), "expect", "caseName");
+assert.deepEqual(MedianFinder("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

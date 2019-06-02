@@ -28,8 +28,8 @@ var networkDelayTime = function(times, N, K) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(networkDelayTime("参数"), "期望结果");
-assert.deepEqual(networkDelayTime("参数"), "期望结果");
+assert.deepEqual(networkDelayTime("param"), "expect", "caseName");
+assert.deepEqual(networkDelayTime("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

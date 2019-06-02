@@ -38,8 +38,8 @@ var findMaxForm = function(strs, m, n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findMaxForm("参数"), "期望结果");
-assert.deepEqual(findMaxForm("参数"), "期望结果");
+assert.deepEqual(findMaxForm("param"), "expect", "caseName");
+assert.deepEqual(findMaxForm("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

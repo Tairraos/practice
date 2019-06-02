@@ -37,8 +37,8 @@ var fourSumCount = function(A, B, C, D) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(fourSumCount("参数"), "期望结果");
-assert.deepEqual(fourSumCount("参数"), "期望结果");
+assert.deepEqual(fourSumCount("param"), "expect", "caseName");
+assert.deepEqual(fourSumCount("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

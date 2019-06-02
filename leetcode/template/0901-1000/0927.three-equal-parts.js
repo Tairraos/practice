@@ -39,8 +39,8 @@ var threeEqualParts = function(A) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(threeEqualParts("参数"), "期望结果");
-assert.deepEqual(threeEqualParts("参数"), "期望结果");
+assert.deepEqual(threeEqualParts("param"), "expect", "caseName");
+assert.deepEqual(threeEqualParts("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

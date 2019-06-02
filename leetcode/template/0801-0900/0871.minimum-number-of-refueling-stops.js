@@ -51,8 +51,8 @@ var minRefuelStops = function(target, startFuel, stations) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(minRefuelStops("参数"), "期望结果");
-assert.deepEqual(minRefuelStops("参数"), "期望结果");
+assert.deepEqual(minRefuelStops("param"), "expect", "caseName");
+assert.deepEqual(minRefuelStops("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

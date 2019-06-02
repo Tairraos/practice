@@ -37,8 +37,8 @@ var minPatches = function(nums, n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(minPatches("参数"), "期望结果");
-assert.deepEqual(minPatches("参数"), "期望结果");
+assert.deepEqual(minPatches("param"), "expect", "caseName");
+assert.deepEqual(minPatches("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

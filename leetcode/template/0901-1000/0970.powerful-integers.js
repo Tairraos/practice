@@ -43,8 +43,8 @@ var powerfulIntegers = function(x, y, bound) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(powerfulIntegers("参数"), "期望结果");
-assert.deepEqual(powerfulIntegers("参数"), "期望结果");
+assert.deepEqual(powerfulIntegers("param"), "expect", "caseName");
+assert.deepEqual(powerfulIntegers("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

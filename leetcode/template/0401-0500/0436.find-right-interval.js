@@ -51,8 +51,8 @@ var findRightInterval = function(intervals) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findRightInterval("参数"), "期望结果");
-assert.deepEqual(findRightInterval("参数"), "期望结果");
+assert.deepEqual(findRightInterval("param"), "expect", "caseName");
+assert.deepEqual(findRightInterval("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

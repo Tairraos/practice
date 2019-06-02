@@ -54,8 +54,8 @@ var rotate = function(matrix) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(rotate("参数"), "期望结果");
-assert.deepEqual(rotate("参数"), "期望结果");
+assert.deepEqual(rotate("param"), "expect", "caseName");
+assert.deepEqual(rotate("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -48,8 +48,8 @@ var isBipartite = function(graph) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(isBipartite("参数"), "期望结果");
-assert.deepEqual(isBipartite("参数"), "期望结果");
+assert.deepEqual(isBipartite("param"), "expect", "caseName");
+assert.deepEqual(isBipartite("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

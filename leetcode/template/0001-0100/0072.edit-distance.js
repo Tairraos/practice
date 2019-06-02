@@ -41,8 +41,8 @@ var minDistance = function(word1, word2) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(minDistance("参数"), "期望结果");
-assert.deepEqual(minDistance("参数"), "期望结果");
+assert.deepEqual(minDistance("param"), "expect", "caseName");
+assert.deepEqual(minDistance("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

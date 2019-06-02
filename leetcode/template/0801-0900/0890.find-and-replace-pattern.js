@@ -35,8 +35,8 @@ var findAndReplacePattern = function(words, pattern) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findAndReplacePattern("参数"), "期望结果");
-assert.deepEqual(findAndReplacePattern("参数"), "期望结果");
+assert.deepEqual(findAndReplacePattern("param"), "expect", "caseName");
+assert.deepEqual(findAndReplacePattern("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

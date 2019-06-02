@@ -77,8 +77,8 @@ var widthOfBinaryTree = function(root) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(widthOfBinaryTree("参数"), "期望结果");
-assert.deepEqual(widthOfBinaryTree("参数"), "期望结果");
+assert.deepEqual(widthOfBinaryTree("param"), "expect", "caseName");
+assert.deepEqual(widthOfBinaryTree("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

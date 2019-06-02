@@ -51,8 +51,8 @@ var findLadders = function(beginWord, endWord, wordList) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findLadders("参数"), "期望结果");
-assert.deepEqual(findLadders("参数"), "期望结果");
+assert.deepEqual(findLadders("param"), "expect", "caseName");
+assert.deepEqual(findLadders("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

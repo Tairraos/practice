@@ -44,8 +44,8 @@ var change = function(amount, coins) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(change("参数"), "期望结果");
-assert.deepEqual(change("参数"), "期望结果");
+assert.deepEqual(change("param"), "expect", "caseName");
+assert.deepEqual(change("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

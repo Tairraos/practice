@@ -33,8 +33,8 @@ var canMeasureWater = function(x, y, z) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(canMeasureWater("参数"), "期望结果");
-assert.deepEqual(canMeasureWater("参数"), "期望结果");
+assert.deepEqual(canMeasureWater("param"), "expect", "caseName");
+assert.deepEqual(canMeasureWater("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

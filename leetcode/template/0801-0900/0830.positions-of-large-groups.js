@@ -38,8 +38,8 @@ var largeGroupPositions = function(S) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(largeGroupPositions("参数"), "期望结果");
-assert.deepEqual(largeGroupPositions("参数"), "期望结果");
+assert.deepEqual(largeGroupPositions("param"), "expect", "caseName");
+assert.deepEqual(largeGroupPositions("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

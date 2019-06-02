@@ -63,8 +63,8 @@ CBTInserter.prototype.get_root = function() {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(CBTInserter("参数"), "期望结果");
-assert.deepEqual(CBTInserter("参数"), "期望结果");
+assert.deepEqual(CBTInserter("param"), "expect", "caseName");
+assert.deepEqual(CBTInserter("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

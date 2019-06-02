@@ -39,8 +39,8 @@ var uniquePaths = function(m, n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(uniquePaths("参数"), "期望结果");
-assert.deepEqual(uniquePaths("参数"), "期望结果");
+assert.deepEqual(uniquePaths("param"), "expect", "caseName");
+assert.deepEqual(uniquePaths("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

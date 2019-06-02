@@ -27,8 +27,8 @@ var superPow = function(a, b) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(superPow("参数"), "期望结果");
-assert.deepEqual(superPow("参数"), "期望结果");
+assert.deepEqual(superPow("param"), "expect", "caseName");
+assert.deepEqual(superPow("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

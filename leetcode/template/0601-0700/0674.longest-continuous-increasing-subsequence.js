@@ -31,8 +31,8 @@ var findLengthOfLCIS = function(nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findLengthOfLCIS("参数"), "期望结果");
-assert.deepEqual(findLengthOfLCIS("参数"), "期望结果");
+assert.deepEqual(findLengthOfLCIS("param"), "expect", "caseName");
+assert.deepEqual(findLengthOfLCIS("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

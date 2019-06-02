@@ -54,8 +54,8 @@ NumMatrix.prototype.sumRegion = function(row1, col1, row2, col2) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(NumMatrix("参数"), "期望结果");
-assert.deepEqual(NumMatrix("参数"), "期望结果");
+assert.deepEqual(NumMatrix("param"), "expect", "caseName");
+assert.deepEqual(NumMatrix("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

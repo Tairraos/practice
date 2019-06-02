@@ -22,8 +22,8 @@ var threeSumClosest = function(nums, target) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(threeSumClosest("参数"), "期望结果");
-assert.deepEqual(threeSumClosest("参数"), "期望结果");
+assert.deepEqual(threeSumClosest("param"), "expect", "caseName");
+assert.deepEqual(threeSumClosest("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

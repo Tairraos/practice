@@ -39,8 +39,8 @@ var topKFrequent = function(words, k) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(topKFrequent("参数"), "期望结果");
-assert.deepEqual(topKFrequent("参数"), "期望结果");
+assert.deepEqual(topKFrequent("param"), "expect", "caseName");
+assert.deepEqual(topKFrequent("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

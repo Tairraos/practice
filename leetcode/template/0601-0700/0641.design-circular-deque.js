@@ -124,8 +124,8 @@ MyCircularDeque.prototype.isFull = function() {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(MyCircularDeque("参数"), "期望结果");
-assert.deepEqual(MyCircularDeque("参数"), "期望结果");
+assert.deepEqual(MyCircularDeque("param"), "expect", "caseName");
+assert.deepEqual(MyCircularDeque("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

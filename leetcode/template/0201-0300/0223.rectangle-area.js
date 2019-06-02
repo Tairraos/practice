@@ -33,8 +33,8 @@ var computeArea = function(A, B, C, D, E, F, G, H) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(computeArea("参数"), "期望结果");
-assert.deepEqual(computeArea("参数"), "期望结果");
+assert.deepEqual(computeArea("param"), "expect", "caseName");
+assert.deepEqual(computeArea("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

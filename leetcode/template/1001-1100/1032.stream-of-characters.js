@@ -56,8 +56,8 @@ StreamChecker.prototype.query = function(letter) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(StreamChecker("参数"), "期望结果");
-assert.deepEqual(StreamChecker("参数"), "期望结果");
+assert.deepEqual(StreamChecker("param"), "expect", "caseName");
+assert.deepEqual(StreamChecker("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

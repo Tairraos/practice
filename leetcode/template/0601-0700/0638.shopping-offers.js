@@ -47,8 +47,8 @@ var shoppingOffers = function(price, special, needs) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(shoppingOffers("参数"), "期望结果");
-assert.deepEqual(shoppingOffers("参数"), "期望结果");
+assert.deepEqual(shoppingOffers("param"), "expect", "caseName");
+assert.deepEqual(shoppingOffers("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

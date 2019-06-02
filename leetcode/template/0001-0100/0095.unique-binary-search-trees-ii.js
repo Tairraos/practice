@@ -44,8 +44,8 @@ var generateTrees = function(n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(generateTrees("参数"), "期望结果");
-assert.deepEqual(generateTrees("参数"), "期望结果");
+assert.deepEqual(generateTrees("param"), "expect", "caseName");
+assert.deepEqual(generateTrees("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

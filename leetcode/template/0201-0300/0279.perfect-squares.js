@@ -28,8 +28,8 @@ var numSquares = function(n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(numSquares("参数"), "期望结果");
-assert.deepEqual(numSquares("参数"), "期望结果");
+assert.deepEqual(numSquares("param"), "expect", "caseName");
+assert.deepEqual(numSquares("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

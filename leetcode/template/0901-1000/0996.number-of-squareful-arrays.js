@@ -33,8 +33,8 @@ var numSquarefulPerms = function(A) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(numSquarefulPerms("参数"), "期望结果");
-assert.deepEqual(numSquarefulPerms("参数"), "期望结果");
+assert.deepEqual(numSquarefulPerms("param"), "expect", "caseName");
+assert.deepEqual(numSquarefulPerms("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -32,8 +32,8 @@ var wiggleSort = function(nums) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(wiggleSort("参数"), "期望结果");
-assert.deepEqual(wiggleSort("参数"), "期望结果");
+assert.deepEqual(wiggleSort("param"), "expect", "caseName");
+assert.deepEqual(wiggleSort("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

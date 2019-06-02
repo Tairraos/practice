@@ -40,8 +40,8 @@ var bstToGst = function(root) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(bstToGst("参数"), "期望结果");
-assert.deepEqual(bstToGst("参数"), "期望结果");
+assert.deepEqual(bstToGst("param"), "expect", "caseName");
+assert.deepEqual(bstToGst("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

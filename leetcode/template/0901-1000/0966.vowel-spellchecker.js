@@ -47,8 +47,8 @@ var spellchecker = function(wordlist, queries) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(spellchecker("参数"), "期望结果");
-assert.deepEqual(spellchecker("参数"), "期望结果");
+assert.deepEqual(spellchecker("param"), "expect", "caseName");
+assert.deepEqual(spellchecker("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

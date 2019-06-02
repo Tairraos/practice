@@ -42,8 +42,8 @@ var findOrder = function(numCourses, prerequisites) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(findOrder("参数"), "期望结果");
-assert.deepEqual(findOrder("参数"), "期望结果");
+assert.deepEqual(findOrder("param"), "expect", "caseName");
+assert.deepEqual(findOrder("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

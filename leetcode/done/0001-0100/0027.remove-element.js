@@ -43,7 +43,7 @@
  * @return {number}
  */
 var removeElement = function (nums, val) {
-    var [index, times] = [0, nums.length];
+    let [index, times] = [0, nums.length];
     //遍历数组，index为指针。如果（值===val）就移除，指针不动。如果值不等于就移动指针。
     while (times--) nums[index] === val ? nums.splice(index, 1) : index++;
     return nums.length;

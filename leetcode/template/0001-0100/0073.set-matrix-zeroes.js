@@ -51,8 +51,8 @@ var setZeroes = function(matrix) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(setZeroes("参数"), "期望结果");
-assert.deepEqual(setZeroes("参数"), "期望结果");
+assert.deepEqual(setZeroes("param"), "expect", "caseName");
+assert.deepEqual(setZeroes("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

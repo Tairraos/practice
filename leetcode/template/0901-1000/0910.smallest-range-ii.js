@@ -41,8 +41,8 @@ var smallestRangeII = function(A, K) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(smallestRangeII("参数"), "期望结果");
-assert.deepEqual(smallestRangeII("参数"), "期望结果");
+assert.deepEqual(smallestRangeII("param"), "expect", "caseName");
+assert.deepEqual(smallestRangeII("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

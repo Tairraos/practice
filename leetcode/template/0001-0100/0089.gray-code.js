@@ -44,8 +44,8 @@ var grayCode = function(n) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(grayCode("参数"), "期望结果");
-assert.deepEqual(grayCode("参数"), "期望结果");
+assert.deepEqual(grayCode("param"), "expect", "caseName");
+assert.deepEqual(grayCode("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

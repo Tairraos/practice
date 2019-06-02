@@ -44,8 +44,8 @@ var pathSum = function(root, sum) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(pathSum("参数"), "期望结果");
-assert.deepEqual(pathSum("参数"), "期望结果");
+assert.deepEqual(pathSum("param"), "expect", "caseName");
+assert.deepEqual(pathSum("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

@@ -46,8 +46,8 @@ var swimInWater = function(grid) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(swimInWater("参数"), "期望结果");
-assert.deepEqual(swimInWater("参数"), "期望结果");
+assert.deepEqual(swimInWater("param"), "expect", "caseName");
+assert.deepEqual(swimInWater("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

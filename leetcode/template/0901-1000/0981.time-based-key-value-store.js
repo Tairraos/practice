@@ -73,8 +73,8 @@ TimeMap.prototype.get = function(key, timestamp) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(TimeMap("参数"), "期望结果");
-assert.deepEqual(TimeMap("参数"), "期望结果");
+assert.deepEqual(TimeMap("param"), "expect", "caseName");
+assert.deepEqual(TimeMap("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

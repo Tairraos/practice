@@ -42,8 +42,8 @@ var minKBitFlips = function(A, K) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(minKBitFlips("参数"), "期望结果");
-assert.deepEqual(minKBitFlips("参数"), "期望结果");
+assert.deepEqual(minKBitFlips("param"), "expect", "caseName");
+assert.deepEqual(minKBitFlips("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

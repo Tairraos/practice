@@ -27,8 +27,8 @@ var maxEnvelopes = function(envelopes) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(maxEnvelopes("参数"), "期望结果");
-assert.deepEqual(maxEnvelopes("参数"), "期望结果");
+assert.deepEqual(maxEnvelopes("param"), "expect", "caseName");
+assert.deepEqual(maxEnvelopes("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

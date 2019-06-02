@@ -61,8 +61,8 @@ var insertIntoMaxTree = function(root, val) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(insertIntoMaxTree("参数"), "期望结果");
-assert.deepEqual(insertIntoMaxTree("参数"), "期望结果");
+assert.deepEqual(insertIntoMaxTree("param"), "expect", "caseName");
+assert.deepEqual(insertIntoMaxTree("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");

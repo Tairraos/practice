@@ -52,8 +52,8 @@ var hasGroupsSizeX = function(deck) {
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(hasGroupsSizeX("参数"), "期望结果");
-assert.deepEqual(hasGroupsSizeX("参数"), "期望结果");
+assert.deepEqual(hasGroupsSizeX("param"), "expect", "caseName");
+assert.deepEqual(hasGroupsSizeX("param"), "expect", "caseName");
 
 console.log("哈哈哈哈，所有Case都通过了");
 console.timeEnd("leetcode");
