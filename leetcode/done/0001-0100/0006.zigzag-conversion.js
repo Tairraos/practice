@@ -43,5 +43,5 @@ var convert = function (s, numRows) {
     return r.join("");
 };
 
-// 执行用时 : 248 ms, 在ZigZag Conversion的JavaScript提交中击败了21.42% 的用户
-// 内存消耗 : 38.6 MB, 在ZigZag Conversion的JavaScript提交中击败了2.31% 的用户
+
+

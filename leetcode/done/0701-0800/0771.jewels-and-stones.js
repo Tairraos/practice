@@ -29,5 +29,4 @@ var numJewelsInStones = function (J, S) {
     return S.split("").filter(s => J.includes(s)).length;
 };
 
-// 执行用时 : 92 ms, 在Jewels and Stones的JavaScript提交中击败了40.71% 的用户
-// 内存消耗 : 33.7 MB, 在Jewels and Stones的JavaScript提交中击败了0.58% 的用户
+

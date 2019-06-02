@@ -24,8 +24,8 @@ var moveZeroes = function (nums) {
     while (times--) nums[index] ? index++ : nums.push(nums.splice(index, 1)[0]);
 };
 
-// 执行用时 : 148 ms, 在Move Zeroes的JavaScript提交中击败了21.79% 的用户
-// 内存消耗 : 35.4 MB, 在Move Zeroes的JavaScript提交中击败了82.04% 的用户
+
+
 
 // Local test                                                 
 let assert = require("assert"),

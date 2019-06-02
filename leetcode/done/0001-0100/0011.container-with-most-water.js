@@ -25,5 +25,5 @@ var maxArea = function (h) {
     return Math.max(...h.map((n, i) => Math.max(...h.slice(i + 1).map((m, j) => (j + 1) * Math.min(m, n)))));
 };
 
-// 执行用时 : 4532 ms, 在Container With Most Water的JavaScript提交中击败了2.89% 的用户
-// 内存消耗 : 50.4 MB, 在Container With Most Water的JavaScript提交中击败了0.69% 的用户
+
+

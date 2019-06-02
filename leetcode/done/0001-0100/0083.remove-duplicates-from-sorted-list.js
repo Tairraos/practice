@@ -34,5 +34,5 @@ var deleteDuplicates = function (head) {
     return head
 };
 
-// 执行用时 : 116 ms, 在Remove Duplicates from Sorted List的JavaScript提交中击败了26.54% 的用户
-// 内存消耗 : 36 MB, 在Remove Duplicates from Sorted List的JavaScript提交中击败了0.00% 的用户
+
+

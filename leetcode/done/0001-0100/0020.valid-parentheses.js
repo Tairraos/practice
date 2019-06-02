@@ -47,5 +47,5 @@ var isValid = function (s) {
     return !stack.length;
 };
 
-// 执行用时 : 100 ms, 在Valid Parentheses的JavaScript提交中击败了34.29% 的用户
-// 内存消耗 : 33.6 MB, 在Valid Parentheses的JavaScript提交中击败了0.99% 的用户
+
+

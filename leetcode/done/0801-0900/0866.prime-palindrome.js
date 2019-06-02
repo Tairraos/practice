@@ -57,8 +57,8 @@ var primePalindrome = function (N) {
     return N;
 };
 
-// 执行用时 : 252 ms, 在Prime Palindrome的JavaScript提交中击败了33.33% 的用户
-// 内存消耗 : 38.1 MB, 在Prime Palindrome的JavaScript提交中击败了0.00% 的用户
+
+
 
 // Local test
 let assert = require("assert");

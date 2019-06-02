@@ -61,5 +61,5 @@ var intToRoman = function (num) {
   return ("000" + num).replace(/.*(....)$/, "$1").split("").map((n, i) => dict[i][+n]).join("");
 };
 
-// 执行用时 : 304 ms, 在Integer to Roman的JavaScript提交中击败了21.24% 的用户
-// 内存消耗 : 42.6 MB, 在Integer to Roman的JavaScript提交中击败了0.00% 的用户
+
+

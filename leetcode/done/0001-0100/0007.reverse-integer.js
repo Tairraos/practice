@@ -33,5 +33,5 @@ var reverse = function (x) {
     return r > 2147483647 || r < -2147483648 ? 0 : r;
 };
 
-// 执行用时 : 132 ms, 在Reverse Integer的JavaScript提交中击败了29.78% 的用户
-// 内存消耗 : 35.9 MB, 在Reverse Integer的JavaScript提交中击败了0.97% 的用户
+
+

@@ -40,8 +40,8 @@ var removeNthFromEnd = function (head, n) {
     return head;
 };
 
-// 执行用时 : 96 ms, 在Remove Nth Node From End of List的JavaScript提交中击败了94.69% 的用户
-// 内存消耗 : 33.9 MB, 在Remove Nth Node From End of List的JavaScript提交中击败了46.34% 的用户
+
+
 
 // Local test
 let assert = require("assert");

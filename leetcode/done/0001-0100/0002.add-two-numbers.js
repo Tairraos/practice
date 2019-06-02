@@ -38,5 +38,5 @@ var addTwoNumbers = function (l1, l2) {
     return add(l1, l2, 0);
 };
 
-// 执行用时 : 260 ms, 在Add Two Numbers的JavaScript提交中击败了15.13% 的用户
-// 内存消耗 : 38.6 MB, 在Add Two Numbers的JavaScript提交中击败了0.86% 的用户
+
+

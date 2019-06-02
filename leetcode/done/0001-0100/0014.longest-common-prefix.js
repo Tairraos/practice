@@ -34,5 +34,5 @@ var longestCommonPrefix = function (strs) {
     });
 };
 
-// 执行用时 : 100 ms, 在Longest Common Prefix的JavaScript提交中击败了31.63% 的用户
-// 内存消耗 : 35 MB, 在Longest Common Prefix的JavaScript提交中击败了0.72% 的用户
+
+

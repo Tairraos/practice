@@ -36,8 +36,8 @@ var decode = function (shortUrl) {
  * decode(encode(url));
  */
 
-// 执行用时 : 112 ms, 在Encode and Decode TinyURL的JavaScript提交中击败了82.80% 的用户
-// 内存消耗 : 34.7 MB, 在Encode and Decode TinyURL的JavaScript提交中击败了67.21% 的用户
+
+
 
 // Local test
 let assert = require("assert");

@@ -31,5 +31,5 @@ var search = function (nums, target) {
     return nums.includes(target);
 };
 
-// 执行用时 : 100 ms, 在Search in Rotated Sorted Array II的JavaScript提交中击败了23.68% 的用户
-// 内存消耗 : 33.9 MB, 在Search in Rotated Sorted Array II的JavaScript提交中击败了0.00% 的用户
+
+

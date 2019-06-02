@@ -34,5 +34,5 @@ var deleteDuplicates = function (head) {
     return head ? toTab(toArr(head).filter((n, i, s) => s.indexOf(n) === s.lastIndexOf(n))) : head;
 };
 
-// 执行用时 : 128 ms, 在Remove Duplicates from Sorted List II的JavaScript提交中击败了19.10% 的用户
-// 内存消耗 : 36.9 MB, 在Remove Duplicates from Sorted List II的JavaScript提交中击败了0.00% 的用户
+
+

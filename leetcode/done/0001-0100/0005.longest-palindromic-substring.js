@@ -31,5 +31,5 @@ var longestPalindrome = function (s) {
     return p;
 };
 
-// 执行用时 : 480 ms, 在Longest Palindromic Substring的JavaScript提交中击败了43.99% 的用户
-// 内存消耗 : 37.3 MB, 在Longest Palindromic Substring的JavaScript提交中击败了10.88% 的用户
+
+

@@ -59,5 +59,5 @@ var myAtoi = function (str) {
     return i > 2147483647 ? 2147483647 : i < -2147483648 ? -2147483648 : i ? i : 0;
 };
 
-// 执行用时 : 172 ms, 在String to Integer (atoi)的JavaScript提交中击败了11.91% 的用户
-// 内存消耗 : 35.1 MB, 在String to Integer (atoi)的JavaScript提交中击败了0.63% 的用户
+
+

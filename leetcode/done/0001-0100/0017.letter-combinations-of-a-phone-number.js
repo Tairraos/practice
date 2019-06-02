@@ -43,5 +43,5 @@ var letterCombinations = function (digits) {
     ) : [];
 };
 
-// 执行用时 : 88 ms, 在Letter Combinations of a Phone Number的JavaScript提交中击败了35.74% 的用户
-// 内存消耗 : 33.7 MB, 在Letter Combinations of a Phone Number的JavaScript提交中击败了0.00% 的用户
+
+

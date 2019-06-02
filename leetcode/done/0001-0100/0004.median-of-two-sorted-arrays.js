@@ -30,5 +30,5 @@ var findMedianSortedArrays = function (nums1, nums2) {
     return (a[a.length / 2 | 0] + a[a.length - (a.length / 2 | 0) - 1]) / 2;
 };
 
-// 执行用时 : 240 ms, 在Median of Two Sorted Arrays的JavaScript提交中击败了26.42% 的用户
-// 内存消耗 : 40.2 MB, 在Median of Two Sorted Arrays的JavaScript提交中击败了0.81% 的用户
+
+

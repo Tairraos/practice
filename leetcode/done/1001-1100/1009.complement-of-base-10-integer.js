@@ -36,8 +36,8 @@ var bitwiseComplement = function (N) {
     return parseInt(N.toString(2).replace(/./g, i => +!(+i)), 2);
 };
 
-// 执行用时 : 100 ms, 在Complement of Base 10 Integer的JavaScript提交中击败了55.36% 的用户
-// 内存消耗 : 33.8 MB, 在Complement of Base 10 Integer的JavaScript提交中击败了15.05% 的用户
+
+
 
 // Local test
 let assert = require("assert");

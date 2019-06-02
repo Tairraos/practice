@@ -43,5 +43,5 @@ var divide = function (dividend, divisor) {
     return isNag ? -result : result;
 };
 
-// 执行用时 : 136 ms, 在Divide Two Integers的JavaScript提交中击败了43.14% 的用户
-// 内存消耗 : 35.5 MB, 在Divide Two Integers的JavaScript提交中击败了0.00% 的用户
+
+

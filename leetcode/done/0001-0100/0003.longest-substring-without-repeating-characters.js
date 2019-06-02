@@ -39,5 +39,5 @@ var lengthOfLongestSubstring = function (s) {
     return lens;
 };
 
-// 执行用时 : 756 ms, 在Longest Substring Without Repeating Characters的JavaScript提交中击败了13.20% 的用户
-// 内存消耗 : 41.3 MB, 在Longest Substring Without Repeating Characters的JavaScript提交中击败了6.90% 的用户
+
+

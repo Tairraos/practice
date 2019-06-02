@@ -35,8 +35,8 @@ var nearestPalindromic = function (n) {
     return BigInt(n) - BigInt(prev) <= BigInt(next) - BigInt(n) ? prev : next;
 };
 
-// 执行用时 : 96 ms, 在Find the Closest Palindrome的JavaScript提交中击败了100.00% 的用户
-// 内存消耗 : 34.2 MB, 在Find the Closest Palindrome的JavaScript提交中击败了20.00% 的用户
+
+
 
 // Local test
 let assert = require("assert");
