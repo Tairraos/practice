@@ -66,5 +66,5 @@ assert.deepEqual(isNumber(" --6 "), false, " --6 ");
 assert.deepEqual(isNumber("-+3"), false, "-+3");
 assert.deepEqual(isNumber("95a54e53"), false, "95a54e53");
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

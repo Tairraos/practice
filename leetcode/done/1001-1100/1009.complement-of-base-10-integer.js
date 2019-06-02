@@ -49,5 +49,5 @@ assert.deepEqual(bitwiseComplement(10), 5);
 assert.deepEqual(bitwiseComplement(0), 1);
 assert.deepEqual(bitwiseComplement(10**9), 73741823);
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

@@ -70,5 +70,5 @@ assert.deepEqual(shortestSubarray([
     197, 62, -245, -10, 168, 211, 243, -289, -299, -279, 269, 51, 18, -224, 146, 207,
     -188, -109, 166, 122, 66, 84, -236, -18, 288, -11, 265, -243, 180, 94, -217, 247
 ], 3000), 14);
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

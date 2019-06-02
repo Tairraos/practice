@@ -71,5 +71,5 @@ assert.deepEqual(primePalindrome(11), 11);
 assert.deepEqual(primePalindrome(13), 101);
 assert.deepEqual(primePalindrome(9989900), 100030001);
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

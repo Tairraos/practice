@@ -71,5 +71,5 @@ testArr = [1, 3, 5];
 merge(testArr, 3, [1, 3, 5], 3);
 assert.deepEqual(testArr, [1, 1, 3, 3, 5, 5], "case 11");
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

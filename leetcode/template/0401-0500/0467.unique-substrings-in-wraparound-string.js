@@ -39,5 +39,5 @@ console.time("leetcode");
 assert.deepEqual(findSubstringInWraproundString("param"), "expect", "caseName");
 assert.deepEqual(findSubstringInWraproundString("param"), "expect", "caseName");
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

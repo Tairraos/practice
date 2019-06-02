@@ -51,5 +51,5 @@ console.time("leetcode");
 assert.deepEqual(equationsPossible("param"), "expect", "caseName");
 assert.deepEqual(equationsPossible("param"), "expect", "caseName");
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

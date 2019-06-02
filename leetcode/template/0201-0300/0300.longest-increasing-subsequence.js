@@ -32,5 +32,5 @@ console.time("leetcode");
 assert.deepEqual(lengthOfLIS("param"), "expect", "caseName");
 assert.deepEqual(lengthOfLIS("param"), "expect", "caseName");
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

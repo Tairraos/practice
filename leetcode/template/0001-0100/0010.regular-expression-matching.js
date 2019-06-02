@@ -90,5 +90,5 @@ isMatch("", "aa.*dd.ddb*sss.*");
 // assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd.dd.*"), true);
 // assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd"), true);
 
-// console.log("哈哈哈哈，所有Case都通过了");
+// console.log("Good job! We have passed all test case.");
 // console.timeEnd("leetcode");

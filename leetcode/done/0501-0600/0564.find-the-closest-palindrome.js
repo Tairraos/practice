@@ -48,5 +48,5 @@ assert.deepEqual(nearestPalindromic("1"), "0");
 assert.deepEqual(nearestPalindromic("123123123123"), "123123321321");
 assert.deepEqual(nearestPalindromic("999999999999999999"), "1000000000000000001");
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

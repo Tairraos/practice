@@ -62,5 +62,5 @@ testArr = [0, 1, 2, 2, 3, 0, 4, 2];
 assert.deepEqual(removeElement(testArr, 2), 5, "case 1.1");
 assert.deepEqual(testArr, [0, 1, 3, 0, 4], "case 1.2");
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

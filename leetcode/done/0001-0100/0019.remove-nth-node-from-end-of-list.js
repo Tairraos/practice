@@ -54,5 +54,5 @@ assert.deepEqual(toArr(removeNthFromEnd(toTab([1, 2, 3, 4, 5]), 1)), [1, 2, 3, 4
 assert.deepEqual(toArr(removeNthFromEnd(toTab([1, 2, 3, 4, 5]), 5)), [2, 3, 4, 5]);
 assert.deepEqual(toArr(removeNthFromEnd(toTab([1, 2, 3, 4, 5]), 2)), [1, 2, 3, 5]);
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

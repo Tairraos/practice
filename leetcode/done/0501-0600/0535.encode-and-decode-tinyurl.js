@@ -47,5 +47,5 @@ assert.deepEqual(decode(encode("test")), "test");
 assert.deepEqual(decode(encode("111")), "111");
 assert.deepEqual(decode(encode("222")), "222");
 
-console.log("哈哈哈哈，所有Case都通过了");
+console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");
