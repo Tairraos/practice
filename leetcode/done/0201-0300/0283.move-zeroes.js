@@ -20,6 +20,7 @@
  */
 var moveZeroes = function (nums) {
     var [index, times] = [0, nums.length];
+    //遍历数组，index为指针。如果值为 0 就移到末尾，指针不动。如果值不等于0就移动指针。
     while (times--) nums[index] ? index++ : nums.push(nums.splice(index, 1)[0]);
 };
 

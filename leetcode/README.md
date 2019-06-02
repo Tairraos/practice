@@ -1,5 +1,5 @@
 ### Leetcode 已完成题目列表
-完成度：29/885 (有165题付费题未计算在总数内, 附[所有题目清单](LIST.md))
+完成度：32/885 (有165题付费题未计算在总数内, 附[所有题目清单](LIST.md))
 - [0001 - 两数之和](done/0001-0100/0001.two-sum.js) 难度：容易 [源](https://leetcode-cn.com/problems/two-sum/)
 - [0002 - 两数相加](done/0001-0100/0002.add-two-numbers.js) 难度：中等 [源](https://leetcode-cn.com/problems/add-two-numbers/)
 - [0003 - 无重复字符的最长子串](done/0001-0100/0003.longest-substring-without-repeating-characters.js) 难度：中等 [源](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
@@ -16,8 +16,11 @@
 - [0017 - 电话号码的字母组合](done/0001-0100/0017.letter-combinations-of-a-phone-number.js) 难度：中等 [源](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
 - [0019 - 删除链表的倒数第N个节点](done/0001-0100/0019.remove-nth-node-from-end-of-list.js) 难度：中等 [源](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - [0020 - 有效的括号](done/0001-0100/0020.valid-parentheses.js) 难度：容易 [源](https://leetcode-cn.com/problems/valid-parentheses/)
+- [0026 - 删除排序数组中的重复项](done/0001-0100/0026.remove-duplicates-from-sorted-array.js) 难度：容易 [源](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+- [0027 - 移除元素](done/0001-0100/0027.remove-element.js) 难度：容易 [源](https://leetcode-cn.com/problems/remove-element/)
 - [0029 - 两数相除](done/0001-0100/0029.divide-two-integers.js) 难度：中等 [源](https://leetcode-cn.com/problems/divide-two-integers/)
 - [0065 - 有效数字](done/0001-0100/0065.valid-number.js) 难度：困难 [源](https://leetcode-cn.com/problems/valid-number/)
+- [0080 - 删除排序数组中的重复项 II](done/0001-0100/0080.remove-duplicates-from-sorted-array-ii.js) 难度：中等 [源](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
 - [0081 - 搜索旋转排序数组 II](done/0001-0100/0081.search-in-rotated-sorted-array-ii.js) 难度：中等 [源](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
 - [0082 - 删除排序链表中的重复元素 II](done/0001-0100/0082.remove-duplicates-from-sorted-list-ii.js) 难度：中等 [源](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
 - [0083 - 删除排序链表中的重复元素](done/0001-0100/0083.remove-duplicates-from-sorted-list.js) 难度：容易 [源](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)

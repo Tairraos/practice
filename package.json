@@ -14,7 +14,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "sync": "node leetcode/tool/getOperateList.js && node leetcode/tool/generateReadme.js",
+    "readme": "node leetcode/tool/generateReadme.js",
     "coding": "node leetcode/tool/mvFile.js coding",
     "done": "node leetcode/tool/mvFile.js done"
   }
