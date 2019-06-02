@@ -44,8 +44,8 @@ data.forEach(item => {
         out.push("let assert = require(\"assert\");");
         out.push("console.time(\"leetcode\");");
         out.push("");
-        out.push("assert.deepEqual(" + func + "(\"参数\"), \"期望结果\");");
-        out.push("assert.deepEqual(" + func + "(\"参数\"), \"期望结果\");");
+        out.push("assert.deepEqual(" + func + "(\"参数\"), \"期望结果\", \"Case 1.1\");");
+        out.push("assert.deepEqual(" + func + "(\"参数\"), \"期望结果\", \"Case 1.2\"); ");
         out.push("");
         out.push("console.log(\"哈哈哈哈，所有Case都通过了\");");
         out.push("console.timeEnd(\"leetcode\");");
