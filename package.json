@@ -2,7 +2,6 @@
   "name": "xiaole_s_practice",
   "version": "1.0.0",
   "description": "leetcode, checkio py and js",
-  "main": "index.js",
   "repository": "https://github.com/Tairraos/practice.git",
   "author": "xiaole.tao@gmail.com",
   "license": "MIT",
