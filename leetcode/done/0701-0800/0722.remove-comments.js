@@ -65,18 +65,13 @@
  * @return {string[]}
  */
 var removeComments = function (source) {
-    let sp, mp; //single/multi line comment pointer
-    source = source.join("\f") + "\f"; //用 "\f" 连接数组，代码里不可能出现 "\f"
-    do {
-        sp = source.indexOf("//"), mp = source.indexOf("/*");
-        if (mp !== -1 && (mp < sp || sp === -1)) { //有 "/*", 且 "/*" 在前面 或者 没有 "//" 了 
-            source = source.slice(0, mp) + source.slice(source.indexOf("*/", mp + 2) + 2); //处理掉第一对 "/* */"
-        } else if (sp !== -1 && (sp < mp || mp === -1)) { //有 "//", 且 "//" 在前面 或者 没有 "/*" 了 
-            source = source.slice(0, sp) + source.slice(source.indexOf("\f", sp + 2)); //处理掉 "//" 到 "\f" 之间的注释
-        }
-    } while (sp !== -1 || mp !== -1) // 直到 "//" 和 "/*" 都找不到了
-    return source.replace(/\f+/g, "\f").replace(/^\f|\f$/g, "").split("\f"); //删除多余的空行，题目没有要求，但test case这样设计的
+    //删除所有 "//" 开头到 "\n" 的串, 所有 "/*" 和 "*/"" 之间包含 "\n" 在内的字串
+    //删除所有开头的 "\n"，结尾的 "\n"，"\n" 后跟着的 1 个或更多 "\n" 
+    //注意1："." 匹配除了 "\n\r" 外的其它任意字符，"[\s\S]" 能匹配包括 "\r\n" 在内的任意字符
+    //注意2，"[\s\S]*" 不能和带有 "\n+" 写在同一个正则里，所以要拆成两次正则来完成
+    return source.join("\n").replace(/\/\/.*|\/\*[\s\S]*?\*\//g, "").replace(/^\n+|\n+$|(?<=\n)\n+/g, "").split("\n");
 };
+
 
 // Local test
 let assert = require("assert");
@@ -84,12 +79,12 @@ console.time("leetcode");
 
 assert.deepEqual(
     removeComments(["struct Node{", "    /*/ declare members;/**/", "    int size;", "    /**/int val;", "};"]),
-    ["struct Node{","    ","    int size;","    int val;","};"], "case 9");
+    ["struct Node{", "    ", "    int size;", "    int val;", "};"], "case 9");
 
 assert.deepEqual(
-    removeComments(["a//*b//*c","blank","d//*e/*/f", ""]),
-    ["a","blank","d"], "case 25");
-    
+    removeComments(["a//*b//*c", "blank", "d//*e/*/f", ""]),
+    ["a", "blank", "d"], "case 25");
+
 assert.deepEqual(removeComments([
     "//remove remove remove", //remove whole line
     "//remove /* remove remove", //remove whole line
