@@ -31,16 +31,23 @@
  * @param {number[]} nums
  * @return {number}
  */
-var pivotIndex = function(nums) {
-    
+var pivotIndex = function (nums) {
+    //sum是数组总和，counter存放扫描数组时从num[0]到当前位置的累计求和值
+    var sum = nums.reduce(((x, y) => x + y), 0), counter = 0, answer = -1;
+    //扫描数组，累计求和值 乘 2 如果等于 数组总和 + 当前位置值，当前位置就是答案
+    nums.some((v, i) => ((counter += v) * 2 === sum + v ? answer = i : -1) !== -1);
+    return answer;
 };
 
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(pivotIndex("param"), "expect", "caseName");
-assert.deepEqual(pivotIndex("param"), "expect", "caseName");
+assert.deepEqual(pivotIndex([1, 7, 3, 6, 5, 6]), 3, "case 0");
+assert.deepEqual(pivotIndex([1, 2, 3]), -1, "case 1");
+assert.deepEqual(pivotIndex([-1, -1, -1, 0, 1, 1]), 0, "case 2");
+assert.deepEqual(pivotIndex([]), -1, "case 3");
+assert.deepEqual(pivotIndex([1]), 0, "case 4");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

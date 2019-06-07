@@ -27,16 +27,18 @@
  * @param {number[]} nums
  * @return {number}
  */
-var dominantIndex = function(nums) {
-    
+var dominantIndex = function (nums) {
+    let i = nums.indexOf(Math.max(...nums)), //最大数字的位置
+        v = nums.splice(i, 1)[0]; //把最大数从数组里拿出来，赋值给v
+    return nums.map(t => t * 2).some(t => t > v) ? -1 : i; //检查数组成员x2后是否有某个成员比v大
 };
 
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(dominantIndex("param"), "expect", "caseName");
-assert.deepEqual(dominantIndex("param"), "expect", "caseName");
+assert.deepEqual(dominantIndex([3, 6, 1, 0]), 1, "case 1");
+assert.deepEqual(dominantIndex([1, 2, 3, 4]), -1, "case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");
