@@ -20,16 +20,27 @@
  * @param {character[]} s
  * @return {void} Do not return anything, modify s in-place instead.
  */
-var reverseString = function(s) {
-    
+var reverseString = function (s) {
+    let [start, end] = [0, s.length - 1];
+    while (start < end)[s[start++], s[end--]] = [s[end], s[start]];
 };
 
 // Local test
-let assert = require("assert");
+let tesrArr, assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(reverseString("param"), "expect", "caseName");
-assert.deepEqual(reverseString("param"), "expect", "caseName");
+tesrArr = ["h", "e", "l", "l", "o"];
+reverseString(tesrArr);
+assert.deepEqual(tesrArr, ["o", "l", "l", "e", "h"], "case hello");
+tesrArr = ["H", "a", "n", "n", "a", "h"];
+reverseString(tesrArr);
+assert.deepEqual(tesrArr, ["h", "a", "n", "n", "a", "H"], "case Hannah");
+tesrArr = ["H"];
+reverseString(tesrArr);
+assert.deepEqual(tesrArr, ["H"], "case H");
+tesrArr = [];
+reverseString(tesrArr);
+assert.deepEqual(tesrArr, [], "case empty");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

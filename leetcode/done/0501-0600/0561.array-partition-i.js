@@ -20,16 +20,17 @@
  * @param {number[]} nums
  * @return {number}
  */
-var arrayPairSum = function(nums) {
-    
+var arrayPairSum = function (nums) {
+    //排序，留下第0,2,4...个元素，求和
+    return nums.sort((a, b) => a - b).filter((v, i) => !(i % 2)).reduce((a, b) => a + b, 0);
 };
 
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(arrayPairSum("param"), "expect", "caseName");
-assert.deepEqual(arrayPairSum("param"), "expect", "caseName");
+assert.deepEqual(arrayPairSum([1, 4, 3, 2]), 4, "case 1");
+assert.deepEqual(arrayPairSum([]), 0, "case 1");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");
