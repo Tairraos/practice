@@ -32,16 +32,17 @@
  * @param {string} s
  * @return {string}
  */
-var reverseWords = function(s) {
-    
+var reverseWords = function (s) {
+    return s.replace(/^ +| +$/g, "").split(/ +/).reverse().join(" ");
 };
 
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(reverseWords("param"), "expect", "caseName");
-assert.deepEqual(reverseWords("param"), "expect", "caseName");
+assert.deepEqual(reverseWords("the sky is blue"), "blue is sky the", "case 1");
+assert.deepEqual(reverseWords("  hello world!  "), "world! hello", "case 2");
+assert.deepEqual(reverseWords("a good   example"), "example good a", "case 3");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

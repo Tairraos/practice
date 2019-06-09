@@ -16,16 +16,16 @@
  * @param {string} s
  * @return {string}
  */
-var reverseWords = function(s) {
-    
+var reverseWords = function (s) {
+    return s.replace(/^ +| +$/g, "").split(/ +/).map(s => s.split("").reverse().join("")).join(" ");
 };
 
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(reverseWords("param"), "expect", "caseName");
-assert.deepEqual(reverseWords("param"), "expect", "caseName");
+assert.deepEqual(reverseWords("Let's take LeetCode contest"), "s'teL ekat edoCteeL tsetnoc", "case 1");
+assert.deepEqual(reverseWords("  abc def   ghij "), "cba fed jihg", "caseName");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

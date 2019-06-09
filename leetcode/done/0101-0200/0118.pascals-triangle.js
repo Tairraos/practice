@@ -25,8 +25,8 @@
  */
 var generate = function (numRows) {
     if (numRows === 0) return [];
-    let [add, l, result] = [((a, b) => (a ? a : 0) + (b ? b : 0)), 0, [[1]]];
-    while (++l < numRows) result.push(Array(l + 1).fill().map((v, i) => add(result[l - 1][i - 1], result[l - 1][i])));
+    let line = [1], zip = (a, b) => a.map((v, i) => v + b[i]), result=[line];
+    while (--numRows) result.push(line = zip([0, ...line], [...line, 0]));
     return result;
 };
 

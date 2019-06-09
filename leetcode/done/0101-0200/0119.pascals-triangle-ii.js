@@ -19,16 +19,21 @@
  * @param {number} rowIndex
  * @return {number[]}
  */
-var getRow = function(rowIndex) {
-    
+var getRow = function (rowIndex) {
+    let line = [1], zip = (a, b) => a.map((v, i) => v + b[i]);
+    while (rowIndex--) line = zip([0, ...line], [...line, 0]);
+    return line;
 };
 
 // Local test
 let assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(getRow("param"), "expect", "caseName");
-assert.deepEqual(getRow("param"), "expect", "caseName");
+assert.deepEqual(getRow(0), [1], "case 0");
+assert.deepEqual(getRow(1), [1, 1], "case 1");
+assert.deepEqual(getRow(2), [1, 2, 1], "case 2");
+assert.deepEqual(getRow(3), [1, 3, 3, 1], "case 3");
+assert.deepEqual(getRow(4), [1, 4, 6, 4, 1], "case 4");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");

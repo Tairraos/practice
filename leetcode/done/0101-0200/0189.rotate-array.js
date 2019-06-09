@@ -30,16 +30,30 @@
  * @param {number} k
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-var rotate = function(nums, k) {
-    
+var rotate = function (nums, k) { //题目要求三种解法
+    nums.unshift(...nums.splice(-k % nums.length)); //解法 1
+    // nums.push(...nums.splice(0, nums.length - k % nums.length)); //解法 2
+    // while (k--) nums.unshift(nums.pop()); //解法 3
 };
 
 // Local test
-let assert = require("assert");
+let testArr, assert = require("assert");
 console.time("leetcode");
-
-assert.deepEqual(rotate("param"), "expect", "caseName");
-assert.deepEqual(rotate("param"), "expect", "caseName");
+testArr = [1, 2, 3, 4, 5, 6, 7];
+rotate(testArr, 3);
+assert.deepEqual(testArr, [5, 6, 7, 1, 2, 3, 4], "case 1");
+testArr = [-1, -100, 3, 99];
+rotate(testArr, 2);
+assert.deepEqual(testArr, [3, 99, -1, -100], "case 2");
+testArr = [];
+rotate(testArr, 3);
+assert.deepEqual(testArr, [], "case 3");
+testArr = [1];
+rotate(testArr, 3);
+assert.deepEqual(testArr, [1], "case 4");
+testArr = [1, 2];
+rotate(testArr, 3);
+assert.deepEqual(testArr, [2, 1], "case 5");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");
