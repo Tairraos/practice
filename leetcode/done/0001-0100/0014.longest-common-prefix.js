@@ -24,15 +24,22 @@
  * @return {string}
  */
 var longestCommonPrefix = function (strs) {
-    //字串两两比较
+    if (!strs.length) return "";
     return strs.reduce((a, b) => {
         for (let i = 0; i < a.length; i++)
-            //截字串从0开始到第一处不同的位置
-            if (a[i] !== b[i]) return a.slice(0, i);
-        //找不到不同就把整串返回
-        return a;
+            if (a[i] !== b[i]) return a.slice(0, i); //截字串从0开始到第一处不同的位置
+        return a; //找不到不同就把整串返回
     });
 };
 
+// Local test
+let assert = require("assert");
+console.time("leetcode");
 
+assert.deepEqual(longestCommonPrefix(["flower", "flow", "flight"]), "fl", "case 1");
+assert.deepEqual(longestCommonPrefix(["dog", "racecar", "car"]), "", "case 2");
+assert.deepEqual(longestCommonPrefix([]), "", "case 3");
+assert.deepEqual(longestCommonPrefix(["aaa"]), "aaa", "case 4");
 
+console.log("Good job! We have passed all test case.");
+console.timeEnd("leetcode");

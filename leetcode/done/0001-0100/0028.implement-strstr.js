@@ -24,16 +24,31 @@
  * @param {string} needle
  * @return {number}
  */
-var strStr = function(haystack, needle) {
-    
+var strStr = function (haystack, needle) {
+    let p = -1;
+    while (++p <= haystack.length - needle.length)
+        if (haystack.slice(p, p + needle.length) === needle) return p;
+    return -1;
 };
 
 // Local test
-let assert = require("assert");
+let test, assert = require("assert");
 console.time("leetcode");
 
-assert.deepEqual(strStr("param"), "expect", "caseName");
-assert.deepEqual(strStr("param"), "expect", "caseName");
+test = ["hello", "ll"];
+assert.deepEqual(strStr(test[0], test[1]), test[0].indexOf(test[1]), "case " + test[0]);
+test = ["hello", "hello"];
+assert.deepEqual(strStr(test[0], test[1]), test[0].indexOf(test[1]), "case " + test[0]);
+test = ["hello", ""];
+assert.deepEqual(strStr(test[0], test[1]), test[0].indexOf(test[1]), "case " + test[0]);
+test = ["", ""];
+assert.deepEqual(strStr(test[0], test[1]), test[0].indexOf(test[1]), "case " + test[0]);
+test = ["hello", "ll"];
+assert.deepEqual(strStr(test[0], test[1]), test[0].indexOf(test[1]), "case " + test[0]);
+test = ["hello", "ll"];
+assert.deepEqual(strStr(test[0], test[1]), test[0].indexOf(test[1]), "case " + test[0]);
+test = ["hello", "ll"];
+assert.deepEqual(strStr(test[0], test[1]), test[0].indexOf(test[1]), "case " + test[0]);
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");
