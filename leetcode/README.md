@@ -1,5 +1,5 @@
 ### Leetcode 已完成题目列表
-完成度：54/885 (有165题付费题未计算在总数内, 附[所有题目清单](LIST.md))
+完成度：55/889 (有180题付费题未计算在总数内, 附[所有题目清单](LIST.md))
 - [0001 - 两数之和](done/0001-0100/0001.two-sum.js) 难度：容易 [源](https://leetcode-cn.com/problems/two-sum/)
 - [0002 - 两数相加](done/0001-0100/0002.add-two-numbers.js) 难度：中等 [源](https://leetcode-cn.com/problems/add-two-numbers/)
 - [0003 - 无重复字符的最长子串](done/0001-0100/0003.longest-substring-without-repeating-characters.js) 难度：中等 [源](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
@@ -45,6 +45,7 @@
 - [0485 - 最大连续1的个数](done/0401-0500/0485.max-consecutive-ones.js) 难度：容易 [源](https://leetcode-cn.com/problems/max-consecutive-ones/)
 - [0498 - 对角线遍历](done/0401-0500/0498.diagonal-traverse.js) 难度：中等 [源](https://leetcode-cn.com/problems/diagonal-traverse/)
 - [0535 - TinyURL 的加密与解密](done/0501-0600/0535.encode-and-decode-tinyurl.js) 难度：中等 [源](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)
+- [0557 - 反转字符串中的单词 III](done/0501-0600/0557.reverse-words-in-a-string-iii.js) 难度：容易 [源](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
 - [0561 - 数组拆分 I](done/0501-0600/0561.array-partition-i.js) 难度：容易 [源](https://leetcode-cn.com/problems/array-partition-i/)
 - [0564 - 寻找最近的回文数](done/0501-0600/0564.find-the-closest-palindrome.js) 难度：困难 [源](https://leetcode-cn.com/problems/find-the-closest-palindrome/)
 - [0722 - 删除注释](done/0701-0800/0722.remove-comments.js) 难度：中等 [源](https://leetcode-cn.com/problems/remove-comments/)
