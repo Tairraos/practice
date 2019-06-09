@@ -1,5 +1,5 @@
 ### Leetcode 题目清单
-总题数：1050 / 未付费题：885 / 付费题：165
+总题数：1069 / 未付费题：889 / 付费题：180
 - [0001 - 两数之和](https://leetcode-cn.com/problems/two-sum/) 难度：容易
 - [0002 - 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) 难度：中等
 - [0003 - 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 难度：中等
@@ -24,7 +24,7 @@
 - [0022 - 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) 难度：中等
 - [0023 - 合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) 难度：困难
 - [0024 - 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) 难度：中等
-- [0025 - k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 难度：困难
+- [0025 - K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 难度：困难
 - [0026 - 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) 难度：容易
 - [0027 - 移除元素](https://leetcode-cn.com/problems/remove-element/) 难度：容易
 - [0028 - 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) 难度：容易
@@ -1040,13 +1040,32 @@
 - [1042 - 不邻接植花](https://leetcode-cn.com/problems/flower-planting-with-no-adjacent/) 难度：容易
 - [1043 - 分隔数组以得到最大和](https://leetcode-cn.com/problems/partition-array-for-maximum-sum/) 难度：中等
 - [1044 - 最长重复子串](https://leetcode-cn.com/problems/longest-duplicate-substring/) 难度：困难
-- [1045 - Customers Who Bought All Products](https://leetcode-cn.com/problems/customers-who-bought-all-products/) 难度：中等 / 付费题
+- [1045 - 买下所有产品的客户](https://leetcode-cn.com/problems/customers-who-bought-all-products/) 难度：中等 / 付费题
 - [1046 - 最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) 难度：容易
 - [1047 - 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) 难度：容易
 - [1048 - 最长字符串链](https://leetcode-cn.com/problems/longest-string-chain/) 难度：中等
 - [1049 - 最后一块石头的重量 II](https://leetcode-cn.com/problems/last-stone-weight-ii/) 难度：中等
-- [1050 - Actors and Directors Who Cooperated At Least Three Times](https://leetcode-cn.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) 难度：容易 / 付费题
+- [1050 - 合作过至少三次的演员和导演](https://leetcode-cn.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) 难度：容易 / 付费题
 - [1051 - 高度检查器](https://leetcode-cn.com/problems/height-checker/) 难度：容易
 - [1052 - 爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) 难度：中等
 - [1053 - 交换一次的先前排列](https://leetcode-cn.com/problems/previous-permutation-with-one-swap/) 难度：中等
 - [1054 - 距离相等的条形码](https://leetcode-cn.com/problems/distant-barcodes/) 难度：中等
+- [1055 - 形成字符串的最短路径](https://leetcode-cn.com/problems/shortest-way-to-form-string/) 难度：中等 / 付费题
+- [1056 - 易混淆数](https://leetcode-cn.com/problems/confusing-number/) 难度：容易 / 付费题
+- [1057 - 校园自行车分配](https://leetcode-cn.com/problems/campus-bikes/) 难度：中等 / 付费题
+- [1058 - 最小化舍入误差以满足目标](https://leetcode-cn.com/problems/minimize-rounding-error-to-meet-target/) 难度：中等 / 付费题
+- [1060 - 有序数组中的缺失元素](https://leetcode-cn.com/problems/missing-element-in-sorted-array/) 难度：中等 / 付费题
+- [1061 - 按字典序排列最小的等效字符串](https://leetcode-cn.com/problems/lexicographically-smallest-equivalent-string/) 难度：中等 / 付费题
+- [1062 - 最长重复子串](https://leetcode-cn.com/problems/longest-repeating-substring/) 难度：中等 / 付费题
+- [1063 - 有效子数组的数目](https://leetcode-cn.com/problems/number-of-valid-subarrays/) 难度：困难 / 付费题
+- [1064 - 不动点](https://leetcode-cn.com/problems/fixed-point/) 难度：容易 / 付费题
+- [1065 - 字符串的索引对](https://leetcode-cn.com/problems/index-pairs-of-a-string/) 难度：容易 / 付费题
+- [1066 - 校园自行车分配 II](https://leetcode-cn.com/problems/campus-bikes-ii/) 难度：中等 / 付费题
+- [1067 - 范围内的数字计数](https://leetcode-cn.com/problems/digit-count-in-range/) 难度：困难 / 付费题
+- [1068 - Product Sales Analysis I](https://leetcode-cn.com/problems/product-sales-analysis-i/) 难度：容易 / 付费题
+- [1069 - Product Sales Analysis II](https://leetcode-cn.com/problems/product-sales-analysis-ii/) 难度：容易 / 付费题
+- [1070 - Product Sales Analysis III](https://leetcode-cn.com/problems/product-sales-analysis-iii/) 难度：中等 / 付费题
+- [1071 - 字符串的最大公因子](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/) 难度：容易
+- [1072 - 按列翻转得到最大值等行数](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/) 难度：中等
+- [1073 - 负二进制数相加](https://leetcode-cn.com/problems/adding-two-negabinary-numbers/) 难度：中等
+- [1074 - 元素和为目标值的子矩阵数量](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target/) 难度：困难
