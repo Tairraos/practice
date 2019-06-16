@@ -12,14 +12,14 @@
  */
 
 //把 getOperateList.js 生成的 var 语句粘贴在下面，然后全文选中复制，粘贴到浏览器里执行
-var operateList = [];
+var operateList = ["letter-tile-possibilities", "smallest-subsequence-of-distinct-characters", "insufficient-nodes-in-root-to-leaf-paths", "occurrences-after-bigram"];
 var dictDiffculty = {
         "Easy": "容易",
         "Medium": "中等",
         "Hard": "困难"
     },
     //需要去网页里更新token
-    csrfToken = "rUwnJGBRYswRIOWYdqHwKBXf2EqUqIhwJGJ7oFlSkttTkUitueVCs7A1VJCSVycW",
+    csrfToken = "moD1CD0fUCRawErZqdBsIoUNC8T3th55AW4f9MV5787VM6W6ywdYhEUpTQfEvpwP",
     leetCodeData = [];
 
 /**
@@ -30,8 +30,7 @@ function getQuestionData() {
 
     leetCodeData = leetCodeData.sort((a, b) => +a.questionFrontendId - +b.questionFrontendId);
 
-    console.log("let data = " + JSON.stringify(leetCodeData).replace(/"questionFrontendId"/g, "\"questionId\"") + ";module.exports = data;");
-    console.log("//格式化，再做下面替换，再格式化。 (\\[|\", )\" => $1\\n\"");
+    console.log("let data = " + JSON.stringify(leetCodeData).replace(/(\[|",)"/g, "$1\n\"").replace(/"questionFrontendId"/g, "\"questionId\"") + ";module.exports = data;");
 }
 
 /** 
