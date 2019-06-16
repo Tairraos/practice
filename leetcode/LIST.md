@@ -1,5 +1,5 @@
 ### Leetcode 题目清单
-总题数：1069 / 未付费题：889 / 付费题：180
+总题数：1073 / 未付费题：893 / 付费题：180
 - [0001 - 两数之和](https://leetcode-cn.com/problems/two-sum/) 难度：容易
 - [0002 - 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) 难度：中等
 - [0003 - 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 难度：中等
@@ -1069,3 +1069,7 @@
 - [1072 - 按列翻转得到最大值等行数](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/) 难度：中等
 - [1073 - 负二进制数相加](https://leetcode-cn.com/problems/adding-two-negabinary-numbers/) 难度：中等
 - [1074 - 元素和为目标值的子矩阵数量](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target/) 难度：困难
+- [1078 - Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/) 难度：容易
+- [1079 - 活字印刷](https://leetcode-cn.com/problems/letter-tile-possibilities/) 难度：中等
+- [1080 - 根到叶路径上的不足节点](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/) 难度：中等
+- [1081 - 不同字符的最小子序列](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/) 难度：中等
