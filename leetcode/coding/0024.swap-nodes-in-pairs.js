@@ -21,16 +21,28 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var swapPairs = function(head) {
-    
+var swapPairs = function (head) {
+    if (head === null || head.next === null) return head;
+    let tmp = head.next; //tmp = 指向2的指针
+    head.next = swapPairs(tmp.next); //1的next指向下一个指向交换完过的3 
+    tmp.next = head; //2的下一个指向1
+    return tmp;
 };
 
+
+
 // Local test
-let assert = require("assert");
+let testTable,
+    assert = require("assert"),
+    toTab = a => a.length ? ({
+        val: +a[0],
+        next: a.slice(1).length ? toTab(a.slice(1)) : null
+    }) : null;
+
 console.time("leetcode");
 
-assert.deepEqual(swapPairs("param"), "expect", "caseName");
-assert.deepEqual(swapPairs("param"), "expect", "caseName");
+testTable = toTab([1, 2, 3, 4]);
+assert.deepEqual(swapPairs(testTable), toTab([2, 1, 4, 3]), "case 1");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("leetcode");
