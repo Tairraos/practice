@@ -1,5 +1,5 @@
-### Leetcode 已完成题目列表
-完成度：55/893 (有180题付费题未计算在总数内, 附[所有题目清单](LIST.md))
+### Leetcode Javascript 已完成题目列表
+完成度：56/893 (有180题付费题未计算在总数内, 附[所有题目清单](LIST.md))
 - [0001 - 两数之和](done/0001-0100/0001.two-sum.js) 难度：容易 [源](https://leetcode-cn.com/problems/two-sum/)
 - [0002 - 两数相加](done/0001-0100/0002.add-two-numbers.js) 难度：中等 [源](https://leetcode-cn.com/problems/add-two-numbers/)
 - [0003 - 无重复字符的最长子串](done/0001-0100/0003.longest-substring-without-repeating-characters.js) 难度：中等 [源](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
@@ -16,6 +16,7 @@
 - [0017 - 电话号码的字母组合](done/0001-0100/0017.letter-combinations-of-a-phone-number.js) 难度：中等 [源](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
 - [0019 - 删除链表的倒数第N个节点](done/0001-0100/0019.remove-nth-node-from-end-of-list.js) 难度：中等 [源](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - [0020 - 有效的括号](done/0001-0100/0020.valid-parentheses.js) 难度：容易 [源](https://leetcode-cn.com/problems/valid-parentheses/)
+- [0024 - 两两交换链表中的节点](done/0001-0100/0024.swap-nodes-in-pairs.js) 难度：中等 [源](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [0026 - 删除排序数组中的重复项](done/0001-0100/0026.remove-duplicates-from-sorted-array.js) 难度：容易 [源](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 - [0027 - 移除元素](done/0001-0100/0027.remove-element.js) 难度：容易 [源](https://leetcode-cn.com/problems/remove-element/)
 - [0028 - 实现strStr()](done/0001-0100/0028.implement-strstr.js) 难度：容易 [源](https://leetcode-cn.com/problems/implement-strstr/)
@@ -55,3 +56,6 @@
 - [0862 - 和至少为 K 的最短子数组](done/0801-0900/0862.shortest-subarray-with-sum-at-least-k.js) 难度：困难 [源](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)
 - [0866 - 回文素数](done/0801-0900/0866.prime-palindrome.js) 难度：中等 [源](https://leetcode-cn.com/problems/prime-palindrome/)
 - [1009 - 十进制整数的反码](done/1001-1100/1009.complement-of-base-10-integer.js) 难度：容易 [源](https://leetcode-cn.com/problems/complement-of-base-10-integer/)
+
+### Leetcode Python 已完成题目列表
+完成度：0/893 (有180题付费题未计算在总数内, 附[所有题目清单](LIST.md))
