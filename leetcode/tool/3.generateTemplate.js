@@ -17,40 +17,66 @@ let x = require("xtool.js"),
 data.forEach(item => {
     var id = +item.questionId,
         fid = item.questionId,
-        jscode = item.codeSnippets,
+        jscode = item.codeSnippets.js,
+        pycode = item.codeSnippets.py,
         desc = item.translatedContent,
         dif = item.difficulty,
         title = fid + "." + item.translatedTitle,
-        name = fid + "." + item.titleSlug + ".js",
+        jsname = fid + "." + item.titleSlug + ".js",
+        pyname = fid + "." + item.titleSlug + ".py",
         url = "https://leetcode-cn.com/problems/" + item.titleSlug + "/",
         ord = id - 1,
         dir = (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)),
-        out = [];
+        jsout = [],
+        pyout = [];
 
-    out.push("/**");
-    out.push(" * " + url);
-    out.push(" * " + title);
-    out.push(" * 难度：" + dif);
-    out.push(" * ");
-    out.push(desc.map(line => " * " + line).join("\n"));
-    out.push(" */");
+    jsout.push("/**");
+    jsout.push(" * " + url);
+    jsout.push(" * " + title);
+    jsout.push(" * 难度：" + dif);
+    jsout.push(" * ");
+    jsout.push(desc.map(line => " * " + line).join("\n"));
+    jsout.push(" */");
 
     if (jscode !== "N/A") {
-        var func = jscode.match(/var (.*) = function/)[1];
-        out.push("");
-        out.push(jscode);
-        out.push("");
-        out.push("// Local test");
-        out.push("let assert = require(\"assert\");");
-        out.push("console.time(\"leetcode\");");
-        out.push("");
-        out.push("assert.deepEqual(" + func + "(\"param\"), \"expect\", \"Case 1\");");
-        out.push("assert.deepEqual(" + func + "(\"param\"), \"expect\", \"Case 2\");");
-        out.push("");
-        out.push("console.log(\"Good job! We have passed all test case.\");");
-        out.push("console.timeEnd(\"leetcode\");");
-        out.push("");
+        var jsFuncName = jscode.match(/var (\w*) = function/)[1];
+        jsout.push("");
+        jsout.push(jscode);
+        jsout.push("");
+        jsout.push("// Local test");
+        jsout.push("let assert = require(\"assert\");");
+        jsout.push("console.time(\"leetcode\");");
+        jsout.push("");
+        jsout.push("assert.deepEqual(" + jsFuncName + "(\"param\"), \"expect\", \"Case 1\");");
+        jsout.push("assert.deepEqual(" + jsFuncName + "(\"param\"), \"expect\", \"Case 2\");");
+        jsout.push("");
+        jsout.push("console.log(\"Good job! We have passed all test case.\");");
+        jsout.push("console.timeEnd(\"leetcode\");");
+        jsout.push("");
     }
 
-    x.saveFile("./leetcode/template/" + dir + "/" + name, out.join("\n"));
+    pyout.push("# " + url);
+    pyout.push("# " + title);
+    pyout.push("# 难度：" + dif);
+    pyout.push("# ");
+    pyout.push(desc.map(line => "# " + line).join("\n"));
+    if (pycode !== "N/A") {
+
+        var pyFuncName = pycode.match(/\n +def (\w*)\(self/)[1];
+        pyout.push("");
+        pyout.push(pycode);
+        pyout.push("");
+        pyout.push("# Local test");
+        pyout.push("if __name__ == '__main__':");
+        pyout.push("    import time");
+        pyout.push("    launch_start = time.time()");
+        pyout.push("    unit = Solution()");
+        pyout.push("");
+        pyout.push("    assert unit." + pyFuncName + "('param') == 'expect', '1st example'");
+        pyout.push("");
+        pyout.push("    print('Good job! We have passed all test case in ' + str(int((time.time() - launch_start) * 1000)) + 'ms')");
+        pyout.push("");
+    }
+    // x.saveFile("./leetcode/template/" + dir + "/" + jsname, jsout.join("\n"));
+    x.saveFile("./leetcode/template/" + dir + "/" + pyname, pyout.join("\n"));
 });
