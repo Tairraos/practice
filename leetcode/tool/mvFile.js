@@ -9,12 +9,13 @@ if (!+args[2] || !["coding", "done"].includes(args[1])) {
 }
 
 let id = +args[2],
+    ext = args[3] || "js",
     ord = id - 1,
     dir = (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)),
     questionId = ("000" + id).slice(-4);
 
 if (args[1] === "coding") {
-    file = x.readDir(path.resolve(__dirname, "..", "template", dir), questionId + "*.js");
+    file = x.readDir(path.resolve(__dirname, "..", "template", dir), questionId + "*." + ext);
     if (file.length) {
         fs.renameSync(
             path.resolve(__dirname, "..", "template", dir, file[0]),
@@ -25,7 +26,7 @@ if (args[1] === "coding") {
         console.log("\033[31m编号为 " + questionId + " 的模板不存在。\033[0m");
     }
 } else if (args[1] === "done") {
-    file = x.readDir(path.resolve(__dirname, "..", "coding"), questionId + "*.js");
+    file = x.readDir(path.resolve(__dirname, "..", "coding"), questionId + "*." + ext);
     if (file.length) {
         fs.renameSync(
             path.resolve(__dirname, "..", "coding", file[0]),
