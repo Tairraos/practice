@@ -13,7 +13,10 @@ let data = [{
         "所以返回 [0, 1]"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number[]}\n */\nvar twoSum = function(nums, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number[]}\n */\nvar twoSum = function(nums, target) {\n    \n};",
+        "py": "class Solution:\n    def twoSum(self, nums: List[int], target: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0002",
     "titleSlug": "add-two-numbers",
@@ -29,7 +32,10 @@ let data = [{
         "原因：342 + 465 = 807"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} l1\n * @param {ListNode} l2\n * @return {ListNode}\n */\nvar addTwoNumbers = function(l1, l2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n/**\r\n * @param {ListNode} l1\r\n * @param {ListNode} l2\r\n * @return {ListNode}\r\n */\r\nvar addTwoNumbers = function(l1, l2) {\r\n    \r\n};",
+        "py": "# Definition for singly-linked list.\r\n# class ListNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution:\r\n    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:\r\n        "
+    }
 }, {
     "questionId": "0003",
     "titleSlug": "longest-substring-without-repeating-characters",
@@ -54,7 +60,10 @@ let data = [{
         "     请注意，你的答案必须是 子串 的长度，\"pwke\" 是一个子序列，不是子串。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar lengthOfLongestSubstring = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar lengthOfLongestSubstring = function(s) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def lengthOfLongestSubstring(self, s: str) -> int:\r\n        "
+    }
 }, {
     "questionId": "0004",
     "titleSlug": "median-of-two-sorted-arrays",
@@ -75,7 +84,10 @@ let data = [{
         "则中位数是 (2 + 3)/2 = 2.5"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number}\n */\nvar findMedianSortedArrays = function(nums1, nums2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number}\n */\nvar findMedianSortedArrays = function(nums1, nums2) {\n    \n};",
+        "py": "class Solution:\n    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:\n        "
+    }
 }, {
     "questionId": "0005",
     "titleSlug": "longest-palindromic-substring",
@@ -94,7 +106,10 @@ let data = [{
         "输出: \"bb\""
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string}\n */\nvar longestPalindrome = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @return {string}\r\n */\r\nvar longestPalindrome = function(s) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def longestPalindrome(self, s: str) -> str:\r\n        "
+    }
 }, {
     "questionId": "0006",
     "titleSlug": "zigzag-conversion",
@@ -125,7 +140,10 @@ let data = [{
         "T     S     G"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {number} numRows\n * @return {string}\n */\nvar convert = function(s, numRows) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @param {number} numRows\r\n * @return {string}\r\n */\r\nvar convert = function(s, numRows) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def convert(self, s: str, numRows: int) -> str:\r\n        "
+    }
 }, {
     "questionId": "0007",
     "titleSlug": "reverse-integer",
@@ -149,7 +167,10 @@ let data = [{
         "假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [-2^31,  2^31 - 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} x\n * @return {number}\n */\nvar reverse = function(x) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} x\n * @return {number}\n */\nvar reverse = function(x) {\n    \n};",
+        "py": "class Solution:\n    def reverse(self, x: int) -> int:\n        "
+    }
 }, {
     "questionId": "0008",
     "titleSlug": "string-to-integer-atoi",
@@ -194,7 +215,10 @@ let data = [{
         "     因此返回 INT_MIN (-2^31) 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} str\n * @return {number}\n */\nvar myAtoi = function(str) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} str\n * @return {number}\n */\nvar myAtoi = function(str) {\n    \n};",
+        "py": "class Solution:\n    def myAtoi(self, str: str) -> int:\n        "
+    }
 }, {
     "questionId": "0009",
     "titleSlug": "palindrome-number",
@@ -220,7 +244,10 @@ let data = [{
         "你能不将整数转为字符串来解决这个问题吗？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} x\n * @return {boolean}\n */\nvar isPalindrome = function(x) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} x\n * @return {boolean}\n */\nvar isPalindrome = function(x) {\n    \n};",
+        "py": "class Solution:\n    def isPalindrome(self, x: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0010",
     "titleSlug": "regular-expression-matching",
@@ -271,7 +298,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string} p\n * @return {boolean}\n */\nvar isMatch = function(s, p) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @param {string} p\r\n * @return {boolean}\r\n */\r\nvar isMatch = function(s, p) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def isMatch(self, s: str, p: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0011",
     "titleSlug": "container-with-most-water",
@@ -288,7 +318,10 @@ let data = [{
         "输出: 49"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} height\n * @return {number}\n */\nvar maxArea = function(height) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} height\n * @return {number}\n */\nvar maxArea = function(height) {\n    \n};",
+        "py": "class Solution:\n    def maxArea(self, height: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0012",
     "titleSlug": "integer-to-roman",
@@ -335,7 +368,10 @@ let data = [{
         "解释: M = 1000, CM = 900, XC = 90, IV = 4."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {string}\n */\nvar intToRoman = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {string}\n */\nvar intToRoman = function(num) {\n    \n};",
+        "py": "class Solution:\n    def intToRoman(self, num: int) -> str:\n        "
+    }
 }, {
     "questionId": "0013",
     "titleSlug": "roman-to-integer",
@@ -382,7 +418,10 @@ let data = [{
         "解释: M = 1000, CM = 900, XC = 90, IV = 4."
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar romanToInt = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar romanToInt = function(s) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def romanToInt(self, s: str) -> int:\r\n        "
+    }
 }, {
     "questionId": "0014",
     "titleSlug": "longest-common-prefix",
@@ -404,7 +443,10 @@ let data = [{
         "所有输入只包含小写字母 a-z 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} strs\n * @return {string}\n */\nvar longestCommonPrefix = function(strs) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} strs\r\n * @return {string}\r\n */\r\nvar longestCommonPrefix = function(strs) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def longestCommonPrefix(self, strs: List[str]) -> str:\r\n        "
+    }
 }, {
     "questionId": "0015",
     "titleSlug": "3sum",
@@ -423,7 +465,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar threeSum = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar threeSum = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def threeSum(self, nums: List[int]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0016",
     "titleSlug": "3sum-closest",
@@ -435,7 +480,10 @@ let data = [{
         "与 target 最接近的三个数的和为 2. (-1 + 2 + 1 = 2)."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar threeSumClosest = function(nums, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar threeSumClosest = function(nums, target) {\n    \n};",
+        "py": "class Solution:\n    def threeSumClosest(self, nums: List[int], target: int) -> int:\n        "
+    }
 }, {
     "questionId": "0017",
     "titleSlug": "letter-combinations-of-a-phone-number",
@@ -465,7 +513,10 @@ let data = [{
         "尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} digits\n * @return {string[]}\n */\nvar letterCombinations = function(digits) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} digits\r\n * @return {string[]}\r\n */\r\nvar letterCombinations = function(digits) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def letterCombinations(self, digits: str) -> List[str]:\r\n        "
+    }
 }, {
     "questionId": "0018",
     "titleSlug": "4sum",
@@ -487,7 +538,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number[][]}\n */\nvar fourSum = function(nums, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number[][]}\n */\nvar fourSum = function(nums, target) {\n    \n};",
+        "py": "class Solution:\n    def fourSum(self, nums: List[int], target: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0019",
     "titleSlug": "remove-nth-node-from-end-of-list",
@@ -507,7 +561,10 @@ let data = [{
         "你能尝试使用一趟扫描实现吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} n\n * @return {ListNode}\n */\nvar removeNthFromEnd = function(head, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} n\n * @return {ListNode}\n */\nvar removeNthFromEnd = function(head, n) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0020",
     "titleSlug": "valid-parentheses",
@@ -541,7 +598,10 @@ let data = [{
         "输出: true"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar isValid = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @return {boolean}\r\n */\r\nvar isValid = function(s) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def isValid(self, s: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0021",
     "titleSlug": "merge-two-sorted-lists",
@@ -554,7 +614,10 @@ let data = [{
         "输出：1->1->2->3->4->4"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} l1\n * @param {ListNode} l2\n * @return {ListNode}\n */\nvar mergeTwoLists = function(l1, l2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} l1\n * @param {ListNode} l2\n * @return {ListNode}\n */\nvar mergeTwoLists = function(l1, l2) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0022",
     "titleSlug": "generate-parentheses",
@@ -572,7 +635,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {string[]}\n */\nvar generateParenthesis = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {string[]}\n */\nvar generateParenthesis = function(n) {\n    \n};",
+        "py": "class Solution:\n    def generateParenthesis(self, n: int) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0023",
     "titleSlug": "merge-k-sorted-lists",
@@ -590,7 +656,10 @@ let data = [{
         "输出: 1->1->2->3->4->4->5->6"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode[]} lists\n * @return {ListNode}\n */\nvar mergeKLists = function(lists) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode[]} lists\n * @return {ListNode}\n */\nvar mergeKLists = function(lists) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def mergeKLists(self, lists: List[ListNode]) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0024",
     "titleSlug": "swap-nodes-in-pairs",
@@ -603,7 +672,10 @@ let data = [{
         "给定 1->2->3->4, 你应该返回 2->1->4->3."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar swapPairs = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar swapPairs = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def swapPairs(self, head: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0025",
     "titleSlug": "reverse-nodes-in-k-group",
@@ -622,7 +694,10 @@ let data = [{
         "  - 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} k\n * @return {ListNode}\n */\nvar reverseKGroup = function(head, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} k\n * @return {ListNode}\n */\nvar reverseKGroup = function(head, k) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def reverseKGroup(self, head: ListNode, k: int) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0026",
     "titleSlug": "remove-duplicates-from-sorted-array",
@@ -659,7 +734,10 @@ let data = [{
         "}"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar removeDuplicates = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar removeDuplicates = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def removeDuplicates(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0027",
     "titleSlug": "remove-element",
@@ -699,7 +777,10 @@ let data = [{
         "}"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} val\n * @return {number}\n */\nvar removeElement = function(nums, val) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} val\n * @return {number}\n */\nvar removeElement = function(nums, val) {\n    \n};",
+        "py": "class Solution:\n    def removeElement(self, nums: List[int], val: int) -> int:\n        "
+    }
 }, {
     "questionId": "0028",
     "titleSlug": "implement-strstr",
@@ -721,7 +802,10 @@ let data = [{
         "对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 [strstr()](https://baike.baidu.com/item/strstr) 以及 Java的 [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)) 定义相符。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} haystack\n * @param {string} needle\n * @return {number}\n */\nvar strStr = function(haystack, needle) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} haystack\r\n * @param {string} needle\r\n * @return {number}\r\n */\r\nvar strStr = function(haystack, needle) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def strStr(self, haystack: str, needle: str) -> int:\r\n        "
+    }
 }, {
     "questionId": "0029",
     "titleSlug": "divide-two-integers",
@@ -744,7 +828,10 @@ let data = [{
         "  - 假设我们的环境只能存储 32 位有符号整数，其数值范围是 [-2^31,  2^31 - 1]。本题中，如果除法结果溢出，则返回 2^31 - 1。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} dividend\n * @param {number} divisor\n * @return {number}\n */\nvar divide = function(dividend, divisor) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} dividend\n * @param {number} divisor\n * @return {number}\n */\nvar divide = function(dividend, divisor) {\n    \n};",
+        "py": "class Solution:\n    def divide(self, dividend: int, divisor: int) -> int:\n        "
+    }
 }, {
     "questionId": "0030",
     "titleSlug": "substring-with-concatenation-of-all-words",
@@ -770,7 +857,10 @@ let data = [{
         "输出：[]"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string[]} words\n * @return {number[]}\n */\nvar findSubstring = function(s, words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {string[]} words\n * @return {number[]}\n */\nvar findSubstring = function(s, words) {\n    \n};",
+        "py": "class Solution:\n    def findSubstring(self, s: str, words: List[str]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0031",
     "titleSlug": "next-permutation",
@@ -785,7 +875,10 @@ let data = [{
         "1,1,5 → 1,5,1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar nextPermutation = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar nextPermutation = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def nextPermutation(self, nums: List[int]) -> None:\n        \"\"\"\n        Do not return anything, modify nums in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0032",
     "titleSlug": "longest-valid-parentheses",
@@ -804,7 +897,10 @@ let data = [{
         "解释: 最长有效括号子串为 \"()()\""
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar longestValidParentheses = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar longestValidParentheses = function(s) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def longestValidParentheses(self, s: str) -> int:\r\n        "
+    }
 }, {
     "questionId": "0033",
     "titleSlug": "search-in-rotated-sorted-array",
@@ -825,7 +921,10 @@ let data = [{
         "输出: -1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar search = function(nums, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar search = function(nums, target) {\n    \n};",
+        "py": "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        "
+    }
 }, {
     "questionId": "0034",
     "titleSlug": "find-first-and-last-position-of-element-in-sorted-array",
@@ -844,7 +943,10 @@ let data = [{
         "输出: [-1,-1]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number[]}\n */\nvar searchRange = function(nums, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number[]}\n */\nvar searchRange = function(nums, target) {\n    \n};",
+        "py": "class Solution:\n    def searchRange(self, nums: List[int], target: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0035",
     "titleSlug": "search-insert-position",
@@ -870,7 +972,10 @@ let data = [{
         "输出: 0"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar searchInsert = function(nums, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar searchInsert = function(nums, target) {\n    \n};",
+        "py": "class Solution:\n    def searchInsert(self, nums: List[int], target: int) -> int:\n        "
+    }
 }, {
     "questionId": "0036",
     "titleSlug": "valid-sudoku",
@@ -924,7 +1029,10 @@ let data = [{
         "  - 给定数独永远是 9x9 形式的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {character[][]} board\n * @return {boolean}\n */\nvar isValidSudoku = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[][]} board\n * @return {boolean}\n */\nvar isValidSudoku = function(board) {\n    \n};",
+        "py": "class Solution:\n    def isValidSudoku(self, board: List[List[str]]) -> bool:\n        "
+    }
 }, {
     "questionId": "0037",
     "titleSlug": "sudoku-solver",
@@ -950,7 +1058,10 @@ let data = [{
         "  - 给定数独永远是 9x9 形式的。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {character[][]} board\n * @return {void} Do not return anything, modify board in-place instead.\n */\nvar solveSudoku = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[][]} board\n * @return {void} Do not return anything, modify board in-place instead.\n */\nvar solveSudoku = function(board) {\n    \n};",
+        "py": "class Solution:\n    def solveSudoku(self, board: List[List[str]]) -> None:\n        \"\"\"\n        Do not return anything, modify board in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0038",
     "titleSlug": "count-and-say",
@@ -979,7 +1090,10 @@ let data = [{
         "输出: \"1211\""
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {string}\n */\nvar countAndSay = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {string}\n */\nvar countAndSay = function(n) {\n    \n};",
+        "py": "class Solution:\n    def countAndSay(self, n: int) -> str:\n        "
+    }
 }, {
     "questionId": "0039",
     "titleSlug": "combination-sum",
@@ -1010,7 +1124,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} candidates\n * @param {number} target\n * @return {number[][]}\n */\nvar combinationSum = function(candidates, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} candidates\n * @param {number} target\n * @return {number[][]}\n */\nvar combinationSum = function(candidates, target) {\n    \n};",
+        "py": "class Solution:\n    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0040",
     "titleSlug": "combination-sum-ii",
@@ -1042,7 +1159,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} candidates\n * @param {number} target\n * @return {number[][]}\n */\nvar combinationSum2 = function(candidates, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} candidates\n * @param {number} target\n * @return {number[][]}\n */\nvar combinationSum2 = function(candidates, target) {\n    \n};",
+        "py": "class Solution:\n    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0041",
     "titleSlug": "first-missing-positive",
@@ -1066,7 +1186,10 @@ let data = [{
         "你的算法的时间复杂度应为O(n)，并且只能使用常数级别的空间。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar firstMissingPositive = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar firstMissingPositive = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def firstMissingPositive(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0042",
     "titleSlug": "trapping-rain-water",
@@ -1081,7 +1204,10 @@ let data = [{
         "输出: 6"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} height\n * @return {number}\n */\nvar trap = function(height) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} height\n * @return {number}\n */\nvar trap = function(height) {\n    \n};",
+        "py": "class Solution:\n    def trap(self, height: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0043",
     "titleSlug": "multiply-strings",
@@ -1104,7 +1230,10 @@ let data = [{
         "  - 不能使用任何标准库的大数类型（比如 BigInteger）或直接将输入转换为整数来处理。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} num1\n * @param {string} num2\n * @return {string}\n */\nvar multiply = function(num1, num2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} num1\n * @param {string} num2\n * @return {string}\n */\nvar multiply = function(num1, num2) {\n    \n};",
+        "py": "class Solution:\n    def multiply(self, num1: str, num2: str) -> str:\n        "
+    }
 }, {
     "questionId": "0044",
     "titleSlug": "wildcard-matching",
@@ -1155,7 +1284,10 @@ let data = [{
         "输入: false"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string} p\n * @return {boolean}\n */\nvar isMatch = function(s, p) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @param {string} p\r\n * @return {boolean}\r\n */\r\nvar isMatch = function(s, p) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def isMatch(self, s: str, p: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0045",
     "titleSlug": "jump-game-ii",
@@ -1175,7 +1307,10 @@ let data = [{
         "假设你总是可以到达数组的最后一个位置。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar jump = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar jump = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def jump(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0046",
     "titleSlug": "permutations",
@@ -1196,7 +1331,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar permute = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar permute = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def permute(self, nums: List[int]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0047",
     "titleSlug": "permutations-ii",
@@ -1214,7 +1352,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar permuteUnique = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar permuteUnique = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def permuteUnique(self, nums: List[int]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0048",
     "titleSlug": "rotate-image",
@@ -1259,7 +1400,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @return {void} Do not return anything, modify matrix in-place instead.\n */\nvar rotate = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @return {void} Do not return anything, modify matrix in-place instead.\n */\nvar rotate = function(matrix) {\n    \n};",
+        "py": "class Solution:\n    def rotate(self, matrix: List[List[int]]) -> None:\n        \"\"\"\n        Do not return anything, modify matrix in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0049",
     "titleSlug": "group-anagrams",
@@ -1281,7 +1425,10 @@ let data = [{
         "  - 不考虑答案输出的顺序。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} strs\n * @return {string[][]}\n */\nvar groupAnagrams = function(strs) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} strs\r\n * @return {string[][]}\r\n */\r\nvar groupAnagrams = function(strs) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\r\n        "
+    }
 }, {
     "questionId": "0050",
     "titleSlug": "powx-n",
@@ -1307,7 +1454,10 @@ let data = [{
         "  - n 是 32 位有符号整数，其数值范围是 [-2^31, 2^31 - 1] 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} x\n * @param {number} n\n * @return {number}\n */\nvar myPow = function(x, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} x\n * @param {number} n\n * @return {number}\n */\nvar myPow = function(x, n) {\n    \n};",
+        "py": "class Solution:\n    def myPow(self, x: float, n: int) -> float:\n        "
+    }
 }, {
     "questionId": "0051",
     "titleSlug": "n-queens",
@@ -1335,7 +1485,10 @@ let data = [{
         "解释: 4 皇后问题存在两个不同的解法。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {string[][]}\n */\nvar solveNQueens = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {string[][]}\n */\nvar solveNQueens = function(n) {\n    \n};",
+        "py": "class Solution:\n    def solveNQueens(self, n: int) -> List[List[str]]:\n        "
+    }
 }, {
     "questionId": "0052",
     "titleSlug": "n-queens-ii",
@@ -1363,7 +1516,10 @@ let data = [{
         "]"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar totalNQueens = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar totalNQueens = function(n) {\n    \n};",
+        "py": "class Solution:\n    def totalNQueens(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0053",
     "titleSlug": "maximum-subarray",
@@ -1380,7 +1536,10 @@ let data = [{
         "如果你已经实现复杂度为 O(n) 的解法，尝试使用更为精妙的分治法求解。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxSubArray = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxSubArray = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def maxSubArray(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0054",
     "titleSlug": "spiral-matrix",
@@ -1407,7 +1566,10 @@ let data = [{
         "输出: [1,2,3,4,8,12,11,10,9,5,6,7]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @return {number[]}\n */\nvar spiralOrder = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @return {number[]}\n */\nvar spiralOrder = function(matrix) {\n    \n};",
+        "py": "class Solution:\n    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0055",
     "titleSlug": "jump-game",
@@ -1428,7 +1590,10 @@ let data = [{
         "解释: 无论怎样，你总会到达索引为 3 的位置。但该位置的最大跳跃长度是 0 ， 所以你永远不可能到达最后一个位置。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar canJump = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar canJump = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def canJump(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0056",
     "titleSlug": "merge-intervals",
@@ -1447,7 +1612,10 @@ let data = [{
         "解释: 区间 [1,4] 和 [4,5] 可被视为重叠区间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for an interval.\n * function Interval(start, end) {\n *     this.start = start;\n *     this.end = end;\n * }\n */\n/**\n * @param {Interval[]} intervals\n * @return {Interval[]}\n */\nvar merge = function(intervals) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} intervals\r\n * @return {number[][]}\r\n */\r\nvar merge = function(intervals) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def merge(self, intervals: List[List[int]]) -> List[List[int]]:\r\n        "
+    }
 }, {
     "questionId": "0057",
     "titleSlug": "insert-interval",
@@ -1466,7 +1634,10 @@ let data = [{
         "解释: 这是因为新的区间 [4,8] 与 [3,5],[6,7],[8,10] 重叠。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for an interval.\n * function Interval(start, end) {\n *     this.start = start;\n *     this.end = end;\n * }\n */\n/**\n * @param {Interval[]} intervals\n * @param {Interval} newInterval\n * @return {Interval[]}\n */\nvar insert = function(intervals, newInterval) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} intervals\r\n * @param {number[]} newInterval\r\n * @return {number[][]}\r\n */\r\nvar insert = function(intervals, newInterval) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:\r\n        "
+    }
 }, {
     "questionId": "0058",
     "titleSlug": "length-of-last-word",
@@ -1482,7 +1653,10 @@ let data = [{
         "输出: 5"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar lengthOfLastWord = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar lengthOfLastWord = function(s) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def lengthOfLastWord(self, s: str) -> int:\r\n        "
+    }
 }, {
     "questionId": "0059",
     "titleSlug": "spiral-matrix-ii",
@@ -1500,7 +1674,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number[][]}\n */\nvar generateMatrix = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number[][]}\n */\nvar generateMatrix = function(n) {\n    \n};",
+        "py": "class Solution:\n    def generateMatrix(self, n: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0060",
     "titleSlug": "permutation-sequence",
@@ -1529,7 +1706,10 @@ let data = [{
         "输出: \"2314\""
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number} k\n * @return {string}\n */\nvar getPermutation = function(n, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number} k\n * @return {string}\n */\nvar getPermutation = function(n, k) {\n    \n};",
+        "py": "class Solution:\n    def getPermutation(self, n: int, k: int) -> str:\n        "
+    }
 }, {
     "questionId": "0061",
     "titleSlug": "rotate-list",
@@ -1554,7 +1734,10 @@ let data = [{
         "向右旋转 4 步: 2->0->1->NULL"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} k\n * @return {ListNode}\n */\nvar rotateRight = function(head, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} k\n * @return {ListNode}\n */\nvar rotateRight = function(head, k) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def rotateRight(self, head: ListNode, k: int) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0062",
     "titleSlug": "unique-paths",
@@ -1583,7 +1766,10 @@ let data = [{
         "输出: 28"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} m\n * @param {number} n\n * @return {number}\n */\nvar uniquePaths = function(m, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} m\n * @param {number} n\n * @return {number}\n */\nvar uniquePaths = function(m, n) {\n    \n};",
+        "py": "class Solution:\n    def uniquePaths(self, m: int, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0063",
     "titleSlug": "unique-paths-ii",
@@ -1612,7 +1798,10 @@ let data = [{
         "2. 向下 -> 向下 -> 向右 -> 向右"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} obstacleGrid\n * @return {number}\n */\nvar uniquePathsWithObstacles = function(obstacleGrid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} obstacleGrid\n * @return {number}\n */\nvar uniquePathsWithObstacles = function(obstacleGrid) {\n    \n};",
+        "py": "class Solution:\n    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0064",
     "titleSlug": "minimum-path-sum",
@@ -1633,7 +1822,10 @@ let data = [{
         "解释: 因为路径 1→3→1→1→1 的总和最小。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar minPathSum = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar minPathSum = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def minPathSum(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0065",
     "titleSlug": "valid-number",
@@ -1653,7 +1845,10 @@ let data = [{
         "C++函数的形式已经更新了。如果你仍然看见你的函数接收 const char * 类型的参数，请点击重载按钮重置你的代码。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar isNumber = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar isNumber = function(s) {\n    \n};",
+        "py": "class Solution:\n    def isNumber(self, s: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0066",
     "titleSlug": "plus-one",
@@ -1674,7 +1869,10 @@ let data = [{
         "解释: 输入数组表示数字 4321。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} digits\n * @return {number[]}\n */\nvar plusOne = function(digits) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} digits\n * @return {number[]}\n */\nvar plusOne = function(digits) {\n    \n};",
+        "py": "class Solution:\n    def plusOne(self, digits: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0067",
     "titleSlug": "add-binary",
@@ -1692,7 +1890,10 @@ let data = [{
         "输出: \"10101\""
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} a\n * @param {string} b\n * @return {string}\n */\nvar addBinary = function(a, b) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} a\r\n * @param {string} b\r\n * @return {string}\r\n */\r\nvar addBinary = function(a, b) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def addBinary(self, a: str, b: str) -> str:\r\n        "
+    }
 }, {
     "questionId": "0068",
     "titleSlug": "text-justification",
@@ -1749,7 +1950,10 @@ let data = [{
         "]"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @param {number} maxWidth\n * @return {string[]}\n */\nvar fullJustify = function(words, maxWidth) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} words\r\n * @param {number} maxWidth\r\n * @return {string[]}\r\n */\r\nvar fullJustify = function(words, maxWidth) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:\r\n        "
+    }
 }, {
     "questionId": "0069",
     "titleSlug": "sqrtx",
@@ -1771,7 +1975,10 @@ let data = [{
         "     由于返回类型是整数，小数部分将被舍去。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} x\n * @return {number}\n */\nvar mySqrt = function(x) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} x\n * @return {number}\n */\nvar mySqrt = function(x) {\n    \n};",
+        "py": "class Solution:\n    def mySqrt(self, x: int) -> int:\n        "
+    }
 }, {
     "questionId": "0070",
     "titleSlug": "climbing-stairs",
@@ -1798,7 +2005,10 @@ let data = [{
         "3.  2 阶 + 1 阶"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar climbStairs = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar climbStairs = function(n) {\n    \n};",
+        "py": "class Solution:\n    def climbStairs(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0071",
     "titleSlug": "simplify-path",
@@ -1836,7 +2046,10 @@ let data = [{
         "输出：\"/a/b/c\""
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} path\n * @return {string}\n */\nvar simplifyPath = function(path) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} path\r\n * @return {string}\r\n */\r\nvar simplifyPath = function(path) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def simplifyPath(self, path: str) -> str:\r\n        "
+    }
 }, {
     "questionId": "0072",
     "titleSlug": "edit-distance",
@@ -1867,7 +2080,10 @@ let data = [{
         "exection -> execution (插入 'u')"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {number}\n */\nvar minDistance = function(word1, word2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} word1\r\n * @param {string} word2\r\n * @return {number}\r\n */\r\nvar minDistance = function(word1, word2) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def minDistance(self, word1: str, word2: str) -> int:\r\n        "
+    }
 }, {
     "questionId": "0073",
     "titleSlug": "set-matrix-zeroes",
@@ -1909,7 +2125,10 @@ let data = [{
         "  - 你能想出一个常数空间的解决方案吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @return {void} Do not return anything, modify matrix in-place instead.\n */\nvar setZeroes = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @return {void} Do not return anything, modify matrix in-place instead.\n */\nvar setZeroes = function(matrix) {\n    \n};",
+        "py": "class Solution:\n    def setZeroes(self, matrix: List[List[int]]) -> None:\n        \"\"\"\n        Do not return anything, modify matrix in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0074",
     "titleSlug": "search-a-2d-matrix",
@@ -1940,7 +2159,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @param {number} target\n * @return {boolean}\n */\nvar searchMatrix = function(matrix, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @param {number} target\n * @return {boolean}\n */\nvar searchMatrix = function(matrix, target) {\n    \n};",
+        "py": "class Solution:\n    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0075",
     "titleSlug": "sort-colors",
@@ -1962,7 +2184,10 @@ let data = [{
         "  - 你能想出一个仅使用常数空间的一趟扫描算法吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar sortColors = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar sortColors = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def sortColors(self, nums: List[int]) -> None:\n        \"\"\"\n        Do not return anything, modify nums in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0076",
     "titleSlug": "minimum-window-substring",
@@ -1979,7 +2204,10 @@ let data = [{
         "  - 如果 S 中存在这样的子串，我们保证它是唯一的答案。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string} t\n * @return {string}\n */\nvar minWindow = function(s, t) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @param {string} t\r\n * @return {string}\r\n */\r\nvar minWindow = function(s, t) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def minWindow(self, s: str, t: str) -> str:\r\n        "
+    }
 }, {
     "questionId": "0077",
     "titleSlug": "combinations",
@@ -2000,7 +2228,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number} k\n * @return {number[][]}\n */\nvar combine = function(n, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number} k\n * @return {number[][]}\n */\nvar combine = function(n, k) {\n    \n};",
+        "py": "class Solution:\n    def combine(self, n: int, k: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0078",
     "titleSlug": "subsets",
@@ -2025,7 +2256,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar subsets = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar subsets = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def subsets(self, nums: List[int]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0079",
     "titleSlug": "word-search",
@@ -2047,7 +2281,10 @@ let data = [{
         "给定 word = \"ABCB\", 返回 false."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {character[][]} board\n * @param {string} word\n * @return {boolean}\n */\nvar exist = function(board, word) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {character[][]} board\r\n * @param {string} word\r\n * @return {boolean}\r\n */\r\nvar exist = function(board, word) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def exist(self, board: List[List[str]], word: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0080",
     "titleSlug": "remove-duplicates-from-sorted-array-ii",
@@ -2084,7 +2321,10 @@ let data = [{
         "}"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar removeDuplicates = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar removeDuplicates = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def removeDuplicates(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0081",
     "titleSlug": "search-in-rotated-sorted-array-ii",
@@ -2107,7 +2347,10 @@ let data = [{
         "  - 这会影响到程序的时间复杂度吗？会有怎样的影响，为什么？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {boolean}\n */\nvar search = function(nums, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {boolean}\n */\nvar search = function(nums, target) {\n    \n};",
+        "py": "class Solution:\n    def search(self, nums: List[int], target: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0082",
     "titleSlug": "remove-duplicates-from-sorted-list-ii",
@@ -2124,7 +2367,10 @@ let data = [{
         "输出: 2->3"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar deleteDuplicates = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar deleteDuplicates = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def deleteDuplicates(self, head: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0083",
     "titleSlug": "remove-duplicates-from-sorted-list",
@@ -2141,7 +2387,10 @@ let data = [{
         "输出: 1->2->3"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar deleteDuplicates = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar deleteDuplicates = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def deleteDuplicates(self, head: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0084",
     "titleSlug": "largest-rectangle-in-histogram",
@@ -2161,7 +2410,10 @@ let data = [{
         "输出: 10"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} heights\n * @return {number}\n */\nvar largestRectangleArea = function(heights) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} heights\n * @return {number}\n */\nvar largestRectangleArea = function(heights) {\n    \n};",
+        "py": "class Solution:\n    def largestRectangleArea(self, heights: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0085",
     "titleSlug": "maximal-rectangle",
@@ -2180,7 +2432,10 @@ let data = [{
         "输出: 6"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {character[][]} matrix\n * @return {number}\n */\nvar maximalRectangle = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[][]} matrix\n * @return {number}\n */\nvar maximalRectangle = function(matrix) {\n    \n};",
+        "py": "class Solution:\n    def maximalRectangle(self, matrix: List[List[str]]) -> int:\n        "
+    }
 }, {
     "questionId": "0086",
     "titleSlug": "partition-list",
@@ -2194,7 +2449,10 @@ let data = [{
         "输出: 1->2->2->4->3->5"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} x\n * @return {ListNode}\n */\nvar partition = function(head, x) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} x\n * @return {ListNode}\n */\nvar partition = function(head, x) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def partition(self, head: ListNode, x: int) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0087",
     "titleSlug": "scramble-string",
@@ -2243,7 +2501,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s1\n * @param {string} s2\n * @return {boolean}\n */\nvar isScramble = function(s1, s2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s1\r\n * @param {string} s2\r\n * @return {boolean}\r\n */\r\nvar isScramble = function(s1, s2) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def isScramble(self, s1: str, s2: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0088",
     "titleSlug": "merge-sorted-array",
@@ -2263,7 +2524,10 @@ let data = [{
         "输出: [1,2,2,3,5,6]"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums1\n * @param {number} m\n * @param {number[]} nums2\n * @param {number} n\n * @return {void} Do not return anything, modify nums1 in-place instead.\n */\nvar merge = function(nums1, m, nums2, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums1\n * @param {number} m\n * @param {number[]} nums2\n * @param {number} n\n * @return {void} Do not return anything, modify nums1 in-place instead.\n */\nvar merge = function(nums1, m, nums2, n) {\n    \n};",
+        "py": "class Solution:\n    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:\n        \"\"\"\n        Do not return anything, modify nums1 in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0089",
     "titleSlug": "gray-code",
@@ -2298,7 +2562,10 @@ let data = [{
         "     因此，当 n = 0 时，其格雷编码序列为 [0]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number[]}\n */\nvar grayCode = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number[]}\n */\nvar grayCode = function(n) {\n    \n};",
+        "py": "class Solution:\n    def grayCode(self, n: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0090",
     "titleSlug": "subsets-ii",
@@ -2321,7 +2588,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar subsetsWithDup = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar subsetsWithDup = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0091",
     "titleSlug": "decode-ways",
@@ -2346,7 +2616,10 @@ let data = [{
         "解释: 它可以解码为 \"BZ\" (2 26), \"VF\" (22 6), 或者 \"BBF\" (2 2 6) 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar numDecodings = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar numDecodings = function(s) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numDecodings(self, s: str) -> int:\r\n        "
+    }
 }, {
     "questionId": "0092",
     "titleSlug": "reverse-linked-list-ii",
@@ -2362,7 +2635,10 @@ let data = [{
         "输出: 1->4->3->2->5->NULL"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} m\n * @param {number} n\n * @return {ListNode}\n */\nvar reverseBetween = function(head, m, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} m\n * @param {number} n\n * @return {ListNode}\n */\nvar reverseBetween = function(head, m, n) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0093",
     "titleSlug": "restore-ip-addresses",
@@ -2375,7 +2651,10 @@ let data = [{
         "输出: [\"255.255.11.135\", \"255.255.111.35\"]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string[]}\n */\nvar restoreIpAddresses = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @return {string[]}\r\n */\r\nvar restoreIpAddresses = function(s) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def restoreIpAddresses(self, s: str) -> List[str]:\r\n        "
+    }
 }, {
     "questionId": "0094",
     "titleSlug": "binary-tree-inorder-traversal",
@@ -2396,7 +2675,10 @@ let data = [{
         "进阶: 递归算法很简单，你可以通过迭代算法完成吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar inorderTraversal = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar inorderTraversal = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def inorderTraversal(self, root: TreeNode) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0095",
     "titleSlug": "unique-binary-search-trees-ii",
@@ -2424,7 +2706,10 @@ let data = [{
         "   2     1         2                 3"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number} n\n * @return {TreeNode[]}\n */\nvar generateTrees = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number} n\n * @return {TreeNode[]}\n */\nvar generateTrees = function(n) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def generateTrees(self, n: int) -> List[TreeNode]:\n        "
+    }
 }, {
     "questionId": "0096",
     "titleSlug": "unique-binary-search-trees",
@@ -2445,7 +2730,10 @@ let data = [{
         "   2     1         2                 3"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar numTrees = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar numTrees = function(n) {\n    \n};",
+        "py": "class Solution:\n    def numTrees(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0097",
     "titleSlug": "interleaving-string",
@@ -2462,7 +2750,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s1\n * @param {string} s2\n * @param {string} s3\n * @return {boolean}\n */\nvar isInterleave = function(s1, s2, s3) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s1\r\n * @param {string} s2\r\n * @param {string} s3\r\n * @return {boolean}\r\n */\r\nvar isInterleave = function(s1, s2, s3) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def isInterleave(self, s1: str, s2: str, s3: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0098",
     "titleSlug": "validate-binary-search-tree",
@@ -2493,7 +2784,10 @@ let data = [{
         "     根节点的值为 5 ，但是其右子节点值为 4 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {boolean}\n */\nvar isValidBST = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {boolean}\r\n */\r\nvar isValidBST = function(root) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def isValidBST(self, root: TreeNode) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0099",
     "titleSlug": "recover-binary-search-tree",
@@ -2541,7 +2835,10 @@ let data = [{
         "  - 你能想出一个只使用常数空间的解决方案吗？"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {void} Do not return anything, modify root in-place instead.\n */\nvar recoverTree = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {void} Do not return anything, modify root in-place instead.\n */\nvar recoverTree = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def recoverTree(self, root: TreeNode) -> None:\n        \"\"\"\n        Do not return anything, modify root in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0100",
     "titleSlug": "same-tree",
@@ -2578,7 +2875,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} p\n * @param {TreeNode} q\n * @return {boolean}\n */\nvar isSameTree = function(p, q) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} p\n * @param {TreeNode} q\n * @return {boolean}\n */\nvar isSameTree = function(p, q) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:\n        "
+    }
 }, {
     "questionId": "0101",
     "titleSlug": "symmetric-tree",
@@ -2604,7 +2904,10 @@ let data = [{
         "如果你可以运用递归和迭代两种方法解决这个问题，会很加分。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {boolean}\n */\nvar isSymmetric = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {boolean}\r\n */\r\nvar isSymmetric = function(root) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def isSymmetric(self, root: TreeNode) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0102",
     "titleSlug": "binary-tree-level-order-traversal",
@@ -2628,7 +2931,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[][]}\n */\nvar levelOrder = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[][]}\n */\nvar levelOrder = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def levelOrder(self, root: TreeNode) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0103",
     "titleSlug": "binary-tree-zigzag-level-order-traversal",
@@ -2652,7 +2958,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[][]}\n */\nvar zigzagLevelOrder = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[][]}\n */\nvar zigzagLevelOrder = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0104",
     "titleSlug": "maximum-depth-of-binary-tree",
@@ -2673,7 +2982,10 @@ let data = [{
         "返回它的最大深度 3 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar maxDepth = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar maxDepth = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def maxDepth(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0105",
     "titleSlug": "construct-binary-tree-from-preorder-and-inorder-traversal",
@@ -2695,7 +3007,10 @@ let data = [{
         "   15   7"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} preorder\n * @param {number[]} inorder\n * @return {TreeNode}\n */\nvar buildTree = function(preorder, inorder) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} preorder\n * @param {number[]} inorder\n * @return {TreeNode}\n */\nvar buildTree = function(preorder, inorder) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0106",
     "titleSlug": "construct-binary-tree-from-inorder-and-postorder-traversal",
@@ -2717,7 +3032,10 @@ let data = [{
         "   15   7"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} inorder\n * @param {number[]} postorder\n * @return {TreeNode}\n */\nvar buildTree = function(inorder, postorder) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} inorder\n * @param {number[]} postorder\n * @return {TreeNode}\n */\nvar buildTree = function(inorder, postorder) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0107",
     "titleSlug": "binary-tree-level-order-traversal-ii",
@@ -2741,7 +3059,10 @@ let data = [{
         "]"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[][]}\n */\nvar levelOrderBottom = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[][]}\n */\nvar levelOrderBottom = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0108",
     "titleSlug": "convert-sorted-array-to-binary-search-tree",
@@ -2762,7 +3083,10 @@ let data = [{
         "-10  5"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} nums\n * @return {TreeNode}\n */\nvar sortedArrayToBST = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} nums\n * @return {TreeNode}\n */\nvar sortedArrayToBST = function(nums) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def sortedArrayToBST(self, nums: List[int]) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0109",
     "titleSlug": "convert-sorted-list-to-binary-search-tree",
@@ -2783,7 +3107,10 @@ let data = [{
         "-10  5"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {TreeNode}\n */\nvar sortedListToBST = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {TreeNode}\n */\nvar sortedListToBST = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\n# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def sortedListToBST(self, head: ListNode) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0110",
     "titleSlug": "balanced-binary-tree",
@@ -2816,7 +3143,10 @@ let data = [{
         "返回 false 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {boolean}\n */\nvar isBalanced = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {boolean}\n */\nvar isBalanced = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def isBalanced(self, root: TreeNode) -> bool:\n        "
+    }
 }, {
     "questionId": "0111",
     "titleSlug": "minimum-depth-of-binary-tree",
@@ -2837,7 +3167,10 @@ let data = [{
         "返回它的最小深度  2."
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar minDepth = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar minDepth = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def minDepth(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0112",
     "titleSlug": "path-sum",
@@ -2860,7 +3193,10 @@ let data = [{
         "返回 true, 因为存在目标和为 22 的根节点到叶子节点的路径 5->4->11->2。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} sum\n * @return {boolean}\n */\nvar hasPathSum = function(root, sum) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} sum\n * @return {boolean}\n */\nvar hasPathSum = function(root, sum) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def hasPathSum(self, root: TreeNode, sum: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0113",
     "titleSlug": "path-sum-ii",
@@ -2887,7 +3223,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} sum\n * @return {number[][]}\n */\nvar pathSum = function(root, sum) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} sum\n * @return {number[][]}\n */\nvar pathSum = function(root, sum) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0114",
     "titleSlug": "flatten-binary-tree-to-linked-list",
@@ -2915,7 +3254,10 @@ let data = [{
         "          6"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {void} Do not return anything, modify root in-place instead.\n */\nvar flatten = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {void} Do not return anything, modify root in-place instead.\n */\nvar flatten = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def flatten(self, root: TreeNode) -> None:\n        \"\"\"\n        Do not return anything, modify root in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0115",
     "titleSlug": "distinct-subsequences",
@@ -2959,7 +3301,10 @@ let data = [{
         "    ^^^"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string} t\n * @return {number}\n */\nvar numDistinct = function(s, t) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s\r\n * @param {string} t\r\n * @return {number}\r\n */\r\nvar numDistinct = function(s, t) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numDistinct(self, s: str, t: str) -> int:\r\n        "
+    }
 }, {
     "questionId": "0116",
     "titleSlug": "populating-next-right-pointers-in-each-node",
@@ -2988,7 +3333,10 @@ let data = [{
         "  - 使用递归解题也符合要求，本题中递归程序占用的栈空间不算做额外的空间复杂度。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,left,right,next) {\n *    this.val = val;\n *    this.left = left;\n *    this.right = right;\n *    this.next = next;\n * };\n */\n/**\n * @param {Node} root\n * @return {Node}\n */\nvar connect = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // Definition for a Node.\n * function Node(val,left,right,next) {\n *    this.val = val;\n *    this.left = left;\n *    this.right = right;\n *    this.next = next;\n * };\n */\n/**\n * @param {Node} root\n * @return {Node}\n */\nvar connect = function(root) {\n    \n};",
+        "py": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val, left, right, next):\n        self.val = val\n        self.left = left\n        self.right = right\n        self.next = next\n\"\"\"\nclass Solution:\n    def connect(self, root: 'Node') -> 'Node':\n        "
+    }
 }, {
     "questionId": "0117",
     "titleSlug": "populating-next-right-pointers-in-each-node-ii",
@@ -3017,7 +3365,10 @@ let data = [{
         "  - 使用递归解题也符合要求，本题中递归程序占用的栈空间不算做额外的空间复杂度。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,left,right,next) {\n *    this.val = val;\n *    this.left = left;\n *    this.right = right;\n *    this.next = next;\n * };\n */\n/**\n * @param {Node} root\n * @return {Node}\n */\nvar connect = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // Definition for a Node.\n * function Node(val,left,right,next) {\n *    this.val = val;\n *    this.left = left;\n *    this.right = right;\n *    this.next = next;\n * };\n */\n/**\n * @param {Node} root\n * @return {Node}\n */\nvar connect = function(root) {\n    \n};",
+        "py": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val, left, right, next):\n        self.val = val\n        self.left = left\n        self.right = right\n        self.next = next\n\"\"\"\nclass Solution:\n    def connect(self, root: 'Node') -> 'Node':\n        "
+    }
 }, {
     "questionId": "0118",
     "titleSlug": "pascals-triangle",
@@ -3039,7 +3390,10 @@ let data = [{
         "]"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} numRows\n * @return {number[][]}\n */\nvar generate = function(numRows) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} numRows\n * @return {number[][]}\n */\nvar generate = function(numRows) {\n    \n};",
+        "py": "class Solution:\n    def generate(self, numRows: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0119",
     "titleSlug": "pascals-triangle-ii",
@@ -3057,7 +3411,10 @@ let data = [{
         "你可以优化你的算法到 O(k) 空间复杂度吗？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} rowIndex\n * @return {number[]}\n */\nvar getRow = function(rowIndex) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} rowIndex\n * @return {number[]}\n */\nvar getRow = function(rowIndex) {\n    \n};",
+        "py": "class Solution:\n    def getRow(self, rowIndex: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0120",
     "titleSlug": "triangle",
@@ -3079,7 +3436,10 @@ let data = [{
         "如果你可以只使用 O(n) 的额外空间（n 为三角形的总行数）来解决这个问题，那么你的算法会很加分。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} triangle\n * @return {number}\n */\nvar minimumTotal = function(triangle) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} triangle\n * @return {number}\n */\nvar minimumTotal = function(triangle) {\n    \n};",
+        "py": "class Solution:\n    def minimumTotal(self, triangle: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0121",
     "titleSlug": "best-time-to-buy-and-sell-stock",
@@ -3102,7 +3462,10 @@ let data = [{
         "解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    \n};",
+        "py": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0122",
     "titleSlug": "best-time-to-buy-and-sell-stock-ii",
@@ -3132,7 +3495,10 @@ let data = [{
         "解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    \n};",
+        "py": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0123",
     "titleSlug": "best-time-to-buy-and-sell-stock-iii",
@@ -3162,7 +3528,10 @@ let data = [{
         "解释: 在这个情况下, 没有交易完成, 所以最大利润为 0。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    \n};",
+        "py": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0124",
     "titleSlug": "binary-tree-maximum-path-sum",
@@ -3192,7 +3561,10 @@ let data = [{
         "输出: 42"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar maxPathSum = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar maxPathSum = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def maxPathSum(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0125",
     "titleSlug": "valid-palindrome",
@@ -3211,7 +3583,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar isPalindrome = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar isPalindrome = function(s) {\n    \n};",
+        "py": "class Solution:\n    def isPalindrome(self, s: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0126",
     "titleSlug": "word-ladder-ii",
@@ -3251,7 +3626,10 @@ let data = [{
         "解释: endWord \"cog\" 不在字典中，所以不存在符合要求的转换序列。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} beginWord\n * @param {string} endWord\n * @param {string[]} wordList\n * @return {string[][]}\n */\nvar findLadders = function(beginWord, endWord, wordList) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} beginWord\n * @param {string} endWord\n * @param {string[]} wordList\n * @return {string[][]}\n */\nvar findLadders = function(beginWord, endWord, wordList) {\n    \n};",
+        "py": "class Solution:\n    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:\n        "
+    }
 }, {
     "questionId": "0127",
     "titleSlug": "word-ladder",
@@ -3290,7 +3668,10 @@ let data = [{
         "解释: endWord \"cog\" 不在字典中，所以无法进行转换。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} beginWord\n * @param {string} endWord\n * @param {string[]} wordList\n * @return {number}\n */\nvar ladderLength = function(beginWord, endWord, wordList) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} beginWord\r\n * @param {string} endWord\r\n * @param {string[]} wordList\r\n * @return {number}\r\n */\r\nvar ladderLength = function(beginWord, endWord, wordList) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0128",
     "titleSlug": "longest-consecutive-sequence",
@@ -3305,7 +3686,10 @@ let data = [{
         "解释: 最长连续序列是 [1, 2, 3, 4]。它的长度为 4。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar longestConsecutive = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar longestConsecutive = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def longestConsecutive(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0129",
     "titleSlug": "sum-root-to-leaf-numbers",
@@ -3344,7 +3728,10 @@ let data = [{
         "因此，数字总和 = 495 + 491 + 40 = 1026."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar sumNumbers = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar sumNumbers = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def sumNumbers(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0130",
     "titleSlug": "surrounded-regions",
@@ -3369,7 +3756,10 @@ let data = [{
         "被围绕的区间不会存在于边界上，换句话说，任何边界上的 'O' 都不会被填充为 'X'。 任何不在边界上，或不与边界上的 'O' 相连的 'O' 最终都会被填充为 'X'。如果两个元素在水平或垂直方向相邻，则称它们是“相连”的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {character[][]} board\n * @return {void} Do not return anything, modify board in-place instead.\n */\nvar solve = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[][]} board\n * @return {void} Do not return anything, modify board in-place instead.\n */\nvar solve = function(board) {\n    \n};",
+        "py": "class Solution:\n    def solve(self, board: List[List[str]]) -> None:\n        \"\"\"\n        Do not return anything, modify board in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0131",
     "titleSlug": "palindrome-partitioning",
@@ -3387,7 +3777,10 @@ let data = [{
         "]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string[][]}\n */\nvar partition = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string[][]}\n */\nvar partition = function(s) {\n    \n};",
+        "py": "class Solution:\n    def partition(self, s: str) -> List[List[str]]:\n        "
+    }
 }, {
     "questionId": "0132",
     "titleSlug": "palindrome-partitioning-ii",
@@ -3402,7 +3795,10 @@ let data = [{
         "解释: 进行一次分割就可将 s 分割成 [\"aa\",\"b\"] 这样两个回文子串。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar minCut = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar minCut = function(s) {\n    \n};",
+        "py": "class Solution:\n    def minCut(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0133",
     "titleSlug": "clone-graph",
@@ -3428,7 +3824,10 @@ let data = [{
         "  - 必须将给定节点的拷贝作为对克隆图的引用返回。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,neighbors) {\n *    this.val = val;\n *    this.neighbors = neighbors;\n * };\n */\n/**\n * @param {Node} node\n * @return {Node}\n */\nvar cloneGraph = function(node) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * // Definition for a Node.\r\n * function Node(val,neighbors) {\r\n *    this.val = val;\r\n *    this.neighbors = neighbors;\r\n * };\r\n */\r\n/**\r\n * @param {Node} node\r\n * @return {Node}\r\n */\r\nvar cloneGraph = function(node) {\r\n    \r\n};",
+        "py": "\"\"\"\r\n# Definition for a Node.\r\nclass Node:\r\n    def __init__(self, val, neighbors):\r\n        self.val = val\r\n        self.neighbors = neighbors\r\n\"\"\"\r\nclass Solution:\r\n    def cloneGraph(self, node: 'Node') -> 'Node':\r\n        "
+    }
 }, {
     "questionId": "0134",
     "titleSlug": "gas-station",
@@ -3475,7 +3874,10 @@ let data = [{
         "因此，无论怎样，你都不可能绕环路行驶一周。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} gas\n * @param {number[]} cost\n * @return {number}\n */\nvar canCompleteCircuit = function(gas, cost) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} gas\n * @param {number[]} cost\n * @return {number}\n */\nvar canCompleteCircuit = function(gas, cost) {\n    \n};",
+        "py": "class Solution:\n    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0135",
     "titleSlug": "candy",
@@ -3500,7 +3902,10 @@ let data = [{
         "     第三个孩子只得到 1 颗糖果，这已满足上述两个条件。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} ratings\n * @return {number}\n */\nvar candy = function(ratings) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} ratings\n * @return {number}\n */\nvar candy = function(ratings) {\n    \n};",
+        "py": "class Solution:\n    def candy(self, ratings: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0136",
     "titleSlug": "single-number",
@@ -3520,7 +3925,10 @@ let data = [{
         "输出: 4"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar singleNumber = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar singleNumber = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0137",
     "titleSlug": "single-number-ii",
@@ -3540,7 +3948,10 @@ let data = [{
         "输出: 99"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar singleNumber = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar singleNumber = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0138",
     "titleSlug": "copy-list-with-random-pointer",
@@ -3562,7 +3973,10 @@ let data = [{
         "  - 你必须返回给定头的拷贝作为对克隆列表的引用。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,next,random) {\n *    this.val = val;\n *    this.next = next;\n *    this.random = random;\n * };\n */\n/**\n * @param {Node} head\n * @return {Node}\n */\nvar copyRandomList = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * // Definition for a Node.\r\n * function Node(val,next,random) {\r\n *    this.val = val;\r\n *    this.next = next;\r\n *    this.random = random;\r\n * };\r\n */\r\n/**\r\n * @param {Node} head\r\n * @return {Node}\r\n */\r\nvar copyRandomList = function(head) {\r\n    \r\n};",
+        "py": "\"\"\"\r\n# Definition for a Node.\r\nclass Node:\r\n    def __init__(self, val, next, random):\r\n        self.val = val\r\n        self.next = next\r\n        self.random = random\r\n\"\"\"\r\nclass Solution:\r\n    def copyRandomList(self, head: 'Node') -> 'Node':\r\n        "
+    }
 }, {
     "questionId": "0139",
     "titleSlug": "word-break",
@@ -3590,7 +4004,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string[]} wordDict\n * @return {boolean}\n */\nvar wordBreak = function(s, wordDict) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {string[]} wordDict\n * @return {boolean}\n */\nvar wordBreak = function(s, wordDict) {\n    \n};",
+        "py": "class Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> bool:\n        "
+    }
 }, {
     "questionId": "0140",
     "titleSlug": "word-break-ii",
@@ -3632,7 +4049,10 @@ let data = [{
         "[]"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string[]} wordDict\n * @return {string[]}\n */\nvar wordBreak = function(s, wordDict) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {string[]} wordDict\n * @return {string[]}\n */\nvar wordBreak = function(s, wordDict) {\n    \n};",
+        "py": "class Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0141",
     "titleSlug": "linked-list-cycle",
@@ -3663,7 +4083,10 @@ let data = [{
         "你能用 O(1)（即，常量）内存解决此问题吗？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n\n/**\n * @param {ListNode} head\n * @return {boolean}\n */\nvar hasCycle = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n\r\n/**\r\n * @param {ListNode} head\r\n * @return {boolean}\r\n */\r\nvar hasCycle = function(head) {\r\n    \r\n};",
+        "py": "#Python 2\n\n# Definition for singly-linked list.\r\n# class ListNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution(object):\r\n    def hasCycle(self, head):\r\n        \"\"\"\r\n        :type head: ListNode\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0142",
     "titleSlug": "linked-list-cycle-ii",
@@ -3699,7 +4122,10 @@ let data = [{
         "你是否可以不用额外空间解决此题？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar detectCycle = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n\r\n/**\r\n * @param {ListNode} head\r\n * @return {ListNode}\r\n */\r\nvar detectCycle = function(head) {\r\n    \r\n};",
+        "py": "#Python 2\n\n# Definition for singly-linked list.\r\n# class ListNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution(object):\r\n    def detectCycle(self, head):\r\n        \"\"\"\r\n        :type head: ListNode\r\n        :rtype: ListNode\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0143",
     "titleSlug": "reorder-list",
@@ -3716,7 +4142,10 @@ let data = [{
         "给定链表 1->2->3->4->5, 重新排列为 1->5->2->4->3."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {void} Do not return anything, modify head in-place instead.\n */\nvar reorderList = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {void} Do not return anything, modify head in-place instead.\n */\nvar reorderList = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def reorderList(self, head: ListNode) -> None:\n        \"\"\"\n        Do not return anything, modify head in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0144",
     "titleSlug": "binary-tree-preorder-traversal",
@@ -3736,7 +4165,10 @@ let data = [{
         "进阶: 递归算法很简单，你可以通过迭代算法完成吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar preorderTraversal = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar preorderTraversal = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def preorderTraversal(self, root: TreeNode) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0145",
     "titleSlug": "binary-tree-postorder-traversal",
@@ -3757,7 +4189,10 @@ let data = [{
         "进阶: 递归算法很简单，你可以通过迭代算法完成吗？"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar postorderTraversal = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar postorderTraversal = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def postorderTraversal(self, root: TreeNode) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0146",
     "titleSlug": "lru-cache",
@@ -3784,7 +4219,10 @@ let data = [{
         "cache.get(4);       // 返回  4"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} capacity\n */\nvar LRUCache = function(capacity) {\n    \n};\n\n/** \n * @param {number} key\n * @return {number}\n */\nLRUCache.prototype.get = function(key) {\n    \n};\n\n/** \n * @param {number} key \n * @param {number} value\n * @return {void}\n */\nLRUCache.prototype.put = function(key, value) {\n    \n};\n\n/** \n * Your LRUCache object will be instantiated and called as such:\n * var obj = Object.create(LRUCache).createNew(capacity)\n * var param_1 = obj.get(key)\n * obj.put(key,value)\n */"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} capacity\r\n */\r\nvar LRUCache = function(capacity) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} key\r\n * @return {number}\r\n */\r\nLRUCache.prototype.get = function(key) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} key \r\n * @param {number} value\r\n * @return {void}\r\n */\r\nLRUCache.prototype.put = function(key, value) {\r\n    \r\n};\r\n\r\n/** \r\n * Your LRUCache object will be instantiated and called as such:\r\n * var obj = new LRUCache(capacity)\r\n * var param_1 = obj.get(key)\r\n * obj.put(key,value)\r\n */",
+        "py": "class LRUCache:\r\n\r\n    def __init__(self, capacity: int):\r\n        \r\n\r\n    def get(self, key: int) -> int:\r\n        \r\n\r\n    def put(self, key: int, value: int) -> None:\r\n        \r\n\r\n\r\n# Your LRUCache object will be instantiated and called as such:\r\n# obj = LRUCache(capacity)\r\n# param_1 = obj.get(key)\r\n# obj.put(key,value)"
+    }
 }, {
     "questionId": "0147",
     "titleSlug": "insertion-sort-list",
@@ -3809,7 +4247,10 @@ let data = [{
         "输出: -1->0->3->4->5"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar insertionSortList = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar insertionSortList = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def insertionSortList(self, head: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0148",
     "titleSlug": "sort-list",
@@ -3826,7 +4267,10 @@ let data = [{
         "输出: -1->0->3->4->5"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar sortList = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar sortList = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def sortList(self, head: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0149",
     "titleSlug": "max-points-on-a-line",
@@ -3860,7 +4304,10 @@ let data = [{
         "0  1  2  3  4  5  6"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for a point.\n * function Point(x, y) {\n *     this.x = x;\n *     this.y = y;\n * }\n */\n/**\n * @param {Point[]} points\n * @return {number}\n */\nvar maxPoints = function(points) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} points\r\n * @return {number}\r\n */\r\nvar maxPoints = function(points) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def maxPoints(self, points: List[List[int]]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0150",
     "titleSlug": "evaluate-reverse-polish-notation",
@@ -3896,7 +4343,10 @@ let data = [{
         "= 22"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} tokens\n * @return {number}\n */\nvar evalRPN = function(tokens) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} tokens\n * @return {number}\n */\nvar evalRPN = function(tokens) {\n    \n};",
+        "py": "class Solution:\n    def evalRPN(self, tokens: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0151",
     "titleSlug": "reverse-words-in-a-string",
@@ -3927,7 +4377,10 @@ let data = [{
         "请选用 C 语言的用户尝试使用 O(1) 额外空间复杂度的原地解法。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string}\n */\nvar reverseWords = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string}\n */\nvar reverseWords = function(s) {\n    \n};",
+        "py": "class Solution:\n    def reverseWords(self, s: str) -> str:\n        "
+    }
 }, {
     "questionId": "0152",
     "titleSlug": "maximum-product-subarray",
@@ -3946,7 +4399,10 @@ let data = [{
         "解释: 结果不能为 2, 因为 [-2,-1] 不是子数组。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxProduct = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxProduct = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def maxProduct(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0153",
     "titleSlug": "find-minimum-in-rotated-sorted-array",
@@ -3966,7 +4422,10 @@ let data = [{
         "输出: 0"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMin = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMin = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findMin(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0154",
     "titleSlug": "find-minimum-in-rotated-sorted-array-ii",
@@ -3991,7 +4450,10 @@ let data = [{
         "  - 允许重复会影响算法的时间复杂度吗？会如何影响，为什么？"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMin = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMin = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findMin(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0155",
     "titleSlug": "min-stack",
@@ -4014,7 +4476,10 @@ let data = [{
         "minStack.getMin();   --> 返回 -2."
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * initialize your data structure here.\n */\nvar MinStack = function() {\n    \n};\n\n/** \n * @param {number} x\n * @return {void}\n */\nMinStack.prototype.push = function(x) {\n    \n};\n\n/**\n * @return {void}\n */\nMinStack.prototype.pop = function() {\n    \n};\n\n/**\n * @return {number}\n */\nMinStack.prototype.top = function() {\n    \n};\n\n/**\n * @return {number}\n */\nMinStack.prototype.getMin = function() {\n    \n};\n\n/** \n * Your MinStack object will be instantiated and called as such:\n * var obj = Object.create(MinStack).createNew()\n * obj.push(x)\n * obj.pop()\n * var param_3 = obj.top()\n * var param_4 = obj.getMin()\n */"
+    "codeSnippets": {
+        "js": "/**\n * initialize your data structure here.\n */\nvar MinStack = function() {\n    \n};\n\n/** \n * @param {number} x\n * @return {void}\n */\nMinStack.prototype.push = function(x) {\n    \n};\n\n/**\n * @return {void}\n */\nMinStack.prototype.pop = function() {\n    \n};\n\n/**\n * @return {number}\n */\nMinStack.prototype.top = function() {\n    \n};\n\n/**\n * @return {number}\n */\nMinStack.prototype.getMin = function() {\n    \n};\n\n/** \n * Your MinStack object will be instantiated and called as such:\n * var obj = new MinStack()\n * obj.push(x)\n * obj.pop()\n * var param_3 = obj.top()\n * var param_4 = obj.getMin()\n */",
+        "py": "class MinStack:\n\n    def __init__(self):\n        \"\"\"\n        initialize your data structure here.\n        \"\"\"\n        \n\n    def push(self, x: int) -> None:\n        \n\n    def pop(self) -> None:\n        \n\n    def top(self) -> int:\n        \n\n    def getMin(self) -> int:\n        \n\n\n# Your MinStack object will be instantiated and called as such:\n# obj = MinStack()\n# obj.push(x)\n# obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.getMin()"
+    }
 }, {
     "questionId": "0160",
     "titleSlug": "intersection-of-two-linked-lists",
@@ -4051,7 +4516,10 @@ let data = [{
         "  - 程序尽量满足 O(n) 时间复杂度，且仅用 O(1) 内存。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n\n/**\n * @param {ListNode} headA\n * @param {ListNode} headB\n * @return {ListNode}\n */\nvar getIntersectionNode = function(headA, headB) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n\r\n/**\r\n * @param {ListNode} headA\r\n * @param {ListNode} headB\r\n * @return {ListNode}\r\n */\r\nvar getIntersectionNode = function(headA, headB) {\r\n    \r\n};",
+        "py": "#Python 2\n\n# Definition for singly-linked list.\r\n# class ListNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution(object):\r\n    def getIntersectionNode(self, headA, headB):\r\n        \"\"\"\r\n        :type head1, head1: ListNode\r\n        :rtype: ListNode\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0162",
     "titleSlug": "find-peak-element",
@@ -4077,7 +4545,10 @@ let data = [{
         "你的解法应该是 O(logN) 时间复杂度的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findPeakElement = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findPeakElement = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findPeakElement(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0164",
     "titleSlug": "maximum-gap",
@@ -4101,7 +4572,10 @@ let data = [{
         "  - 请尝试在线性时间复杂度和空间复杂度的条件下解决此问题。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maximumGap = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maximumGap = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def maximumGap(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0165",
     "titleSlug": "compare-version-numbers",
@@ -4142,7 +4616,10 @@ let data = [{
         "  - 版本字符串不以点开始或结束，并且其中不会有两个连续的点。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} version1\n * @param {string} version2\n * @return {number}\n */\nvar compareVersion = function(version1, version2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} version1\n * @param {string} version2\n * @return {number}\n */\nvar compareVersion = function(version1, version2) {\n    \n};",
+        "py": "class Solution:\n    def compareVersion(self, version1: str, version2: str) -> int:\n        "
+    }
 }, {
     "questionId": "0166",
     "titleSlug": "fraction-to-recurring-decimal",
@@ -4164,7 +4641,10 @@ let data = [{
         "输出: \"0.(6)\""
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} numerator\n * @param {number} denominator\n * @return {string}\n */\nvar fractionToDecimal = function(numerator, denominator) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} numerator\n * @param {number} denominator\n * @return {string}\n */\nvar fractionToDecimal = function(numerator, denominator) {\n    \n};",
+        "py": "class Solution:\n    def fractionToDecimal(self, numerator: int, denominator: int) -> str:\n        "
+    }
 }, {
     "questionId": "0167",
     "titleSlug": "two-sum-ii-input-array-is-sorted",
@@ -4183,7 +4663,10 @@ let data = [{
         "解释: 2 与 7 之和等于目标数 9 。因此 index1 = 1, index2 = 2 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} numbers\n * @param {number} target\n * @return {number[]}\n */\nvar twoSum = function(numbers, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} numbers\n * @param {number} target\n * @return {number[]}\n */\nvar twoSum = function(numbers, target) {\n    \n};",
+        "py": "class Solution:\n    def twoSum(self, numbers: List[int], target: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0168",
     "titleSlug": "excel-sheet-column-title",
@@ -4214,7 +4697,10 @@ let data = [{
         "输出: \"ZY\""
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {string}\n */\nvar convertToTitle = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {string}\n */\nvar convertToTitle = function(n) {\n    \n};",
+        "py": "class Solution:\n    def convertToTitle(self, n: int) -> str:\n        "
+    }
 }, {
     "questionId": "0169",
     "titleSlug": "majority-element",
@@ -4232,7 +4718,10 @@ let data = [{
         "输出: 2"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar majorityElement = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar majorityElement = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def majorityElement(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0171",
     "titleSlug": "excel-sheet-column-number",
@@ -4265,7 +4754,10 @@ let data = [{
         "特别感谢 [@ts](http://leetcode.com/discuss/user/ts) 添加此问题并创建所有测试用例。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar titleToNumber = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar titleToNumber = function(s) {\n    \n};",
+        "py": "class Solution:\n    def titleToNumber(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0172",
     "titleSlug": "factorial-trailing-zeroes",
@@ -4286,7 +4778,10 @@ let data = [{
         "说明: 你算法的时间复杂度应为 O(log n) 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar trailingZeroes = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar trailingZeroes = function(n) {\n    \n};",
+        "py": "class Solution:\n    def trailingZeroes(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0173",
     "titleSlug": "binary-search-tree-iterator",
@@ -4313,7 +4808,10 @@ let data = [{
         "  - 你可以假设 next() 调用总是有效的，也就是说，当调用 next() 时，BST 中至少存在一个下一个最小的数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n */\nvar BSTIterator = function(root) {\n    \n};\n\n/**\n * @return the next smallest number\n * @return {number}\n */\nBSTIterator.prototype.next = function() {\n    \n};\n\n/**\n * @return whether we have a next smallest number\n * @return {boolean}\n */\nBSTIterator.prototype.hasNext = function() {\n    \n};\n\n/** \n * Your BSTIterator object will be instantiated and called as such:\n * var obj = Object.create(BSTIterator).createNew(root)\n * var param_1 = obj.next()\n * var param_2 = obj.hasNext()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n */\nvar BSTIterator = function(root) {\n    \n};\n\n/**\n * @return the next smallest number\n * @return {number}\n */\nBSTIterator.prototype.next = function() {\n    \n};\n\n/**\n * @return whether we have a next smallest number\n * @return {boolean}\n */\nBSTIterator.prototype.hasNext = function() {\n    \n};\n\n/** \n * Your BSTIterator object will be instantiated and called as such:\n * var obj = new BSTIterator(root)\n * var param_1 = obj.next()\n * var param_2 = obj.hasNext()\n */",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass BSTIterator:\n\n    def __init__(self, root: TreeNode):\n        \n\n    def next(self) -> int:\n        \"\"\"\n        @return the next smallest number\n        \"\"\"\n        \n\n    def hasNext(self) -> bool:\n        \"\"\"\n        @return whether we have a next smallest number\n        \"\"\"\n        \n\n\n# Your BSTIterator object will be instantiated and called as such:\n# obj = BSTIterator(root)\n# param_1 = obj.next()\n# param_2 = obj.hasNext()"
+    }
 }, {
     "questionId": "0174",
     "titleSlug": "dungeon-game",
@@ -4347,7 +4845,10 @@ let data = [{
         "  - 任何房间都可能对骑士的健康点数造成威胁，也可能增加骑士的健康点数，包括骑士进入的左上角房间以及公主被监禁的右下角房间。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} dungeon\n * @return {number}\n */\nvar calculateMinimumHP = function(dungeon) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} dungeon\n * @return {number}\n */\nvar calculateMinimumHP = function(dungeon) {\n    \n};",
+        "py": "class Solution:\n    def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0175",
     "titleSlug": "combine-two-tables",
@@ -4379,7 +4880,10 @@ let data = [{
         "FirstName, LastName, City, State"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0176",
     "titleSlug": "second-highest-salary",
@@ -4402,7 +4906,10 @@ let data = [{
         "+---------------------+"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0177",
     "titleSlug": "nth-highest-salary",
@@ -4425,7 +4932,10 @@ let data = [{
         "+------------------------+"
     ],
     "difficulty": "中等",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0178",
     "titleSlug": "rank-scores",
@@ -4456,7 +4966,10 @@ let data = [{
         "+-------+------+"
     ],
     "difficulty": "中等",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0179",
     "titleSlug": "largest-number",
@@ -4475,7 +4988,10 @@ let data = [{
         "说明: 输出结果可能非常大，所以你需要返回一个字符串而不是整数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {string}\n */\nvar largestNumber = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {string}\n */\nvar largestNumber = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def largestNumber(self, nums: List[int]) -> str:\n        "
+    }
 }, {
     "questionId": "0180",
     "titleSlug": "consecutive-numbers",
@@ -4502,7 +5018,10 @@ let data = [{
         "+-----------------+"
     ],
     "difficulty": "中等",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0181",
     "titleSlug": "employees-earning-more-than-their-managers",
@@ -4526,7 +5045,10 @@ let data = [{
         "+----------+"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0182",
     "titleSlug": "duplicate-emails",
@@ -4553,7 +5075,10 @@ let data = [{
         "说明：所有电子邮箱都是小写字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0183",
     "titleSlug": "customers-who-never-order",
@@ -4587,7 +5112,10 @@ let data = [{
         "+-----------+"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0184",
     "titleSlug": "department-highest-salary",
@@ -4620,7 +5148,10 @@ let data = [{
         "+------------+----------+--------+"
     ],
     "difficulty": "中等",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0185",
     "titleSlug": "department-top-three-salaries",
@@ -4658,7 +5189,10 @@ let data = [{
         "+------------+----------+--------+"
     ],
     "difficulty": "困难",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0187",
     "titleSlug": "repeated-dna-sequences",
@@ -4672,7 +5206,10 @@ let data = [{
         "输出: [\"AAAAACCCCC\", \"CCCCCAAAAA\"]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string[]}\n */\nvar findRepeatedDnaSequences = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string[]}\n */\nvar findRepeatedDnaSequences = function(s) {\n    \n};",
+        "py": "class Solution:\n    def findRepeatedDnaSequences(self, s: str) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0188",
     "titleSlug": "best-time-to-buy-and-sell-stock-iv",
@@ -4695,7 +5232,10 @@ let data = [{
         "     随后，在第 5 天 (股票价格 = 0) 的时候买入，在第 6 天 (股票价格 = 3) 的时候卖出, 这笔交易所能获得利润 = 3-0 = 3 。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} k\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(k, prices) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} k\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(k, prices) {\n    \n};",
+        "py": "class Solution:\n    def maxProfit(self, k: int, prices: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0189",
     "titleSlug": "rotate-array",
@@ -4723,7 +5263,10 @@ let data = [{
         "  - 要求使用空间复杂度为 O(1) 的原地算法。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar rotate = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar rotate = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def rotate(self, nums: List[int], k: int) -> None:\n        \"\"\"\n        Do not return anything, modify nums in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0190",
     "titleSlug": "reverse-bits",
@@ -4751,7 +5294,10 @@ let data = [{
         "如果多次调用这个函数，你将如何优化你的算法？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n - a positive integer\n * @return {number} - a positive integer\n */\nvar reverseBits = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} n - a positive integer\r\n * @return {number} - a positive integer\r\n */\r\nvar reverseBits = function(n) {\r\n    \r\n};",
+        "py": "#Python 2\n\nclass Solution:\r\n    # @param n, an integer\r\n    # @return an integer\r\n    def reverseBits(self, n):\r\n        "
+    }
 }, {
     "questionId": "0191",
     "titleSlug": "number-of-1-bits",
@@ -4782,7 +5328,10 @@ let data = [{
         "如果多次调用这个函数，你将如何优化你的算法？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n - a positive integer\n * @return {number}\n */\nvar hammingWeight = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} n - a positive integer\r\n * @return {number}\r\n */\r\nvar hammingWeight = function(n) {\r\n    \r\n};",
+        "py": "#Python 2\n\nclass Solution(object):\r\n    def hammingWeight(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0192",
     "titleSlug": "word-frequency",
@@ -4810,7 +5359,10 @@ let data = [{
         "  - 你可以使用一行 [Unix pipes](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html) 实现吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0193",
     "titleSlug": "valid-phone-numbers",
@@ -4831,7 +5383,10 @@ let data = [{
         "(123) 456-7890"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0194",
     "titleSlug": "transpose-file",
@@ -4851,7 +5406,10 @@ let data = [{
         "age 21 30"
     ],
     "difficulty": "中等",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0195",
     "titleSlug": "tenth-line",
@@ -4880,7 +5438,10 @@ let data = [{
         "2. 至少有三种不同的解法，请尝试尽可能多的方法来解题。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0196",
     "titleSlug": "delete-duplicate-emails",
@@ -4905,7 +5466,10 @@ let data = [{
         "+----+------------------+"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0197",
     "titleSlug": "rising-temperature",
@@ -4930,7 +5494,10 @@ let data = [{
         "+----+"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0198",
     "titleSlug": "house-robber",
@@ -4952,7 +5519,10 @@ let data = [{
         "     偷窃到的最高金额 = 2 + 9 + 1 = 12 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar rob = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar rob = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def rob(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0199",
     "titleSlug": "binary-tree-right-side-view",
@@ -4972,7 +5542,10 @@ let data = [{
         "  5      4      <---"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar rightSideView = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar rightSideView = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def rightSideView(self, root: TreeNode) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0200",
     "titleSlug": "number-of-islands",
@@ -4999,7 +5572,10 @@ let data = [{
         "输出: 3"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {character[][]} grid\n * @return {number}\n */\nvar numIslands = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[][]} grid\n * @return {number}\n */\nvar numIslands = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def numIslands(self, grid: List[List[str]]) -> int:\n        "
+    }
 }, {
     "questionId": "0201",
     "titleSlug": "bitwise-and-of-numbers-range",
@@ -5016,7 +5592,10 @@ let data = [{
         "输出: 0"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} m\n * @param {number} n\n * @return {number}\n */\nvar rangeBitwiseAnd = function(m, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} m\n * @param {number} n\n * @return {number}\n */\nvar rangeBitwiseAnd = function(m, n) {\n    \n};",
+        "py": "class Solution:\n    def rangeBitwiseAnd(self, m: int, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0202",
     "titleSlug": "happy-number",
@@ -5035,7 +5614,10 @@ let data = [{
         "1^2 + 0^2 + 0^2 = 1"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar isHappy = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar isHappy = function(n) {\n    \n};",
+        "py": "class Solution:\n    def isHappy(self, n: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0203",
     "titleSlug": "remove-linked-list-elements",
@@ -5048,7 +5630,10 @@ let data = [{
         "输出: 1->2->3->4->5"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} val\n * @return {ListNode}\n */\nvar removeElements = function(head, val) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} val\n * @return {ListNode}\n */\nvar removeElements = function(head, val) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def removeElements(self, head: ListNode, val: int) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0204",
     "titleSlug": "count-primes",
@@ -5062,7 +5647,10 @@ let data = [{
         "解释: 小于 10 的质数一共有 4 个, 它们是 2, 3, 5, 7 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar countPrimes = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar countPrimes = function(n) {\n    \n};",
+        "py": "class Solution:\n    def countPrimes(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0205",
     "titleSlug": "isomorphic-strings",
@@ -5088,7 +5676,10 @@ let data = [{
         "你可以假设 s 和 t 具有相同的长度。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar isIsomorphic = function(s, t) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar isIsomorphic = function(s, t) {\n    \n};",
+        "py": "class Solution:\n    def isIsomorphic(self, s: str, t: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0206",
     "titleSlug": "reverse-linked-list",
@@ -5104,7 +5695,10 @@ let data = [{
         "你可以迭代或递归地反转链表。你能否用两种方法解决这道题？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar reverseList = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar reverseList = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def reverseList(self, head: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0207",
     "titleSlug": "course-schedule",
@@ -5134,7 +5728,10 @@ let data = [{
         "  - 拓扑排序也可以通过 [BFS](https://baike.baidu.com/item/%E5%AE%BD%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2) 完成。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} numCourses\n * @param {number[][]} prerequisites\n * @return {boolean}\n */\nvar canFinish = function(numCourses, prerequisites) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} numCourses\r\n * @param {number[][]} prerequisites\r\n * @return {boolean}\r\n */\r\nvar canFinish = function(numCourses, prerequisites) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0208",
     "titleSlug": "implement-trie-prefix-tree",
@@ -5157,7 +5754,10 @@ let data = [{
         "  - 保证所有输入均为非空字符串。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar Trie = function() {\n    \n};\n\n/**\n * Inserts a word into the trie. \n * @param {string} word\n * @return {void}\n */\nTrie.prototype.insert = function(word) {\n    \n};\n\n/**\n * Returns if the word is in the trie. \n * @param {string} word\n * @return {boolean}\n */\nTrie.prototype.search = function(word) {\n    \n};\n\n/**\n * Returns if there is any word in the trie that starts with the given prefix. \n * @param {string} prefix\n * @return {boolean}\n */\nTrie.prototype.startsWith = function(prefix) {\n    \n};\n\n/** \n * Your Trie object will be instantiated and called as such:\n * var obj = Object.create(Trie).createNew()\n * obj.insert(word)\n * var param_2 = obj.search(word)\n * var param_3 = obj.startsWith(prefix)\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar Trie = function() {\n    \n};\n\n/**\n * Inserts a word into the trie. \n * @param {string} word\n * @return {void}\n */\nTrie.prototype.insert = function(word) {\n    \n};\n\n/**\n * Returns if the word is in the trie. \n * @param {string} word\n * @return {boolean}\n */\nTrie.prototype.search = function(word) {\n    \n};\n\n/**\n * Returns if there is any word in the trie that starts with the given prefix. \n * @param {string} prefix\n * @return {boolean}\n */\nTrie.prototype.startsWith = function(prefix) {\n    \n};\n\n/** \n * Your Trie object will be instantiated and called as such:\n * var obj = new Trie()\n * obj.insert(word)\n * var param_2 = obj.search(word)\n * var param_3 = obj.startsWith(prefix)\n */",
+        "py": "class Trie:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def insert(self, word: str) -> None:\n        \"\"\"\n        Inserts a word into the trie.\n        \"\"\"\n        \n\n    def search(self, word: str) -> bool:\n        \"\"\"\n        Returns if the word is in the trie.\n        \"\"\"\n        \n\n    def startsWith(self, prefix: str) -> bool:\n        \"\"\"\n        Returns if there is any word in the trie that starts with the given prefix.\n        \"\"\"\n        \n\n\n# Your Trie object will be instantiated and called as such:\n# obj = Trie()\n# obj.insert(word)\n# param_2 = obj.search(word)\n# param_3 = obj.startsWith(prefix)"
+    }
 }, {
     "questionId": "0209",
     "titleSlug": "minimum-size-subarray-sum",
@@ -5174,7 +5774,10 @@ let data = [{
         "如果你已经完成了O(n) 时间复杂度的解法, 请尝试 O(n log n) 时间复杂度的解法。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} s\n * @param {number[]} nums\n * @return {number}\n */\nvar minSubArrayLen = function(s, nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} s\n * @param {number[]} nums\n * @return {number}\n */\nvar minSubArrayLen = function(s, nums) {\n    \n};",
+        "py": "class Solution:\n    def minSubArrayLen(self, s: int, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0210",
     "titleSlug": "course-schedule-ii",
@@ -5206,7 +5809,10 @@ let data = [{
         "  - 拓扑排序也可以通过 [BFS](https://baike.baidu.com/item/%E5%AE%BD%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2) 完成。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} numCourses\n * @param {number[][]} prerequisites\n * @return {number[]}\n */\nvar findOrder = function(numCourses, prerequisites) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} numCourses\r\n * @param {number[][]} prerequisites\r\n * @return {number[]}\r\n */\r\nvar findOrder = function(numCourses, prerequisites) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:\r\n        "
+    }
 }, {
     "questionId": "0211",
     "titleSlug": "add-and-search-word-data-structure-design",
@@ -5231,7 +5837,10 @@ let data = [{
         "你可以假设所有单词都是由小写字母 a-z 组成的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar WordDictionary = function() {\n    \n};\n\n/**\n * Adds a word into the data structure. \n * @param {string} word\n * @return {void}\n */\nWordDictionary.prototype.addWord = function(word) {\n    \n};\n\n/**\n * Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. \n * @param {string} word\n * @return {boolean}\n */\nWordDictionary.prototype.search = function(word) {\n    \n};\n\n/** \n * Your WordDictionary object will be instantiated and called as such:\n * var obj = Object.create(WordDictionary).createNew()\n * obj.addWord(word)\n * var param_2 = obj.search(word)\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar WordDictionary = function() {\n    \n};\n\n/**\n * Adds a word into the data structure. \n * @param {string} word\n * @return {void}\n */\nWordDictionary.prototype.addWord = function(word) {\n    \n};\n\n/**\n * Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. \n * @param {string} word\n * @return {boolean}\n */\nWordDictionary.prototype.search = function(word) {\n    \n};\n\n/** \n * Your WordDictionary object will be instantiated and called as such:\n * var obj = new WordDictionary()\n * obj.addWord(word)\n * var param_2 = obj.search(word)\n */",
+        "py": "class WordDictionary:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def addWord(self, word: str) -> None:\n        \"\"\"\n        Adds a word into the data structure.\n        \"\"\"\n        \n\n    def search(self, word: str) -> bool:\n        \"\"\"\n        Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter.\n        \"\"\"\n        \n\n\n# Your WordDictionary object will be instantiated and called as such:\n# obj = WordDictionary()\n# obj.addWord(word)\n# param_2 = obj.search(word)"
+    }
 }, {
     "questionId": "0212",
     "titleSlug": "word-search-ii",
@@ -5259,7 +5868,10 @@ let data = [{
         "  - 如果当前单词不存在于所有单词的前缀中，则可以立即停止回溯。什么样的数据结构可以有效地执行这样的操作？散列表是否可行？为什么？ 前缀树如何？如果你想学习如何实现一个基本的前缀树，请先查看这个问题： [实现Trie（前缀树）](/problems/implement-trie-prefix-tree/description/)。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {character[][]} board\n * @param {string[]} words\n * @return {string[]}\n */\nvar findWords = function(board, words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {character[][]} board\r\n * @param {string[]} words\r\n * @return {string[]}\r\n */\r\nvar findWords = function(board, words) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:\r\n        "
+    }
 }, {
     "questionId": "0213",
     "titleSlug": "house-robber-ii",
@@ -5280,7 +5892,10 @@ let data = [{
         "     偷窃到的最高金额 = 1 + 3 = 4 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar rob = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar rob = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def rob(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0214",
     "titleSlug": "shortest-palindrome",
@@ -5297,7 +5912,10 @@ let data = [{
         "输出: \"dcbabcd\""
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string}\n */\nvar shortestPalindrome = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string}\n */\nvar shortestPalindrome = function(s) {\n    \n};",
+        "py": "class Solution:\n    def shortestPalindrome(self, s: str) -> str:\n        "
+    }
 }, {
     "questionId": "0215",
     "titleSlug": "kth-largest-element-in-an-array",
@@ -5317,7 +5935,10 @@ let data = [{
         "你可以假设 k 总是有效的，且 1 ≤ k ≤ 数组的长度。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar findKthLargest = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar findKthLargest = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def findKthLargest(self, nums: List[int], k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0216",
     "titleSlug": "combination-sum-iii",
@@ -5338,7 +5959,10 @@ let data = [{
         "输出: [[1,2,6], [1,3,5], [2,3,4]]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} k\n * @param {number} n\n * @return {number[][]}\n */\nvar combinationSum3 = function(k, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} k\n * @param {number} n\n * @return {number[][]}\n */\nvar combinationSum3 = function(k, n) {\n    \n};",
+        "py": "class Solution:\n    def combinationSum3(self, k: int, n: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0217",
     "titleSlug": "contains-duplicate",
@@ -5360,7 +5984,10 @@ let data = [{
         "输出: true"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar containsDuplicate = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar containsDuplicate = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0218",
     "titleSlug": "the-skyline-problem",
@@ -5383,7 +6010,10 @@ let data = [{
         "  - 输出天际线中不得有连续的相同高度的水平线。例如 [...[2 3], [4 5], [7 5], [11 5], [12 7]...] 是不正确的答案；三条高度为 5 的线应该在最终输出中合并为一个：[...[2 3], [4 5], [12 7], ...]"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} buildings\n * @return {number[][]}\n */\nvar getSkyline = function(buildings) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} buildings\r\n * @return {number[][]}\r\n */\r\nvar getSkyline = function(buildings) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:\r\n        "
+    }
 }, {
     "questionId": "0219",
     "titleSlug": "contains-duplicate-ii",
@@ -5404,7 +6034,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {boolean}\n */\nvar containsNearbyDuplicate = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {boolean}\n */\nvar containsNearbyDuplicate = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0220",
     "titleSlug": "contains-duplicate-iii",
@@ -5425,7 +6058,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @param {number} t\n * @return {boolean}\n */\nvar containsNearbyAlmostDuplicate = function(nums, k, t) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums\r\n * @param {number} k\r\n * @param {number} t\r\n * @return {boolean}\r\n */\r\nvar containsNearbyAlmostDuplicate = function(nums, k, t) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:"
+    }
 }, {
     "questionId": "0221",
     "titleSlug": "maximal-square",
@@ -5444,7 +6080,10 @@ let data = [{
         "输出: 4"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {character[][]} matrix\n * @return {number}\n */\nvar maximalSquare = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[][]} matrix\n * @return {number}\n */\nvar maximalSquare = function(matrix) {\n    \n};",
+        "py": "class Solution:\n    def maximalSquare(self, matrix: List[List[str]]) -> int:\n        "
+    }
 }, {
     "questionId": "0222",
     "titleSlug": "count-complete-tree-nodes",
@@ -5466,7 +6105,10 @@ let data = [{
         "输出: 6"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar countNodes = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar countNodes = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def countNodes(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0223",
     "titleSlug": "rectangle-area",
@@ -5483,7 +6125,10 @@ let data = [{
         "说明: 假设矩形面积不会超出 int 的范围。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} A\n * @param {number} B\n * @param {number} C\n * @param {number} D\n * @param {number} E\n * @param {number} F\n * @param {number} G\n * @param {number} H\n * @return {number}\n */\nvar computeArea = function(A, B, C, D, E, F, G, H) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} A\n * @param {number} B\n * @param {number} C\n * @param {number} D\n * @param {number} E\n * @param {number} F\n * @param {number} G\n * @param {number} H\n * @return {number}\n */\nvar computeArea = function(A, B, C, D, E, F, G, H) {\n    \n};",
+        "py": "class Solution:\n    def computeArea(self, A: int, B: int, C: int, D: int, E: int, F: int, G: int, H: int) -> int:\n        "
+    }
 }, {
     "questionId": "0224",
     "titleSlug": "basic-calculator",
@@ -5509,7 +6154,10 @@ let data = [{
         "  - 请不要使用内置的库函数 eval。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar calculate = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar calculate = function(s) {\n    \n};",
+        "py": "class Solution:\n    def calculate(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0225",
     "titleSlug": "implement-stack-using-queues",
@@ -5527,7 +6175,10 @@ let data = [{
         "  - 你可以假设所有操作都是有效的（例如, 对一个空的栈不会调用 pop 或者 top 操作）。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar MyStack = function() {\n    \n};\n\n/**\n * Push element x onto stack. \n * @param {number} x\n * @return {void}\n */\nMyStack.prototype.push = function(x) {\n    \n};\n\n/**\n * Removes the element on top of the stack and returns that element.\n * @return {number}\n */\nMyStack.prototype.pop = function() {\n    \n};\n\n/**\n * Get the top element.\n * @return {number}\n */\nMyStack.prototype.top = function() {\n    \n};\n\n/**\n * Returns whether the stack is empty.\n * @return {boolean}\n */\nMyStack.prototype.empty = function() {\n    \n};\n\n/** \n * Your MyStack object will be instantiated and called as such:\n * var obj = Object.create(MyStack).createNew()\n * obj.push(x)\n * var param_2 = obj.pop()\n * var param_3 = obj.top()\n * var param_4 = obj.empty()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar MyStack = function() {\n    \n};\n\n/**\n * Push element x onto stack. \n * @param {number} x\n * @return {void}\n */\nMyStack.prototype.push = function(x) {\n    \n};\n\n/**\n * Removes the element on top of the stack and returns that element.\n * @return {number}\n */\nMyStack.prototype.pop = function() {\n    \n};\n\n/**\n * Get the top element.\n * @return {number}\n */\nMyStack.prototype.top = function() {\n    \n};\n\n/**\n * Returns whether the stack is empty.\n * @return {boolean}\n */\nMyStack.prototype.empty = function() {\n    \n};\n\n/** \n * Your MyStack object will be instantiated and called as such:\n * var obj = new MyStack()\n * obj.push(x)\n * var param_2 = obj.pop()\n * var param_3 = obj.top()\n * var param_4 = obj.empty()\n */",
+        "py": "class MyStack:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def push(self, x: int) -> None:\n        \"\"\"\n        Push element x onto stack.\n        \"\"\"\n        \n\n    def pop(self) -> int:\n        \"\"\"\n        Removes the element on top of the stack and returns that element.\n        \"\"\"\n        \n\n    def top(self) -> int:\n        \"\"\"\n        Get the top element.\n        \"\"\"\n        \n\n    def empty(self) -> bool:\n        \"\"\"\n        Returns whether the stack is empty.\n        \"\"\"\n        \n\n\n# Your MyStack object will be instantiated and called as such:\n# obj = MyStack()\n# obj.push(x)\n# param_2 = obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.empty()"
+    }
 }, {
     "questionId": "0226",
     "titleSlug": "invert-binary-tree",
@@ -5554,7 +6205,10 @@ let data = [{
         "谷歌：我们90％的工程师使用您编写的软件(Homebrew)，但是您却无法在面试时在白板上写出翻转二叉树这道题，这太糟糕了。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar invertTree = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar invertTree = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def invertTree(self, root: TreeNode) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0227",
     "titleSlug": "basic-calculator-ii",
@@ -5580,7 +6234,10 @@ let data = [{
         "  - 请不要使用内置的库函数 eval。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar calculate = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar calculate = function(s) {\n    \n};",
+        "py": "class Solution:\n    def calculate(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0228",
     "titleSlug": "summary-ranges",
@@ -5599,7 +6256,10 @@ let data = [{
         "解释: 2,3,4 可组成一个连续的区间; 8,9 可组成一个连续的区间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {string[]}\n */\nvar summaryRanges = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {string[]}\n */\nvar summaryRanges = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def summaryRanges(self, nums: List[int]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0229",
     "titleSlug": "majority-element-ii",
@@ -5618,7 +6278,10 @@ let data = [{
         "输出: [1,2]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar majorityElement = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar majorityElement = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def majorityElement(self, nums: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0230",
     "titleSlug": "kth-smallest-element-in-a-bst",
@@ -5653,7 +6316,10 @@ let data = [{
         "如果二叉搜索树经常被修改（插入/删除操作）并且你需要频繁地查找第 k 小的值，你将如何优化 kthSmallest 函数？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} k\n * @return {number}\n */\nvar kthSmallest = function(root, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} k\n * @return {number}\n */\nvar kthSmallest = function(root, k) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def kthSmallest(self, root: TreeNode, k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0231",
     "titleSlug": "power-of-two",
@@ -5676,7 +6342,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar isPowerOfTwo = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar isPowerOfTwo = function(n) {\n    \n};",
+        "py": "class Solution:\n    def isPowerOfTwo(self, n: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0232",
     "titleSlug": "implement-queue-using-stacks",
@@ -5703,7 +6372,10 @@ let data = [{
         "  - 假设所有操作都是有效的 （例如，一个空的队列不会调用 pop 或者 peek 操作）。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar MyQueue = function() {\n    \n};\n\n/**\n * Push element x to the back of queue. \n * @param {number} x\n * @return {void}\n */\nMyQueue.prototype.push = function(x) {\n    \n};\n\n/**\n * Removes the element from in front of queue and returns that element.\n * @return {number}\n */\nMyQueue.prototype.pop = function() {\n    \n};\n\n/**\n * Get the front element.\n * @return {number}\n */\nMyQueue.prototype.peek = function() {\n    \n};\n\n/**\n * Returns whether the queue is empty.\n * @return {boolean}\n */\nMyQueue.prototype.empty = function() {\n    \n};\n\n/** \n * Your MyQueue object will be instantiated and called as such:\n * var obj = Object.create(MyQueue).createNew()\n * obj.push(x)\n * var param_2 = obj.pop()\n * var param_3 = obj.peek()\n * var param_4 = obj.empty()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar MyQueue = function() {\n    \n};\n\n/**\n * Push element x to the back of queue. \n * @param {number} x\n * @return {void}\n */\nMyQueue.prototype.push = function(x) {\n    \n};\n\n/**\n * Removes the element from in front of queue and returns that element.\n * @return {number}\n */\nMyQueue.prototype.pop = function() {\n    \n};\n\n/**\n * Get the front element.\n * @return {number}\n */\nMyQueue.prototype.peek = function() {\n    \n};\n\n/**\n * Returns whether the queue is empty.\n * @return {boolean}\n */\nMyQueue.prototype.empty = function() {\n    \n};\n\n/** \n * Your MyQueue object will be instantiated and called as such:\n * var obj = new MyQueue()\n * obj.push(x)\n * var param_2 = obj.pop()\n * var param_3 = obj.peek()\n * var param_4 = obj.empty()\n */",
+        "py": "class MyQueue:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def push(self, x: int) -> None:\n        \"\"\"\n        Push element x to the back of queue.\n        \"\"\"\n        \n\n    def pop(self) -> int:\n        \"\"\"\n        Removes the element from in front of queue and returns that element.\n        \"\"\"\n        \n\n    def peek(self) -> int:\n        \"\"\"\n        Get the front element.\n        \"\"\"\n        \n\n    def empty(self) -> bool:\n        \"\"\"\n        Returns whether the queue is empty.\n        \"\"\"\n        \n\n\n# Your MyQueue object will be instantiated and called as such:\n# obj = MyQueue()\n# obj.push(x)\n# param_2 = obj.pop()\n# param_3 = obj.peek()\n# param_4 = obj.empty()"
+    }
 }, {
     "questionId": "0233",
     "titleSlug": "number-of-digit-one",
@@ -5717,7 +6389,10 @@ let data = [{
         "解释: 数字 1 出现在以下数字中: 1, 10, 11, 12, 13 。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar countDigitOne = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar countDigitOne = function(n) {\n    \n};",
+        "py": "class Solution:\n    def countDigitOne(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0234",
     "titleSlug": "palindrome-linked-list",
@@ -5737,7 +6412,10 @@ let data = [{
         "你能否用 O(n) 时间复杂度和 O(1) 空间复杂度解决此题？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {boolean}\n */\nvar isPalindrome = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {boolean}\n */\nvar isPalindrome = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def isPalindrome(self, head: ListNode) -> bool:\n        "
+    }
 }, {
     "questionId": "0235",
     "titleSlug": "lowest-common-ancestor-of-a-binary-search-tree",
@@ -5764,7 +6442,10 @@ let data = [{
         "  - p、q 为不同节点且均存在于给定的二叉搜索树中。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {TreeNode} p\n * @param {TreeNode} q\n * @return {TreeNode}\n */\nvar lowestCommonAncestor = function(root, p, q) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @param {TreeNode} p\r\n * @param {TreeNode} q\r\n * @return {TreeNode}\r\n */\r\nvar lowestCommonAncestor = function(root, p, q) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':\r\n        "
+    }
 }, {
     "questionId": "0236",
     "titleSlug": "lowest-common-ancestor-of-a-binary-tree",
@@ -5791,7 +6472,10 @@ let data = [{
         "  - p、q 为不同节点且均存在于给定的二叉树中。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {TreeNode} p\n * @param {TreeNode} q\n * @return {TreeNode}\n */\nvar lowestCommonAncestor = function(root, p, q) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @param {TreeNode} p\r\n * @param {TreeNode} q\r\n * @return {TreeNode}\r\n */\r\nvar lowestCommonAncestor = function(root, p, q) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':\r\n        "
+    }
 }, {
     "questionId": "0237",
     "titleSlug": "delete-node-in-a-linked-list",
@@ -5818,7 +6502,10 @@ let data = [{
         "  - 不要从你的函数中返回任何结果。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} node\n * @return {void} Do not return anything, modify node in-place instead.\n */\nvar deleteNode = function(node) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n/**\r\n * @param {ListNode} node\r\n * @return {void} Do not return anything, modify node in-place instead.\r\n */\r\nvar deleteNode = function(node) {\r\n    \r\n};",
+        "py": "# Definition for singly-linked list.\r\n# class ListNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution:\r\n    def deleteNode(self, node):\r\n        \"\"\"\r\n        :type node: ListNode\r\n        :rtype: void Do not return anything, modify node in-place instead.\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0238",
     "titleSlug": "product-of-array-except-self",
@@ -5836,7 +6523,10 @@ let data = [{
         "你可以在常数空间复杂度内完成这个题目吗？（ 出于对空间复杂度分析的目的，输出数组不被视为额外空间。）"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar productExceptSelf = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar productExceptSelf = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def productExceptSelf(self, nums: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0239",
     "titleSlug": "sliding-window-maximum",
@@ -5866,7 +6556,10 @@ let data = [{
         "你能在线性时间复杂度内解决此题吗？"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar maxSlidingWindow = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar maxSlidingWindow = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0240",
     "titleSlug": "search-a-2d-matrix-ii",
@@ -5890,7 +6583,10 @@ let data = [{
         "给定 target = 20，返回 false。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @param {number} target\n * @return {boolean}\n */\nvar searchMatrix = function(matrix, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} matrix\r\n * @param {number} target\r\n * @return {boolean}\r\n */\r\nvar searchMatrix = function(matrix, target) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def searchMatrix(self, matrix, target):\r\n        \"\"\"\r\n        :type matrix: List[List[int]]\r\n        :type target: int\r\n        :rtype: bool\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0241",
     "titleSlug": "different-ways-to-add-parentheses",
@@ -5916,7 +6612,10 @@ let data = [{
         "(((2*3)-4)*5) = 10"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} input\n * @return {number[]}\n */\nvar diffWaysToCompute = function(input) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} input\n * @return {number[]}\n */\nvar diffWaysToCompute = function(input) {\n    \n};",
+        "py": "class Solution:\n    def diffWaysToCompute(self, input: str) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0242",
     "titleSlug": "valid-anagram",
@@ -5939,7 +6638,10 @@ let data = [{
         "如果输入字符串包含 unicode 字符怎么办？你能否调整你的解法来应对这种情况？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar isAnagram = function(s, t) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar isAnagram = function(s, t) {\n    \n};",
+        "py": "class Solution:\n    def isAnagram(self, s: str, t: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0257",
     "titleSlug": "binary-tree-paths",
@@ -5963,7 +6665,10 @@ let data = [{
         "解释: 所有根节点到叶子节点的路径为: 1->2->5, 1->3"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {string[]}\n */\nvar binaryTreePaths = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {string[]}\n */\nvar binaryTreePaths = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def binaryTreePaths(self, root: TreeNode) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0258",
     "titleSlug": "add-digits",
@@ -5980,7 +6685,10 @@ let data = [{
         "你可以不使用循环或者递归，且在 O(1) 时间复杂度内解决这个问题吗？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {number}\n */\nvar addDigits = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {number}\n */\nvar addDigits = function(num) {\n    \n};",
+        "py": "class Solution:\n    def addDigits(self, num: int) -> int:\n        "
+    }
 }, {
     "questionId": "0260",
     "titleSlug": "single-number-iii",
@@ -5997,7 +6705,10 @@ let data = [{
         "  - 你的算法应该具有线性时间复杂度。你能否仅使用常数空间复杂度来实现？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar singleNumber = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar singleNumber = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def singleNumber(self, nums: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0262",
     "titleSlug": "trips-and-users",
@@ -6046,7 +6757,10 @@ let data = [{
         "非常感谢 [@cak1erlizhou](https://leetcode.com/discuss/user/cak1erlizhou) 详细的提供了这道题和相应的测试用例。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0263",
     "titleSlug": "ugly-number",
@@ -6075,7 +6789,10 @@ let data = [{
         "  - 输入不会超过 32 位有符号整数的范围: [-2^31,  2^31 - 1]。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {boolean}\n */\nvar isUgly = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {boolean}\n */\nvar isUgly = function(num) {\n    \n};",
+        "py": "class Solution:\n    def isUgly(self, num: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0264",
     "titleSlug": "ugly-number-ii",
@@ -6094,7 +6811,10 @@ let data = [{
         "  - n 不超过1690。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar nthUglyNumber = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar nthUglyNumber = function(n) {\n    \n};",
+        "py": "class Solution:\n    def nthUglyNumber(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0268",
     "titleSlug": "missing-number",
@@ -6114,7 +6834,10 @@ let data = [{
         "你的算法应具有线性时间复杂度。你能否仅使用额外常数空间来实现?"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar missingNumber = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar missingNumber = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def missingNumber(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0273",
     "titleSlug": "integer-to-english-words",
@@ -6139,7 +6862,10 @@ let data = [{
         "输出: \"One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One\""
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {string}\n */\nvar numberToWords = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {string}\n */\nvar numberToWords = function(num) {\n    \n};",
+        "py": "class Solution:\n    def numberToWords(self, num: int) -> str:\n        "
+    }
 }, {
     "questionId": "0274",
     "titleSlug": "h-index",
@@ -6157,7 +6883,10 @@ let data = [{
         "说明: 如果 h 有多种可能的值，h 指数是其中最大的那个。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} citations\n * @return {number}\n */\nvar hIndex = function(citations) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} citations\n * @return {number}\n */\nvar hIndex = function(citations) {\n    \n};",
+        "py": "class Solution:\n    def hIndex(self, citations: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0275",
     "titleSlug": "h-index-ii",
@@ -6179,7 +6908,10 @@ let data = [{
         "  - 你可以优化你的算法到对数时间复杂度吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} citations\n * @return {number}\n */\nvar hIndex = function(citations) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} citations\n * @return {number}\n */\nvar hIndex = function(citations) {\n    \n};",
+        "py": "class Solution:\n    def hIndex(self, citations: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0278",
     "titleSlug": "first-bad-version",
@@ -6199,7 +6931,10 @@ let data = [{
         "所以，4 是第一个错误的版本。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for isBadVersion()\n * \n * @param {integer} version number\n * @return {boolean} whether the version is bad\n * isBadVersion = function(version) {\n *     ...\n * };\n */\n\n/**\n * @param {function} isBadVersion()\n * @return {function}\n */\nvar solution = function(isBadVersion) {\n    /**\n     * @param {integer} n Total versions\n     * @return {integer} The first bad version\n     */\n    return function(n) {\n        \n    };\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for isBadVersion()\r\n * \r\n * @param {integer} version number\r\n * @return {boolean} whether the version is bad\r\n * isBadVersion = function(version) {\r\n *     ...\r\n * };\r\n */\r\n\r\n/**\r\n * @param {function} isBadVersion()\r\n * @return {function}\r\n */\r\nvar solution = function(isBadVersion) {\r\n    /**\r\n     * @param {integer} n Total versions\r\n     * @return {integer} The first bad version\r\n     */\r\n    return function(n) {\r\n        \r\n    };\r\n};",
+        "py": "# The isBadVersion API is already defined for you.\r\n# @param version, an integer\r\n# @return a bool\r\n# def isBadVersion(version):\r\n\r\nclass Solution:\r\n    def firstBadVersion(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0279",
     "titleSlug": "perfect-squares",
@@ -6218,7 +6953,10 @@ let data = [{
         "解释: 13 = 4 + 9."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar numSquares = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar numSquares = function(n) {\n    \n};",
+        "py": "class Solution:\n    def numSquares(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0282",
     "titleSlug": "expression-add-operators",
@@ -6247,7 +6985,10 @@ let data = [{
         "输出: []"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} num\n * @param {number} target\n * @return {string[]}\n */\nvar addOperators = function(num, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} num\n * @param {number} target\n * @return {string[]}\n */\nvar addOperators = function(num, target) {\n    \n};",
+        "py": "class Solution:\n    def addOperators(self, num: str, target: int) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0283",
     "titleSlug": "move-zeroes",
@@ -6264,7 +7005,10 @@ let data = [{
         "  - 尽量减少操作次数。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar moveZeroes = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar moveZeroes = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def moveZeroes(self, nums: List[int]) -> None:\n        \"\"\"\n        Do not return anything, modify nums in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0284",
     "titleSlug": "peeking-iterator",
@@ -6282,7 +7026,10 @@ let data = [{
         "进阶：你将如何拓展你的设计？使之变得通用化，从而适应所有的类型，而不只是整数型？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "# Below is the interface for Iterator, which is already defined for you.\r\n#\r\n# class Iterator:\r\n#     def __init__(self, nums):\r\n#         \"\"\"\r\n#         Initializes an iterator object to the beginning of a list.\r\n#         :type nums: List[int]\r\n#         \"\"\"\r\n#\r\n#     def hasNext(self):\r\n#         \"\"\"\r\n#         Returns true if the iteration has more elements.\r\n#         :rtype: bool\r\n#         \"\"\"\r\n#\r\n#     def next(self):\r\n#         \"\"\"\r\n#         Returns the next element in the iteration.\r\n#         :rtype: int\r\n#         \"\"\"\r\n\r\nclass PeekingIterator:\r\n    def __init__(self, iterator):\r\n        \"\"\"\r\n        Initialize your data structure here.\r\n        :type iterator: Iterator\r\n        \"\"\"\r\n        \r\n\r\n    def peek(self):\r\n        \"\"\"\r\n        Returns the next element in the iteration without advancing the iterator.\r\n        :rtype: int\r\n        \"\"\"\r\n        \r\n\r\n    def next(self):\r\n        \"\"\"\r\n        :rtype: int\r\n        \"\"\"\r\n        \r\n\r\n    def hasNext(self):\r\n        \"\"\"\r\n        :rtype: bool\r\n        \"\"\"\r\n        \r\n\r\n# Your PeekingIterator object will be instantiated and called as such:\r\n# iter = PeekingIterator(Iterator(nums))\r\n# while iter.hasNext():\r\n#     val = iter.peek()   # Get the next element but not advance the iterator.\r\n#     iter.next()         # Should return the same value as [val]."
+    }
 }, {
     "questionId": "0287",
     "titleSlug": "find-the-duplicate-number",
@@ -6305,7 +7052,10 @@ let data = [{
         "  - 数组中只有一个重复的数字，但它可能不止重复出现一次。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findDuplicate = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findDuplicate = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findDuplicate(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0289",
     "titleSlug": "game-of-life",
@@ -6341,7 +7091,10 @@ let data = [{
         "  - 本题中，我们使用二维数组来表示面板。原则上，面板是无限的，但当活细胞侵占了面板边界时会造成问题。你将如何解决这些问题？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} board\n * @return {void} Do not return anything, modify board in-place instead.\n */\nvar gameOfLife = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} board\n * @return {void} Do not return anything, modify board in-place instead.\n */\nvar gameOfLife = function(board) {\n    \n};",
+        "py": "class Solution:\n    def gameOfLife(self, board: List[List[int]]) -> None:\n        \"\"\"\n        Do not return anything, modify board in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0290",
     "titleSlug": "word-pattern",
@@ -6370,7 +7123,10 @@ let data = [{
         "你可以假设 pattern 只包含小写字母， str 包含了由单个空格分隔的小写字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} pattern\n * @param {string} str\n * @return {boolean}\n */\nvar wordPattern = function(pattern, str) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} pattern\r\n * @param {string} str\r\n * @return {boolean}\r\n */\r\nvar wordPattern = function(pattern, str) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def wordPattern(self, pattern: str, str: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0292",
     "titleSlug": "nim-game",
@@ -6386,7 +7142,10 @@ let data = [{
         "     因为无论你拿走 1 块、2 块 还是 3 块石头，最后一块石头总是会被你的朋友拿走。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar canWinNim = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar canWinNim = function(n) {\n    \n};",
+        "py": "class Solution:\n    def canWinNim(self, n: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0295",
     "titleSlug": "find-median-from-data-stream",
@@ -6413,7 +7172,10 @@ let data = [{
         "  - 如果数据流中 99% 的整数都在 0 到 100 范围内，你将如何优化你的算法？"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * initialize your data structure here.\n */\nvar MedianFinder = function() {\n    \n};\n\n/** \n * @param {number} num\n * @return {void}\n */\nMedianFinder.prototype.addNum = function(num) {\n    \n};\n\n/**\n * @return {number}\n */\nMedianFinder.prototype.findMedian = function() {\n    \n};\n\n/** \n * Your MedianFinder object will be instantiated and called as such:\n * var obj = Object.create(MedianFinder).createNew()\n * obj.addNum(num)\n * var param_2 = obj.findMedian()\n */"
+    "codeSnippets": {
+        "js": "/**\n * initialize your data structure here.\n */\nvar MedianFinder = function() {\n    \n};\n\n/** \n * @param {number} num\n * @return {void}\n */\nMedianFinder.prototype.addNum = function(num) {\n    \n};\n\n/**\n * @return {number}\n */\nMedianFinder.prototype.findMedian = function() {\n    \n};\n\n/** \n * Your MedianFinder object will be instantiated and called as such:\n * var obj = new MedianFinder()\n * obj.addNum(num)\n * var param_2 = obj.findMedian()\n */",
+        "py": "class MedianFinder:\n\n    def __init__(self):\n        \"\"\"\n        initialize your data structure here.\n        \"\"\"\n        \n\n    def addNum(self, num: int) -> None:\n        \n\n    def findMedian(self) -> float:\n        \n\n\n# Your MedianFinder object will be instantiated and called as such:\n# obj = MedianFinder()\n# obj.addNum(num)\n# param_2 = obj.findMedian()"
+    }
 }, {
     "questionId": "0297",
     "titleSlug": "serialize-and-deserialize-binary-tree",
@@ -6437,7 +7199,10 @@ let data = [{
         "说明: 不要使用类的成员 / 全局 / 静态变量来存储状态，你的序列化和反序列化算法应该是无状态的。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n\n/**\n * Encodes a tree to a single string.\n *\n * @param {TreeNode} root\n * @return {string}\n */\nvar serialize = function(root) {\n    \n};\n\n/**\n * Decodes your encoded data to tree.\n *\n * @param {string} data\n * @return {TreeNode}\n */\nvar deserialize = function(data) {\n    \n};\n\n/**\n * Your functions will be called as such:\n * deserialize(serialize(root));\n */"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n\r\n/**\r\n * Encodes a tree to a single string.\r\n *\r\n * @param {TreeNode} root\r\n * @return {string}\r\n */\r\nvar serialize = function(root) {\r\n    \r\n};\r\n\r\n/**\r\n * Decodes your encoded data to tree.\r\n *\r\n * @param {string} data\r\n * @return {TreeNode}\r\n */\r\nvar deserialize = function(data) {\r\n    \r\n};\r\n\r\n/**\r\n * Your functions will be called as such:\r\n * deserialize(serialize(root));\r\n */",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Codec:\r\n\r\n    def serialize(self, root):\r\n        \"\"\"Encodes a tree to a single string.\r\n        \r\n        :type root: TreeNode\r\n        :rtype: str\r\n        \"\"\"\r\n        \r\n\r\n    def deserialize(self, data):\r\n        \"\"\"Decodes your encoded data to tree.\r\n        \r\n        :type data: str\r\n        :rtype: TreeNode\r\n        \"\"\"\r\n        \r\n\r\n# Your Codec object will be instantiated and called as such:\r\n# codec = Codec()\r\n# codec.deserialize(codec.serialize(root))"
+    }
 }, {
     "questionId": "0299",
     "titleSlug": "bulls-and-cows",
@@ -6460,7 +7225,10 @@ let data = [{
         "说明: 你可以假设秘密数字和朋友的猜测数都只包含数字，并且它们的长度永远相等。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} secret\n * @param {string} guess\n * @return {string}\n */\nvar getHint = function(secret, guess) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} secret\n * @param {string} guess\n * @return {string}\n */\nvar getHint = function(secret, guess) {\n    \n};",
+        "py": "class Solution:\n    def getHint(self, secret: str, guess: str) -> str:\n        "
+    }
 }, {
     "questionId": "0300",
     "titleSlug": "longest-increasing-subsequence",
@@ -6480,7 +7248,10 @@ let data = [{
         "进阶: 你能将算法的时间复杂度降低到 O(n log n) 吗?"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar lengthOfLIS = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar lengthOfLIS = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def lengthOfLIS(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0301",
     "titleSlug": "remove-invalid-parentheses",
@@ -6503,7 +7274,10 @@ let data = [{
         "输出: [\"\"]"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string[]}\n */\nvar removeInvalidParentheses = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string[]}\n */\nvar removeInvalidParentheses = function(s) {\n    \n};",
+        "py": "class Solution:\n    def removeInvalidParentheses(self, s: str) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0303",
     "titleSlug": "range-sum-query-immutable",
@@ -6523,7 +7297,10 @@ let data = [{
         "  - 会多次调用 sumRange 方法。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n */\nvar NumArray = function(nums) {\n    \n};\n\n/** \n * @param {number} i \n * @param {number} j\n * @return {number}\n */\nNumArray.prototype.sumRange = function(i, j) {\n    \n};\n\n/** \n * Your NumArray object will be instantiated and called as such:\n * var obj = Object.create(NumArray).createNew(nums)\n * var param_1 = obj.sumRange(i,j)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n */\nvar NumArray = function(nums) {\n    \n};\n\n/** \n * @param {number} i \n * @param {number} j\n * @return {number}\n */\nNumArray.prototype.sumRange = function(i, j) {\n    \n};\n\n/** \n * Your NumArray object will be instantiated and called as such:\n * var obj = new NumArray(nums)\n * var param_1 = obj.sumRange(i,j)\n */",
+        "py": "class NumArray:\n\n    def __init__(self, nums: List[int]):\n        \n\n    def sumRange(self, i: int, j: int) -> int:\n        \n\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(i,j)"
+    }
 }, {
     "questionId": "0304",
     "titleSlug": "range-sum-query-2d-immutable",
@@ -6552,7 +7329,10 @@ let data = [{
         "  - 你可以假设 row1 ≤ row2 且 col1 ≤ col2。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n */\nvar NumMatrix = function(matrix) {\n    \n};\n\n/** \n * @param {number} row1 \n * @param {number} col1 \n * @param {number} row2 \n * @param {number} col2\n * @return {number}\n */\nNumMatrix.prototype.sumRegion = function(row1, col1, row2, col2) {\n    \n};\n\n/** \n * Your NumMatrix object will be instantiated and called as such:\n * var obj = Object.create(NumMatrix).createNew(matrix)\n * var param_1 = obj.sumRegion(row1,col1,row2,col2)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n */\nvar NumMatrix = function(matrix) {\n    \n};\n\n/** \n * @param {number} row1 \n * @param {number} col1 \n * @param {number} row2 \n * @param {number} col2\n * @return {number}\n */\nNumMatrix.prototype.sumRegion = function(row1, col1, row2, col2) {\n    \n};\n\n/** \n * Your NumMatrix object will be instantiated and called as such:\n * var obj = new NumMatrix(matrix)\n * var param_1 = obj.sumRegion(row1,col1,row2,col2)\n */",
+        "py": "class NumMatrix:\n\n    def __init__(self, matrix: List[List[int]]):\n        \n\n    def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:\n        \n\n\n# Your NumMatrix object will be instantiated and called as such:\n# obj = NumMatrix(matrix)\n# param_1 = obj.sumRegion(row1,col1,row2,col2)"
+    }
 }, {
     "questionId": "0306",
     "titleSlug": "additive-number",
@@ -6578,7 +7358,10 @@ let data = [{
         "你如何处理一个溢出的过大的整数输入?"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} num\n * @return {boolean}\n */\nvar isAdditiveNumber = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} num\n * @return {boolean}\n */\nvar isAdditiveNumber = function(num) {\n    \n};",
+        "py": "class Solution:\n    def isAdditiveNumber(self, num: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0307",
     "titleSlug": "range-sum-query-mutable",
@@ -6599,7 +7382,10 @@ let data = [{
         "  - 你可以假设 update 函数与 sumRange 函数的调用次数是均匀分布的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n */\nvar NumArray = function(nums) {\n    \n};\n\n/** \n * @param {number} i \n * @param {number} val\n * @return {void}\n */\nNumArray.prototype.update = function(i, val) {\n    \n};\n\n/** \n * @param {number} i \n * @param {number} j\n * @return {number}\n */\nNumArray.prototype.sumRange = function(i, j) {\n    \n};\n\n/** \n * Your NumArray object will be instantiated and called as such:\n * var obj = Object.create(NumArray).createNew(nums)\n * obj.update(i,val)\n * var param_2 = obj.sumRange(i,j)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n */\nvar NumArray = function(nums) {\n    \n};\n\n/** \n * @param {number} i \n * @param {number} val\n * @return {void}\n */\nNumArray.prototype.update = function(i, val) {\n    \n};\n\n/** \n * @param {number} i \n * @param {number} j\n * @return {number}\n */\nNumArray.prototype.sumRange = function(i, j) {\n    \n};\n\n/** \n * Your NumArray object will be instantiated and called as such:\n * var obj = new NumArray(nums)\n * obj.update(i,val)\n * var param_2 = obj.sumRange(i,j)\n */",
+        "py": "class NumArray:\n\n    def __init__(self, nums: List[int]):\n        \n\n    def update(self, i: int, val: int) -> None:\n        \n\n    def sumRange(self, i: int, j: int) -> int:\n        \n\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# obj.update(i,val)\n# param_2 = obj.sumRange(i,j)"
+    }
 }, {
     "questionId": "0309",
     "titleSlug": "best-time-to-buy-and-sell-stock-with-cooldown",
@@ -6616,7 +7402,10 @@ let data = [{
         "解释: 对应的交易状态为: [买入, 卖出, 冷冻期, 买入, 卖出]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    \n};",
+        "py": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0310",
     "titleSlug": "minimum-height-trees",
@@ -6656,7 +7445,10 @@ let data = [{
         "  - 树的高度是指根节点和叶子节点之间最长向下路径上边的数量。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number[][]} edges\n * @return {number[]}\n */\nvar findMinHeightTrees = function(n, edges) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number[][]} edges\n * @return {number[]}\n */\nvar findMinHeightTrees = function(n, edges) {\n    \n};",
+        "py": "class Solution:\n    def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0312",
     "titleSlug": "burst-balloons",
@@ -6677,7 +7469,10 @@ let data = [{
         "     coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxCoins = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxCoins = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def maxCoins(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0313",
     "titleSlug": "super-ugly-number",
@@ -6698,7 +7493,10 @@ let data = [{
         "  - 第 n 个超级丑数确保在 32 位有符整数范围内。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number[]} primes\n * @return {number}\n */\nvar nthSuperUglyNumber = function(n, primes) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number[]} primes\n * @return {number}\n */\nvar nthSuperUglyNumber = function(n, primes) {\n    \n};",
+        "py": "class Solution:\n    def nthSuperUglyNumber(self, n: int, primes: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0315",
     "titleSlug": "count-of-smaller-numbers-after-self",
@@ -6716,7 +7514,10 @@ let data = [{
         "1 的右侧有 0 个更小的元素."
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar countSmaller = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums\r\n * @return {number[]}\r\n */\r\nvar countSmaller = function(nums) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def countSmaller(self, nums: List[int]) -> List[int]:"
+    }
 }, {
     "questionId": "0316",
     "titleSlug": "remove-duplicate-letters",
@@ -6733,7 +7534,10 @@ let data = [{
         "输出: \"acdb\""
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string}\n */\nvar removeDuplicateLetters = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string}\n */\nvar removeDuplicateLetters = function(s) {\n    \n};",
+        "py": "class Solution:\n    def removeDuplicateLetters(self, s: str) -> str:\n        "
+    }
 }, {
     "questionId": "0318",
     "titleSlug": "maximum-product-of-word-lengths",
@@ -6757,7 +7561,10 @@ let data = [{
         "解释: 不存在这样的两个单词。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @return {number}\n */\nvar maxProduct = function(words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} words\r\n * @return {number}\r\n */\r\nvar maxProduct = function(words) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def maxProduct(self, words: List[str]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0319",
     "titleSlug": "bulb-switcher",
@@ -6777,7 +7584,10 @@ let data = [{
         "你应该返回 1，因为只有一个灯泡还亮着。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar bulbSwitch = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar bulbSwitch = function(n) {\n    \n};",
+        "py": "class Solution:\n    def bulbSwitch(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0321",
     "titleSlug": "create-maximum-number",
@@ -6813,7 +7623,10 @@ let data = [{
         "[9, 8, 9]"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @param {number} k\n * @return {number[]}\n */\nvar maxNumber = function(nums1, nums2, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @param {number} k\n * @return {number[]}\n */\nvar maxNumber = function(nums1, nums2, k) {\n    \n};",
+        "py": "class Solution:\n    def maxNumber(self, nums1: List[int], nums2: List[int], k: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0322",
     "titleSlug": "coin-change",
@@ -6834,7 +7647,10 @@ let data = [{
         "你可以认为每种硬币的数量是无限的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} coins\n * @param {number} amount\n * @return {number}\n */\nvar coinChange = function(coins, amount) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} coins\n * @param {number} amount\n * @return {number}\n */\nvar coinChange = function(coins, amount) {\n    \n};",
+        "py": "class Solution:\n    def coinChange(self, coins: List[int], amount: int) -> int:\n        "
+    }
 }, {
     "questionId": "0324",
     "titleSlug": "wiggle-sort-ii",
@@ -6857,7 +7673,10 @@ let data = [{
         "你能用 O(n) 时间复杂度和 / 或原地 O(1) 额外空间来实现吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar wiggleSort = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar wiggleSort = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def wiggleSort(self, nums: List[int]) -> None:\n        \"\"\"\n        Do not return anything, modify nums in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0326",
     "titleSlug": "power-of-three",
@@ -6885,7 +7704,10 @@ let data = [{
         "你能不使用循环或者递归来完成本题吗？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar isPowerOfThree = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar isPowerOfThree = function(n) {\n    \n};",
+        "py": "class Solution:\n    def isPowerOfThree(self, n: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0327",
     "titleSlug": "count-of-range-sum",
@@ -6903,7 +7725,10 @@ let data = [{
         "解释: 3个区间分别是: [0,0], [2,2], [0,2]，它们表示的和分别为: -2, -1, 2。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} lower\n * @param {number} upper\n * @return {number}\n */\nvar countRangeSum = function(nums, lower, upper) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums\r\n * @param {number} lower\r\n * @param {number} upper\r\n * @return {number}\r\n */\r\nvar countRangeSum = function(nums, lower, upper) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:"
+    }
 }, {
     "questionId": "0328",
     "titleSlug": "odd-even-linked-list",
@@ -6925,7 +7750,10 @@ let data = [{
         "  - 链表的第一个节点视为奇数节点，第二个节点视为偶数节点，以此类推。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar oddEvenList = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar oddEvenList = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def oddEvenList(self, head: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0329",
     "titleSlug": "longest-increasing-path-in-a-matrix",
@@ -6955,7 +7783,10 @@ let data = [{
         "解释: 最长递增路径是 [3, 4, 5, 6]。注意不允许在对角线方向上移动。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @return {number}\n */\nvar longestIncreasingPath = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @return {number}\n */\nvar longestIncreasingPath = function(matrix) {\n    \n};",
+        "py": "class Solution:\n    def longestIncreasingPath(self, matrix: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0330",
     "titleSlug": "patching-array",
@@ -6982,7 +7813,10 @@ let data = [{
         "输出: 0"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} n\n * @return {number}\n */\nvar minPatches = function(nums, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} n\n * @return {number}\n */\nvar minPatches = function(nums, n) {\n    \n};",
+        "py": "class Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0331",
     "titleSlug": "verify-preorder-serialization-of-a-binary-tree",
@@ -7015,7 +7849,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} preorder\n * @return {boolean}\n */\nvar isValidSerialization = function(preorder) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} preorder\n * @return {boolean}\n */\nvar isValidSerialization = function(preorder) {\n    \n};",
+        "py": "class Solution:\n    def isValidSerialization(self, preorder: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0332",
     "titleSlug": "reconstruct-itinerary",
@@ -7038,7 +7875,10 @@ let data = [{
         "解释: 另一种有效的行程是 [\"JFK\",\"SFO\",\"ATL\",\"JFK\",\"ATL\",\"SFO\"]。但是它自然排序更大更靠后。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[][]} tickets\n * @return {string[]}\n */\nvar findItinerary = function(tickets) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[][]} tickets\r\n * @return {string[]}\r\n */\r\nvar findItinerary = function(tickets) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def findItinerary(self, tickets: List[List[str]]) -> List[str]:\r\n        "
+    }
 }, {
     "questionId": "0334",
     "titleSlug": "increasing-triplet-subsequence",
@@ -7061,7 +7901,10 @@ let data = [{
         "输出: false"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar increasingTriplet = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar increasingTriplet = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def increasingTriplet(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0335",
     "titleSlug": "self-crossing",
@@ -7098,7 +7941,10 @@ let data = [{
         "输出: true"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} x\n * @return {boolean}\n */\nvar isSelfCrossing = function(x) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} x\n * @return {boolean}\n */\nvar isSelfCrossing = function(x) {\n    \n};",
+        "py": "class Solution:\n    def isSelfCrossing(self, x: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0336",
     "titleSlug": "palindrome-pairs",
@@ -7117,7 +7963,10 @@ let data = [{
         "解释: 可拼接成的回文串为 [\"battab\",\"tabbat\"]"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @return {number[][]}\n */\nvar palindromePairs = function(words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n * @return {number[][]}\n */\nvar palindromePairs = function(words) {\n    \n};",
+        "py": "class Solution:\n    def palindromePairs(self, words: List[str]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0337",
     "titleSlug": "house-robber-iii",
@@ -7151,7 +8000,10 @@ let data = [{
         "解释: 小偷一晚能够盗取的最高金额 = 4 + 5 = 9."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar rob = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar rob = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def rob(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0338",
     "titleSlug": "counting-bits",
@@ -7173,7 +8025,10 @@ let data = [{
         "  - 你能进一步完善解法吗？要求在C++或任何其他语言中不使用任何内置函数（如 C++ 中的 __builtin_popcount）来执行此操作。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {number[]}\n */\nvar countBits = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {number[]}\n */\nvar countBits = function(num) {\n    \n};",
+        "py": "class Solution:\n    def countBits(self, num: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0341",
     "titleSlug": "flatten-nested-list-iterator",
@@ -7193,7 +8048,10 @@ let data = [{
         "解释: 通过重复调用 next 直到 hasNext 返回false，next 返回的元素的顺序应该是: [1,4,6]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * // This is the interface that allows for creating nested lists.\n * // You should not implement it, or speculate about its implementation\n * function NestedInteger() {\n *\n *     Return true if this NestedInteger holds a single integer, rather than a nested list.\n *     @return {boolean}\n *     this.isInteger = function() {\n *         ...\n *     };\n *\n *     Return the single integer that this NestedInteger holds, if it holds a single integer\n *     Return null if this NestedInteger holds a nested list\n *     @return {integer}\n *     this.getInteger = function() {\n *         ...\n *     };\n *\n *     Return the nested list that this NestedInteger holds, if it holds a nested list\n *     Return null if this NestedInteger holds a single integer\n *     @return {NestedInteger[]}\n *     this.getList = function() {\n *         ...\n *     };\n * };\n */\n/**\n * @constructor\n * @param {NestedInteger[]} nestedList\n */\nvar NestedIterator = function(nestedList) {\n    \n};\n\n\n/**\n * @this NestedIterator\n * @returns {boolean}\n */\nNestedIterator.prototype.hasNext = function() {\n    \n};\n\n/**\n * @this NestedIterator\n * @returns {integer}\n */\nNestedIterator.prototype.next = function() {\n    \n};\n\n/**\n * Your NestedIterator will be called like this:\n * var i = new NestedIterator(nestedList), a = [];\n * while (i.hasNext()) a.push(i.next());\n*/"
+    "codeSnippets": {
+        "js": "/**\r\n * // This is the interface that allows for creating nested lists.\r\n * // You should not implement it, or speculate about its implementation\r\n * function NestedInteger() {\r\n *\r\n *     Return true if this NestedInteger holds a single integer, rather than a nested list.\r\n *     @return {boolean}\r\n *     this.isInteger = function() {\r\n *         ...\r\n *     };\r\n *\r\n *     Return the single integer that this NestedInteger holds, if it holds a single integer\r\n *     Return null if this NestedInteger holds a nested list\r\n *     @return {integer}\r\n *     this.getInteger = function() {\r\n *         ...\r\n *     };\r\n *\r\n *     Return the nested list that this NestedInteger holds, if it holds a nested list\r\n *     Return null if this NestedInteger holds a single integer\r\n *     @return {NestedInteger[]}\r\n *     this.getList = function() {\r\n *         ...\r\n *     };\r\n * };\r\n */\r\n/**\r\n * @constructor\r\n * @param {NestedInteger[]} nestedList\r\n */\r\nvar NestedIterator = function(nestedList) {\r\n    \r\n};\r\n\r\n\r\n/**\r\n * @this NestedIterator\r\n * @returns {boolean}\r\n */\r\nNestedIterator.prototype.hasNext = function() {\r\n    \r\n};\r\n\r\n/**\r\n * @this NestedIterator\r\n * @returns {integer}\r\n */\r\nNestedIterator.prototype.next = function() {\r\n    \r\n};\r\n\r\n/**\r\n * Your NestedIterator will be called like this:\r\n * var i = new NestedIterator(nestedList), a = [];\r\n * while (i.hasNext()) a.push(i.next());\r\n*/",
+        "py": "#Python 2\n\n# \"\"\"\r\n# This is the interface that allows for creating nested lists.\r\n# You should not implement it, or speculate about its implementation\r\n# \"\"\"\r\n#class NestedInteger(object):\r\n#    def isInteger(self):\r\n#        \"\"\"\r\n#        @return True if this NestedInteger holds a single integer, rather than a nested list.\r\n#        :rtype bool\r\n#        \"\"\"\r\n#\r\n#    def getInteger(self):\r\n#        \"\"\"\r\n#        @return the single integer that this NestedInteger holds, if it holds a single integer\r\n#        Return None if this NestedInteger holds a nested list\r\n#        :rtype int\r\n#        \"\"\"\r\n#\r\n#    def getList(self):\r\n#        \"\"\"\r\n#        @return the nested list that this NestedInteger holds, if it holds a nested list\r\n#        Return None if this NestedInteger holds a single integer\r\n#        :rtype List[NestedInteger]\r\n#        \"\"\"\r\n\r\nclass NestedIterator(object):\r\n\r\n    def __init__(self, nestedList):\r\n        \"\"\"\r\n        Initialize your data structure here.\r\n        :type nestedList: List[NestedInteger]\r\n        \"\"\"\r\n        \r\n\r\n    def next(self):\r\n        \"\"\"\r\n        :rtype: int\r\n        \"\"\"\r\n        \r\n\r\n    def hasNext(self):\r\n        \"\"\"\r\n        :rtype: bool\r\n        \"\"\"\r\n        \r\n\r\n# Your NestedIterator object will be instantiated and called as such:\r\n# i, v = NestedIterator(nestedList), []\r\n# while i.hasNext(): v.append(i.next())"
+    }
 }, {
     "questionId": "0342",
     "titleSlug": "power-of-four",
@@ -7213,7 +8071,10 @@ let data = [{
         "你能不使用循环或者递归来完成本题吗？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {boolean}\n */\nvar isPowerOfFour = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {boolean}\n */\nvar isPowerOfFour = function(num) {\n    \n};",
+        "py": "class Solution:\n    def isPowerOfFour(self, num: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0343",
     "titleSlug": "integer-break",
@@ -7234,7 +8095,10 @@ let data = [{
         "说明: 你可以假设 n 不小于 2 且不大于 58。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar integerBreak = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar integerBreak = function(n) {\n    \n};",
+        "py": "class Solution:\n    def integerBreak(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0344",
     "titleSlug": "reverse-string",
@@ -7253,7 +8117,10 @@ let data = [{
         "输出：[\"h\",\"a\",\"n\",\"n\",\"a\",\"H\"]"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {character[]} s\n * @return {void} Do not return anything, modify s in-place instead.\n */\nvar reverseString = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[]} s\n * @return {void} Do not return anything, modify s in-place instead.\n */\nvar reverseString = function(s) {\n    \n};",
+        "py": "class Solution:\n    def reverseString(self, s: List[str]) -> None:\n        \"\"\"\n        Do not return anything, modify s in-place instead.\n        \"\"\"\n        "
+    }
 }, {
     "questionId": "0345",
     "titleSlug": "reverse-vowels-of-a-string",
@@ -7273,7 +8140,10 @@ let data = [{
         "元音字母不包含字母\"y\"。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string}\n */\nvar reverseVowels = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string}\n */\nvar reverseVowels = function(s) {\n    \n};",
+        "py": "class Solution:\n    def reverseVowels(self, s: str) -> str:\n        "
+    }
 }, {
     "questionId": "0347",
     "titleSlug": "top-k-frequent-elements",
@@ -7294,7 +8164,10 @@ let data = [{
         "  - 你的算法的时间复杂度必须优于 O(n log n) , n 是数组的大小。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar topKFrequent = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar topKFrequent = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def topKFrequent(self, nums: List[int], k: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0349",
     "titleSlug": "intersection-of-two-arrays",
@@ -7315,7 +8188,10 @@ let data = [{
         "  - 我们可以不考虑输出结果的顺序。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number[]}\n */\nvar intersection = function(nums1, nums2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number[]}\n */\nvar intersection = function(nums1, nums2) {\n    \n};",
+        "py": "class Solution:\n    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0350",
     "titleSlug": "intersection-of-two-arrays-ii",
@@ -7341,7 +8217,10 @@ let data = [{
         "  - 如果 nums2 的元素存储在磁盘上，磁盘内存是有限的，并且你不能一次加载所有的元素到内存中，你该怎么办？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number[]}\n */\nvar intersect = function(nums1, nums2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number[]}\n */\nvar intersect = function(nums1, nums2) {\n    \n};",
+        "py": "class Solution:\n    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0352",
     "titleSlug": "data-stream-as-disjoint-intervals",
@@ -7362,7 +8241,10 @@ let data = [{
         "特别感谢 [@yunhong](https://discuss.leetcode.com/user/yunhong) 提供了本问题和其测试用例。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for an interval.\n * function Interval(start, end) {\n *     this.start = start;\n *     this.end = end;\n * }\n */\n/**\n * Initialize your data structure here.\n */\nvar SummaryRanges = function() {\n    \n};\n\n/** \n * @param {number} val\n * @return {void}\n */\nSummaryRanges.prototype.addNum = function(val) {\n    \n};\n\n/**\n * @return {Interval[]}\n */\nSummaryRanges.prototype.getIntervals = function() {\n    \n};\n\n/** \n * Your SummaryRanges object will be instantiated and called as such:\n * var obj = Object.create(SummaryRanges).createNew()\n * obj.addNum(val)\n * var param_2 = obj.getIntervals()\n */"
+    "codeSnippets": {
+        "js": "/**\r\n * Initialize your data structure here.\r\n */\r\nvar SummaryRanges = function() {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} val\r\n * @return {void}\r\n */\r\nSummaryRanges.prototype.addNum = function(val) {\r\n    \r\n};\r\n\r\n/**\r\n * @return {number[][]}\r\n */\r\nSummaryRanges.prototype.getIntervals = function() {\r\n    \r\n};\r\n\r\n/** \r\n * Your SummaryRanges object will be instantiated and called as such:\r\n * var obj = new SummaryRanges()\r\n * obj.addNum(val)\r\n * var param_2 = obj.getIntervals()\r\n */",
+        "py": "class SummaryRanges:\r\n\r\n    def __init__(self):\r\n        \"\"\"\r\n        Initialize your data structure here.\r\n        \"\"\"\r\n        \r\n\r\n    def addNum(self, val: int) -> None:\r\n        \r\n\r\n    def getIntervals(self) -> List[List[int]]:\r\n        \r\n\r\n\r\n# Your SummaryRanges object will be instantiated and called as such:\r\n# obj = SummaryRanges()\r\n# obj.addNum(val)\r\n# param_2 = obj.getIntervals()"
+    }
 }, {
     "questionId": "0354",
     "titleSlug": "russian-doll-envelopes",
@@ -7380,7 +8262,10 @@ let data = [{
         "解释: 最多信封的个数为 3, 组合为: [2,3] => [5,4] => [6,7]。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} envelopes\n * @return {number}\n */\nvar maxEnvelopes = function(envelopes) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} envelopes\n * @return {number}\n */\nvar maxEnvelopes = function(envelopes) {\n    \n};",
+        "py": "class Solution:\n    def maxEnvelopes(self, envelopes: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0355",
     "titleSlug": "design-twitter",
@@ -7419,7 +8304,10 @@ let data = [{
         "twitter.getNewsFeed(1);"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar Twitter = function() {\n    \n};\n\n/**\n * Compose a new tweet. \n * @param {number} userId \n * @param {number} tweetId\n * @return {void}\n */\nTwitter.prototype.postTweet = function(userId, tweetId) {\n    \n};\n\n/**\n * Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent. \n * @param {number} userId\n * @return {number[]}\n */\nTwitter.prototype.getNewsFeed = function(userId) {\n    \n};\n\n/**\n * Follower follows a followee. If the operation is invalid, it should be a no-op. \n * @param {number} followerId \n * @param {number} followeeId\n * @return {void}\n */\nTwitter.prototype.follow = function(followerId, followeeId) {\n    \n};\n\n/**\n * Follower unfollows a followee. If the operation is invalid, it should be a no-op. \n * @param {number} followerId \n * @param {number} followeeId\n * @return {void}\n */\nTwitter.prototype.unfollow = function(followerId, followeeId) {\n    \n};\n\n/** \n * Your Twitter object will be instantiated and called as such:\n * var obj = Object.create(Twitter).createNew()\n * obj.postTweet(userId,tweetId)\n * var param_2 = obj.getNewsFeed(userId)\n * obj.follow(followerId,followeeId)\n * obj.unfollow(followerId,followeeId)\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar Twitter = function() {\n    \n};\n\n/**\n * Compose a new tweet. \n * @param {number} userId \n * @param {number} tweetId\n * @return {void}\n */\nTwitter.prototype.postTweet = function(userId, tweetId) {\n    \n};\n\n/**\n * Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent. \n * @param {number} userId\n * @return {number[]}\n */\nTwitter.prototype.getNewsFeed = function(userId) {\n    \n};\n\n/**\n * Follower follows a followee. If the operation is invalid, it should be a no-op. \n * @param {number} followerId \n * @param {number} followeeId\n * @return {void}\n */\nTwitter.prototype.follow = function(followerId, followeeId) {\n    \n};\n\n/**\n * Follower unfollows a followee. If the operation is invalid, it should be a no-op. \n * @param {number} followerId \n * @param {number} followeeId\n * @return {void}\n */\nTwitter.prototype.unfollow = function(followerId, followeeId) {\n    \n};\n\n/** \n * Your Twitter object will be instantiated and called as such:\n * var obj = new Twitter()\n * obj.postTweet(userId,tweetId)\n * var param_2 = obj.getNewsFeed(userId)\n * obj.follow(followerId,followeeId)\n * obj.unfollow(followerId,followeeId)\n */",
+        "py": "class Twitter:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def postTweet(self, userId: int, tweetId: int) -> None:\n        \"\"\"\n        Compose a new tweet.\n        \"\"\"\n        \n\n    def getNewsFeed(self, userId: int) -> List[int]:\n        \"\"\"\n        Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent.\n        \"\"\"\n        \n\n    def follow(self, followerId: int, followeeId: int) -> None:\n        \"\"\"\n        Follower follows a followee. If the operation is invalid, it should be a no-op.\n        \"\"\"\n        \n\n    def unfollow(self, followerId: int, followeeId: int) -> None:\n        \"\"\"\n        Follower unfollows a followee. If the operation is invalid, it should be a no-op.\n        \"\"\"\n        \n\n\n# Your Twitter object will be instantiated and called as such:\n# obj = Twitter()\n# obj.postTweet(userId,tweetId)\n# param_2 = obj.getNewsFeed(userId)\n# obj.follow(followerId,followeeId)\n# obj.unfollow(followerId,followeeId)"
+    }
 }, {
     "questionId": "0357",
     "titleSlug": "count-numbers-with-unique-digits",
@@ -7433,7 +8321,10 @@ let data = [{
         "解释: 答案应为除去 11,22,33,44,55,66,77,88,99 外，在 [0,100) 区间内的所有数字。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar countNumbersWithUniqueDigits = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar countNumbersWithUniqueDigits = function(n) {\n    \n};",
+        "py": "class Solution:\n    def countNumbersWithUniqueDigits(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0363",
     "titleSlug": "max-sum-of-rectangle-no-larger-than-k",
@@ -7451,7 +8342,10 @@ let data = [{
         "  - 如果行数远大于列数，你将如何解答呢？"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @param {number} k\n * @return {number}\n */\nvar maxSumSubmatrix = function(matrix, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @param {number} k\n * @return {number}\n */\nvar maxSumSubmatrix = function(matrix, k) {\n    \n};",
+        "py": "class Solution:\n    def maxSumSubmatrix(self, matrix: List[List[int]], k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0365",
     "titleSlug": "water-and-jug-problem",
@@ -7473,7 +8367,10 @@ let data = [{
         "输出: False"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} x\n * @param {number} y\n * @param {number} z\n * @return {boolean}\n */\nvar canMeasureWater = function(x, y, z) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} x\n * @param {number} y\n * @param {number} z\n * @return {boolean}\n */\nvar canMeasureWater = function(x, y, z) {\n    \n};",
+        "py": "class Solution:\n    def canMeasureWater(self, x: int, y: int, z: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0367",
     "titleSlug": "valid-perfect-square",
@@ -7492,7 +8389,10 @@ let data = [{
         "输出：False"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {boolean}\n */\nvar isPerfectSquare = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {boolean}\n */\nvar isPerfectSquare = function(num) {\n    \n};",
+        "py": "class Solution:\n    def isPerfectSquare(self, num: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0368",
     "titleSlug": "largest-divisible-subset",
@@ -7510,7 +8410,10 @@ let data = [{
         "输出: [1,2,4,8]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar largestDivisibleSubset = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar largestDivisibleSubset = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def largestDivisibleSubset(self, nums: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0371",
     "titleSlug": "sum-of-two-integers",
@@ -7527,7 +8430,10 @@ let data = [{
         "输出: 1"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} a\n * @param {number} b\n * @return {number}\n */\nvar getSum = function(a, b) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} a\n * @param {number} b\n * @return {number}\n */\nvar getSum = function(a, b) {\n    \n};",
+        "py": "class Solution:\n    def getSum(self, a: int, b: int) -> int:\n        "
+    }
 }, {
     "questionId": "0372",
     "titleSlug": "super-pow",
@@ -7544,7 +8450,10 @@ let data = [{
         "输出: 1024"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} a\n * @param {number[]} b\n * @return {number}\n */\nvar superPow = function(a, b) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} a\n * @param {number[]} b\n * @return {number}\n */\nvar superPow = function(a, b) {\n    \n};",
+        "py": "class Solution:\n    def superPow(self, a: int, b: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0373",
     "titleSlug": "find-k-pairs-with-smallest-sums",
@@ -7572,7 +8481,10 @@ let data = [{
         "解释: 也可能序列中所有的数对都被返回:[1,3],[2,3]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @param {number} k\n * @return {number[][]}\n */\nvar kSmallestPairs = function(nums1, nums2, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums1\r\n * @param {number[]} nums2\r\n * @param {number} k\r\n * @return {number[][]}\r\n */\r\nvar kSmallestPairs = function(nums1, nums2, k) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:\r\n        "
+    }
 }, {
     "questionId": "0374",
     "titleSlug": "guess-number-higher-or-lower",
@@ -7591,7 +8503,10 @@ let data = [{
         "输出: 6"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "#Python 2\n\n# The guess API is already defined for you.\r\n# @param num, your guess\r\n# @return -1 if my number is lower, 1 if my number is higher, otherwise return 0\r\n# def guess(num):\r\n\r\nclass Solution(object):\r\n    def guessNumber(self, n):\r\n        \"\"\"\r\n        :type n: int\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0375",
     "titleSlug": "guess-number-higher-or-lower-ii",
@@ -7616,7 +8531,10 @@ let data = [{
         "给定 n ≥ 1，计算你至少需要拥有多少现金才能确保你能赢得这个游戏。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar getMoneyAmount = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar getMoneyAmount = function(n) {\n    \n};",
+        "py": "class Solution:\n    def getMoneyAmount(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0376",
     "titleSlug": "wiggle-subsequence",
@@ -7645,7 +8563,10 @@ let data = [{
         "你能否用 O(n) 时间复杂度完成此题?"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar wiggleMaxLength = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar wiggleMaxLength = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def wiggleMaxLength(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0377",
     "titleSlug": "combination-sum-iv",
@@ -7678,7 +8599,10 @@ let data = [{
         "特别感谢 [@pbrother](https://leetcode.com/pbrother/) 添加此问题并创建所有测试用例。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar combinationSum4 = function(nums, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar combinationSum4 = function(nums, target) {\n    \n};",
+        "py": "class Solution:\n    def combinationSum4(self, nums: List[int], target: int) -> int:\n        "
+    }
 }, {
     "questionId": "0378",
     "titleSlug": "kth-smallest-element-in-a-sorted-matrix",
@@ -7701,7 +8625,10 @@ let data = [{
         "你可以假设 k 的值永远是有效的, 1 ≤ k ≤ n^2 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @param {number} k\n * @return {number}\n */\nvar kthSmallest = function(matrix, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @param {number} k\n * @return {number}\n */\nvar kthSmallest = function(matrix, k) {\n    \n};",
+        "py": "class Solution:\n    def kthSmallest(self, matrix: List[List[int]], k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0380",
     "titleSlug": "insert-delete-getrandom-o1",
@@ -7738,7 +8665,10 @@ let data = [{
         "randomSet.getRandom();"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar RandomizedSet = function() {\n    \n};\n\n/**\n * Inserts a value to the set. Returns true if the set did not already contain the specified element. \n * @param {number} val\n * @return {boolean}\n */\nRandomizedSet.prototype.insert = function(val) {\n    \n};\n\n/**\n * Removes a value from the set. Returns true if the set contained the specified element. \n * @param {number} val\n * @return {boolean}\n */\nRandomizedSet.prototype.remove = function(val) {\n    \n};\n\n/**\n * Get a random element from the set.\n * @return {number}\n */\nRandomizedSet.prototype.getRandom = function() {\n    \n};\n\n/** \n * Your RandomizedSet object will be instantiated and called as such:\n * var obj = Object.create(RandomizedSet).createNew()\n * var param_1 = obj.insert(val)\n * var param_2 = obj.remove(val)\n * var param_3 = obj.getRandom()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar RandomizedSet = function() {\n    \n};\n\n/**\n * Inserts a value to the set. Returns true if the set did not already contain the specified element. \n * @param {number} val\n * @return {boolean}\n */\nRandomizedSet.prototype.insert = function(val) {\n    \n};\n\n/**\n * Removes a value from the set. Returns true if the set contained the specified element. \n * @param {number} val\n * @return {boolean}\n */\nRandomizedSet.prototype.remove = function(val) {\n    \n};\n\n/**\n * Get a random element from the set.\n * @return {number}\n */\nRandomizedSet.prototype.getRandom = function() {\n    \n};\n\n/** \n * Your RandomizedSet object will be instantiated and called as such:\n * var obj = new RandomizedSet()\n * var param_1 = obj.insert(val)\n * var param_2 = obj.remove(val)\n * var param_3 = obj.getRandom()\n */",
+        "py": "class RandomizedSet:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def insert(self, val: int) -> bool:\n        \"\"\"\n        Inserts a value to the set. Returns true if the set did not already contain the specified element.\n        \"\"\"\n        \n\n    def remove(self, val: int) -> bool:\n        \"\"\"\n        Removes a value from the set. Returns true if the set contained the specified element.\n        \"\"\"\n        \n\n    def getRandom(self) -> int:\n        \"\"\"\n        Get a random element from the set.\n        \"\"\"\n        \n\n\n# Your RandomizedSet object will be instantiated and called as such:\n# obj = RandomizedSet()\n# param_1 = obj.insert(val)\n# param_2 = obj.remove(val)\n# param_3 = obj.getRandom()"
+    }
 }, {
     "questionId": "0381",
     "titleSlug": "insert-delete-getrandom-o1-duplicates-allowed",
@@ -7774,7 +8704,10 @@ let data = [{
         "collection.getRandom();"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar RandomizedCollection = function() {\n    \n};\n\n/**\n * Inserts a value to the collection. Returns true if the collection did not already contain the specified element. \n * @param {number} val\n * @return {boolean}\n */\nRandomizedCollection.prototype.insert = function(val) {\n    \n};\n\n/**\n * Removes a value from the collection. Returns true if the collection contained the specified element. \n * @param {number} val\n * @return {boolean}\n */\nRandomizedCollection.prototype.remove = function(val) {\n    \n};\n\n/**\n * Get a random element from the collection.\n * @return {number}\n */\nRandomizedCollection.prototype.getRandom = function() {\n    \n};\n\n/** \n * Your RandomizedCollection object will be instantiated and called as such:\n * var obj = Object.create(RandomizedCollection).createNew()\n * var param_1 = obj.insert(val)\n * var param_2 = obj.remove(val)\n * var param_3 = obj.getRandom()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar RandomizedCollection = function() {\n    \n};\n\n/**\n * Inserts a value to the collection. Returns true if the collection did not already contain the specified element. \n * @param {number} val\n * @return {boolean}\n */\nRandomizedCollection.prototype.insert = function(val) {\n    \n};\n\n/**\n * Removes a value from the collection. Returns true if the collection contained the specified element. \n * @param {number} val\n * @return {boolean}\n */\nRandomizedCollection.prototype.remove = function(val) {\n    \n};\n\n/**\n * Get a random element from the collection.\n * @return {number}\n */\nRandomizedCollection.prototype.getRandom = function() {\n    \n};\n\n/** \n * Your RandomizedCollection object will be instantiated and called as such:\n * var obj = new RandomizedCollection()\n * var param_1 = obj.insert(val)\n * var param_2 = obj.remove(val)\n * var param_3 = obj.getRandom()\n */",
+        "py": "class RandomizedCollection:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def insert(self, val: int) -> bool:\n        \"\"\"\n        Inserts a value to the collection. Returns true if the collection did not already contain the specified element.\n        \"\"\"\n        \n\n    def remove(self, val: int) -> bool:\n        \"\"\"\n        Removes a value from the collection. Returns true if the collection contained the specified element.\n        \"\"\"\n        \n\n    def getRandom(self) -> int:\n        \"\"\"\n        Get a random element from the collection.\n        \"\"\"\n        \n\n\n# Your RandomizedCollection object will be instantiated and called as such:\n# obj = RandomizedCollection()\n# param_1 = obj.insert(val)\n# param_2 = obj.remove(val)\n# param_3 = obj.getRandom()"
+    }
 }, {
     "questionId": "0382",
     "titleSlug": "linked-list-random-node",
@@ -7796,7 +8729,10 @@ let data = [{
         "solution.getRandom();"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param head The linked list's head.\n        Note that the head is guaranteed to be not null, so it contains at least one node.\n * @param {ListNode} head\n */\nvar Solution = function(head) {\n    \n};\n\n/**\n * Returns a random node's value.\n * @return {number}\n */\nSolution.prototype.getRandom = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = Object.create(Solution).createNew(head)\n * var param_1 = obj.getRandom()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param head The linked list's head.\n        Note that the head is guaranteed to be not null, so it contains at least one node.\n * @param {ListNode} head\n */\nvar Solution = function(head) {\n    \n};\n\n/**\n * Returns a random node's value.\n * @return {number}\n */\nSolution.prototype.getRandom = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(head)\n * var param_1 = obj.getRandom()\n */",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n\n    def __init__(self, head: ListNode):\n        \"\"\"\n        @param head The linked list's head.\n        Note that the head is guaranteed to be not null, so it contains at least one node.\n        \"\"\"\n        \n\n    def getRandom(self) -> int:\n        \"\"\"\n        Returns a random node's value.\n        \"\"\"\n        \n\n\n# Your Solution object will be instantiated and called as such:\n# obj = Solution(head)\n# param_1 = obj.getRandom()"
+    }
 }, {
     "questionId": "0383",
     "titleSlug": "ransom-note",
@@ -7812,7 +8748,10 @@ let data = [{
         "canConstruct(\"aa\", \"aab\") -> true"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} ransomNote\n * @param {string} magazine\n * @return {boolean}\n */\nvar canConstruct = function(ransomNote, magazine) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} ransomNote\n * @param {string} magazine\n * @return {boolean}\n */\nvar canConstruct = function(ransomNote, magazine) {\n    \n};",
+        "py": "class Solution:\n    def canConstruct(self, ransomNote: str, magazine: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0384",
     "titleSlug": "shuffle-an-array",
@@ -7835,7 +8774,10 @@ let data = [{
         "solution.shuffle();"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n */\nvar Solution = function(nums) {\n    \n};\n\n/**\n * Resets the array to its original configuration and return it.\n * @return {number[]}\n */\nSolution.prototype.reset = function() {\n    \n};\n\n/**\n * Returns a random shuffling of the array.\n * @return {number[]}\n */\nSolution.prototype.shuffle = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = Object.create(Solution).createNew(nums)\n * var param_1 = obj.reset()\n * var param_2 = obj.shuffle()\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n */\nvar Solution = function(nums) {\n    \n};\n\n/**\n * Resets the array to its original configuration and return it.\n * @return {number[]}\n */\nSolution.prototype.reset = function() {\n    \n};\n\n/**\n * Returns a random shuffling of the array.\n * @return {number[]}\n */\nSolution.prototype.shuffle = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(nums)\n * var param_1 = obj.reset()\n * var param_2 = obj.shuffle()\n */",
+        "py": "class Solution:\n\n    def __init__(self, nums: List[int]):\n        \n\n    def reset(self) -> List[int]:\n        \"\"\"\n        Resets the array to its original configuration and return it.\n        \"\"\"\n        \n\n    def shuffle(self) -> List[int]:\n        \"\"\"\n        Returns a random shuffling of the array.\n        \"\"\"\n        \n\n\n# Your Solution object will be instantiated and called as such:\n# obj = Solution(nums)\n# param_1 = obj.reset()\n# param_2 = obj.shuffle()"
+    }
 }, {
     "questionId": "0385",
     "titleSlug": "mini-parser",
@@ -7865,7 +8807,10 @@ let data = [{
         "     a. 一个 integer 包含值 789"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * // This is the interface that allows for creating nested lists.\n * // You should not implement it, or speculate about its implementation\n * function NestedInteger() {\n *\n *     Return true if this NestedInteger holds a single integer, rather than a nested list.\n *     @return {boolean}\n *     this.isInteger = function() {\n *         ...\n *     };\n *\n *     Return the single integer that this NestedInteger holds, if it holds a single integer\n *     Return null if this NestedInteger holds a nested list\n *     @return {integer}\n *     this.getInteger = function() {\n *         ...\n *     };\n *\n *     Set this NestedInteger to hold a single integer equal to value.\n *     @return {void}\n *     this.setInteger = function(value) {\n *         ...\n *     };\n *\n *     Set this NestedInteger to hold a nested list and adds a nested integer elem to it.\n *     @return {void}\n *     this.add = function(elem) {\n *         ...\n *     };\n *\n *     Return the nested list that this NestedInteger holds, if it holds a nested list\n *     Return null if this NestedInteger holds a single integer\n *     @return {NestedInteger[]}\n *     this.getList = function() {\n *         ...\n *     };\n * };\n */\n/**\n * @param {string} s\n * @return {NestedInteger}\n */\nvar deserialize = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // This is the interface that allows for creating nested lists.\n * // You should not implement it, or speculate about its implementation\n * function NestedInteger() {\n *\n *     Return true if this NestedInteger holds a single integer, rather than a nested list.\n *     @return {boolean}\n *     this.isInteger = function() {\n *         ...\n *     };\n *\n *     Return the single integer that this NestedInteger holds, if it holds a single integer\n *     Return null if this NestedInteger holds a nested list\n *     @return {integer}\n *     this.getInteger = function() {\n *         ...\n *     };\n *\n *     Set this NestedInteger to hold a single integer equal to value.\n *     @return {void}\n *     this.setInteger = function(value) {\n *         ...\n *     };\n *\n *     Set this NestedInteger to hold a nested list and adds a nested integer elem to it.\n *     @return {void}\n *     this.add = function(elem) {\n *         ...\n *     };\n *\n *     Return the nested list that this NestedInteger holds, if it holds a nested list\n *     Return null if this NestedInteger holds a single integer\n *     @return {NestedInteger[]}\n *     this.getList = function() {\n *         ...\n *     };\n * };\n */\n/**\n * @param {string} s\n * @return {NestedInteger}\n */\nvar deserialize = function(s) {\n    \n};",
+        "py": "# \"\"\"\n# This is the interface that allows for creating nested lists.\n# You should not implement it, or speculate about its implementation\n# \"\"\"\n#class NestedInteger:\n#    def __init__(self, value=None):\n#        \"\"\"\n#        If value is not specified, initializes an empty list.\n#        Otherwise initializes a single integer equal to value.\n#        \"\"\"\n#\n#    def isInteger(self):\n#        \"\"\"\n#        @return True if this NestedInteger holds a single integer, rather than a nested list.\n#        :rtype bool\n#        \"\"\"\n#\n#    def add(self, elem):\n#        \"\"\"\n#        Set this NestedInteger to hold a nested list and adds a nested integer elem to it.\n#        :rtype void\n#        \"\"\"\n#\n#    def setInteger(self, value):\n#        \"\"\"\n#        Set this NestedInteger to hold a single integer equal to value.\n#        :rtype void\n#        \"\"\"\n#\n#    def getInteger(self):\n#        \"\"\"\n#        @return the single integer that this NestedInteger holds, if it holds a single integer\n#        Return None if this NestedInteger holds a nested list\n#        :rtype int\n#        \"\"\"\n#\n#    def getList(self):\n#        \"\"\"\n#        @return the nested list that this NestedInteger holds, if it holds a nested list\n#        Return None if this NestedInteger holds a single integer\n#        :rtype List[NestedInteger]\n#        \"\"\"\n\nclass Solution:\n    def deserialize(self, s: str) -> NestedInteger:\n        "
+    }
 }, {
     "questionId": "0386",
     "titleSlug": "lexicographical-numbers",
@@ -7878,7 +8823,10 @@ let data = [{
         "请尽可能的优化算法的时间复杂度和空间复杂度。 输入的数据 n 小于等于 5,000,000。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number[]}\n */\nvar lexicalOrder = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number[]}\n */\nvar lexicalOrder = function(n) {\n    \n};",
+        "py": "class Solution:\n    def lexicalOrder(self, n: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0387",
     "titleSlug": "first-unique-character-in-a-string",
@@ -7895,7 +8843,10 @@ let data = [{
         "注意事项：您可以假定该字符串只包含小写字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar firstUniqChar = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar firstUniqChar = function(s) {\n    \n};",
+        "py": "class Solution:\n    def firstUniqChar(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0388",
     "titleSlug": "longest-absolute-file-path",
@@ -7939,7 +8890,10 @@ let data = [{
         "请注意，如果存在路径 aaaaaaaaaaaaaaaaaaaaa/sth.png 的话，那么  a/aa/aaa/file1.txt 就不是一个最长的路径。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} input\n * @return {number}\n */\nvar lengthLongestPath = function(input) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} input\n * @return {number}\n */\nvar lengthLongestPath = function(input) {\n    \n};",
+        "py": "class Solution:\n    def lengthLongestPath(self, input: str) -> int:\n        "
+    }
 }, {
     "questionId": "0389",
     "titleSlug": "find-the-difference",
@@ -7960,7 +8914,10 @@ let data = [{
         "'e' 是那个被添加的字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string} t\n * @return {character}\n */\nvar findTheDifference = function(s, t) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {string} t\n * @return {character}\n */\nvar findTheDifference = function(s, t) {\n    \n};",
+        "py": "class Solution:\n    def findTheDifference(self, s: str, t: str) -> str:\n        "
+    }
 }, {
     "questionId": "0390",
     "titleSlug": "elimination-game",
@@ -7984,7 +8941,10 @@ let data = [{
         "6"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar lastRemaining = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar lastRemaining = function(n) {\n    \n};",
+        "py": "class Solution:\n    def lastRemaining(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0391",
     "titleSlug": "perfect-rectangle",
@@ -8042,7 +9002,10 @@ let data = [{
         "返回 false。因为中间有相交区域，虽然形成了矩形，但不是精确覆盖。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} rectangles\n * @return {boolean}\n */\nvar isRectangleCover = function(rectangles) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} rectangles\n * @return {boolean}\n */\nvar isRectangleCover = function(rectangles) {\n    \n};",
+        "py": "class Solution:\n    def isRectangleCover(self, rectangles: List[List[int]]) -> bool:\n        "
+    }
 }, {
     "questionId": "0392",
     "titleSlug": "is-subsequence",
@@ -8065,7 +9028,10 @@ let data = [{
         "特别感谢 [@pbrother ](https://leetcode.com/pbrother/)添加此问题并且创建所有测试用例。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar isSubsequence = function(s, t) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar isSubsequence = function(s, t) {\n    \n};",
+        "py": "class Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0393",
     "titleSlug": "utf-8-validation",
@@ -8104,7 +9070,10 @@ let data = [{
         "但第二个延续字节不以 10 开头，所以是不符合规则的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} data\n * @return {boolean}\n */\nvar validUtf8 = function(data) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} data\n * @return {boolean}\n */\nvar validUtf8 = function(data) {\n    \n};",
+        "py": "class Solution:\n    def validUtf8(self, data: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0394",
     "titleSlug": "decode-string",
@@ -8121,7 +9090,10 @@ let data = [{
         "s = \"2[abc]3[cd]ef\", 返回 \"abcabccdcdcdef\"."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string}\n */\nvar decodeString = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string}\n */\nvar decodeString = function(s) {\n    \n};",
+        "py": "class Solution:\n    def decodeString(self, s: str) -> str:\n        "
+    }
 }, {
     "questionId": "0395",
     "titleSlug": "longest-substring-with-at-least-k-repeating-characters",
@@ -8148,7 +9120,10 @@ let data = [{
         "最长子串为 \"ababb\" ，其中 'a' 重复了 2 次， 'b' 重复了 3 次。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {number} k\n * @return {number}\n */\nvar longestSubstring = function(s, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {number} k\n * @return {number}\n */\nvar longestSubstring = function(s, k) {\n    \n};",
+        "py": "class Solution:\n    def longestSubstring(self, s: str, k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0396",
     "titleSlug": "rotate-function",
@@ -8173,7 +9148,10 @@ let data = [{
         "所以 F(0), F(1), F(2), F(3) 中的最大值是 F(3) = 26 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar maxRotateFunction = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar maxRotateFunction = function(A) {\n    \n};",
+        "py": "class Solution:\n    def maxRotateFunction(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0397",
     "titleSlug": "integer-replacement",
@@ -8207,7 +9185,10 @@ let data = [{
         "7 -> 6 -> 3 -> 2 -> 1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar integerReplacement = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar integerReplacement = function(n) {\n    \n};",
+        "py": "class Solution:\n    def integerReplacement(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0398",
     "titleSlug": "random-pick-index",
@@ -8229,7 +9210,10 @@ let data = [{
         "solution.pick(1);"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n */\nvar Solution = function(nums) {\n    \n};\n\n/** \n * @param {number} target\n * @return {number}\n */\nSolution.prototype.pick = function(target) {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = Object.create(Solution).createNew(nums)\n * var param_1 = obj.pick(target)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n */\nvar Solution = function(nums) {\n    \n};\n\n/** \n * @param {number} target\n * @return {number}\n */\nSolution.prototype.pick = function(target) {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(nums)\n * var param_1 = obj.pick(target)\n */",
+        "py": "class Solution:\n\n    def __init__(self, nums: List[int]):\n        \n\n    def pick(self, target: int) -> int:\n        \n\n\n# Your Solution object will be instantiated and called as such:\n# obj = Solution(nums)\n# param_1 = obj.pick(target)"
+    }
 }, {
     "questionId": "0399",
     "titleSlug": "evaluate-division",
@@ -8250,7 +9234,10 @@ let data = [{
         "输入总是有效的。你可以假设除法运算中不会出现除数为0的情况，且不存在任何矛盾的结果。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[][]} equations\n * @param {number[]} values\n * @param {string[][]} queries\n * @return {number[]}\n */\nvar calcEquation = function(equations, values, queries) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[][]} equations\r\n * @param {number[]} values\r\n * @param {string[][]} queries\r\n * @return {number[]}\r\n */\r\nvar calcEquation = function(equations, values, queries) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:\r\n        "
+    }
 }, {
     "questionId": "0400",
     "titleSlug": "nth-digit",
@@ -8279,7 +9266,10 @@ let data = [{
         "第11个数字在序列 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... 里是0，它是10的一部分。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar findNthDigit = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar findNthDigit = function(n) {\n    \n};",
+        "py": "class Solution:\n    def findNthDigit(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0401",
     "titleSlug": "binary-watch",
@@ -8301,7 +9291,10 @@ let data = [{
         "  - 分钟必须由两位数组成，可能会以零开头，比如 “10:2” 是无效的，应为 “10:02”。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {string[]}\n */\nvar readBinaryWatch = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {string[]}\n */\nvar readBinaryWatch = function(num) {\n    \n};",
+        "py": "class Solution:\n    def readBinaryWatch(self, num: int) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0402",
     "titleSlug": "remove-k-digits",
@@ -8329,7 +9322,10 @@ let data = [{
         "解释: 从原数字移除所有的数字，剩余为空就是0。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} num\n * @param {number} k\n * @return {string}\n */\nvar removeKdigits = function(num, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} num\n * @param {number} k\n * @return {string}\n */\nvar removeKdigits = function(num, k) {\n    \n};",
+        "py": "class Solution:\n    def removeKdigits(self, num: str, k: int) -> str:\n        "
+    }
 }, {
     "questionId": "0403",
     "titleSlug": "frog-jump",
@@ -8363,7 +9359,10 @@ let data = [{
         "这是因为第5和第6个石子之间的间距太大，没有可选的方案供青蛙跳跃过去。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} stones\n * @return {boolean}\n */\nvar canCross = function(stones) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} stones\n * @return {boolean}\n */\nvar canCross = function(stones) {\n    \n};",
+        "py": "class Solution:\n    def canCross(self, stones: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0404",
     "titleSlug": "sum-of-left-leaves",
@@ -8381,7 +9380,10 @@ let data = [{
         "在这个二叉树中，有两个左叶子，分别是 9 和 15，所以返回 24"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar sumOfLeftLeaves = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar sumOfLeftLeaves = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def sumOfLeftLeaves(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0405",
     "titleSlug": "convert-a-number-to-hexadecimal",
@@ -8410,7 +9412,10 @@ let data = [{
         "\"ffffffff\""
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {string}\n */\nvar toHex = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {string}\n */\nvar toHex = function(num) {\n    \n};",
+        "py": "class Solution:\n    def toHex(self, num: int) -> str:\n        "
+    }
 }, {
     "questionId": "0406",
     "titleSlug": "queue-reconstruction-by-height",
@@ -8429,7 +9434,10 @@ let data = [{
         "[[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} people\n * @return {number[][]}\n */\nvar reconstructQueue = function(people) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} people\n * @return {number[][]}\n */\nvar reconstructQueue = function(people) {\n    \n};",
+        "py": "class Solution:\n    def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0407",
     "titleSlug": "trapping-rain-water-ii",
@@ -8457,7 +9465,10 @@ let data = [{
         "下雨后，雨水将会被存储在这些方块中。总的接雨水量是4。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} heightMap\n * @return {number}\n */\nvar trapRainWater = function(heightMap) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} heightMap\n * @return {number}\n */\nvar trapRainWater = function(heightMap) {\n    \n};",
+        "py": "class Solution:\n    def trapRainWater(self, heightMap: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0409",
     "titleSlug": "longest-palindrome",
@@ -8479,7 +9490,10 @@ let data = [{
         "我们可以构造的最长的回文串是\"dccaccd\", 它的长度是 7。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar longestPalindrome = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar longestPalindrome = function(s) {\n    \n};",
+        "py": "class Solution:\n    def longestPalindrome(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0410",
     "titleSlug": "split-array-largest-sum",
@@ -8506,7 +9520,10 @@ let data = [{
         "因为此时这两个子数组各自的和的最大值为18，在所有情况中最小。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} m\n * @return {number}\n */\nvar splitArray = function(nums, m) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} m\n * @return {number}\n */\nvar splitArray = function(nums, m) {\n    \n};",
+        "py": "class Solution:\n    def splitArray(self, nums: List[int], m: int) -> int:\n        "
+    }
 }, {
     "questionId": "0412",
     "titleSlug": "fizz-buzz",
@@ -8540,7 +9557,10 @@ let data = [{
         "]"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {string[]}\n */\nvar fizzBuzz = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {string[]}\n */\nvar fizzBuzz = function(n) {\n    \n};",
+        "py": "class Solution:\n    def fizzBuzz(self, n: int) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0413",
     "titleSlug": "arithmetic-slices",
@@ -8566,7 +9586,10 @@ let data = [{
         "返回: 3, A 中有三个子等差数组: [1, 2, 3], [2, 3, 4] 以及自身 [1, 2, 3, 4]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar numberOfArithmeticSlices = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar numberOfArithmeticSlices = function(A) {\n    \n};",
+        "py": "class Solution:\n    def numberOfArithmeticSlices(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0414",
     "titleSlug": "third-maximum-number",
@@ -8597,7 +9620,10 @@ let data = [{
         "存在两个值为2的数，它们都排第二。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar thirdMax = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar thirdMax = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def thirdMax(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0415",
     "titleSlug": "add-strings",
@@ -8612,7 +9638,10 @@ let data = [{
         "  - 你不能使用任何內建 BigInteger 库， 也不能直接将输入的字符串转换为整数形式。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} num1\n * @param {string} num2\n * @return {string}\n */\nvar addStrings = function(num1, num2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} num1\n * @param {string} num2\n * @return {string}\n */\nvar addStrings = function(num1, num2) {\n    \n};",
+        "py": "class Solution:\n    def addStrings(self, num1: str, num2: str) -> str:\n        "
+    }
 }, {
     "questionId": "0416",
     "titleSlug": "partition-equal-subset-sum",
@@ -8639,7 +9668,10 @@ let data = [{
         "解释: 数组不能分割成两个元素和相等的子集."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar canPartition = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums\r\n * @return {boolean}\r\n */\r\nvar canPartition = function(nums) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def canPartition(self, nums: List[int]) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0417",
     "titleSlug": "pacific-atlantic-water-flow",
@@ -8670,7 +9702,10 @@ let data = [{
         "[[0, 4], [1, 3], [1, 4], [2, 2], [3, 0], [3, 1], [4, 0]] (上图中带括号的单元)."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @return {number[][]}\n */\nvar pacificAtlantic = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @return {number[][]}\n */\nvar pacificAtlantic = function(matrix) {\n    \n};",
+        "py": "class Solution:\n    def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0419",
     "titleSlug": "battleships-in-a-board",
@@ -8698,7 +9733,10 @@ let data = [{
         "你可以用一次扫描算法，只使用O(1)额外空间，并且不修改甲板的值来解决这个问题吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {character[][]} board\n * @return {number}\n */\nvar countBattleships = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[][]} board\n * @return {number}\n */\nvar countBattleships = function(board) {\n    \n};",
+        "py": "class Solution:\n    def countBattleships(self, board: List[List[str]]) -> int:\n        "
+    }
 }, {
     "questionId": "0420",
     "titleSlug": "strong-password-checker",
@@ -8713,7 +9751,10 @@ let data = [{
         "插入、删除、替换任一字符都算作一次修改。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar strongPasswordChecker = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar strongPasswordChecker = function(s) {\n    \n};",
+        "py": "class Solution:\n    def strongPasswordChecker(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0421",
     "titleSlug": "maximum-xor-of-two-numbers-in-an-array",
@@ -8731,7 +9772,10 @@ let data = [{
         "解释: 最大的结果是 5 ^ 25 = 28."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMaximumXOR = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar findMaximumXOR = function(nums) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def findMaximumXOR(self, nums: List[int]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0423",
     "titleSlug": "reconstruct-original-digits-from-english",
@@ -8753,7 +9797,10 @@ let data = [{
         "输出: \"45\" (fourfive)"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string}\n */\nvar originalDigits = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string}\n */\nvar originalDigits = function(s) {\n    \n};",
+        "py": "class Solution:\n    def originalDigits(self, s: str) -> str:\n        "
+    }
 }, {
     "questionId": "0424",
     "titleSlug": "longest-repeating-character-replacement",
@@ -8786,7 +9833,10 @@ let data = [{
         "子串 \"BBBB\" 有最长重复字母, 答案为 4。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {number} k\n * @return {number}\n */\nvar characterReplacement = function(s, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {number} k\n * @return {number}\n */\nvar characterReplacement = function(s, k) {\n    \n};",
+        "py": "class Solution:\n    def characterReplacement(self, s: str, k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0427",
     "titleSlug": "construct-quad-tree",
@@ -8808,7 +9858,10 @@ let data = [{
         "  - 如果你想了解更多关于四叉树的知识，你可以参考这个 [wiki](https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%89%E6%A0%91) 页面。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * // Definition for a QuadTree node.\n * function Node(val,isLeaf,topLeft,topRight,bottomLeft,bottomRight) {\n *    this.val = val;\n *    this.isLeaf = isLeaf;\n *    this.topLeft = topLeft;\n *    this.topRight = topRight;\n *    this.bottomLeft = bottomLeft;\n *    this.bottomRight = bottomRight;\n * };\n */\n/**\n * @param {number[][]} grid\n * @return {Node}\n */\nvar construct = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // Definition for a QuadTree node.\n * function Node(val,isLeaf,topLeft,topRight,bottomLeft,bottomRight) {\n *    this.val = val;\n *    this.isLeaf = isLeaf;\n *    this.topLeft = topLeft;\n *    this.topRight = topRight;\n *    this.bottomLeft = bottomLeft;\n *    this.bottomRight = bottomRight;\n * };\n */\n/**\n * @param {number[][]} grid\n * @return {Node}\n */\nvar construct = function(grid) {\n    \n};",
+        "py": "\"\"\"\n# Definition for a QuadTree node.\nclass Node:\n    def __init__(self, val, isLeaf, topLeft, topRight, bottomLeft, bottomRight):\n        self.val = val\n        self.isLeaf = isLeaf\n        self.topLeft = topLeft\n        self.topRight = topRight\n        self.bottomLeft = bottomLeft\n        self.bottomRight = bottomRight\n\"\"\"\nclass Solution:\n    def construct(self, grid: List[List[int]]) -> 'Node':\n        "
+    }
 }, {
     "questionId": "0429",
     "titleSlug": "n-ary-tree-level-order-traversal",
@@ -8832,7 +9885,10 @@ let data = [{
         "  - 树的节点总数不会超过 5000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number[][]}\n */\nvar levelOrder = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number[][]}\n */\nvar levelOrder = function(root) {\n    \n};",
+        "py": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val, children):\n        self.val = val\n        self.children = children\n\"\"\"\nclass Solution:\n    def levelOrder(self, root: 'Node') -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0430",
     "titleSlug": "flatten-a-multilevel-doubly-linked-list",
@@ -8860,7 +9916,10 @@ let data = [{
         "[示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0430-2.png)"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,prev,next,child) {\n *    this.val = val;\n *    this.prev = prev;\n *    this.next = next;\n *    this.child = child;\n * };\n */\n/**\n * @param {Node} head\n * @return {Node}\n */\nvar flatten = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // Definition for a Node.\n * function Node(val,prev,next,child) {\n *    this.val = val;\n *    this.prev = prev;\n *    this.next = next;\n *    this.child = child;\n * };\n */\n/**\n * @param {Node} head\n * @return {Node}\n */\nvar flatten = function(head) {\n    \n};",
+        "py": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val, prev, next, child):\n        self.val = val\n        self.prev = prev\n        self.next = next\n        self.child = child\n\"\"\"\nclass Solution:\n    def flatten(self, head: 'Node') -> 'Node':\n        "
+    }
 }, {
     "questionId": "0432",
     "titleSlug": "all-oone-data-structure",
@@ -8875,7 +9934,10 @@ let data = [{
         "挑战：以 O(1) 的时间复杂度实现所有操作。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar AllOne = function() {\n    \n};\n\n/**\n * Inserts a new key <Key> with value 1. Or increments an existing key by 1. \n * @param {string} key\n * @return {void}\n */\nAllOne.prototype.inc = function(key) {\n    \n};\n\n/**\n * Decrements an existing key by 1. If Key's value is 1, remove it from the data structure. \n * @param {string} key\n * @return {void}\n */\nAllOne.prototype.dec = function(key) {\n    \n};\n\n/**\n * Returns one of the keys with maximal value.\n * @return {string}\n */\nAllOne.prototype.getMaxKey = function() {\n    \n};\n\n/**\n * Returns one of the keys with Minimal value.\n * @return {string}\n */\nAllOne.prototype.getMinKey = function() {\n    \n};\n\n/** \n * Your AllOne object will be instantiated and called as such:\n * var obj = Object.create(AllOne).createNew()\n * obj.inc(key)\n * obj.dec(key)\n * var param_3 = obj.getMaxKey()\n * var param_4 = obj.getMinKey()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar AllOne = function() {\n    \n};\n\n/**\n * Inserts a new key <Key> with value 1. Or increments an existing key by 1. \n * @param {string} key\n * @return {void}\n */\nAllOne.prototype.inc = function(key) {\n    \n};\n\n/**\n * Decrements an existing key by 1. If Key's value is 1, remove it from the data structure. \n * @param {string} key\n * @return {void}\n */\nAllOne.prototype.dec = function(key) {\n    \n};\n\n/**\n * Returns one of the keys with maximal value.\n * @return {string}\n */\nAllOne.prototype.getMaxKey = function() {\n    \n};\n\n/**\n * Returns one of the keys with Minimal value.\n * @return {string}\n */\nAllOne.prototype.getMinKey = function() {\n    \n};\n\n/** \n * Your AllOne object will be instantiated and called as such:\n * var obj = new AllOne()\n * obj.inc(key)\n * obj.dec(key)\n * var param_3 = obj.getMaxKey()\n * var param_4 = obj.getMinKey()\n */",
+        "py": "class AllOne:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def inc(self, key: str) -> None:\n        \"\"\"\n        Inserts a new key <Key> with value 1. Or increments an existing key by 1.\n        \"\"\"\n        \n\n    def dec(self, key: str) -> None:\n        \"\"\"\n        Decrements an existing key by 1. If Key's value is 1, remove it from the data structure.\n        \"\"\"\n        \n\n    def getMaxKey(self) -> str:\n        \"\"\"\n        Returns one of the keys with maximal value.\n        \"\"\"\n        \n\n    def getMinKey(self) -> str:\n        \"\"\"\n        Returns one of the keys with Minimal value.\n        \"\"\"\n        \n\n\n# Your AllOne object will be instantiated and called as such:\n# obj = AllOne()\n# obj.inc(key)\n# obj.dec(key)\n# param_3 = obj.getMaxKey()\n# param_4 = obj.getMinKey()"
+    }
 }, {
     "questionId": "0433",
     "titleSlug": "minimum-genetic-mutation",
@@ -8915,7 +9977,10 @@ let data = [{
         "返回值: 3"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} start\n * @param {string} end\n * @param {string[]} bank\n * @return {number}\n */\nvar minMutation = function(start, end, bank) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} start\n * @param {string} end\n * @param {string[]} bank\n * @return {number}\n */\nvar minMutation = function(start, end, bank) {\n    \n};",
+        "py": "class Solution:\n    def minMutation(self, start: str, end: str, bank: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0434",
     "titleSlug": "number-of-segments-in-a-string",
@@ -8929,7 +9994,10 @@ let data = [{
         "输出: 5"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar countSegments = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar countSegments = function(s) {\n    \n};",
+        "py": "class Solution:\n    def countSegments(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0435",
     "titleSlug": "non-overlapping-intervals",
@@ -8963,7 +10031,10 @@ let data = [{
         "解释: 你不需要移除任何区间，因为它们已经是无重叠的了。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for an interval.\n * function Interval(start, end) {\n *     this.start = start;\n *     this.end = end;\n * }\n */\n/**\n * @param {Interval[]} intervals\n * @return {number}\n */\nvar eraseOverlapIntervals = function(intervals) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} intervals\r\n * @return {number}\r\n */\r\nvar eraseOverlapIntervals = function(intervals) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0436",
     "titleSlug": "find-right-interval",
@@ -8998,7 +10069,10 @@ let data = [{
         "对于[2,3]，区间[3,4]有最小的“右”起点。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for an interval.\n * function Interval(start, end) {\n *     this.start = start;\n *     this.end = end;\n * }\n */\n/**\n * @param {Interval[]} intervals\n * @return {number[]}\n */\nvar findRightInterval = function(intervals) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} intervals\r\n * @return {number[]}\r\n */\r\nvar findRightInterval = function(intervals) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def findRightInterval(self, intervals: List[List[int]]) -> List[int]:\r\n        "
+    }
 }, {
     "questionId": "0437",
     "titleSlug": "path-sum-iii",
@@ -9027,7 +10101,10 @@ let data = [{
         "3.  -3 -> 11"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} sum\n * @return {number}\n */\nvar pathSum = function(root, sum) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} sum\n * @return {number}\n */\nvar pathSum = function(root, sum) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def pathSum(self, root: TreeNode, sum: int) -> int:\n        "
+    }
 }, {
     "questionId": "0438",
     "titleSlug": "find-all-anagrams-in-a-string",
@@ -9062,7 +10139,10 @@ let data = [{
         "起始索引等于 2 的子串是 \"ab\", 它是 \"ab\" 的字母异位词。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string} p\n * @return {number[]}\n */\nvar findAnagrams = function(s, p) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {string} p\n * @return {number[]}\n */\nvar findAnagrams = function(s, p) {\n    \n};",
+        "py": "class Solution:\n    def findAnagrams(self, s: str, p: str) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0440",
     "titleSlug": "k-th-smallest-in-lexicographical-order",
@@ -9083,7 +10163,10 @@ let data = [{
         "字典序的排列是 [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9]，所以第二小的数字是 10。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number} k\n * @return {number}\n */\nvar findKthNumber = function(n, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number} k\n * @return {number}\n */\nvar findKthNumber = function(n, k) {\n    \n};",
+        "py": "class Solution:\n    def findKthNumber(self, n: int, k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0441",
     "titleSlug": "arranging-coins",
@@ -9115,7 +10198,10 @@ let data = [{
         "因为第四行不完整，所以返回3."
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar arrangeCoins = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar arrangeCoins = function(n) {\n    \n};",
+        "py": "class Solution:\n    def arrangeCoins(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0442",
     "titleSlug": "find-all-duplicates-in-an-array",
@@ -9133,7 +10219,10 @@ let data = [{
         "[2,3]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar findDuplicates = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar findDuplicates = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findDuplicates(self, nums: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0443",
     "titleSlug": "string-compression",
@@ -9184,7 +10273,10 @@ let data = [{
         "  - 1 <= len(chars) <= 1000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {character[]} chars\n * @return {number}\n */\nvar compress = function(chars) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[]} chars\n * @return {number}\n */\nvar compress = function(chars) {\n    \n};",
+        "py": "class Solution:\n    def compress(self, chars: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0445",
     "titleSlug": "add-two-numbers-ii",
@@ -9202,7 +10294,10 @@ let data = [{
         "输出: 7 -> 8 -> 0 -> 7"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} l1\n * @param {ListNode} l2\n * @return {ListNode}\n */\nvar addTwoNumbers = function(l1, l2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} l1\n * @param {ListNode} l2\n * @return {ListNode}\n */\nvar addTwoNumbers = function(l1, l2) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0446",
     "titleSlug": "arithmetic-slices-ii-subsequence",
@@ -9240,7 +10335,10 @@ let data = [{
         "[2,6,10]"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar numberOfArithmeticSlices = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar numberOfArithmeticSlices = function(A) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numberOfArithmeticSlices(self, A: List[int]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0447",
     "titleSlug": "number-of-boomerangs",
@@ -9260,7 +10358,10 @@ let data = [{
         "两个回旋镖为 [[1,0],[0,0],[2,0]] 和 [[1,0],[2,0],[0,0]]"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} points\n * @return {number}\n */\nvar numberOfBoomerangs = function(points) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} points\r\n * @return {number}\r\n */\r\nvar numberOfBoomerangs = function(points) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numberOfBoomerangs(self, points: List[List[int]]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0448",
     "titleSlug": "find-all-numbers-disappeared-in-an-array",
@@ -9278,7 +10379,10 @@ let data = [{
         "[5,6]"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar findDisappearedNumbers = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar findDisappearedNumbers = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findDisappearedNumbers(self, nums: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0449",
     "titleSlug": "serialize-and-deserialize-bst",
@@ -9291,7 +10395,10 @@ let data = [{
         "注意：不要使用类成员/全局/静态变量来存储状态。 你的序列化和反序列化算法应该是无状态的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n\n/**\n * Encodes a tree to a single string.\n *\n * @param {TreeNode} root\n * @return {string}\n */\nvar serialize = function(root) {\n    \n};\n\n/**\n * Decodes your encoded data to tree.\n *\n * @param {string} data\n * @return {TreeNode}\n */\nvar deserialize = function(data) {\n    \n};\n\n/**\n * Your functions will be called as such:\n * deserialize(serialize(root));\n */"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n\r\n/**\r\n * Encodes a tree to a single string.\r\n *\r\n * @param {TreeNode} root\r\n * @return {string}\r\n */\r\nvar serialize = function(root) {\r\n    \r\n};\r\n\r\n/**\r\n * Decodes your encoded data to tree.\r\n *\r\n * @param {string} data\r\n * @return {TreeNode}\r\n */\r\nvar deserialize = function(data) {\r\n    \r\n};\r\n\r\n/**\r\n * Your functions will be called as such:\r\n * deserialize(serialize(root));\r\n */",
+        "py": "#Python 2\n\n# Definition for a binary tree node.\r\n# class TreeNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Codec:\r\n\r\n    def serialize(self, root):\r\n        \"\"\"Encodes a tree to a single string.\r\n        \r\n        :type root: TreeNode\r\n        :rtype: str\r\n        \"\"\"\r\n        \r\n\r\n    def deserialize(self, data):\r\n        \"\"\"Decodes your encoded data to tree.\r\n        \r\n        :type data: str\r\n        :rtype: TreeNode\r\n        \"\"\"\r\n        \r\n\r\n# Your Codec object will be instantiated and called as such:\r\n# codec = Codec()\r\n# codec.deserialize(codec.serialize(root))"
+    }
 }, {
     "questionId": "0450",
     "titleSlug": "delete-node-in-a-bst",
@@ -9333,7 +10440,10 @@ let data = [{
         "    4   7"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} key\n * @return {TreeNode}\n */\nvar deleteNode = function(root, key) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} key\n * @return {TreeNode}\n */\nvar deleteNode = function(root, key) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def deleteNode(self, root: TreeNode, key: int) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0451",
     "titleSlug": "sort-characters-by-frequency",
@@ -9371,7 +10481,10 @@ let data = [{
         "注意'A'和'a'被认为是两种不同的字符。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string}\n */\nvar frequencySort = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string}\n */\nvar frequencySort = function(s) {\n    \n};",
+        "py": "class Solution:\n    def frequencySort(self, s: str) -> str:\n        "
+    }
 }, {
     "questionId": "0452",
     "titleSlug": "minimum-number-of-arrows-to-burst-balloons",
@@ -9390,7 +10503,10 @@ let data = [{
         "对于该样例，我们可以在x = 6（射爆[2,8],[1,6]两个气球）和 x = 11（射爆另外两个气球）。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} points\n * @return {number}\n */\nvar findMinArrowShots = function(points) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} points\r\n * @return {number}\r\n */\r\nvar findMinArrowShots = function(points) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def findMinArrowShots(self, points: List[List[int]]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0453",
     "titleSlug": "minimum-moves-to-equal-array-elements",
@@ -9411,7 +10527,10 @@ let data = [{
         "[1,2,3]  =>  [2,3,3]  =>  [3,4,3]  =>  [4,4,4]"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar minMoves = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar minMoves = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def minMoves(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0454",
     "titleSlug": "4sum-ii",
@@ -9436,7 +10555,10 @@ let data = [{
         "2. (1, 1, 0, 0) -> A[1] + B[1] + C[0] + D[0] = 2 + (-1) + (-1) + 0 = 0"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @param {number[]} C\n * @param {number[]} D\n * @return {number}\n */\nvar fourSumCount = function(A, B, C, D) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @param {number[]} C\n * @param {number[]} D\n * @return {number}\n */\nvar fourSumCount = function(A, B, C, D) {\n    \n};",
+        "py": "class Solution:\n    def fourSumCount(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0455",
     "titleSlug": "assign-cookies",
@@ -9469,7 +10591,10 @@ let data = [{
         "所以你应该输出2."
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} g\n * @param {number[]} s\n * @return {number}\n */\nvar findContentChildren = function(g, s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} g\n * @param {number[]} s\n * @return {number}\n */\nvar findContentChildren = function(g, s) {\n    \n};",
+        "py": "class Solution:\n    def findContentChildren(self, g: List[int], s: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0456",
     "titleSlug": "132-pattern",
@@ -9501,7 +10626,10 @@ let data = [{
         "解释: 序列中有 3 个132模式的的子序列: [-1, 3, 2], [-1, 3, 0] 和 [-1, 2, 0]."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar find132pattern = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar find132pattern = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def find132pattern(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0457",
     "titleSlug": "circular-array-loop",
@@ -9534,7 +10662,10 @@ let data = [{
         "你能写出时间时间复杂度为 O(n) 和额外空间复杂度为 O(1) 的算法吗？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar circularArrayLoop = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar circularArrayLoop = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def circularArrayLoop(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0458",
     "titleSlug": "poor-pigs",
@@ -9553,7 +10684,10 @@ let data = [{
         "  - 任何给定的桶都可以无限次采样（无限数量的猪）。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} buckets\n * @param {number} minutesToDie\n * @param {number} minutesToTest\n * @return {number}\n */\nvar poorPigs = function(buckets, minutesToDie, minutesToTest) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} buckets\n * @param {number} minutesToDie\n * @param {number} minutesToTest\n * @return {number}\n */\nvar poorPigs = function(buckets, minutesToDie, minutesToTest) {\n    \n};",
+        "py": "class Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        "
+    }
 }, {
     "questionId": "0459",
     "titleSlug": "repeated-substring-pattern",
@@ -9578,7 +10712,10 @@ let data = [{
         "解释: 可由子字符串 \"abc\" 重复四次构成。 (或者子字符串 \"abcabc\" 重复两次构成。)"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar repeatedSubstringPattern = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar repeatedSubstringPattern = function(s) {\n    \n};",
+        "py": "class Solution:\n    def repeatedSubstringPattern(self, s: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0460",
     "titleSlug": "lfu-cache",
@@ -9606,7 +10743,10 @@ let data = [{
         "cache.get(4);       // 返回 4"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} capacity\n */\nvar LFUCache = function(capacity) {\n    \n};\n\n/** \n * @param {number} key\n * @return {number}\n */\nLFUCache.prototype.get = function(key) {\n    \n};\n\n/** \n * @param {number} key \n * @param {number} value\n * @return {void}\n */\nLFUCache.prototype.put = function(key, value) {\n    \n};\n\n/** \n * Your LFUCache object will be instantiated and called as such:\n * var obj = Object.create(LFUCache).createNew(capacity)\n * var param_1 = obj.get(key)\n * obj.put(key,value)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} capacity\n */\nvar LFUCache = function(capacity) {\n    \n};\n\n/** \n * @param {number} key\n * @return {number}\n */\nLFUCache.prototype.get = function(key) {\n    \n};\n\n/** \n * @param {number} key \n * @param {number} value\n * @return {void}\n */\nLFUCache.prototype.put = function(key, value) {\n    \n};\n\n/** \n * Your LFUCache object will be instantiated and called as such:\n * var obj = new LFUCache(capacity)\n * var param_1 = obj.get(key)\n * obj.put(key,value)\n */",
+        "py": "class LFUCache:\n\n    def __init__(self, capacity: int):\n        \n\n    def get(self, key: int) -> int:\n        \n\n    def put(self, key: int, value: int) -> None:\n        \n\n\n# Your LFUCache object will be instantiated and called as such:\n# obj = LFUCache(capacity)\n# param_1 = obj.get(key)\n# obj.put(key,value)"
+    }
 }, {
     "questionId": "0461",
     "titleSlug": "hamming-distance",
@@ -9631,7 +10771,10 @@ let data = [{
         "上面的箭头指出了对应二进制位不同的位置。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} x\n * @param {number} y\n * @return {number}\n */\nvar hammingDistance = function(x, y) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} x\n * @param {number} y\n * @return {number}\n */\nvar hammingDistance = function(x, y) {\n    \n};",
+        "py": "class Solution:\n    def hammingDistance(self, x: int, y: int) -> int:\n        "
+    }
 }, {
     "questionId": "0462",
     "titleSlug": "minimum-moves-to-equal-array-elements-ii",
@@ -9652,7 +10795,10 @@ let data = [{
         "[1,2,3]  =>  [2,2,3]  =>  [2,2,2]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar minMoves2 = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar minMoves2 = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def minMoves2(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0463",
     "titleSlug": "island-perimeter",
@@ -9676,7 +10822,10 @@ let data = [{
         "[示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0463.png)"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar islandPerimeter = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar islandPerimeter = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def islandPerimeter(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0464",
     "titleSlug": "can-i-win",
@@ -9705,7 +10854,10 @@ let data = [{
         "同样地，第一个玩家选择任意其他整数，第二个玩家都会赢。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} maxChoosableInteger\n * @param {number} desiredTotal\n * @return {boolean}\n */\nvar canIWin = function(maxChoosableInteger, desiredTotal) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} maxChoosableInteger\n * @param {number} desiredTotal\n * @return {boolean}\n */\nvar canIWin = function(maxChoosableInteger, desiredTotal) {\n    \n};",
+        "py": "class Solution:\n    def canIWin(self, maxChoosableInteger: int, desiredTotal: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0466",
     "titleSlug": "count-the-repetitions",
@@ -9724,7 +10876,10 @@ let data = [{
         "2"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s1\n * @param {number} n1\n * @param {string} s2\n * @param {number} n2\n * @return {number}\n */\nvar getMaxRepetitions = function(s1, n1, s2, n2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s1\n * @param {number} n1\n * @param {string} s2\n * @param {number} n2\n * @return {number}\n */\nvar getMaxRepetitions = function(s1, n1, s2, n2) {\n    \n};",
+        "py": "class Solution:\n    def getMaxRepetitions(self, s1: str, n1: int, s2: str, n2: int) -> int:\n        "
+    }
 }, {
     "questionId": "0467",
     "titleSlug": "unique-substrings-in-wraparound-string",
@@ -9751,7 +10906,10 @@ let data = [{
         "解释: 在字符串 S 中有六个子串“z”、“a”、“b”、“za”、“ab”、“zab”。."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} p\n * @return {number}\n */\nvar findSubstringInWraproundString = function(p) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} p\n * @return {number}\n */\nvar findSubstringInWraproundString = function(p) {\n    \n};",
+        "py": "class Solution:\n    def findSubstringInWraproundString(self, p: str) -> int:\n        "
+    }
 }, {
     "questionId": "0468",
     "titleSlug": "validate-ip-address",
@@ -9782,7 +10940,10 @@ let data = [{
         "解释: 这个地址既不是 IPv4 也不是 IPv6 地址。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} IP\n * @return {string}\n */\nvar validIPAddress = function(IP) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} IP\n * @return {string}\n */\nvar validIPAddress = function(IP) {\n    \n};",
+        "py": "class Solution:\n    def validIPAddress(self, IP: str) -> str:\n        "
+    }
 }, {
     "questionId": "0470",
     "titleSlug": "implement-rand10-using-rand7",
@@ -9812,7 +10973,10 @@ let data = [{
         "  - 你能否尽量少调用 rand7() ?"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * The rand7() API is already defined for you.\n * var rand7 = function() {}\n * @return {number} a random integer in the range 1 to 7\n */\nvar rand10 = function() {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * The rand7() API is already defined for you.\r\n * var rand7 = function() {}\r\n * @return {number} a random integer in the range 1 to 7\r\n */\r\nvar rand10 = function() {\r\n    \r\n};",
+        "py": "# The rand7() API is already defined for you.\r\n# def rand7():\r\n# @return a random integer in the range 1 to 7\r\n\r\nclass Solution:\r\n    def rand10(self):\r\n        \"\"\"\r\n        :rtype: int\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0472",
     "titleSlug": "concatenated-words",
@@ -9837,7 +11001,10 @@ let data = [{
         "  - 不需要考虑答案输出的顺序。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @return {string[]}\n */\nvar findAllConcatenatedWordsInADict = function(words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n * @return {string[]}\n */\nvar findAllConcatenatedWordsInADict = function(words) {\n    \n};",
+        "py": "class Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0473",
     "titleSlug": "matchsticks-to-square",
@@ -9863,7 +11030,10 @@ let data = [{
         "  - 火柴数组的长度不超过15。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar makesquare = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar makesquare = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def makesquare(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0474",
     "titleSlug": "ones-and-zeroes",
@@ -9890,7 +11060,10 @@ let data = [{
         "解释: 你可以拼出 \"10\"，但之后就没有剩余数字了。更好的选择是拼出 \"0\" 和 \"1\" 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} strs\n * @param {number} m\n * @param {number} n\n * @return {number}\n */\nvar findMaxForm = function(strs, m, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} strs\r\n * @param {number} m\r\n * @param {number} n\r\n * @return {number}\r\n */\r\nvar findMaxForm = function(strs, m, n) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def findMaxForm(self, strs: List[str], m: int, n: int) -> int:\r\n        "
+    }
 }, {
     "questionId": "0475",
     "titleSlug": "heaters",
@@ -9917,7 +11090,10 @@ let data = [{
         "解释: 在位置1, 4上有两个供暖器。我们需要将加热半径设为1，这样所有房屋就都能得到供暖。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} houses\n * @param {number[]} heaters\n * @return {number}\n */\nvar findRadius = function(houses, heaters) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} houses\n * @param {number[]} heaters\n * @return {number}\n */\nvar findRadius = function(houses, heaters) {\n    \n};",
+        "py": "class Solution:\n    def findRadius(self, houses: List[int], heaters: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0476",
     "titleSlug": "number-complement",
@@ -9940,7 +11116,10 @@ let data = [{
         "解释: 1的二进制表示为1（没有前导零位），其补数为0。所以你需要输出0。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {number}\n */\nvar findComplement = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {number}\n */\nvar findComplement = function(num) {\n    \n};",
+        "py": "class Solution:\n    def findComplement(self, num: int) -> int:\n        "
+    }
 }, {
     "questionId": "0477",
     "titleSlug": "total-hamming-distance",
@@ -9963,7 +11142,10 @@ let data = [{
         "  - 数组的长度不超过 10^4。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar totalHammingDistance = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar totalHammingDistance = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def totalHammingDistance(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0478",
     "titleSlug": "generate-random-point-in-a-circle",
@@ -9992,7 +11174,10 @@ let data = [{
         "输入是两个列表：调用成员函数名和调用的参数。Solution 的构造函数有三个参数，圆的半径、圆心的 x 坐标、圆心的 y 坐标。randPoint 没有参数。输入参数是一个列表，即使参数为空，也会输入一个 [] 空列表。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} radius\n * @param {number} x_center\n * @param {number} y_center\n */\nvar Solution = function(radius, x_center, y_center) {\n    \n};\n\n/**\n * @return {number[]}\n */\nSolution.prototype.randPoint = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = Object.create(Solution).createNew(radius, x_center, y_center)\n * var param_1 = obj.randPoint()\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} radius\n * @param {number} x_center\n * @param {number} y_center\n */\nvar Solution = function(radius, x_center, y_center) {\n    \n};\n\n/**\n * @return {number[]}\n */\nSolution.prototype.randPoint = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(radius, x_center, y_center)\n * var param_1 = obj.randPoint()\n */",
+        "py": "class Solution:\n\n    def __init__(self, radius: float, x_center: float, y_center: float):\n        \n\n    def randPoint(self) -> List[float]:\n        \n\n\n# Your Solution object will be instantiated and called as such:\n# obj = Solution(radius, x_center, y_center)\n# param_1 = obj.randPoint()"
+    }
 }, {
     "questionId": "0479",
     "titleSlug": "largest-palindrome-product",
@@ -10010,7 +11195,10 @@ let data = [{
         "n 的取值范围为 [1,8]。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar largestPalindrome = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar largestPalindrome = function(n) {\n    \n};",
+        "py": "class Solution:\n    def largestPalindrome(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0480",
     "titleSlug": "sliding-window-median",
@@ -10039,7 +11227,10 @@ let data = [{
         "假设k是合法的，即：k 始终小于输入的非空数组的元素个数."
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar medianSlidingWindow = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar medianSlidingWindow = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        "
+    }
 }, {
     "questionId": "0481",
     "titleSlug": "magical-string",
@@ -10063,7 +11254,10 @@ let data = [{
         "解释：神奇字符串 S 的前 6 个元素是 “12211”，它包含三个 1，因此返回 3。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar magicalString = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar magicalString = function(n) {\n    \n};",
+        "py": "class Solution:\n    def magicalString(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0482",
     "titleSlug": "license-key-formatting",
@@ -10091,7 +11285,10 @@ let data = [{
         "  - S 非空"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {number} K\n * @return {string}\n */\nvar licenseKeyFormatting = function(S, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {number} K\n * @return {string}\n */\nvar licenseKeyFormatting = function(S, K) {\n    \n};",
+        "py": "class Solution:\n    def licenseKeyFormatting(self, S: str, K: int) -> str:\n        "
+    }
 }, {
     "questionId": "0483",
     "titleSlug": "smallest-good-base",
@@ -10120,7 +11317,10 @@ let data = [{
         "  - 输入总是有效且没有前导 0。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} n\n * @return {string}\n */\nvar smallestGoodBase = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} n\n * @return {string}\n */\nvar smallestGoodBase = function(n) {\n    \n};",
+        "py": "class Solution:\n    def smallestGoodBase(self, n: str) -> str:\n        "
+    }
 }, {
     "questionId": "0485",
     "titleSlug": "max-consecutive-ones",
@@ -10138,7 +11338,10 @@ let data = [{
         "  - 输入数组的长度是正整数，且不超过 10,000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMaxConsecutiveOnes = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMaxConsecutiveOnes = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0486",
     "titleSlug": "predict-the-winner",
@@ -10167,7 +11370,10 @@ let data = [{
         "  - 如果最终两个玩家的分数相等，那么玩家1仍为赢家。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar PredictTheWinner = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar PredictTheWinner = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def PredictTheWinner(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0488",
     "titleSlug": "zuma-game",
@@ -10200,7 +11406,10 @@ let data = [{
         "  - 输入的两个字符串均为非空字符串，且只包含字符 'R','Y','B','G','W'。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} board\n * @param {string} hand\n * @return {number}\n */\nvar findMinStep = function(board, hand) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} board\n * @param {string} hand\n * @return {number}\n */\nvar findMinStep = function(board, hand) {\n    \n};",
+        "py": "class Solution:\n    def findMinStep(self, board: str, hand: str) -> int:\n        "
+    }
 }, {
     "questionId": "0491",
     "titleSlug": "increasing-subsequences",
@@ -10218,7 +11427,10 @@ let data = [{
         "  - 给定数组中可能包含重复数字，相等的数字应该被视为递增的一种情况。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar findSubsequences = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[][]}\n */\nvar findSubsequences = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findSubsequences(self, nums: List[int]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0492",
     "titleSlug": "construct-the-rectangle",
@@ -10244,7 +11456,10 @@ let data = [{
         "  - 你设计的页面的长度和宽度必须都是正整数。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} area\n * @return {number[]}\n */\nvar constructRectangle = function(area) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} area\n * @return {number[]}\n */\nvar constructRectangle = function(area) {\n    \n};",
+        "py": "class Solution:\n    def constructRectangle(self, area: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0493",
     "titleSlug": "reverse-pairs",
@@ -10266,7 +11481,10 @@ let data = [{
         "  - 输入数组中的所有数字都在32位整数的表示范围内。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar reversePairs = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar reversePairs = function(nums) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def reversePairs(self, nums: List[int]) -> int:"
+    }
 }, {
     "questionId": "0494",
     "titleSlug": "target-sum",
@@ -10294,7 +11512,10 @@ let data = [{
         "  - 保证返回的最终结果为32位整数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} S\n * @return {number}\n */\nvar findTargetSumWays = function(nums, S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} S\n * @return {number}\n */\nvar findTargetSumWays = function(nums, S) {\n    \n};",
+        "py": "class Solution:\n    def findTargetSumWays(self, nums: List[int], S: int) -> int:\n        "
+    }
 }, {
     "questionId": "0495",
     "titleSlug": "teemo-attacking",
@@ -10323,7 +11544,10 @@ let data = [{
         "  - 你可以假定提莫攻击时间序列中的数字和提莫攻击的中毒持续时间都是非负整数，并且不超过 10,000,000。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} timeSeries\n * @param {number} duration\n * @return {number}\n */\nvar findPoisonedDuration = function(timeSeries, duration) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} timeSeries\n * @param {number} duration\n * @return {number}\n */\nvar findPoisonedDuration = function(timeSeries, duration) {\n    \n};",
+        "py": "class Solution:\n    def findPoisonedDuration(self, timeSeries: List[int], duration: int) -> int:\n        "
+    }
 }, {
     "questionId": "0496",
     "titleSlug": "next-greater-element-i",
@@ -10352,7 +11576,10 @@ let data = [{
         "  - nums1和nums2 的数组大小都不超过1000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number[]}\n */\nvar nextGreaterElement = function(nums1, nums2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number[]}\n */\nvar nextGreaterElement = function(nums1, nums2) {\n    \n};",
+        "py": "class Solution:\n    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0497",
     "titleSlug": "random-point-in-non-overlapping-rectangles",
@@ -10386,7 +11613,10 @@ let data = [{
         "输入是两个列表：调用的子例程及其参数。Solution 的构造函数有一个参数，即矩形数组 rects。pick 没有参数。参数总是用列表包装的，即使没有也是如此。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} rects\n */\nvar Solution = function(rects) {\n    \n};\n\n/**\n * @return {number[]}\n */\nSolution.prototype.pick = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = Object.create(Solution).createNew(rects)\n * var param_1 = obj.pick()\n */"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} rects\r\n */\r\nvar Solution = function(rects) {\r\n    \r\n};\r\n\r\n/**\r\n * @return {number[]}\r\n */\r\nSolution.prototype.pick = function() {\r\n    \r\n};\r\n\r\n/** \r\n * Your Solution object will be instantiated and called as such:\r\n * var obj = new Solution(rects)\r\n * var param_1 = obj.pick()\r\n */",
+        "py": "class Solution:\r\n\r\n    def __init__(self, rects: List[List[int]]):\r\n        \r\n\r\n    def pick(self) -> List[int]:\r\n        \r\n\r\n\r\n# Your Solution object will be instantiated and called as such:\r\n# obj = Solution(rects)\r\n# param_1 = obj.pick()"
+    }
 }, {
     "questionId": "0498",
     "titleSlug": "diagonal-traverse",
@@ -10411,7 +11641,10 @@ let data = [{
         "  - 给定矩阵中的元素总数不会超过 100000 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @return {number[]}\n */\nvar findDiagonalOrder = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @return {number[]}\n */\nvar findDiagonalOrder = function(matrix) {\n    \n};",
+        "py": "class Solution:\n    def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0500",
     "titleSlug": "keyboard-row",
@@ -10430,7 +11663,10 @@ let data = [{
         "  - 你可以假设输入的字符串将只包含字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @return {string[]}\n */\nvar findWords = function(words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n * @return {string[]}\n */\nvar findWords = function(words) {\n    \n};",
+        "py": "class Solution:\n    def findWords(self, words: List[str]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0501",
     "titleSlug": "find-mode-in-binary-search-tree",
@@ -10456,7 +11692,10 @@ let data = [{
         "进阶：你可以不使用额外的空间吗？（假设由递归产生的隐式调用栈的开销不被计算在内）"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar findMode = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar findMode = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def findMode(self, root: TreeNode) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0502",
     "titleSlug": "ipo",
@@ -10484,7 +11723,10 @@ let data = [{
         "  - 答案保证在 32 位有符号整数范围内。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} k\n * @param {number} W\n * @param {number[]} Profits\n * @param {number[]} Capital\n * @return {number}\n */\nvar findMaximizedCapital = function(k, W, Profits, Capital) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} k\n * @param {number} W\n * @param {number[]} Profits\n * @param {number[]} Capital\n * @return {number}\n */\nvar findMaximizedCapital = function(k, W, Profits, Capital) {\n    \n};",
+        "py": "class Solution:\n    def findMaximizedCapital(self, k: int, W: int, Profits: List[int], Capital: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0503",
     "titleSlug": "next-greater-element-ii",
@@ -10502,7 +11744,10 @@ let data = [{
         "注意: 输入数组的长度不会超过 10000。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar nextGreaterElements = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar nextGreaterElements = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def nextGreaterElements(self, nums: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0504",
     "titleSlug": "base-7",
@@ -10521,7 +11766,10 @@ let data = [{
         "注意: 输入范围是 [-1e7, 1e7] 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {string}\n */\nvar convertToBase7 = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {string}\n */\nvar convertToBase7 = function(num) {\n    \n};",
+        "py": "class Solution:\n    def convertToBase7(self, num: int) -> str:\n        "
+    }
 }, {
     "questionId": "0506",
     "titleSlug": "relative-ranks",
@@ -10540,7 +11788,10 @@ let data = [{
         "  - 所有运动员的成绩都不相同。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {string[]}\n */\nvar findRelativeRanks = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {string[]}\n */\nvar findRelativeRanks = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findRelativeRanks(self, nums: List[int]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0507",
     "titleSlug": "perfect-number",
@@ -10558,7 +11809,10 @@ let data = [{
         "输入的数字 n 不会超过 100,000,000. (1e8)"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {boolean}\n */\nvar checkPerfectNumber = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {boolean}\n */\nvar checkPerfectNumber = function(num) {\n    \n};",
+        "py": "class Solution:\n    def checkPerfectNumber(self, num: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0508",
     "titleSlug": "most-frequent-subtree-sum",
@@ -10585,7 +11839,10 @@ let data = [{
         "提示： 假设任意子树元素和均可以用 32 位有符号整数表示。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar findFrequentTreeSum = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar findFrequentTreeSum = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def findFrequentTreeSum(self, root: TreeNode) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0509",
     "titleSlug": "fibonacci-number",
@@ -10616,7 +11873,10 @@ let data = [{
         "  - 0 ≤ N ≤ 30"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar fib = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar fib = function(N) {\n    \n};",
+        "py": "class Solution:\n    def fib(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0513",
     "titleSlug": "find-bottom-left-tree-value",
@@ -10651,7 +11911,10 @@ let data = [{
         "注意: 您可以假设树（即给定的根节点）不为 NULL。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar findBottomLeftValue = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar findBottomLeftValue = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def findBottomLeftValue(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0514",
     "titleSlug": "freedom-trail",
@@ -10681,7 +11944,10 @@ let data = [{
         "  - 字符串 key 一定可以由字符串 ring 旋转拼出。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} ring\n * @param {string} key\n * @return {number}\n */\nvar findRotateSteps = function(ring, key) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} ring\n * @param {string} key\n * @return {number}\n */\nvar findRotateSteps = function(ring, key) {\n    \n};",
+        "py": "class Solution:\n    def findRotateSteps(self, ring: str, key: str) -> int:\n        "
+    }
 }, {
     "questionId": "0515",
     "titleSlug": "find-largest-value-in-each-tree-row",
@@ -10701,7 +11967,10 @@ let data = [{
         "输出: [1, 3, 9]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar largestValues = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar largestValues = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def largestValues(self, root: TreeNode) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0516",
     "titleSlug": "longest-palindromic-subsequence",
@@ -10726,7 +11995,10 @@ let data = [{
         "一个可能的最长回文子序列为 \"bb\"。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar longestPalindromeSubseq = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar longestPalindromeSubseq = function(s) {\n    \n};",
+        "py": "class Solution:\n    def longestPalindromeSubseq(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0517",
     "titleSlug": "super-washing-machines",
@@ -10768,7 +12040,10 @@ let data = [{
         "  - 在每台超级洗衣机中，衣物数量的范围是 [0, 1e5]。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} machines\n * @return {number}\n */\nvar findMinMoves = function(machines) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} machines\n * @return {number}\n */\nvar findMinMoves = function(machines) {\n    \n};",
+        "py": "class Solution:\n    def findMinMoves(self, machines: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0518",
     "titleSlug": "coin-change-2",
@@ -10802,7 +12077,10 @@ let data = [{
         "  - 结果符合 32 位符号整数"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} amount\n * @param {number[]} coins\n * @return {number}\n */\nvar change = function(amount, coins) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} amount\n * @param {number[]} coins\n * @return {number}\n */\nvar change = function(amount, coins) {\n    \n};",
+        "py": "class Solution:\n    def change(self, amount: int, coins: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0519",
     "titleSlug": "random-flip-matrix",
@@ -10831,7 +12109,10 @@ let data = [{
         "输入包含两个列表：被调用的子程序和他们的参数。Solution 的构造函数有两个参数，分别为 n_rows 和 n_cols。flip 和 reset 没有参数，参数总会以列表形式给出，哪怕该列表为空"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n_rows\n * @param {number} n_cols\n */\nvar Solution = function(n_rows, n_cols) {\n    \n};\n\n/**\n * @return {number[]}\n */\nSolution.prototype.flip = function() {\n    \n};\n\n/**\n * @return {void}\n */\nSolution.prototype.reset = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = Object.create(Solution).createNew(n_rows, n_cols)\n * var param_1 = obj.flip()\n * obj.reset()\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n_rows\n * @param {number} n_cols\n */\nvar Solution = function(n_rows, n_cols) {\n    \n};\n\n/**\n * @return {number[]}\n */\nSolution.prototype.flip = function() {\n    \n};\n\n/**\n * @return {void}\n */\nSolution.prototype.reset = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(n_rows, n_cols)\n * var param_1 = obj.flip()\n * obj.reset()\n */",
+        "py": "class Solution:\n\n    def __init__(self, n_rows: int, n_cols: int):\n        \n\n    def flip(self) -> List[int]:\n        \n\n    def reset(self) -> None:\n        \n\n\n# Your Solution object will be instantiated and called as such:\n# obj = Solution(n_rows, n_cols)\n# param_1 = obj.flip()\n# obj.reset()"
+    }
 }, {
     "questionId": "0520",
     "titleSlug": "detect-capital",
@@ -10856,7 +12137,10 @@ let data = [{
         "注意: 输入是由大写和小写拉丁字母组成的非空单词。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} word\n * @return {boolean}\n */\nvar detectCapitalUse = function(word) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} word\r\n * @return {boolean}\r\n */\r\nvar detectCapitalUse = function(word) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def detectCapitalUse(self, word: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0521",
     "titleSlug": "longest-uncommon-subsequence-i",
@@ -10876,7 +12160,10 @@ let data = [{
         "  - 字符串中的字符仅含有 'a'~'z'。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} a\n * @param {string} b\n * @return {number}\n */\nvar findLUSlength = function(a, b) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} a\n * @param {string} b\n * @return {number}\n */\nvar findLUSlength = function(a, b) {\n    \n};",
+        "py": "class Solution:\n    def findLUSlength(self, a: str, b: str) -> int:\n        "
+    }
 }, {
     "questionId": "0522",
     "titleSlug": "longest-uncommon-subsequence-ii",
@@ -10895,7 +12182,10 @@ let data = [{
         "  - 给定字符串列表的长度将在 [2, 50 ] 之间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} strs\n * @return {number}\n */\nvar findLUSlength = function(strs) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} strs\n * @return {number}\n */\nvar findLUSlength = function(strs) {\n    \n};",
+        "py": "class Solution:\n    def findLUSlength(self, strs: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0523",
     "titleSlug": "continuous-subarray-sum",
@@ -10918,7 +12208,10 @@ let data = [{
         "  - 你可以认为所有数字总和在 32 位有符号整数范围内。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {boolean}\n */\nvar checkSubarraySum = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {boolean}\n */\nvar checkSubarraySum = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def checkSubarraySum(self, nums: List[int], k: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0524",
     "titleSlug": "longest-word-in-dictionary-through-deleting",
@@ -10946,7 +12239,10 @@ let data = [{
         "  - 所有输入的字符串长度不会超过 1000。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {string[]} d\n * @return {string}\n */\nvar findLongestWord = function(s, d) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {string[]} d\n * @return {string}\n */\nvar findLongestWord = function(s, d) {\n    \n};",
+        "py": "class Solution:\n    def findLongestWord(self, s: str, d: List[str]) -> str:\n        "
+    }
 }, {
     "questionId": "0525",
     "titleSlug": "contiguous-array",
@@ -10969,7 +12265,10 @@ let data = [{
         "注意: 给定的二进制数组的长度不会超过50000。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMaxLength = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMaxLength = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findMaxLength(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0526",
     "titleSlug": "beautiful-arrangement",
@@ -10998,7 +12297,10 @@ let data = [{
         "  - N 是一个正整数，并且不会超过15。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar countArrangement = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar countArrangement = function(N) {\n    \n};",
+        "py": "class Solution:\n    def countArrangement(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0528",
     "titleSlug": "random-pick-with-weight",
@@ -11026,7 +12328,10 @@ let data = [{
         "输入是两个列表：调用成员函数名和调用的参数。Solution 的构造函数有一个参数，即数组 w。pickIndex 没有参数。输入参数是一个列表，即使参数为空，也会输入一个 [] 空列表。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} w\n */\nvar Solution = function(w) {\n    \n};\n\n/**\n * @return {number}\n */\nSolution.prototype.pickIndex = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = Object.create(Solution).createNew(w)\n * var param_1 = obj.pickIndex()\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} w\n */\nvar Solution = function(w) {\n    \n};\n\n/**\n * @return {number}\n */\nSolution.prototype.pickIndex = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(w)\n * var param_1 = obj.pickIndex()\n */",
+        "py": "class Solution:\n\n    def __init__(self, w: List[int]):\n        \n\n    def pickIndex(self) -> int:\n        \n\n\n# Your Solution object will be instantiated and called as such:\n# obj = Solution(w)\n# param_1 = obj.pickIndex()"
+    }
 }, {
     "questionId": "0529",
     "titleSlug": "minesweeper",
@@ -11087,7 +12392,10 @@ let data = [{
         "  - 简单起见，未提及的规则在这个问题中可被忽略。例如，当游戏结束时你不需要挖出所有地雷，考虑所有你可能赢得游戏或标记方块的情况。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {character[][]} board\n * @param {number[]} click\n * @return {character[][]}\n */\nvar updateBoard = function(board, click) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[][]} board\n * @param {number[]} click\n * @return {character[][]}\n */\nvar updateBoard = function(board, click) {\n    \n};",
+        "py": "class Solution:\n    def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:\n        "
+    }
 }, {
     "questionId": "0530",
     "titleSlug": "minimum-absolute-difference-in-bst",
@@ -11113,7 +12421,10 @@ let data = [{
         "注意: 树中至少有2个节点。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar getMinimumDifference = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar getMinimumDifference = function(root) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def getMinimumDifference(self, root: TreeNode) -> int:"
+    }
 }, {
     "questionId": "0532",
     "titleSlug": "k-diff-pairs-in-an-array",
@@ -11143,7 +12454,10 @@ let data = [{
         "  - 所有输入的整数的范围在 [-1e7, 1e7]。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar findPairs = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar findPairs = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def findPairs(self, nums: List[int], k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0535",
     "titleSlug": "encode-and-decode-tinyurl",
@@ -11153,7 +12467,10 @@ let data = [{
         "要求：设计一个 TinyURL 的加密 encode 和解密 decode 的方法。你的加密和解密算法如何设计和运作是没有限制的，你只需要保证一个URL可以被加密成一个TinyURL，并且这个TinyURL可以用解密方法恢复成原本的URL。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Encodes a URL to a shortened URL.\n *\n * @param {string} longUrl\n * @return {string}\n */\nvar encode = function(longUrl) {\n    \n};\n\n/**\n * Decodes a shortened URL to its original URL.\n *\n * @param {string} shortUrl\n * @return {string}\n */\nvar decode = function(shortUrl) {\n    \n};\n\n/**\n * Your functions will be called as such:\n * decode(encode(url));\n */"
+    "codeSnippets": {
+        "js": "/**\r\n * Encodes a URL to a shortened URL.\r\n *\r\n * @param {string} longUrl\r\n * @return {string}\r\n */\r\nvar encode = function(longUrl) {\r\n    \r\n};\r\n\r\n/**\r\n * Decodes a shortened URL to its original URL.\r\n *\r\n * @param {string} shortUrl\r\n * @return {string}\r\n */\r\nvar decode = function(shortUrl) {\r\n    \r\n};\r\n\r\n/**\r\n * Your functions will be called as such:\r\n * decode(encode(url));\r\n */",
+        "py": "#Python 2\n\nclass Codec:\r\n\r\n    def encode(self, longUrl):\r\n        \"\"\"Encodes a URL to a shortened URL.\r\n        \r\n        :type longUrl: str\r\n        :rtype: str\r\n        \"\"\"\r\n        \r\n\r\n    def decode(self, shortUrl):\r\n        \"\"\"Decodes a shortened URL to its original URL.\r\n        \r\n        :type shortUrl: str\r\n        :rtype: str\r\n        \"\"\"\r\n        \r\n\r\n# Your Codec object will be instantiated and called as such:\r\n# codec = Codec()\r\n# codec.decode(codec.encode(url))"
+    }
 }, {
     "questionId": "0537",
     "titleSlug": "complex-number-multiplication",
@@ -11177,7 +12494,10 @@ let data = [{
         "  - 输入字符串将以 a+bi 的形式给出，其中整数 a 和 b 的范围均在 [-100, 100] 之间。输出也应当符合这种形式。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} a\n * @param {string} b\n * @return {string}\n */\nvar complexNumberMultiply = function(a, b) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} a\n * @param {string} b\n * @return {string}\n */\nvar complexNumberMultiply = function(a, b) {\n    \n};",
+        "py": "class Solution:\n    def complexNumberMultiply(self, a: str, b: str) -> str:\n        "
+    }
 }, {
     "questionId": "0538",
     "titleSlug": "convert-bst-to-greater-tree",
@@ -11197,7 +12517,10 @@ let data = [{
         "          20     13"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar convertBST = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar convertBST = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def convertBST(self, root: TreeNode) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0539",
     "titleSlug": "minimum-time-difference",
@@ -11214,7 +12537,10 @@ let data = [{
         "  - 每个时间取值在 00:00~23:59 之间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} timePoints\n * @return {number}\n */\nvar findMinDifference = function(timePoints) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} timePoints\n * @return {number}\n */\nvar findMinDifference = function(timePoints) {\n    \n};",
+        "py": "class Solution:\n    def findMinDifference(self, timePoints: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0540",
     "titleSlug": "single-element-in-a-sorted-array",
@@ -11233,7 +12559,10 @@ let data = [{
         "注意: 您的方案应该在 O(log n)时间复杂度和 O(1)空间复杂度中运行。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar singleNonDuplicate = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar singleNonDuplicate = function(nums) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def singleNonDuplicate(self, nums: List[int]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0541",
     "titleSlug": "reverse-string-ii",
@@ -11249,7 +12578,10 @@ let data = [{
         "  - 给定字符串的长度和 k 在[1, 10000]范围内。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @param {number} k\n * @return {string}\n */\nvar reverseStr = function(s, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @param {number} k\n * @return {string}\n */\nvar reverseStr = function(s, k) {\n    \n};",
+        "py": "class Solution:\n    def reverseStr(self, s: str, k: int) -> str:\n        "
+    }
 }, {
     "questionId": "0542",
     "titleSlug": "01-matrix",
@@ -11286,7 +12618,10 @@ let data = [{
         "  - 矩阵中的元素只在四个方向上相邻: 上、下、左、右。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @return {number[][]}\n */\nvar updateMatrix = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} matrix\r\n * @return {number[][]}\r\n */\r\nvar updateMatrix = function(matrix) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def updateMatrix(self, matrix: List[List[int]]) -> List[List[int]]:\r\n        "
+    }
 }, {
     "questionId": "0543",
     "titleSlug": "diameter-of-binary-tree",
@@ -11307,7 +12642,10 @@ let data = [{
         "注意：两结点之间的路径长度是以它们之间边的数目表示。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar diameterOfBinaryTree = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar diameterOfBinaryTree = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def diameterOfBinaryTree(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0546",
     "titleSlug": "remove-boxes",
@@ -11334,7 +12672,10 @@ let data = [{
         "提示：盒子的总数 n 不会超过 100。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} boxes\n * @return {number}\n */\nvar removeBoxes = function(boxes) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} boxes\n * @return {number}\n */\nvar removeBoxes = function(boxes) {\n    \n};",
+        "py": "class Solution:\n    def removeBoxes(self, boxes: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0547",
     "titleSlug": "friend-circles",
@@ -11368,7 +12709,10 @@ let data = [{
         "  - 如果有M[i][j] = 1，则有M[j][i] = 1。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} M\n * @return {number}\n */\nvar findCircleNum = function(M) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} M\n * @return {number}\n */\nvar findCircleNum = function(M) {\n    \n};",
+        "py": "class Solution:\n    def findCircleNum(self, M: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0551",
     "titleSlug": "student-attendance-record-i",
@@ -11391,7 +12735,10 @@ let data = [{
         "输出: False"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar checkRecord = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar checkRecord = function(s) {\n    \n};",
+        "py": "class Solution:\n    def checkRecord(self, s: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0552",
     "titleSlug": "student-attendance-record-ii",
@@ -11416,7 +12763,10 @@ let data = [{
         "注意：n 的值不会超过100000。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar checkRecord = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar checkRecord = function(n) {\n    \n};",
+        "py": "class Solution:\n    def checkRecord(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0553",
     "titleSlug": "optimal-division",
@@ -11445,7 +12795,10 @@ let data = [{
         "  - 每个测试用例只有一个最优除法解。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {string}\n */\nvar optimalDivision = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {string}\n */\nvar optimalDivision = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def optimalDivision(self, nums: List[int]) -> str:\n        "
+    }
 }, {
     "questionId": "0554",
     "titleSlug": "brick-wall",
@@ -11474,7 +12827,10 @@ let data = [{
         "  - 每一行砖块的数量在 [1,10,000] 范围内， 墙的高度在 [1,10,000] 范围内， 总的砖块数量不超过 20,000。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} wall\n * @return {number}\n */\nvar leastBricks = function(wall) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} wall\n * @return {number}\n */\nvar leastBricks = function(wall) {\n    \n};",
+        "py": "class Solution:\n    def leastBricks(self, wall: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0556",
     "titleSlug": "next-greater-element-iii",
@@ -11491,7 +12847,10 @@ let data = [{
         "输出: -1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar nextGreaterElement = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar nextGreaterElement = function(n) {\n    \n};",
+        "py": "class Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0557",
     "titleSlug": "reverse-words-in-a-string-iii",
@@ -11506,7 +12865,10 @@ let data = [{
         "注意：在字符串中，每个单词由单个空格分隔，并且字符串中不会有任何额外的空格。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {string}\n */\nvar reverseWords = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string}\n */\nvar reverseWords = function(s) {\n    \n};",
+        "py": "class Solution:\n    def reverseWords(self, s: str) -> str:\n        "
+    }
 }, {
     "questionId": "0558",
     "titleSlug": "quad-tree-intersection",
@@ -11569,7 +12931,10 @@ let data = [{
         "  - 逻辑或的定义如下：如果 A 为 True ，或者 B 为 True ，或者 A 和 B 都为 True，则 \"A 或 B\" 为 True。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * // Definition for a QuadTree node.\n * function Node(val,isLeaf,topLeft,topRight,bottomLeft,bottomRight) {\n *    this.val = val;\n *    this.isLeaf = isLeaf;\n *    this.topLeft = topLeft;\n *    this.topRight = topRight;\n *    this.bottomLeft = bottomLeft;\n *    this.bottomRight = bottomRight;\n * };\n */\n/**\n * @param {Node} quadTree1\n * @param {Node} quadTree2\n * @return {Node}\n */\nvar intersect = function(quadTree1, quadTree2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // Definition for a QuadTree node.\n * function Node(val,isLeaf,topLeft,topRight,bottomLeft,bottomRight) {\n *    this.val = val;\n *    this.isLeaf = isLeaf;\n *    this.topLeft = topLeft;\n *    this.topRight = topRight;\n *    this.bottomLeft = bottomLeft;\n *    this.bottomRight = bottomRight;\n * };\n */\n/**\n * @param {Node} quadTree1\n * @param {Node} quadTree2\n * @return {Node}\n */\nvar intersect = function(quadTree1, quadTree2) {\n    \n};",
+        "py": "\"\"\"\n# Definition for a QuadTree node.\nclass Node:\n    def __init__(self, val, isLeaf, topLeft, topRight, bottomLeft, bottomRight):\n        self.val = val\n        self.isLeaf = isLeaf\n        self.topLeft = topLeft\n        self.topRight = topRight\n        self.bottomLeft = bottomLeft\n        self.bottomRight = bottomRight\n\"\"\"\nclass Solution:\n    def intersect(self, quadTree1: 'Node', quadTree2: 'Node') -> 'Node':\n        "
+    }
 }, {
     "questionId": "0559",
     "titleSlug": "maximum-depth-of-n-ary-tree",
@@ -11589,7 +12954,10 @@ let data = [{
         "  - 树的节点总不会超过 5000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number}\n */\nvar maxDepth = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number}\n */\nvar maxDepth = function(root) {\n    \n};",
+        "py": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val, children):\n        self.val = val\n        self.children = children\n\"\"\"\nclass Solution:\n    def maxDepth(self, root: 'Node') -> int:\n        "
+    }
 }, {
     "questionId": "0560",
     "titleSlug": "subarray-sum-equals-k",
@@ -11606,7 +12974,10 @@ let data = [{
         "  - 数组中元素的范围是 [-1000, 1000] ，且整数 k 的范围是 [-1e7, 1e7]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar subarraySum = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar subarraySum = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def subarraySum(self, nums: List[int], k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0561",
     "titleSlug": "array-partition-i",
@@ -11625,7 +12996,10 @@ let data = [{
         "  - 数组中的元素范围在 [-10000, 10000]."
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar arrayPairSum = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar arrayPairSum = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def arrayPairSum(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0563",
     "titleSlug": "binary-tree-tilt",
@@ -11652,7 +13026,10 @@ let data = [{
         "  - 坡度的值不会超过32位整数的范围。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar findTilt = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar findTilt = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def findTilt(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0564",
     "titleSlug": "find-the-closest-palindrome",
@@ -11670,7 +13047,10 @@ let data = [{
         "  - 如果有多个结果，返回最小的那个。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} n\n * @return {string}\n */\nvar nearestPalindromic = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} n\n * @return {string}\n */\nvar nearestPalindromic = function(n) {\n    \n};",
+        "py": "class Solution:\n    def nearestPalindromic(self, n: str) -> str:\n        "
+    }
 }, {
     "questionId": "0565",
     "titleSlug": "array-nesting",
@@ -11694,7 +13074,10 @@ let data = [{
         "  - A中的元素大小在[0, N-1]之间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar arrayNesting = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar arrayNesting = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def arrayNesting(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0566",
     "titleSlug": "reshape-the-matrix",
@@ -11733,7 +13116,10 @@ let data = [{
         "  - 给定的 r 和 c 都是正数。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} nums\n * @param {number} r\n * @param {number} c\n * @return {number[][]}\n */\nvar matrixReshape = function(nums, r, c) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} nums\n * @param {number} r\n * @param {number} c\n * @return {number[][]}\n */\nvar matrixReshape = function(nums, r, c) {\n    \n};",
+        "py": "class Solution:\n    def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0567",
     "titleSlug": "permutation-in-string",
@@ -11756,7 +13142,10 @@ let data = [{
         "  - 两个字符串的长度都在 [1, 10,000] 之间"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s1\n * @param {string} s2\n * @return {boolean}\n */\nvar checkInclusion = function(s1, s2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} s1\r\n * @param {string} s2\r\n * @return {boolean}\r\n */\r\nvar checkInclusion = function(s1, s2) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def checkInclusion(self, s1: str, s2: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0572",
     "titleSlug": "subtree-of-another-tree",
@@ -11797,7 +13186,10 @@ let data = [{
         "返回 false。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} s\n * @param {TreeNode} t\n * @return {boolean}\n */\nvar isSubtree = function(s, t) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} s\n * @param {TreeNode} t\n * @return {boolean}\n */\nvar isSubtree = function(s, t) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:\n        "
+    }
 }, {
     "questionId": "0575",
     "titleSlug": "distribute-candies",
@@ -11821,7 +13213,10 @@ let data = [{
         "  - 数组中数字的大小在范围[-100,000, 100,000]内。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} candies\n * @return {number}\n */\nvar distributeCandies = function(candies) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} candies\n * @return {number}\n */\nvar distributeCandies = function(candies) {\n    \n};",
+        "py": "class Solution:\n    def distributeCandies(self, candies: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0576",
     "titleSlug": "out-of-boundary-paths",
@@ -11847,7 +13242,10 @@ let data = [{
         "  - N 在 [0,50] 的范围内。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} m\n * @param {number} n\n * @param {number} N\n * @param {number} i\n * @param {number} j\n * @return {number}\n */\nvar findPaths = function(m, n, N, i, j) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} m\n * @param {number} n\n * @param {number} N\n * @param {number} i\n * @param {number} j\n * @return {number}\n */\nvar findPaths = function(m, n, N, i, j) {\n    \n};",
+        "py": "class Solution:\n    def findPaths(self, m: int, n: int, N: int, i: int, j: int) -> int:\n        "
+    }
 }, {
     "questionId": "0581",
     "titleSlug": "shortest-unsorted-continuous-subarray",
@@ -11866,7 +13264,10 @@ let data = [{
         "  - 输入的数组可能包含重复元素 ，所以升序的意思是<=。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findUnsortedSubarray = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findUnsortedSubarray = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findUnsortedSubarray(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0583",
     "titleSlug": "delete-operation-for-two-strings",
@@ -11884,7 +13285,10 @@ let data = [{
         "  - 给定单词中的字符只含有小写字母。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {number}\n */\nvar minDistance = function(word1, word2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {number}\n */\nvar minDistance = function(word1, word2) {\n    \n};",
+        "py": "class Solution:\n    def minDistance(self, word1: str, word2: str) -> int:\n        "
+    }
 }, {
     "questionId": "0587",
     "titleSlug": "erect-the-fence",
@@ -11913,7 +13317,10 @@ let data = [{
         "  - 输入的点没有顺序。输出顺序也没有要求。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for a point.\n * function Point(x, y) {\n *     this.x = x;\n *     this.y = y;\n * }\n */\n/**\n * @param {Point[]} points\n * @return {Point[]}\n */\nvar outerTrees = function(points) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} points\r\n * @return {number[][]}\r\n */\r\nvar outerTrees = function(points) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def outerTrees(self, points: List[List[int]]) -> List[List[int]]:\r\n        "
+    }
 }, {
     "questionId": "0589",
     "titleSlug": "n-ary-tree-preorder-traversal",
@@ -11930,7 +13337,10 @@ let data = [{
         "说明: 递归法很简单，你可以使用迭代法完成此题吗?"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number[]}\n */\nvar preorder = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number[]}\n */\nvar preorder = function(root) {\n    \n};",
+        "py": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val, children):\n        self.val = val\n        self.children = children\n\"\"\"\nclass Solution:\n    def preorder(self, root: 'Node') -> List[int]:\n        "
+    }
 }, {
     "questionId": "0590",
     "titleSlug": "n-ary-tree-postorder-traversal",
@@ -11947,7 +13357,10 @@ let data = [{
         "说明: 递归法很简单，你可以使用迭代法完成此题吗?"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number[]}\n */\nvar postorder = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * // Definition for a Node.\n * function Node(val,children) {\n *    this.val = val;\n *    this.children = children;\n * };\n */\n/**\n * @param {Node} root\n * @return {number[]}\n */\nvar postorder = function(root) {\n    \n};",
+        "py": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val, children):\n        self.val = val\n        self.children = children\n\"\"\"\nclass Solution:\n    def postorder(self, root: 'Node') -> List[int]:\n        "
+    }
 }, {
     "questionId": "0591",
     "titleSlug": "tag-validator",
@@ -12018,7 +13431,10 @@ let data = [{
         "  - 为简明起见，你可以假设输入的代码（包括提到的任意字符）只包含数字, 字母, '<','>','/','!','[',']'和' '。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} code\n * @return {boolean}\n */\nvar isValid = function(code) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} code\n * @return {boolean}\n */\nvar isValid = function(code) {\n    \n};",
+        "py": "class Solution:\n    def isValid(self, code: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0592",
     "titleSlug": "fraction-addition-and-subtraction",
@@ -12050,7 +13466,10 @@ let data = [{
         "  - 最终结果的分子与分母保证是 32 位整数范围内的有效整数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} expression\n * @return {string}\n */\nvar fractionAddition = function(expression) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} expression\n * @return {string}\n */\nvar fractionAddition = function(expression) {\n    \n};",
+        "py": "class Solution:\n    def fractionAddition(self, expression: str) -> str:\n        "
+    }
 }, {
     "questionId": "0593",
     "titleSlug": "valid-square",
@@ -12069,7 +13488,10 @@ let data = [{
         "  - 输入点没有顺序。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} p1\n * @param {number[]} p2\n * @param {number[]} p3\n * @param {number[]} p4\n * @return {boolean}\n */\nvar validSquare = function(p1, p2, p3, p4) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} p1\r\n * @param {number[]} p2\r\n * @param {number[]} p3\r\n * @param {number[]} p4\r\n * @return {boolean}\r\n */\r\nvar validSquare = function(p1, p2, p3, p4) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def validSquare(self, p1: List[int], p2: List[int], p3: List[int], p4: List[int]) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0594",
     "titleSlug": "longest-harmonious-subsequence",
@@ -12086,7 +13508,10 @@ let data = [{
         "说明: 输入的数组长度最大不超过20,000."
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findLHS = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findLHS = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findLHS(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0595",
     "titleSlug": "big-countries",
@@ -12115,7 +13540,10 @@ let data = [{
         "+--------------+-------------+--------------+"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0596",
     "titleSlug": "classes-more-than-5-students",
@@ -12150,7 +13578,10 @@ let data = [{
         "学生在每个课中不应被重复计算。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0598",
     "titleSlug": "range-addition-ii",
@@ -12189,7 +13620,10 @@ let data = [{
         "  - 操作数目不超过 10000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} m\n * @param {number} n\n * @param {number[][]} ops\n * @return {number}\n */\nvar maxCount = function(m, n, ops) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} m\n * @param {number} n\n * @param {number[][]} ops\n * @return {number}\n */\nvar maxCount = function(m, n, ops) {\n    \n};",
+        "py": "class Solution:\n    def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0599",
     "titleSlug": "minimum-index-sum-of-two-lists",
@@ -12219,7 +13653,10 @@ let data = [{
         "  - 两个列表都没有重复的元素。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} list1\n * @param {string[]} list2\n * @return {string[]}\n */\nvar findRestaurant = function(list1, list2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} list1\n * @param {string[]} list2\n * @return {string[]}\n */\nvar findRestaurant = function(list1, list2) {\n    \n};",
+        "py": "class Solution:\n    def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0600",
     "titleSlug": "non-negative-integers-without-consecutive-ones",
@@ -12243,7 +13680,10 @@ let data = [{
         "说明: 1 <= n <= 10^9"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {number}\n */\nvar findIntegers = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {number}\n */\nvar findIntegers = function(num) {\n    \n};",
+        "py": "class Solution:\n    def findIntegers(self, num: int) -> int:\n        "
+    }
 }, {
     "questionId": "0601",
     "titleSlug": "human-traffic-of-stadium",
@@ -12280,7 +13720,10 @@ let data = [{
         "每天只有一行记录，日期随着 id 的增加而增加。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0605",
     "titleSlug": "can-place-flowers",
@@ -12303,7 +13746,10 @@ let data = [{
         "  - n 是非负整数，且不会超过输入数组的大小。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} flowerbed\n * @param {number} n\n * @return {boolean}\n */\nvar canPlaceFlowers = function(flowerbed, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} flowerbed\n * @param {number} n\n * @return {boolean}\n */\nvar canPlaceFlowers = function(flowerbed, n) {\n    \n};",
+        "py": "class Solution:\n    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0606",
     "titleSlug": "construct-string-from-binary-tree",
@@ -12338,7 +13784,10 @@ let data = [{
         "除了我们不能省略第一个对括号来中断输入和输出之间的一对一映射关系。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} t\n * @return {string}\n */\nvar tree2str = function(t) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} t\n * @return {string}\n */\nvar tree2str = function(t) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def tree2str(self, t: TreeNode) -> str:\n        "
+    }
 }, {
     "questionId": "0609",
     "titleSlug": "find-duplicate-file-in-system",
@@ -12372,7 +13821,10 @@ let data = [{
         "  - 如何确保您发现的重复文件不是误报？"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} paths\n * @return {string[][]}\n */\nvar findDuplicate = function(paths) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} paths\n * @return {string[][]}\n */\nvar findDuplicate = function(paths) {\n    \n};",
+        "py": "class Solution:\n    def findDuplicate(self, paths: List[str]) -> List[List[str]]:\n        "
+    }
 }, {
     "questionId": "0611",
     "titleSlug": "valid-triangle-number",
@@ -12394,7 +13846,10 @@ let data = [{
         "  - 数组里整数的范围为 [0, 1000]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar triangleNumber = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar triangleNumber = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def triangleNumber(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0617",
     "titleSlug": "merge-two-binary-trees",
@@ -12422,7 +13877,10 @@ let data = [{
         "注意: 合并必须从两个树的根节点开始。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} t1\n * @param {TreeNode} t2\n * @return {TreeNode}\n */\nvar mergeTrees = function(t1, t2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} t1\n * @param {TreeNode} t2\n * @return {TreeNode}\n */\nvar mergeTrees = function(t1, t2) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0620",
     "titleSlug": "not-boring-movies",
@@ -12451,7 +13909,10 @@ let data = [{
         "+---------+-----------+--------------+-----------+"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0621",
     "titleSlug": "task-scheduler",
@@ -12471,7 +13932,10 @@ let data = [{
         "  - n 的取值范围为 [0, 100]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {character[]} tasks\n * @param {number} n\n * @return {number}\n */\nvar leastInterval = function(tasks, n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[]} tasks\n * @param {number} n\n * @return {number}\n */\nvar leastInterval = function(tasks, n) {\n    \n};",
+        "py": "class Solution:\n    def leastInterval(self, tasks: List[str], n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0622",
     "titleSlug": "design-circular-queue",
@@ -12515,7 +13979,10 @@ let data = [{
         "  - 请不要使用内置的队列库。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Initialize your data structure here. Set the size of the queue to be k.\n * @param {number} k\n */\nvar MyCircularQueue = function(k) {\n    \n};\n\n/**\n * Insert an element into the circular queue. Return true if the operation is successful. \n * @param {number} value\n * @return {boolean}\n */\nMyCircularQueue.prototype.enQueue = function(value) {\n    \n};\n\n/**\n * Delete an element from the circular queue. Return true if the operation is successful.\n * @return {boolean}\n */\nMyCircularQueue.prototype.deQueue = function() {\n    \n};\n\n/**\n * Get the front item from the queue.\n * @return {number}\n */\nMyCircularQueue.prototype.Front = function() {\n    \n};\n\n/**\n * Get the last item from the queue.\n * @return {number}\n */\nMyCircularQueue.prototype.Rear = function() {\n    \n};\n\n/**\n * Checks whether the circular queue is empty or not.\n * @return {boolean}\n */\nMyCircularQueue.prototype.isEmpty = function() {\n    \n};\n\n/**\n * Checks whether the circular queue is full or not.\n * @return {boolean}\n */\nMyCircularQueue.prototype.isFull = function() {\n    \n};\n\n/** \n * Your MyCircularQueue object will be instantiated and called as such:\n * var obj = Object.create(MyCircularQueue).createNew(k)\n * var param_1 = obj.enQueue(value)\n * var param_2 = obj.deQueue()\n * var param_3 = obj.Front()\n * var param_4 = obj.Rear()\n * var param_5 = obj.isEmpty()\n * var param_6 = obj.isFull()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here. Set the size of the queue to be k.\n * @param {number} k\n */\nvar MyCircularQueue = function(k) {\n    \n};\n\n/**\n * Insert an element into the circular queue. Return true if the operation is successful. \n * @param {number} value\n * @return {boolean}\n */\nMyCircularQueue.prototype.enQueue = function(value) {\n    \n};\n\n/**\n * Delete an element from the circular queue. Return true if the operation is successful.\n * @return {boolean}\n */\nMyCircularQueue.prototype.deQueue = function() {\n    \n};\n\n/**\n * Get the front item from the queue.\n * @return {number}\n */\nMyCircularQueue.prototype.Front = function() {\n    \n};\n\n/**\n * Get the last item from the queue.\n * @return {number}\n */\nMyCircularQueue.prototype.Rear = function() {\n    \n};\n\n/**\n * Checks whether the circular queue is empty or not.\n * @return {boolean}\n */\nMyCircularQueue.prototype.isEmpty = function() {\n    \n};\n\n/**\n * Checks whether the circular queue is full or not.\n * @return {boolean}\n */\nMyCircularQueue.prototype.isFull = function() {\n    \n};\n\n/** \n * Your MyCircularQueue object will be instantiated and called as such:\n * var obj = new MyCircularQueue(k)\n * var param_1 = obj.enQueue(value)\n * var param_2 = obj.deQueue()\n * var param_3 = obj.Front()\n * var param_4 = obj.Rear()\n * var param_5 = obj.isEmpty()\n * var param_6 = obj.isFull()\n */",
+        "py": "class MyCircularQueue:\n\n    def __init__(self, k: int):\n        \"\"\"\n        Initialize your data structure here. Set the size of the queue to be k.\n        \"\"\"\n        \n\n    def enQueue(self, value: int) -> bool:\n        \"\"\"\n        Insert an element into the circular queue. Return true if the operation is successful.\n        \"\"\"\n        \n\n    def deQueue(self) -> bool:\n        \"\"\"\n        Delete an element from the circular queue. Return true if the operation is successful.\n        \"\"\"\n        \n\n    def Front(self) -> int:\n        \"\"\"\n        Get the front item from the queue.\n        \"\"\"\n        \n\n    def Rear(self) -> int:\n        \"\"\"\n        Get the last item from the queue.\n        \"\"\"\n        \n\n    def isEmpty(self) -> bool:\n        \"\"\"\n        Checks whether the circular queue is empty or not.\n        \"\"\"\n        \n\n    def isFull(self) -> bool:\n        \"\"\"\n        Checks whether the circular queue is full or not.\n        \"\"\"\n        \n\n\n# Your MyCircularQueue object will be instantiated and called as such:\n# obj = MyCircularQueue(k)\n# param_1 = obj.enQueue(value)\n# param_2 = obj.deQueue()\n# param_3 = obj.Front()\n# param_4 = obj.Rear()\n# param_5 = obj.isEmpty()\n# param_6 = obj.isFull()"
+    }
 }, {
     "questionId": "0623",
     "titleSlug": "add-one-row-to-tree",
@@ -12575,7 +14042,10 @@ let data = [{
         "  - 输入的二叉树至少有一个节点。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} v\n * @param {number} d\n * @return {TreeNode}\n */\nvar addOneRow = function(root, v, d) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} v\n * @param {number} d\n * @return {TreeNode}\n */\nvar addOneRow = function(root, v, d) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def addOneRow(self, root: TreeNode, v: int, d: int) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0626",
     "titleSlug": "exchange-seats",
@@ -12612,7 +14082,10 @@ let data = [{
         "如果学生人数是奇数，则不需要改变最后一个同学的座位。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0627",
     "titleSlug": "swap-salary",
@@ -12638,7 +14111,10 @@ let data = [{
         "| 4  | D    | m   | 500    |"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "N/A"
+    }
 }, {
     "questionId": "0628",
     "titleSlug": "maximum-product-of-three-numbers",
@@ -12659,7 +14135,10 @@ let data = [{
         "  - 输入的数组中任意三个数的乘积不会超出32位有符号整数的范围。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maximumProduct = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maximumProduct = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def maximumProduct(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0629",
     "titleSlug": "k-inverse-pairs-array",
@@ -12685,7 +14164,10 @@ let data = [{
         "  -  n 的范围是 [1, 1000] 并且 k 的范围是 [0, 1000]。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number} k\n * @return {number}\n */\nvar kInversePairs = function(n, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number} k\n * @return {number}\n */\nvar kInversePairs = function(n, k) {\n    \n};",
+        "py": "class Solution:\n    def kInversePairs(self, n: int, k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0630",
     "titleSlug": "course-schedule-iii",
@@ -12709,7 +14191,10 @@ let data = [{
         "  - 你不能同时修两门课程。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} courses\n * @return {number}\n */\nvar scheduleCourse = function(courses) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} courses\n * @return {number}\n */\nvar scheduleCourse = function(courses) {\n    \n};",
+        "py": "class Solution:\n    def scheduleCourse(self, courses: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0632",
     "titleSlug": "smallest-range",
@@ -12733,7 +14218,10 @@ let data = [{
         "  - 对于使用Java的用户，请注意传入类型已修改为List<List<Integer>>。重置代码模板后可以看到这项改动。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} nums\n * @return {number[]}\n */\nvar smallestRange = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} nums\n * @return {number[]}\n */\nvar smallestRange = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def smallestRange(self, nums: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0633",
     "titleSlug": "sum-of-square-numbers",
@@ -12751,7 +14239,10 @@ let data = [{
         "输出: False"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} c\n * @return {boolean}\n */\nvar judgeSquareSum = function(c) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} c\n * @return {boolean}\n */\nvar judgeSquareSum = function(c) {\n    \n};",
+        "py": "class Solution:\n    def judgeSquareSum(self, c: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0636",
     "titleSlug": "exclusive-time-of-functions",
@@ -12786,7 +14277,10 @@ let data = [{
         "  - 1 <= n <= 100"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {string[]} logs\n * @return {number[]}\n */\nvar exclusiveTime = function(n, logs) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} n\r\n * @param {string[]} logs\r\n * @return {number[]}\r\n */\r\nvar exclusiveTime = function(n, logs) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:\r\n        "
+    }
 }, {
     "questionId": "0637",
     "titleSlug": "average-of-levels-in-binary-tree",
@@ -12809,7 +14303,10 @@ let data = [{
         "  - 节点值的范围在32位有符号整数范围内。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar averageOfLevels = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[]}\n */\nvar averageOfLevels = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def averageOfLevels(self, root: TreeNode) -> List[float]:\n        "
+    }
 }, {
     "questionId": "0638",
     "titleSlug": "shopping-offers",
@@ -12845,7 +14342,10 @@ let data = [{
         "  - 你不可以购买超出待购清单的物品，即使更便宜。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} price\n * @param {number[][]} special\n * @param {number[]} needs\n * @return {number}\n */\nvar shoppingOffers = function(price, special, needs) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} price\n * @param {number[][]} special\n * @param {number[]} needs\n * @return {number}\n */\nvar shoppingOffers = function(price, special, needs) {\n    \n};",
+        "py": "class Solution:\n    def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0639",
     "titleSlug": "decode-ways-ii",
@@ -12875,7 +14375,10 @@ let data = [{
         "  - 输入的字符串只会包含字符 '*' 和 数字'0' - '9'。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar numDecodings = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar numDecodings = function(s) {\n    \n};",
+        "py": "class Solution:\n    def numDecodings(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0640",
     "titleSlug": "solve-the-equation",
@@ -12907,7 +14410,10 @@ let data = [{
         "输出: \"No solution\""
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} equation\n * @return {string}\n */\nvar solveEquation = function(equation) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} equation\n * @return {string}\n */\nvar solveEquation = function(equation) {\n    \n};",
+        "py": "class Solution:\n    def solveEquation(self, equation: str) -> str:\n        "
+    }
 }, {
     "questionId": "0641",
     "titleSlug": "design-circular-deque",
@@ -12943,7 +14449,10 @@ let data = [{
         "  - 请不要使用内置的双端队列库。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Initialize your data structure here. Set the size of the deque to be k.\n * @param {number} k\n */\nvar MyCircularDeque = function(k) {\n    \n};\n\n/**\n * Adds an item at the front of Deque. Return true if the operation is successful. \n * @param {number} value\n * @return {boolean}\n */\nMyCircularDeque.prototype.insertFront = function(value) {\n    \n};\n\n/**\n * Adds an item at the rear of Deque. Return true if the operation is successful. \n * @param {number} value\n * @return {boolean}\n */\nMyCircularDeque.prototype.insertLast = function(value) {\n    \n};\n\n/**\n * Deletes an item from the front of Deque. Return true if the operation is successful.\n * @return {boolean}\n */\nMyCircularDeque.prototype.deleteFront = function() {\n    \n};\n\n/**\n * Deletes an item from the rear of Deque. Return true if the operation is successful.\n * @return {boolean}\n */\nMyCircularDeque.prototype.deleteLast = function() {\n    \n};\n\n/**\n * Get the front item from the deque.\n * @return {number}\n */\nMyCircularDeque.prototype.getFront = function() {\n    \n};\n\n/**\n * Get the last item from the deque.\n * @return {number}\n */\nMyCircularDeque.prototype.getRear = function() {\n    \n};\n\n/**\n * Checks whether the circular deque is empty or not.\n * @return {boolean}\n */\nMyCircularDeque.prototype.isEmpty = function() {\n    \n};\n\n/**\n * Checks whether the circular deque is full or not.\n * @return {boolean}\n */\nMyCircularDeque.prototype.isFull = function() {\n    \n};\n\n/** \n * Your MyCircularDeque object will be instantiated and called as such:\n * var obj = Object.create(MyCircularDeque).createNew(k)\n * var param_1 = obj.insertFront(value)\n * var param_2 = obj.insertLast(value)\n * var param_3 = obj.deleteFront()\n * var param_4 = obj.deleteLast()\n * var param_5 = obj.getFront()\n * var param_6 = obj.getRear()\n * var param_7 = obj.isEmpty()\n * var param_8 = obj.isFull()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here. Set the size of the deque to be k.\n * @param {number} k\n */\nvar MyCircularDeque = function(k) {\n    \n};\n\n/**\n * Adds an item at the front of Deque. Return true if the operation is successful. \n * @param {number} value\n * @return {boolean}\n */\nMyCircularDeque.prototype.insertFront = function(value) {\n    \n};\n\n/**\n * Adds an item at the rear of Deque. Return true if the operation is successful. \n * @param {number} value\n * @return {boolean}\n */\nMyCircularDeque.prototype.insertLast = function(value) {\n    \n};\n\n/**\n * Deletes an item from the front of Deque. Return true if the operation is successful.\n * @return {boolean}\n */\nMyCircularDeque.prototype.deleteFront = function() {\n    \n};\n\n/**\n * Deletes an item from the rear of Deque. Return true if the operation is successful.\n * @return {boolean}\n */\nMyCircularDeque.prototype.deleteLast = function() {\n    \n};\n\n/**\n * Get the front item from the deque.\n * @return {number}\n */\nMyCircularDeque.prototype.getFront = function() {\n    \n};\n\n/**\n * Get the last item from the deque.\n * @return {number}\n */\nMyCircularDeque.prototype.getRear = function() {\n    \n};\n\n/**\n * Checks whether the circular deque is empty or not.\n * @return {boolean}\n */\nMyCircularDeque.prototype.isEmpty = function() {\n    \n};\n\n/**\n * Checks whether the circular deque is full or not.\n * @return {boolean}\n */\nMyCircularDeque.prototype.isFull = function() {\n    \n};\n\n/** \n * Your MyCircularDeque object will be instantiated and called as such:\n * var obj = new MyCircularDeque(k)\n * var param_1 = obj.insertFront(value)\n * var param_2 = obj.insertLast(value)\n * var param_3 = obj.deleteFront()\n * var param_4 = obj.deleteLast()\n * var param_5 = obj.getFront()\n * var param_6 = obj.getRear()\n * var param_7 = obj.isEmpty()\n * var param_8 = obj.isFull()\n */",
+        "py": "class MyCircularDeque:\n\n    def __init__(self, k: int):\n        \"\"\"\n        Initialize your data structure here. Set the size of the deque to be k.\n        \"\"\"\n        \n\n    def insertFront(self, value: int) -> bool:\n        \"\"\"\n        Adds an item at the front of Deque. Return true if the operation is successful.\n        \"\"\"\n        \n\n    def insertLast(self, value: int) -> bool:\n        \"\"\"\n        Adds an item at the rear of Deque. Return true if the operation is successful.\n        \"\"\"\n        \n\n    def deleteFront(self) -> bool:\n        \"\"\"\n        Deletes an item from the front of Deque. Return true if the operation is successful.\n        \"\"\"\n        \n\n    def deleteLast(self) -> bool:\n        \"\"\"\n        Deletes an item from the rear of Deque. Return true if the operation is successful.\n        \"\"\"\n        \n\n    def getFront(self) -> int:\n        \"\"\"\n        Get the front item from the deque.\n        \"\"\"\n        \n\n    def getRear(self) -> int:\n        \"\"\"\n        Get the last item from the deque.\n        \"\"\"\n        \n\n    def isEmpty(self) -> bool:\n        \"\"\"\n        Checks whether the circular deque is empty or not.\n        \"\"\"\n        \n\n    def isFull(self) -> bool:\n        \"\"\"\n        Checks whether the circular deque is full or not.\n        \"\"\"\n        \n\n\n# Your MyCircularDeque object will be instantiated and called as such:\n# obj = MyCircularDeque(k)\n# param_1 = obj.insertFront(value)\n# param_2 = obj.insertLast(value)\n# param_3 = obj.deleteFront()\n# param_4 = obj.deleteLast()\n# param_5 = obj.getFront()\n# param_6 = obj.getRear()\n# param_7 = obj.isEmpty()\n# param_8 = obj.isFull()"
+    }
 }, {
     "questionId": "0643",
     "titleSlug": "maximum-average-subarray-i",
@@ -12961,7 +14470,10 @@ let data = [{
         "  - 所给数据范围 [-10,000，10,000]。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar findMaxAverage = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar findMaxAverage = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def findMaxAverage(self, nums: List[int], k: int) -> float:\n        "
+    }
 }, {
     "questionId": "0645",
     "titleSlug": "set-mismatch",
@@ -12979,7 +14491,10 @@ let data = [{
         "  - 给定的数组是无序的。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar findErrorNums = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar findErrorNums = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findErrorNums(self, nums: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0646",
     "titleSlug": "maximum-length-of-pair-chain",
@@ -12998,7 +14513,10 @@ let data = [{
         "  - 给出数对的个数在 [1, 1000] 范围内。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} pairs\n * @return {number}\n */\nvar findLongestChain = function(pairs) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} pairs\n * @return {number}\n */\nvar findLongestChain = function(pairs) {\n    \n};",
+        "py": "class Solution:\n    def findLongestChain(self, pairs: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0647",
     "titleSlug": "palindromic-substrings",
@@ -13022,7 +14540,10 @@ let data = [{
         "  - 输入的字符串长度不会超过1000。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar countSubstrings = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar countSubstrings = function(s) {\n    \n};",
+        "py": "class Solution:\n    def countSubstrings(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0648",
     "titleSlug": "replace-words",
@@ -13044,7 +14565,10 @@ let data = [{
         "  - 1 <= 句中词语长度 <= 1000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} dict\n * @param {string} sentence\n * @return {string}\n */\nvar replaceWords = function(dict, sentence) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} dict\n * @param {string} sentence\n * @return {string}\n */\nvar replaceWords = function(dict, sentence) {\n    \n};",
+        "py": "class Solution:\n    def replaceWords(self, dict: List[str], sentence: str) -> str:\n        "
+    }
 }, {
     "questionId": "0649",
     "titleSlug": "dota2-senate",
@@ -13079,7 +14603,10 @@ let data = [{
         "  - 给定字符串的长度在 [1, 10,000] 之间."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} senate\n * @return {string}\n */\nvar predictPartyVictory = function(senate) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} senate\n * @return {string}\n */\nvar predictPartyVictory = function(senate) {\n    \n};",
+        "py": "class Solution:\n    def predictPartyVictory(self, senate: str) -> str:\n        "
+    }
 }, {
     "questionId": "0650",
     "titleSlug": "2-keys-keyboard",
@@ -13104,7 +14631,10 @@ let data = [{
         "  - n 的取值范围是 [1, 1000] 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {number}\n */\nvar minSteps = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {number}\n */\nvar minSteps = function(n) {\n    \n};",
+        "py": "class Solution:\n    def minSteps(self, n: int) -> int:\n        "
+    }
 }, {
     "questionId": "0652",
     "titleSlug": "find-duplicate-subtrees",
@@ -13133,7 +14663,10 @@ let data = [{
         "因此，你需要以列表的形式返回上述重复子树的根结点。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode[]}\n */\nvar findDuplicateSubtrees = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode[]}\n */\nvar findDuplicateSubtrees = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def findDuplicateSubtrees(self, root: TreeNode) -> List[TreeNode]:\n        "
+    }
 }, {
     "questionId": "0653",
     "titleSlug": "two-sum-iv-input-is-a-bst",
@@ -13165,7 +14698,10 @@ let data = [{
         "输出: False"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} k\n * @return {boolean}\n */\nvar findTarget = function(root, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} k\n * @return {boolean}\n */\nvar findTarget = function(root, k) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def findTarget(self, root: TreeNode, k: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0654",
     "titleSlug": "maximum-binary-tree",
@@ -13193,7 +14729,10 @@ let data = [{
         "  - 给定的数组的大小在 [1, 1000] 之间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} nums\n * @return {TreeNode}\n */\nvar constructMaximumBinaryTree = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} nums\n * @return {TreeNode}\n */\nvar constructMaximumBinaryTree = function(nums) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def constructMaximumBinaryTree(self, nums: List[int]) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0655",
     "titleSlug": "print-binary-tree",
@@ -13245,7 +14784,10 @@ let data = [{
         "注意: 二叉树的高度在范围 [1, 10] 中。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {string[][]}\n */\nvar printTree = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {string[][]}\n */\nvar printTree = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def printTree(self, root: TreeNode) -> List[List[str]]:\n        "
+    }
 }, {
     "questionId": "0657",
     "titleSlug": "robot-return-to-origin",
@@ -13267,7 +14809,10 @@ let data = [{
         "解释：机器人向左移动两次。它最终位于原点的左侧，距原点有两次 “移动” 的距离。我们返回 false，因为它在移动结束时没有返回原点。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} moves\n * @return {boolean}\n */\nvar judgeCircle = function(moves) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} moves\n * @return {boolean}\n */\nvar judgeCircle = function(moves) {\n    \n};",
+        "py": "class Solution:\n    def judgeCircle(self, moves: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0658",
     "titleSlug": "find-k-closest-elements",
@@ -13292,7 +14837,10 @@ let data = [{
         "这个参数 arr 已经被改变为一个整数数组（而不是整数列表）。 请重新加载代码定义以获取最新更改。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} arr\n * @param {number} k\n * @param {number} x\n * @return {number[]}\n */\nvar findClosestElements = function(arr, k, x) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} arr\n * @param {number} k\n * @param {number} x\n * @return {number[]}\n */\nvar findClosestElements = function(arr, k, x) {\n    \n};",
+        "py": "class Solution:\n    def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0659",
     "titleSlug": "split-array-into-consecutive-subsequences",
@@ -13324,7 +14872,10 @@ let data = [{
         "  - 输入的数组长度范围为 [1, 10000]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar isPossible = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar isPossible = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def isPossible(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0661",
     "titleSlug": "image-smoother",
@@ -13351,7 +14902,10 @@ let data = [{
         "  - 矩阵的长和宽的范围均为 [1, 150]。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} M\n * @return {number[][]}\n */\nvar imageSmoother = function(M) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} M\n * @return {number[][]}\n */\nvar imageSmoother = function(M) {\n    \n};",
+        "py": "class Solution:\n    def imageSmoother(self, M: List[List[int]]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0662",
     "titleSlug": "maximum-width-of-binary-tree",
@@ -13412,7 +14966,10 @@ let data = [{
         "注意: 答案在32位有符号整数的表示范围内。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar widthOfBinaryTree = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar widthOfBinaryTree = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def widthOfBinaryTree(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0664",
     "titleSlug": "strange-printer",
@@ -13436,7 +14993,10 @@ let data = [{
         "提示: 输入字符串的长度不会超过 100。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar strangePrinter = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar strangePrinter = function(s) {\n    \n};",
+        "py": "class Solution:\n    def strangePrinter(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0665",
     "titleSlug": "non-decreasing-array",
@@ -13458,7 +15018,10 @@ let data = [{
         "说明:  n 的范围为 [1, 10,000]。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar checkPossibility = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar checkPossibility = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def checkPossibility(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0667",
     "titleSlug": "beautiful-arrangement-ii",
@@ -13482,7 +15045,10 @@ let data = [{
         "  -  n 和 k 满足条件 1 <= k < n <= 10^4."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number} k\n * @return {number[]}\n */\nvar constructArray = function(n, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number} k\n * @return {number[]}\n */\nvar constructArray = function(n, k) {\n    \n};",
+        "py": "class Solution:\n    def constructArray(self, n: int, k: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0668",
     "titleSlug": "kth-smallest-number-in-multiplication-table",
@@ -13516,7 +15082,10 @@ let data = [{
         "  - k 的范围在 [1, m * n] 之间。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} m\n * @param {number} n\n * @param {number} k\n * @return {number}\n */\nvar findKthNumber = function(m, n, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} m\n * @param {number} n\n * @param {number} k\n * @return {number}\n */\nvar findKthNumber = function(m, n, k) {\n    \n};",
+        "py": "class Solution:\n    def findKthNumber(self, m: int, n: int, k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0669",
     "titleSlug": "trim-a-binary-search-tree",
@@ -13559,7 +15128,10 @@ let data = [{
         "1"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} L\n * @param {number} R\n * @return {TreeNode}\n */\nvar trimBST = function(root, L, R) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} L\n * @param {number} R\n * @return {TreeNode}\n */\nvar trimBST = function(root, L, R) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def trimBST(self, root: TreeNode, L: int, R: int) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0670",
     "titleSlug": "maximum-swap",
@@ -13581,7 +15153,10 @@ let data = [{
         "  - 给定数字的范围是 [0, 10^8]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} num\n * @return {number}\n */\nvar maximumSwap = function(num) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} num\n * @return {number}\n */\nvar maximumSwap = function(num) {\n    \n};",
+        "py": "class Solution:\n    def maximumSwap(self, num: int) -> int:\n        "
+    }
 }, {
     "questionId": "0671",
     "titleSlug": "second-minimum-node-in-a-binary-tree",
@@ -13613,7 +15188,10 @@ let data = [{
         "说明: 最小的值是 2, 但是不存在第二小的值。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar findSecondMinimumValue = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar findSecondMinimumValue = function(root) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def findSecondMinimumValue(self, root: TreeNode) -> int:\r\n        "
+    }
 }, {
     "questionId": "0672",
     "titleSlug": "bulb-switcher-ii",
@@ -13647,7 +15225,10 @@ let data = [{
         "注意： n 和 m 都属于 [0, 1000]."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number} m\n * @return {number}\n */\nvar flipLights = function(n, m) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number} m\n * @return {number}\n */\nvar flipLights = function(n, m) {\n    \n};",
+        "py": "class Solution:\n    def flipLights(self, n: int, m: int) -> int:\n        "
+    }
 }, {
     "questionId": "0673",
     "titleSlug": "number-of-longest-increasing-subsequence",
@@ -13668,7 +15249,10 @@ let data = [{
         "注意: 给定的数组长度不超过 2000 并且结果一定是32位有符号整数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findNumberOfLIS = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findNumberOfLIS = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findNumberOfLIS(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0674",
     "titleSlug": "longest-continuous-increasing-subsequence",
@@ -13690,7 +15274,10 @@ let data = [{
         "注意：数组长度不会超过10000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findLengthOfLCIS = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findLengthOfLCIS = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findLengthOfLCIS(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0675",
     "titleSlug": "cut-off-trees-for-golf-event",
@@ -13737,7 +15324,10 @@ let data = [{
         "提示: 矩阵大小不会超过 50x50 。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} forest\n * @return {number}\n */\nvar cutOffTree = function(forest) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} forest\n * @return {number}\n */\nvar cutOffTree = function(forest) {\n    \n};",
+        "py": "class Solution:\n    def cutOffTree(self, forest: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0676",
     "titleSlug": "implement-magic-dictionary",
@@ -13760,7 +15350,10 @@ let data = [{
         "  - 请记住重置MagicDictionary类中声明的类变量，因为静态/类变量会在多个测试用例中保留。 请参阅[这里](http://leetcode.com/faq/#different-output)了解更多详情。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar MagicDictionary = function() {\n    \n};\n\n/**\n * Build a dictionary through a list of words \n * @param {string[]} dict\n * @return {void}\n */\nMagicDictionary.prototype.buildDict = function(dict) {\n    \n};\n\n/**\n * Returns if there is any word in the trie that equals to the given word after modifying exactly one character \n * @param {string} word\n * @return {boolean}\n */\nMagicDictionary.prototype.search = function(word) {\n    \n};\n\n/** \n * Your MagicDictionary object will be instantiated and called as such:\n * var obj = Object.create(MagicDictionary).createNew()\n * obj.buildDict(dict)\n * var param_2 = obj.search(word)\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar MagicDictionary = function() {\n    \n};\n\n/**\n * Build a dictionary through a list of words \n * @param {string[]} dict\n * @return {void}\n */\nMagicDictionary.prototype.buildDict = function(dict) {\n    \n};\n\n/**\n * Returns if there is any word in the trie that equals to the given word after modifying exactly one character \n * @param {string} word\n * @return {boolean}\n */\nMagicDictionary.prototype.search = function(word) {\n    \n};\n\n/** \n * Your MagicDictionary object will be instantiated and called as such:\n * var obj = new MagicDictionary()\n * obj.buildDict(dict)\n * var param_2 = obj.search(word)\n */",
+        "py": "class MagicDictionary:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def buildDict(self, dict: List[str]) -> None:\n        \"\"\"\n        Build a dictionary through a list of words\n        \"\"\"\n        \n\n    def search(self, word: str) -> bool:\n        \"\"\"\n        Returns if there is any word in the trie that equals to the given word after modifying exactly one character\n        \"\"\"\n        \n\n\n# Your MagicDictionary object will be instantiated and called as such:\n# obj = MagicDictionary()\n# obj.buildDict(dict)\n# param_2 = obj.search(word)"
+    }
 }, {
     "questionId": "0677",
     "titleSlug": "map-sum-pairs",
@@ -13777,7 +15370,10 @@ let data = [{
         "输入: sum(\"ap\"), 输出: 5"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar MapSum = function() {\n    \n};\n\n/** \n * @param {string} key \n * @param {number} val\n * @return {void}\n */\nMapSum.prototype.insert = function(key, val) {\n    \n};\n\n/** \n * @param {string} prefix\n * @return {number}\n */\nMapSum.prototype.sum = function(prefix) {\n    \n};\n\n/** \n * Your MapSum object will be instantiated and called as such:\n * var obj = Object.create(MapSum).createNew()\n * obj.insert(key,val)\n * var param_2 = obj.sum(prefix)\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar MapSum = function() {\n    \n};\n\n/** \n * @param {string} key \n * @param {number} val\n * @return {void}\n */\nMapSum.prototype.insert = function(key, val) {\n    \n};\n\n/** \n * @param {string} prefix\n * @return {number}\n */\nMapSum.prototype.sum = function(prefix) {\n    \n};\n\n/** \n * Your MapSum object will be instantiated and called as such:\n * var obj = new MapSum()\n * obj.insert(key,val)\n * var param_2 = obj.sum(prefix)\n */",
+        "py": "class MapSum:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def insert(self, key: str, val: int) -> None:\n        \n\n    def sum(self, prefix: str) -> int:\n        \n\n\n# Your MapSum object will be instantiated and called as such:\n# obj = MapSum()\n# obj.insert(key,val)\n# param_2 = obj.sum(prefix)"
+    }
 }, {
     "questionId": "0678",
     "titleSlug": "valid-parenthesis-string",
@@ -13806,7 +15402,10 @@ let data = [{
         "  - 字符串大小将在 [1，100] 范围内。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar checkValidString = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar checkValidString = function(s) {\n    \n};",
+        "py": "class Solution:\n    def checkValidString(self, s: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0679",
     "titleSlug": "24-game",
@@ -13829,7 +15428,10 @@ let data = [{
         "  - 你不能将数字连接在一起。例如，输入为 [1, 2, 1, 2] 时，不能写成 12 + 12 。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar judgePoint24 = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar judgePoint24 = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def judgePoint24(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0680",
     "titleSlug": "valid-palindrome-ii",
@@ -13850,7 +15452,10 @@ let data = [{
         "  - 字符串只包含从 a-z 的小写字母。字符串的最大长度是50000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar validPalindrome = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar validPalindrome = function(s) {\n    \n};",
+        "py": "class Solution:\n    def validPalindrome(self, s: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0682",
     "titleSlug": "baseball-game",
@@ -13894,7 +15499,10 @@ let data = [{
         "  - 列表中的每个整数都将介于-30000和30000之间。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} ops\n * @return {number}\n */\nvar calPoints = function(ops) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} ops\n * @return {number}\n */\nvar calPoints = function(ops) {\n    \n};",
+        "py": "class Solution:\n    def calPoints(self, ops: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0684",
     "titleSlug": "redundant-connection",
@@ -13929,7 +15537,10 @@ let data = [{
         "我们已经重新检查了问题描述及测试用例，明确图是无向 图。对于有向图详见[冗余连接II](https://leetcodechina.com/problems/redundant-connection-ii/description/)。对于造成任何不便，我们深感歉意。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} edges\n * @return {number[]}\n */\nvar findRedundantConnection = function(edges) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} edges\n * @return {number[]}\n */\nvar findRedundantConnection = function(edges) {\n    \n};",
+        "py": "class Solution:\n    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0685",
     "titleSlug": "redundant-connection-ii",
@@ -13963,7 +15574,10 @@ let data = [{
         "  - 二维数组中的每个整数在1到N之间，其中 N 是二维数组的大小。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} edges\n * @return {number[]}\n */\nvar findRedundantDirectedConnection = function(edges) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} edges\n * @return {number[]}\n */\nvar findRedundantDirectedConnection = function(edges) {\n    \n};",
+        "py": "class Solution:\n    def findRedundantDirectedConnection(self, edges: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0686",
     "titleSlug": "repeated-string-match",
@@ -13977,7 +15591,10 @@ let data = [{
         "A 与 B 字符串的长度在1和10000区间范围内。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} A\n * @param {string} B\n * @return {number}\n */\nvar repeatedStringMatch = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} A\n * @param {string} B\n * @return {number}\n */\nvar repeatedStringMatch = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def repeatedStringMatch(self, A: str, B: str) -> int:\n        "
+    }
 }, {
     "questionId": "0687",
     "titleSlug": "longest-univalue-path",
@@ -14012,7 +15629,10 @@ let data = [{
         "注意: 给定的二叉树不超过10000个结点。 树的高度不超过1000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar longestUnivaluePath = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar longestUnivaluePath = function(root) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def longestUnivaluePath(self, root: TreeNode) -> int:\r\n        "
+    }
 }, {
     "questionId": "0688",
     "titleSlug": "knight-probability-in-chessboard",
@@ -14041,7 +15661,10 @@ let data = [{
         "  - 开始时，“马” 总是位于棋盘上"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number} K\n * @param {number} r\n * @param {number} c\n * @return {number}\n */\nvar knightProbability = function(N, K, r, c) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number} K\n * @param {number} r\n * @param {number} c\n * @return {number}\n */\nvar knightProbability = function(N, K, r, c) {\n    \n};",
+        "py": "class Solution:\n    def knightProbability(self, N: int, K: int, r: int, c: int) -> float:\n        "
+    }
 }, {
     "questionId": "0689",
     "titleSlug": "maximum-sum-of-3-non-overlapping-subarrays",
@@ -14063,7 +15686,10 @@ let data = [{
         "  - k的范围在[1, floor(nums.length / 3)]之间。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar maxSumOfThreeSubarrays = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums\r\n * @param {number} k\r\n * @return {number[]}\r\n */\r\nvar maxSumOfThreeSubarrays = function(nums, k) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:\r\n        "
+    }
 }, {
     "questionId": "0690",
     "titleSlug": "employee-importance",
@@ -14084,7 +15710,10 @@ let data = [{
         "  - 员工数量不超过2000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "N/A"
+    "codeSnippets": {
+        "js": "N/A",
+        "py": "\"\"\"\r\n# Employee info\r\nclass Employee:\r\n    def __init__(self, id, importance, subordinates):\r\n        # It's the unique id of each node.\r\n        # unique id of this employee\r\n        self.id = id\r\n        # the importance value of this employee\r\n        self.importance = importance\r\n        # the id of direct subordinates\r\n        self.subordinates = subordinates\r\n\"\"\"\r\nclass Solution:\r\n    def getImportance(self, employees, id):\r\n        \"\"\"\r\n        :type employees: Employee\r\n        :type id: int\r\n        :rtype: int\r\n        \"\"\""
+    }
 }, {
     "questionId": "0691",
     "titleSlug": "stickers-to-spell-word",
@@ -14123,7 +15752,10 @@ let data = [{
         "  - 时间限制可能比平时更具挑战性。预计 50 个贴纸的测试案例平均可在35ms内解决。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} stickers\n * @param {string} target\n * @return {number}\n */\nvar minStickers = function(stickers, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} stickers\n * @param {string} target\n * @return {number}\n */\nvar minStickers = function(stickers, target) {\n    \n};",
+        "py": "class Solution:\n    def minStickers(self, stickers: List[str], target: str) -> int:\n        "
+    }
 }, {
     "questionId": "0692",
     "titleSlug": "top-k-frequent-words",
@@ -14152,7 +15784,10 @@ let data = [{
         "  - 尝试以 O(n log k) 时间复杂度和 O(n) 空间复杂度解决。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @param {number} k\n * @return {string[]}\n */\nvar topKFrequent = function(words, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n * @param {number} k\n * @return {string[]}\n */\nvar topKFrequent = function(words, k) {\n    \n};",
+        "py": "class Solution:\n    def topKFrequent(self, words: List[str], k: int) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0693",
     "titleSlug": "binary-number-with-alternating-bits",
@@ -14185,7 +15820,10 @@ let data = [{
         "10的二进制数是: 1010"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar hasAlternatingBits = function(n) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar hasAlternatingBits = function(n) {\n    \n};",
+        "py": "class Solution:\n    def hasAlternatingBits(self, n: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0695",
     "titleSlug": "max-area-of-island",
@@ -14213,7 +15851,10 @@ let data = [{
         "注意: 给定的矩阵grid 的长度和宽度都不超过 50。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar maxAreaOfIsland = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar maxAreaOfIsland = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0696",
     "titleSlug": "count-binary-substrings",
@@ -14241,7 +15882,10 @@ let data = [{
         "  - s 只包含“0”或“1”字符。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} s\n * @return {number}\n */\nvar countBinarySubstrings = function(s) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {number}\n */\nvar countBinarySubstrings = function(s) {\n    \n};",
+        "py": "class Solution:\n    def countBinarySubstrings(self, s: str) -> int:\n        "
+    }
 }, {
     "questionId": "0697",
     "titleSlug": "degree-of-an-array",
@@ -14268,7 +15912,10 @@ let data = [{
         "  - nums[i] 是一个在0到49,999范围内的整数。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findShortestSubArray = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findShortestSubArray = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def findShortestSubArray(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0698",
     "titleSlug": "partition-to-k-equal-sum-subsets",
@@ -14287,7 +15934,10 @@ let data = [{
         "  - 0 < nums[i] < 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {boolean}\n */\nvar canPartitionKSubsets = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {boolean}\n */\nvar canPartitionKSubsets = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0699",
     "titleSlug": "falling-squares",
@@ -14343,7 +15993,10 @@ let data = [{
         "  - 1 <= positions[i][1] <= 10^6."
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} positions\n * @return {number[]}\n */\nvar fallingSquares = function(positions) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} positions\r\n * @return {number[]}\r\n */\r\nvar fallingSquares = function(positions) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def fallingSquares(self, positions: List[List[int]]) -> List[int]:\r\n        "
+    }
 }, {
     "questionId": "0700",
     "titleSlug": "search-in-a-binary-search-tree",
@@ -14370,7 +16023,10 @@ let data = [{
         "在上述示例中，如果要找的值是 5，但因为没有节点值为 5，我们应该返回 NULL。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} val\n * @return {TreeNode}\n */\nvar searchBST = function(root, val) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} val\n * @return {TreeNode}\n */\nvar searchBST = function(root, val) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def searchBST(self, root: TreeNode, val: int) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0701",
     "titleSlug": "insert-into-a-binary-search-tree",
@@ -14408,7 +16064,10 @@ let data = [{
         "          4"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} val\n * @return {TreeNode}\n */\nvar insertIntoBST = function(root, val) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} val\n * @return {TreeNode}\n */\nvar insertIntoBST = function(root, val) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0703",
     "titleSlug": "kth-largest-element-in-a-stream",
@@ -14431,7 +16090,10 @@ let data = [{
         "你可以假设 nums 的长度≥ k-1 且k ≥ 1。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} k\n * @param {number[]} nums\n */\nvar KthLargest = function(k, nums) {\n    \n};\n\n/** \n * @param {number} val\n * @return {number}\n */\nKthLargest.prototype.add = function(val) {\n    \n};\n\n/** \n * Your KthLargest object will be instantiated and called as such:\n * var obj = Object.create(KthLargest).createNew(k, nums)\n * var param_1 = obj.add(val)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} k\n * @param {number[]} nums\n */\nvar KthLargest = function(k, nums) {\n    \n};\n\n/** \n * @param {number} val\n * @return {number}\n */\nKthLargest.prototype.add = function(val) {\n    \n};\n\n/** \n * Your KthLargest object will be instantiated and called as such:\n * var obj = new KthLargest(k, nums)\n * var param_1 = obj.add(val)\n */",
+        "py": "class KthLargest:\n\n    def __init__(self, k: int, nums: List[int]):\n        \n\n    def add(self, val: int) -> int:\n        \n\n\n# Your KthLargest object will be instantiated and called as such:\n# obj = KthLargest(k, nums)\n# param_1 = obj.add(val)"
+    }
 }, {
     "questionId": "0704",
     "titleSlug": "binary-search",
@@ -14455,7 +16117,10 @@ let data = [{
         "  - nums 的每个元素都将在 [-9999, 9999]之间。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar search = function(nums, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar search = function(nums, target) {\n    \n};",
+        "py": "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        "
+    }
 }, {
     "questionId": "0705",
     "titleSlug": "design-hashset",
@@ -14484,7 +16149,10 @@ let data = [{
         "  - 不要使用内建的哈希集合库。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar MyHashSet = function() {\n    \n};\n\n/** \n * @param {number} key\n * @return {void}\n */\nMyHashSet.prototype.add = function(key) {\n    \n};\n\n/** \n * @param {number} key\n * @return {void}\n */\nMyHashSet.prototype.remove = function(key) {\n    \n};\n\n/**\n * Returns true if this set contains the specified element \n * @param {number} key\n * @return {boolean}\n */\nMyHashSet.prototype.contains = function(key) {\n    \n};\n\n/** \n * Your MyHashSet object will be instantiated and called as such:\n * var obj = Object.create(MyHashSet).createNew()\n * obj.add(key)\n * obj.remove(key)\n * var param_3 = obj.contains(key)\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar MyHashSet = function() {\n    \n};\n\n/** \n * @param {number} key\n * @return {void}\n */\nMyHashSet.prototype.add = function(key) {\n    \n};\n\n/** \n * @param {number} key\n * @return {void}\n */\nMyHashSet.prototype.remove = function(key) {\n    \n};\n\n/**\n * Returns true if this set contains the specified element \n * @param {number} key\n * @return {boolean}\n */\nMyHashSet.prototype.contains = function(key) {\n    \n};\n\n/** \n * Your MyHashSet object will be instantiated and called as such:\n * var obj = new MyHashSet()\n * obj.add(key)\n * obj.remove(key)\n * var param_3 = obj.contains(key)\n */",
+        "py": "class MyHashSet:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def add(self, key: int) -> None:\n        \n\n    def remove(self, key: int) -> None:\n        \n\n    def contains(self, key: int) -> bool:\n        \"\"\"\n        Returns true if this set contains the specified element\n        \"\"\"\n        \n\n\n# Your MyHashSet object will be instantiated and called as such:\n# obj = MyHashSet()\n# obj.add(key)\n# obj.remove(key)\n# param_3 = obj.contains(key)"
+    }
 }, {
     "questionId": "0706",
     "titleSlug": "design-hashmap",
@@ -14513,7 +16181,10 @@ let data = [{
         "  - 不要使用内建的哈希库。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar MyHashMap = function() {\n    \n};\n\n/**\n * value will always be non-negative. \n * @param {number} key \n * @param {number} value\n * @return {void}\n */\nMyHashMap.prototype.put = function(key, value) {\n    \n};\n\n/**\n * Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key \n * @param {number} key\n * @return {number}\n */\nMyHashMap.prototype.get = function(key) {\n    \n};\n\n/**\n * Removes the mapping of the specified value key if this map contains a mapping for the key \n * @param {number} key\n * @return {void}\n */\nMyHashMap.prototype.remove = function(key) {\n    \n};\n\n/** \n * Your MyHashMap object will be instantiated and called as such:\n * var obj = Object.create(MyHashMap).createNew()\n * obj.put(key,value)\n * var param_2 = obj.get(key)\n * obj.remove(key)\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar MyHashMap = function() {\n    \n};\n\n/**\n * value will always be non-negative. \n * @param {number} key \n * @param {number} value\n * @return {void}\n */\nMyHashMap.prototype.put = function(key, value) {\n    \n};\n\n/**\n * Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key \n * @param {number} key\n * @return {number}\n */\nMyHashMap.prototype.get = function(key) {\n    \n};\n\n/**\n * Removes the mapping of the specified value key if this map contains a mapping for the key \n * @param {number} key\n * @return {void}\n */\nMyHashMap.prototype.remove = function(key) {\n    \n};\n\n/** \n * Your MyHashMap object will be instantiated and called as such:\n * var obj = new MyHashMap()\n * obj.put(key,value)\n * var param_2 = obj.get(key)\n * obj.remove(key)\n */",
+        "py": "class MyHashMap:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def put(self, key: int, value: int) -> None:\n        \"\"\"\n        value will always be non-negative.\n        \"\"\"\n        \n\n    def get(self, key: int) -> int:\n        \"\"\"\n        Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key\n        \"\"\"\n        \n\n    def remove(self, key: int) -> None:\n        \"\"\"\n        Removes the mapping of the specified value key if this map contains a mapping for the key\n        \"\"\"\n        \n\n\n# Your MyHashMap object will be instantiated and called as such:\n# obj = MyHashMap()\n# obj.put(key,value)\n# param_2 = obj.get(key)\n# obj.remove(key)"
+    }
 }, {
     "questionId": "0707",
     "titleSlug": "design-linked-list",
@@ -14542,7 +16213,10 @@ let data = [{
         "  - 请不要使用内置的 LinkedList 库。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar MyLinkedList = function() {\n    \n};\n\n/**\n * Get the value of the index-th node in the linked list. If the index is invalid, return -1. \n * @param {number} index\n * @return {number}\n */\nMyLinkedList.prototype.get = function(index) {\n    \n};\n\n/**\n * Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. \n * @param {number} val\n * @return {void}\n */\nMyLinkedList.prototype.addAtHead = function(val) {\n    \n};\n\n/**\n * Append a node of value val to the last element of the linked list. \n * @param {number} val\n * @return {void}\n */\nMyLinkedList.prototype.addAtTail = function(val) {\n    \n};\n\n/**\n * Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. \n * @param {number} index \n * @param {number} val\n * @return {void}\n */\nMyLinkedList.prototype.addAtIndex = function(index, val) {\n    \n};\n\n/**\n * Delete the index-th node in the linked list, if the index is valid. \n * @param {number} index\n * @return {void}\n */\nMyLinkedList.prototype.deleteAtIndex = function(index) {\n    \n};\n\n/** \n * Your MyLinkedList object will be instantiated and called as such:\n * var obj = Object.create(MyLinkedList).createNew()\n * var param_1 = obj.get(index)\n * obj.addAtHead(val)\n * obj.addAtTail(val)\n * obj.addAtIndex(index,val)\n * obj.deleteAtIndex(index)\n */"
+    "codeSnippets": {
+        "js": "/**\r\n * Initialize your data structure here.\r\n */\r\nvar MyLinkedList = function() {\r\n    \r\n};\r\n\r\n/**\r\n * Get the value of the index-th node in the linked list. If the index is invalid, return -1. \r\n * @param {number} index\r\n * @return {number}\r\n */\r\nMyLinkedList.prototype.get = function(index) {\r\n    \r\n};\r\n\r\n/**\r\n * Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. \r\n * @param {number} val\r\n * @return {void}\r\n */\r\nMyLinkedList.prototype.addAtHead = function(val) {\r\n    \r\n};\r\n\r\n/**\r\n * Append a node of value val to the last element of the linked list. \r\n * @param {number} val\r\n * @return {void}\r\n */\r\nMyLinkedList.prototype.addAtTail = function(val) {\r\n    \r\n};\r\n\r\n/**\r\n * Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. \r\n * @param {number} index \r\n * @param {number} val\r\n * @return {void}\r\n */\r\nMyLinkedList.prototype.addAtIndex = function(index, val) {\r\n    \r\n};\r\n\r\n/**\r\n * Delete the index-th node in the linked list, if the index is valid. \r\n * @param {number} index\r\n * @return {void}\r\n */\r\nMyLinkedList.prototype.deleteAtIndex = function(index) {\r\n    \r\n};\r\n\r\n/** \r\n * Your MyLinkedList object will be instantiated and called as such:\r\n * var obj = new MyLinkedList()\r\n * var param_1 = obj.get(index)\r\n * obj.addAtHead(val)\r\n * obj.addAtTail(val)\r\n * obj.addAtIndex(index,val)\r\n * obj.deleteAtIndex(index)\r\n */",
+        "py": "class MyLinkedList:\r\n\r\n    def __init__(self):\r\n        \"\"\"\r\n        Initialize your data structure here.\r\n        \"\"\"\r\n        \r\n\r\n    def get(self, index: int) -> int:\r\n        \"\"\"\r\n        Get the value of the index-th node in the linked list. If the index is invalid, return -1.\r\n        \"\"\"\r\n        \r\n\r\n    def addAtHead(self, val: int) -> None:\r\n        \"\"\"\r\n        Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.\r\n        \"\"\"\r\n        \r\n\r\n    def addAtTail(self, val: int) -> None:\r\n        \"\"\"\r\n        Append a node of value val to the last element of the linked list.\r\n        \"\"\"\r\n        \r\n\r\n    def addAtIndex(self, index: int, val: int) -> None:\r\n        \"\"\"\r\n        Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted.\r\n        \"\"\"\r\n        \r\n\r\n    def deleteAtIndex(self, index: int) -> None:\r\n        \"\"\"\r\n        Delete the index-th node in the linked list, if the index is valid.\r\n        \"\"\"\r\n        \r\n\r\n\r\n# Your MyLinkedList object will be instantiated and called as such:\r\n# obj = MyLinkedList()\r\n# param_1 = obj.get(index)\r\n# obj.addAtHead(val)\r\n# obj.addAtTail(val)\r\n# obj.addAtIndex(index,val)\r\n# obj.deleteAtIndex(index)"
+    }
 }, {
     "questionId": "0709",
     "titleSlug": "to-lower-case",
@@ -14563,7 +16237,10 @@ let data = [{
         "输出: \"lovely\""
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} str\n * @return {string}\n */\nvar toLowerCase = function(str) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} str\n * @return {string}\n */\nvar toLowerCase = function(str) {\n    \n};",
+        "py": "class Solution:\n    def toLowerCase(self, str: str) -> str:\n        "
+    }
 }, {
     "questionId": "0710",
     "titleSlug": "random-pick-with-blacklist",
@@ -14604,7 +16281,10 @@ let data = [{
         "输入是两个列表：调用成员函数名和调用的参数。Solution的构造函数有两个参数，N 和黑名单 B。pick 没有参数，输入参数是一个列表，即使参数为空，也会输入一个 [] 空列表。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number[]} blacklist\n */\nvar Solution = function(N, blacklist) {\n    \n};\n\n/**\n * @return {number}\n */\nSolution.prototype.pick = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = Object.create(Solution).createNew(N, blacklist)\n * var param_1 = obj.pick()\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number[]} blacklist\n */\nvar Solution = function(N, blacklist) {\n    \n};\n\n/**\n * @return {number}\n */\nSolution.prototype.pick = function() {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(N, blacklist)\n * var param_1 = obj.pick()\n */",
+        "py": "class Solution:\n\n    def __init__(self, N: int, blacklist: List[int]):\n        \n\n    def pick(self) -> int:\n        \n\n\n# Your Solution object will be instantiated and called as such:\n# obj = Solution(N, blacklist)\n# param_1 = obj.pick()"
+    }
 }, {
     "questionId": "0712",
     "titleSlug": "minimum-ascii-delete-sum-for-two-strings",
@@ -14632,7 +16312,10 @@ let data = [{
         "  - 所有字符串中的字符ASCII值在[97, 122]之间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} s1\n * @param {string} s2\n * @return {number}\n */\nvar minimumDeleteSum = function(s1, s2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s1\n * @param {string} s2\n * @return {number}\n */\nvar minimumDeleteSum = function(s1, s2) {\n    \n};",
+        "py": "class Solution:\n    def minimumDeleteSum(self, s1: str, s2: str) -> int:\n        "
+    }
 }, {
     "questionId": "0713",
     "titleSlug": "subarray-product-less-than-k",
@@ -14653,7 +16336,10 @@ let data = [{
         "  - 0 <= k < 10^6"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar numSubarrayProductLessThanK = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar numSubarrayProductLessThanK = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0714",
     "titleSlug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
@@ -14679,7 +16365,10 @@ let data = [{
         "  - 0 <= fee < 50000."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} prices\n * @param {number} fee\n * @return {number}\n */\nvar maxProfit = function(prices, fee) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} prices\n * @param {number} fee\n * @return {number}\n */\nvar maxProfit = function(prices, fee) {\n    \n};",
+        "py": "class Solution:\n    def maxProfit(self, prices: List[int], fee: int) -> int:\n        "
+    }
 }, {
     "questionId": "0715",
     "titleSlug": "range-module",
@@ -14705,7 +16394,10 @@ let data = [{
         "  - 在单个测试用例中，对 removeRange 的调用总数不超过 1000 次。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "\nvar RangeModule = function() {\n    \n};\n\n/** \n * @param {number} left \n * @param {number} right\n * @return {void}\n */\nRangeModule.prototype.addRange = function(left, right) {\n    \n};\n\n/** \n * @param {number} left \n * @param {number} right\n * @return {boolean}\n */\nRangeModule.prototype.queryRange = function(left, right) {\n    \n};\n\n/** \n * @param {number} left \n * @param {number} right\n * @return {void}\n */\nRangeModule.prototype.removeRange = function(left, right) {\n    \n};\n\n/** \n * Your RangeModule object will be instantiated and called as such:\n * var obj = Object.create(RangeModule).createNew()\n * obj.addRange(left,right)\n * var param_2 = obj.queryRange(left,right)\n * obj.removeRange(left,right)\n */"
+    "codeSnippets": {
+        "js": "var RangeModule = function() {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} left \r\n * @param {number} right\r\n * @return {void}\r\n */\r\nRangeModule.prototype.addRange = function(left, right) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} left \r\n * @param {number} right\r\n * @return {boolean}\r\n */\r\nRangeModule.prototype.queryRange = function(left, right) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} left \r\n * @param {number} right\r\n * @return {void}\r\n */\r\nRangeModule.prototype.removeRange = function(left, right) {\r\n    \r\n};\r\n\r\n/** \r\n * Your RangeModule object will be instantiated and called as such:\r\n * var obj = new RangeModule()\r\n * obj.addRange(left,right)\r\n * var param_2 = obj.queryRange(left,right)\r\n * obj.removeRange(left,right)\r\n */",
+        "py": "class RangeModule:\r\n\r\n    def __init__(self):\r\n        \r\n\r\n    def addRange(self, left: int, right: int) -> None:\r\n        \r\n\r\n    def queryRange(self, left: int, right: int) -> bool:\r\n        \r\n\r\n    def removeRange(self, left: int, right: int) -> None:\r\n        \r\n\r\n\r\n# Your RangeModule object will be instantiated and called as such:\r\n# obj = RangeModule()\r\n# obj.addRange(left,right)\r\n# param_2 = obj.queryRange(left,right)\r\n# obj.removeRange(left,right)"
+    }
 }, {
     "questionId": "0717",
     "titleSlug": "1-bit-and-2-bit-characters",
@@ -14733,7 +16425,10 @@ let data = [{
         "  - bits[i] 总是0 或 1."
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} bits\n * @return {boolean}\n */\nvar isOneBitCharacter = function(bits) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} bits\n * @return {boolean}\n */\nvar isOneBitCharacter = function(bits) {\n    \n};",
+        "py": "class Solution:\n    def isOneBitCharacter(self, bits: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0718",
     "titleSlug": "maximum-length-of-repeated-subarray",
@@ -14754,7 +16449,10 @@ let data = [{
         "  - 0 <= A[i], B[i] < 100"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number}\n */\nvar findLength = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number}\n */\nvar findLength = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def findLength(self, A: List[int], B: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0719",
     "titleSlug": "find-k-th-smallest-pair-distance",
@@ -14780,7 +16478,10 @@ let data = [{
         "  - 1 <= k <= len(nums) * (len(nums) - 1) / 2."
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar smallestDistancePair = function(nums, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar smallestDistancePair = function(nums, k) {\n    \n};",
+        "py": "class Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        "
+    }
 }, {
     "questionId": "0720",
     "titleSlug": "longest-word-in-dictionary",
@@ -14809,7 +16510,10 @@ let data = [{
         "  - words[i]的长度范围为[1,30]。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @return {string}\n */\nvar longestWord = function(words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n * @return {string}\n */\nvar longestWord = function(words) {\n    \n};",
+        "py": "class Solution:\n    def longestWord(self, words: List[str]) -> str:\n        "
+    }
 }, {
     "questionId": "0721",
     "titleSlug": "accounts-merge",
@@ -14834,7 +16538,10 @@ let data = [{
         "  - accounts[i][j]的长度将在[1，30]的范围内。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[][]} accounts\n * @return {string[][]}\n */\nvar accountsMerge = function(accounts) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[][]} accounts\n * @return {string[][]}\n */\nvar accountsMerge = function(accounts) {\n    \n};",
+        "py": "class Solution:\n    def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:\n        "
+    }
 }, {
     "questionId": "0722",
     "titleSlug": "remove-comments",
@@ -14897,7 +16604,10 @@ let data = [{
         "  - 给定的源码中不会有单引号、双引号或其他控制字符。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} source\n * @return {string[]}\n */\nvar removeComments = function(source) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} source\n * @return {string[]}\n */\nvar removeComments = function(source) {\n    \n};",
+        "py": "class Solution:\n    def removeComments(self, source: List[str]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0724",
     "titleSlug": "find-pivot-index",
@@ -14927,7 +16637,10 @@ let data = [{
         "  - 任何一个 nums[i] 将会是一个范围在 [-1000, 1000]的整数。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar pivotIndex = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar pivotIndex = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def pivotIndex(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0725",
     "titleSlug": "split-linked-list-in-parts",
@@ -14963,7 +16676,10 @@ let data = [{
         "  - k 的取值范围： [1, 50]."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} root\n * @param {number} k\n * @return {ListNode[]}\n */\nvar splitListToParts = function(root, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} root\n * @param {number} k\n * @return {ListNode[]}\n */\nvar splitListToParts = function(root, k) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def splitListToParts(self, root: ListNode, k: int) -> List[ListNode]:\n        "
+    }
 }, {
     "questionId": "0726",
     "titleSlug": "number-of-atoms",
@@ -15003,7 +16719,10 @@ let data = [{
         "  - formula只包含字母、数字和圆括号，并且题目中给定的是合法的化学式。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} formula\n * @return {string}\n */\nvar countOfAtoms = function(formula) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} formula\n * @return {string}\n */\nvar countOfAtoms = function(formula) {\n    \n};",
+        "py": "class Solution:\n    def countOfAtoms(self, formula: str) -> str:\n        "
+    }
 }, {
     "questionId": "0728",
     "titleSlug": "self-dividing-numbers",
@@ -15024,7 +16743,10 @@ let data = [{
         "  - 每个输入参数的边界满足 1 <= left <= right <= 10000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} left\n * @param {number} right\n * @return {number[]}\n */\nvar selfDividingNumbers = function(left, right) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} left\n * @param {number} right\n * @return {number[]}\n */\nvar selfDividingNumbers = function(left, right) {\n    \n};",
+        "py": "class Solution:\n    def selfDividingNumbers(self, left: int, right: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0729",
     "titleSlug": "my-calendar-i",
@@ -15050,7 +16772,10 @@ let data = [{
         "  - 调用函数 MyCalendar.book(start, end)时， start 和 end 的取值范围为 [0, 10^9]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "\nvar MyCalendar = function() {\n    \n};\n\n/** \n * @param {number} start \n * @param {number} end\n * @return {boolean}\n */\nMyCalendar.prototype.book = function(start, end) {\n    \n};\n\n/** \n * Your MyCalendar object will be instantiated and called as such:\n * var obj = Object.create(MyCalendar).createNew()\n * var param_1 = obj.book(start,end)\n */"
+    "codeSnippets": {
+        "js": "\r\nvar MyCalendar = function() {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} start \r\n * @param {number} end\r\n * @return {boolean}\r\n */\r\nMyCalendar.prototype.book = function(start, end) {\r\n    \r\n};\r\n\r\n/** \r\n * Your MyCalendar object will be instantiated and called as such:\r\n * var obj = new MyCalendar()\r\n * var param_1 = obj.book(start,end)\r\n */",
+        "py": "class MyCalendar:\r\n\r\n    def __init__(self):\r\n        \r\n\r\n    def book(self, start: int, end: int) -> bool:\r\n        \r\n\r\n\r\n# Your MyCalendar object will be instantiated and called as such:\r\n# obj = MyCalendar()\r\n# param_1 = obj.book(start,end)"
+    }
 }, {
     "questionId": "0730",
     "titleSlug": "count-different-palindromic-subsequences",
@@ -15082,7 +16807,10 @@ let data = [{
         "  - 每个字符 S[i] 将会是集合 {'a', 'b', 'c', 'd'} 中的某一个。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number}\n */\nvar countPalindromicSubsequences = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number}\n */\nvar countPalindromicSubsequences = function(S) {\n    \n};",
+        "py": "class Solution:\n    def countPalindromicSubsequences(self, S: str) -> int:\n        "
+    }
 }, {
     "questionId": "0731",
     "titleSlug": "my-calendar-ii",
@@ -15114,7 +16842,10 @@ let data = [{
         "  - 调用函数 MyCalendar.book(start, end)时， start 和 end 的取值范围为 [0, 10^9]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "\nvar MyCalendarTwo = function() {\n    \n};\n\n/** \n * @param {number} start \n * @param {number} end\n * @return {boolean}\n */\nMyCalendarTwo.prototype.book = function(start, end) {\n    \n};\n\n/** \n * Your MyCalendarTwo object will be instantiated and called as such:\n * var obj = Object.create(MyCalendarTwo).createNew()\n * var param_1 = obj.book(start,end)\n */"
+    "codeSnippets": {
+        "js": "var MyCalendarTwo = function() {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} start \r\n * @param {number} end\r\n * @return {boolean}\r\n */\r\nMyCalendarTwo.prototype.book = function(start, end) {\r\n    \r\n};\r\n\r\n/** \r\n * Your MyCalendarTwo object will be instantiated and called as such:\r\n * var obj = new MyCalendarTwo()\r\n * var param_1 = obj.book(start,end)\r\n */",
+        "py": "class MyCalendarTwo:\r\n\r\n    def __init__(self):\r\n        \r\n\r\n    def book(self, start: int, end: int) -> bool:\r\n        \r\n\r\n\r\n# Your MyCalendarTwo object will be instantiated and called as such:\r\n# obj = MyCalendarTwo()\r\n# param_1 = obj.book(start,end)"
+    }
 }, {
     "questionId": "0732",
     "titleSlug": "my-calendar-iii",
@@ -15145,7 +16876,10 @@ let data = [{
         "  - 调用函数 MyCalendar.book(start, end)时， start 和 end 的取值范围为 [0, 10^9]。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "\nvar MyCalendarThree = function() {\n    \n};\n\n/** \n * @param {number} start \n * @param {number} end\n * @return {number}\n */\nMyCalendarThree.prototype.book = function(start, end) {\n    \n};\n\n/** \n * Your MyCalendarThree object will be instantiated and called as such:\n * var obj = Object.create(MyCalendarThree).createNew()\n * var param_1 = obj.book(start,end)\n */"
+    "codeSnippets": {
+        "js": "var MyCalendarThree = function() {\r\n    \r\n};\r\n\r\n/** \r\n * @param {number} start \r\n * @param {number} end\r\n * @return {number}\r\n */\r\nMyCalendarThree.prototype.book = function(start, end) {\r\n    \r\n};\r\n\r\n/** \r\n * Your MyCalendarThree object will be instantiated and called as such:\r\n * var obj = new MyCalendarThree()\r\n * var param_1 = obj.book(start,end)\r\n */",
+        "py": "class MyCalendarThree:\r\n\r\n    def __init__(self):\r\n        \r\n\r\n    def book(self, start: int, end: int) -> int:\r\n        \r\n\r\n\r\n# Your MyCalendarThree object will be instantiated and called as such:\r\n# obj = MyCalendarThree()\r\n# param_1 = obj.book(start,end)"
+    }
 }, {
     "questionId": "0733",
     "titleSlug": "flood-fill",
@@ -15174,7 +16908,10 @@ let data = [{
         "  - image[i][j] 和 newColor 表示的颜色值在范围 [0, 65535]内。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} image\n * @param {number} sr\n * @param {number} sc\n * @param {number} newColor\n * @return {number[][]}\n */\nvar floodFill = function(image, sr, sc, newColor) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} image\n * @param {number} sr\n * @param {number} sc\n * @param {number} newColor\n * @return {number[][]}\n */\nvar floodFill = function(image, sr, sc, newColor) {\n    \n};",
+        "py": "class Solution:\n    def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0735",
     "titleSlug": "asteroid-collision",
@@ -15218,7 +16955,10 @@ let data = [{
         "  - 每一颗行星的大小都是非零整数，范围是 [-1000, 1000] 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} asteroids\n * @return {number[]}\n */\nvar asteroidCollision = function(asteroids) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} asteroids\n * @return {number[]}\n */\nvar asteroidCollision = function(asteroids) {\n    \n};",
+        "py": "class Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0736",
     "titleSlug": "parse-lisp-expression",
@@ -15275,7 +17015,10 @@ let data = [{
         "  - 最终的结果和中间的计算结果都将是一个 32 位整数。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} expression\n * @return {number}\n */\nvar evaluate = function(expression) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} expression\n * @return {number}\n */\nvar evaluate = function(expression) {\n    \n};",
+        "py": "class Solution:\n    def evaluate(self, expression: str) -> int:\n        "
+    }
 }, {
     "questionId": "0738",
     "titleSlug": "monotone-increasing-digits",
@@ -15299,7 +17042,10 @@ let data = [{
         "说明: N 是在 [0, 10^9] 范围内的一个整数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar monotoneIncreasingDigits = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar monotoneIncreasingDigits = function(N) {\n    \n};",
+        "py": "class Solution:\n    def monotoneIncreasingDigits(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0739",
     "titleSlug": "daily-temperatures",
@@ -15311,7 +17057,10 @@ let data = [{
         "提示：气温 列表长度的范围是 [1, 30000]。每个气温的值的都是 [30, 100] 范围内的整数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} T\n * @return {number[]}\n */\nvar dailyTemperatures = function(T) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} T\n * @return {number[]}\n */\nvar dailyTemperatures = function(T) {\n    \n};",
+        "py": "class Solution:\n    def dailyTemperatures(self, T: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0740",
     "titleSlug": "delete-and-earn",
@@ -15341,7 +17090,10 @@ let data = [{
         "  - 每个整数nums[i]的大小都在[1, 10000]范围内。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar deleteAndEarn = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar deleteAndEarn = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def deleteAndEarn(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0741",
     "titleSlug": "cherry-pickup",
@@ -15376,7 +17128,10 @@ let data = [{
         "  - 可以保证起点 grid[0][0] 和终点 grid[N-1][N-1] 的值都不会是 -1。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar cherryPickup = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar cherryPickup = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def cherryPickup(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0743",
     "titleSlug": "network-delay-time",
@@ -15393,7 +17148,10 @@ let data = [{
         "  - 所有的边 times[i] = (u, v, w) 都有 1 <= u, v <= N 且 0 <= w <= 100。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} times\n * @param {number} N\n * @param {number} K\n * @return {number}\n */\nvar networkDelayTime = function(times, N, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} times\r\n * @param {number} N\r\n * @param {number} K\r\n * @return {number}\r\n */\r\nvar networkDelayTime = function(times, N, K) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:\r\n        "
+    }
 }, {
     "questionId": "0744",
     "titleSlug": "find-smallest-letter-greater-than-target",
@@ -15433,7 +17191,10 @@ let data = [{
         "  - 目标字母target 是一个小写字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {character[]} letters\n * @param {character} target\n * @return {character}\n */\nvar nextGreatestLetter = function(letters, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[]} letters\n * @param {character} target\n * @return {character}\n */\nvar nextGreatestLetter = function(letters, target) {\n    \n};",
+        "py": "class Solution:\n    def nextGreatestLetter(self, letters: List[str], target: str) -> str:\n        "
+    }
 }, {
     "questionId": "0745",
     "titleSlug": "prefix-and-suffix-search",
@@ -15455,7 +17216,10 @@ let data = [{
         "  - words[i]和prefix, suffix只包含小写字母。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} words\n */\nvar WordFilter = function(words) {\n    \n};\n\n/** \n * @param {string} prefix \n * @param {string} suffix\n * @return {number}\n */\nWordFilter.prototype.f = function(prefix, suffix) {\n    \n};\n\n/** \n * Your WordFilter object will be instantiated and called as such:\n * var obj = Object.create(WordFilter).createNew(words)\n * var param_1 = obj.f(prefix,suffix)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n */\nvar WordFilter = function(words) {\n    \n};\n\n/** \n * @param {string} prefix \n * @param {string} suffix\n * @return {number}\n */\nWordFilter.prototype.f = function(prefix, suffix) {\n    \n};\n\n/** \n * Your WordFilter object will be instantiated and called as such:\n * var obj = new WordFilter(words)\n * var param_1 = obj.f(prefix,suffix)\n */",
+        "py": "class WordFilter:\n\n    def __init__(self, words: List[str]):\n        \n\n    def f(self, prefix: str, suffix: str) -> int:\n        \n\n\n# Your WordFilter object will be instantiated and called as such:\n# obj = WordFilter(words)\n# param_1 = obj.f(prefix,suffix)"
+    }
 }, {
     "questionId": "0746",
     "titleSlug": "min-cost-climbing-stairs",
@@ -15480,7 +17244,10 @@ let data = [{
         "  - 每一个 cost[i] 将会是一个Integer类型，范围为 [0, 999]。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} cost\n * @return {number}\n */\nvar minCostClimbingStairs = function(cost) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} cost\n * @return {number}\n */\nvar minCostClimbingStairs = function(cost) {\n    \n};",
+        "py": "class Solution:\n    def minCostClimbingStairs(self, cost: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0747",
     "titleSlug": "largest-number-at-least-twice-of-others",
@@ -15506,7 +17273,10 @@ let data = [{
         "  - 每个 nums[i] 的整数范围在 [0, 99]."
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar dominantIndex = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar dominantIndex = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def dominantIndex(self, nums: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0748",
     "titleSlug": "shortest-completing-word",
@@ -15536,7 +17306,10 @@ let data = [{
         "  - 每一个单词 words[i] 都是小写，并且长度在区间 [1, 15] 中。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} licensePlate\n * @param {string[]} words\n * @return {string}\n */\nvar shortestCompletingWord = function(licensePlate, words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} licensePlate\n * @param {string[]} words\n * @return {string}\n */\nvar shortestCompletingWord = function(licensePlate, words) {\n    \n};",
+        "py": "class Solution:\n    def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:\n        "
+    }
 }, {
     "questionId": "0749",
     "titleSlug": "contain-virus",
@@ -15592,7 +17365,10 @@ let data = [{
         "  - 题目保证每次选取感染区域进行隔离时，一定存在唯一一个对未感染区域的威胁最大的区域。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar containVirus = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar containVirus = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def containVirus(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0752",
     "titleSlug": "open-the-lock",
@@ -15634,7 +17410,10 @@ let data = [{
         "  - 每个 deadends 和 target 中的字符串的数字会在 10,000 个可能的情况 '0000' 到 '9999' 中产生。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} deadends\n * @param {string} target\n * @return {number}\n */\nvar openLock = function(deadends, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} deadends\n * @param {string} target\n * @return {number}\n */\nvar openLock = function(deadends, target) {\n    \n};",
+        "py": "class Solution:\n    def openLock(self, deadends: List[str], target: str) -> int:\n        "
+    }
 }, {
     "questionId": "0753",
     "titleSlug": "cracking-the-safe",
@@ -15663,7 +17442,10 @@ let data = [{
         "  - k^n 最大可能为 4096。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number} k\n * @return {string}\n */\nvar crackSafe = function(n, k) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number} k\n * @return {string}\n */\nvar crackSafe = function(n, k) {\n    \n};",
+        "py": "class Solution:\n    def crackSafe(self, n: int, k: int) -> str:\n        "
+    }
 }, {
     "questionId": "0754",
     "titleSlug": "reach-a-number",
@@ -15692,7 +17474,10 @@ let data = [{
         "  - target是在[-10^9, 10^9]范围中的非零整数。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} target\n * @return {number}\n */\nvar reachNumber = function(target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} target\n * @return {number}\n */\nvar reachNumber = function(target) {\n    \n};",
+        "py": "class Solution:\n    def reachNumber(self, target: int) -> int:\n        "
+    }
 }, {
     "questionId": "0756",
     "titleSlug": "pyramid-transition-matrix",
@@ -15731,7 +17516,10 @@ let data = [{
         "  - 方块的标记字母范围为{'A', 'B', 'C', 'D', 'E', 'F', 'G'}。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} bottom\n * @param {string[]} allowed\n * @return {boolean}\n */\nvar pyramidTransition = function(bottom, allowed) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} bottom\r\n * @param {string[]} allowed\r\n * @return {boolean}\r\n */\r\nvar pyramidTransition = function(bottom, allowed) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:\r\n        "
+    }
 }, {
     "questionId": "0757",
     "titleSlug": "set-intersection-size-at-least-two",
@@ -15760,7 +17548,10 @@ let data = [{
         "  - intervals[i][j] 的值是 [0, 10^8]范围内的整数。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} intervals\n * @return {number}\n */\nvar intersectionSizeTwo = function(intervals) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} intervals\n * @return {number}\n */\nvar intersectionSizeTwo = function(intervals) {\n    \n};",
+        "py": "class Solution:\n    def intersectionSizeTwo(self, intervals: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0761",
     "titleSlug": "special-binary-string",
@@ -15785,7 +17576,10 @@ let data = [{
         "  - S 保证为一个满足上述定义的特殊 的二进制序列。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {string}\n */\nvar makeLargestSpecial = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {string}\n */\nvar makeLargestSpecial = function(S) {\n    \n};",
+        "py": "class Solution:\n    def makeLargestSpecial(self, S: str) -> str:\n        "
+    }
 }, {
     "questionId": "0762",
     "titleSlug": "prime-number-of-set-bits-in-binary-representation",
@@ -15819,7 +17613,10 @@ let data = [{
         "  - R - L 的最大值为 10000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} L\n * @param {number} R\n * @return {number}\n */\nvar countPrimeSetBits = function(L, R) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} L\n * @param {number} R\n * @return {number}\n */\nvar countPrimeSetBits = function(L, R) {\n    \n};",
+        "py": "class Solution:\n    def countPrimeSetBits(self, L: int, R: int) -> int:\n        "
+    }
 }, {
     "questionId": "0763",
     "titleSlug": "partition-labels",
@@ -15840,7 +17637,10 @@ let data = [{
         "  - S只包含小写字母'a'到'z'。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number[]}\n */\nvar partitionLabels = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number[]}\n */\nvar partitionLabels = function(S) {\n    \n};",
+        "py": "class Solution:\n    def partitionLabels(self, S: str) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0764",
     "titleSlug": "largest-plus-sign",
@@ -15910,7 +17710,10 @@ let data = [{
         "  - (另外,使用 C, C++, 或者 C# 编程将以稍小的时间限制进行​​判断.)"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number[][]} mines\n * @return {number}\n */\nvar orderOfLargestPlusSign = function(N, mines) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number[][]} mines\n * @return {number}\n */\nvar orderOfLargestPlusSign = function(N, mines) {\n    \n};",
+        "py": "class Solution:\n    def orderOfLargestPlusSign(self, N: int, mines: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0765",
     "titleSlug": "couples-holding-hands",
@@ -15935,7 +17738,10 @@ let data = [{
         "  - 可以保证row 是序列 0...len(row)-1 的一个全排列。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} row\n * @return {number}\n */\nvar minSwapsCouples = function(row) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} row\n * @return {number}\n */\nvar minSwapsCouples = function(row) {\n    \n};",
+        "py": "class Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0766",
     "titleSlug": "toeplitz-matrix",
@@ -15977,7 +17783,10 @@ let data = [{
         "  - 如果矩阵太大以至于只能一次将部分行加载到内存中，该怎么办？"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} matrix\n * @return {boolean}\n */\nvar isToeplitzMatrix = function(matrix) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} matrix\n * @return {boolean}\n */\nvar isToeplitzMatrix = function(matrix) {\n    \n};",
+        "py": "class Solution:\n    def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:\n        "
+    }
 }, {
     "questionId": "0767",
     "titleSlug": "reorganize-string",
@@ -15998,7 +17807,10 @@ let data = [{
         "  - S 只包含小写字母并且长度在[1, 500]区间内。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {string}\n */\nvar reorganizeString = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {string}\n */\nvar reorganizeString = function(S) {\n    \n};",
+        "py": "class Solution:\n    def reorganizeString(self, S: str) -> str:\n        "
+    }
 }, {
     "questionId": "0768",
     "titleSlug": "max-chunks-to-make-sorted-ii",
@@ -16028,7 +17840,10 @@ let data = [{
         "  - arr[i]的大小在[0, 10**8]之间。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} arr\n * @return {number}\n */\nvar maxChunksToSorted = function(arr) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} arr\n * @return {number}\n */\nvar maxChunksToSorted = function(arr) {\n    \n};",
+        "py": "class Solution:\n    def maxChunksToSorted(self, arr: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0769",
     "titleSlug": "max-chunks-to-make-sorted",
@@ -16057,7 +17872,10 @@ let data = [{
         "  - arr[i]是 [0, 1, ..., arr.length - 1]的一种排列。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} arr\n * @return {number}\n */\nvar maxChunksToSorted = function(arr) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} arr\n * @return {number}\n */\nvar maxChunksToSorted = function(arr) {\n    \n};",
+        "py": "class Solution:\n    def maxChunksToSorted(self, arr: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0770",
     "titleSlug": "basic-calculator-iv",
@@ -16103,7 +17921,10 @@ let data = [{
         "  - evalvars, evalints 在范围 [0, 100] 内，且长度相同。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} expression\n * @param {string[]} evalvars\n * @param {number[]} evalints\n * @return {string[]}\n */\nvar basicCalculatorIV = function(expression, evalvars, evalints) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} expression\n * @param {string[]} evalvars\n * @param {number[]} evalints\n * @return {string[]}\n */\nvar basicCalculatorIV = function(expression, evalvars, evalints) {\n    \n};",
+        "py": "class Solution:\n    def basicCalculatorIV(self, expression: str, evalvars: List[str], evalints: List[int]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0771",
     "titleSlug": "jewels-and-stones",
@@ -16125,7 +17946,10 @@ let data = [{
         "  -  J 中的字符不重复。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} J\n * @param {string} S\n * @return {number}\n */\nvar numJewelsInStones = function(J, S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} J\n * @param {string} S\n * @return {number}\n */\nvar numJewelsInStones = function(J, S) {\n    \n};",
+        "py": "class Solution:\n    def numJewelsInStones(self, J: str, S: str) -> int:\n        "
+    }
 }, {
     "questionId": "0773",
     "titleSlug": "sliding-puzzle",
@@ -16165,7 +17989,10 @@ let data = [{
         "  - board[i][j] 是一个 [0, 1, 2, 3, 4, 5] 的排列."
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} board\n * @return {number}\n */\nvar slidingPuzzle = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} board\n * @return {number}\n */\nvar slidingPuzzle = function(board) {\n    \n};",
+        "py": "class Solution:\n    def slidingPuzzle(self, board: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0775",
     "titleSlug": "global-and-local-inversions",
@@ -16190,7 +18017,10 @@ let data = [{
         "  - 这个问题的时间限制已经减少了。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar isIdealPermutation = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar isIdealPermutation = function(A) {\n    \n};",
+        "py": "class Solution:\n    def isIdealPermutation(self, A: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0777",
     "titleSlug": "swap-adjacent-in-lr-string",
@@ -16214,7 +18044,10 @@ let data = [{
         "  - start和end中的字符串仅限于'L', 'R'和'X'。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} start\n * @param {string} end\n * @return {boolean}\n */\nvar canTransform = function(start, end) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} start\n * @param {string} end\n * @return {boolean}\n */\nvar canTransform = function(start, end) {\n    \n};",
+        "py": "class Solution:\n    def canTransform(self, start: str, end: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0778",
     "titleSlug": "swim-in-rising-water",
@@ -16251,7 +18084,10 @@ let data = [{
         "  - grid[i][j] 位于区间 [0, ..., N*N - 1] 内。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar swimInWater = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar swimInWater = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def swimInWater(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0779",
     "titleSlug": "k-th-symbol-in-grammar",
@@ -16284,7 +18120,10 @@ let data = [{
         "  - K 的范围 [1, 2^(N-1)]."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number} K\n * @return {number}\n */\nvar kthGrammar = function(N, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number} K\n * @return {number}\n */\nvar kthGrammar = function(N, K) {\n    \n};",
+        "py": "class Solution:\n    def kthGrammar(self, N: int, K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0780",
     "titleSlug": "reaching-points",
@@ -16311,7 +18150,10 @@ let data = [{
         "  - sx, sy, tx, ty 是范围在 [1, 10^9] 的整数。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} sx\n * @param {number} sy\n * @param {number} tx\n * @param {number} ty\n * @return {boolean}\n */\nvar reachingPoints = function(sx, sy, tx, ty) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} sx\n * @param {number} sy\n * @param {number} tx\n * @param {number} ty\n * @return {boolean}\n */\nvar reachingPoints = function(sx, sy, tx, ty) {\n    \n};",
+        "py": "class Solution:\n    def reachingPoints(self, sx: int, sy: int, tx: int, ty: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0781",
     "titleSlug": "rabbits-in-forest",
@@ -16340,7 +18182,10 @@ let data = [{
         "  - answers[i] 是在 [0, 999] 范围内的整数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} answers\n * @return {number}\n */\nvar numRabbits = function(answers) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} answers\n * @return {number}\n */\nvar numRabbits = function(answers) {\n    \n};",
+        "py": "class Solution:\n    def numRabbits(self, answers: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0782",
     "titleSlug": "transform-to-chessboard",
@@ -16383,7 +18228,10 @@ let data = [{
         "  - board[i][j] 将只包含 0或 1。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} board\n * @return {number}\n */\nvar movesToChessboard = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} board\n * @return {number}\n */\nvar movesToChessboard = function(board) {\n    \n};",
+        "py": "class Solution:\n    def movesToChessboard(self, board: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0783",
     "titleSlug": "minimum-distance-between-bst-nodes",
@@ -16413,7 +18261,10 @@ let data = [{
         "  - 二叉树总是有效的，每个节点的值都是整数，且不重复。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar minDiffInBST = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar minDiffInBST = function(root) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def minDiffInBST(self, root: TreeNode) -> int:"
+    }
 }, {
     "questionId": "0784",
     "titleSlug": "letter-case-permutation",
@@ -16435,7 +18286,10 @@ let data = [{
         "  - S 仅由数字和字母组成。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {string[]}\n */\nvar letterCasePermutation = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} S\r\n * @return {string[]}\r\n */\r\nvar letterCasePermutation = function(S) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def letterCasePermutation(self, S: str) -> List[str]:\r\n        "
+    }
 }, {
     "questionId": "0785",
     "titleSlug": "is-graph-bipartite",
@@ -16474,7 +18328,10 @@ let data = [{
         "  - 图是无向的: 如果j 在 graph[i]里边, 那么 i 也会在 graph[j]里边。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} graph\n * @return {boolean}\n */\nvar isBipartite = function(graph) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} graph\n * @return {boolean}\n */\nvar isBipartite = function(graph) {\n    \n};",
+        "py": "class Solution:\n    def isBipartite(self, graph: List[List[int]]) -> bool:\n        "
+    }
 }, {
     "questionId": "0786",
     "titleSlug": "k-th-smallest-prime-fraction",
@@ -16499,7 +18356,10 @@ let data = [{
         "  - K 取值范围为 1 ——A.length * (A.length - 1) / 2"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number[]}\n */\nvar kthSmallestPrimeFraction = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number[]}\n */\nvar kthSmallestPrimeFraction = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def kthSmallestPrimeFraction(self, A: List[int], K: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0787",
     "titleSlug": "cheapest-flights-within-k-stops",
@@ -16538,7 +18398,10 @@ let data = [{
         "  - 航班没有重复，且不存在环路"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} n\n * @param {number[][]} flights\n * @param {number} src\n * @param {number} dst\n * @param {number} K\n * @return {number}\n */\nvar findCheapestPrice = function(n, flights, src, dst, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} n\n * @param {number[][]} flights\n * @param {number} src\n * @param {number} dst\n * @param {number} K\n * @return {number}\n */\nvar findCheapestPrice = function(n, flights, src, dst, K) {\n    \n};",
+        "py": "class Solution:\n    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0788",
     "titleSlug": "rotated-digits",
@@ -16559,7 +18422,10 @@ let data = [{
         "  - N 的取值范围是 [1, 10000]。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar rotatedDigits = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar rotatedDigits = function(N) {\n    \n};",
+        "py": "class Solution:\n    def rotatedDigits(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0789",
     "titleSlug": "escape-the-ghosts",
@@ -16599,7 +18465,10 @@ let data = [{
         "  - 阻碍者的数量不会超过 100。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} ghosts\n * @param {number[]} target\n * @return {boolean}\n */\nvar escapeGhosts = function(ghosts, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} ghosts\n * @param {number[]} target\n * @return {boolean}\n */\nvar escapeGhosts = function(ghosts, target) {\n    \n};",
+        "py": "class Solution:\n    def escapeGhosts(self, ghosts: List[List[int]], target: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0790",
     "titleSlug": "domino-and-tromino-tiling",
@@ -16624,7 +18493,10 @@ let data = [{
         "  - N  的范围是 [1, 1000]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar numTilings = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar numTilings = function(N) {\n    \n};",
+        "py": "class Solution:\n    def numTilings(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0791",
     "titleSlug": "custom-sort-string",
@@ -16648,7 +18520,10 @@ let data = [{
         "  - S和T只包含小写字符。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {string} T\n * @return {string}\n */\nvar customSortString = function(S, T) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {string} T\n * @return {string}\n */\nvar customSortString = function(S, T) {\n    \n};",
+        "py": "class Solution:\n    def customSortString(self, S: str, T: str) -> str:\n        "
+    }
 }, {
     "questionId": "0792",
     "titleSlug": "number-of-matching-subsequences",
@@ -16669,7 +18544,10 @@ let data = [{
         "  - words[i]的长度在[1, 50]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {string[]} words\n * @return {number}\n */\nvar numMatchingSubseq = function(S, words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {string[]} words\n * @return {number}\n */\nvar numMatchingSubseq = function(S, words) {\n    \n};",
+        "py": "class Solution:\n    def numMatchingSubseq(self, S: str, words: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0793",
     "titleSlug": "preimage-size-of-factorial-zeroes-function",
@@ -16693,7 +18571,10 @@ let data = [{
         "  - K是范围在 [0, 10^9] 的整数。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} K\n * @return {number}\n */\nvar preimageSizeFZF = function(K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} K\n * @return {number}\n */\nvar preimageSizeFZF = function(K) {\n    \n};",
+        "py": "class Solution:\n    def preimageSizeFZF(self, K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0794",
     "titleSlug": "valid-tic-tac-toe-state",
@@ -16732,7 +18613,10 @@ let data = [{
         "  -  board[i][j] 是集合 {\" \", \"X\", \"O\"} 中的一个字符。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} board\n * @return {boolean}\n */\nvar validTicTacToe = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} board\n * @return {boolean}\n */\nvar validTicTacToe = function(board) {\n    \n};",
+        "py": "class Solution:\n    def validTicTacToe(self, board: List[str]) -> bool:\n        "
+    }
 }, {
     "questionId": "0795",
     "titleSlug": "number-of-subarrays-with-bounded-maximum",
@@ -16754,7 +18638,10 @@ let data = [{
         "  - 数组 A 的长度范围在[1, 50000]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} L\n * @param {number} R\n * @return {number}\n */\nvar numSubarrayBoundedMax = function(A, L, R) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} L\n * @param {number} R\n * @return {number}\n */\nvar numSubarrayBoundedMax = function(A, L, R) {\n    \n};",
+        "py": "class Solution:\n    def numSubarrayBoundedMax(self, A: List[int], L: int, R: int) -> int:\n        "
+    }
 }, {
     "questionId": "0796",
     "titleSlug": "rotate-string",
@@ -16775,7 +18662,10 @@ let data = [{
         "  - A 和 B 长度不超过 100。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} A\n * @param {string} B\n * @return {boolean}\n */\nvar rotateString = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} A\n * @param {string} B\n * @return {boolean}\n */\nvar rotateString = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def rotateString(self, A: str, B: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0797",
     "titleSlug": "all-paths-from-source-to-target",
@@ -16798,7 +18688,10 @@ let data = [{
         "  - 你可以把路径以任意顺序输出，但在路径内的结点的顺序必须保证。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} graph\n * @return {number[][]}\n */\nvar allPathsSourceTarget = function(graph) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} graph\n * @return {number[][]}\n */\nvar allPathsSourceTarget = function(graph) {\n    \n};",
+        "py": "class Solution:\n    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0798",
     "titleSlug": "smallest-rotation-with-highest-score",
@@ -16833,7 +18726,10 @@ let data = [{
         "  - A[i] 的取值范围是 [0, A.length]。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar bestRotation = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar bestRotation = function(A) {\n    \n};",
+        "py": "class Solution:\n    def bestRotation(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0799",
     "titleSlug": "champagne-tower",
@@ -16861,7 +18757,10 @@ let data = [{
         "  - query_glass 和query_row 的范围 [0, 99]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} poured\n * @param {number} query_row\n * @param {number} query_glass\n * @return {number}\n */\nvar champagneTower = function(poured, query_row, query_glass) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} poured\n * @param {number} query_row\n * @param {number} query_glass\n * @return {number}\n */\nvar champagneTower = function(poured, query_row, query_glass) {\n    \n};",
+        "py": "class Solution:\n    def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:\n        "
+    }
 }, {
     "questionId": "0801",
     "titleSlug": "minimum-swaps-to-make-sequences-increasing",
@@ -16884,7 +18783,10 @@ let data = [{
         "  - A[i], B[i] 均为 [0, 2000]区间内的整数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number}\n */\nvar minSwap = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number}\n */\nvar minSwap = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def minSwap(self, A: List[int], B: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0802",
     "titleSlug": "find-eventual-safe-states",
@@ -16906,7 +18808,10 @@ let data = [{
         "  - 每个 graph[i] 被排序为不同的整数列表， 在区间 [0, graph.length - 1] 中选取。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} graph\n * @return {number[]}\n */\nvar eventualSafeNodes = function(graph) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} graph\n * @return {number[]}\n */\nvar eventualSafeNodes = function(graph) {\n    \n};",
+        "py": "class Solution:\n    def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0803",
     "titleSlug": "bricks-falling-when-hit",
@@ -16939,7 +18844,10 @@ let data = [{
         "  - 一个消除的位置可能没有砖块，如果这样的话，就不会有砖块落下。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @param {number[][]} hits\n * @return {number[]}\n */\nvar hitBricks = function(grid, hits) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @param {number[][]} hits\n * @return {number[]}\n */\nvar hitBricks = function(grid, hits) {\n    \n};",
+        "py": "class Solution:\n    def hitBricks(self, grid: List[List[int]], hits: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0804",
     "titleSlug": "unique-morse-code-words",
@@ -16968,7 +18876,10 @@ let data = [{
         "  - 每个单词 words[i]只包含小写字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @return {number}\n */\nvar uniqueMorseRepresentations = function(words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n * @return {number}\n */\nvar uniqueMorseRepresentations = function(words) {\n    \n};",
+        "py": "class Solution:\n    def uniqueMorseRepresentations(self, words: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0805",
     "titleSlug": "split-array-with-same-average",
@@ -16987,7 +18898,10 @@ let data = [{
         "  - A[i] 的数据范围为 [0, 10000]."
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar splitArraySameAverage = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar splitArraySameAverage = function(A) {\n    \n};",
+        "py": "class Solution:\n    def splitArraySameAverage(self, A: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0806",
     "titleSlug": "number-of-lines-to-write-string",
@@ -17022,7 +18936,10 @@ let data = [{
         "  - widths[i] 值的范围在 [2, 10]。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} widths\n * @param {string} S\n * @return {number[]}\n */\nvar numberOfLines = function(widths, S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} widths\n * @param {string} S\n * @return {number[]}\n */\nvar numberOfLines = function(widths, S) {\n    \n};",
+        "py": "class Solution:\n    def numberOfLines(self, widths: List[int], S: str) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0807",
     "titleSlug": "max-increase-to-keep-city-skyline",
@@ -17057,7 +18974,10 @@ let data = [{
         "  - 一座建筑物占据一个grid[i][j]：换言之，它们是 1 x 1 x grid[i][j] 的长方体。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar maxIncreaseKeepingSkyline = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar maxIncreaseKeepingSkyline = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def maxIncreaseKeepingSkyline(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0808",
     "titleSlug": "soup-servings",
@@ -17085,7 +19005,10 @@ let data = [{
         "  - 返回值在 10^-6 的范围将被认为是正确的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar soupServings = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar soupServings = function(N) {\n    \n};",
+        "py": "class Solution:\n    def soupServings(self, N: int) -> float:\n        "
+    }
 }, {
     "questionId": "0809",
     "titleSlug": "expressive-words",
@@ -17110,7 +19033,10 @@ let data = [{
         "  - S 和所有在 words 中的单词都只由小写字母组成。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {string[]} words\n * @return {number}\n */\nvar expressiveWords = function(S, words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {string[]} words\n * @return {number}\n */\nvar expressiveWords = function(S, words) {\n    \n};",
+        "py": "class Solution:\n    def expressiveWords(self, S: str, words: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0810",
     "titleSlug": "chalkboard-xor-game",
@@ -17132,7 +19058,10 @@ let data = [{
         "  - 0 <= nums[i] <= 2^16"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar xorGame = function(nums) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar xorGame = function(nums) {\n    \n};",
+        "py": "class Solution:\n    def xorGame(self, nums: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0811",
     "titleSlug": "subdomain-visit-count",
@@ -17168,7 +19097,10 @@ let data = [{
         "  - 输入中任意一个域名的访问次数都小于10000。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} cpdomains\n * @return {string[]}\n */\nvar subdomainVisits = function(cpdomains) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} cpdomains\n * @return {string[]}\n */\nvar subdomainVisits = function(cpdomains) {\n    \n};",
+        "py": "class Solution:\n    def subdomainVisits(self, cpdomains: List[str]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0812",
     "titleSlug": "largest-triangle-area",
@@ -17190,7 +19122,10 @@ let data = [{
         "  - 结果误差值在 10^-6 以内都认为是正确答案。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} points\n * @return {number}\n */\nvar largestTriangleArea = function(points) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} points\n * @return {number}\n */\nvar largestTriangleArea = function(points) {\n    \n};",
+        "py": "class Solution:\n    def largestTriangleArea(self, points: List[List[int]]) -> float:\n        "
+    }
 }, {
     "questionId": "0813",
     "titleSlug": "largest-sum-of-averages",
@@ -17216,7 +19151,10 @@ let data = [{
         "  - 答案误差在 10^-6 内被视为是正确的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar largestSumOfAverages = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar largestSumOfAverages = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def largestSumOfAverages(self, A: List[int], K: int) -> float:\n        "
+    }
 }, {
     "questionId": "0814",
     "titleSlug": "binary-tree-pruning",
@@ -17252,7 +19190,10 @@ let data = [{
         "  - 每个节点的值只会为 0 或 1 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar pruneTree = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar pruneTree = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def pruneTree(self, root: TreeNode) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0815",
     "titleSlug": "bus-routes",
@@ -17275,7 +19216,10 @@ let data = [{
         "  - 0 <= routes[i][j] < 10 ^ 6."
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} routes\n * @param {number} S\n * @param {number} T\n * @return {number}\n */\nvar numBusesToDestination = function(routes, S, T) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} routes\n * @param {number} S\n * @param {number} T\n * @return {number}\n */\nvar numBusesToDestination = function(routes, S, T) {\n    \n};",
+        "py": "class Solution:\n    def numBusesToDestination(self, routes: List[List[int]], S: int, T: int) -> int:\n        "
+    }
 }, {
     "questionId": "0816",
     "titleSlug": "ambiguous-coordinates",
@@ -17310,7 +19254,10 @@ let data = [{
         "  - S[0] = \"(\", S[S.length - 1] = \")\", 且字符串 S 中的其他元素都是数字。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {string[]}\n */\nvar ambiguousCoordinates = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {string[]}\n */\nvar ambiguousCoordinates = function(S) {\n    \n};",
+        "py": "class Solution:\n    def ambiguousCoordinates(self, S: str) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0817",
     "titleSlug": "linked-list-components",
@@ -17343,7 +19290,10 @@ let data = [{
         "  - G 是链表中所有结点的值的一个子集."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number[]} G\n * @return {number}\n */\nvar numComponents = function(head, G) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number[]} G\n * @return {number}\n */\nvar numComponents = function(head, G) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def numComponents(self, head: ListNode, G: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0818",
     "titleSlug": "race-car",
@@ -17377,7 +19327,10 @@ let data = [{
         "  - 1 <= target（目标位置） <= 10000。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} target\n * @return {number}\n */\nvar racecar = function(target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} target\n * @return {number}\n */\nvar racecar = function(target) {\n    \n};",
+        "py": "class Solution:\n    def racecar(self, target: int) -> int:\n        "
+    }
 }, {
     "questionId": "0819",
     "titleSlug": "most-common-word",
@@ -17408,7 +19361,10 @@ let data = [{
         "  - 单词里只包含字母，不会出现省略号或者其他标点符号。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} paragraph\n * @param {string[]} banned\n * @return {string}\n */\nvar mostCommonWord = function(paragraph, banned) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} paragraph\r\n * @param {string[]} banned\r\n * @return {string}\r\n */\r\nvar mostCommonWord = function(paragraph, banned) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:\r\n        "
+    }
 }, {
     "questionId": "0820",
     "titleSlug": "short-encoding-of-words",
@@ -17432,7 +19388,10 @@ let data = [{
         "  - 每个单词都是小写字母 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @return {number}\n */\nvar minimumLengthEncoding = function(words) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n * @return {number}\n */\nvar minimumLengthEncoding = function(words) {\n    \n};",
+        "py": "class Solution:\n    def minimumLengthEncoding(self, words: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0821",
     "titleSlug": "shortest-distance-to-a-character",
@@ -17450,7 +19409,10 @@ let data = [{
         "  - S 和 C 中的所有字母均为小写字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {character} C\n * @return {number[]}\n */\nvar shortestToChar = function(S, C) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {character} C\n * @return {number[]}\n */\nvar shortestToChar = function(S, C) {\n    \n};",
+        "py": "class Solution:\n    def shortestToChar(self, S: str, C: str) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0822",
     "titleSlug": "card-flipping-game",
@@ -17475,7 +19437,10 @@ let data = [{
         "  - 1 <= backs[i] <= 2000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} fronts\n * @param {number[]} backs\n * @return {number}\n */\nvar flipgame = function(fronts, backs) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} fronts\n * @param {number[]} backs\n * @return {number}\n */\nvar flipgame = function(fronts, backs) {\n    \n};",
+        "py": "class Solution:\n    def flipgame(self, fronts: List[int], backs: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0823",
     "titleSlug": "binary-trees-with-factors",
@@ -17501,7 +19466,10 @@ let data = [{
         "  - 2 <= A[i] <= 10 ^ 9."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar numFactoredBinaryTrees = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar numFactoredBinaryTrees = function(A) {\n    \n};",
+        "py": "class Solution:\n    def numFactoredBinaryTrees(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0824",
     "titleSlug": "goat-latin",
@@ -17537,7 +19505,10 @@ let data = [{
         "  - 1 <= S.length <= 150。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {string}\n */\nvar toGoatLatin = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {string}\n */\nvar toGoatLatin = function(S) {\n    \n};",
+        "py": "class Solution:\n    def toGoatLatin(self, S: str) -> str:\n        "
+    }
 }, {
     "questionId": "0825",
     "titleSlug": "friends-of-appropriate-ages",
@@ -17574,7 +19545,10 @@ let data = [{
         "  - 1 <= ages[i] <= 120."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} ages\n * @return {number}\n */\nvar numFriendRequests = function(ages) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} ages\n * @return {number}\n */\nvar numFriendRequests = function(ages) {\n    \n};",
+        "py": "class Solution:\n    def numFriendRequests(self, ages: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0826",
     "titleSlug": "most-profit-assigning-work",
@@ -17596,7 +19570,10 @@ let data = [{
         "  - difficulty[i], profit[i], worker[i]  的范围是 [1, 10^5]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} difficulty\n * @param {number[]} profit\n * @param {number[]} worker\n * @return {number}\n */\nvar maxProfitAssignment = function(difficulty, profit, worker) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} difficulty\n * @param {number[]} profit\n * @param {number[]} worker\n * @return {number}\n */\nvar maxProfitAssignment = function(difficulty, profit, worker) {\n    \n};",
+        "py": "class Solution:\n    def maxProfitAssignment(self, difficulty: List[int], profit: List[int], worker: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0827",
     "titleSlug": "making-a-large-island",
@@ -17625,7 +19602,10 @@ let data = [{
         "  - 0 <= grid[i][j] <= 1"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar largestIsland = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar largestIsland = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def largestIsland(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0828",
     "titleSlug": "unique-letter-string",
@@ -17655,7 +19635,10 @@ let data = [{
         "说明: 0 <= S.length <= 10000。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number}\n */\nvar uniqueLetterString = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number}\n */\nvar uniqueLetterString = function(S) {\n    \n};",
+        "py": "class Solution:\n    def uniqueLetterString(self, S: str) -> int:\n        "
+    }
 }, {
     "questionId": "0829",
     "titleSlug": "consecutive-numbers-sum",
@@ -17681,7 +19664,10 @@ let data = [{
         "说明: 1 <= N <= 10 ^ 9"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar consecutiveNumbersSum = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar consecutiveNumbersSum = function(N) {\n    \n};",
+        "py": "class Solution:\n    def consecutiveNumbersSum(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0830",
     "titleSlug": "positions-of-large-groups",
@@ -17710,7 +19696,10 @@ let data = [{
         "说明:  1 <= S.length <= 1000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number[][]}\n */\nvar largeGroupPositions = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number[][]}\n */\nvar largeGroupPositions = function(S) {\n    \n};",
+        "py": "class Solution:\n    def largeGroupPositions(self, S: str) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0831",
     "titleSlug": "masking-personal-information",
@@ -17765,7 +19754,10 @@ let data = [{
         "  - 电话号码的长度至少是 10。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {string}\n */\nvar maskPII = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {string}\n */\nvar maskPII = function(S) {\n    \n};",
+        "py": "class Solution:\n    def maskPII(self, S: str) -> str:\n        "
+    }
 }, {
     "questionId": "0832",
     "titleSlug": "flipping-an-image",
@@ -17792,7 +19784,10 @@ let data = [{
         "  - 0 <= A[i][j] <= 1"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} A\n * @return {number[][]}\n */\nvar flipAndInvertImage = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} A\n * @return {number[][]}\n */\nvar flipAndInvertImage = function(A) {\n    \n};",
+        "py": "class Solution:\n    def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0833",
     "titleSlug": "find-and-replace-in-string",
@@ -17824,7 +19819,10 @@ let data = [{
         "  - 给定输入中的所有字符都是小写字母。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {number[]} indexes\n * @param {string[]} sources\n * @param {string[]} targets\n * @return {string}\n */\nvar findReplaceString = function(S, indexes, sources, targets) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {number[]} indexes\n * @param {string[]} sources\n * @param {string[]} targets\n * @return {string}\n */\nvar findReplaceString = function(S, indexes, sources, targets) {\n    \n};",
+        "py": "class Solution:\n    def findReplaceString(self, S: str, indexes: List[int], sources: List[str], targets: List[str]) -> str:\n        "
+    }
 }, {
     "questionId": "0834",
     "titleSlug": "sum-of-distances-in-tree",
@@ -17851,7 +19849,10 @@ let data = [{
         "说明: 1 <= N <= 10000"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number[][]} edges\n * @return {number[]}\n */\nvar sumOfDistancesInTree = function(N, edges) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number[][]} edges\n * @return {number[]}\n */\nvar sumOfDistancesInTree = function(N, edges) {\n    \n};",
+        "py": "class Solution:\n    def sumOfDistancesInTree(self, N: int, edges: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0835",
     "titleSlug": "image-overlap",
@@ -17877,7 +19878,10 @@ let data = [{
         "  - 0 <= A[i][j], B[i][j] <= 1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} A\n * @param {number[][]} B\n * @return {number}\n */\nvar largestOverlap = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} A\n * @param {number[][]} B\n * @return {number}\n */\nvar largestOverlap = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def largestOverlap(self, A: List[List[int]], B: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0836",
     "titleSlug": "rectangle-overlap",
@@ -17900,7 +19904,10 @@ let data = [{
         "  - 矩形中的所有坐标都处于 -10^9 和 10^9 之间。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} rec1\n * @param {number[]} rec2\n * @return {boolean}\n */\nvar isRectangleOverlap = function(rec1, rec2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} rec1\n * @param {number[]} rec2\n * @return {boolean}\n */\nvar isRectangleOverlap = function(rec1, rec2) {\n    \n};",
+        "py": "class Solution:\n    def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0837",
     "titleSlug": "new-21-game",
@@ -17933,7 +19940,10 @@ let data = [{
         "  - 此问题的判断限制时间已经减少。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number} K\n * @param {number} W\n * @return {number}\n */\nvar new21Game = function(N, K, W) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number} K\n * @param {number} W\n * @return {number}\n */\nvar new21Game = function(N, K, W) {\n    \n};",
+        "py": "class Solution:\n    def new21Game(self, N: int, K: int, W: int) -> float:\n        "
+    }
 }, {
     "questionId": "0838",
     "titleSlug": "push-dominoes",
@@ -17963,7 +19973,10 @@ let data = [{
         "  - 表示多米诺骨牌状态的字符串只含有 'L'，'R'; 以及 '.';"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} dominoes\n * @return {string}\n */\nvar pushDominoes = function(dominoes) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} dominoes\n * @return {string}\n */\nvar pushDominoes = function(dominoes) {\n    \n};",
+        "py": "class Solution:\n    def pushDominoes(self, dominoes: str) -> str:\n        "
+    }
 }, {
     "questionId": "0839",
     "titleSlug": "similar-string-groups",
@@ -17990,7 +20003,10 @@ let data = [{
         "      字母异位词[anagram]，一种把某个字符串的字母的位置（顺序）加以改换所形成的新词。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar numSimilarGroups = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar numSimilarGroups = function(A) {\n    \n};",
+        "py": "class Solution:\n    def numSimilarGroups(self, A: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0840",
     "titleSlug": "magic-squares-in-grid",
@@ -18023,7 +20039,10 @@ let data = [{
         "  - 0 <= grid[i][j] <= 15"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar numMagicSquaresInside = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar numMagicSquaresInside = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def numMagicSquaresInside(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0841",
     "titleSlug": "keys-and-rooms",
@@ -18056,7 +20075,10 @@ let data = [{
         "  - 所有房间中的钥匙数量总计不超过 3000。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} rooms\n * @return {boolean}\n */\nvar canVisitAllRooms = function(rooms) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} rooms\n * @return {boolean}\n */\nvar canVisitAllRooms = function(rooms) {\n    \n};",
+        "py": "class Solution:\n    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:\n        "
+    }
 }, {
     "questionId": "0842",
     "titleSlug": "split-array-into-fibonacci-sequence",
@@ -18099,7 +20121,10 @@ let data = [{
         "  - 字符串 S 中只含有数字。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number[]}\n */\nvar splitIntoFibonacci = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number[]}\n */\nvar splitIntoFibonacci = function(S) {\n    \n};",
+        "py": "class Solution:\n    def splitIntoFibonacci(self, S: str) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0843",
     "titleSlug": "guess-the-word",
@@ -18128,7 +20153,10 @@ let data = [{
         "提示：任何试图绕过评判的解决方案都将导致比赛资格被取消。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * // This is the master's API interface.\n * // You should not implement it, or speculate about its implementation\n * function Master() {\n *\n *     @param {string[]} wordlist\n *     @param {Master} master\n *     @return {integer}\n *     this.guess = function(word) {\n *         ...\n *     };\n * };\n */\n/**\n * @param {string[]} wordlist\n * @param {Master} master\n * @return {void}\n */\nvar findSecretWord = function(wordlist, master) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * // This is the master's API interface.\r\n * // You should not implement it, or speculate about its implementation\r\n * function Master() {\r\n *\r\n *     @param {string[]} wordlist\r\n *     @param {Master} master\r\n *     @return {integer}\r\n *     this.guess = function(word) {\r\n *         ...\r\n *     };\r\n * };\r\n */\r\n/**\r\n * @param {string[]} wordlist\r\n * @param {Master} master\r\n * @return {void}\r\n */\r\nvar findSecretWord = function(wordlist, master) {\r\n    \r\n};",
+        "py": "# \"\"\"\r\n# This is Master's API interface.\r\n# You should not implement it, or speculate about its implementation\r\n# \"\"\"\r\n#class Master:\r\n#    def guess(self, word):\r\n#        \"\"\"\r\n#        :type word: str\r\n#        :rtype int\r\n#        \"\"\"\r\n\r\nclass Solution:\r\n    def findSecretWord(self, wordlist, master):\r\n        \"\"\"\r\n        :type wordlist: List[Str]\r\n        :type master: Master\r\n        :rtype: None\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0844",
     "titleSlug": "backspace-string-compare",
@@ -18162,7 +20190,10 @@ let data = [{
         "  - S 和 T 只含有小写字母以及字符 '#'。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {string} T\n * @return {boolean}\n */\nvar backspaceCompare = function(S, T) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {string} T\n * @return {boolean}\n */\nvar backspaceCompare = function(S, T) {\n    \n};",
+        "py": "class Solution:\n    def backspaceCompare(self, S: str, T: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0845",
     "titleSlug": "longest-mountain-in-array",
@@ -18191,7 +20222,10 @@ let data = [{
         "  - 0 <= A[i] <= 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar longestMountain = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar longestMountain = function(A) {\n    \n};",
+        "py": "class Solution:\n    def longestMountain(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0846",
     "titleSlug": "hand-of-straights",
@@ -18217,7 +20251,10 @@ let data = [{
         "  - 1 <= W <= hand.length"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} hand\n * @param {number} W\n * @return {boolean}\n */\nvar isNStraightHand = function(hand, W) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} hand\n * @param {number} W\n * @return {boolean}\n */\nvar isNStraightHand = function(hand, W) {\n    \n};",
+        "py": "class Solution:\n    def isNStraightHand(self, hand: List[int], W: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0847",
     "titleSlug": "shortest-path-visiting-all-nodes",
@@ -18242,7 +20279,10 @@ let data = [{
         "  - 0 <= graph[i].length < graph.length"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} graph\n * @return {number}\n */\nvar shortestPathLength = function(graph) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} graph\n * @return {number}\n */\nvar shortestPathLength = function(graph) {\n    \n};",
+        "py": "class Solution:\n    def shortestPathLength(self, graph: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0848",
     "titleSlug": "shifting-letters",
@@ -18269,7 +20309,10 @@ let data = [{
         "  - 0 <= shifts[i] <= 10 ^ 9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {number[]} shifts\n * @return {string}\n */\nvar shiftingLetters = function(S, shifts) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {number[]} shifts\n * @return {string}\n */\nvar shiftingLetters = function(S, shifts) {\n    \n};",
+        "py": "class Solution:\n    def shiftingLetters(self, S: str, shifts: List[int]) -> str:\n        "
+    }
 }, {
     "questionId": "0849",
     "titleSlug": "maximize-distance-to-closest-person",
@@ -18300,7 +20343,10 @@ let data = [{
         "  - seats 中只含有 0 和 1，至少有一个 0，且至少有一个 1。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} seats\n * @return {number}\n */\nvar maxDistToClosest = function(seats) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} seats\n * @return {number}\n */\nvar maxDistToClosest = function(seats) {\n    \n};",
+        "py": "class Solution:\n    def maxDistToClosest(self, seats: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0850",
     "titleSlug": "rectangle-area-ii",
@@ -18327,7 +20373,10 @@ let data = [{
         "  - 矩形叠加覆盖后的总面积不会超越 2^63 - 1 ，这意味着可以用一个 64 位有符号整数来保存面积结果。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} rectangles\n * @return {number}\n */\nvar rectangleArea = function(rectangles) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} rectangles\r\n * @return {number}\r\n */\r\nvar rectangleArea = function(rectangles) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def rectangleArea(self, rectangles: List[List[int]]) -> int:"
+    }
 }, {
     "questionId": "0851",
     "titleSlug": "loud-and-rich",
@@ -18364,7 +20413,10 @@ let data = [{
         "  - 对 richer 的观察在逻辑上是一致的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} richer\n * @param {number[]} quiet\n * @return {number[]}\n */\nvar loudAndRich = function(richer, quiet) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} richer\n * @param {number[]} quiet\n * @return {number[]}\n */\nvar loudAndRich = function(richer, quiet) {\n    \n};",
+        "py": "class Solution:\n    def loudAndRich(self, richer: List[List[int]], quiet: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0852",
     "titleSlug": "peak-index-in-a-mountain-array",
@@ -18390,7 +20442,10 @@ let data = [{
         "  - A 是如上定义的山脉"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar peakIndexInMountainArray = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar peakIndexInMountainArray = function(A) {\n    \n};",
+        "py": "class Solution:\n    def peakIndexInMountainArray(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0853",
     "titleSlug": "car-fleet",
@@ -18422,7 +20477,10 @@ let data = [{
         "  - 所有车的初始位置各不相同。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} target\n * @param {number[]} position\n * @param {number[]} speed\n * @return {number}\n */\nvar carFleet = function(target, position, speed) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} target\n * @param {number[]} position\n * @param {number[]} speed\n * @return {number}\n */\nvar carFleet = function(target, position, speed) {\n    \n};",
+        "py": "class Solution:\n    def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0854",
     "titleSlug": "k-similar-strings",
@@ -18452,7 +20510,10 @@ let data = [{
         "  - A 和 B 只包含集合 {'a', 'b', 'c', 'd', 'e', 'f'} 中的小写字母。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} A\n * @param {string} B\n * @return {number}\n */\nvar kSimilarity = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} A\n * @param {string} B\n * @return {number}\n */\nvar kSimilarity = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def kSimilarity(self, A: str, B: str) -> int:\n        "
+    }
 }, {
     "questionId": "0855",
     "titleSlug": "exam-room",
@@ -18480,7 +20541,10 @@ let data = [{
         "  - 调用 ExamRoom.leave(p) 时需要确保当前有学生坐在座位 p 上。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n */\nvar ExamRoom = function(N) {\n    \n};\n\n/**\n * @return {number}\n */\nExamRoom.prototype.seat = function() {\n    \n};\n\n/** \n * @param {number} p\n * @return {void}\n */\nExamRoom.prototype.leave = function(p) {\n    \n};\n\n/** \n * Your ExamRoom object will be instantiated and called as such:\n * var obj = Object.create(ExamRoom).createNew(N)\n * var param_1 = obj.seat()\n * obj.leave(p)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n */\nvar ExamRoom = function(N) {\n    \n};\n\n/**\n * @return {number}\n */\nExamRoom.prototype.seat = function() {\n    \n};\n\n/** \n * @param {number} p\n * @return {void}\n */\nExamRoom.prototype.leave = function(p) {\n    \n};\n\n/** \n * Your ExamRoom object will be instantiated and called as such:\n * var obj = new ExamRoom(N)\n * var param_1 = obj.seat()\n * obj.leave(p)\n */",
+        "py": "class ExamRoom:\n\n    def __init__(self, N: int):\n        \n\n    def seat(self) -> int:\n        \n\n    def leave(self, p: int) -> None:\n        \n\n\n# Your ExamRoom object will be instantiated and called as such:\n# obj = ExamRoom(N)\n# param_1 = obj.seat()\n# obj.leave(p)"
+    }
 }, {
     "questionId": "0856",
     "titleSlug": "score-of-parentheses",
@@ -18512,7 +20576,10 @@ let data = [{
         "  - 2 <= S.length <= 50"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number}\n */\nvar scoreOfParentheses = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number}\n */\nvar scoreOfParentheses = function(S) {\n    \n};",
+        "py": "class Solution:\n    def scoreOfParentheses(self, S: str) -> int:\n        "
+    }
 }, {
     "questionId": "0857",
     "titleSlug": "minimum-cost-to-hire-k-workers",
@@ -18542,7 +20609,10 @@ let data = [{
         "  - 与正确答案误差在 10^-5 之内的答案将被视为正确的。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} quality\n * @param {number[]} wage\n * @param {number} K\n * @return {number}\n */\nvar mincostToHireWorkers = function(quality, wage, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} quality\n * @param {number[]} wage\n * @param {number} K\n * @return {number}\n */\nvar mincostToHireWorkers = function(quality, wage, K) {\n    \n};",
+        "py": "class Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], K: int) -> float:\n        "
+    }
 }, {
     "questionId": "0858",
     "titleSlug": "mirror-reflection",
@@ -18563,7 +20633,10 @@ let data = [{
         "  - 0 <= q <= p"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} p\n * @param {number} q\n * @return {number}\n */\nvar mirrorReflection = function(p, q) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} p\n * @param {number} q\n * @return {number}\n */\nvar mirrorReflection = function(p, q) {\n    \n};",
+        "py": "class Solution:\n    def mirrorReflection(self, p: int, q: int) -> int:\n        "
+    }
 }, {
     "questionId": "0859",
     "titleSlug": "buddy-strings",
@@ -18597,7 +20670,10 @@ let data = [{
         "  - A 和 B 仅由小写字母构成。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} A\n * @param {string} B\n * @return {boolean}\n */\nvar buddyStrings = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} A\n * @param {string} B\n * @return {boolean}\n */\nvar buddyStrings = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def buddyStrings(self, A: str, B: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0860",
     "titleSlug": "lemonade-change",
@@ -18641,7 +20717,10 @@ let data = [{
         "  - bills[i] 不是 5 就是 10 或是 20"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} bills\n * @return {boolean}\n */\nvar lemonadeChange = function(bills) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} bills\n * @return {boolean}\n */\nvar lemonadeChange = function(bills) {\n    \n};",
+        "py": "class Solution:\n    def lemonadeChange(self, bills: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0861",
     "titleSlug": "score-after-flipping-matrix",
@@ -18665,7 +20744,10 @@ let data = [{
         "  - A[i][j] 是 0 或 1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} A\n * @return {number}\n */\nvar matrixScore = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} A\n * @return {number}\n */\nvar matrixScore = function(A) {\n    \n};",
+        "py": "class Solution:\n    def matrixScore(self, A: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0862",
     "titleSlug": "shortest-subarray-with-sum-at-least-k",
@@ -18692,7 +20774,10 @@ let data = [{
         "  - 1 <= K <= 10 ^ 9"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar shortestSubarray = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar shortestSubarray = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def shortestSubarray(self, A: List[int], K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0863",
     "titleSlug": "all-nodes-distance-k-in-binary-tree",
@@ -18722,7 +20807,10 @@ let data = [{
         "  - 0 <= K <= 1000."
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {TreeNode} target\n * @param {number} K\n * @return {number[]}\n */\nvar distanceK = function(root, target, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @param {TreeNode} target\r\n * @param {number} K\r\n * @return {number[]}\r\n */\r\nvar distanceK = function(root, target, K) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def distanceK(self, root, target, K):\r\n        \"\"\"\r\n        :type root: TreeNode\r\n        :type target: TreeNode\r\n        :type K: int\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0864",
     "titleSlug": "shortest-path-to-get-all-keys",
@@ -18748,7 +20836,10 @@ let data = [{
         "  - 钥匙的数目范围是 [1, 6]，每个钥匙都对应一个不同的字母，正好打开一个对应的锁。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} grid\n * @return {number}\n */\nvar shortestPathAllKeys = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} grid\n * @return {number}\n */\nvar shortestPathAllKeys = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def shortestPathAllKeys(self, grid: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0865",
     "titleSlug": "smallest-subtree-with-all-the-deepest-nodes",
@@ -18775,7 +20866,10 @@ let data = [{
         "  - 每个结点的值都是独一无二的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar subtreeWithAllDeepest = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar subtreeWithAllDeepest = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def subtreeWithAllDeepest(self, root: TreeNode) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0866",
     "titleSlug": "prime-palindrome",
@@ -18806,7 +20900,10 @@ let data = [{
         "  - 答案肯定存在，且小于 2 * 10^8。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar primePalindrome = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar primePalindrome = function(N) {\n    \n};",
+        "py": "class Solution:\n    def primePalindrome(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0867",
     "titleSlug": "transpose-matrix",
@@ -18828,7 +20925,10 @@ let data = [{
         "  - 1 <= A[0].length <= 1000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} A\n * @return {number[][]}\n */\nvar transpose = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} A\n * @return {number[][]}\n */\nvar transpose = function(A) {\n    \n};",
+        "py": "class Solution:\n    def transpose(self, A: List[List[int]]) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0868",
     "titleSlug": "binary-gap",
@@ -18870,7 +20970,10 @@ let data = [{
         "  - 1 <= N <= 10^9"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar binaryGap = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar binaryGap = function(N) {\n    \n};",
+        "py": "class Solution:\n    def binaryGap(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0869",
     "titleSlug": "reordered-power-of-2",
@@ -18903,7 +21006,10 @@ let data = [{
         "  - 1 <= N <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {boolean}\n */\nvar reorderedPowerOf2 = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {boolean}\n */\nvar reorderedPowerOf2 = function(N) {\n    \n};",
+        "py": "class Solution:\n    def reorderedPowerOf2(self, N: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0870",
     "titleSlug": "advantage-shuffle",
@@ -18926,7 +21032,10 @@ let data = [{
         "  - 0 <= B[i] <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number[]}\n */\nvar advantageCount = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number[]}\n */\nvar advantageCount = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def advantageCount(self, A: List[int], B: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0871",
     "titleSlug": "minimum-number-of-refueling-stops",
@@ -18966,7 +21075,10 @@ let data = [{
         "  - 0 < stations[0][0] < stations[1][0] < ... < stations[stations.length-1][0] < target"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} target\n * @param {number} startFuel\n * @param {number[][]} stations\n * @return {number}\n */\nvar minRefuelStops = function(target, startFuel, stations) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} target\n * @param {number} startFuel\n * @param {number[][]} stations\n * @return {number}\n */\nvar minRefuelStops = function(target, startFuel, stations) {\n    \n};",
+        "py": "class Solution:\n    def minRefuelStops(self, target: int, startFuel: int, stations: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0872",
     "titleSlug": "leaf-similar-trees",
@@ -18982,7 +21094,10 @@ let data = [{
         "  - 给定的两颗树可能会有 1 到 100 个结点。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root1\n * @param {TreeNode} root2\n * @return {boolean}\n */\nvar leafSimilar = function(root1, root2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root1\n * @param {TreeNode} root2\n * @return {boolean}\n */\nvar leafSimilar = function(root1, root2) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def leafSimilar(self, root1: TreeNode, root2: TreeNode) -> bool:\n        "
+    }
 }, {
     "questionId": "0873",
     "titleSlug": "length-of-longest-fibonacci-subsequence",
@@ -19014,7 +21129,10 @@ let data = [{
         "  - （对于以 Java，C，C++，以及 C# 的提交，时间限制被减少了 50%）"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar lenLongestFibSubseq = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar lenLongestFibSubseq = function(A) {\n    \n};",
+        "py": "class Solution:\n    def lenLongestFibSubseq(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0874",
     "titleSlug": "walking-robot-simulation",
@@ -19048,7 +21166,10 @@ let data = [{
         "  - 答案保证小于 2 ^ 31"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} commands\n * @param {number[][]} obstacles\n * @return {number}\n */\nvar robotSim = function(commands, obstacles) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} commands\n * @param {number[][]} obstacles\n * @return {number}\n */\nvar robotSim = function(commands, obstacles) {\n    \n};",
+        "py": "class Solution:\n    def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0875",
     "titleSlug": "koko-eating-bananas",
@@ -19077,7 +21198,10 @@ let data = [{
         "  - 1 <= piles[i] <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} piles\n * @param {number} H\n * @return {number}\n */\nvar minEatingSpeed = function(piles, H) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} piles\n * @param {number} H\n * @return {number}\n */\nvar minEatingSpeed = function(piles, H) {\n    \n};",
+        "py": "class Solution:\n    def minEatingSpeed(self, piles: List[int], H: int) -> int:\n        "
+    }
 }, {
     "questionId": "0876",
     "titleSlug": "middle-of-the-linked-list",
@@ -19103,7 +21227,10 @@ let data = [{
         "  - 给定链表的结点数介于 1 和 100 之间。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar middleNode = function(head) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} head\n * @return {ListNode}\n */\nvar middleNode = function(head) {\n    \n};",
+        "py": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def middleNode(self, head: ListNode) -> ListNode:\n        "
+    }
 }, {
     "questionId": "0877",
     "titleSlug": "stone-game",
@@ -19131,7 +21258,10 @@ let data = [{
         "  - sum(piles) 是奇数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} piles\n * @return {boolean}\n */\nvar stoneGame = function(piles) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} piles\n * @return {boolean}\n */\nvar stoneGame = function(piles) {\n    \n};",
+        "py": "class Solution:\n    def stoneGame(self, piles: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0878",
     "titleSlug": "nth-magical-number",
@@ -19162,7 +21292,10 @@ let data = [{
         "  - 2 <= B <= 40000"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number} A\n * @param {number} B\n * @return {number}\n */\nvar nthMagicalNumber = function(N, A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number} A\n * @param {number} B\n * @return {number}\n */\nvar nthMagicalNumber = function(N, A, B) {\n    \n};",
+        "py": "class Solution:\n    def nthMagicalNumber(self, N: int, A: int, B: int) -> int:\n        "
+    }
 }, {
     "questionId": "0879",
     "titleSlug": "profitable-schemes",
@@ -19195,7 +21328,10 @@ let data = [{
         "  - 1 <= group.length = profit.length <= 100"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} G\n * @param {number} P\n * @param {number[]} group\n * @param {number[]} profit\n * @return {number}\n */\nvar profitableSchemes = function(G, P, group, profit) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} G\n * @param {number} P\n * @param {number[]} group\n * @param {number[]} profit\n * @return {number}\n */\nvar profitableSchemes = function(G, P, group, profit) {\n    \n};",
+        "py": "class Solution:\n    def profitableSchemes(self, G: int, P: int, group: List[int], profit: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0880",
     "titleSlug": "decoded-string-at-index",
@@ -19234,7 +21370,10 @@ let data = [{
         "  - 解码后的字符串保证少于 2^63 个字母。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {number} K\n * @return {string}\n */\nvar decodeAtIndex = function(S, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {number} K\n * @return {string}\n */\nvar decodeAtIndex = function(S, K) {\n    \n};",
+        "py": "class Solution:\n    def decodeAtIndex(self, S: str, K: int) -> str:\n        "
+    }
 }, {
     "questionId": "0881",
     "titleSlug": "boats-to-save-people",
@@ -19263,7 +21402,10 @@ let data = [{
         "  - 1 <= people[i] <= limit <= 30000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} people\n * @param {number} limit\n * @return {number}\n */\nvar numRescueBoats = function(people, limit) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} people\n * @param {number} limit\n * @return {number}\n */\nvar numRescueBoats = function(people, limit) {\n    \n};",
+        "py": "class Solution:\n    def numRescueBoats(self, people: List[int], limit: int) -> int:\n        "
+    }
 }, {
     "questionId": "0882",
     "titleSlug": "reachable-nodes-in-subdivided-graph",
@@ -19298,7 +21440,10 @@ let data = [{
         "  - 1 <= N <= 3000"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} edges\n * @param {number} M\n * @param {number} N\n * @return {number}\n */\nvar reachableNodes = function(edges, M, N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} edges\n * @param {number} M\n * @param {number} N\n * @return {number}\n */\nvar reachableNodes = function(edges, M, N) {\n    \n};",
+        "py": "class Solution:\n    def reachableNodes(self, edges: List[List[int]], M: int, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0883",
     "titleSlug": "projection-area-of-3d-shapes",
@@ -19339,7 +21484,10 @@ let data = [{
         "  - 0 <= grid[i][j] <= 50"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar projectionArea = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar projectionArea = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def projectionArea(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0884",
     "titleSlug": "uncommon-words-from-two-sentences",
@@ -19364,7 +21512,10 @@ let data = [{
         "  - A 和 B 都只包含空格和小写字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} A\n * @param {string} B\n * @return {string[]}\n */\nvar uncommonFromSentences = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} A\n * @param {string} B\n * @return {string[]}\n */\nvar uncommonFromSentences = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def uncommonFromSentences(self, A: str, B: str) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0885",
     "titleSlug": "spiral-matrix-iii",
@@ -19396,7 +21547,10 @@ let data = [{
         "  - 0 <= c0 < C"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} R\n * @param {number} C\n * @param {number} r0\n * @param {number} c0\n * @return {number[][]}\n */\nvar spiralMatrixIII = function(R, C, r0, c0) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} R\n * @param {number} C\n * @param {number} r0\n * @param {number} c0\n * @return {number[][]}\n */\nvar spiralMatrixIII = function(R, C, r0, c0) {\n    \n};",
+        "py": "class Solution:\n    def spiralMatrixIII(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0886",
     "titleSlug": "possible-bipartition",
@@ -19428,7 +21582,10 @@ let data = [{
         "  - 对于 dislikes[i] == dislikes[j] 不存在 i != j"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number[][]} dislikes\n * @return {boolean}\n */\nvar possibleBipartition = function(N, dislikes) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number[][]} dislikes\n * @return {boolean}\n */\nvar possibleBipartition = function(N, dislikes) {\n    \n};",
+        "py": "class Solution:\n    def possibleBipartition(self, N: int, dislikes: List[List[int]]) -> bool:\n        "
+    }
 }, {
     "questionId": "0887",
     "titleSlug": "super-egg-drop",
@@ -19463,7 +21620,10 @@ let data = [{
         "  - 1 <= N <= 10000"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} K\n * @param {number} N\n * @return {number}\n */\nvar superEggDrop = function(K, N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} K\n * @param {number} N\n * @return {number}\n */\nvar superEggDrop = function(K, N) {\n    \n};",
+        "py": "class Solution:\n    def superEggDrop(self, K: int, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0888",
     "titleSlug": "fair-candy-swap",
@@ -19499,7 +21659,10 @@ let data = [{
         "  - 答案肯定存在。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number[]}\n */\nvar fairCandySwap = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number[]}\n */\nvar fairCandySwap = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def fairCandySwap(self, A: List[int], B: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0889",
     "titleSlug": "construct-binary-tree-from-preorder-and-postorder-traversal",
@@ -19518,7 +21681,10 @@ let data = [{
         "  - 每个输入保证至少有一个答案。如果有多个答案，可以返回其中一个。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} pre\n * @param {number[]} post\n * @return {TreeNode}\n */\nvar constructFromPrePost = function(pre, post) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} pre\n * @param {number[]} post\n * @return {TreeNode}\n */\nvar constructFromPrePost = function(pre, post) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def constructFromPrePost(self, pre: List[int], post: List[int]) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0890",
     "titleSlug": "find-and-replace-pattern",
@@ -19543,7 +21709,10 @@ let data = [{
         "  - 1 <= pattern.length = words[i].length <= 20"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @param {string} pattern\n * @return {string[]}\n */\nvar findAndReplacePattern = function(words, pattern) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n * @param {string} pattern\n * @return {string[]}\n */\nvar findAndReplacePattern = function(words, pattern) {\n    \n};",
+        "py": "class Solution:\n    def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0891",
     "titleSlug": "sum-of-subsequence-widths",
@@ -19567,7 +21736,10 @@ let data = [{
         "  - 1 <= A[i] <= 20000"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar sumSubseqWidths = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar sumSubseqWidths = function(A) {\n    \n};",
+        "py": "class Solution:\n    def sumSubseqWidths(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0892",
     "titleSlug": "surface-area-of-3d-shapes",
@@ -19602,7 +21774,10 @@ let data = [{
         "  - 0 <= grid[i][j] <= 50"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar surfaceArea = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar surfaceArea = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def surfaceArea(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0893",
     "titleSlug": "groups-of-special-equivalent-strings",
@@ -19643,7 +21818,10 @@ let data = [{
         "  - 所有 A[i] 都只由小写字母组成。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar numSpecialEquivGroups = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar numSpecialEquivGroups = function(A) {\n    \n};",
+        "py": "class Solution:\n    def numSpecialEquivGroups(self, A: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0894",
     "titleSlug": "all-possible-full-binary-trees",
@@ -19664,7 +21842,10 @@ let data = [{
         "  - 1 <= N <= 20"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number} N\n * @return {TreeNode[]}\n */\nvar allPossibleFBT = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number} N\n * @return {TreeNode[]}\n */\nvar allPossibleFBT = function(N) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def allPossibleFBT(self, N: int) -> List[TreeNode]:\n        "
+    }
 }, {
     "questionId": "0895",
     "titleSlug": "maximum-frequency-stack",
@@ -19704,7 +21885,10 @@ let data = [{
         "  - 所有测试样例中，对 FreqStack.push 和 FreqStack.pop 的总调用次数不会超过 150000。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "\nvar FreqStack = function() {\n    \n};\n\n/** \n * @param {number} x\n * @return {void}\n */\nFreqStack.prototype.push = function(x) {\n    \n};\n\n/**\n * @return {number}\n */\nFreqStack.prototype.pop = function() {\n    \n};\n\n/** \n * Your FreqStack object will be instantiated and called as such:\n * var obj = Object.create(FreqStack).createNew()\n * obj.push(x)\n * var param_2 = obj.pop()\n */"
+    "codeSnippets": {
+        "js": "\nvar FreqStack = function() {\n    \n};\n\n/** \n * @param {number} x\n * @return {void}\n */\nFreqStack.prototype.push = function(x) {\n    \n};\n\n/**\n * @return {number}\n */\nFreqStack.prototype.pop = function() {\n    \n};\n\n/** \n * Your FreqStack object will be instantiated and called as such:\n * var obj = new FreqStack()\n * obj.push(x)\n * var param_2 = obj.pop()\n */",
+        "py": "class FreqStack:\n\n    def __init__(self):\n        \n\n    def push(self, x: int) -> None:\n        \n\n    def pop(self) -> int:\n        \n\n\n# Your FreqStack object will be instantiated and called as such:\n# obj = FreqStack()\n# obj.push(x)\n# param_2 = obj.pop()"
+    }
 }, {
     "questionId": "0896",
     "titleSlug": "monotonic-array",
@@ -19739,7 +21923,10 @@ let data = [{
         "  - -100000 <= A[i] <= 100000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar isMonotonic = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar isMonotonic = function(A) {\n    \n};",
+        "py": "class Solution:\n    def isMonotonic(self, A: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0897",
     "titleSlug": "increasing-order-search-tree",
@@ -19783,7 +21970,10 @@ let data = [{
         "  - 每个结点都有一个从 0 到 1000 范围内的唯一整数值。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar increasingBST = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {TreeNode}\n */\nvar increasingBST = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def increasingBST(self, root: TreeNode) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0898",
     "titleSlug": "bitwise-ors-of-subarrays",
@@ -19818,7 +22008,10 @@ let data = [{
         "  - 0 <= A[i] <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar subarrayBitwiseORs = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar subarrayBitwiseORs = function(A) {\n    \n};",
+        "py": "class Solution:\n    def subarrayBitwiseORs(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0899",
     "titleSlug": "orderly-queue",
@@ -19847,7 +22040,10 @@ let data = [{
         "  - S 只由小写字母组成。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {number} K\n * @return {string}\n */\nvar orderlyQueue = function(S, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {number} K\n * @return {string}\n */\nvar orderlyQueue = function(S, K) {\n    \n};",
+        "py": "class Solution:\n    def orderlyQueue(self, S: str, K: int) -> str:\n        "
+    }
 }, {
     "questionId": "0900",
     "titleSlug": "rle-iterator",
@@ -19884,7 +22080,10 @@ let data = [{
         "  - 每次调用 RLEIterator.next(int n) 都有 1 <= n <= 10^9 。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n */\nvar RLEIterator = function(A) {\n    \n};\n\n/** \n * @param {number} n\n * @return {number}\n */\nRLEIterator.prototype.next = function(n) {\n    \n};\n\n/** \n * Your RLEIterator object will be instantiated and called as such:\n * var obj = Object.create(RLEIterator).createNew(A)\n * var param_1 = obj.next(n)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n */\nvar RLEIterator = function(A) {\n    \n};\n\n/** \n * @param {number} n\n * @return {number}\n */\nRLEIterator.prototype.next = function(n) {\n    \n};\n\n/** \n * Your RLEIterator object will be instantiated and called as such:\n * var obj = new RLEIterator(A)\n * var param_1 = obj.next(n)\n */",
+        "py": "class RLEIterator:\n\n    def __init__(self, A: List[int]):\n        \n\n    def next(self, n: int) -> int:\n        \n\n\n# Your RLEIterator object will be instantiated and called as such:\n# obj = RLEIterator(A)\n# param_1 = obj.next(n)"
+    }
 }, {
     "questionId": "0901",
     "titleSlug": "online-stock-span",
@@ -19918,7 +22117,10 @@ let data = [{
         "  - 此问题的总时间限制减少了 50%。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "\nvar StockSpanner = function() {\n    \n};\n\n/** \n * @param {number} price\n * @return {number}\n */\nStockSpanner.prototype.next = function(price) {\n    \n};\n\n/** \n * Your StockSpanner object will be instantiated and called as such:\n * var obj = Object.create(StockSpanner).createNew()\n * var param_1 = obj.next(price)\n */"
+    "codeSnippets": {
+        "js": "\nvar StockSpanner = function() {\n    \n};\n\n/** \n * @param {number} price\n * @return {number}\n */\nStockSpanner.prototype.next = function(price) {\n    \n};\n\n/** \n * Your StockSpanner object will be instantiated and called as such:\n * var obj = new StockSpanner()\n * var param_1 = obj.next(price)\n */",
+        "py": "class StockSpanner:\n\n    def __init__(self):\n        \n\n    def next(self, price: int) -> int:\n        \n\n\n# Your StockSpanner object will be instantiated and called as such:\n# obj = StockSpanner()\n# param_1 = obj.next(price)"
+    }
 }, {
     "questionId": "0902",
     "titleSlug": "numbers-at-most-n-given-digit-set",
@@ -19949,7 +22151,10 @@ let data = [{
         "  - 1 <= N <= 10^9"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} D\n * @param {number} N\n * @return {number}\n */\nvar atMostNGivenDigitSet = function(D, N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} D\n * @param {number} N\n * @return {number}\n */\nvar atMostNGivenDigitSet = function(D, N) {\n    \n};",
+        "py": "class Solution:\n    def atMostNGivenDigitSet(self, D: List[str], N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0903",
     "titleSlug": "valid-permutations-for-di-sequence",
@@ -19978,7 +22183,10 @@ let data = [{
         "  - S 仅由集合 {'D', 'I'} 中的字符组成。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number}\n */\nvar numPermsDISequence = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number}\n */\nvar numPermsDISequence = function(S) {\n    \n};",
+        "py": "class Solution:\n    def numPermsDISequence(self, S: str) -> int:\n        "
+    }
 }, {
     "questionId": "0904",
     "titleSlug": "fruit-into-baskets",
@@ -20021,7 +22229,10 @@ let data = [{
         "  - 0 <= tree[i] < tree.length"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} tree\n * @return {number}\n */\nvar totalFruit = function(tree) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} tree\n * @return {number}\n */\nvar totalFruit = function(tree) {\n    \n};",
+        "py": "class Solution:\n    def totalFruit(self, tree: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0905",
     "titleSlug": "sort-array-by-parity",
@@ -20040,7 +22251,10 @@ let data = [{
         "  - 0 <= A[i] <= 5000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar sortArrayByParity = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar sortArrayByParity = function(A) {\n    \n};",
+        "py": "class Solution:\n    def sortArrayByParity(self, A: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0906",
     "titleSlug": "super-palindromes",
@@ -20064,7 +22278,10 @@ let data = [{
         "  - int(L) <= int(R)"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} L\n * @param {string} R\n * @return {number}\n */\nvar superpalindromesInRange = function(L, R) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} L\n * @param {string} R\n * @return {number}\n */\nvar superpalindromesInRange = function(L, R) {\n    \n};",
+        "py": "class Solution:\n    def superpalindromesInRange(self, L: str, R: str) -> int:\n        "
+    }
 }, {
     "questionId": "0907",
     "titleSlug": "sum-of-subarray-minimums",
@@ -20085,7 +22302,10 @@ let data = [{
         "  - 1 <= A[i] <= 30000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar sumSubarrayMins = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar sumSubarrayMins = function(A) {\n    \n};",
+        "py": "class Solution:\n    def sumSubarrayMins(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0908",
     "titleSlug": "smallest-range-i",
@@ -20116,7 +22336,10 @@ let data = [{
         "  - 0 <= K <= 10000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar smallestRangeI = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar smallestRangeI = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def smallestRangeI(self, A: List[int], K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0909",
     "titleSlug": "snakes-and-ladders",
@@ -20159,7 +22382,10 @@ let data = [{
         "  - 编号为 N*N 的方格上没有蛇或梯子。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} board\n * @return {number}\n */\nvar snakesAndLadders = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} board\r\n * @return {number}\r\n */\r\nvar snakesAndLadders = function(board) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def snakesAndLadders(self, board: List[List[int]]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0910",
     "titleSlug": "smallest-range-ii",
@@ -20190,7 +22416,10 @@ let data = [{
         "  - 0 <= K <= 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar smallestRangeII = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar smallestRangeII = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def smallestRangeII(self, A: List[int], K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0911",
     "titleSlug": "online-election",
@@ -20217,7 +22446,10 @@ let data = [{
         "  - TopVotedCandidate.q(int t) 被调用时总是满足 t >= times[0]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} persons\n * @param {number[]} times\n */\nvar TopVotedCandidate = function(persons, times) {\n    \n};\n\n/** \n * @param {number} t\n * @return {number}\n */\nTopVotedCandidate.prototype.q = function(t) {\n    \n};\n\n/** \n * Your TopVotedCandidate object will be instantiated and called as such:\n * var obj = Object.create(TopVotedCandidate).createNew(persons, times)\n * var param_1 = obj.q(t)\n */"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} persons\n * @param {number[]} times\n */\nvar TopVotedCandidate = function(persons, times) {\n    \n};\n\n/** \n * @param {number} t\n * @return {number}\n */\nTopVotedCandidate.prototype.q = function(t) {\n    \n};\n\n/** \n * Your TopVotedCandidate object will be instantiated and called as such:\n * var obj = new TopVotedCandidate(persons, times)\n * var param_1 = obj.q(t)\n */",
+        "py": "class TopVotedCandidate:\n\n    def __init__(self, persons: List[int], times: List[int]):\n        \n\n    def q(self, t: int) -> int:\n        \n\n\n# Your TopVotedCandidate object will be instantiated and called as such:\n# obj = TopVotedCandidate(persons, times)\n# param_1 = obj.q(t)"
+    }
 }, {
     "questionId": "0912",
     "titleSlug": "sort-an-array",
@@ -20238,7 +22470,10 @@ let data = [{
         "-50000 <= A[i] <= 50000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} nums\r\n * @return {number[]}\r\n */\r\nvar sortArray = function(nums) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} nums\r\n * @return {number[]}\r\n */\r\nvar sortArray = function(nums) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def sortArray(self, nums: List[int]) -> List[int]:\r\n        "
+    }
 }, {
     "questionId": "0913",
     "titleSlug": "cat-and-mouse",
@@ -20272,7 +22507,10 @@ let data = [{
         "  - 保证 graph[2] 包含非零元素。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} graph\n * @return {number}\n */\nvar catMouseGame = function(graph) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} graph\r\n * @return {number}\r\n */\r\nvar catMouseGame = function(graph) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def catMouseGame(self, graph: List[List[int]]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0914",
     "titleSlug": "x-of-a-kind-in-a-deck-of-cards",
@@ -20315,7 +22553,10 @@ let data = [{
         "  - 0 <= deck[i] < 10000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} deck\n * @return {boolean}\n */\nvar hasGroupsSizeX = function(deck) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} deck\n * @return {boolean}\n */\nvar hasGroupsSizeX = function(deck) {\n    \n};",
+        "py": "class Solution:\n    def hasGroupsSizeX(self, deck: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0915",
     "titleSlug": "partition-array-into-disjoint-intervals",
@@ -20344,7 +22585,10 @@ let data = [{
         "  - 可以保证至少有一种方法能够按题目所描述的那样对 A 进行划分。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar partitionDisjoint = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar partitionDisjoint = function(A) {\n    \n};",
+        "py": "class Solution:\n    def partitionDisjoint(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0916",
     "titleSlug": "word-subsets",
@@ -20382,7 +22626,10 @@ let data = [{
         "  - A[i] 中所有的单词都是独一无二的，也就是说不存在 i != j 使得 A[i] == A[j]。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} A\n * @param {string[]} B\n * @return {string[]}\n */\nvar wordSubsets = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} A\n * @param {string[]} B\n * @return {string[]}\n */\nvar wordSubsets = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def wordSubsets(self, A: List[str], B: List[str]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0917",
     "titleSlug": "reverse-only-letters",
@@ -20407,7 +22654,10 @@ let data = [{
         "  - S 中不包含 \\ or \""
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {string}\n */\nvar reverseOnlyLetters = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {string}\n */\nvar reverseOnlyLetters = function(S) {\n    \n};",
+        "py": "class Solution:\n    def reverseOnlyLetters(self, S: str) -> str:\n        "
+    }
 }, {
     "questionId": "0918",
     "titleSlug": "maximum-sum-circular-subarray",
@@ -20447,7 +22697,10 @@ let data = [{
         "  - 1 <= A.length <= 30000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar maxSubarraySumCircular = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar maxSubarraySumCircular = function(A) {\n    \n};",
+        "py": "class Solution:\n    def maxSubarraySumCircular(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0919",
     "titleSlug": "complete-binary-tree-inserter",
@@ -20473,7 +22726,10 @@ let data = [{
         "  - 给定结点或插入结点的每个值都在 0 到 5000 之间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n */\nvar CBTInserter = function(root) {\n    \n};\n\n/** \n * @param {number} v\n * @return {number}\n */\nCBTInserter.prototype.insert = function(v) {\n    \n};\n\n/**\n * @return {TreeNode}\n */\nCBTInserter.prototype.get_root = function() {\n    \n};\n\n/** \n * Your CBTInserter object will be instantiated and called as such:\n * var obj = Object.create(CBTInserter).createNew(root)\n * var param_1 = obj.insert(v)\n * var param_2 = obj.get_root()\n */"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n */\nvar CBTInserter = function(root) {\n    \n};\n\n/** \n * @param {number} v\n * @return {number}\n */\nCBTInserter.prototype.insert = function(v) {\n    \n};\n\n/**\n * @return {TreeNode}\n */\nCBTInserter.prototype.get_root = function() {\n    \n};\n\n/** \n * Your CBTInserter object will be instantiated and called as such:\n * var obj = new CBTInserter(root)\n * var param_1 = obj.insert(v)\n * var param_2 = obj.get_root()\n */",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass CBTInserter:\n\n    def __init__(self, root: TreeNode):\n        \n\n    def insert(self, v: int) -> int:\n        \n\n    def get_root(self) -> TreeNode:\n        \n\n\n# Your CBTInserter object will be instantiated and called as such:\n# obj = CBTInserter(root)\n# param_1 = obj.insert(v)\n# param_2 = obj.get_root()"
+    }
 }, {
     "questionId": "0920",
     "titleSlug": "number-of-music-playlists",
@@ -20504,7 +22760,10 @@ let data = [{
         "  - 0 <= K < N <= L <= 100"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number} L\n * @param {number} K\n * @return {number}\n */\nvar numMusicPlaylists = function(N, L, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number} L\n * @param {number} K\n * @return {number}\n */\nvar numMusicPlaylists = function(N, L, K) {\n    \n};",
+        "py": "class Solution:\n    def numMusicPlaylists(self, N: int, L: int, K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0921",
     "titleSlug": "minimum-add-to-make-parentheses-valid",
@@ -20539,7 +22798,10 @@ let data = [{
         "  - S 只包含 '(' 和 ')' 字符。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number}\n */\nvar minAddToMakeValid = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number}\n */\nvar minAddToMakeValid = function(S) {\n    \n};",
+        "py": "class Solution:\n    def minAddToMakeValid(self, S: str) -> int:\n        "
+    }
 }, {
     "questionId": "0922",
     "titleSlug": "sort-array-by-parity-ii",
@@ -20560,7 +22822,10 @@ let data = [{
         "  - 0 <= A[i] <= 1000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar sortArrayByParityII = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar sortArrayByParityII = function(A) {\n    \n};",
+        "py": "class Solution:\n    def sortArrayByParityII(self, A: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0923",
     "titleSlug": "3sum-with-multiplicity",
@@ -20593,7 +22858,10 @@ let data = [{
         "  - 0 <= target <= 300"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} target\n * @return {number}\n */\nvar threeSumMulti = function(A, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} target\n * @return {number}\n */\nvar threeSumMulti = function(A, target) {\n    \n};",
+        "py": "class Solution:\n    def threeSumMulti(self, A: List[int], target: int) -> int:\n        "
+    }
 }, {
     "questionId": "0924",
     "titleSlug": "minimize-malware-spread",
@@ -20625,7 +22893,10 @@ let data = [{
         "  - 0 <= initial[i] < graph.length"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} graph\n * @param {number[]} initial\n * @return {number}\n */\nvar minMalwareSpread = function(graph, initial) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} graph\n * @param {number[]} initial\n * @return {number}\n */\nvar minMalwareSpread = function(graph, initial) {\n    \n};",
+        "py": "class Solution:\n    def minMalwareSpread(self, graph: List[List[int]], initial: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0925",
     "titleSlug": "long-pressed-name",
@@ -20659,7 +22930,10 @@ let data = [{
         "  - name 和 typed 的字符都是小写字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} name\n * @param {string} typed\n * @return {boolean}\n */\nvar isLongPressedName = function(name, typed) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} name\n * @param {string} typed\n * @return {boolean}\n */\nvar isLongPressedName = function(name, typed) {\n    \n};",
+        "py": "class Solution:\n    def isLongPressedName(self, name: str, typed: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0926",
     "titleSlug": "flip-string-to-monotone-increasing",
@@ -20689,7 +22963,10 @@ let data = [{
         "  - S 中只包含字符 '0' 和 '1'"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number}\n */\nvar minFlipsMonoIncr = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number}\n */\nvar minFlipsMonoIncr = function(S) {\n    \n};",
+        "py": "class Solution:\n    def minFlipsMonoIncr(self, S: str) -> int:\n        "
+    }
 }, {
     "questionId": "0927",
     "titleSlug": "three-equal-parts",
@@ -20719,7 +22996,10 @@ let data = [{
         "  - A[i] == 0 或 A[i] == 1"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar threeEqualParts = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar threeEqualParts = function(A) {\n    \n};",
+        "py": "class Solution:\n    def threeEqualParts(self, A: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0928",
     "titleSlug": "minimize-malware-spread-ii",
@@ -20751,7 +23031,10 @@ let data = [{
         "  - 0 <= initial[i] < graph.length"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} graph\n * @param {number[]} initial\n * @return {number}\n */\nvar minMalwareSpread = function(graph, initial) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} graph\n * @param {number[]} initial\n * @return {number}\n */\nvar minMalwareSpread = function(graph, initial) {\n    \n};",
+        "py": "class Solution:\n    def minMalwareSpread(self, graph: List[List[int]], initial: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0929",
     "titleSlug": "unique-email-addresses",
@@ -20777,7 +23060,10 @@ let data = [{
         "  - 每封 emails[i] 都包含有且仅有一个 '@' 字符。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} emails\n * @return {number}\n */\nvar numUniqueEmails = function(emails) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} emails\r\n * @return {number}\r\n */\r\nvar numUniqueEmails = function(emails) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numUniqueEmails(self, emails: List[str]) -> int:\r\n        "
+    }
 }, {
     "questionId": "0930",
     "titleSlug": "binary-subarrays-with-sum",
@@ -20801,7 +23087,10 @@ let data = [{
         "  - A[i] 为 0 或 1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} S\n * @return {number}\n */\nvar numSubarraysWithSum = function(A, S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} S\n * @return {number}\n */\nvar numSubarraysWithSum = function(A, S) {\n    \n};",
+        "py": "class Solution:\n    def numSubarraysWithSum(self, A: List[int], S: int) -> int:\n        "
+    }
 }, {
     "questionId": "0931",
     "titleSlug": "minimum-falling-path-sum",
@@ -20827,7 +23116,10 @@ let data = [{
         "  - -100 <= A[i][j] <= 100"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} A\n * @return {number}\n */\nvar minFallingPathSum = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} A\n * @return {number}\n */\nvar minFallingPathSum = function(A) {\n    \n};",
+        "py": "class Solution:\n    def minFallingPathSum(self, A: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0932",
     "titleSlug": "beautiful-array",
@@ -20851,7 +23143,10 @@ let data = [{
         "  - 1 <= N <= 1000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number[]}\n */\nvar beautifulArray = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number[]}\n */\nvar beautifulArray = function(N) {\n    \n};",
+        "py": "class Solution:\n    def beautifulArray(self, N: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0933",
     "titleSlug": "number-of-recent-calls",
@@ -20873,7 +23168,10 @@ let data = [{
         "  - 每次调用 ping 都有 1 <= t <= 10^9。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "\nvar RecentCounter = function() {\n    \n};\n\n/** \n * @param {number} t\n * @return {number}\n */\nRecentCounter.prototype.ping = function(t) {\n    \n};\n\n/** \n * Your RecentCounter object will be instantiated and called as such:\n * var obj = Object.create(RecentCounter).createNew()\n * var param_1 = obj.ping(t)\n */"
+    "codeSnippets": {
+        "js": "\nvar RecentCounter = function() {\n    \n};\n\n/** \n * @param {number} t\n * @return {number}\n */\nRecentCounter.prototype.ping = function(t) {\n    \n};\n\n/** \n * Your RecentCounter object will be instantiated and called as such:\n * var obj = new RecentCounter()\n * var param_1 = obj.ping(t)\n */",
+        "py": "class RecentCounter:\n\n    def __init__(self):\n        \n\n    def ping(self, t: int) -> int:\n        \n\n\n# Your RecentCounter object will be instantiated and called as such:\n# obj = RecentCounter()\n# param_1 = obj.ping(t)"
+    }
 }, {
     "questionId": "0934",
     "titleSlug": "shortest-bridge",
@@ -20900,7 +23198,10 @@ let data = [{
         "  - A[i][j] == 0 或 A[i][j] == 1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} A\n * @return {number}\n */\nvar shortestBridge = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} A\n * @return {number}\n */\nvar shortestBridge = function(A) {\n    \n};",
+        "py": "class Solution:\n    def shortestBridge(self, A: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0935",
     "titleSlug": "knight-dialer",
@@ -20931,7 +23232,10 @@ let data = [{
         "  - 1 <= N <= 5000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar knightDialer = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar knightDialer = function(N) {\n    \n};",
+        "py": "class Solution:\n    def knightDialer(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "0936",
     "titleSlug": "stamping-the-sequence",
@@ -20960,7 +23264,10 @@ let data = [{
         "  - stamp 和 target 只包含小写字母。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} stamp\n * @param {string} target\n * @return {number[]}\n */\nvar movesToStamp = function(stamp, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} stamp\n * @param {string} target\n * @return {number[]}\n */\nvar movesToStamp = function(stamp, target) {\n    \n};",
+        "py": "class Solution:\n    def movesToStamp(self, stamp: str, target: str) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0937",
     "titleSlug": "reorder-log-files",
@@ -20985,7 +23292,10 @@ let data = [{
         "  - logs[i] 保证有一个标识符，并且标识符后面有一个字。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} logs\n * @return {string[]}\n */\nvar reorderLogFiles = function(logs) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} logs\r\n * @return {string[]}\r\n */\r\nvar reorderLogFiles = function(logs) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def reorderLogFiles(self, logs: List[str]) -> List[str]:\r\n        "
+    }
 }, {
     "questionId": "0938",
     "titleSlug": "range-sum-of-bst",
@@ -21007,7 +23317,10 @@ let data = [{
         "  - 最终的答案保证小于 2^31。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} L\n * @param {number} R\n * @return {number}\n */\nvar rangeSumBST = function(root, L, R) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @param {number} L\r\n * @param {number} R\r\n * @return {number}\r\n */\r\nvar rangeSumBST = function(root, L, R) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def rangeSumBST(self, root: TreeNode, L: int, R: int) -> int:"
+    }
 }, {
     "questionId": "0939",
     "titleSlug": "minimum-area-rectangle",
@@ -21031,7 +23344,10 @@ let data = [{
         "  - 所有的点都是不同的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} points\n * @return {number}\n */\nvar minAreaRect = function(points) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} points\n * @return {number}\n */\nvar minAreaRect = function(points) {\n    \n};",
+        "py": "class Solution:\n    def minAreaRect(self, points: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0940",
     "titleSlug": "distinct-subsequences-ii",
@@ -21060,7 +23376,10 @@ let data = [{
         "  - 1 <= S.length <= 2000"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number}\n */\nvar distinctSubseqII = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number}\n */\nvar distinctSubseqII = function(S) {\n    \n};",
+        "py": "class Solution:\n    def distinctSubseqII(self, S: str) -> int:\n        "
+    }
 }, {
     "questionId": "0941",
     "titleSlug": "valid-mountain-array",
@@ -21090,7 +23409,10 @@ let data = [{
         "  - 0 <= A[i] <= 10000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar validMountainArray = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar validMountainArray = function(A) {\n    \n};",
+        "py": "class Solution:\n    def validMountainArray(self, A: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0942",
     "titleSlug": "di-string-match",
@@ -21118,7 +23440,10 @@ let data = [{
         "  - S 只包含字符 \"I\" 或 \"D\"。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {number[]}\n */\nvar diStringMatch = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {number[]}\n */\nvar diStringMatch = function(S) {\n    \n};",
+        "py": "class Solution:\n    def diStringMatch(self, S: str) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0943",
     "titleSlug": "find-the-shortest-superstring",
@@ -21140,7 +23465,10 @@ let data = [{
         "  - 1 <= A[i].length <= 20"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} A\n * @return {string}\n */\nvar shortestSuperstring = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} A\n * @return {string}\n */\nvar shortestSuperstring = function(A) {\n    \n};",
+        "py": "class Solution:\n    def shortestSuperstring(self, A: List[str]) -> str:\n        "
+    }
 }, {
     "questionId": "0944",
     "titleSlug": "delete-columns-to-make-sorted",
@@ -21173,7 +23501,10 @@ let data = [{
         "  - 1 <= A[i].length <= 1000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar minDeletionSize = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar minDeletionSize = function(A) {\n    \n};",
+        "py": "class Solution:\n    def minDeletionSize(self, A: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0945",
     "titleSlug": "minimum-increment-to-make-array-unique",
@@ -21198,7 +23529,10 @@ let data = [{
         "  - 0 <= A[i] < 40000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar minIncrementForUnique = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar minIncrementForUnique = function(A) {\n    \n};",
+        "py": "class Solution:\n    def minIncrementForUnique(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0946",
     "titleSlug": "validate-stack-sequences",
@@ -21224,7 +23558,10 @@ let data = [{
         "  - pushed 是 popped 的排列。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} pushed\n * @param {number[]} popped\n * @return {boolean}\n */\nvar validateStackSequences = function(pushed, popped) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} pushed\n * @param {number[]} popped\n * @return {boolean}\n */\nvar validateStackSequences = function(pushed, popped) {\n    \n};",
+        "py": "class Solution:\n    def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0947",
     "titleSlug": "most-stones-removed-with-same-row-or-column",
@@ -21253,7 +23590,10 @@ let data = [{
         "  - 0 <= stones[i][j] < 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} stones\n * @return {number}\n */\nvar removeStones = function(stones) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} stones\n * @return {number}\n */\nvar removeStones = function(stones) {\n    \n};",
+        "py": "class Solution:\n    def removeStones(self, stones: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0948",
     "titleSlug": "bag-of-tokens",
@@ -21284,7 +23624,10 @@ let data = [{
         "  - 0 <= P < 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} tokens\n * @param {number} P\n * @return {number}\n */\nvar bagOfTokensScore = function(tokens, P) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} tokens\n * @param {number} P\n * @return {number}\n */\nvar bagOfTokensScore = function(tokens, P) {\n    \n};",
+        "py": "class Solution:\n    def bagOfTokensScore(self, tokens: List[int], P: int) -> int:\n        "
+    }
 }, {
     "questionId": "0949",
     "titleSlug": "largest-time-for-given-digits",
@@ -21306,7 +23649,10 @@ let data = [{
         "  - 0 <= A[i] <= 9"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {string}\n */\nvar largestTimeFromDigits = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {string}\n */\nvar largestTimeFromDigits = function(A) {\n    \n};",
+        "py": "class Solution:\n    def largestTimeFromDigits(self, A: List[int]) -> str:\n        "
+    }
 }, {
     "questionId": "0950",
     "titleSlug": "reveal-cards-in-increasing-order",
@@ -21343,7 +23689,10 @@ let data = [{
         "  - 对于所有的 i != j，A[i] != A[j]"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} deck\n * @return {number[]}\n */\nvar deckRevealedIncreasing = function(deck) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} deck\n * @return {number[]}\n */\nvar deckRevealedIncreasing = function(deck) {\n    \n};",
+        "py": "class Solution:\n    def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0951",
     "titleSlug": "flip-equivalent-binary-trees",
@@ -21364,7 +23713,10 @@ let data = [{
         "  - 每棵树中的每个值都是唯一的、在 [0, 99] 范围内的整数。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root1\n * @param {TreeNode} root2\n * @return {boolean}\n */\nvar flipEquiv = function(root1, root2) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root1\n * @param {TreeNode} root2\n * @return {boolean}\n */\nvar flipEquiv = function(root1, root2) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def flipEquiv(self, root1: TreeNode, root2: TreeNode) -> bool:\n        "
+    }
 }, {
     "questionId": "0952",
     "titleSlug": "largest-component-size-by-common-factor",
@@ -21396,7 +23748,10 @@ let data = [{
         "  - 1 <= A[i] <= 100000"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar largestComponentSize = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar largestComponentSize = function(A) {\n    \n};",
+        "py": "class Solution:\n    def largestComponentSize(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0953",
     "titleSlug": "verifying-an-alien-dictionary",
@@ -21427,7 +23782,10 @@ let data = [{
         "  - 在 words[i] 和 order 中的所有字符都是英文小写字母。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} words\n * @param {string} order\n * @return {boolean}\n */\nvar isAlienSorted = function(words, order) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} words\n * @param {string} order\n * @return {boolean}\n */\nvar isAlienSorted = function(words, order) {\n    \n};",
+        "py": "class Solution:\n    def isAlienSorted(self, words: List[str], order: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0954",
     "titleSlug": "array-of-doubled-pairs",
@@ -21458,7 +23816,10 @@ let data = [{
         "  - -100000 <= A[i] <= 100000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar canReorderDoubled = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {boolean}\n */\nvar canReorderDoubled = function(A) {\n    \n};",
+        "py": "class Solution:\n    def canReorderDoubled(self, A: List[int]) -> bool:\n        "
+    }
 }, {
     "questionId": "0955",
     "titleSlug": "delete-columns-to-make-sorted-ii",
@@ -21497,7 +23858,10 @@ let data = [{
         "  - 1 <= A[i].length <= 100"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar minDeletionSize = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar minDeletionSize = function(A) {\n    \n};",
+        "py": "class Solution:\n    def minDeletionSize(self, A: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0956",
     "titleSlug": "tallest-billboard",
@@ -21528,7 +23892,10 @@ let data = [{
         "  - 钢筋的长度总和最多为 5000"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} rods\n * @return {number}\n */\nvar tallestBillboard = function(rods) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} rods\n * @return {number}\n */\nvar tallestBillboard = function(rods) {\n    \n};",
+        "py": "class Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0957",
     "titleSlug": "prison-cells-after-n-days",
@@ -21567,7 +23934,10 @@ let data = [{
         "  - 1 <= N <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} cells\n * @param {number} N\n * @return {number[]}\n */\nvar prisonAfterNDays = function(cells, N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} cells\n * @param {number} N\n * @return {number[]}\n */\nvar prisonAfterNDays = function(cells, N) {\n    \n};",
+        "py": "class Solution:\n    def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0958",
     "titleSlug": "check-completeness-of-a-binary-tree",
@@ -21593,7 +23963,10 @@ let data = [{
         "  - 树中将会有 1 到 100 个结点。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {boolean}\n */\nvar isCompleteTree = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {boolean}\n */\nvar isCompleteTree = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def isCompleteTree(self, root: TreeNode) -> bool:\n        "
+    }
 }, {
     "questionId": "0959",
     "titleSlug": "regions-cut-by-slashes",
@@ -21660,7 +24033,10 @@ let data = [{
         "  - grid[i][j] 是 '/'、'\\'、或 ' '。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} grid\n * @return {number}\n */\nvar regionsBySlashes = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} grid\n * @return {number}\n */\nvar regionsBySlashes = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def regionsBySlashes(self, grid: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0960",
     "titleSlug": "delete-columns-to-make-sorted-iii",
@@ -21697,7 +24073,10 @@ let data = [{
         "  - 1 <= A[i].length <= 100"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar minDeletionSize = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} A\n * @return {number}\n */\nvar minDeletionSize = function(A) {\n    \n};",
+        "py": "class Solution:\n    def minDeletionSize(self, A: List[str]) -> int:\n        "
+    }
 }, {
     "questionId": "0961",
     "titleSlug": "n-repeated-element-in-size-2n-array",
@@ -21724,7 +24103,10 @@ let data = [{
         "  - A.length 为偶数"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar repeatedNTimes = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar repeatedNTimes = function(A) {\n    \n};",
+        "py": "class Solution:\n    def repeatedNTimes(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0962",
     "titleSlug": "maximum-width-ramp",
@@ -21750,7 +24132,10 @@ let data = [{
         "  - 0 <= A[i] <= 50000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar maxWidthRamp = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar maxWidthRamp = function(A) {\n    \n};",
+        "py": "class Solution:\n    def maxWidthRamp(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0963",
     "titleSlug": "minimum-area-rectangle-ii",
@@ -21791,7 +24176,10 @@ let data = [{
         "  - 与真实值误差不超过 10^-5 的答案将视为正确结果。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} points\n * @return {number}\n */\nvar minAreaFreeRect = function(points) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} points\n * @return {number}\n */\nvar minAreaFreeRect = function(points) {\n    \n};",
+        "py": "class Solution:\n    def minAreaFreeRect(self, points: List[List[int]]) -> float:\n        "
+    }
 }, {
     "questionId": "0964",
     "titleSlug": "least-operators-to-express-number",
@@ -21826,7 +24214,10 @@ let data = [{
         "  - 1 <= target <= 2 * 10^8"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} x\n * @param {number} target\n * @return {number}\n */\nvar leastOpsExpressTarget = function(x, target) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} x\n * @param {number} target\n * @return {number}\n */\nvar leastOpsExpressTarget = function(x, target) {\n    \n};",
+        "py": "class Solution:\n    def leastOpsExpressTarget(self, x: int, target: int) -> int:\n        "
+    }
 }, {
     "questionId": "0965",
     "titleSlug": "univalued-binary-tree",
@@ -21850,7 +24241,10 @@ let data = [{
         "  - 每个节点的值都是整数，范围为 [0, 99] 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {boolean}\n */\nvar isUnivalTree = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {boolean}\n */\nvar isUnivalTree = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def isUnivalTree(self, root: TreeNode) -> bool:\n        "
+    }
 }, {
     "questionId": "0966",
     "titleSlug": "vowel-spellchecker",
@@ -21887,7 +24281,10 @@ let data = [{
         "  - wordlist 和 queries 中的所有字符串仅由英文字母组成。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} wordlist\n * @param {string[]} queries\n * @return {string[]}\n */\nvar spellchecker = function(wordlist, queries) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} wordlist\n * @param {string[]} queries\n * @return {string[]}\n */\nvar spellchecker = function(wordlist, queries) {\n    \n};",
+        "py": "class Solution:\n    def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "0967",
     "titleSlug": "numbers-with-same-consecutive-differences",
@@ -21911,7 +24308,10 @@ let data = [{
         "  - 0 <= K <= 9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number} K\n * @return {number[]}\n */\nvar numsSameConsecDiff = function(N, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} N\r\n * @param {number} K\r\n * @return {number[]}\r\n */\r\nvar numsSameConsecDiff = function(N, K) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numsSameConsecDiff(self, N, K):\r\n        \"\"\"\r\n        :type N: int\r\n        :type K: int\r\n        :rtype: List[int]\r\n        \"\"\"\r\n        "
+    }
 }, {
     "questionId": "0968",
     "titleSlug": "binary-tree-cameras",
@@ -21938,7 +24338,10 @@ let data = [{
         "  - 每个节点的值都是 0。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar minCameraCover = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar minCameraCover = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def minCameraCover(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0969",
     "titleSlug": "pancake-sorting",
@@ -21970,7 +24373,10 @@ let data = [{
         "  - A[i] 是 [1, 2, ..., A.length] 的排列"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar pancakeSort = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar pancakeSort = function(A) {\n    \n};",
+        "py": "class Solution:\n    def pancakeSort(self, A: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0970",
     "titleSlug": "powerful-integers",
@@ -22002,7 +24408,10 @@ let data = [{
         "  - 0 <= bound <= 10^6"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} x\n * @param {number} y\n * @param {number} bound\n * @return {number[]}\n */\nvar powerfulIntegers = function(x, y, bound) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} x\n * @param {number} y\n * @param {number} bound\n * @return {number[]}\n */\nvar powerfulIntegers = function(x, y, bound) {\n    \n};",
+        "py": "class Solution:\n    def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0971",
     "titleSlug": "flip-binary-tree-to-match-preorder-traversal",
@@ -22035,7 +24444,10 @@ let data = [{
         "  - 1 <= N <= 100"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number[]} voyage\n * @return {number[]}\n */\nvar flipMatchVoyage = function(root, voyage) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number[]} voyage\n * @return {number[]}\n */\nvar flipMatchVoyage = function(root, voyage) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def flipMatchVoyage(self, root: TreeNode, voyage: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0972",
     "titleSlug": "equal-rational-numbers",
@@ -22075,7 +24487,10 @@ let data = [{
         "  - 1 <= <RepeatingPart>.length <= 4"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {string} S\n * @param {string} T\n * @return {boolean}\n */\nvar isRationalEqual = function(S, T) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @param {string} T\n * @return {boolean}\n */\nvar isRationalEqual = function(S, T) {\n    \n};",
+        "py": "class Solution:\n    def isRationalEqual(self, S: str, T: str) -> bool:\n        "
+    }
 }, {
     "questionId": "0973",
     "titleSlug": "k-closest-points-to-origin",
@@ -22105,7 +24520,10 @@ let data = [{
         "  - -10000 < points[i][1] < 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[][]} points\n * @param {number} K\n * @return {number[][]}\n */\nvar kClosest = function(points, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} points\n * @param {number} K\n * @return {number[][]}\n */\nvar kClosest = function(points, K) {\n    \n};",
+        "py": "class Solution:\n    def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0974",
     "titleSlug": "subarray-sums-divisible-by-k",
@@ -22126,7 +24544,10 @@ let data = [{
         "  - 2 <= K <= 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar subarraysDivByK = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar subarraysDivByK = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def subarraysDivByK(self, A: List[int], K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0975",
     "titleSlug": "odd-even-jump",
@@ -22183,7 +24604,10 @@ let data = [{
         "  - 0 <= A[i] < 100000"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar oddEvenJumps = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar oddEvenJumps = function(A) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def oddEvenJumps(self, A: List[int]) -> int:"
+    }
 }, {
     "questionId": "0976",
     "titleSlug": "largest-perimeter-triangle",
@@ -22213,7 +24637,10 @@ let data = [{
         "  - 1 <= A[i] <= 10^6"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar largestPerimeter = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar largestPerimeter = function(A) {\n    \n};",
+        "py": "class Solution:\n    def largestPerimeter(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0977",
     "titleSlug": "squares-of-a-sorted-array",
@@ -22235,7 +24662,10 @@ let data = [{
         "  - A 已按非递减顺序排序。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar sortedSquares = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar sortedSquares = function(A) {\n    \n};",
+        "py": "class Solution:\n    def sortedSquares(self, A: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0978",
     "titleSlug": "longest-turbulent-subarray",
@@ -22266,7 +24696,10 @@ let data = [{
         "  - 0 <= A[i] <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar maxTurbulenceSize = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar maxTurbulenceSize = function(A) {\n    \n};",
+        "py": "class Solution:\n    def maxTurbulenceSize(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0979",
     "titleSlug": "distribute-coins-in-binary-tree",
@@ -22303,7 +24736,10 @@ let data = [{
         "  - 0 <= node.val <= N"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar distributeCoins = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar distributeCoins = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def distributeCoins(self, root: TreeNode) -> int:\n        "
+    }
 }, {
     "questionId": "0980",
     "titleSlug": "unique-paths-iii",
@@ -22344,7 +24780,10 @@ let data = [{
         "  - 1 <= grid.length * grid[0].length <= 20"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar uniquePathsIII = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar uniquePathsIII = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def uniquePathsIII(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0981",
     "titleSlug": "time-based-key-value-store",
@@ -22383,7 +24822,10 @@ let data = [{
         "  - TimeMap.set 和 TimeMap.get 函数在每个测试用例中将（组合）调用总计 120000 次。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Initialize your data structure here.\n */\nvar TimeMap = function() {\n    \n};\n\n/** \n * @param {string} key \n * @param {string} value \n * @param {number} timestamp\n * @return {void}\n */\nTimeMap.prototype.set = function(key, value, timestamp) {\n    \n};\n\n/** \n * @param {string} key \n * @param {number} timestamp\n * @return {string}\n */\nTimeMap.prototype.get = function(key, timestamp) {\n    \n};\n\n/** \n * Your TimeMap object will be instantiated and called as such:\n * var obj = Object.create(TimeMap).createNew()\n * obj.set(key,value,timestamp)\n * var param_2 = obj.get(key,timestamp)\n */"
+    "codeSnippets": {
+        "js": "/**\n * Initialize your data structure here.\n */\nvar TimeMap = function() {\n    \n};\n\n/** \n * @param {string} key \n * @param {string} value \n * @param {number} timestamp\n * @return {void}\n */\nTimeMap.prototype.set = function(key, value, timestamp) {\n    \n};\n\n/** \n * @param {string} key \n * @param {number} timestamp\n * @return {string}\n */\nTimeMap.prototype.get = function(key, timestamp) {\n    \n};\n\n/** \n * Your TimeMap object will be instantiated and called as such:\n * var obj = new TimeMap()\n * obj.set(key,value,timestamp)\n * var param_2 = obj.get(key,timestamp)\n */",
+        "py": "class TimeMap:\n\n    def __init__(self):\n        \"\"\"\n        Initialize your data structure here.\n        \"\"\"\n        \n\n    def set(self, key: str, value: str, timestamp: int) -> None:\n        \n\n    def get(self, key: str, timestamp: int) -> str:\n        \n\n\n# Your TimeMap object will be instantiated and called as such:\n# obj = TimeMap()\n# obj.set(key,value,timestamp)\n# param_2 = obj.get(key,timestamp)"
+    }
 }, {
     "questionId": "0982",
     "titleSlug": "triples-with-bitwise-and-equal-to-zero",
@@ -22417,7 +24859,10 @@ let data = [{
         "  - 0 <= A[i] < 2048"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar countTriplets = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar countTriplets = function(A) {\n    \n};",
+        "py": "class Solution:\n    def countTriplets(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0983",
     "titleSlug": "minimum-cost-for-tickets",
@@ -22461,7 +24906,10 @@ let data = [{
         "  - 1 <= costs[i] <= 1000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} days\n * @param {number[]} costs\n * @return {number}\n */\nvar mincostTickets = function(days, costs) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} days\n * @param {number[]} costs\n * @return {number}\n */\nvar mincostTickets = function(days, costs) {\n    \n};",
+        "py": "class Solution:\n    def mincostTickets(self, days: List[int], costs: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0984",
     "titleSlug": "string-without-aaa-or-bbb",
@@ -22486,7 +24934,10 @@ let data = [{
         "  - 对于给定的 A 和 B，保证存在满足要求的 S。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} A\n * @param {number} B\n * @return {string}\n */\nvar strWithout3a3b = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} A\n * @param {number} B\n * @return {string}\n */\nvar strWithout3a3b = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def strWithout3a3b(self, A: int, B: int) -> str:\n        "
+    }
 }, {
     "questionId": "0985",
     "titleSlug": "sum-of-even-numbers-after-queries",
@@ -22515,7 +24966,10 @@ let data = [{
         "  - 0 <= queries[i][1] < A.length"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar sumEvenAfterQueries = function(A, queries) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar sumEvenAfterQueries = function(A, queries) {\n    \n};",
+        "py": "class Solution:\n    def sumEvenAfterQueries(self, A: List[int], queries: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0986",
     "titleSlug": "interval-list-intersections",
@@ -22538,7 +24992,10 @@ let data = [{
         "  - 0 <= A[i].start, A[i].end, B[i].start, B[i].end < 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for an interval.\n * function Interval(start, end) {\n *     this.start = start;\n *     this.end = end;\n * }\n */\n/**\n * @param {Interval[]} A\n * @param {Interval[]} B\n * @return {Interval[]}\n */\nvar intervalIntersection = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} A\r\n * @param {number[][]} B\r\n * @return {number[][]}\r\n */\r\nvar intervalIntersection = function(A, B) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def intervalIntersection(self, A: List[List[int]], B: List[List[int]]) -> List[List[int]]:\r\n        "
+    }
 }, {
     "questionId": "0987",
     "titleSlug": "vertical-order-traversal-of-a-binary-tree",
@@ -22574,7 +25031,10 @@ let data = [{
         "  - 每个结点值介于 0 和 1000 之间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[][]}\n */\nvar verticalTraversal = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number[][]}\n */\nvar verticalTraversal = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def verticalTraversal(self, root: TreeNode) -> List[List[int]]:\n        "
+    }
 }, {
     "questionId": "0988",
     "titleSlug": "smallest-string-starting-from-leaf",
@@ -22603,7 +25063,10 @@ let data = [{
         "  - 树中的每个结点都有一个介于 0 和 25 之间的值。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {string}\n */\nvar smallestFromLeaf = function(root) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {string}\n */\nvar smallestFromLeaf = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def smallestFromLeaf(self, root: TreeNode) -> str:\n        "
+    }
 }, {
     "questionId": "0989",
     "titleSlug": "add-to-array-form-of-integer",
@@ -22639,7 +25102,10 @@ let data = [{
         "  - 如果 A.length > 1，那么 A[0] != 0"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number[]}\n */\nvar addToArrayForm = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number[]}\n */\nvar addToArrayForm = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def addToArrayForm(self, A: List[int], K: int) -> List[int]:\n        "
+    }
 }, {
     "questionId": "0990",
     "titleSlug": "satisfiability-of-equality-equations",
@@ -22678,7 +25144,10 @@ let data = [{
         "  - equations[i][2] 是 '='"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string[]} equations\n * @return {boolean}\n */\nvar equationsPossible = function(equations) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} equations\n * @return {boolean}\n */\nvar equationsPossible = function(equations) {\n    \n};",
+        "py": "class Solution:\n    def equationsPossible(self, equations: List[str]) -> bool:\n        "
+    }
 }, {
     "questionId": "0991",
     "titleSlug": "broken-calculator",
@@ -22716,7 +25185,10 @@ let data = [{
         "  - 1 <= Y <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} X\n * @param {number} Y\n * @return {number}\n */\nvar brokenCalc = function(X, Y) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} X\n * @param {number} Y\n * @return {number}\n */\nvar brokenCalc = function(X, Y) {\n    \n};",
+        "py": "class Solution:\n    def brokenCalc(self, X: int, Y: int) -> int:\n        "
+    }
 }, {
     "questionId": "0992",
     "titleSlug": "subarrays-with-k-different-integers",
@@ -22742,7 +25214,10 @@ let data = [{
         "  - 1 <= K <= A.length"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar subarraysWithKDistinct = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar subarraysWithKDistinct = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def subarraysWithKDistinct(self, A: List[int], K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0993",
     "titleSlug": "cousins-in-binary-tree",
@@ -22773,7 +25248,10 @@ let data = [{
         "  - 每个节点的值都是唯一的、范围为 1 到 100 的整数。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} x\n * @param {number} y\n * @return {boolean}\n */\nvar isCousins = function(root, x, y) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} x\n * @param {number} y\n * @return {boolean}\n */\nvar isCousins = function(root, x, y) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def isCousins(self, root: TreeNode, x: int, y: int) -> bool:\n        "
+    }
 }, {
     "questionId": "0994",
     "titleSlug": "rotting-oranges",
@@ -22808,7 +25286,10 @@ let data = [{
         "  - grid[i][j] 仅为 0、1 或 2"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar orangesRotting = function(grid) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar orangesRotting = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def orangesRotting(self, grid: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0995",
     "titleSlug": "minimum-number-of-k-consecutive-bit-flips",
@@ -22840,7 +25321,10 @@ let data = [{
         "  - 1 <= K <= A.length"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar minKBitFlips = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar minKBitFlips = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def minKBitFlips(self, A: List[int], K: int) -> int:\n        "
+    }
 }, {
     "questionId": "0996",
     "titleSlug": "number-of-squareful-arrays",
@@ -22864,7 +25348,10 @@ let data = [{
         "  - 0 <= A[i] <= 1e9"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar numSquarefulPerms = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number}\n */\nvar numSquarefulPerms = function(A) {\n    \n};",
+        "py": "class Solution:\n    def numSquarefulPerms(self, A: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "0997",
     "titleSlug": "find-the-town-judge",
@@ -22907,7 +25394,10 @@ let data = [{
         "  - 1 <= trust[i][0], trust[i][1] <= N"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number[][]} trust\n * @return {number}\n */\nvar findJudge = function(N, trust) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number[][]} trust\n * @return {number}\n */\nvar findJudge = function(N, trust) {\n    \n};",
+        "py": "class Solution:\n    def findJudge(self, N: int, trust: List[List[int]]) -> int:\n        "
+    }
 }, {
     "questionId": "0998",
     "titleSlug": "maximum-binary-tree-ii",
@@ -22951,7 +25441,10 @@ let data = [{
         "  - 1 <= B.length <= 100"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} val\n * @return {TreeNode}\n */\nvar insertIntoMaxTree = function(root, val) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} val\n * @return {TreeNode}\n */\nvar insertIntoMaxTree = function(root, val) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def insertIntoMaxTree(self, root: TreeNode, val: int) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "0999",
     "titleSlug": "available-captures-for-rook",
@@ -22988,7 +25481,10 @@ let data = [{
         "  - 只有一个格子上存在 board[i][j] == 'R'"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {character[][]} board\n * @return {number}\n */\nvar numRookCaptures = function(board) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {character[][]} board\n * @return {number}\n */\nvar numRookCaptures = function(board) {\n    \n};",
+        "py": "class Solution:\n    def numRookCaptures(self, board: List[List[str]]) -> int:\n        "
+    }
 }, {
     "questionId": "1000",
     "titleSlug": "minimum-cost-to-merge-stones",
@@ -23028,7 +25524,10 @@ let data = [{
         "  - 1 <= stones[i] <= 100"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number[]} stones\n * @param {number} K\n * @return {number}\n */\nvar mergeStones = function(stones, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} stones\n * @param {number} K\n * @return {number}\n */\nvar mergeStones = function(stones, K) {\n    \n};",
+        "py": "class Solution:\n    def mergeStones(self, stones: List[int], K: int) -> int:\n        "
+    }
 }, {
     "questionId": "1001",
     "titleSlug": "grid-illumination",
@@ -23066,7 +25565,10 @@ let data = [{
         "  - lamps[i].length == queries[i].length == 2"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\n * @param {number} N\n * @param {number[][]} lamps\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar gridIllumination = function(N, lamps, queries) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @param {number[][]} lamps\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar gridIllumination = function(N, lamps, queries) {\n    \n};",
+        "py": "class Solution:\n    def gridIllumination(self, N: int, lamps: List[List[int]], queries: List[List[int]]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "1002",
     "titleSlug": "find-common-characters",
@@ -23089,7 +25591,10 @@ let data = [{
         "  - A[i][j] 是小写字母"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {string[]} A\n * @return {string[]}\n */\nvar commonChars = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string[]} A\n * @return {string[]}\n */\nvar commonChars = function(A) {\n    \n};",
+        "py": "class Solution:\n    def commonChars(self, A: List[str]) -> List[str]:\n        "
+    }
 }, {
     "questionId": "1003",
     "titleSlug": "check-if-word-is-valid-after-substitutions",
@@ -23128,7 +25633,10 @@ let data = [{
         "  - S[i] 为 'a'、'b'、或 'c'"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {string} S\n * @return {boolean}\n */\nvar isValid = function(S) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {string} S\n * @return {boolean}\n */\nvar isValid = function(S) {\n    \n};",
+        "py": "class Solution:\n    def isValid(self, S: str) -> bool:\n        "
+    }
 }, {
     "questionId": "1004",
     "titleSlug": "max-consecutive-ones-iii",
@@ -23157,7 +25665,10 @@ let data = [{
         "  - A[i] 为 0 或 1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar longestOnes = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar longestOnes = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def longestOnes(self, A: List[int], K: int) -> int:\n        "
+    }
 }, {
     "questionId": "1005",
     "titleSlug": "maximize-sum-of-array-after-k-negations",
@@ -23187,7 +25698,10 @@ let data = [{
         "  - -100 <= A[i] <= 100"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar largestSumAfterKNegations = function(A, K) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number} K\n * @return {number}\n */\nvar largestSumAfterKNegations = function(A, K) {\n    \n};",
+        "py": "class Solution:\n    def largestSumAfterKNegations(self, A: List[int], K: int) -> int:\n        "
+    }
 }, {
     "questionId": "1006",
     "titleSlug": "clumsy-factorial",
@@ -23215,7 +25729,10 @@ let data = [{
         "  - -2^31 <= answer <= 2^31 - 1  （答案保证符合 32 位整数。）"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number} N\n * @return {number}\n */\nvar clumsy = function(N) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number} N\n * @return {number}\n */\nvar clumsy = function(N) {\n    \n};",
+        "py": "class Solution:\n    def clumsy(self, N: int) -> int:\n        "
+    }
 }, {
     "questionId": "1007",
     "titleSlug": "minimum-domino-rotations-for-equal-row",
@@ -23245,7 +25762,10 @@ let data = [{
         "  - 2 <= A.length == B.length <= 20000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number}\n */\nvar minDominoRotations = function(A, B) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number}\n */\nvar minDominoRotations = function(A, B) {\n    \n};",
+        "py": "class Solution:\n    def minDominoRotations(self, A: List[int], B: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "1008",
     "titleSlug": "construct-binary-search-tree-from-preorder-traversal",
@@ -23264,7 +25784,10 @@ let data = [{
         "  - 先序 preorder 中的值是不同的。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} preorder\n * @return {TreeNode}\n */\nvar bstFromPreorder = function(preorder) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {number[]} preorder\n * @return {TreeNode}\n */\nvar bstFromPreorder = function(preorder) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def bstFromPreorder(self, preorder: List[int]) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "1009",
     "titleSlug": "complement-of-base-10-integer",
@@ -23295,7 +25818,10 @@ let data = [{
         "0 <= N < 10^9"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number} N\r\n * @return {number}\r\n */\r\nvar bitwiseComplement = function(N) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} N\r\n * @return {number}\r\n */\r\nvar bitwiseComplement = function(N) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def bitwiseComplement(self, N: int) -> int:"
+    }
 }, {
     "questionId": "1010",
     "titleSlug": "pairs-of-songs-with-total-durations-divisible-by-60",
@@ -23323,7 +25849,10 @@ let data = [{
         "1 <= time[i] <= 500"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number[]} time\r\n * @return {number}\r\n */\r\nvar numPairsDivisibleBy60 = function(time) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} time\r\n * @return {number}\r\n */\r\nvar numPairsDivisibleBy60 = function(time) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numPairsDivisibleBy60(self, time: List[int]) -> int:"
+    }
 }, {
     "questionId": "1011",
     "titleSlug": "capacity-to-ship-packages-within-d-days",
@@ -23371,7 +25900,10 @@ let data = [{
         "1 <= weights[i] <= 500"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} weights\r\n * @param {number} D\r\n * @return {number}\r\n */\r\nvar shipWithinDays = function(weights, D) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} weights\r\n * @param {number} D\r\n * @return {number}\r\n */\r\nvar shipWithinDays = function(weights, D) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def shipWithinDays(self, weights: List[int], D: int) -> int:"
+    }
 }, {
     "questionId": "1012",
     "titleSlug": "numbers-with-repeated-digits",
@@ -23397,7 +25929,10 @@ let data = [{
         "1 <= N <= 10^9"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\r\n * @param {number} N\r\n * @return {number}\r\n */\r\nvar numDupDigitsAtMostN = function(N) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} N\r\n * @return {number}\r\n */\r\nvar numDupDigitsAtMostN = function(N) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numDupDigitsAtMostN(self, N: int) -> int:"
+    }
 }, {
     "questionId": "1013",
     "titleSlug": "partition-array-into-three-parts-with-equal-sum",
@@ -23426,7 +25961,10 @@ let data = [{
         "-10000 <= A[i] <= 10000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @return {boolean}\r\n */\r\nvar canThreePartsEqualSum = function(A) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @return {boolean}\r\n */\r\nvar canThreePartsEqualSum = function(A) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def canThreePartsEqualSum(self, A: List[int]) -> bool:"
+    }
 }, {
     "questionId": "1014",
     "titleSlug": "best-sightseeing-pair",
@@ -23448,7 +25986,10 @@ let data = [{
         "1 <= A[i] <= 1000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar maxScoreSightseeingPair = function(A) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar maxScoreSightseeingPair = function(A) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def maxScoreSightseeingPair(self, A: List[int]) -> int:"
+    }
 }, {
     "questionId": "1015",
     "titleSlug": "smallest-integer-divisible-by-k",
@@ -23477,7 +26018,10 @@ let data = [{
         "1 <= K <= 10^5"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number} K\r\n * @return {number}\r\n */\r\nvar smallestRepunitDivByK = function(K) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} K\r\n * @return {number}\r\n */\r\nvar smallestRepunitDivByK = function(K) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def smallestRepunitDivByK(self, K: int) -> int:"
+    }
 }, {
     "questionId": "1016",
     "titleSlug": "binary-string-with-substrings-representing-1-to-n",
@@ -23498,7 +26042,10 @@ let data = [{
         "1 <= N <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {string} S\r\n * @param {number} N\r\n * @return {boolean}\r\n */\r\nvar queryString = function(S, N) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} S\r\n * @param {number} N\r\n * @return {boolean}\r\n */\r\nvar queryString = function(S, N) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def queryString(self, S: str, N: int) -> bool:\r\n        "
+    }
 }, {
     "questionId": "1017",
     "titleSlug": "convert-to-base-2",
@@ -23527,7 +26074,10 @@ let data = [{
         "0 <= N <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number} N\r\n * @return {string}\r\n */\r\nvar baseNeg2 = function(N) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} N\r\n * @return {string}\r\n */\r\nvar baseNeg2 = function(N) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def baseNeg2(self, N: int) -> str:"
+    }
 }, {
     "questionId": "1018",
     "titleSlug": "binary-prefix-divisible-by-5",
@@ -23560,7 +26110,10 @@ let data = [{
         "A[i] 为 0 或 1"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @return {boolean[]}\r\n */\r\nvar prefixesDivBy5 = function(A) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @return {boolean[]}\r\n */\r\nvar prefixesDivBy5 = function(A) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def prefixesDivBy5(self, A: List[int]) -> List[bool]:"
+    }
 }, {
     "questionId": "1019",
     "titleSlug": "next-greater-node-in-linked-list",
@@ -23591,7 +26144,10 @@ let data = [{
         "给定列表的长度在 [0, 10000] 范围内"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n/**\r\n * @param {ListNode} head\r\n * @return {number[]}\r\n */\r\nvar nextLargerNodes = function(head) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n/**\r\n * @param {ListNode} head\r\n * @return {number[]}\r\n */\r\nvar nextLargerNodes = function(head) {\r\n    \r\n};",
+        "py": "# Definition for singly-linked list.\r\n# class ListNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution:\r\n    def nextLargerNodes(self, head: ListNode) -> List[int]:"
+    }
 }, {
     "questionId": "1020",
     "titleSlug": "number-of-enclaves",
@@ -23622,7 +26178,10 @@ let data = [{
         "所有行的大小都相同"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[][]} A\r\n * @return {number}\r\n */\r\nvar numEnclaves = function(A) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} A\r\n * @return {number}\r\n */\r\nvar numEnclaves = function(A) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numEnclaves(self, A: List[List[int]]) -> int:"
+    }
 }, {
     "questionId": "1021",
     "titleSlug": "remove-outermost-parentheses",
@@ -23663,7 +26222,10 @@ let data = [{
         "S 是一个有效括号字符串"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {string} S\r\n * @return {string}\r\n */\r\nvar removeOuterParentheses = function(S) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} S\r\n * @return {string}\r\n */\r\nvar removeOuterParentheses = function(S) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def removeOuterParentheses(self, S: str) -> str:"
+    }
 }, {
     "questionId": "1022",
     "titleSlug": "sum-of-root-to-leaf-binary-numbers",
@@ -23685,7 +26247,10 @@ let data = [{
         "node.val 为 0 或 1 。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar sumRootToLeaf = function(root) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar sumRootToLeaf = function(root) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def sumRootToLeaf(self, root: TreeNode) -> int:\r\n        "
+    }
 }, {
     "questionId": "1023",
     "titleSlug": "camelcase-matching",
@@ -23723,7 +26288,10 @@ let data = [{
         "所有字符串都仅由大写和小写英文字母组成。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {string[]} queries\r\n * @param {string} pattern\r\n * @return {boolean[]}\r\n */\r\nvar camelMatch = function(queries, pattern) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} queries\r\n * @param {string} pattern\r\n * @return {boolean[]}\r\n */\r\nvar camelMatch = function(queries, pattern) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def camelMatch(self, queries: List[str], pattern: str) -> List[bool]:"
+    }
 }, {
     "questionId": "1024",
     "titleSlug": "video-stitching",
@@ -23768,7 +26336,10 @@ let data = [{
         "0 <= T <= 100"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[][]} clips\r\n * @param {number} T\r\n * @return {number}\r\n */\r\nvar videoStitching = function(clips, T) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} clips\r\n * @param {number} T\r\n * @return {number}\r\n */\r\nvar videoStitching = function(clips, T) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def videoStitching(self, clips: List[List[int]], T: int) -> int:\r\n        "
+    }
 }, {
     "questionId": "1025",
     "titleSlug": "divisor-game",
@@ -23799,7 +26370,10 @@ let data = [{
         "1 <= N <= 1000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number} N\r\n * @return {boolean}\r\n */\r\nvar divisorGame = function(N) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} N\r\n * @return {boolean}\r\n */\r\nvar divisorGame = function(N) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def divisorGame(self, N: int) -> bool:"
+    }
 }, {
     "questionId": "1026",
     "titleSlug": "maximum-difference-between-node-and-ancestor",
@@ -23825,7 +26399,10 @@ let data = [{
         "每个节点的值介于 0 到 100000 之间。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar maxAncestorDiff = function(root) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {number}\r\n */\r\nvar maxAncestorDiff = function(root) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def maxAncestorDiff(self, root: TreeNode) -> int:\r\n        "
+    }
 }, {
     "questionId": "1027",
     "titleSlug": "longest-arithmetic-sequence",
@@ -23858,7 +26435,10 @@ let data = [{
         "0 <= A[i] <= 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar longestArithSeqLength = function(A) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar longestArithSeqLength = function(A) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def longestArithSeqLength(self, A: List[int]) -> int:"
+    }
 }, {
     "questionId": "1028",
     "titleSlug": "recover-a-tree-from-preorder-traversal",
@@ -23889,7 +26469,10 @@ let data = [{
         "每个节点的值介于 1 和 10 ^ 9 之间。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {string} S\r\n * @return {TreeNode}\r\n */\r\nvar recoverFromPreorder = function(S) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {string} S\r\n * @return {TreeNode}\r\n */\r\nvar recoverFromPreorder = function(S) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def recoverFromPreorder(self, S: str) -> TreeNode:\r\n        "
+    }
 }, {
     "questionId": "1029",
     "titleSlug": "two-city-scheduling",
@@ -23916,7 +26499,10 @@ let data = [{
         "1 <= costs[i][0], costs[i][1] <= 1000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number[][]} costs\r\n * @return {number}\r\n */\r\nvar twoCitySchedCost = function(costs) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} costs\r\n * @return {number}\r\n */\r\nvar twoCitySchedCost = function(costs) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def twoCitySchedCost(self, costs: List[List[int]]) -> int:"
+    }
 }, {
     "questionId": "1030",
     "titleSlug": "matrix-cells-in-distance-order",
@@ -23952,7 +26538,10 @@ let data = [{
         "0 <= c0 < C"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number} R\r\n * @param {number} C\r\n * @param {number} r0\r\n * @param {number} c0\r\n * @return {number[][]}\r\n */\r\nvar allCellsDistOrder = function(R, C, r0, c0) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} R\r\n * @param {number} C\r\n * @param {number} r0\r\n * @param {number} c0\r\n * @return {number[][]}\r\n */\r\nvar allCellsDistOrder = function(R, C, r0, c0) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def allCellsDistOrder(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:\r\n        "
+    }
 }, {
     "questionId": "1031",
     "titleSlug": "maximum-sum-of-two-non-overlapping-subarrays",
@@ -23987,7 +26576,10 @@ let data = [{
         "0 <= A[i] <= 1000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @param {number} L\r\n * @param {number} M\r\n * @return {number}\r\n */\r\nvar maxSumTwoNoOverlap = function(A, L, M) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @param {number} L\r\n * @param {number} M\r\n * @return {number}\r\n */\r\nvar maxSumTwoNoOverlap = function(A, L, M) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def maxSumTwoNoOverlap(self, A: List[int], L: int, M: int) -> int:\r\n        "
+    }
 }, {
     "questionId": "1032",
     "titleSlug": "stream-of-characters",
@@ -24021,7 +26613,10 @@ let data = [{
         "待查项最多 40000 个。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\r\n * @param {string[]} words\r\n */\r\nvar StreamChecker = function(words) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {character} letter\r\n * @return {boolean}\r\n */\r\nStreamChecker.prototype.query = function(letter) {\r\n    \r\n};\r\n\r\n/** \r\n * Your StreamChecker object will be instantiated and called as such:\r\n * var obj = new StreamChecker(words)\r\n * var param_1 = obj.query(letter)\r\n */"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} words\r\n */\r\nvar StreamChecker = function(words) {\r\n    \r\n};\r\n\r\n/** \r\n * @param {character} letter\r\n * @return {boolean}\r\n */\r\nStreamChecker.prototype.query = function(letter) {\r\n    \r\n};\r\n\r\n/** \r\n * Your StreamChecker object will be instantiated and called as such:\r\n * var obj = new StreamChecker(words)\r\n * var param_1 = obj.query(letter)\r\n */",
+        "py": "class StreamChecker:\r\n\r\n    def __init__(self, words: List[str]):\r\n        \r\n\r\n    def query(self, letter: str) -> bool:\r\n        \r\n\r\n\r\n# Your StreamChecker object will be instantiated and called as such:\r\n# obj = StreamChecker(words)\r\n# param_1 = obj.query(letter)"
+    }
 }, {
     "questionId": "1033",
     "titleSlug": "moving-stones-until-consecutive",
@@ -24052,7 +26647,10 @@ let data = [{
         "a != b, b != c, c != a"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number} a\r\n * @param {number} b\r\n * @param {number} c\r\n * @return {number[]}\r\n */\r\nvar numMovesStones = function(a, b, c) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} a\r\n * @param {number} b\r\n * @param {number} c\r\n * @return {number[]}\r\n */\r\nvar numMovesStones = function(a, b, c) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numMovesStones(self, a: int, b: int, c: int) -> List[int]:\r\n        "
+    }
 }, {
     "questionId": "1034",
     "titleSlug": "coloring-a-border",
@@ -24087,7 +26685,10 @@ let data = [{
         "1 <= color <= 1000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[][]} grid\r\n * @param {number} r0\r\n * @param {number} c0\r\n * @param {number} color\r\n * @return {number[][]}\r\n */\r\nvar colorBorder = function(grid, r0, c0, color) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} grid\r\n * @param {number} r0\r\n * @param {number} c0\r\n * @param {number} color\r\n * @return {number[][]}\r\n */\r\nvar colorBorder = function(grid, r0, c0, color) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def colorBorder(self, grid: List[List[int]], r0: int, c0: int, color: int) -> List[List[int]]:"
+    }
 }, {
     "questionId": "1035",
     "titleSlug": "uncrossed-lines",
@@ -24120,7 +26721,10 @@ let data = [{
         "1 <= A[i], B[i] <= 2000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @param {number[]} B\r\n * @return {number}\r\n */\r\nvar maxUncrossedLines = function(A, B) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @param {number[]} B\r\n * @return {number}\r\n */\r\nvar maxUncrossedLines = function(A, B) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def maxUncrossedLines(self, A: List[int], B: List[int]) -> int:\r\n        "
+    }
 }, {
     "questionId": "1036",
     "titleSlug": "escape-a-large-maze",
@@ -24153,7 +26757,10 @@ let data = [{
         "source != target"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\r\n * @param {number[][]} blocked\r\n * @param {number[]} source\r\n * @param {number[]} target\r\n * @return {boolean}\r\n */\r\nvar isEscapePossible = function(blocked, source, target) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} blocked\r\n * @param {number[]} source\r\n * @param {number[]} target\r\n * @return {boolean}\r\n */\r\nvar isEscapePossible = function(blocked, source, target) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def isEscapePossible(self, blocked: List[List[int]], source: List[int], target: List[int]) -> bool:\r\n        "
+    }
 }, {
     "questionId": "1037",
     "titleSlug": "valid-boomerang",
@@ -24177,7 +26784,10 @@ let data = [{
         "0 <= points[i][j] <= 100"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number[][]} points\r\n * @return {boolean}\r\n */\r\nvar isBoomerang = function(points) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} points\r\n * @return {boolean}\r\n */\r\nvar isBoomerang = function(points) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def isBoomerang(self, points: List[List[int]]) -> bool:"
+    }
 }, {
     "questionId": "1038",
     "titleSlug": "binary-search-tree-to-greater-sum-tree",
@@ -24201,7 +26811,10 @@ let data = [{
         "给定的树为二叉搜索树。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {TreeNode}\r\n */\r\nvar bstToGst = function(root) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @return {TreeNode}\r\n */\r\nvar bstToGst = function(root) {\r\n    \r\n};",
+        "py": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.left = None\r\n#         self.right = None\r\n\r\nclass Solution:\r\n    def bstToGst(self, root: TreeNode) -> TreeNode:\r\n        "
+    }
 }, {
     "questionId": "1039",
     "titleSlug": "minimum-score-triangulation-of-polygon",
@@ -24233,7 +26846,10 @@ let data = [{
         "1 <= A[i] <= 100"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar minScoreTriangulation = function(A) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @return {number}\r\n */\r\nvar minScoreTriangulation = function(A) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def minScoreTriangulation(self, A: List[int]) -> int:"
+    }
 }, {
     "questionId": "1040",
     "titleSlug": "moving-stones-until-consecutive-ii",
@@ -24274,7 +26890,10 @@ let data = [{
         "stones[i] 的值各不相同。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} stones\r\n * @return {number[]}\r\n */\r\nvar numMovesStonesII = function(stones) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} stones\r\n * @return {number[]}\r\n */\r\nvar numMovesStonesII = function(stones) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numMovesStonesII(self, stones: List[int]) -> List[int]:"
+    }
 }, {
     "questionId": "1041",
     "titleSlug": "robot-bounded-in-circle",
@@ -24314,7 +26933,10 @@ let data = [{
         "instructions[i] 在 {&#39;G&#39;, &#39;L&#39;, &#39;R&#39;} 中"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {string} instructions\r\n * @return {boolean}\r\n */\r\nvar isRobotBounded = function(instructions) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} instructions\r\n * @return {boolean}\r\n */\r\nvar isRobotBounded = function(instructions) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def isRobotBounded(self, instructions: str) -> bool:\r\n        "
+    }
 }, {
     "questionId": "1042",
     "titleSlug": "flower-planting-with-no-adjacent",
@@ -24349,7 +26971,10 @@ let data = [{
         "保证存在答案。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number} N\r\n * @param {number[][]} paths\r\n * @return {number[]}\r\n */\r\nvar gardenNoAdj = function(N, paths) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number} N\r\n * @param {number[][]} paths\r\n * @return {number[]}\r\n */\r\nvar gardenNoAdj = function(N, paths) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def gardenNoAdj(self, N: int, paths: List[List[int]]) -> List[int]:"
+    }
 }, {
     "questionId": "1043",
     "titleSlug": "partition-array-for-maximum-sum",
@@ -24369,7 +26994,10 @@ let data = [{
         "0 <= A[i] <= 10^6"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} A\r\n * @param {number} K\r\n * @return {number}\r\n */\r\nvar maxSumAfterPartitioning = function(A, K) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} A\r\n * @param {number} K\r\n * @return {number}\r\n */\r\nvar maxSumAfterPartitioning = function(A, K) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def maxSumAfterPartitioning(self, A: List[int], K: int) -> int:"
+    }
 }, {
     "questionId": "1044",
     "titleSlug": "longest-duplicate-substring",
@@ -24392,7 +27020,10 @@ let data = [{
         "S 由小写英文字母组成。"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\r\n * @param {string} S\r\n * @return {string}\r\n */\r\nvar longestDupSubstring = function(S) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} S\r\n * @return {string}\r\n */\r\nvar longestDupSubstring = function(S) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def longestDupSubstring(self, S: str) -> str:"
+    }
 }, {
     "questionId": "1046",
     "titleSlug": "last-stone-weight",
@@ -24412,7 +27043,10 @@ let data = [{
         "1 <= stones[i] <= 1000"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {number[]} stones\r\n * @return {number}\r\n */\r\nvar lastStoneWeight = function(stones) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} stones\r\n * @return {number}\r\n */\r\nvar lastStoneWeight = function(stones) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def lastStoneWeight(self, stones: List[int]) -> int:"
+    }
 }, {
     "questionId": "1047",
     "titleSlug": "remove-all-adjacent-duplicates-in-string",
@@ -24435,7 +27069,10 @@ let data = [{
         "S 仅由小写英文字母组成。"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {string} S\r\n * @return {string}\r\n */\r\nvar removeDuplicates = function(S) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} S\r\n * @return {string}\r\n */\r\nvar removeDuplicates = function(S) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def removeDuplicates(self, S: str) -> str:"
+    }
 }, {
     "questionId": "1048",
     "titleSlug": "longest-string-chain",
@@ -24460,7 +27097,10 @@ let data = [{
         "words[i] 仅由小写英文字母组成。"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {string[]} words\r\n * @return {number}\r\n */\r\nvar longestStrChain = function(words) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} words\r\n * @return {number}\r\n */\r\nvar longestStrChain = function(words) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def longestStrChain(self, words: List[str]) -> int:"
+    }
 }, {
     "questionId": "1049",
     "titleSlug": "last-stone-weight-ii",
@@ -24489,7 +27129,10 @@ let data = [{
         "1 <= stones[i] <= 1000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} stones\r\n * @return {number}\r\n */\r\nvar lastStoneWeightII = function(stones) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} stones\r\n * @return {number}\r\n */\r\nvar lastStoneWeightII = function(stones) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def lastStoneWeightII(self, stones: List[int]) -> int:\r\n        "
+    }
 }, {
     "questionId": "1051",
     "titleSlug": "height-checker",
@@ -24510,7 +27153,10 @@ let data = [{
         "1 <= heights[i] <= 100"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\n * @param {number[]} heights\n * @return {number}\n */\nvar heightChecker = function(heights) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} heights\n * @return {number}\n */\nvar heightChecker = function(heights) {\n    \n};",
+        "py": "class Solution:\n    def heightChecker(self, heights: List[int]) -> int:\n        "
+    }
 }, {
     "questionId": "1052",
     "titleSlug": "grumpy-bookstore-owner",
@@ -24537,7 +27183,10 @@ let data = [{
         "0 <= grumpy[i] <= 1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} customers\n * @param {number[]} grumpy\n * @param {number} X\n * @return {number}\n */\nvar maxSatisfied = function(customers, grumpy, X) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} customers\n * @param {number[]} grumpy\n * @param {number} X\n * @return {number}\n */\nvar maxSatisfied = function(customers, grumpy, X) {\n    \n};",
+        "py": "class Solution:\n    def maxSatisfied(self, customers: List[int], grumpy: List[int], X: int) -> int:\n        "
+    }
 }, {
     "questionId": "1053",
     "titleSlug": "previous-permutation-with-one-swap",
@@ -24576,7 +27225,10 @@ let data = [{
         "1 <= A[i] <= 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar prevPermOpt1 = function(A) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} A\n * @return {number[]}\n */\nvar prevPermOpt1 = function(A) {\n    \n};",
+        "py": "class Solution:\n    def prevPermOpt1(self, A: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "1054",
     "titleSlug": "distant-barcodes",
@@ -24599,7 +27251,10 @@ let data = [{
         "1 <= barcodes[i] <= 10000"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\n * @param {number[]} barcodes\n * @return {number[]}\n */\nvar rearrangeBarcodes = function(barcodes) {\n    \n};"
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} barcodes\n * @return {number[]}\n */\nvar rearrangeBarcodes = function(barcodes) {\n    \n};",
+        "py": "class Solution:\n    def rearrangeBarcodes(self, barcodes: List[int]) -> List[int]:\n        "
+    }
 }, {
     "questionId": "1071",
     "titleSlug": "greatest-common-divisor-of-strings",
@@ -24627,7 +27282,10 @@ let data = [{
         "str1[i] 和 str2[i] 为大写英文字母"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {string} str1\r\n * @param {string} str2\r\n * @return {string}\r\n */\r\nvar gcdOfStrings = function(str1, str2) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} str1\r\n * @param {string} str2\r\n * @return {string}\r\n */\r\nvar gcdOfStrings = function(str1, str2) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def gcdOfStrings(self, str1: str, str2: str) -> str:"
+    }
 }, {
     "questionId": "1072",
     "titleSlug": "flip-columns-for-maximum-number-of-equal-rows",
@@ -24659,7 +27317,10 @@ let data = [{
         "matrix[i][j] 为 0 或 1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[][]} matrix\r\n * @return {number}\r\n */\r\nvar maxEqualRowsAfterFlips = function(matrix) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} matrix\r\n * @return {number}\r\n */\r\nvar maxEqualRowsAfterFlips = function(matrix) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:"
+    }
 }, {
     "questionId": "1073",
     "titleSlug": "adding-two-negabinary-numbers",
@@ -24684,7 +27345,10 @@ let data = [{
         "arr2[i] 为 0 或 1"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {number[]} arr1\r\n * @param {number[]} arr2\r\n * @return {number[]}\r\n */\r\nvar addNegabinary = function(arr1, arr2) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[]} arr1\r\n * @param {number[]} arr2\r\n * @return {number[]}\r\n */\r\nvar addNegabinary = function(arr1, arr2) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def addNegabinary(self, arr1: List[int], arr2: List[int]) -> List[int]:"
+    }
 }, {
     "questionId": "1074",
     "titleSlug": "number-of-submatrices-that-sum-to-target",
@@ -24713,7 +27377,10 @@ let data = [{
         "-10^8 <= target <= 10^8"
     ],
     "difficulty": "困难",
-    "codeSnippets": "/**\r\n * @param {number[][]} matrix\r\n * @param {number} target\r\n * @return {number}\r\n */\r\nvar numSubmatrixSumTarget = function(matrix, target) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {number[][]} matrix\r\n * @param {number} target\r\n * @return {number}\r\n */\r\nvar numSubmatrixSumTarget = function(matrix, target) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numSubmatrixSumTarget(self, matrix: List[List[int]], target: int) -> int:"
+    }
 }, {
     "questionId": "1078",
     "titleSlug": "occurrences-after-bigram",
@@ -24738,7 +27405,10 @@ let data = [{
         "first 和 second 由小写英文字母组成"
     ],
     "difficulty": "容易",
-    "codeSnippets": "/**\r\n * @param {string} text\r\n * @param {string} first\r\n * @param {string} second\r\n * @return {string[]}\r\n */\r\nvar findOcurrences = function(text, first, second) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} text\r\n * @param {string} first\r\n * @param {string} second\r\n * @return {string[]}\r\n */\r\nvar findOcurrences = function(text, first, second) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def findOcurrences(self, text: str, first: str, second: str) -> List[str]:"
+    }
 }, {
     "questionId": "1079",
     "titleSlug": "letter-tile-possibilities",
@@ -24760,7 +27430,10 @@ let data = [{
         "tiles 由大写英文字母组成"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {string} tiles\r\n * @return {number}\r\n */\r\nvar numTilePossibilities = function(tiles) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} tiles\r\n * @return {number}\r\n */\r\nvar numTilePossibilities = function(tiles) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def numTilePossibilities(self, tiles: str) -> int:"
+    }
 }, {
     "questionId": "1080",
     "titleSlug": "insufficient-nodes-in-root-to-leaf-paths",
@@ -24792,7 +27465,10 @@ let data = [{
         "-10^9 <= limit <= 10^9"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * Definition for a binary tree node.\r\n * function TreeNode(val) {\r\n *     this.val = val;\r\n *     this.left = this.right = null;\r\n * }\r\n */\r\n/**\r\n * @param {TreeNode} root\r\n * @param {number} limit\r\n * @return {TreeNode}\r\n */\r\nvar sufficientSubset = function(root, limit) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {number} limit\n * @return {TreeNode}\n */\nvar sufficientSubset = function(root, limit) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def sufficientSubset(self, root: TreeNode, limit: int) -> TreeNode:\n        "
+    }
 }, {
     "questionId": "1081",
     "titleSlug": "smallest-subsequence-of-distinct-characters",
@@ -24821,7 +27497,10 @@ let data = [{
         "text 由小写英文字母组成"
     ],
     "difficulty": "中等",
-    "codeSnippets": "/**\r\n * @param {string} text\r\n * @return {string}\r\n */\r\nvar smallestSubsequence = function(text) {\r\n    \r\n};"
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string} text\r\n * @return {string}\r\n */\r\nvar smallestSubsequence = function(text) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def smallestSubsequence(self, text: str) -> str:"
+    }
 }];
 
 module.exports = data;
