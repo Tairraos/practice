@@ -13,8 +13,8 @@
   },
   "dependencies": {},
   "scripts": {
-    "readme": "node leetcode/tool/generateReadme.js",
-    "coding": "node leetcode/tool/mvFile.js coding",
-    "done": "node leetcode/tool/mvFile.js done"
+    "readme": "node leetcode/tool/progress.js readme",
+    "coding": "node leetcode/tool/progress.js coding",
+    "done": "node leetcode/tool/progress.js done"
   }
 }
