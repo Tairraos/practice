@@ -23,7 +23,7 @@ x.readDir(path.resolve(__dirname, ".."), {
     item => existDataList[item.replace(/.*(\d\d\d\d)\.(.*)\.js/, "$1")] = RegExp.$2
 );
 
-request("https://leetcode-cn.com/api/problems/all/", function (error, response, body) {
+request("https://leetcode-cn.com/api/problems/all/", function(error, response, body) {
     let respData = JSON.parse(body),
         operateList = respData.stat_status_pairs.map(item => ({
             "qid": ("000" + item.stat.frontend_question_id).slice(-4),
@@ -34,11 +34,31 @@ request("https://leetcode-cn.com/api/problems/all/", function (error, response, 
         ).map(item => item.titleSlug);
 
     if (operateList.length) {
-        console.log("\033[31m把下面这行代码拷贝到 getPageData.js 第 15 行:");
-        console.log("\033[32m");
-        console.log("var operateList = " + JSON.stringify(operateList) + ";");
-        console.log("\033[0m");
+        let ignoreLine = false,
+            newContent = [],
+            newOperateList = "var operateList = " + JSON.stringify(operateList) + ";",
+            file = path.resolve(__dirname, "2.getPageData.js");
+
+        x.scanFile(file, (line, index) => {
+            if (line.includes("//::Start refill operateList")) {
+                ignoreLine = true;
+                newContent.push(newOperateList);
+            } else if (line.includes("//::Snd refill")) {
+                ignoreLine = false;
+            }
+
+            if (!ignoreLine) {
+                newContent.push(line);
+            }
+        });
+
+        x.saveFile(file, newContent.join("\n"));
+        // console.log("\033[31m把下面这行代码拷贝到 getPageData.js 第 15 行:");
+        // console.log("\033[32m");
+        // console.log("var operateList = " + JSON.stringify(operateList) + ";");
+        // console.log("\033[0m");
+        console.log("\033[32m\"2.getPageData.js\" 已经更新\033[0m");
     } else {
-        console.log("\033[32m题库模板已经保持最新\033[0m");
+        console.log("\033[32m题库模板无需更新\033[0m");
     }
 });

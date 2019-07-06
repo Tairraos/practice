@@ -11,10 +11,10 @@
  * https://leetcode-cn.com/problemset/all/ 存在jQuery，所以直接使用 jQuery 的 ajax 工具
  */
 
-//把 getOperateList.js 生成的 var 语句粘贴在下面，然后全文选中复制，粘贴到浏览器里执行
-var operateList = ["parsing-a-boolean-expression", "filling-bookcase-shelves", "distribute-candies-to-people", "path-in-zigzag-labelled-binary-tree", "brace-expansion-ii", "find-in-mountain-array",
-    "car-pooling", "statistics-from-a-large-sample", "shortest-path-in-binary-matrix", "shortest-common-supersequence", "largest-values-from-labels", "duplicate-zeros"
-];
+//::Start refill operateList
+var operateList = ["parsing-a-boolean-expression", "filling-bookcase-shelves", "distribute-candies-to-people", "path-in-zigzag-labelled-binary-tree", "brace-expansion-ii", "find-in-mountain-array", "car-pooling", "statistics-from-a-large-sample", "shortest-path-in-binary-matrix", "shortest-common-supersequence", "largest-values-from-labels", "duplicate-zeros"];
+//::Snd refill
+
 var dictDiffculty = {
         "Easy": "容易",
         "Medium": "中等",
