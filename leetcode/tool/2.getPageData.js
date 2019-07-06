@@ -12,25 +12,34 @@
  */
 
 //把 getOperateList.js 生成的 var 语句粘贴在下面，然后全文选中复制，粘贴到浏览器里执行
-var operateList = ["parsing-a-boolean-expression","filling-bookcase-shelves","distribute-candies-to-people","path-in-zigzag-labelled-binary-tree","brace-expansion-ii","find-in-mountain-array","car-pooling","statistics-from-a-large-sample","shortest-path-in-binary-matrix","shortest-common-supersequence","largest-values-from-labels","duplicate-zeros"];
+var operateList = ["parsing-a-boolean-expression", "filling-bookcase-shelves", "distribute-candies-to-people", "path-in-zigzag-labelled-binary-tree", "brace-expansion-ii", "find-in-mountain-array",
+    "car-pooling", "statistics-from-a-large-sample", "shortest-path-in-binary-matrix", "shortest-common-supersequence", "largest-values-from-labels", "duplicate-zeros"
+];
 var dictDiffculty = {
         "Easy": "容易",
         "Medium": "中等",
         "Hard": "困难"
     },
+    level = ["", "Easy", "Medium", "Hard"],
+    quesInfo,
+    leetCodeData = [],
+    translations = {},
     //需要去网页里更新token
-    csrfToken = "4UtW01NPFwQZwPPCemkBvFt8gBMmyKAnDp3rPkv21ExECDKYMGyYmZsiUoDeNFZL",
-    leetCodeData = [];
-
+    csrfToken = "4UtW01NPFwQZwPPCemkBvFt8gBMmyKAnDp3rPkv21ExECDKYMGyYmZsiUoDeNFZL";
 /**
  * 调用 getQues 把数据保存到 leetCodeData, 然后输出
  */
 function getQuestionData() {
     operateList.forEach(item => getQues(item));
-
     leetCodeData = leetCodeData.sort((a, b) => +a.questionFrontendId - +b.questionFrontendId);
 
     console.log("let data = " + JSON.stringify(leetCodeData).replace(/(\[|",)"/g, "$1\n\"").replace(/"questionFrontendId"/g, "\"questionId\"") + ";module.exports = data;");
+    console.log("把上面代码拷贝到 data.js:");
+
+    getQuesInfo();
+
+    console.log("module.exports = " + JSON.stringify(quesInfo) + ";");
+    console.log("把上面代码拷贝到 quesionData.js:");
 }
 
 /** 
@@ -65,7 +74,7 @@ function getQues(name) {
             operationName: "questionData",
             query: "query questionData { question(titleSlug: \"" + name + "\") { questionFrontendId titleSlug translatedTitle translatedContent difficulty codeSnippets { lang code } }}",
         },
-        beforeSend: function (jqXHR, settings) {
+        beforeSend: function(jqXHR, settings) {
             jqXHR.setRequestHeader("x-csrftoken", csrfToken);
         },
         success: data => {
@@ -88,6 +97,49 @@ function getQues(name) {
                 question.translatedContent = html2txt(question.translatedContent);
                 leetCodeData.push(question);
             }
+        }
+    });
+}
+
+function getQuesInfo() {
+    $.ajax({
+        url: "https://leetcode-cn.com/graphql",
+        async: false,
+        dataType: "json",
+        type: "POST",
+        data: {
+            operationName: "getQuestionTranslation",
+            query: "query getQuestionTranslation  {  translations: allAppliedQuestionTranslations { title questionId }}",
+        },
+        beforeSend: function(jqXHR, settings) {
+            jqXHR.setRequestHeader("x-csrftoken", csrfToken);
+        },
+        success: data => {
+            data.data.translations.map(item => translations[item.questionId] = item.title);
+        }
+    });
+
+    $.ajax({
+        url: "https://leetcode-cn.com/api/problems/all/",
+        async: false,
+        dataType: "json",
+        type: "GET",
+        beforeSend: function(jqXHR, settings) {
+            jqXHR.setRequestHeader("x-csrftoken", csrfToken);
+        },
+        success: data => {
+            quesInfo = data.stat_status_pairs.map(
+                item => ({
+                    rawId: item.stat.question_id,
+                    questionId: item.stat.frontend_question_id,
+                    qid: ("000" + item.stat.frontend_question_id).slice(-4),
+                    titleEn: item.stat.question__title,
+                    titleCn: translations[item.stat.question_id],
+                    titleSlug: item.stat.question__title_slug,
+                    difficulty: level[item.difficulty.level],
+                    level: item.difficulty.level,
+                    isPaidOnly: item.paid_only
+                })).sort((a, b) => a.questionId - b.questionId);
         }
     });
 }
