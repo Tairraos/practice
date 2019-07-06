@@ -1,5 +1,5 @@
 ### Leetcode Javascript 已完成题目列表
-完成度：56/893 (有180题付费题未计算在总数内, 附[所有题目清单](LIST.md))
+完成度：56/905 (有201题付费题未计算在总数内, 附[所有题目清单](LIST.md))
 - [0001 - 两数之和](done/0001-0100/0001.two-sum.js) 难度：容易 [源](https://leetcode-cn.com/problems/two-sum/)
 - [0002 - 两数相加](done/0001-0100/0002.add-two-numbers.js) 难度：中等 [源](https://leetcode-cn.com/problems/add-two-numbers/)
 - [0003 - 无重复字符的最长子串](done/0001-0100/0003.longest-substring-without-repeating-characters.js) 难度：中等 [源](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
@@ -58,4 +58,4 @@
 - [1009 - 十进制整数的反码](done/1001-1100/1009.complement-of-base-10-integer.js) 难度：容易 [源](https://leetcode-cn.com/problems/complement-of-base-10-integer/)
 
 ### Leetcode Python 已完成题目列表
-完成度：0/893 (有180题付费题未计算在总数内, 附[所有题目清单](LIST.md))
+完成度：0/905 (有201题付费题未计算在总数内, 附[所有题目清单](LIST.md))

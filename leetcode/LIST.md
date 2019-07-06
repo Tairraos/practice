@@ -1,5 +1,5 @@
 ### Leetcode 题目清单
-总题数：1073 / 未付费题：893 / 付费题：180
+总题数：1106 / 未付费题：905 / 付费题：201
 - [0001 - 两数之和](https://leetcode-cn.com/problems/two-sum/) 难度：容易
 - [0002 - 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) 难度：中等
 - [0003 - 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 难度：中等
@@ -145,7 +145,7 @@
 - [0143 - 重排链表](https://leetcode-cn.com/problems/reorder-list/) 难度：中等
 - [0144 - 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) 难度：中等
 - [0145 - 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) 难度：困难
-- [0146 - LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/) 难度：困难
+- [0146 - LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/) 难度：中等
 - [0147 - 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) 难度：中等
 - [0148 - 排序链表](https://leetcode-cn.com/problems/sort-list/) 难度：中等
 - [0149 - 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/) 难度：困难
@@ -426,7 +426,7 @@
 - [0424 - 替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) 难度：中等
 - [0425 - 单词方块](https://leetcode-cn.com/problems/word-squares/) 难度：困难 / 付费题
 - [0426 - 将二叉搜索树转化为排序的双向链表](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) 难度：中等 / 付费题
-- [0427 - 建立四叉树](https://leetcode-cn.com/problems/construct-quad-tree/) 难度：容易
+- [0427 - 建立四叉树](https://leetcode-cn.com/problems/construct-quad-tree/) 难度：中等
 - [0428 - 序列化和反序列化 N 叉树](https://leetcode-cn.com/problems/serialize-and-deserialize-n-ary-tree/) 难度：困难 / 付费题
 - [0429 - N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) 难度：容易
 - [0430 - 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/) 难度：中等
@@ -510,6 +510,8 @@
 - [0508 - 出现次数最多的子树元素和](https://leetcode-cn.com/problems/most-frequent-subtree-sum/) 难度：中等
 - [0509 - 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) 难度：容易
 - [0510 - 二叉搜索树中的中序后继 II](https://leetcode-cn.com/problems/inorder-successor-in-bst-ii/) 难度：中等 / 付费题
+- [0511 - Game Play Analysis I](https://leetcode-cn.com/problems/game-play-analysis-i/) 难度：容易 / 付费题
+- [0512 - Game Play Analysis II](https://leetcode-cn.com/problems/game-play-analysis-ii/) 难度：容易 / 付费题
 - [0513 - 找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/) 难度：中等
 - [0514 - 自由之路](https://leetcode-cn.com/problems/freedom-trail/) 难度：困难
 - [0515 - 在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) 难度：中等
@@ -531,6 +533,7 @@
 - [0531 - 孤独像素 I](https://leetcode-cn.com/problems/lonely-pixel-i/) 难度：中等 / 付费题
 - [0532 - 数组中的K-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) 难度：容易
 - [0533 - 孤独像素 II](https://leetcode-cn.com/problems/lonely-pixel-ii/) 难度：中等 / 付费题
+- [0534 - Game Play Analysis III](https://leetcode-cn.com/problems/game-play-analysis-iii/) 难度：中等 / 付费题
 - [0535 - TinyURL 的加密与解密](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) 难度：中等
 - [0536 - 从字符串生成二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-string/) 难度：中等 / 付费题
 - [0537 - 复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/) 难度：中等
@@ -546,6 +549,7 @@
 - [0547 - 朋友圈](https://leetcode-cn.com/problems/friend-circles/) 难度：中等
 - [0548 - 将数组分割成和相等的子数组](https://leetcode-cn.com/problems/split-array-with-equal-sum/) 难度：中等 / 付费题
 - [0549 - 二叉树中最长的连续序列](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence-ii/) 难度：中等 / 付费题
+- [0550 - Game Play Analysis IV](https://leetcode-cn.com/problems/game-play-analysis-iv/) 难度：中等 / 付费题
 - [0551 - 学生出勤记录 I](https://leetcode-cn.com/problems/student-attendance-record-i/) 难度：容易
 - [0552 - 学生出勤记录 II](https://leetcode-cn.com/problems/student-attendance-record-ii/) 难度：困难
 - [0553 - 最优除法](https://leetcode-cn.com/problems/optimal-division/) 难度：中等
@@ -1054,6 +1058,7 @@
 - [1056 - 易混淆数](https://leetcode-cn.com/problems/confusing-number/) 难度：容易 / 付费题
 - [1057 - 校园自行车分配](https://leetcode-cn.com/problems/campus-bikes/) 难度：中等 / 付费题
 - [1058 - 最小化舍入误差以满足目标](https://leetcode-cn.com/problems/minimize-rounding-error-to-meet-target/) 难度：中等 / 付费题
+- [1059 - 从始点到终点的所有路径](https://leetcode-cn.com/problems/all-paths-from-source-lead-to-destination/) 难度：中等 / 付费题
 - [1060 - 有序数组中的缺失元素](https://leetcode-cn.com/problems/missing-element-in-sorted-array/) 难度：中等 / 付费题
 - [1061 - 按字典序排列最小的等效字符串](https://leetcode-cn.com/problems/lexicographically-smallest-equivalent-string/) 难度：中等 / 付费题
 - [1062 - 最长重复子串](https://leetcode-cn.com/problems/longest-repeating-substring/) 难度：中等 / 付费题
@@ -1069,7 +1074,35 @@
 - [1072 - 按列翻转得到最大值等行数](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/) 难度：中等
 - [1073 - 负二进制数相加](https://leetcode-cn.com/problems/adding-two-negabinary-numbers/) 难度：中等
 - [1074 - 元素和为目标值的子矩阵数量](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target/) 难度：困难
+- [1075 - Project Employees I](https://leetcode-cn.com/problems/project-employees-i/) 难度：容易 / 付费题
+- [1076 - Project Employees II](https://leetcode-cn.com/problems/project-employees-ii/) 难度：容易 / 付费题
+- [1077 - Project Employees III](https://leetcode-cn.com/problems/project-employees-iii/) 难度：中等 / 付费题
 - [1078 - Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/) 难度：容易
 - [1079 - 活字印刷](https://leetcode-cn.com/problems/letter-tile-possibilities/) 难度：中等
 - [1080 - 根到叶路径上的不足节点](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/) 难度：中等
 - [1081 - 不同字符的最小子序列](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/) 难度：中等
+- [1082 - Sales Analysis I](https://leetcode-cn.com/problems/sales-analysis-i/) 难度：容易 / 付费题
+- [1083 - Sales Analysis II](https://leetcode-cn.com/problems/sales-analysis-ii/) 难度：容易 / 付费题
+- [1084 - Sales Analysis III](https://leetcode-cn.com/problems/sales-analysis-iii/) 难度：容易 / 付费题
+- [1085 - 最小元素各数位之和](https://leetcode-cn.com/problems/sum-of-digits-in-the-minimum-number/) 难度：容易 / 付费题
+- [1086 - 前五科的均分](https://leetcode-cn.com/problems/high-five/) 难度：容易 / 付费题
+- [1087 - 字母切换](https://leetcode-cn.com/problems/brace-expansion/) 难度：中等 / 付费题
+- [1088 - 易混淆数 II](https://leetcode-cn.com/problems/confusing-number-ii/) 难度：困难 / 付费题
+- [1089 - 复写零](https://leetcode-cn.com/problems/duplicate-zeros/) 难度：容易
+- [1090 - 受标签影响的最大值](https://leetcode-cn.com/problems/largest-values-from-labels/) 难度：中等
+- [1091 - 二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) 难度：中等
+- [1092 - 最短公共超序列](https://leetcode-cn.com/problems/shortest-common-supersequence/) 难度：困难
+- [1093 - 大样本统计](https://leetcode-cn.com/problems/statistics-from-a-large-sample/) 难度：中等
+- [1094 - 拼车](https://leetcode-cn.com/problems/car-pooling/) 难度：中等
+- [1095 - 山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array/) 难度：困难
+- [1096 - 花括号展开 II](https://leetcode-cn.com/problems/brace-expansion-ii/) 难度：困难
+- [1097 - Game Play Analysis V](https://leetcode-cn.com/problems/game-play-analysis-v/) 难度：困难 / 付费题
+- [1098 - Unpopular Books](https://leetcode-cn.com/problems/unpopular-books/) 难度：中等 / 付费题
+- [1099 - 小于 K 的两数之和](https://leetcode-cn.com/problems/two-sum-less-than-k/) 难度：容易 / 付费题
+- [1100 - 长度为 K 的无重复字符子串](https://leetcode-cn.com/problems/find-k-length-substrings-with-no-repeated-characters/) 难度：中等 / 付费题
+- [1101 - 彼此熟识的最早时间](https://leetcode-cn.com/problems/the-earliest-moment-when-everyone-become-friends/) 难度：中等 / 付费题
+- [1102 - 得分最高的路径](https://leetcode-cn.com/problems/path-with-maximum-minimum-value/) 难度：中等 / 付费题
+- [1103 - 分糖果 II](https://leetcode-cn.com/problems/distribute-candies-to-people/) 难度：容易
+- [1104 - 二叉树寻路](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) 难度：中等
+- [1105 - 填充书架](https://leetcode-cn.com/problems/filling-bookcase-shelves/) 难度：中等
+- [1106 - 解析布尔表达式](https://leetcode-cn.com/problems/parsing-a-boolean-expression/) 难度：困难
