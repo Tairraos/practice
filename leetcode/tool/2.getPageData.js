@@ -1,10 +1,10 @@
 /**
- * 1 用 node 执行 getOperateList.js，抓回缺失的模板slugTitle列表，执行结果为待抓取题目的 titleSlug 列表
- * 2 打开 getPageData.js，用上面步骤的执行结果替换第 15 行的 operateList
- * 3 从页面里得到有效的 csrfToken，更新在 getPageData.js 第 22 行
- * 4 把修改过的 getPageData.js 代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑
- * 5 从 console 得到输出后，把它帖到 data.js 里，用 node 执行 generateTemplate.js 生成模板
- * 6 生成完后把 data.js 里的数据移动到 oldData.js 里备份。
+ * 1 用 node 执行 "1.getOperateList.js"，抓回缺失的模板slugTitle列表，将会更新 "2.getPageData.js"
+ * 2 检查 "2.getPageData.js" 里 28 行的 csrfToken 是否有效
+ * 3 把 "2.getPageData.js" 代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑
+ * 4 从 console 得到输出后，把它更新到 "data.js" 和 "questionData.js" 里
+ * 5 用 node 执行 "3.generateTemplate.js" 生成模板
+ * 6 生成完后把 "data.js" 里的数据移动到 oldData.js 里备份。
  * 
  * 本工具用来从网站上获取题目数据，用于生成模板。
  * 本工具获取数据的 graphQl 查询受跨站请求限制，必须在 leetcode-cn.com 的域名下执行。
@@ -12,8 +12,8 @@
  */
 
 //::Start refill operateList
-var operateList = ["parsing-a-boolean-expression", "filling-bookcase-shelves", "distribute-candies-to-people", "path-in-zigzag-labelled-binary-tree", "brace-expansion-ii", "find-in-mountain-array", "car-pooling", "statistics-from-a-large-sample", "shortest-path-in-binary-matrix", "shortest-common-supersequence", "largest-values-from-labels", "duplicate-zeros"];
-//::Snd refill
+var operateList = ["parsing-a-boolean-expression"];
+//::End refill
 
 var dictDiffculty = {
         "Easy": "容易",
