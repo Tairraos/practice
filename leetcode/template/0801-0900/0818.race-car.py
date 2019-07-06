@@ -31,7 +31,8 @@
 
 class Solution:
     def racecar(self, target: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

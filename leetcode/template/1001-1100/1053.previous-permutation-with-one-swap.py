@@ -36,7 +36,8 @@
 
 class Solution:
     def prevPermOpt1(self, A: List[int]) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

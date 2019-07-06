@@ -30,7 +30,8 @@
 
 class Solution:
     def minHeightShelves(self, books: List[List[int]], shelf_width: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

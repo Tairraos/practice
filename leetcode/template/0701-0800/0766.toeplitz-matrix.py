@@ -39,7 +39,8 @@
 
 class Solution:
     def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -16,7 +16,8 @@
 
 class Solution:
     def findRelativeRanks(self, nums: List[int]) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

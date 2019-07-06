@@ -40,7 +40,8 @@ class Solution:
         :type K: int
         :rtype: List[int]
         """
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

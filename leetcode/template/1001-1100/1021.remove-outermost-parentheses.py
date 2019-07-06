@@ -37,7 +37,8 @@
 # S 是一个有效括号字符串
 
 class Solution:
-    def removeOuterParentheses(self, S: str) -> str:
+    def removeOuterParentheses(self, S: str) -> str:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

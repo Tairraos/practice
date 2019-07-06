@@ -30,7 +30,8 @@ class MapSum:
 # Your MapSum object will be instantiated and called as such:
 # obj = MapSum()
 # obj.insert(key,val)
-# param_2 = obj.sum(prefix)
+# param_2 = obj.sum(prefix)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

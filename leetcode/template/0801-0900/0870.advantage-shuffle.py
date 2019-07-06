@@ -20,7 +20,8 @@
 
 class Solution:
     def advantageCount(self, A: List[int], B: List[int]) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

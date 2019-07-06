@@ -40,7 +40,8 @@
 
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

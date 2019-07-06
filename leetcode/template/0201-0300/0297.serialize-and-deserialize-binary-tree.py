@@ -46,7 +46,8 @@ class Codec:
 
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
-# codec.deserialize(codec.serialize(root))
+# codec.deserialize(codec.serialize(root))"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

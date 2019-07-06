@@ -24,7 +24,8 @@
 
 class Solution:
     def reachingPoints(self, sx: int, sy: int, tx: int, ty: int) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

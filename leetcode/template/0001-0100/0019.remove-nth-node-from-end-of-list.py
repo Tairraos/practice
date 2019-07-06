@@ -23,7 +23,8 @@
 
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

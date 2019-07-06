@@ -25,7 +25,8 @@
 
 class Solution:
     def minimumDeleteSum(self, s1: str, s2: str) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

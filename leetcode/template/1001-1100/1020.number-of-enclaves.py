@@ -27,7 +27,8 @@
 # 所有行的大小都相同
 
 class Solution:
-    def numEnclaves(self, A: List[List[int]]) -> int:
+    def numEnclaves(self, A: List[List[int]]) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

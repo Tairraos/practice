@@ -18,7 +18,8 @@
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

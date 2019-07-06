@@ -30,7 +30,8 @@
 
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -36,7 +36,8 @@
 
 class Solution:
     def minStickers(self, stickers: List[str], target: str) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

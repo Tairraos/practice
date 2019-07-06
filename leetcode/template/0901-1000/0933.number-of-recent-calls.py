@@ -28,7 +28,8 @@ class RecentCounter:
 
 # Your RecentCounter object will be instantiated and called as such:
 # obj = RecentCounter()
-# param_1 = obj.ping(t)
+# param_1 = obj.ping(t)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

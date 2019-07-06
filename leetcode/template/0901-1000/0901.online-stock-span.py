@@ -40,7 +40,8 @@ class StockSpanner:
 
 # Your StockSpanner object will be instantiated and called as such:
 # obj = StockSpanner()
-# param_1 = obj.next(price)
+# param_1 = obj.next(price)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

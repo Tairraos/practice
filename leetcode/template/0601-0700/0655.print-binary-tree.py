@@ -56,7 +56,8 @@
 
 class Solution:
     def printTree(self, root: TreeNode) -> List[List[str]]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

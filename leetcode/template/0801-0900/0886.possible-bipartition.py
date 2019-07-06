@@ -29,7 +29,8 @@
 
 class Solution:
     def possibleBipartition(self, N: int, dislikes: List[List[int]]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -36,7 +36,8 @@
 
 class Solution:
     def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

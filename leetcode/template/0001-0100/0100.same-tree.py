@@ -41,7 +41,8 @@
 
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

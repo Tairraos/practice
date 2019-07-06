@@ -41,7 +41,8 @@
 
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

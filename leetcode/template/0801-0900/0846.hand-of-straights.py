@@ -23,7 +23,8 @@
 
 class Solution:
     def isNStraightHand(self, hand: List[int], W: int) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

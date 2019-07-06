@@ -33,7 +33,8 @@ class TopVotedCandidate:
 
 # Your TopVotedCandidate object will be instantiated and called as such:
 # obj = TopVotedCandidate(persons, times)
-# param_1 = obj.q(t)
+# param_1 = obj.q(t)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

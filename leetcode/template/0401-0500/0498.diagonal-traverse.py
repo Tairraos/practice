@@ -22,7 +22,8 @@
 
 class Solution:
     def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

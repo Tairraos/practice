@@ -18,7 +18,8 @@
 
 class Solution:
     def mirrorReflection(self, p: int, q: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

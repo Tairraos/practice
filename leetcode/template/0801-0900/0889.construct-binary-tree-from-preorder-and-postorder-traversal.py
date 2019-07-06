@@ -23,7 +23,8 @@
 
 class Solution:
     def constructFromPrePost(self, pre: List[int], post: List[int]) -> TreeNode:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -35,7 +35,8 @@
 
 class Solution:
     def wordSubsets(self, A: List[str], B: List[str]) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

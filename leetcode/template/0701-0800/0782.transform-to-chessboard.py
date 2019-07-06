@@ -40,7 +40,8 @@
 
 class Solution:
     def movesToChessboard(self, board: List[List[int]]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

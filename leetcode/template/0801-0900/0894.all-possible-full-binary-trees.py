@@ -25,7 +25,8 @@
 
 class Solution:
     def allPossibleFBT(self, N: int) -> List[TreeNode]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

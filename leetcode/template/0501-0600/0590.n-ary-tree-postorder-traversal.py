@@ -21,7 +21,8 @@ class Node:
 """
 class Solution:
     def postorder(self, root: 'Node') -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

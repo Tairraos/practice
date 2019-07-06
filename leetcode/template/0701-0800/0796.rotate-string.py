@@ -18,7 +18,8 @@
 
 class Solution:
     def rotateString(self, A: str, B: str) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

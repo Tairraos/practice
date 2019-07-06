@@ -19,7 +19,8 @@
 # S 仅由小写英文字母组成。
 
 class Solution:
-    def removeDuplicates(self, S: str) -> str:
+    def removeDuplicates(self, S: str) -> str:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -18,7 +18,8 @@
 #   - 输入数组中的所有数字都在32位整数的表示范围内。
 
 class Solution:
-    def reversePairs(self, nums: List[int]) -> int:
+    def reversePairs(self, nums: List[int]) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

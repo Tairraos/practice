@@ -31,7 +31,8 @@
 
 class Solution:
     def findKthNumber(self, m: int, n: int, k: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

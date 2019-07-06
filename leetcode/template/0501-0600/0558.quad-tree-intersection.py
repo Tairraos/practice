@@ -71,7 +71,8 @@ class Node:
 """
 class Solution:
     def intersect(self, quadTree1: 'Node', quadTree2: 'Node') -> 'Node':
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

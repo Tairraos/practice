@@ -34,7 +34,8 @@ class SummaryRanges:
 # Your SummaryRanges object will be instantiated and called as such:
 # obj = SummaryRanges()
 # obj.addNum(val)
-# param_2 = obj.getIntervals()
+# param_2 = obj.getIntervals()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

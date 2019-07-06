@@ -23,7 +23,8 @@
 
 class Solution:
     def myPow(self, x: float, n: int) -> float:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

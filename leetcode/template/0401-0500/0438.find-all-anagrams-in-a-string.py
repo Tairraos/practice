@@ -32,7 +32,8 @@
 
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -19,7 +19,8 @@
 
 class Solution:
     def readBinaryWatch(self, num: int) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

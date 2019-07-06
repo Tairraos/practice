@@ -32,7 +32,8 @@
 
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

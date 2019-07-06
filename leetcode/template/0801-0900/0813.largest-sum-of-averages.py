@@ -23,7 +23,8 @@
 
 class Solution:
     def largestSumOfAverages(self, A: List[int], K: int) -> float:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

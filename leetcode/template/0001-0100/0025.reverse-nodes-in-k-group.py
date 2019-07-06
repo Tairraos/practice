@@ -22,7 +22,8 @@
 
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -29,7 +29,8 @@
 #         self.right = None
 
 class Solution:
-    def getMinimumDifference(self, root: TreeNode) -> int:
+    def getMinimumDifference(self, root: TreeNode) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

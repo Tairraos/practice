@@ -36,7 +36,8 @@
 
 class Solution:
     def validUtf8(self, data: List[int]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

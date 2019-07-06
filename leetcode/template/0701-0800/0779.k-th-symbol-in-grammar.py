@@ -30,7 +30,8 @@
 
 class Solution:
     def kthGrammar(self, N: int, K: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -16,7 +16,8 @@
 
 class Solution:
     def removeElements(self, head: ListNode, val: int) -> ListNode:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

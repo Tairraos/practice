@@ -30,7 +30,8 @@ class Node:
 """
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

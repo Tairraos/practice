@@ -25,7 +25,8 @@
 
 class Solution:
     def licenseKeyFormatting(self, S: str, K: int) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

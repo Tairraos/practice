@@ -37,7 +37,8 @@ class MyCalendarThree:
 
 # Your MyCalendarThree object will be instantiated and called as such:
 # obj = MyCalendarThree()
-# param_1 = obj.book(start,end)
+# param_1 = obj.book(start,end)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

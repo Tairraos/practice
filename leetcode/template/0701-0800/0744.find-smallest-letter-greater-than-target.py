@@ -37,7 +37,8 @@
 
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

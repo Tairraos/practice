@@ -16,7 +16,8 @@
 
 class Solution:
     def convertToBase7(self, num: int) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

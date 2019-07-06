@@ -44,7 +44,8 @@
 # 1 <= weights[i] <= 500
 
 class Solution:
-    def shipWithinDays(self, weights: List[int], D: int) -> int:
+    def shipWithinDays(self, weights: List[int], D: int) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

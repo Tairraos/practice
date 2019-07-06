@@ -19,7 +19,8 @@
 
 class Solution:
     def largestTimeFromDigits(self, A: List[int]) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

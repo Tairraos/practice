@@ -47,7 +47,8 @@
 
 class Solution:
     def trimBST(self, root: TreeNode, L: int, R: int) -> TreeNode:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

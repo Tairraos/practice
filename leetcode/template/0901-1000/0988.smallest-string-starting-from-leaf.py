@@ -33,7 +33,8 @@
 
 class Solution:
     def smallestFromLeaf(self, root: TreeNode) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

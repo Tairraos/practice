@@ -27,7 +27,8 @@ class Node:
 """
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

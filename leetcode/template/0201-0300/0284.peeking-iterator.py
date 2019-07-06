@@ -65,7 +65,8 @@ class PeekingIterator:
 # iter = PeekingIterator(Iterator(nums))
 # while iter.hasNext():
 #     val = iter.peek()   # Get the next element but not advance the iterator.
-#     iter.next()         # Should return the same value as [val].
+#     iter.next()         # Should return the same value as [val]."put solution here"
+
 
 # Local test
 if __name__ == '__main__':

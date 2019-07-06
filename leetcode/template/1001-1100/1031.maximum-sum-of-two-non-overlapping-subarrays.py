@@ -32,7 +32,8 @@
 
 class Solution:
     def maxSumTwoNoOverlap(self, A: List[int], L: int, M: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

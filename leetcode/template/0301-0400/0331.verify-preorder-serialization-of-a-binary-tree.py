@@ -30,7 +30,8 @@
 
 class Solution:
     def isValidSerialization(self, preorder: str) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

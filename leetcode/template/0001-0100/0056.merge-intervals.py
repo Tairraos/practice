@@ -16,7 +16,8 @@
 
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

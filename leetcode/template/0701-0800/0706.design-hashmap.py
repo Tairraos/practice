@@ -55,7 +55,8 @@ class MyHashMap:
 # obj = MyHashMap()
 # obj.put(key,value)
 # param_2 = obj.get(key)
-# obj.remove(key)
+# obj.remove(key)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

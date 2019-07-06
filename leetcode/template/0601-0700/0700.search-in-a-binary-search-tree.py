@@ -31,7 +31,8 @@
 
 class Solution:
     def searchBST(self, root: TreeNode, val: int) -> TreeNode:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

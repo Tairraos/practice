@@ -27,7 +27,8 @@
 
 class Solution:
     def averageOfLevels(self, root: TreeNode) -> List[float]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

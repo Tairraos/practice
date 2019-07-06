@@ -52,7 +52,8 @@
 
 class Solution:
     def maskPII(self, S: str) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

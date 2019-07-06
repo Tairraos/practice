@@ -97,7 +97,8 @@ class MyCircularDeque:
 # param_5 = obj.getFront()
 # param_6 = obj.getRear()
 # param_7 = obj.isEmpty()
-# param_8 = obj.isFull()
+# param_8 = obj.isFull()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

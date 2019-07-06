@@ -40,7 +40,8 @@ class RangeModule:
 # obj = RangeModule()
 # obj.addRange(left,right)
 # param_2 = obj.queryRange(left,right)
-# obj.removeRange(left,right)
+# obj.removeRange(left,right)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

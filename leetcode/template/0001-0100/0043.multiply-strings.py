@@ -20,7 +20,8 @@
 
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

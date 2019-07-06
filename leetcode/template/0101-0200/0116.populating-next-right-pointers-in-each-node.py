@@ -35,7 +35,8 @@ class Node:
 """
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

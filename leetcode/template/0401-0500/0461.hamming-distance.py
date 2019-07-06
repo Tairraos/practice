@@ -22,7 +22,8 @@
 
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

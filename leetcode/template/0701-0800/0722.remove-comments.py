@@ -60,7 +60,8 @@
 
 class Solution:
     def removeComments(self, source: List[str]) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

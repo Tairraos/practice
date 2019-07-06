@@ -38,7 +38,8 @@
 
 class Solution:
     def minAreaFreeRect(self, points: List[List[int]]) -> float:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

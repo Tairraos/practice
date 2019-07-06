@@ -28,7 +28,8 @@ class Solution:
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(nums)
-# param_1 = obj.pick(target)
+# param_1 = obj.pick(target)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

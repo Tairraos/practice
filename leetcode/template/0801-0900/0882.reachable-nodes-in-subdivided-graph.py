@@ -32,7 +32,8 @@
 
 class Solution:
     def reachableNodes(self, edges: List[List[int]], M: int, N: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

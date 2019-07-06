@@ -25,7 +25,8 @@
 # 0 <= N <= 10^9
 
 class Solution:
-    def baseNeg2(self, N: int) -> str:
+    def baseNeg2(self, N: int) -> str:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -48,7 +48,8 @@ class AllOne:
 # obj.inc(key)
 # obj.dec(key)
 # param_3 = obj.getMaxKey()
-# param_4 = obj.getMinKey()
+# param_4 = obj.getMinKey()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

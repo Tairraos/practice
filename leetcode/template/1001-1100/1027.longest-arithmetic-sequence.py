@@ -29,7 +29,8 @@
 # 0 <= A[i] <= 10000
 
 class Solution:
-    def longestArithSeqLength(self, A: List[int]) -> int:
+    def longestArithSeqLength(self, A: List[int]) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -54,7 +54,8 @@
 
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

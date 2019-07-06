@@ -25,7 +25,8 @@
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

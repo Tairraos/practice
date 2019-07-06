@@ -18,7 +18,8 @@
 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

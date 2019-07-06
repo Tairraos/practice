@@ -34,7 +34,8 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

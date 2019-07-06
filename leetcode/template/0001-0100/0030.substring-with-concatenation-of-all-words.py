@@ -23,7 +23,8 @@
 
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

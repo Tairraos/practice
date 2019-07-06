@@ -20,7 +20,8 @@
 # 0 <= points[i][j] <= 100
 
 class Solution:
-    def isBoomerang(self, points: List[List[int]]) -> bool:
+    def isBoomerang(self, points: List[List[int]]) -> bool:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

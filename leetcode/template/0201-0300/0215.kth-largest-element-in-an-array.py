@@ -17,7 +17,8 @@
 
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

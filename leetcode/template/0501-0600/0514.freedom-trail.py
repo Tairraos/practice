@@ -27,7 +27,8 @@
 
 class Solution:
     def findRotateSteps(self, ring: str, key: str) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

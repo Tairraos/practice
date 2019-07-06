@@ -21,7 +21,8 @@
 
 class Solution:
     def findIntegers(self, num: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

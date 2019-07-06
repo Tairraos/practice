@@ -19,7 +19,8 @@
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

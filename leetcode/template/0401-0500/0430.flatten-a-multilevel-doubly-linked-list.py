@@ -34,7 +34,8 @@ class Node:
 """
 class Solution:
     def flatten(self, head: 'Node') -> 'Node':
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

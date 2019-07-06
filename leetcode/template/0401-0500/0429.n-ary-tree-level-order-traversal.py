@@ -28,7 +28,8 @@ class Node:
 """
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

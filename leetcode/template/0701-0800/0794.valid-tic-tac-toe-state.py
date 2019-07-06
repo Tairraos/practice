@@ -36,7 +36,8 @@
 
 class Solution:
     def validTicTacToe(self, board: List[str]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

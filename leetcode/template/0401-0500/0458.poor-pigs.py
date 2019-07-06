@@ -16,7 +16,8 @@
 
 class Solution:
     def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

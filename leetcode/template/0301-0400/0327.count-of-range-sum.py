@@ -14,7 +14,8 @@
 # 解释: 3个区间分别是: [0,0], [2,2], [0,2]，它们表示的和分别为: -2, -1, 2。
 
 class Solution:
-    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
+    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -20,7 +20,8 @@
 
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

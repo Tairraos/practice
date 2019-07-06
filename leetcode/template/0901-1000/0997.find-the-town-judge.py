@@ -40,7 +40,8 @@
 
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

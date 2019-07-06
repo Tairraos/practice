@@ -10,7 +10,8 @@
 
 class Solution:
     def lexicalOrder(self, n: int) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

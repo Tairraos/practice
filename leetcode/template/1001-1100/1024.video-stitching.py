@@ -42,7 +42,8 @@
 
 class Solution:
     def videoStitching(self, clips: List[List[int]], T: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

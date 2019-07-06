@@ -16,7 +16,8 @@
 
 class Solution:
     def findLongestChain(self, pairs: List[List[int]]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

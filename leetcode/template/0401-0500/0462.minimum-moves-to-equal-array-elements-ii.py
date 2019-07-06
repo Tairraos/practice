@@ -18,7 +18,8 @@
 
 class Solution:
     def minMoves2(self, nums: List[int]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

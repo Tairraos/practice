@@ -15,7 +15,8 @@
 
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

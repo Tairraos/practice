@@ -22,7 +22,8 @@
 
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

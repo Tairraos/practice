@@ -28,7 +28,8 @@
 
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

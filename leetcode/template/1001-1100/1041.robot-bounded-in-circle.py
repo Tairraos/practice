@@ -37,7 +37,8 @@
 
 class Solution:
     def isRobotBounded(self, instructions: str) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

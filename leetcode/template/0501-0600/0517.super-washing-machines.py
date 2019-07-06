@@ -39,7 +39,8 @@
 
 class Solution:
     def findMinMoves(self, machines: List[int]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -14,7 +14,8 @@
 
 class Solution:
     def nextGreaterElement(self, n: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

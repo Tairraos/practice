@@ -64,7 +64,8 @@ data.forEach(item => {
 
         var pyFuncName = pycode.match(/\n +def (\w*)\(self/)[1];
         pyout.push("");
-        pyout.push(pycode);
+        pyout.push(pycode + "\"put solution here\"");
+        pyout.push("");
         pyout.push("");
         pyout.push("# Local test");
         pyout.push("if __name__ == '__main__':");
@@ -77,6 +78,6 @@ data.forEach(item => {
         pyout.push("    print('Good job! We have passed all test case in ' + str(int((time.time() - launch_start) * 1000)) + 'ms')");
         pyout.push("");
     }
-    x.saveFile("./leetcode/template/" + dir + "/" + jsname, jsout.join("\n"));
+    // x.saveFile("./leetcode/template/" + dir + "/" + jsname, jsout.join("\n"));
     x.saveFile("./leetcode/template/" + dir + "/" + pyname, pyout.join("\n"));
 });

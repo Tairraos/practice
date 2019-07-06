@@ -26,7 +26,8 @@
 
 class Solution:
     def checkValidString(self, s: str) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

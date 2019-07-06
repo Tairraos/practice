@@ -19,7 +19,8 @@
 
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -23,7 +23,8 @@
 
 class Solution:
     def findPaths(self, m: int, n: int, N: int, i: int, j: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

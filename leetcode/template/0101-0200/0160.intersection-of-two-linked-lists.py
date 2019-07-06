@@ -46,7 +46,8 @@ class Solution(object):
         :type head1, head1: ListNode
         :rtype: ListNode
         """
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

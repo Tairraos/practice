@@ -18,7 +18,8 @@
 # tiles 由大写英文字母组成
 
 class Solution:
-    def numTilePossibilities(self, tiles: str) -> int:
+    def numTilePossibilities(self, tiles: str) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

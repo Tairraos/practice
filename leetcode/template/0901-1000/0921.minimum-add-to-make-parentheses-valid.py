@@ -32,7 +32,8 @@
 
 class Solution:
     def minAddToMakeValid(self, S: str) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

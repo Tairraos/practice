@@ -31,7 +31,8 @@ class NumArray:
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
 # obj.update(i,val)
-# param_2 = obj.sumRange(i,j)
+# param_2 = obj.sumRange(i,j)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

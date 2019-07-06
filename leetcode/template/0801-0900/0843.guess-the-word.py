@@ -42,7 +42,8 @@ class Solution:
         :type master: Master
         :rtype: None
         """
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

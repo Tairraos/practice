@@ -26,7 +26,8 @@
 
 class Solution:
     def PredictTheWinner(self, nums: List[int]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

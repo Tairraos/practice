@@ -31,7 +31,8 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

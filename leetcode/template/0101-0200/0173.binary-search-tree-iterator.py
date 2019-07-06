@@ -50,7 +50,8 @@ class BSTIterator:
 # Your BSTIterator object will be instantiated and called as such:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
-# param_2 = obj.hasNext()
+# param_2 = obj.hasNext()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -28,7 +28,8 @@
 
 class Solution:
     def numMovesStones(self, a: int, b: int, c: int) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

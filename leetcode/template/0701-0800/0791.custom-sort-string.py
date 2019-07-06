@@ -21,7 +21,8 @@
 
 class Solution:
     def customSortString(self, S: str, T: str) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

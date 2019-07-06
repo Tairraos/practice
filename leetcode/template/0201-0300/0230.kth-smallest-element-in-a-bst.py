@@ -39,7 +39,8 @@
 
 class Solution:
     def kthSmallest(self, root: TreeNode, k: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

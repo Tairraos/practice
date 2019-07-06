@@ -28,7 +28,8 @@
 
 class Solution:
     def isUnivalTree(self, root: TreeNode) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

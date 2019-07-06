@@ -20,7 +20,8 @@
 
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -19,7 +19,8 @@
 # S 由小写英文字母组成。
 
 class Solution:
-    def longestDupSubstring(self, S: str) -> str:
+    def longestDupSubstring(self, S: str) -> str:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

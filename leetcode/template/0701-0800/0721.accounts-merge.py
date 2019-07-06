@@ -22,7 +22,8 @@
 
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

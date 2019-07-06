@@ -39,7 +39,8 @@
 
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

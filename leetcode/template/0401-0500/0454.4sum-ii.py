@@ -22,7 +22,8 @@
 
 class Solution:
     def fourSumCount(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

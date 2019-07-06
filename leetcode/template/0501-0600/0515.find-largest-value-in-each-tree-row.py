@@ -24,7 +24,8 @@
 
 class Solution:
     def largestValues(self, root: TreeNode) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

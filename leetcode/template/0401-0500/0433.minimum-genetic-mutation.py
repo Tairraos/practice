@@ -37,7 +37,8 @@
 
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

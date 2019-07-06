@@ -48,7 +48,8 @@
 
 class Solution:
     def insertIntoMaxTree(self, root: TreeNode, val: int) -> TreeNode:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

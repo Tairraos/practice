@@ -41,7 +41,8 @@
 
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

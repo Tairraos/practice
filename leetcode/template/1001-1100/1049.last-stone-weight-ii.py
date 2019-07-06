@@ -26,7 +26,8 @@
 
 class Solution:
     def lastStoneWeightII(self, stones: List[int]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

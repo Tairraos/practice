@@ -30,7 +30,8 @@
 
 class Solution:
     def new21Game(self, N: int, K: int, W: int) -> float:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

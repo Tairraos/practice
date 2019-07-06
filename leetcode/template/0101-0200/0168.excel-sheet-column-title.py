@@ -28,7 +28,8 @@
 
 class Solution:
     def convertToTitle(self, n: int) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

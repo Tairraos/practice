@@ -33,7 +33,8 @@
 
 class Solution:
     def findDuplicateSubtrees(self, root: TreeNode) -> List[TreeNode]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -91,7 +91,8 @@ class MyCircularQueue:
 # param_3 = obj.Front()
 # param_4 = obj.Rear()
 # param_5 = obj.isEmpty()
-# param_6 = obj.isFull()
+# param_6 = obj.isFull()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -31,7 +31,8 @@
 
 class Solution:
     def isLongPressedName(self, name: str, typed: str) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

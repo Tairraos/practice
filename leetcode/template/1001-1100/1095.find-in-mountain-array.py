@@ -53,7 +53,8 @@
 
 class Solution:
     def findInMountainArray(self, target: int, mountain_arr: 'MountainArray') -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -26,7 +26,8 @@
 
 class Solution:
     def addOperators(self, num: str, target: int) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

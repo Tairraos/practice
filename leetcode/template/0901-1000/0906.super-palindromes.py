@@ -21,7 +21,8 @@
 
 class Solution:
     def superpalindromesInRange(self, L: str, R: str) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

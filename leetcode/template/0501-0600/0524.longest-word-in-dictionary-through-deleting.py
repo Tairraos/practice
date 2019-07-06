@@ -25,7 +25,8 @@
 
 class Solution:
     def findLongestWord(self, s: str, d: List[str]) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

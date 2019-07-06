@@ -26,7 +26,8 @@
 
 class Solution:
     def knightProbability(self, N: int, K: int, r: int, c: int) -> float:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

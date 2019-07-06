@@ -36,7 +36,8 @@
 
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

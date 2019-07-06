@@ -25,7 +25,8 @@
 
 class Solution:
     def flipEquiv(self, root1: TreeNode, root2: TreeNode) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

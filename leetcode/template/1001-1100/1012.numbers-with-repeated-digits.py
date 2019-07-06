@@ -22,7 +22,8 @@
 # 1 <= N <= 10^9
 
 class Solution:
-    def numDupDigitsAtMostN(self, N: int) -> int:
+    def numDupDigitsAtMostN(self, N: int) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

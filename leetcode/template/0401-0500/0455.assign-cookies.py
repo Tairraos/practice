@@ -30,7 +30,8 @@
 
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

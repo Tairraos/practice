@@ -31,7 +31,8 @@
 # 1 <= color <= 1000
 
 class Solution:
-    def colorBorder(self, grid: List[List[int]], r0: int, c0: int, color: int) -> List[List[int]]:
+    def colorBorder(self, grid: List[List[int]], r0: int, c0: int, color: int) -> List[List[int]]:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

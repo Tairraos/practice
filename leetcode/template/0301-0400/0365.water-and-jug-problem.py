@@ -19,7 +19,8 @@
 
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

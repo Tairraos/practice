@@ -28,7 +28,8 @@
 
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

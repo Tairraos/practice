@@ -32,7 +32,8 @@
 
 class Solution:
     def subarrayBitwiseORs(self, A: List[int]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

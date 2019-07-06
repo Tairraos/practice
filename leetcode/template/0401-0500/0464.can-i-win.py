@@ -26,7 +26,8 @@
 
 class Solution:
     def canIWin(self, maxChoosableInteger: int, desiredTotal: int) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -19,7 +19,8 @@
 
 class Solution:
     def largestTriangleArea(self, points: List[List[int]]) -> float:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

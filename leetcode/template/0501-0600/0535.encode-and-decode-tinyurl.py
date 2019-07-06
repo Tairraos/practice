@@ -27,7 +27,8 @@ class Codec:
 
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
-# codec.decode(codec.encode(url))
+# codec.decode(codec.encode(url))"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

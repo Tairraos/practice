@@ -16,7 +16,8 @@
 
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

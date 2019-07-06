@@ -18,7 +18,8 @@
 
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

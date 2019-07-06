@@ -44,7 +44,8 @@ class WordDictionary:
 # Your WordDictionary object will be instantiated and called as such:
 # obj = WordDictionary()
 # obj.addWord(word)
-# param_2 = obj.search(word)
+# param_2 = obj.search(word)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -14,7 +14,8 @@
 
 class Solution:
     def getSum(self, a: int, b: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

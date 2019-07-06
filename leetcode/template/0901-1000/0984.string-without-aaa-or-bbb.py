@@ -22,7 +22,8 @@
 
 class Solution:
     def strWithout3a3b(self, A: int, B: int) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -22,7 +22,8 @@
 
 class Solution:
     def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

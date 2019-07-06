@@ -28,7 +28,8 @@
 
 class Solution:
     def bagOfTokensScore(self, tokens: List[int], P: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

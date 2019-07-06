@@ -36,7 +36,8 @@
 
 class Solution:
     def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

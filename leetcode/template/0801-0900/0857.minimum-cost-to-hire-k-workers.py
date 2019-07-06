@@ -27,7 +27,8 @@
 
 class Solution:
     def mincostToHireWorkers(self, quality: List[int], wage: List[int], K: int) -> float:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -20,7 +20,8 @@
 
 class Solution:
     def intervalIntersection(self, A: List[List[int]], B: List[List[int]]) -> List[List[int]]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

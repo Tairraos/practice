@@ -40,7 +40,8 @@ class Solution:
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(rects)
-# param_1 = obj.pick()
+# param_1 = obj.pick()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -25,7 +25,8 @@
 # 1 <= K <= 10^5
 
 class Solution:
-    def smallestRepunitDivByK(self, K: int) -> int:
+    def smallestRepunitDivByK(self, K: int) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

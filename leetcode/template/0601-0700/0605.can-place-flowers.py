@@ -20,7 +20,8 @@
 
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

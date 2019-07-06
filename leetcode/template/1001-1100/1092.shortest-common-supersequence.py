@@ -20,7 +20,8 @@
 
 class Solution:
     def shortestCommonSupersequence(self, str1: str, str2: str) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

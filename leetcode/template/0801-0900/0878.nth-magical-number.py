@@ -28,7 +28,8 @@
 
 class Solution:
     def nthMagicalNumber(self, N: int, A: int, B: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

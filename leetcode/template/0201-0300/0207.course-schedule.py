@@ -27,7 +27,8 @@
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

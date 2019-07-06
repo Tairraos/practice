@@ -28,7 +28,8 @@
 # matrix[i][j] 为 0 或 1
 
 class Solution:
-    def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:
+    def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

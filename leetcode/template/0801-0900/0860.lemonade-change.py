@@ -41,7 +41,8 @@
 
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

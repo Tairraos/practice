@@ -26,7 +26,8 @@
 
 class Solution:
     def minEatingSpeed(self, piles: List[int], H: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

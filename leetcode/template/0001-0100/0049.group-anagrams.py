@@ -19,7 +19,8 @@
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

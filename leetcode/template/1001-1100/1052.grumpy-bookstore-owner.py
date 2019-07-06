@@ -24,7 +24,8 @@
 
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], X: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

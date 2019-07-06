@@ -21,7 +21,8 @@
 # first 和 second 由小写英文字母组成
 
 class Solution:
-    def findOcurrences(self, text: str, first: str, second: str) -> List[str]:
+    def findOcurrences(self, text: str, first: str, second: str) -> List[str]:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -41,7 +41,8 @@ class Solution:
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(head)
-# param_1 = obj.getRandom()
+# param_1 = obj.getRandom()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -21,7 +21,8 @@
 
 class Solution:
     def canTransform(self, start: str, end: str) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

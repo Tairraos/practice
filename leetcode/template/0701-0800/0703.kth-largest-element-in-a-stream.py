@@ -29,7 +29,8 @@ class KthLargest:
 
 # Your KthLargest object will be instantiated and called as such:
 # obj = KthLargest(k, nums)
-# param_1 = obj.add(val)
+# param_1 = obj.add(val)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

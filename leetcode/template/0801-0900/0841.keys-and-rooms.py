@@ -30,7 +30,8 @@
 
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -25,7 +25,8 @@
 
 class Solution:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

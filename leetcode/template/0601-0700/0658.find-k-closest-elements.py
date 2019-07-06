@@ -22,7 +22,8 @@
 
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

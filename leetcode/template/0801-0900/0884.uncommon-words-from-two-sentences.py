@@ -22,7 +22,8 @@
 
 class Solution:
     def uncommonFromSentences(self, A: str, B: str) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

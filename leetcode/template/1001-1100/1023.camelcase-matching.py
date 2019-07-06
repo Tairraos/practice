@@ -34,7 +34,8 @@
 # 所有字符串都仅由大写和小写英文字母组成。
 
 class Solution:
-    def camelMatch(self, queries: List[str], pattern: str) -> List[bool]:
+    def camelMatch(self, queries: List[str], pattern: str) -> List[bool]:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -19,7 +19,8 @@
 
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

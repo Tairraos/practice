@@ -21,7 +21,8 @@
 
 class Solution:
     def numSubarraysWithSum(self, A: List[int], S: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

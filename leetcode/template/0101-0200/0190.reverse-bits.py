@@ -29,7 +29,8 @@ class Solution:
     # @param n, an integer
     # @return an integer
     def reverseBits(self, n):
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

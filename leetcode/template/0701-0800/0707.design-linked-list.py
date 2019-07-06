@@ -69,7 +69,8 @@ class MyLinkedList:
 # obj.addAtHead(val)
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
-# obj.deleteAtIndex(index)
+# obj.deleteAtIndex(index)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

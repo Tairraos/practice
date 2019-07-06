@@ -24,7 +24,8 @@ class Node:
 """
 class Solution:
     def maxDepth(self, root: 'Node') -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

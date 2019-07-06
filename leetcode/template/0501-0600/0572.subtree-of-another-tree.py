@@ -45,7 +45,8 @@
 
 class Solution:
     def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

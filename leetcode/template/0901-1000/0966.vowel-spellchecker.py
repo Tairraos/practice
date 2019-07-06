@@ -34,7 +34,8 @@
 
 class Solution:
     def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

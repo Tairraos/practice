@@ -24,7 +24,8 @@
 
 class Solution:
     def findRadius(self, houses: List[int], heaters: List[int]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

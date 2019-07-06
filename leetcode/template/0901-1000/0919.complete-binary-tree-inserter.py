@@ -43,7 +43,8 @@ class CBTInserter:
 # Your CBTInserter object will be instantiated and called as such:
 # obj = CBTInserter(root)
 # param_1 = obj.insert(v)
-# param_2 = obj.get_root()
+# param_2 = obj.get_root()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

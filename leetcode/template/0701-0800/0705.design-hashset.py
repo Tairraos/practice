@@ -49,7 +49,8 @@ class MyHashSet:
 # obj = MyHashSet()
 # obj.add(key)
 # obj.remove(key)
-# param_3 = obj.contains(key)
+# param_3 = obj.contains(key)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

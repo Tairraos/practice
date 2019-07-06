@@ -27,7 +27,8 @@
 
 class Solution:
     def sampleStats(self, count: List[int]) -> List[float]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

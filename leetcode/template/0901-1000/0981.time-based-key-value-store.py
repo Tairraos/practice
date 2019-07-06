@@ -52,7 +52,8 @@ class TimeMap:
 # Your TimeMap object will be instantiated and called as such:
 # obj = TimeMap()
 # obj.set(key,value,timestamp)
-# param_2 = obj.get(key,timestamp)
+# param_2 = obj.get(key,timestamp)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

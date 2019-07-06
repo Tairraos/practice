@@ -15,7 +15,8 @@
 
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

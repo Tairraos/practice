@@ -30,7 +30,8 @@
 
 class Solution:
     def reorderedPowerOf2(self, N: int) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

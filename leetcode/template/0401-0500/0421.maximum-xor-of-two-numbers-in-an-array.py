@@ -15,7 +15,8 @@
 
 class Solution:
     def findMaximumXOR(self, nums: List[int]) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

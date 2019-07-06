@@ -21,7 +21,8 @@
 
 class Solution:
     def complexNumberMultiply(self, a: str, b: str) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

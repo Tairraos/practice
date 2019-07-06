@@ -39,7 +39,8 @@ class Solution:
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(n_rows, n_cols)
 # param_1 = obj.flip()
-# obj.reset()
+# obj.reset()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

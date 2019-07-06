@@ -16,7 +16,8 @@
 # 1 <= stones[i] <= 1000
 
 class Solution:
-    def lastStoneWeight(self, stones: List[int]) -> int:
+    def lastStoneWeight(self, stones: List[int]) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

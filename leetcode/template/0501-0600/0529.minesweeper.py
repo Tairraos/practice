@@ -58,7 +58,8 @@
 
 class Solution:
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

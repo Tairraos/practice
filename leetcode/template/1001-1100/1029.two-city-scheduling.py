@@ -23,7 +23,8 @@
 # 1 <= costs[i][0], costs[i][1] <= 1000
 
 class Solution:
-    def twoCitySchedCost(self, costs: List[List[int]]) -> int:
+    def twoCitySchedCost(self, costs: List[List[int]]) -> int:"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

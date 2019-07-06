@@ -22,7 +22,8 @@
 
 class Solution:
     def isIdealPermutation(self, A: List[int]) -> bool:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

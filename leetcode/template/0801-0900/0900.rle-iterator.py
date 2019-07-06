@@ -43,7 +43,8 @@ class RLEIterator:
 
 # Your RLEIterator object will be instantiated and called as such:
 # obj = RLEIterator(A)
-# param_1 = obj.next(n)
+# param_1 = obj.next(n)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

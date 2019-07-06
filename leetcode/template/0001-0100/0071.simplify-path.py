@@ -35,7 +35,8 @@
 
 class Solution:
     def simplifyPath(self, path: str) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

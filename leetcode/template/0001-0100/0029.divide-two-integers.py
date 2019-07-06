@@ -20,7 +20,8 @@
 
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -39,7 +39,8 @@ class Solution:
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(nums)
 # param_1 = obj.reset()
-# param_2 = obj.shuffle()
+# param_2 = obj.shuffle()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

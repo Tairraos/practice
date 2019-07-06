@@ -40,7 +40,8 @@ class MedianFinder:
 # Your MedianFinder object will be instantiated and called as such:
 # obj = MedianFinder()
 # obj.addNum(num)
-# param_2 = obj.findMedian()
+# param_2 = obj.findMedian()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

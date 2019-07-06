@@ -30,7 +30,8 @@ class Node:
 """
 class Solution:
     def construct(self, grid: List[List[int]]) -> 'Node':
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

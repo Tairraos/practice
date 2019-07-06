@@ -50,7 +50,8 @@ class FreqStack:
 # Your FreqStack object will be instantiated and called as such:
 # obj = FreqStack()
 # obj.push(x)
-# param_2 = obj.pop()
+# param_2 = obj.pop()"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

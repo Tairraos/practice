@@ -38,7 +38,8 @@ class ExamRoom:
 # Your ExamRoom object will be instantiated and called as such:
 # obj = ExamRoom(N)
 # param_1 = obj.seat()
-# obj.leave(p)
+# obj.leave(p)"put solution here"
+
 
 # Local test
 if __name__ == '__main__':

@@ -30,7 +30,8 @@
 
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':

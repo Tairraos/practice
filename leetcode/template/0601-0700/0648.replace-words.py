@@ -19,7 +19,8 @@
 
 class Solution:
     def replaceWords(self, dict: List[str], sentence: str) -> str:
-        
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':
