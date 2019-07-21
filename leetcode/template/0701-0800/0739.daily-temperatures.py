@@ -18,6 +18,8 @@ if __name__ == '__main__':
     launch_start = time.time()
     unit = Solution()
 
-    assert unit.dailyTemperatures('param') == 'expect', '1st example'
+    assert unit.dailyTemperatures('param') == 'expect', 'Case 1'
+    assert unit.dailyTemperatures('param') == 'expect', 'Case 2'
 
-    print('Good job! We have passed all test case in ' + str(int((time.time() - launch_start) * 1000)) + 'ms')
+    print('Good job! We have passed all test case.')
+    print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

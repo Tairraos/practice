@@ -73,9 +73,11 @@ data.forEach(item => {
         pyout.push("    launch_start = time.time()");
         pyout.push("    unit = Solution()");
         pyout.push("");
-        pyout.push("    assert unit." + pyFuncName + "('param') == 'expect', '1st example'");
+        pyout.push("    assert unit." + pyFuncName + "('param') == 'expect', 'Case 1'");
+        pyout.push("    assert unit." + pyFuncName + "('param') == 'expect', 'Case 2'");
         pyout.push("");
-        pyout.push("    print('Good job! We have passed all test case in ' + str(int((time.time() - launch_start) * 1000)) + 'ms')");
+        pyout.push("    print('Good job! We have passed all test case.')");
+        pyout.push("    print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')");
         pyout.push("");
     }
     x.saveFile("./leetcode/template/" + dir + "/" + jsname, jsout.join("\n"));

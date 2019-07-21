@@ -42,6 +42,8 @@ if __name__ == '__main__':
     launch_start = time.time()
     unit = Solution()
 
-    assert unit.nextLargerNodes('param') == 'expect', '1st example'
+    assert unit.nextLargerNodes('param') == 'expect', 'Case 1'
+    assert unit.nextLargerNodes('param') == 'expect', 'Case 2'
 
-    print('Good job! We have passed all test case in ' + str(int((time.time() - launch_start) * 1000)) + 'ms')
+    print('Good job! We have passed all test case.')
+    print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')
