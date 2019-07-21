@@ -49,10 +49,10 @@ var tree2str = function(t) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(tree2str("param"), "expect", "caseName");
 assert.deepEqual(tree2str("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -26,7 +26,7 @@ var findMaxConsecutiveOnes = function (nums) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(findMaxConsecutiveOnes([1, 1, 0, 1, 1, 1]), 3, "case 1");
 assert.deepEqual(findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1]), 2, "case 2");
@@ -37,4 +37,4 @@ assert.deepEqual(findMaxConsecutiveOnes([1, 1, 1, 1, 1]), 5, "case 6");
 assert.deepEqual(findMaxConsecutiveOnes([0, 0, 0, 0, 0]), 0, "case 7");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -54,10 +54,10 @@ MagicDictionary.prototype.search = function(word) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(MagicDictionary("param"), "expect", "caseName");
 assert.deepEqual(MagicDictionary("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -44,7 +44,7 @@ var isNumber = function(s) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 assert.deepEqual(isNumber("3."), true, "3.");
 assert.deepEqual(isNumber("0"), true, "0");
 assert.deepEqual(isNumber("1e-5"), true, "1e-5");
@@ -67,4 +67,4 @@ assert.deepEqual(isNumber("-+3"), false, "-+3");
 assert.deepEqual(isNumber("95a54e53"), false, "95a54e53");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

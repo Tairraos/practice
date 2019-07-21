@@ -50,7 +50,7 @@ var removeDuplicates = function (nums) {
 // Local test                                                 
 let assert = require("assert"),
     testArr;
-console.time("leetcode");
+console.time("Time cost");
 
 testArr = [1, 1, 1, 2, 2, 3];
 assert.deepEqual(removeDuplicates(testArr), 5, "case 0.1");
@@ -61,4 +61,4 @@ assert.deepEqual(removeDuplicates(testArr), 7, "case 1.1");
 assert.deepEqual(testArr, [0, 0, 1, 1, 2, 3, 3], "case 1.2");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

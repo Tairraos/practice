@@ -21,10 +21,10 @@ var countPrimes = function(n) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(countPrimes("param"), "expect", "caseName");
 assert.deepEqual(countPrimes("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

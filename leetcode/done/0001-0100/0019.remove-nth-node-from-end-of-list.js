@@ -47,7 +47,7 @@ var removeNthFromEnd = function (head, n) {
 let assert = require("assert");
 let toArr = a => a ? a.next ? [a.val].concat(toArr(a.next)) : [a.val] : [];
 let toTab = a => a.length ? ({val: +a[0], next: a.slice(1).length ? toTab(a.slice(1)) : null}) : null;
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(toArr(removeNthFromEnd(toTab([1]), 1)), []);
 assert.deepEqual(toArr(removeNthFromEnd(toTab([1, 2, 3, 4, 5]), 1)), [1, 2, 3, 4]);
@@ -55,4 +55,4 @@ assert.deepEqual(toArr(removeNthFromEnd(toTab([1, 2, 3, 4, 5]), 5)), [2, 3, 4, 5
 assert.deepEqual(toArr(removeNthFromEnd(toTab([1, 2, 3, 4, 5]), 2)), [1, 2, 3, 5]);
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

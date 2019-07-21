@@ -52,7 +52,7 @@ var removeElement = function (nums, val) {
 // Local test                                                 
 let assert = require("assert"),
     testArr;
-console.time("leetcode");
+console.time("Time cost");
 
 testArr = [3, 2, 2, 3];
 assert.deepEqual(removeElement(testArr, 3), 2, "case 0.1");
@@ -63,4 +63,4 @@ assert.deepEqual(removeElement(testArr, 2), 5, "case 1.1");
 assert.deepEqual(testArr, [0, 1, 3, 0, 4], "case 1.2");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

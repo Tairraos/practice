@@ -55,7 +55,7 @@ var shortestSubarray = function (A, K) { //本题思路是从评论区抄来的�
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(shortestSubarray([1], 1), 1);
 assert.deepEqual(shortestSubarray([1, 2], 4), -1);
@@ -71,4 +71,4 @@ assert.deepEqual(shortestSubarray([
     -188, -109, 166, 122, 66, 84, -236, -18, 288, -11, 265, -243, 180, 94, -217, 247
 ], 3000), 14);
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

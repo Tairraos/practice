@@ -30,7 +30,7 @@ var isPalindrome = function (s) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(isPalindrome("A man, a plan, a canal: Panama"), true, "case 1");
 assert.deepEqual(isPalindrome("race a car"), false, "case 2");
@@ -43,4 +43,4 @@ assert.deepEqual(isPalindrome("abcbbffddcba"), false, "case 8");
 assert.deepEqual(isPalindrome("0P"), false, "case 8");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

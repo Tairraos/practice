@@ -39,10 +39,10 @@ let testTable,
         next: a.slice(1).length ? toTab(a.slice(1)) : null
     }) : null;
 
-console.time("leetcode");
+console.time("Time cost");
 
 testTable = toTab([1, 2, 3, 4]);
 assert.deepEqual(swapPairs(testTable), toTab([2, 1, 4, 3]), "case 1");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

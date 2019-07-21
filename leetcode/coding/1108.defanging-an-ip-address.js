@@ -24,15 +24,15 @@
  * @return {string}
  */
 var defangIPaddr = function(address) {
-    
+    return address.replace(/\./g, "[.]");
 };
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
-assert.deepEqual(defangIPaddr("param"), "expect", "Case 1");
-assert.deepEqual(defangIPaddr("param"), "expect", "Case 2");
+assert.deepEqual(defangIPaddr("1.1.1.1"), "1[.]1[.]1[.]1", "Case 1");
+assert.deepEqual(defangIPaddr("255.100.50.0"), "255[.]100[.]50[.]0", "Case 2");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

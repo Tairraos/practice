@@ -91,10 +91,10 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(MyLinkedList("param"), "expect", "caseName");
 assert.deepEqual(MyLinkedList("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -39,10 +39,10 @@ var knightProbability = function(N, K, r, c) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(knightProbability("param"), "expect", "caseName");
 assert.deepEqual(knightProbability("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

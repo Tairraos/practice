@@ -43,10 +43,10 @@ var evalRPN = function(tokens) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(evalRPN("param"), "expect", "caseName");
 assert.deepEqual(evalRPN("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

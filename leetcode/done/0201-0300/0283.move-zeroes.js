@@ -30,7 +30,7 @@ var moveZeroes = function (nums) {
 // Local test                                                 
 let assert = require("assert"),
     testArr;
-console.time("leetcode");
+console.time("Time cost");
 
 testArr = [0, 0, 0, 0];
 moveZeroes(testArr);
@@ -82,4 +82,4 @@ moveZeroes(testArr);
 assert.deepEqual(testArr, [1, 1, 1, 1], "case 15");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -29,10 +29,10 @@ var numMatchingSubseq = function(S, words) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(numMatchingSubseq("param"), "expect", "caseName");
 assert.deepEqual(numMatchingSubseq("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -43,7 +43,7 @@ var spiralOrder = function (matrix) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(spiralOrder([]), [], "case 1.1");
 assert.deepEqual(spiralOrder([
@@ -77,4 +77,4 @@ assert.deepEqual(spiralOrder([
 ]), [1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7], "case 123481211109567");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

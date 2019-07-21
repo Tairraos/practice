@@ -36,7 +36,7 @@ var sortColors = function (nums) {
 // Local test                                                 
 let assert = require("assert"),
     testArr;
-console.time("leetcode");
+console.time("Time cost");
 
 testArr = [2, 0, 2, 1, 1, 0];
 sortColors(testArr);
@@ -50,4 +50,4 @@ assert.deepEqual(testArr, [0, 0, 0, 1, 1, 1], "case 2");
 
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

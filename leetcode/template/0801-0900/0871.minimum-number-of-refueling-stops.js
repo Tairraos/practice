@@ -49,10 +49,10 @@ var minRefuelStops = function(target, startFuel, stations) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(minRefuelStops("param"), "expect", "caseName");
 assert.deepEqual(minRefuelStops("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

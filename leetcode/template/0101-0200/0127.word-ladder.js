@@ -48,10 +48,10 @@ var ladderLength = function(beginWord, endWord, wordList) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(ladderLength("param"), "expect", "caseName");
 assert.deepEqual(ladderLength("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

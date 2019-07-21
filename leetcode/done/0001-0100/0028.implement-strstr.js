@@ -33,7 +33,7 @@ var strStr = function (haystack, needle) {
 
 // Local test
 let test, assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 test = ["hello", "ll"];
 assert.deepEqual(strStr(test[0], test[1]), test[0].indexOf(test[1]), "case " + test[0]);
@@ -51,4 +51,4 @@ test = ["hello", "ll"];
 assert.deepEqual(strStr(test[0], test[1]), test[0].indexOf(test[1]), "case " + test[0]);
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

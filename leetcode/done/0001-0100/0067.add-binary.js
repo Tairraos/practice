@@ -31,7 +31,7 @@ var addBinary = function (a, b) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(addBinary("0", "0"), "0", "case 1");
 assert.deepEqual(addBinary("11", "1"), "100", "case 1");
@@ -43,4 +43,4 @@ assert.deepEqual(addBinary(
     "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110", "case 3");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

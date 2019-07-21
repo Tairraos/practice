@@ -48,10 +48,10 @@ var minAreaFreeRect = function(points) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(minAreaFreeRect("param"), "expect", "caseName");
 assert.deepEqual(minAreaFreeRect("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

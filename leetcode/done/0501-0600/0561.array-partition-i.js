@@ -27,10 +27,10 @@ var arrayPairSum = function (nums) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(arrayPairSum([1, 4, 3, 2]), 4, "case 1");
 assert.deepEqual(arrayPairSum([]), 0, "case 1");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

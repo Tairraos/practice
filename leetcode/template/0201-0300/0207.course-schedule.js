@@ -38,10 +38,10 @@ var canFinish = function(numCourses, prerequisites) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(canFinish("param"), "expect", "caseName");
 assert.deepEqual(canFinish("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

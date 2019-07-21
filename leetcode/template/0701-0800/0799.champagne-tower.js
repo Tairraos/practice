@@ -37,10 +37,10 @@ var champagneTower = function(poured, query_row, query_glass) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(champagneTower("param"), "expect", "caseName");
 assert.deepEqual(champagneTower("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

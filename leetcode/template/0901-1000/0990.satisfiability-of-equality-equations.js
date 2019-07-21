@@ -46,10 +46,10 @@ var equationsPossible = function(equations) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(equationsPossible("param"), "expect", "caseName");
 assert.deepEqual(equationsPossible("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

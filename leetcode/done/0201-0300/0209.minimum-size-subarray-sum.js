@@ -32,10 +32,10 @@ var minSubArrayLen = function (s, nums) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(minSubArrayLen(7, [2, 3, 1, 2, 4, 3]), 2, "case 1");
 assert.deepEqual(minSubArrayLen(7, [6, 3, 1, 2, 4, 3]), 2, "case 1");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

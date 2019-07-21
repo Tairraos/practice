@@ -41,11 +41,11 @@ var decode = function (shortUrl) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(decode(encode("test")), "test");
 assert.deepEqual(decode(encode("111")), "111");
 assert.deepEqual(decode(encode("222")), "222");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

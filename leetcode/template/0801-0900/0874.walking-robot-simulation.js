@@ -42,10 +42,10 @@ var robotSim = function(commands, obstacles) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(robotSim("param"), "expect", "caseName");
 assert.deepEqual(robotSim("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

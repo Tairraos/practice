@@ -44,10 +44,10 @@ var reachableNodes = function(edges, M, N) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(reachableNodes("param"), "expect", "caseName");
 assert.deepEqual(reachableNodes("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -40,7 +40,7 @@ var findDiagonalOrder = function (matrix) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(findDiagonalOrder([]), [], "case 1.1");
 assert.deepEqual(findDiagonalOrder([
@@ -76,4 +76,4 @@ assert.deepEqual(findDiagonalOrder([
 ]), [1, 2, 4, 7, 5, 3, 6, 8, 9], "case 124753689");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

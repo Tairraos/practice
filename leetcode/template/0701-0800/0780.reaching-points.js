@@ -37,10 +37,10 @@ var reachingPoints = function(sx, sy, tx, ty) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(reachingPoints("param"), "expect", "caseName");
 assert.deepEqual(reachingPoints("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

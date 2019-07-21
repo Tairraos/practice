@@ -38,10 +38,10 @@ var tallestBillboard = function(rods) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(tallestBillboard("param"), "expect", "caseName");
 assert.deepEqual(tallestBillboard("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

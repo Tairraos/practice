@@ -55,10 +55,10 @@ var canCompleteCircuit = function(gas, cost) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(canCompleteCircuit("param"), "expect", "caseName");
 assert.deepEqual(canCompleteCircuit("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

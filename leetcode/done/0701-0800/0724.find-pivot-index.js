@@ -41,7 +41,7 @@ var pivotIndex = function (nums) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(pivotIndex([1, 7, 3, 6, 5, 6]), 3, "case 0");
 assert.deepEqual(pivotIndex([1, 2, 3]), -1, "case 1");
@@ -50,4 +50,4 @@ assert.deepEqual(pivotIndex([]), -1, "case 3");
 assert.deepEqual(pivotIndex([1]), 0, "case 4");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

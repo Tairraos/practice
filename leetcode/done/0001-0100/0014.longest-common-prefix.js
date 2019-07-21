@@ -34,7 +34,7 @@ var longestCommonPrefix = function (strs) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(longestCommonPrefix(["flower", "flow", "flight"]), "fl", "case 1");
 assert.deepEqual(longestCommonPrefix(["dog", "racecar", "car"]), "", "case 2");
@@ -42,4 +42,4 @@ assert.deepEqual(longestCommonPrefix([]), "", "case 3");
 assert.deepEqual(longestCommonPrefix(["aaa"]), "aaa", "case 4");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

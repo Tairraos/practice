@@ -38,10 +38,10 @@ var findMaximizedCapital = function(k, W, Profits, Capital) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(findMaximizedCapital("param"), "expect", "caseName");
 assert.deepEqual(findMaximizedCapital("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

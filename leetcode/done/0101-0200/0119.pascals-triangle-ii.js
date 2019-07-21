@@ -27,7 +27,7 @@ var getRow = function (rowIndex) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(getRow(0), [1], "case 0");
 assert.deepEqual(getRow(1), [1, 1], "case 1");
@@ -36,4 +36,4 @@ assert.deepEqual(getRow(3), [1, 3, 3, 1], "case 3");
 assert.deepEqual(getRow(4), [1, 4, 6, 4, 1], "case 4");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

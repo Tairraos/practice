@@ -45,10 +45,10 @@ var loudAndRich = function(richer, quiet) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(loudAndRich("param"), "expect", "caseName");
 assert.deepEqual(loudAndRich("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

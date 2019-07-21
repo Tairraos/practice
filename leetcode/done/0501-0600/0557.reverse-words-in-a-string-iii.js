@@ -22,10 +22,10 @@ var reverseWords = function (s) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(reverseWords("Let's take LeetCode contest"), "s'teL ekat edoCteeL tsetnoc", "case 1");
 assert.deepEqual(reverseWords("  abc def   ghij "), "cba fed jihg", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -35,10 +35,10 @@ var dominantIndex = function (nums) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(dominantIndex([3, 6, 1, 0]), 1, "case 1");
 assert.deepEqual(dominantIndex([1, 2, 3, 4]), -1, "case 2");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

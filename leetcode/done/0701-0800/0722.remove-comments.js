@@ -75,7 +75,7 @@ var removeComments = function (source) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(
     removeComments(["struct Node{", "    /*/ declare members;/**/", "    int size;", "    /**/int val;", "};"]),
@@ -132,4 +132,4 @@ assert.deepEqual(removeComments([
 ], "case self 1");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

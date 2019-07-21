@@ -45,13 +45,13 @@ data.forEach(item => {
         jsout.push("");
         jsout.push("// Local test");
         jsout.push("let assert = require(\"assert\");");
-        jsout.push("console.time(\"leetcode\");");
+        jsout.push("console.time(\"Time cost\");");
         jsout.push("");
         jsout.push("assert.deepEqual(" + jsFuncName + "(\"param\"), \"expect\", \"Case 1\");");
         jsout.push("assert.deepEqual(" + jsFuncName + "(\"param\"), \"expect\", \"Case 2\");");
         jsout.push("");
         jsout.push("console.log(\"Good job! We have passed all test case.\");");
-        jsout.push("console.timeEnd(\"leetcode\");");
+        jsout.push("console.timeEnd(\"Time cost\");");
         jsout.push("");
     }
 

@@ -34,10 +34,10 @@ var maxProfit = function(prices, fee) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(maxProfit("param"), "expect", "caseName");
 assert.deepEqual(maxProfit("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -38,7 +38,7 @@ var rotate = function (nums, k) { //题目要求三种解法
 
 // Local test
 let testArr, assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 testArr = [1, 2, 3, 4, 5, 6, 7];
 rotate(testArr, 3);
 assert.deepEqual(testArr, [5, 6, 7, 1, 2, 3, 4], "case 1");
@@ -56,4 +56,4 @@ rotate(testArr, 3);
 assert.deepEqual(testArr, [2, 1], "case 5");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

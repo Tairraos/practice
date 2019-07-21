@@ -32,7 +32,7 @@ var twoSum = function (numbers, target) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(twoSum([2, 7, 11, 15], 9), [1, 2], "case 1");
 assert.deepEqual(twoSum([1, 2, 7, 11, 15], 9), [2, 3], "case 2");
@@ -42,4 +42,4 @@ assert.deepEqual(twoSum([1, 2, 3, 4, 5, 6, 7], 13), [6, 7], "case 5");
 assert.deepEqual(twoSum([1, 2, 3, 5, 6, 7], 11), [4, 5], "case 6");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

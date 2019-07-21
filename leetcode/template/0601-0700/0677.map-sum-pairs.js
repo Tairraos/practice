@@ -47,10 +47,10 @@ MapSum.prototype.sum = function(prefix) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(MapSum("param"), "expect", "caseName");
 assert.deepEqual(MapSum("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

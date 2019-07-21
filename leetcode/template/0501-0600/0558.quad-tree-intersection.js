@@ -82,10 +82,10 @@ var intersect = function(quadTree1, quadTree2) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(intersect("param"), "expect", "caseName");
 assert.deepEqual(intersect("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -40,10 +40,10 @@ var minKBitFlips = function(A, K) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(minKBitFlips("param"), "expect", "caseName");
 assert.deepEqual(minKBitFlips("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

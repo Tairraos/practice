@@ -31,7 +31,7 @@ var reverseVowels = function (s) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(reverseVowels("hello"), "holle", "hello");
 assert.deepEqual(reverseVowels("leetcode"), "leotcede", "leetcode");
@@ -42,4 +42,4 @@ assert.deepEqual(reverseVowels("aeiou tst"), "uoiea tst", "aeiou tst");
 assert.deepEqual(reverseVowels("tst Aeiou"), "tst uoieA", "tst Aeiou");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

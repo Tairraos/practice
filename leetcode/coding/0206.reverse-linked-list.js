@@ -50,10 +50,10 @@ let assert = require("assert"),
         next: a.slice(1).length ? toTab(a.slice(1)) : null
     }) : null,
     testTable;
-console.time("leetcode");
+console.time("Time cost");
 
 testTable = toTab([1, 2, 3, 4, 5]);
 assert.deepEqual(toArr(reverseList(testTable)), [5, 4, 3, 2, 1], "case 1");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

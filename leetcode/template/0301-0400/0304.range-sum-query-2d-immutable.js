@@ -52,10 +52,10 @@ NumMatrix.prototype.sumRegion = function(row1, col1, row2, col2) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(NumMatrix("param"), "expect", "caseName");
 assert.deepEqual(NumMatrix("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

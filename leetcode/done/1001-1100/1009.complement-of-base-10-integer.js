@@ -41,7 +41,7 @@ var bitwiseComplement = function (N) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(bitwiseComplement(5), 2);
 assert.deepEqual(bitwiseComplement(7), 0);
@@ -50,4 +50,4 @@ assert.deepEqual(bitwiseComplement(0), 1);
 assert.deepEqual(bitwiseComplement(10**9), 73741823);
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

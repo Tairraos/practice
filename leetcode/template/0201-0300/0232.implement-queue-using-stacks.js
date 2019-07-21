@@ -75,10 +75,10 @@ MyQueue.prototype.empty = function() {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(MyQueue("param"), "expect", "caseName");
 assert.deepEqual(MyQueue("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

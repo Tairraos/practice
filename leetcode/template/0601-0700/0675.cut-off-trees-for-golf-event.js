@@ -54,10 +54,10 @@ var cutOffTree = function(forest) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(cutOffTree("param"), "expect", "caseName");
 assert.deepEqual(cutOffTree("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

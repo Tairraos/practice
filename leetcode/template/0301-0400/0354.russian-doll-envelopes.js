@@ -25,10 +25,10 @@ var maxEnvelopes = function(envelopes) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(maxEnvelopes("param"), "expect", "caseName");
 assert.deepEqual(maxEnvelopes("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

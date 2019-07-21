@@ -35,10 +35,10 @@ var isOneBitCharacter = function(bits) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(isOneBitCharacter("param"), "expect", "caseName");
 assert.deepEqual(isOneBitCharacter("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

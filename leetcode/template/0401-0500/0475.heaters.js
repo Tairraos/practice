@@ -35,10 +35,10 @@ var findRadius = function(houses, heaters) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(findRadius("param"), "expect", "caseName");
 assert.deepEqual(findRadius("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

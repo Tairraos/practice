@@ -63,10 +63,10 @@ var containVirus = function(grid) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(containVirus("param"), "expect", "caseName");
 assert.deepEqual(containVirus("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

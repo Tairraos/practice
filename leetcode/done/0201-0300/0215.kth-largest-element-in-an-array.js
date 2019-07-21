@@ -28,10 +28,10 @@ var findKthLargest = function (nums, k) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(findKthLargest([3, 2, 1, 5, 6, 4], 2), 5);
 assert.deepEqual(findKthLargest([3, 2, 3, 1, 2, 4, 5, 5, 6], 4), 4);
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

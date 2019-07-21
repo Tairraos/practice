@@ -27,7 +27,7 @@ var reverseString = function (s) {
 
 // Local test
 let tesrArr, assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 tesrArr = ["h", "e", "l", "l", "o"];
 reverseString(tesrArr);
@@ -43,4 +43,4 @@ reverseString(tesrArr);
 assert.deepEqual(tesrArr, [], "case empty");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

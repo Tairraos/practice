@@ -80,7 +80,7 @@ var isMatch = function (s, p) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(isMatch("a", "."), true);
 assert.deepEqual(isMatch("aa", "a"), false);
@@ -99,4 +99,4 @@ assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*dd.*dd*"), false);
 assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*dd*.dd*"), false);
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -35,7 +35,7 @@ var merge = function (nums1, m, nums2, n) {
 // Local test
 let assert = require("assert"),
     testArr;
-console.time("leetcode");
+console.time("Time cost");
 
 testArr = [1, 2, 3, 0, 0, 0];
 merge(testArr, 3, [2, 5, 6], 3);
@@ -72,4 +72,4 @@ merge(testArr, 3, [1, 3, 5], 3);
 assert.deepEqual(testArr, [1, 1, 3, 3, 5, 5], "case 11");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

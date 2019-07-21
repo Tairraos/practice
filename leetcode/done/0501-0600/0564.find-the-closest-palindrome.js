@@ -41,7 +41,7 @@ var nearestPalindromic = function (n) {
 // Local test
 let assert = require("assert");
 
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(nearestPalindromic("123"), "121");
 assert.deepEqual(nearestPalindromic("1"), "0");
@@ -49,4 +49,4 @@ assert.deepEqual(nearestPalindromic("123123123123"), "123123321321");
 assert.deepEqual(nearestPalindromic("999999999999999999"), "1000000000000000001");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

@@ -29,10 +29,10 @@ var topKFrequent = function(nums, k) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(topKFrequent("param"), "expect", "caseName");
 assert.deepEqual(topKFrequent("param"), "expect", "caseName");
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");

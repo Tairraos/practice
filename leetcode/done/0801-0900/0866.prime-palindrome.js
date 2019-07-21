@@ -62,7 +62,7 @@ var primePalindrome = function (N) {
 
 // Local test
 let assert = require("assert");
-console.time("leetcode");
+console.time("Time cost");
 
 assert.deepEqual(primePalindrome(1), 2);
 assert.deepEqual(primePalindrome(6), 7);
@@ -72,4 +72,4 @@ assert.deepEqual(primePalindrome(13), 101);
 assert.deepEqual(primePalindrome(9989900), 100030001);
 
 console.log("Good job! We have passed all test case.");
-console.timeEnd("leetcode");
+console.timeEnd("Time cost");
