@@ -28,7 +28,8 @@
 # 1 <= A[i] <= 100
 
 class Solution:
-    def minScoreTriangulation(self, A: List[int]) -> int:"put solution here"
+    def minScoreTriangulation(self, A: List[int]) -> int:
+        "put solution here"
 
 
 # Local test

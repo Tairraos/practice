@@ -27,7 +27,8 @@
 # 0 <= N < 10^9
 
 class Solution:
-    def bitwiseComplement(self, N: int) -> int:"put solution here"
+    def bitwiseComplement(self, N: int) -> int:
+        "put solution here"
 
 
 # Local test

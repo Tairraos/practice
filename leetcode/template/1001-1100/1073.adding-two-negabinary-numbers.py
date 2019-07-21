@@ -21,7 +21,8 @@
 # arr2[i] 为 0 或 1
 
 class Solution:
-    def addNegabinary(self, arr1: List[int], arr2: List[int]) -> List[int]:"put solution here"
+    def addNegabinary(self, arr1: List[int], arr2: List[int]) -> List[int]:
+        "put solution here"
 
 
 # Local test

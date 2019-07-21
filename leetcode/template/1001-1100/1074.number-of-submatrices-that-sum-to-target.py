@@ -25,7 +25,8 @@
 # -10^8 <= target <= 10^8
 
 class Solution:
-    def numSubmatrixSumTarget(self, matrix: List[List[int]], target: int) -> int:"put solution here"
+    def numSubmatrixSumTarget(self, matrix: List[List[int]], target: int) -> int:
+        "put solution here"
 
 
 # Local test

@@ -18,7 +18,8 @@
 # 1 <= A[i] <= 1000
 
 class Solution:
-    def maxScoreSightseeingPair(self, A: List[int]) -> int:"put solution here"
+    def maxScoreSightseeingPair(self, A: List[int]) -> int:
+        "put solution here"
 
 
 # Local test

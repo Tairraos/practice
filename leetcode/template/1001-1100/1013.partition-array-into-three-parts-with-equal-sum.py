@@ -25,7 +25,8 @@
 # -10000 <= A[i] <= 10000
 
 class Solution:
-    def canThreePartsEqualSum(self, A: List[int]) -> bool:"put solution here"
+    def canThreePartsEqualSum(self, A: List[int]) -> bool:
+        "put solution here"
 
 
 # Local test

@@ -37,7 +37,8 @@
 # stones[i] 的值各不相同。
 
 class Solution:
-    def numMovesStonesII(self, stones: List[int]) -> List[int]:"put solution here"
+    def numMovesStonesII(self, stones: List[int]) -> List[int]:
+        "put solution here"
 
 
 # Local test

@@ -27,7 +27,8 @@
 # 1 <= N <= 1000
 
 class Solution:
-    def divisorGame(self, N: int) -> bool:"put solution here"
+    def divisorGame(self, N: int) -> bool:
+        "put solution here"
 
 
 # Local test

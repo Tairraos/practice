@@ -21,7 +21,8 @@
 # words[i] 仅由小写英文字母组成。
 
 class Solution:
-    def longestStrChain(self, words: List[str]) -> int:"put solution here"
+    def longestStrChain(self, words: List[str]) -> int:
+        "put solution here"
 
 
 # Local test

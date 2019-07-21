@@ -17,7 +17,8 @@
 # 输出: false
 
 class Solution:
-    def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:"put solution here"
+    def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:
+        "put solution here"
 
 
 # Local test

@@ -49,7 +49,7 @@ class Trie:
 # obj = Trie()
 # obj.insert(word)
 # param_2 = obj.search(word)
-# param_3 = obj.startsWith(prefix)"put solution here"
+# param_3 = obj.startsWith(prefix)
 
 
 # Local test

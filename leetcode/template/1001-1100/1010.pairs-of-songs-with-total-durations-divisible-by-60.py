@@ -24,7 +24,8 @@
 # 1 <= time[i] <= 500
 
 class Solution:
-    def numPairsDivisibleBy60(self, time: List[int]) -> int:"put solution here"
+    def numPairsDivisibleBy60(self, time: List[int]) -> int:
+        "put solution here"
 
 
 # Local test

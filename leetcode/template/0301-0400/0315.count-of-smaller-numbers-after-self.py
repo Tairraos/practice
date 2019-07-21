@@ -14,7 +14,8 @@
 # 1 的右侧有 0 个更小的元素.
 
 class Solution:
-    def countSmaller(self, nums: List[int]) -> List[int]:"put solution here"
+    def countSmaller(self, nums: List[int]) -> List[int]:
+        "put solution here"
 
 
 # Local test

@@ -60,7 +60,7 @@ class MyQueue:
 # obj.push(x)
 # param_2 = obj.pop()
 # param_3 = obj.peek()
-# param_4 = obj.empty()"put solution here"
+# param_4 = obj.empty()
 
 
 # Local test

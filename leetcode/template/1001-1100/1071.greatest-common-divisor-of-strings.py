@@ -24,7 +24,8 @@
 # str1[i] 和 str2[i] 为大写英文字母
 
 class Solution:
-    def gcdOfStrings(self, str1: str, str2: str) -> str:"put solution here"
+    def gcdOfStrings(self, str1: str, str2: str) -> str:
+        "put solution here"
 
 
 # Local test

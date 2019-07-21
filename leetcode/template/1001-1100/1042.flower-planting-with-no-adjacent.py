@@ -31,7 +31,8 @@
 # 保证存在答案。
 
 class Solution:
-    def gardenNoAdj(self, N: int, paths: List[List[int]]) -> List[int]:"put solution here"
+    def gardenNoAdj(self, N: int, paths: List[List[int]]) -> List[int]:
+        "put solution here"
 
 
 # Local test

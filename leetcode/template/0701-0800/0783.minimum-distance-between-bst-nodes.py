@@ -33,7 +33,8 @@
 #         self.right = None
 
 class Solution:
-    def minDiffInBST(self, root: TreeNode) -> int:"put solution here"
+    def minDiffInBST(self, root: TreeNode) -> int:
+        "put solution here"
 
 
 # Local test

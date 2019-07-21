@@ -29,7 +29,8 @@
 # A[i] 为 0 或 1
 
 class Solution:
-    def prefixesDivBy5(self, A: List[int]) -> List[bool]:"put solution here"
+    def prefixesDivBy5(self, A: List[int]) -> List[bool]:
+        "put solution here"
 
 
 # Local test

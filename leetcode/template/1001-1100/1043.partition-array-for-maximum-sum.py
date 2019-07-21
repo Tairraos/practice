@@ -16,7 +16,8 @@
 # 0 <= A[i] <= 10^6
 
 class Solution:
-    def maxSumAfterPartitioning(self, A: List[int], K: int) -> int:"put solution here"
+    def maxSumAfterPartitioning(self, A: List[int], K: int) -> int:
+        "put solution here"
 
 
 # Local test

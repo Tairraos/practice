@@ -34,7 +34,7 @@ class Solution:
         :type employees: Employee
         :type id: int
         :rtype: int
-        """"put solution here"
+        """
 
 
 # Local test

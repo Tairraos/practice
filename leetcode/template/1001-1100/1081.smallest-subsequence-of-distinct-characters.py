@@ -25,7 +25,8 @@
 # text 由小写英文字母组成
 
 class Solution:
-    def smallestSubsequence(self, text: str) -> str:"put solution here"
+    def smallestSubsequence(self, text: str) -> str:
+        "put solution here"
 
 
 # Local test

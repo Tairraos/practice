@@ -33,7 +33,8 @@
 #         self.next = None
 
 class Solution:
-    def nextLargerNodes(self, head: ListNode) -> List[int]:"put solution here"
+    def nextLargerNodes(self, head: ListNode) -> List[int]:
+        "put solution here"
 
 
 # Local test
