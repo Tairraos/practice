@@ -48,14 +48,14 @@ class AllOne:
 # obj.inc(key)
 # obj.dec(key)
 # param_3 = obj.getMaxKey()
-# param_4 = obj.getMinKey()"put solution here"
+# param_4 = obj.getMinKey()
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = AllOne()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

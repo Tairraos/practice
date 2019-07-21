@@ -25,25 +25,25 @@
 class TopVotedCandidate:
 
     def __init__(self, persons: List[int], times: List[int]):
-        
+        "put solution here"
 
     def q(self, t: int) -> int:
-        
+        "put solution here"
 
 
 # Your TopVotedCandidate object will be instantiated and called as such:
 # obj = TopVotedCandidate(persons, times)
-# param_1 = obj.q(t)"put solution here"
+# param_1 = obj.q(t)
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = TopVotedCandidate()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.q('param') == 'expect', 'Case 1'
+    assert unit.q('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

@@ -32,25 +32,25 @@
 class StockSpanner:
 
     def __init__(self):
-        
+        "put solution here"
 
     def next(self, price: int) -> int:
-        
+        "put solution here"
 
 
 # Your StockSpanner object will be instantiated and called as such:
 # obj = StockSpanner()
-# param_1 = obj.next(price)"put solution here"
+# param_1 = obj.next(price)
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = StockSpanner()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.next('param') == 'expect', 'Case 1'
+    assert unit.next('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

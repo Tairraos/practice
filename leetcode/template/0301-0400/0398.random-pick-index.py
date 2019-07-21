@@ -20,15 +20,15 @@
 class Solution:
 
     def __init__(self, nums: List[int]):
-        
+        "put solution here"
 
     def pick(self, target: int) -> int:
-        
+        "put solution here"
 
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(nums)
-# param_1 = obj.pick(target)"put solution here"
+# param_1 = obj.pick(target)
 
 
 # Local test
@@ -37,8 +37,8 @@ if __name__ == '__main__':
     launch_start = time.time()
     unit = Solution()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.pick('param') == 'expect', 'Case 1'
+    assert unit.pick('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

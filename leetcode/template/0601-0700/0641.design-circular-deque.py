@@ -97,14 +97,14 @@ class MyCircularDeque:
 # param_5 = obj.getFront()
 # param_6 = obj.getRear()
 # param_7 = obj.isEmpty()
-# param_8 = obj.isFull()"put solution here"
+# param_8 = obj.isFull()
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = MyCircularDeque()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

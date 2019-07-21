@@ -27,19 +27,19 @@
 class Solution:
 
     def __init__(self, n_rows: int, n_cols: int):
-        
+        "put solution here"
 
     def flip(self) -> List[int]:
-        
+        "put solution here"
 
     def reset(self) -> None:
-        
+        "put solution here"
 
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(n_rows, n_cols)
 # param_1 = obj.flip()
-# obj.reset()"put solution here"
+# obj.reset()
 
 
 # Local test
@@ -48,8 +48,8 @@ if __name__ == '__main__':
     launch_start = time.time()
     unit = Solution()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.flip('param') == 'expect', 'Case 1'
+    assert unit.reset('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

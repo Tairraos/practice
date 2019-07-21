@@ -20,25 +20,25 @@
 class RecentCounter:
 
     def __init__(self):
-        
+        "put solution here"
 
     def ping(self, t: int) -> int:
-        
+        "put solution here"
 
 
 # Your RecentCounter object will be instantiated and called as such:
 # obj = RecentCounter()
-# param_1 = obj.ping(t)"put solution here"
+# param_1 = obj.ping(t)
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = RecentCounter()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.ping('param') == 'expect', 'Case 1'
+    assert unit.ping('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

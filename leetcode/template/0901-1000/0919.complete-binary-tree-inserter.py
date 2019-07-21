@@ -31,29 +31,30 @@
 class CBTInserter:
 
     def __init__(self, root: TreeNode):
-        
+        "put solution here"
 
     def insert(self, v: int) -> int:
-        
+        "put solution here"
 
     def get_root(self) -> TreeNode:
-        
+        "put solution here"
 
 
 # Your CBTInserter object will be instantiated and called as such:
 # obj = CBTInserter(root)
 # param_1 = obj.insert(v)
-# param_2 = obj.get_root()"put solution here"
+# param_2 = obj.get_root()
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+class CBTInserter:
+    unit = CBTInserter()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.insert('param') == 'expect', 'Case 1'
+    assert unit.get_root('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

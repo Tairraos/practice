@@ -26,29 +26,29 @@
 class LFUCache:
 
     def __init__(self, capacity: int):
-        
+        "put solution here"
 
     def get(self, key: int) -> int:
-        
+        "put solution here"
 
     def put(self, key: int, value: int) -> None:
-        
+        "put solution here"
 
 
 # Your LFUCache object will be instantiated and called as such:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
-# obj.put(key,value)"put solution here"
+# obj.put(key,value)
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = LFUCache()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.get('param') == 'expect', 'Case 1'
+    assert unit.put('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

@@ -27,15 +27,15 @@
 class Solution:
 
     def __init__(self, radius: float, x_center: float, y_center: float):
-        
+        "put solution here"
 
     def randPoint(self) -> List[float]:
-        
+        "put solution here"
 
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(radius, x_center, y_center)
-# param_1 = obj.randPoint()"put solution here"
+# param_1 = obj.randPoint()
 
 
 # Local test
@@ -44,8 +44,8 @@ if __name__ == '__main__':
     launch_start = time.time()
     unit = Solution()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.randPoint('param') == 'expect', 'Case 1'
+    assert unit.randPoint('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

@@ -19,29 +19,29 @@
 class NumArray:
 
     def __init__(self, nums: List[int]):
-        
+        "put solution here"
 
     def update(self, i: int, val: int) -> None:
-        
+        "put solution here"
 
     def sumRange(self, i: int, j: int) -> int:
-        
+        "put solution here"
 
 
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
 # obj.update(i,val)
-# param_2 = obj.sumRange(i,j)"put solution here"
+# param_2 = obj.sumRange(i,j)
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = NumArray()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.sumRange('param') == 'expect', 'Case 1'
+    assert unit.sumRange('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

@@ -91,14 +91,14 @@ class MyCircularQueue:
 # param_3 = obj.Front()
 # param_4 = obj.Rear()
 # param_5 = obj.isEmpty()
-# param_6 = obj.isFull()"put solution here"
+# param_6 = obj.isFull()
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = MyCircularQueue()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

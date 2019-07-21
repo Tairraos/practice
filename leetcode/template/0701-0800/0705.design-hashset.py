@@ -33,10 +33,10 @@ class MyHashSet:
         
 
     def add(self, key: int) -> None:
-        
+        "put solution here"
 
     def remove(self, key: int) -> None:
-        
+        "put solution here"
 
     def contains(self, key: int) -> bool:
         """
@@ -49,17 +49,17 @@ class MyHashSet:
 # obj = MyHashSet()
 # obj.add(key)
 # obj.remove(key)
-# param_3 = obj.contains(key)"put solution here"
+# param_3 = obj.contains(key)
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = MyHashSet()
 
-    assert unit.__init__('param') == 'expect', 'Case 1'
-    assert unit.__init__('param') == 'expect', 'Case 2'
+    assert unit.contains('param') == 'expect', 'Case 1'
+    assert unit.contains('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

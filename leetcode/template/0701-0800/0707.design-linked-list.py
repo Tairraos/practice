@@ -69,14 +69,14 @@ class MyLinkedList:
 # obj.addAtHead(val)
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
-# obj.deleteAtIndex(index)"put solution here"
+# obj.deleteAtIndex(index)
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = MyLinkedList()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

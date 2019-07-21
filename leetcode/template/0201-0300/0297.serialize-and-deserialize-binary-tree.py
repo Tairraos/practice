@@ -46,17 +46,17 @@ class Codec:
 
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
-# codec.deserialize(codec.serialize(root))"put solution here"
+# codec.deserialize(codec.serialize(root))
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Solution()
+    unit = Codec()
 
     assert unit.serialize('param') == 'expect', 'Case 1'
-    assert unit.serialize('param') == 'expect', 'Case 2'
+    assert unit.deserialize('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')
