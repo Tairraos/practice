@@ -17,12 +17,9 @@
 # 提示：
 # 给出的 address 是一个有效的 IPv4 地址
 
-import re
-
-
 class Solution:
     def defangIPaddr(self, address: str) -> str:
-        return re.sub('\.', '[.]', address)
+        return address.replace('.', '[.]')
 
 
 # Local test
