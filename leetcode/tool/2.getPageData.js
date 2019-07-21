@@ -12,7 +12,7 @@
  */
 
 //::Start refill operateList
-var operateList = ["parsing-a-boolean-expression"];
+var operateList = ["smallest-sufficient-team","longest-well-performing-interval","lowest-common-ancestor-of-deepest-leaves","relative-sort-array","print-zero-even-odd","maximum-nesting-depth-of-two-valid-parentheses-strings","delete-nodes-and-return-forest","corporate-flight-bookings","defanging-an-ip-address","print-in-order","print-foobar-alternately","building-h2o"];
 //::End refill
 
 var dictDiffculty = {
@@ -25,7 +25,7 @@ var dictDiffculty = {
     leetCodeData = [],
     translations = {},
     //需要去网页里更新token
-    csrfToken = "4UtW01NPFwQZwPPCemkBvFt8gBMmyKAnDp3rPkv21ExECDKYMGyYmZsiUoDeNFZL";
+    csrfToken = "3P8w3ONgFVe3ZbNDRzcwlf5TAoPPW77OEa4H2pzBhVsS75fQnpBGX4hmpEkGrTnI";
 /**
  * 调用 getQues 把数据保存到 leetCodeData, 然后输出
  */

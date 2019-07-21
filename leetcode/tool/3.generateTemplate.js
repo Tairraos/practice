@@ -78,6 +78,8 @@ data.forEach(item => {
         pyout.push("    print('Good job! We have passed all test case in ' + str(int((time.time() - launch_start) * 1000)) + 'ms')");
         pyout.push("");
     }
-    // x.saveFile("./leetcode/template/" + dir + "/" + jsname, jsout.join("\n"));
+    x.saveFile("./leetcode/template/" + dir + "/" + jsname, jsout.join("\n"));
+    console.log("\033[32m", jsname, "\033[0m已经生成。");
     x.saveFile("./leetcode/template/" + dir + "/" + pyname, pyout.join("\n"));
+    console.log("\033[32m", pyname, "\033[0m已经生成。");
 });

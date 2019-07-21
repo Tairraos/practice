@@ -3463,7 +3463,7 @@ module.exports = [{
     "questionId": 347,
     "qid": "0347",
     "titleEn": "Top K Frequent Elements",
-    "titleCn": "前K个高频元素",
+    "titleCn": "前 K 个高频元素",
     "titleSlug": "top-k-frequent-elements",
     "difficulty": "Medium",
     "level": 2,
@@ -11040,6 +11040,166 @@ module.exports = [{
     "titleEn": "Parsing A Boolean Expression",
     "titleCn": "解析布尔表达式",
     "titleSlug": "parsing-a-boolean-expression",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1205,
+    "questionId": 1108,
+    "qid": "1108",
+    "titleEn": "Defanging an IP Address",
+    "titleCn": "IP 地址无效化",
+    "titleSlug": "defanging-an-ip-address",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1206,
+    "questionId": 1109,
+    "qid": "1109",
+    "titleEn": "Corporate Flight Bookings",
+    "titleCn": "航班预订统计",
+    "titleSlug": "corporate-flight-bookings",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1207,
+    "questionId": 1110,
+    "qid": "1110",
+    "titleEn": "Delete Nodes And Return Forest",
+    "titleCn": "删点成林",
+    "titleSlug": "delete-nodes-and-return-forest",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1208,
+    "questionId": 1111,
+    "qid": "1111",
+    "titleEn": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+    "titleCn": "有效括号的嵌套深度",
+    "titleSlug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1203,
+    "questionId": 1114,
+    "qid": "1114",
+    "titleEn": "Print in Order",
+    "titleCn": "按序打印",
+    "titleSlug": "print-in-order",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1187,
+    "questionId": 1115,
+    "qid": "1115",
+    "titleEn": "Print FooBar Alternately",
+    "titleCn": "交替打印FooBar",
+    "titleSlug": "print-foobar-alternately",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1216,
+    "questionId": 1116,
+    "qid": "1116",
+    "titleEn": "Print Zero Even Odd",
+    "titleCn": "打印零与奇偶数",
+    "titleSlug": "print-zero-even-odd",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1186,
+    "questionId": 1117,
+    "qid": "1117",
+    "titleEn": "Building H2O",
+    "titleCn": "H2O 生成",
+    "titleSlug": "building-h2o",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1088,
+    "questionId": 1118,
+    "qid": "1118",
+    "titleEn": "Number of Days in a Month",
+    "titleCn": "一月有多少天",
+    "titleSlug": "number-of-days-in-a-month",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1089,
+    "questionId": 1119,
+    "qid": "1119",
+    "titleEn": "Remove Vowels from a String",
+    "titleCn": "删去字符串中的元音",
+    "titleSlug": "remove-vowels-from-a-string",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1091,
+    "questionId": 1120,
+    "qid": "1120",
+    "titleEn": "Maximum Average Subtree",
+    "titleCn": "子树的最大平均值",
+    "titleSlug": "maximum-average-subtree",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1118,
+    "questionId": 1121,
+    "qid": "1121",
+    "titleEn": "Divide Array Into Increasing Sequences",
+    "titleCn": "将数组分成几个递增序列",
+    "titleSlug": "divide-array-into-increasing-sequences",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": true
+}, {
+    "rawId": 1217,
+    "questionId": 1122,
+    "qid": "1122",
+    "titleEn": "Relative Sort Array",
+    "titleCn": "数组的相对排序",
+    "titleSlug": "relative-sort-array",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1218,
+    "questionId": 1123,
+    "qid": "1123",
+    "titleEn": "Lowest Common Ancestor of Deepest Leaves",
+    "titleCn": "最深叶节点的最近公共祖先",
+    "titleSlug": "lowest-common-ancestor-of-deepest-leaves",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1219,
+    "questionId": 1124,
+    "qid": "1124",
+    "titleEn": "Longest Well-Performing Interval",
+    "titleCn": "表现良好的最长时间段",
+    "titleSlug": "longest-well-performing-interval",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1220,
+    "questionId": 1125,
+    "qid": "1125",
+    "titleEn": "Smallest Sufficient Team",
+    "titleCn": "最小的必要团队",
+    "titleSlug": "smallest-sufficient-team",
     "difficulty": "Hard",
     "level": 3,
     "isPaidOnly": false
