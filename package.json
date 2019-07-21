@@ -15,6 +15,7 @@
   "scripts": {
     "readme": "node leetcode/tool/progress.js readme",
     "coding": "node leetcode/tool/progress.js coding",
-    "done": "node leetcode/tool/progress.js done"
+    "done": "node leetcode/tool/progress.js done",
+    "postdone": "npm run readme"
   }
 }
