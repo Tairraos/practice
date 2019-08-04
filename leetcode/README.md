@@ -1,5 +1,5 @@
 ### Leetcode Javascript 已完成题目列表
-完成度：58/917 (有205题付费题未计算在总数内, 附[所有题目清单](LIST.md))
+完成度：58/925 (有209题付费题未计算在总数内, 附[所有题目清单](LIST.md))
 - [0001 - 两数之和](done/0001-0100/0001.two-sum.js) 难度：容易 [源](https://leetcode-cn.com/problems/two-sum/)
 - [0002 - 两数相加](done/0001-0100/0002.add-two-numbers.js) 难度：中等 [源](https://leetcode-cn.com/problems/add-two-numbers/)
 - [0003 - 无重复字符的最长子串](done/0001-0100/0003.longest-substring-without-repeating-characters.js) 难度：中等 [源](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
@@ -19,7 +19,7 @@
 - [0024 - 两两交换链表中的节点](done/0001-0100/0024.swap-nodes-in-pairs.js) 难度：中等 [源](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [0026 - 删除排序数组中的重复项](done/0001-0100/0026.remove-duplicates-from-sorted-array.js) 难度：容易 [源](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 - [0027 - 移除元素](done/0001-0100/0027.remove-element.js) 难度：容易 [源](https://leetcode-cn.com/problems/remove-element/)
-- [0028 - 实现strStr()](done/0001-0100/0028.implement-strstr.js) 难度：容易 [源](https://leetcode-cn.com/problems/implement-strstr/)
+- [0028 - 实现 strStr()](done/0001-0100/0028.implement-strstr.js) 难度：容易 [源](https://leetcode-cn.com/problems/implement-strstr/)
 - [0029 - 两数相除](done/0001-0100/0029.divide-two-integers.js) 难度：中等 [源](https://leetcode-cn.com/problems/divide-two-integers/)
 - [0054 - 螺旋矩阵](done/0001-0100/0054.spiral-matrix.js) 难度：中等 [源](https://leetcode-cn.com/problems/spiral-matrix/)
 - [0065 - 有效数字](done/0001-0100/0065.valid-number.js) 难度：困难 [源](https://leetcode-cn.com/problems/valid-number/)
@@ -60,5 +60,5 @@
 - [1108 - IP 地址无效化](done/1101-1200/1108.defanging-an-ip-address.js) 难度：容易 [源](https://leetcode-cn.com/problems/defanging-an-ip-address/)
 
 ### Leetcode Python 已完成题目列表
-完成度：1/917 (有205题付费题未计算在总数内, 附[所有题目清单](LIST.md))
+完成度：1/925 (有209题付费题未计算在总数内, 附[所有题目清单](LIST.md))
 - [1108 - IP 地址无效化](done/1101-1200/1108.defanging-an-ip-address.py) 难度：容易 [源](https://leetcode-cn.com/problems/defanging-an-ip-address/)

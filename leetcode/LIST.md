@@ -1,5 +1,5 @@
 ### Leetcode 题目清单
-总题数：1122 / 未付费题：917 / 付费题：205
+总题数：1134 / 未付费题：925 / 付费题：209
 - [0001 - 两数之和](https://leetcode-cn.com/problems/two-sum/) 难度：容易
 - [0002 - 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) 难度：中等
 - [0003 - 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 难度：中等
@@ -27,7 +27,7 @@
 - [0025 - K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 难度：困难
 - [0026 - 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) 难度：容易
 - [0027 - 移除元素](https://leetcode-cn.com/problems/remove-element/) 难度：容易
-- [0028 - 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) 难度：容易
+- [0028 - 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) 难度：容易
 - [0029 - 两数相除](https://leetcode-cn.com/problems/divide-two-integers/) 难度：中等
 - [0030 - 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) 难度：困难
 - [0031 - 下一个排列](https://leetcode-cn.com/problems/next-permutation/) 难度：中等
@@ -184,7 +184,7 @@
 - [0182 - 查找重复的电子邮箱](https://leetcode-cn.com/problems/duplicate-emails/) 难度：容易
 - [0183 - 从不订购的客户](https://leetcode-cn.com/problems/customers-who-never-order/) 难度：容易
 - [0184 - 部门工资最高的员工](https://leetcode-cn.com/problems/department-highest-salary/) 难度：中等
-- [0185 - 部门工资前三高的员工](https://leetcode-cn.com/problems/department-top-three-salaries/) 难度：困难
+- [0185 - 部门工资前三高的所有员工](https://leetcode-cn.com/problems/department-top-three-salaries/) 难度：困难
 - [0186 - 翻转字符串里的单词 II](https://leetcode-cn.com/problems/reverse-words-in-a-string-ii/) 难度：中等 / 付费题
 - [0187 - 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/) 难度：中等
 - [0188 - 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) 难度：困难
@@ -1122,3 +1122,15 @@
 - [1123 - 最深叶节点的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/) 难度：中等
 - [1124 - 表现良好的最长时间段](https://leetcode-cn.com/problems/longest-well-performing-interval/) 难度：中等
 - [1125 - 最小的必要团队](https://leetcode-cn.com/problems/smallest-sufficient-team/) 难度：困难
+- [1128 - 等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/) 难度：容易
+- [1129 - 颜色交替的最短路径](https://leetcode-cn.com/problems/shortest-path-with-alternating-colors/) 难度：中等
+- [1130 - 叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/) 难度：中等
+- [1131 - 绝对值表达式的最大值](https://leetcode-cn.com/problems/maximum-of-absolute-value-expression/) 难度：中等
+- [1133 - 最大唯一数](https://leetcode-cn.com/problems/largest-unique-number/) 难度：容易 / 付费题
+- [1134 - 阿姆斯特朗数](https://leetcode-cn.com/problems/armstrong-number/) 难度：容易 / 付费题
+- [1135 - 最低成本联通所有城市](https://leetcode-cn.com/problems/connecting-cities-with-minimum-cost/) 难度：中等 / 付费题
+- [1136 - 平行课程](https://leetcode-cn.com/problems/parallel-courses/) 难度：困难 / 付费题
+- [1137 - 第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/) 难度：容易
+- [1138 - 字母板上的路径](https://leetcode-cn.com/problems/alphabet-board-path/) 难度：中等
+- [1139 - 最大的以 1 为边界的正方形](https://leetcode-cn.com/problems/largest-1-bordered-square/) 难度：中等
+- [1140 - 石子游戏 II](https://leetcode-cn.com/problems/stone-game-ii/) 难度：中等

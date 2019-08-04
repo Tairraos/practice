@@ -273,7 +273,7 @@ module.exports = [{
     "questionId": 28,
     "qid": "0028",
     "titleEn": "Implement strStr()",
-    "titleCn": "实现strStr()",
+    "titleCn": "实现 strStr()",
     "titleSlug": "implement-strstr",
     "difficulty": "Easy",
     "level": 1,
@@ -1843,7 +1843,7 @@ module.exports = [{
     "questionId": 185,
     "qid": "0185",
     "titleEn": "Department Top Three Salaries",
-    "titleCn": "部门工资前三高的员工",
+    "titleCn": "部门工资前三高的所有员工",
     "titleSlug": "department-top-three-salaries",
     "difficulty": "Hard",
     "level": 3,
@@ -11202,5 +11202,125 @@ module.exports = [{
     "titleSlug": "smallest-sufficient-team",
     "difficulty": "Hard",
     "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1227,
+    "questionId": 1128,
+    "qid": "1128",
+    "titleEn": "Number of Equivalent Domino Pairs",
+    "titleCn": "等价多米诺骨牌对的数量",
+    "titleSlug": "number-of-equivalent-domino-pairs",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1229,
+    "questionId": 1129,
+    "qid": "1129",
+    "titleEn": "Shortest Path with Alternating Colors",
+    "titleCn": "颜色交替的最短路径",
+    "titleSlug": "shortest-path-with-alternating-colors",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1228,
+    "questionId": 1130,
+    "qid": "1130",
+    "titleEn": "Minimum Cost Tree From Leaf Values",
+    "titleCn": "叶值的最小代价生成树",
+    "titleSlug": "minimum-cost-tree-from-leaf-values",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1230,
+    "questionId": 1131,
+    "qid": "1131",
+    "titleEn": "Maximum of Absolute Value Expression",
+    "titleCn": "绝对值表达式的最大值",
+    "titleSlug": "maximum-of-absolute-value-expression",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1098,
+    "questionId": 1133,
+    "qid": "1133",
+    "titleEn": "Largest Unique Number",
+    "titleCn": "最大唯一数",
+    "titleSlug": "largest-unique-number",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1090,
+    "questionId": 1134,
+    "qid": "1134",
+    "titleEn": "Armstrong Number",
+    "titleCn": "阿姆斯特朗数",
+    "titleSlug": "armstrong-number",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1100,
+    "questionId": 1135,
+    "qid": "1135",
+    "titleEn": "Connecting Cities With Minimum Cost",
+    "titleCn": "最低成本联通所有城市",
+    "titleSlug": "connecting-cities-with-minimum-cost",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1101,
+    "questionId": 1136,
+    "qid": "1136",
+    "titleEn": "Parallel Courses",
+    "titleCn": "平行课程",
+    "titleSlug": "parallel-courses",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": true
+}, {
+    "rawId": 1236,
+    "questionId": 1137,
+    "qid": "1137",
+    "titleEn": "N-th Tribonacci Number",
+    "titleCn": "第 N 个泰波那契数",
+    "titleSlug": "n-th-tribonacci-number",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1238,
+    "questionId": 1138,
+    "qid": "1138",
+    "titleEn": "Alphabet Board Path",
+    "titleCn": "字母板上的路径",
+    "titleSlug": "alphabet-board-path",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1239,
+    "questionId": 1139,
+    "qid": "1139",
+    "titleEn": "Largest 1-Bordered Square",
+    "titleCn": "最大的以 1 为边界的正方形",
+    "titleSlug": "largest-1-bordered-square",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1240,
+    "questionId": 1140,
+    "qid": "1140",
+    "titleEn": "Stone Game II",
+    "titleCn": "石子游戏 II",
+    "titleSlug": "stone-game-ii",
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": false
 }];
