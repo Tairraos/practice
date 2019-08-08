@@ -11323,4 +11323,44 @@ module.exports = [{
     "difficulty": "Medium",
     "level": 2,
     "isPaidOnly": false
+}, {
+    "rawId": 1247,
+    "questionId": 1144,
+    "qid": "1144",
+    "titleEn": "Decrease Elements To Make Array Zigzag",
+    "titleCn": "递减元素使数组呈锯齿状",
+    "titleSlug": "decrease-elements-to-make-array-zigzag",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1248,
+    "questionId": 1145,
+    "qid": "1145",
+    "titleEn": "Binary Tree Coloring Game",
+    "titleCn": "二叉树着色游戏",
+    "titleSlug": "binary-tree-coloring-game",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1249,
+    "questionId": 1146,
+    "qid": "1146",
+    "titleEn": "Snapshot Array",
+    "titleCn": "快照数组",
+    "titleSlug": "snapshot-array",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1251,
+    "questionId": 1147,
+    "qid": "1147",
+    "titleEn": "Longest Chunked Palindrome Decomposition",
+    "titleCn": "段式回文",
+    "titleSlug": "longest-chunked-palindrome-decomposition",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
 }];

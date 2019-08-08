@@ -12,7 +12,7 @@
  */
 
 //::Start refill operateList
-var operateList = ["stone-game-ii","largest-1-bordered-square","alphabet-board-path","n-th-tribonacci-number","maximum-of-absolute-value-expression","shortest-path-with-alternating-colors","minimum-cost-tree-from-leaf-values","number-of-equivalent-domino-pairs"];
+var operateList = ["longest-chunked-palindrome-decomposition","snapshot-array","binary-tree-coloring-game","decrease-elements-to-make-array-zigzag"];
 //::End refill
 
 var dictDiffculty = {
@@ -24,22 +24,28 @@ var dictDiffculty = {
     quesInfo,
     leetCodeData = [],
     translations = {},
-    //需要去网页里更新token
+    //如果代码执行出错，需要去网页里更新token
     csrfToken = "oVVYWtw0qNo1TJPjYXvSlqyyxxx4kQbWrLd2wQHCdLBzOocsMdP6pANcp5NyNV4x";
+
 /**
- * 调用 getQues 把数据保存到 leetCodeData, 然后输出
+ * 输出问题信息，和更新的题目
  */
-function getQuestionData() {
-    operateList.forEach(item => getQues(item));
-    leetCodeData = leetCodeData.sort((a, b) => +a.questionFrontendId - +b.questionFrontendId);
-
-    console.log("let data = " + JSON.stringify(leetCodeData).replace(/(\[|",)"/g, "$1\n\"").replace(/"questionFrontendId"/g, "\"questionId\"") + ";module.exports = data;");
-    console.log("把上面代码拷贝到 data.js:");
-
+function goFetch() {
     getQuesInfo();
-
     console.log("module.exports = " + JSON.stringify(quesInfo) + ";");
     console.log("把上面代码拷贝到 quesionData.js:");
+
+    getQuesData();
+    console.log("let data = " + JSON.stringify(leetCodeData).replace(/(\[|",)"/g, "$1\n\"").replace(/"questionFrontendId"/g, "\"questionId\"") + ";module.exports = data;");
+    console.log("把上面代码拷贝到 data.js:");
+}
+
+/**
+ * 调用 getQues 把数据保存到 leetCodeData
+ */
+function getQuesData() {
+    operateList.forEach(item => getQues(item));
+    leetCodeData = leetCodeData.sort((a, b) => +a.questionFrontendId - +b.questionFrontendId);
 }
 
 /** 
@@ -101,6 +107,9 @@ function getQues(name) {
     });
 }
 
+/**
+ * 取回所有问题信息
+ */
 function getQuesInfo() {
     $.ajax({
         url: "https://leetcode-cn.com/graphql",
@@ -144,4 +153,4 @@ function getQuesInfo() {
     });
 }
 
-getQuestionData();
+goFetch();
