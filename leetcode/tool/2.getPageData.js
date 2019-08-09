@@ -15,29 +15,33 @@
 var operateList = ["longest-chunked-palindrome-decomposition","snapshot-array","binary-tree-coloring-game","decrease-elements-to-make-array-zigzag"];
 //::End refill
 
-var dictDiffculty = {
-        "Easy": "容易",
-        "Medium": "中等",
-        "Hard": "困难"
-    },
-    level = ["", "Easy", "Medium", "Hard"],
-    quesInfo,
-    leetCodeData = [],
-    translations = {},
-    //如果代码执行出错，需要去网页里更新token
-    csrfToken = "oVVYWtw0qNo1TJPjYXvSlqyyxxx4kQbWrLd2wQHCdLBzOocsMdP6pANcp5NyNV4x";
+var dictDiffculty = { "Easy": "容易", "Medium": "中等", "Hard": "困难" }, level = ["", "Easy", "Medium", "Hard"],
+    quesInfo, leetCodeData = [], translations = {},
+    // 如果从cookie里抓token出错，需要去网页里的Network里，找到graphql记录，从RequestHeader里更新x-csrfToken值在这里
+    // csrfToken = "oVVYWtw0qNo1TJPjYXvSlqyyxxx4kQbWrLd2wQHCdLBzOocsMdP6pANcp5NyNV4x";
+    csrfToken = document.cookie.match(/csrftoken=([^;]+)/)[1];
 
 /**
  * 输出问题信息，和更新的题目
  */
 function goFetch() {
+    console.clear();
+
     getQuesInfo();
-    console.log("module.exports = " + JSON.stringify(quesInfo) + ";");
-    console.log("把上面代码拷贝到 quesionData.js:");
+    console.info("module.exports = " + JSON.stringify(quesInfo) + ";");
+    console.info("把上面代码拷贝到 quesionData.js:");
+
+    console.info("");
+    console.info("********************************************************");
+    console.info("*                                                      *");
+    console.info("*                   醒 目 的 分 隔 线                    *");
+    console.info("*                                                      *");
+    console.info("********************************************************");
+    console.info("");
 
     getQuesData();
-    console.log("let data = " + JSON.stringify(leetCodeData).replace(/(\[|",)"/g, "$1\n\"").replace(/"questionFrontendId"/g, "\"questionId\"") + ";module.exports = data;");
-    console.log("把上面代码拷贝到 data.js:");
+    console.info("let data = " + JSON.stringify(leetCodeData).replace(/(\[|",)"/g, "$1\n\"").replace(/"questionFrontendId"/g, "\"questionId\"") + ";module.exports = data;");
+    console.info("把上面代码拷贝到 data.js:");
 }
 
 /**
