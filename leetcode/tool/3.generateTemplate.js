@@ -1,10 +1,9 @@
 /**
  * 1 用 node 执行 "1.getOperateList.js"，抓回缺失的模板slugTitle列表，将会更新 "2.getPageData.js"
- * 2 检查 "2.getPageData.js" 里 28 行的 csrfToken 是否有效
- * 3 把 "2.getPageData.js" 代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑
- * 4 从 console 得到输出后，把它更新到 "data.js" 和 "questionData.js" 里
- * 5 用 node 执行 "3.generateTemplate.js" 生成模板
- * 6 生成完后把 "data.js" 里的数据移动到 oldData.js 里备份。
+ * 2 把 "2.getPageData.js" 代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑
+ * 3 从 console 得到输出后，把它更新到 "data.js" 和 "questionData.js" 里
+ * 4 用 node 执行 "3.generateTemplate.js" 生成模板
+ * 5 生成完后把 "data.js" 里的数据移动到 oldData.js 里备份。
  * 
  * 本工具会生成leetcode答题模板
  * 按题目编号每100题一个目录
