@@ -11,7 +11,7 @@
  */
 
 //::Start refill operateList
-var operateList = ["longest-chunked-palindrome-decomposition","snapshot-array","binary-tree-coloring-game","decrease-elements-to-make-array-zigzag"];
+var operateList = [];
 //::End refill
 
 var dictDiffculty = { "Easy": "容易", "Medium": "中等", "Hard": "困难" }, level = ["", "Easy", "Medium", "Hard"],

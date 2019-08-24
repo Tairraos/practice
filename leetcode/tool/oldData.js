@@ -28779,6 +28779,271 @@ let data = [{
         "js": "/**\n * @param {string} text\n * @return {number}\n */\nvar longestDecomposition = function(text) {\n    \n};",
         "py": "class Solution:\n    def longestDecomposition(self, text: str) -> int:\n        "
     }
+}, {
+    "questionId": "1154",
+    "titleSlug": "ordinal-number-of-date",
+    "translatedTitle": "一年中的第几天",
+    "translatedContent": [
+        "给你一个按 YYYY-MM-DD 格式表示日期的字符串 date，请你计算并返回该日期是当年的第几天。",
+        "",
+        "通常情况下，我们认为 1 月 1 日是每年的第 1 天，1 月 2 日是每年的第 2 天，依此类推。每个月的天数与现行公元纪年法（格里高利历）一致。",
+        "",
+        "示例 1：",
+        "输入：date = \"2019-01-09\"",
+        "输出：9",
+        "",
+        "示例 2：",
+        "输入：date = \"2019-02-10\"",
+        "输出：41",
+        "",
+        "示例 3：",
+        "输入：date = \"2003-03-01\"",
+        "输出：60",
+        "",
+        "示例 4：",
+        "输入：date = \"2004-03-01\"",
+        "输出：61",
+        "",
+        "提示：",
+        "date.length == 10",
+        "date[4] == date[7] == &#39;-&#39;，其他的 date[i] 都是数字。",
+        "date 表示的范围从 1900 年 1 月 1 日至 2019 年 12 月 31 日。"
+    ],
+    "difficulty": "容易",
+    "codeSnippets": {
+        "js": "/**\n * @param {string} date\n * @return {number}\n */\nvar dayOfYear = function(date) {\n    \n};",
+        "py": "class Solution:\n    def dayOfYear(self, date: str) -> int:\n        "
+    }
+}, {
+    "questionId": "1155",
+    "titleSlug": "number-of-dice-rolls-with-target-sum",
+    "translatedTitle": "掷骰子的N种方法",
+    "translatedContent": [
+        "这里有 d 个一样的骰子，每个骰子上都有 f 个面，分别标号为 1, 2, ..., f。",
+        "",
+        "我们约定：掷骰子的得到总点数为各骰子面朝上的数字的总和。",
+        "",
+        "如果需要掷出的总点数为 target，请你计算出有多少种不同的组合情况（所有的组合情况总共有 f^d 种），模 10^9 + 7 后返回。",
+        "",
+        "示例 1：",
+        "输入：d = 1, f = 6, target = 3",
+        "输出：1",
+        "",
+        "示例 2：",
+        "输入：d = 2, f = 6, target = 7",
+        "输出：6",
+        "",
+        "示例 3：",
+        "输入：d = 2, f = 5, target = 10",
+        "输出：1",
+        "",
+        "示例 4：",
+        "输入：d = 1, f = 2, target = 3",
+        "输出：0",
+        "",
+        "示例 5：",
+        "输入：d = 30, f = 30, target = 500",
+        "输出：222616187",
+        "",
+        "提示：",
+        "1 <= d, f <= 30",
+        "1 <= target <= 1000"
+    ],
+    "difficulty": "中等",
+    "codeSnippets": {
+        "js": "/**\n * @param {number} d\n * @param {number} f\n * @param {number} target\n * @return {number}\n */\nvar numRollsToTarget = function(d, f, target) {\n    \n};",
+        "py": "class Solution:\n    def numRollsToTarget(self, d: int, f: int, target: int) -> int:\n        "
+    }
+}, {
+    "questionId": "1156",
+    "titleSlug": "swap-for-maximum-repeated-substring",
+    "translatedTitle": "单字符重复子串的最大长度",
+    "translatedContent": [
+        "如果字符串中的所有字符都相同，那么这个字符串是单字符重复的字符串。",
+        "",
+        "给你一个字符串 text，你只能交换其中两个字符一次或者什么都不做，然后得到一些单字符重复的子串。返回其中最长的子串的长度。",
+        "",
+        "示例 1：",
+        "输入：text = \"ababa\"",
+        "输出：3",
+        "",
+        "示例 2：",
+        "输入：text = \"aaabaaa\"",
+        "输出：6",
+        "",
+        "示例 3：",
+        "输入：text = \"aaabbaaa\"",
+        "输出：4",
+        "",
+        "示例 4：",
+        "输入：text = \"aaaaa\"",
+        "输出：5",
+        "",
+        "示例 5：",
+        "输入：text = \"abcdef\"",
+        "输出：1",
+        "",
+        "提示：",
+        "1 <= text.length <= 20000",
+        "text 仅由小写英文字母组成。"
+    ],
+    "difficulty": "中等",
+    "codeSnippets": {
+        "js": "/**\n * @param {string} text\n * @return {number}\n */\nvar maxRepOpt1 = function(text) {\n    \n};",
+        "py": "class Solution:\n    def maxRepOpt1(self, text: str) -> int:\n        "
+    }
+}, {
+    "questionId": "1157",
+    "titleSlug": "online-majority-element-in-subarray",
+    "translatedTitle": "子数组中占绝大多数的元素",
+    "translatedContent": [
+        "实现一个 MajorityChecker 的类，它应该具有下述几个 API：",
+        "",
+        "MajorityChecker(int[] arr) 会用给定的数组 arr 来构造一个 MajorityChecker 的实例。",
+        "int query(int left, int right, int threshold) 有这么几个参数：",
+        "",
+        "0 <= left <= right < arr.length 表示数组 arr 的子数组的长度。",
+        "2 * threshold > right - left + 1，也就是说阈值 threshold 始终比子序列长度的一半还要大。",
+        "",
+        "每次查询 query(...) 会返回在 arr[left], arr[left+1], ..., arr[right] 中至少出现阈值次数 threshold 的元素，如果不存在这样的元素，就返回 -1。",
+        "",
+        "示例：",
+        "MajorityChecker majorityChecker = new MajorityChecker([1,1,2,2,1,1]);",
+        "majorityChecker.query(0,5,4); // 返回 1",
+        "majorityChecker.query(0,3,3); // 返回 -1",
+        "majorityChecker.query(2,3,2); // 返回 2",
+        "",
+        "提示：",
+        "1 <= arr.length <= 20000",
+        "1 <= arr[i] <= 20000",
+        "对于每次查询，0 <= left <= right < len(arr)",
+        "对于每次查询，2 * threshold > right - left + 1",
+        "查询次数最多为 10000"
+    ],
+    "difficulty": "困难",
+    "codeSnippets": {
+        "js": "/**\n * @param {number[]} arr\n */\nvar MajorityChecker = function(arr) {\n    \n};\n\n/** \n * @param {number} left \n * @param {number} right \n * @param {number} threshold\n * @return {number}\n */\nMajorityChecker.prototype.query = function(left, right, threshold) {\n    \n};\n\n/** \n * Your MajorityChecker object will be instantiated and called as such:\n * var obj = new MajorityChecker(arr)\n * var param_1 = obj.query(left,right,threshold)\n */",
+        "py": "class MajorityChecker:\n\n    def __init__(self, arr: List[int]):\n        \n\n    def query(self, left: int, right: int, threshold: int) -> int:\n        \n\n\n# Your MajorityChecker object will be instantiated and called as such:\n# obj = MajorityChecker(arr)\n# param_1 = obj.query(left,right,threshold)"
+    }
+}, {
+    "questionId": "1160",
+    "titleSlug": "find-words-that-can-be-formed-by-characters",
+    "translatedTitle": "拼写单词",
+    "translatedContent": [
+        "给你一份『词汇表』（字符串数组） words 和一张『字母表』（字符串） chars。",
+        "",
+        "假如你可以用 chars 中的『字母』（字符）拼写出 words 中的某个『单词』（字符串），那么我们就认为你掌握了这个单词。",
+        "",
+        "注意：每次拼写时，chars 中的每个字母都只能用一次。",
+        "",
+        "返回词汇表 words 中你掌握的所有单词的 长度之和。",
+        "",
+        "示例 1：",
+        "输入：words = [\"cat\",\"bt\",\"hat\",\"tree\"], chars = \"atach\"",
+        "输出：6",
+        "解释： ",
+        "可以形成字符串 \"cat\" 和 \"hat\"，所以答案是 3 + 3 = 6。",
+        "",
+        "示例 2：",
+        "输入：words = [\"hello\",\"world\",\"leetcode\"], chars = \"welldonehoneyr\"",
+        "输出：10",
+        "解释：",
+        "可以形成字符串 \"hello\" 和 \"world\"，所以答案是 5 + 5 = 10。",
+        "",
+        "提示：",
+        "1 <= words.length <= 1000",
+        "1 <= words[i].length, chars.length <= 100",
+        "所有字符串中都仅包含小写英文字母"
+    ],
+    "difficulty": "容易",
+    "codeSnippets": {
+        "js": "/**\r\n * @param {string[]} words\r\n * @param {string} chars\r\n * @return {number}\r\n */\r\nvar countCharacters = function(words, chars) {\r\n    \r\n};",
+        "py": "class Solution:\r\n    def countCharacters(self, words: List[str], chars: str) -> int:"
+    }
+}, {
+    "questionId": "1161",
+    "titleSlug": "maximum-level-sum-of-a-binary-tree",
+    "translatedTitle": "最大层内元素和",
+    "translatedContent": [
+        "给你一个二叉树的根节点 root。设根节点位于二叉树的第 1 层，而根节点的子节点位于第 2 层，依此类推。",
+        "",
+        "请你找出层内元素之和 最大 的那几层（可能只有一层）的层号，并返回其中 最小 的那个。",
+        "",
+        "示例：",
+        "输入：[1,7,0,7,-8,null,null]",
+        "输出：2",
+        "解释：",
+        "第 1 层各元素之和为 1，",
+        "第 2 层各元素之和为 7 + 0 = 7，",
+        "第 3 层各元素之和为 7 + -8 = -1，",
+        "所以我们返回第 2 层的层号，它的层内元素之和最大。",
+        "",
+        "提示：",
+        "树中的节点数介于 1 和 10^4 之间",
+        "-10^5 <= node.val <= 10^5"
+    ],
+    "difficulty": "中等",
+    "codeSnippets": {
+        "js": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @return {number}\n */\nvar maxLevelSum = function(root) {\n    \n};",
+        "py": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def maxLevelSum(self, root: TreeNode) -> int:\n        "
+    }
+}, {
+    "questionId": "1162",
+    "titleSlug": "as-far-from-land-as-possible",
+    "translatedTitle": "地图分析",
+    "translatedContent": [
+        "你现在手里有一份大小为 N x N 的『地图』（网格） grid，上面的每个『区域』（单元格）都用 0 和 1 标记好了。其中 0 代表海洋，1 代表陆地，你知道距离陆地区域最远的海洋区域是是哪一个吗？请返回该海洋区域到离它最近的陆地区域的距离。",
+        "",
+        "我们这里说的距离是『曼哈顿距离』（ Manhattan Distance）：(x0, y0) 和 (x1, y1) 这两个区域之间的距离是 |x0 - x1| + |y0 - y1| 。",
+        "",
+        "如果我们的地图上只有陆地或者海洋，请返回 -1。",
+        "",
+        "示例 1：",
+        "输入：[[1,0,1],[0,0,0],[1,0,1]]",
+        "输出：2",
+        "解释： ",
+        "海洋区域 (1, 1) 和所有陆地区域之间的距离都达到最大，最大距离为 2。",
+        "",
+        "示例 2：",
+        "输入：[[1,0,0],[0,0,0],[0,0,0]]",
+        "输出：4",
+        "解释： ",
+        "海洋区域 (2, 2) 和所有陆地区域之间的距离都达到最大，最大距离为 4。",
+        "",
+        "提示：",
+        "1 <= grid.length == grid[0].length <= 100",
+        "grid[i][j] 不是 0 就是 1"
+    ],
+    "difficulty": "中等",
+    "codeSnippets": {
+        "js": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar maxDistance = function(grid) {\n    \n};",
+        "py": "class Solution:\n    def maxDistance(self, grid: List[List[int]]) -> int:\n        "
+    }
+}, {
+    "questionId": "1163",
+    "titleSlug": "last-substring-in-lexicographical-order",
+    "translatedTitle": "按字典序排在最后的子串",
+    "translatedContent": [
+        "给你一个字符串 s，找出它的所有子串并按字典序排列，返回排在最后的那个子串。",
+        "",
+        "示例 1：",
+        "输入：\"abab\"",
+        "输出：\"bab\"",
+        "解释：我们可以找出 7 个子串 [\"a\", \"ab\", \"aba\", \"abab\", \"b\", \"ba\", \"bab\"]。按字典序排在最后的子串是 \"bab\"。",
+        "",
+        "示例 2：",
+        "输入：\"leetcode\"",
+        "输出：\"tcode\"",
+        "",
+        "提示：",
+        "1 <= s.length <= 10^5",
+        "s 仅含有小写英文字符。"
+    ],
+    "difficulty": "困难",
+    "codeSnippets": {
+        "js": "/**\n * @param {string} s\n * @return {string}\n */\nvar lastSubstring = function(s) {\n    \n};",
+        "py": "class Solution:\n    def lastSubstring(self, s: str) -> str:\n        "
+    }
 }];
 
 module.exports = data;
