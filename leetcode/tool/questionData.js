@@ -3915,8 +3915,8 @@ module.exports = [{
     "titleEn": "Is Subsequence",
     "titleCn": "判断子序列",
     "titleSlug": "is-subsequence",
-    "difficulty": "Medium",
-    "level": 2,
+    "difficulty": "Easy",
+    "level": 1,
     "isPaidOnly": false
 }, {
     "rawId": 393,
@@ -5103,6 +5103,7 @@ module.exports = [{
     "questionId": 511,
     "qid": "0511",
     "titleEn": "Game Play Analysis I",
+    "titleCn": "游戏玩法分析 I",
     "titleSlug": "game-play-analysis-i",
     "difficulty": "Easy",
     "level": 1,
@@ -10669,6 +10670,7 @@ module.exports = [{
     "questionId": 1068,
     "qid": "1068",
     "titleEn": "Product Sales Analysis I",
+    "titleCn": "产品销售分析 I",
     "titleSlug": "product-sales-analysis-i",
     "difficulty": "Easy",
     "level": 1,
@@ -11484,6 +11486,126 @@ module.exports = [{
     "titleEn": "Last Substring in Lexicographical Order",
     "titleCn": "按字典序排在最后的子串",
     "titleSlug": "last-substring-in-lexicographical-order",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1123,
+    "questionId": 1165,
+    "qid": "1165",
+    "titleEn": "Single-Row Keyboard",
+    "titleCn": "单行键盘",
+    "titleSlug": "single-row-keyboard",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1125,
+    "questionId": 1166,
+    "qid": "1166",
+    "titleEn": "Design File System",
+    "titleCn": "设计文件系统",
+    "titleSlug": "design-file-system",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1126,
+    "questionId": 1167,
+    "qid": "1167",
+    "titleEn": "Minimum Cost to Connect Sticks",
+    "titleCn": "连接棒材的最低费用",
+    "titleSlug": "minimum-cost-to-connect-sticks",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1144,
+    "questionId": 1168,
+    "qid": "1168",
+    "titleEn": "Optimize Water Distribution in a Village",
+    "titleCn": "水资源分配优化",
+    "titleSlug": "optimize-water-distribution-in-a-village",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": true
+}, {
+    "rawId": 1272,
+    "questionId": 1169,
+    "qid": "1169",
+    "titleEn": "Invalid Transactions",
+    "titleCn": "查询无效交易",
+    "titleSlug": "invalid-transactions",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1273,
+    "questionId": 1170,
+    "qid": "1170",
+    "titleEn": "Compare Strings by Frequency of the Smallest Character",
+    "titleCn": "比较字符串最小字母出现频次",
+    "titleSlug": "compare-strings-by-frequency-of-the-smallest-character",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1267,
+    "questionId": 1171,
+    "qid": "1171",
+    "titleEn": "Remove Zero Sum Consecutive Nodes from Linked List",
+    "titleCn": "从链表中删去总和值为零的连续节点",
+    "titleSlug": "remove-zero-sum-consecutive-nodes-from-linked-list",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1270,
+    "questionId": 1172,
+    "qid": "1172",
+    "titleEn": "Dinner Plate Stacks",
+    "titleCn": "餐盘栈",
+    "titleSlug": "dinner-plate-stacks",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1279,
+    "questionId": 1175,
+    "qid": "1175",
+    "titleEn": "Prime Arrangements",
+    "titleCn": "质数排列",
+    "titleSlug": "prime-arrangements",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1280,
+    "questionId": 1176,
+    "qid": "1176",
+    "titleEn": "Diet Plan Performance",
+    "titleCn": "健身计划评估",
+    "titleSlug": "diet-plan-performance",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1281,
+    "questionId": 1177,
+    "qid": "1177",
+    "titleEn": "Can Make Palindrome from Substring",
+    "titleCn": "构建回文串检测",
+    "titleSlug": "can-make-palindrome-from-substring",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1282,
+    "questionId": 1178,
+    "qid": "1178",
+    "titleEn": "Number of Valid Words for Each Puzzle",
+    "titleCn": "猜字谜",
+    "titleSlug": "number-of-valid-words-for-each-puzzle",
     "difficulty": "Hard",
     "level": 3,
     "isPaidOnly": false
