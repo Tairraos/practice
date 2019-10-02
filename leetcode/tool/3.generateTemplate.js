@@ -14,7 +14,8 @@ let x = require("xtool.js"),
     data = require("./data");
 
 data.forEach(item => {
-    var id = +item.questionId,
+    let numMod = !!item.questionId.match(/^\d+$/),
+        id = numMod ? +item.questionId : item.questionId,
         fid = item.questionId,
         jscode = item.codeSnippets.js,
         pycode = item.codeSnippets.py,
@@ -25,7 +26,7 @@ data.forEach(item => {
         pyname = fid + "." + item.titleSlug + ".py",
         url = "https://leetcode-cn.com/problems/" + item.titleSlug + "/",
         ord = id - 1,
-        dir = (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)),
+        dir = numMod ? (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)) : fid.replace(/ .*$/, ""),
         jsout = [],
         pyout = [];
 

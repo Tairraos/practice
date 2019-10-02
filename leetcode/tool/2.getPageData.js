@@ -90,7 +90,9 @@ function getQues(name) {
             var question = data.data.question,
                 codejs = "N/A",
                 codepy = "N/A";
-            question.questionFrontendId = ("000" + question.questionFrontendId).slice(-4);
+            if (question.questionFrontendId.match(/^\d+$/)){
+                question.questionFrontendId = ("000" + question.questionFrontendId).slice(-4);
+            }
             //抓回来所有语言的题目，只保留JS和PY的，如果有PY3就保留PY3
             if (question.codeSnippets) {
                 question.codeSnippets.forEach(i => {
