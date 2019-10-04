@@ -39,8 +39,8 @@ if (args[1] === "readme") {
             doneJs: doneListJS.length,
             donePy: doneListPY.length
         };
-console.log(doneListJS,doneListPY);
-process.exit();
+    console.log(doneListJS);
+    console.log(doneListPY);
     questionData.forEach(item => quesDict[item.questionId.length < 4 ? ("0000" + item.questionId).slice(-4) : item.questionId] = Object.assign(item, {
         codeSnippets: {}
     }));
