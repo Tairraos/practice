@@ -2,7 +2,8 @@ let x = require("xtool.js"),
     args = x.getArgs(),
     fs = require("fs"),
     path = require("path"),
-    questionData = require("./questionData");
+    questionData = require("./questionData"),
+    oldData = require("./oldData");
 
 if (args[1] !== "readme" && (!+args[2] || !["coding", "done"].includes(args[1]))) {
     console.log("\033[32m用法：");
@@ -24,35 +25,48 @@ if (args[1] === "readme") {
         },
         doneListJS = x.readDir(path.resolve(__dirname, "..", "done"), findJSPatten).sort(),
         doneListPY = x.readDir(path.resolve(__dirname, "..", "done"), findPYPatten).sort(),
-        titleDict = {},
+        quesDict = {},
         readme = [],
         list = [],
-        paid = questionData.filter(item => item.isPaidOnly);
+        paid = questionData.filter(item => item.isPaidOnly),
+        jsQues = oldData.filter(item => item.codeSnippets.js !== "N/A"),
+        pyQues = oldData.filter(item => item.codeSnippets.py !== "N/A"),
+        quesNum = {
+            total: questionData.length,
+            paid: paid.length,
+            js: jsQues.length,
+            py: pyQues.length,
+            doneJs: doneListJS.length,
+            donePy: doneListPY.length
+        };
 
-    questionData.forEach(item => titleDict[item.questionId] = item);
+    questionData.forEach(item => quesDict[item.questionId.length < 4 ? ("0000" + item.questionId).slice(-4) : item.questionId] = Object.assign(item, {
+        codeSnippets: {}
+    }));
+    oldData.forEach(item => quesDict[item.questionId].codeSnippets = item.codeSnippets);
 
     readme.push("### Leetcode Javascript 已完成题目列表");
-    readme.push(`完成度：${doneListJS.length}/${questionData.length - paid.length} (有${paid.length}题付费题未计算在总数内, 附[所有题目清单](LIST.md))`);
+    readme.push(`完成度：${quesNum.doneJs}/${quesNum.js} (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))`);
     doneListJS.forEach(
         item => {
-            let qid = item.replace(/.*(\d\d\d\d)\.[\w-]+\.js/, "$1"),
-                title = `${qid} - ${titleDict[+qid].titleCn}`,
+            let qid = item.replace(/.*\/([^\.]+)\.[\w-]+\.js/, "$1"),
+                title = `${qid} - ${quesDict[qid].titleCn}`,
                 url = `done/${item}`,
-                remote = `https://leetcode-cn.com/problems/${titleDict[+qid].titleSlug}/`,
-                difficulty = difficultyDict[titleDict[+qid].level];
+                remote = `https://leetcode-cn.com/problems/${quesDict[qid].titleSlug}/`,
+                difficulty = difficultyDict[quesDict[qid].level];
             readme.push(`- [${title}](${url}) 难度：${difficulty} [源](${remote})`);
         }
     );
     readme.push("");
     readme.push("### Leetcode Python 已完成题目列表");
-    readme.push(`完成度：${doneListPY.length}/${questionData.length - paid.length} (有${paid.length}题付费题未计算在总数内, 附[所有题目清单](LIST.md))`);
+    readme.push(`完成度：${quesNum.donePy}/${quesNum.py} (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))`);
     doneListPY.forEach(
         item => {
-            let qid = item.replace(/.*(\d\d\d\d)\.[\w-]+\.py/, "$1"),
-                title = `${qid} - ${titleDict[+qid].titleCn}`,
+            let qid = item.replace(/.*\/([^\.]+)\.[\w-]+\.py/, "$1"),
+                title = `${qid} - ${quesDict[qid].titleCn}`,
                 url = `done/${item}`,
-                remote = `https://leetcode-cn.com/problems/${titleDict[+qid].titleSlug}/`,
-                difficulty = difficultyDict[titleDict[+qid].level];
+                remote = `https://leetcode-cn.com/problems/${quesDict[qid].titleSlug}/`,
+                difficulty = difficultyDict[quesDict[qid].level];
             readme.push(`- [${title}](${url}) 难度：${difficulty} [源](${remote})`);
         }
     );
@@ -60,17 +74,21 @@ if (args[1] === "readme") {
     x.saveFile(path.resolve(__dirname, "..", "README.md"), readme.join("\n"));
 
     list.push("### Leetcode 题目清单");
-    list.push(`总题数：${questionData.length} / 未付费题：${questionData.length - paid.length} / 付费题：${paid.length}`);
+    list.push(`总题数：${quesNum.total} / 免费题：${quesNum.total - quesNum.paid}（其中JS题 ${quesNum.js} 题，PY题 ${quesNum.py} 题） / 付费题：${paid.length}`);
     questionData.forEach(
         item => {
-            let remote = `https://leetcode-cn.com/problems/${item.titleSlug}/`,
-                difficulty = difficultyDict[item.level];
-            list.push(`- [${item.questionId} - ${item.titleCn || item.titleEn}](${remote}) 难度：${difficulty}${item.isPaidOnly?" / 付费题":""}`);
+            let qid = item.questionId.length < 4 ? ("0000" + item.questionId).slice(-4) : item.questionId,
+                remote = `https://leetcode-cn.com/problems/${item.titleSlug}/`,
+                difficulty = difficultyDict[item.level],
+                paidStr = item.isPaidOnly ? " / 付费题" : "",
+                jsDtr = quesDict[qid].codeSnippets.js !== "N/A" ? " / JS题" : "",
+                pyStr = quesDict[qid].codeSnippets.py !== "N/A" ? " / PY题" : "";
+            list.push(`- [${item.questionId} - ${item.titleCn || item.titleEn}](${remote}) 难度：${difficulty}${paidStr}${jsDtr}${pyStr}`);
         }
     );
     x.saveFile(path.resolve(__dirname, "..", "LIST.md"), list.join("\n"));
 
-    console.log(`已经生成新的Readme, 总题数: ${questionData.length - paid.length}, 已答: ${doneListJS.length}`);
+    console.log(`已经生成新的Readme, JS完成度：${quesNum.doneJs}/${quesNum.js}，PY完成度：${quesNum.donePy}/${quesNum.py}`);
     process.exit();
 }
 

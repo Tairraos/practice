@@ -29,17 +29,15 @@ data.forEach(item => {
         dir = numMod ? (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)) : fid.replace(/ .*$/, ""),
         jsout = [],
         pyout = [];
-
-    jsout.push("/**");
-    jsout.push(" * " + url);
-    jsout.push(" * " + title);
-    jsout.push(" * 难度：" + dif);
-    jsout.push(" * ");
-    jsout.push(desc.map(line => " * " + line).join("\n"));
-    jsout.push(" */");
-
     if (jscode !== "N/A") {
         var jsFuncName = jscode.match(/var (\w*) = function/)[1];
+        jsout.push("/**");
+        jsout.push(" * " + url);
+        jsout.push(" * " + title);
+        jsout.push(" * 难度：" + dif);
+        jsout.push(" * ");
+        jsout.push(desc.map(line => " * " + line).join("\n"));
+        jsout.push(" */");
         jsout.push("");
         jsout.push(jscode);
         jsout.push("");
@@ -53,16 +51,18 @@ data.forEach(item => {
         jsout.push("console.log(\"Good job! We have passed all test case.\");");
         jsout.push("console.timeEnd(\"Time cost\");");
         jsout.push("");
+        x.saveFile("./leetcode/template/" + dir + "/" + jsname, jsout.join("\n"));
+        console.log("\033[32m", jsname, "\033[0m已经生成。");
     }
-
-    pyout.push("# " + url);
-    pyout.push("# " + title);
-    pyout.push("# 难度：" + dif);
-    pyout.push("# ");
-    pyout.push(desc.map(line => "# " + line).join("\n"));
+    
     if (pycode !== "N/A") {
-
         var pyFuncName = pycode.match(/\n +def (\w*)\(self/)[1];
+
+        pyout.push("# " + url);
+        pyout.push("# " + title);
+        pyout.push("# 难度：" + dif);
+        pyout.push("# ");
+        pyout.push(desc.map(line => "# " + line).join("\n"));
         pyout.push("");
         pyout.push(pycode + "\"put solution here\"");
         pyout.push("");
@@ -79,9 +79,7 @@ data.forEach(item => {
         pyout.push("    print('Good job! We have passed all test case.')");
         pyout.push("    print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')");
         pyout.push("");
+        x.saveFile("./leetcode/template/" + dir + "/" + pyname, pyout.join("\n"));
+        console.log("\033[32m", pyname, "\033[0m已经生成。");
     }
-    x.saveFile("./leetcode/template/" + dir + "/" + jsname, jsout.join("\n"));
-    console.log("\033[32m", jsname, "\033[0m已经生成。");
-    x.saveFile("./leetcode/template/" + dir + "/" + pyname, pyout.join("\n"));
-    console.log("\033[32m", pyname, "\033[0m已经生成。");
 });
