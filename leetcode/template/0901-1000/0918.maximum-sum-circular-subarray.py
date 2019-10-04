@@ -35,6 +35,10 @@
 #   - -30000 <= A[i] <= 30000
 #   - 1 <= A.length <= 30000
 
+
+from typing import *
+
+
 class Solution:
     def maxSubarraySumCircular(self, A: List[int]) -> int:
         "put solution here"

@@ -21,6 +21,7 @@
 #   - -100.0 < x < 100.0
 #   - n 是 32 位有符号整数，其数值范围是 [-2^31, 2^31 - 1] 。
 
+
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         "put solution here"

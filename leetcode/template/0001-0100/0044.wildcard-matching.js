@@ -53,50 +53,16 @@
  * @param {string} p
  * @return {boolean}
  */
-var isMatch = function (s, p) {
-    //特例，如果 s === p 返回 true，包括了输入一对空
-    if (p === s) return true;
-    //正则去除重复的*，拆成三种情形，[单个字符]，[*], [.]
-    p = p.replace(/\*\*/g, "*").split("");
-    s = s.split("");
-    while (r = p.shift()) {
-        if (r === ".") {
-            if (s.shift() === undefined) {
-                return false;
-            }
-        } else if (r === "*") {
-            if ((r = p.shift()) === undefined) {
-                return true;
-            } else {
-
-            }
-        } else {
-            if (r !== s.shift()) {
-                return false;
-            }
-        }
-    }
+var isMatch = function(s, p) {
+    
 };
 
 // Local test
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(isMatch("a", "."), true);
-assert.deepEqual(isMatch("aa", "a"), false);
-assert.deepEqual(isMatch("ab", "*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*bb"), false);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*c.dddd"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*c.dddd*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*c.dddd*."), false);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*cccc*.dddd"), false);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*cccc*....."), false);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa...bb*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*dd*"), true);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*dd.dd*"), false);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*dd.*dd*"), false);
-assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa*dd*.dd*"), false);
+assert.deepEqual(isMatch("param"), "expect", "Case 1");
+assert.deepEqual(isMatch("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -19,6 +19,10 @@
 #   - n 将在 [1, 10000]之间。
 #   - nums 的每个元素都将在 [-9999, 9999]之间。
 
+
+from typing import *
+
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         "put solution here"

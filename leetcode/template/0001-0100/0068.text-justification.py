@@ -52,6 +52,10 @@
 #   "do                  "
 # ]
 
+
+from typing import *
+
+
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         "put solution here"

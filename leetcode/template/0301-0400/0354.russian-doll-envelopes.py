@@ -13,6 +13,10 @@
 # 输出: 3
 # 解释: 最多信封的个数为 3, 组合为: [2,3] => [5,4] => [6,7]。
 
+
+from typing import *
+
+
 class Solution:
     def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
         "put solution here"

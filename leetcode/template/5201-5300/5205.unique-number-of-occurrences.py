@@ -23,6 +23,10 @@
 # 1 <= arr.length <= 1000
 # -1000 <= arr[i] <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         "put solution here"

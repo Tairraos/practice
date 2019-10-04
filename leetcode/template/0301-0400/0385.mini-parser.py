@@ -25,6 +25,7 @@
 #   ii. 一个包含一个元素的嵌套列表
 #      a. 一个 integer 包含值 789
 
+
 # """
 # This is the interface that allows for creating nested lists.
 # You should not implement it, or speculate about its implementation

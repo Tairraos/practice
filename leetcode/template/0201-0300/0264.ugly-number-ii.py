@@ -14,6 +14,7 @@
 #   - 1 是丑数。
 #   - n 不超过1690。
 
+
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         "put solution here"

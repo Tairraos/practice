@@ -21,6 +21,7 @@
 # 提示：
 # 1 <= N <= 10^9
 
+
 class Solution:
     def numDupDigitsAtMostN(self, N: int) -> int:
         "put solution here"

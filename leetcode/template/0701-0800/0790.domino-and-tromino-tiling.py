@@ -20,6 +20,7 @@
 # 提示：
 #   - N  的范围是 [1, 1000]
 
+
 class Solution:
     def numTilings(self, N: int) -> int:
         "put solution here"

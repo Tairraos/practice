@@ -24,6 +24,7 @@
 #   - K 的取值范围为 [0, 100]
 #   - 开始时，“马” 总是位于棋盘上
 
+
 class Solution:
     def knightProbability(self, N: int, K: int, r: int, c: int) -> float:
         "put solution here"

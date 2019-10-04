@@ -29,18 +29,23 @@
 # 输入语法的说明：
 # 输入是两个列表：调用的子例程及其参数。Solution 的构造函数有一个参数，即矩形数组 rects。pick 没有参数。参数总是用列表包装的，即使没有也是如此。
 
+
+from typing import *
+
+
 class Solution:
 
     def __init__(self, rects: List[List[int]]):
-        "put solution here"
+        
 
     def pick(self) -> List[int]:
-        "put solution here"
+        
 
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(rects)
 # param_1 = obj.pick()
+        "put solution here"
 
 
 # Local test
@@ -49,8 +54,8 @@ if __name__ == '__main__':
     launch_start = time.time()
     unit = Solution()
 
-    assert unit.pick('param') == 'expect', 'Case 1'
-    assert unit.pick('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

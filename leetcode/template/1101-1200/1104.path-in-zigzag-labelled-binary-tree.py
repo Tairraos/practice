@@ -21,6 +21,10 @@
 # 提示：
 # 1 <= label <= 10^6
 
+
+from typing import *
+
+
 class Solution:
     def pathInZigZagTree(self, label: int) -> List[int]:
         "put solution here"

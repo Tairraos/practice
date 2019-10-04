@@ -8,6 +8,16 @@
 # 输入：1->2->4, 1->3->4
 # 输出：1->1->2->3->4->4
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

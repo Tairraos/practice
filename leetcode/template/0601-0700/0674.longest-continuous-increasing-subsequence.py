@@ -17,6 +17,10 @@
 # 
 # 注意：数组长度不会超过10000。
 
+
+from typing import *
+
+
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
         "put solution here"

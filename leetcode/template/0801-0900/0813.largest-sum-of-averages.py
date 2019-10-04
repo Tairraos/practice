@@ -21,6 +21,10 @@
 #   - 1 <= K <= A.length.
 #   - 答案误差在 10^-6 内被视为是正确的。
 
+
+from typing import *
+
+
 class Solution:
     def largestSumOfAverages(self, A: List[int], K: int) -> float:
         "put solution here"

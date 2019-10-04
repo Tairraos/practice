@@ -29,6 +29,7 @@
 # 或
 # 7 -> 6 -> 3 -> 2 -> 1
 
+
 class Solution:
     def integerReplacement(self, n: int) -> int:
         "put solution here"

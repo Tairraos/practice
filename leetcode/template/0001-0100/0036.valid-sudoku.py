@@ -49,6 +49,10 @@
 #   - 给定数独序列只包含数字 1-9 和字符 '.' 。
 #   - 给定数独永远是 9x9 形式的。
 
+
+from typing import *
+
+
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         "put solution here"

@@ -58,6 +58,7 @@
 #   - 如果你想了解更多关于四叉树的知识，你可以参考这个 [wiki](https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%89%E6%A0%91) 页面。
 #   - 逻辑或的定义如下：如果 A 为 True ，或者 B 为 True ，或者 A 和 B 都为 True，则 "A 或 B" 为 True。
 
+
 """
 # Definition for a QuadTree node.
 class Node:

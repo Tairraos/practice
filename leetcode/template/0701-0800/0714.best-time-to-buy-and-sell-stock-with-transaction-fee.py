@@ -21,6 +21,10 @@
 #   - 0 < prices[i] < 50000.
 #   - 0 <= fee < 50000.
 
+
+from typing import *
+
+
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
         "put solution here"

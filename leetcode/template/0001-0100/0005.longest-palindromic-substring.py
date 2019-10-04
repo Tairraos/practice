@@ -14,6 +14,7 @@
 # 输入: "cbbd"
 # 输出: "bb"
 
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         "put solution here"

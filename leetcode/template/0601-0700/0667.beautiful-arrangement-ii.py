@@ -19,6 +19,10 @@
 # 提示：
 #   -  n 和 k 满足条件 1 <= k < n <= 10^4.
 
+
+from typing import *
+
+
 class Solution:
     def constructArray(self, n: int, k: int) -> List[int]:
         "put solution here"

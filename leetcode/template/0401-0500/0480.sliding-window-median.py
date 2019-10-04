@@ -24,6 +24,10 @@
 # 提示：
 # 假设k是合法的，即：k 始终小于输入的非空数组的元素个数.
 
+
+from typing import *
+
+
 class Solution:
     def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:
         "put solution here"

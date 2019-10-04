@@ -26,6 +26,10 @@
 #   - 不存在没有连字符或者带有连字符的单词。
 #   - 单词里只包含字母，不会出现省略号或者其他标点符号。
 
+
+from typing import *
+
+
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         "put solution here"

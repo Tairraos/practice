@@ -30,6 +30,10 @@
 # L + M <= A.length <= 1000
 # 0 <= A[i] <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def maxSumTwoNoOverlap(self, A: List[int], L: int, M: int) -> int:
         "put solution here"

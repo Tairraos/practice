@@ -39,6 +39,7 @@
 # 要求时间复杂度为 O(n) ，其中 n 是输入字符串的大小。
 # 请注意，如果存在路径 aaaaaaaaaaaaaaaaaaaaa/sth.png 的话，那么  a/aa/aaa/file1.txt 就不是一个最长的路径。
 
+
 class Solution:
     def lengthLongestPath(self, input: str) -> int:
         "put solution here"

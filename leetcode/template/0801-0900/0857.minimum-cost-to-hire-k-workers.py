@@ -25,6 +25,10 @@
 #   - 1 <= wage[i] <= 10000
 #   - 与正确答案误差在 10^-5 之内的答案将被视为正确的。
 
+
+from typing import *
+
+
 class Solution:
     def mincostToHireWorkers(self, quality: List[int], wage: List[int], K: int) -> float:
         "put solution here"

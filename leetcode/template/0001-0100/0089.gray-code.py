@@ -30,6 +30,10 @@
 #      给定编码总位数为 n 的格雷编码序列，其长度为 2^n。当 n = 0 时，长度为 2^0 = 1。
 #      因此，当 n = 0 时，其格雷编码序列为 [0]。
 
+
+from typing import *
+
+
 class Solution:
     def grayCode(self, n: int) -> List[int]:
         "put solution here"

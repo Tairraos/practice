@@ -18,6 +18,7 @@
 # 
 # 说明: 你可以假设秘密数字和朋友的猜测数都只包含数字，并且它们的长度永远相等。
 
+
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         "put solution here"

@@ -32,6 +32,7 @@
 # // 由于 2 是集合中唯一的数字，getRandom 总是返回 2 。
 # randomSet.getRandom();
 
+
 class RandomizedSet:
 
     def __init__(self):
@@ -64,16 +65,17 @@ class RandomizedSet:
 # param_1 = obj.insert(val)
 # param_2 = obj.remove(val)
 # param_3 = obj.getRandom()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = RandomizedSet()
+    unit = Solution()
 
-    assert unit.insert('param') == 'expect', 'Case 1'
-    assert unit.insert('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

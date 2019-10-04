@@ -22,6 +22,10 @@
 # 
 # 提示：盒子的总数 n 不会超过 100。
 
+
+from typing import *
+
+
 class Solution:
     def removeBoxes(self, boxes: List[int]) -> int:
         "put solution here"

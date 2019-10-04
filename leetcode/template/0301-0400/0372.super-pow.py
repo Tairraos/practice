@@ -12,6 +12,10 @@
 # 输入: a = 2, b = [1,0]
 # 输出: 1024
 
+
+from typing import *
+
+
 class Solution:
     def superPow(self, a: int, b: List[int]) -> int:
         "put solution here"

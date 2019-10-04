@@ -13,6 +13,7 @@
 # 输入: a = "1010", b = "1011"
 # 输出: "10101"
 
+
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         "put solution here"

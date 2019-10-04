@@ -18,6 +18,10 @@
 # 1 <= barcodes.length <= 10000
 # 1 <= barcodes[i] <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def rearrangeBarcodes(self, barcodes: List[int]) -> List[int]:
         "put solution here"

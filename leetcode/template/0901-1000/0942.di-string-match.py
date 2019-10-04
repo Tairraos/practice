@@ -23,6 +23,10 @@
 #   - 1 <= S.length <= 1000
 #   - S 只包含字符 "I" 或 "D"。
 
+
+from typing import *
+
+
 class Solution:
     def diStringMatch(self, S: str) -> List[int]:
         "put solution here"

@@ -13,6 +13,10 @@
 # [ 7, 6, 5 ]
 # ]
 
+
+from typing import *
+
+
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         "put solution here"

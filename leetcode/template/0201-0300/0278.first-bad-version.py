@@ -15,6 +15,7 @@
 # 
 # 所以，4 是第一个错误的版本。
 
+
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool

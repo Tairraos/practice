@@ -34,6 +34,10 @@
 #   - 给定矩阵的宽和高范围在 [1, 100]。
 #   - 给定的 r 和 c 都是正数。
 
+
+from typing import *
+
+
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         "put solution here"

@@ -19,6 +19,10 @@
 #   - -10^5 <= 元素的值 <= 10^5
 #   - 对于使用Java的用户，请注意传入类型已修改为List<List<Integer>>。重置代码模板后可以看到这项改动。
 
+
+from typing import *
+
+
 class Solution:
     def smallestRange(self, nums: List[List[int]]) -> List[int]:
         "put solution here"

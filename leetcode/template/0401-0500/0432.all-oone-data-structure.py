@@ -10,6 +10,7 @@
 # 
 # 挑战：以 O(1) 的时间复杂度实现所有操作。
 
+
 class AllOne:
 
     def __init__(self):
@@ -49,13 +50,14 @@ class AllOne:
 # obj.dec(key)
 # param_3 = obj.getMaxKey()
 # param_4 = obj.getMinKey()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = AllOne()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

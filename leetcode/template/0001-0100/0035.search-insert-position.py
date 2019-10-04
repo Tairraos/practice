@@ -21,6 +21,10 @@
 # 输入: [1,3,5,6], 0
 # 输出: 0
 
+
+from typing import *
+
+
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         "put solution here"

@@ -39,6 +39,10 @@
 #   - 0 <= bills.length <= 10000
 #   - bills[i] 不是 5 就是 10 或是 20
 
+
+from typing import *
+
+
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
         "put solution here"

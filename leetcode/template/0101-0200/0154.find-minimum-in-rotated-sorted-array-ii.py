@@ -20,6 +20,10 @@
 #   - 这道题是 [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/) 的延伸题目。
 #   - 允许重复会影响算法的时间复杂度吗？会如何影响，为什么？
 
+
+from typing import *
+
+
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         "put solution here"

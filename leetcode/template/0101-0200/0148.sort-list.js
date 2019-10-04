@@ -33,8 +33,8 @@ var sortList = function(head) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(sortList("param"), "expect", "caseName");
-assert.deepEqual(sortList("param"), "expect", "caseName");
+assert.deepEqual(sortList("param"), "expect", "Case 1");
+assert.deepEqual(sortList("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -16,6 +16,10 @@
 # 说明：
 # 你可以认为每种硬币的数量是无限的。
 
+
+from typing import *
+
+
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         "put solution here"

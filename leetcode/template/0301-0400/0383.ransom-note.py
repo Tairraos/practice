@@ -11,6 +11,7 @@
 # canConstruct("aa", "ab") -> false
 # canConstruct("aa", "aab") -> true
 
+
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         "put solution here"

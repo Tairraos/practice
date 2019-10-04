@@ -57,8 +57,8 @@ var canCompleteCircuit = function(gas, cost) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(canCompleteCircuit("param"), "expect", "caseName");
-assert.deepEqual(canCompleteCircuit("param"), "expect", "caseName");
+assert.deepEqual(canCompleteCircuit("param"), "expect", "Case 1");
+assert.deepEqual(canCompleteCircuit("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -50,8 +50,8 @@ var mergeStones = function(stones, K) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(mergeStones("param"), "expect", "caseName");
-assert.deepEqual(mergeStones("param"), "expect", "caseName");
+assert.deepEqual(mergeStones("param"), "expect", "Case 1");
+assert.deepEqual(mergeStones("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

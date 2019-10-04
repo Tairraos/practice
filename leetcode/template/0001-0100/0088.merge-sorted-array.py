@@ -15,6 +15,10 @@
 # 
 # 输出: [1,2,2,3,5,6]
 
+
+from typing import *
+
+
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """

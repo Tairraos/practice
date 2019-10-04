@@ -29,6 +29,10 @@
 #     "FizzBuzz"
 # ]
 
+
+from typing import *
+
+
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         "put solution here"

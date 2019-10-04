@@ -18,6 +18,7 @@
 # 1 <= str1.length, str2.length <= 1000
 # str1 和 str2 都由小写英文字母组成。
 
+
 class Solution:
     def shortestCommonSupersequence(self, str1: str, str2: str) -> str:
         "put solution here"

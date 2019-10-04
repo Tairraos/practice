@@ -30,8 +30,8 @@ var validPalindrome = function(s) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(validPalindrome("param"), "expect", "caseName");
-assert.deepEqual(validPalindrome("param"), "expect", "caseName");
+assert.deepEqual(validPalindrome("param"), "expect", "Case 1");
+assert.deepEqual(validPalindrome("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

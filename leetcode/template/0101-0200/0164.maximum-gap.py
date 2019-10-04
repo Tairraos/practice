@@ -19,6 +19,10 @@
 #   - 你可以假设数组中所有元素都是非负整数，且数值在 32 位有符号整数范围内。
 #   - 请尝试在线性时间复杂度和空间复杂度的条件下解决此问题。
 
+
+from typing import *
+
+
 class Solution:
     def maximumGap(self, nums: List[int]) -> int:
         "put solution here"

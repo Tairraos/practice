@@ -23,6 +23,10 @@
 #     /     /       \                 \
 #    2     1         2                 3
 
+
+from typing import *
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

@@ -31,8 +31,8 @@ var selfDividingNumbers = function(left, right) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(selfDividingNumbers("param"), "expect", "caseName");
-assert.deepEqual(selfDividingNumbers("param"), "expect", "caseName");
+assert.deepEqual(selfDividingNumbers("param"), "expect", "Case 1");
+assert.deepEqual(selfDividingNumbers("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -15,27 +15,30 @@
 #   - 你可以假设数组不可变。
 #   - 会多次调用 sumRange 方法。
 
+
+from typing import *
+
+
 class NumArray:
 
     def __init__(self, nums: List[int]):
-        "put solution here"
         
 
     def sumRange(self, i: int, j: int) -> int:
-        "put solution here"
         
 
 
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
 # param_1 = obj.sumRange(i,j)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = NumArray()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

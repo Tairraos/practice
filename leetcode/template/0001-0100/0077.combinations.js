@@ -31,8 +31,8 @@ var combine = function(n, k) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(combine("param"), "expect", "caseName");
-assert.deepEqual(combine("param"), "expect", "caseName");
+assert.deepEqual(combine("param"), "expect", "Case 1");
+assert.deepEqual(combine("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

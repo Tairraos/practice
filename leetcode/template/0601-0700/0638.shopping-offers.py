@@ -31,6 +31,10 @@
 #   - 每种物品，你最多只需要购买6个。
 #   - 你不可以购买超出待购清单的物品，即使更便宜。
 
+
+from typing import *
+
+
 class Solution:
     def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:
         "put solution here"

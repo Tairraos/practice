@@ -17,6 +17,10 @@
 #   - 所有输入均为小写字母。
 #   - 不考虑答案输出的顺序。
 
+
+from typing import *
+
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         "put solution here"

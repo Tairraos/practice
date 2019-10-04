@@ -25,6 +25,10 @@
 #   - 3 <= A.length <= 30000
 #   - A[i] == 0 或 A[i] == 1
 
+
+from typing import *
+
+
 class Solution:
     def threeEqualParts(self, A: List[int]) -> List[int]:
         "put solution here"

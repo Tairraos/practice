@@ -36,6 +36,10 @@
 #   - 所有的点都是不同的。
 #   - 与真实值误差不超过 10^-5 的答案将视为正确结果。
 
+
+from typing import *
+
+
 class Solution:
     def minAreaFreeRect(self, points: List[List[int]]) -> float:
         "put solution here"

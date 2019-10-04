@@ -37,8 +37,8 @@ var allPossibleFBT = function(N) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(allPossibleFBT("param"), "expect", "caseName");
-assert.deepEqual(allPossibleFBT("param"), "expect", "caseName");
+assert.deepEqual(allPossibleFBT("param"), "expect", "Case 1");
+assert.deepEqual(allPossibleFBT("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

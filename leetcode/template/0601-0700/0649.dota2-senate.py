@@ -30,6 +30,7 @@
 # 注意：
 #   - 给定字符串的长度在 [1, 10,000] 之间.
 
+
 class Solution:
     def predictPartyVictory(self, senate: str) -> str:
         "put solution here"

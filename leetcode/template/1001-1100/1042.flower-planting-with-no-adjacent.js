@@ -45,8 +45,8 @@ var gardenNoAdj = function(N, paths) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(gardenNoAdj("param"), "expect", "caseName");
-assert.deepEqual(gardenNoAdj("param"), "expect", "caseName");
+assert.deepEqual(gardenNoAdj("param"), "expect", "Case 1");
+assert.deepEqual(gardenNoAdj("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

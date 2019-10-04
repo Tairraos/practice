@@ -28,6 +28,10 @@
 # 0 <= queries[i][2] <= s.length
 # s 中只有小写英文字母
 
+
+from typing import *
+
+
 class Solution:
     def canMakePaliQueries(self, s: str, queries: List[List[int]]) -> List[bool]:
         "put solution here"

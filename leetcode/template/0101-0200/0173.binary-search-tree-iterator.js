@@ -56,7 +56,7 @@ BSTIterator.prototype.hasNext = function() {
 
 /** 
  * Your BSTIterator object will be instantiated and called as such:
- * var obj = Object.create(BSTIterator).createNew(root)
+ * var obj = new BSTIterator(root)
  * var param_1 = obj.next()
  * var param_2 = obj.hasNext()
  */
@@ -65,8 +65,8 @@ BSTIterator.prototype.hasNext = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(BSTIterator("param"), "expect", "caseName");
-assert.deepEqual(BSTIterator("param"), "expect", "caseName");
+assert.deepEqual(BSTIterator("param"), "expect", "Case 1");
+assert.deepEqual(BSTIterator("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

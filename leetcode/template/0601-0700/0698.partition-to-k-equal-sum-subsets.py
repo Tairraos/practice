@@ -14,6 +14,10 @@
 #   - 1 <= k <= len(nums) <= 16
 #   - 0 < nums[i] < 10000
 
+
+from typing import *
+
+
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
         "put solution here"

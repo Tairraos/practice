@@ -25,6 +25,10 @@
 #   - 1 <= K <= 10000
 #   - -100 <= A[i] <= 100
 
+
+from typing import *
+
+
 class Solution:
     def largestSumAfterKNegations(self, A: List[int], K: int) -> int:
         "put solution here"

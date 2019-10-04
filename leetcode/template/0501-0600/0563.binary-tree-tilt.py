@@ -22,6 +22,14 @@
 #   - 任何子树的结点的和不会超过32位整数的范围。
 #   - 坡度的值不会超过32位整数的范围。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

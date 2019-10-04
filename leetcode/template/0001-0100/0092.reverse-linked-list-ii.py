@@ -11,6 +11,16 @@
 # 输入: 1->2->3->4->5->NULL, m = 2, n = 4
 # 输出: 1->4->3->2->5->NULL
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

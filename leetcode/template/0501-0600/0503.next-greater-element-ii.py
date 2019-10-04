@@ -13,6 +13,10 @@
 # 
 # 注意: 输入数组的长度不会超过 10000。
 
+
+from typing import *
+
+
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
         "put solution here"

@@ -24,6 +24,10 @@
 #   - intervals[i] 长度为 2，分别代表左、右边界。
 #   - intervals[i][j] 的值是 [0, 10^8]范围内的整数。
 
+
+from typing import *
+
+
 class Solution:
     def intersectionSizeTwo(self, intervals: List[List[int]]) -> int:
         "put solution here"

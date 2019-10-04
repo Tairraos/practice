@@ -15,6 +15,10 @@
 # 输入: [2,1,5,6,2,3]
 # 输出: 10
 
+
+from typing import *
+
+
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         "put solution here"

@@ -25,6 +25,7 @@
 #   - 0 <= N <= 10^5
 #   - 表示多米诺骨牌状态的字符串只含有 'L'，'R'; 以及 '.';
 
+
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
         "put solution here"

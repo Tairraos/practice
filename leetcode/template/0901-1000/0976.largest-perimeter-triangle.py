@@ -25,6 +25,10 @@
 #   - 3 <= A.length <= 10000
 #   - 1 <= A[i] <= 10^6
 
+
+from typing import *
+
+
 class Solution:
     def largestPerimeter(self, A: List[int]) -> int:
         "put solution here"

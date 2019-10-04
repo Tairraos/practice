@@ -28,6 +28,7 @@
 # 输入: "9,#,#,1"
 # 输出: false
 
+
 class Solution:
     def isValidSerialization(self, preorder: str) -> bool:
         "put solution here"

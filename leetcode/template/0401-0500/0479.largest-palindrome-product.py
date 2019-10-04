@@ -13,6 +13,7 @@
 # 说明：
 # n 的取值范围为 [1,8]。
 
+
 class Solution:
     def largestPalindrome(self, n: int) -> int:
         "put solution here"

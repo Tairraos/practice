@@ -20,6 +20,7 @@
 #   - 0 <= B <= 100
 #   - 对于给定的 A 和 B，保证存在满足要求的 S。
 
+
 class Solution:
     def strWithout3a3b(self, A: int, B: int) -> str:
         "put solution here"

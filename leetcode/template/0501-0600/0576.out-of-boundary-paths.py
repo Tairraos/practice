@@ -21,6 +21,7 @@
 #   - 网格的长度和高度在 [1,50] 的范围内。
 #   - N 在 [0,50] 的范围内。
 
+
 class Solution:
     def findPaths(self, m: int, n: int, N: int, i: int, j: int) -> int:
         "put solution here"

@@ -24,6 +24,10 @@
 #   - piles.length <= H <= 10^9
 #   - 1 <= piles[i] <= 10^9
 
+
+from typing import *
+
+
 class Solution:
     def minEatingSpeed(self, piles: List[int], H: int) -> int:
         "put solution here"

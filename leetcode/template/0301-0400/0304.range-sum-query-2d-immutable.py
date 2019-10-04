@@ -24,28 +24,33 @@
 #   - 会多次调用 sumRegion 方法。
 #   - 你可以假设 row1 ≤ row2 且 col1 ≤ col2。
 
+
+from typing import *
+
+
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
-        "put solution here"
+        
 
     def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:
-        "put solution here"
+        
 
 
 # Your NumMatrix object will be instantiated and called as such:
 # obj = NumMatrix(matrix)
 # param_1 = obj.sumRegion(row1,col1,row2,col2)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = NumMatrix()
+    unit = Solution()
 
-    assert unit.sumRegion('param') == 'expect', 'Case 1'
-    assert unit.sumRegion('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

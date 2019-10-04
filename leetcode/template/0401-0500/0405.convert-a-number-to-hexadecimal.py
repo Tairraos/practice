@@ -24,6 +24,7 @@
 # 输出：
 # "ffffffff"
 
+
 class Solution:
     def toHex(self, num: int) -> str:
         "put solution here"

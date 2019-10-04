@@ -48,7 +48,7 @@ MedianFinder.prototype.findMedian = function() {
 
 /** 
  * Your MedianFinder object will be instantiated and called as such:
- * var obj = Object.create(MedianFinder).createNew()
+ * var obj = new MedianFinder()
  * obj.addNum(num)
  * var param_2 = obj.findMedian()
  */
@@ -57,8 +57,8 @@ MedianFinder.prototype.findMedian = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MedianFinder("param"), "expect", "caseName");
-assert.deepEqual(MedianFinder("param"), "expect", "caseName");
+assert.deepEqual(MedianFinder("param"), "expect", "Case 1");
+assert.deepEqual(MedianFinder("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

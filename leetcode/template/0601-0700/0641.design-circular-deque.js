@@ -109,7 +109,7 @@ MyCircularDeque.prototype.isFull = function() {
 
 /** 
  * Your MyCircularDeque object will be instantiated and called as such:
- * var obj = Object.create(MyCircularDeque).createNew(k)
+ * var obj = new MyCircularDeque(k)
  * var param_1 = obj.insertFront(value)
  * var param_2 = obj.insertLast(value)
  * var param_3 = obj.deleteFront()
@@ -124,8 +124,8 @@ MyCircularDeque.prototype.isFull = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MyCircularDeque("param"), "expect", "caseName");
-assert.deepEqual(MyCircularDeque("param"), "expect", "caseName");
+assert.deepEqual(MyCircularDeque("param"), "expect", "Case 1");
+assert.deepEqual(MyCircularDeque("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

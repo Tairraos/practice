@@ -37,6 +37,10 @@
 #   - n 的范围是 [1, 10000]。
 #   - 在每台超级洗衣机中，衣物数量的范围是 [0, 1e5]。
 
+
+from typing import *
+
+
 class Solution:
     def findMinMoves(self, machines: List[int]) -> int:
         "put solution here"

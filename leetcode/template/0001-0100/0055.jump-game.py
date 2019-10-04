@@ -16,6 +16,10 @@
 # 输出: false
 # 解释: 无论怎样，你总会到达索引为 3 的位置。但该位置的最大跳跃长度是 0 ， 所以你永远不可能到达最后一个位置。
 
+
+from typing import *
+
+
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         "put solution here"

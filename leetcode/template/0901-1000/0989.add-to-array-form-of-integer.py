@@ -31,6 +31,10 @@
 #   - 0 <= K <= 10000
 #   - 如果 A.length > 1，那么 A[0] != 0
 
+
+from typing import *
+
+
 class Solution:
     def addToArrayForm(self, A: List[int], K: int) -> List[int]:
         "put solution here"

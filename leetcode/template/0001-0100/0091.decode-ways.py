@@ -20,6 +20,7 @@
 # 输出: 3
 # 解释: 它可以解码为 "BZ" (2 26), "VF" (22 6), 或者 "BBF" (2 2 6) 。
 
+
 class Solution:
     def numDecodings(self, s: str) -> int:
         "put solution here"

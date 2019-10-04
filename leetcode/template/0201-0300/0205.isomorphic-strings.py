@@ -21,6 +21,7 @@
 # 说明：
 # 你可以假设 s 和 t 具有相同的长度。
 
+
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         "put solution here"

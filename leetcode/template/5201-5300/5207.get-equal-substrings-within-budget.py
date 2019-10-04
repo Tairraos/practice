@@ -32,6 +32,7 @@
 # 0 <= maxCost <= 10^6
 # s 和 t 都只含小写英文字母。
 
+
 class Solution:
     def equalSubstring(self, s: str, t: str, maxCost: int) -> int:
         "put solution here"

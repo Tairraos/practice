@@ -26,6 +26,10 @@
 #   - A.length 为偶数
 #   - -100000 <= A[i] <= 100000
 
+
+from typing import *
+
+
 class Solution:
     def canReorderDoubled(self, A: List[int]) -> bool:
         "put solution here"

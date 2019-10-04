@@ -16,6 +16,7 @@
 # 解释：
 # 字典序的排列是 [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9]，所以第二小的数字是 10。
 
+
 class Solution:
     def findKthNumber(self, n: int, k: int) -> int:
         "put solution here"

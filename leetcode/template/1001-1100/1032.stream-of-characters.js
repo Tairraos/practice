@@ -56,8 +56,8 @@ StreamChecker.prototype.query = function(letter) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(StreamChecker("param"), "expect", "caseName");
-assert.deepEqual(StreamChecker("param"), "expect", "caseName");
+assert.deepEqual(StreamChecker("param"), "expect", "Case 1");
+assert.deepEqual(StreamChecker("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -14,6 +14,10 @@
 # ]
 # 输出: 6
 
+
+from typing import *
+
+
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
         "put solution here"

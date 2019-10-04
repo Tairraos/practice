@@ -29,6 +29,7 @@
 #   - m 和 n 的范围在 [1, 30000] 之间。
 #   - k 的范围在 [1, m * n] 之间。
 
+
 class Solution:
     def findKthNumber(self, m: int, n: int, k: int) -> int:
         "put solution here"

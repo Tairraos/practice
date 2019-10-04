@@ -56,7 +56,7 @@ Trie.prototype.startsWith = function(prefix) {
 
 /** 
  * Your Trie object will be instantiated and called as such:
- * var obj = Object.create(Trie).createNew()
+ * var obj = new Trie()
  * obj.insert(word)
  * var param_2 = obj.search(word)
  * var param_3 = obj.startsWith(prefix)
@@ -66,8 +66,8 @@ Trie.prototype.startsWith = function(prefix) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(Trie("param"), "expect", "caseName");
-assert.deepEqual(Trie("param"), "expect", "caseName");
+assert.deepEqual(Trie("param"), "expect", "Case 1");
+assert.deepEqual(Trie("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

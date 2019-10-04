@@ -19,6 +19,7 @@
 # 输出：3
 # 解释：神奇字符串 S 的前 6 个元素是 “12211”，它包含三个 1，因此返回 3。
 
+
 class Solution:
     def magicalString(self, n: int) -> int:
         "put solution here"

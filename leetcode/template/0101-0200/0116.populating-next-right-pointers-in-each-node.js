@@ -47,8 +47,8 @@ var connect = function(root) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(connect("param"), "expect", "caseName");
-assert.deepEqual(connect("param"), "expect", "caseName");
+assert.deepEqual(connect("param"), "expect", "Case 1");
+assert.deepEqual(connect("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

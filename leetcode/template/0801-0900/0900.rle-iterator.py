@@ -32,28 +32,33 @@
 #   - 每个测试用例最多调用 1000 次 RLEIterator.next(int n)。
 #   - 每次调用 RLEIterator.next(int n) 都有 1 <= n <= 10^9 。
 
+
+from typing import *
+
+
 class RLEIterator:
 
     def __init__(self, A: List[int]):
-        "put solution here"
+        
 
     def next(self, n: int) -> int:
-        "put solution here"
+        
 
 
 # Your RLEIterator object will be instantiated and called as such:
 # obj = RLEIterator(A)
 # param_1 = obj.next(n)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = RLEIterator()
+    unit = Solution()
 
-    assert unit.next('param') == 'expect', 'Case 1'
-    assert unit.next('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

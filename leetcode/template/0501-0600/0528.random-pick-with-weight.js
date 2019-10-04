@@ -41,7 +41,7 @@ Solution.prototype.pickIndex = function() {
 
 /** 
  * Your Solution object will be instantiated and called as such:
- * var obj = Object.create(Solution).createNew(w)
+ * var obj = new Solution(w)
  * var param_1 = obj.pickIndex()
  */
 
@@ -49,8 +49,8 @@ Solution.prototype.pickIndex = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(Solution("param"), "expect", "caseName");
-assert.deepEqual(Solution("param"), "expect", "caseName");
+assert.deepEqual(Solution("param"), "expect", "Case 1");
+assert.deepEqual(Solution("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

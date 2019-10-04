@@ -35,8 +35,8 @@ var strWithout3a3b = function(A, B) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(strWithout3a3b("param"), "expect", "caseName");
-assert.deepEqual(strWithout3a3b("param"), "expect", "caseName");
+assert.deepEqual(strWithout3a3b("param"), "expect", "Case 1");
+assert.deepEqual(strWithout3a3b("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

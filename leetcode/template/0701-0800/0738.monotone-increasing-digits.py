@@ -19,6 +19,7 @@
 # 
 # 说明: N 是在 [0, 10^9] 范围内的一个整数。
 
+
 class Solution:
     def monotoneIncreasingDigits(self, N: int) -> int:
         "put solution here"

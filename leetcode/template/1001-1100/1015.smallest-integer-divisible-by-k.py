@@ -24,6 +24,7 @@
 # 提示：
 # 1 <= K <= 10^5
 
+
 class Solution:
     def smallestRepunitDivByK(self, K: int) -> int:
         "put solution here"

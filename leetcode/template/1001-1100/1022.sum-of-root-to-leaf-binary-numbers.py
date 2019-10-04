@@ -17,6 +17,14 @@
 # 树中的结点数介于 1 和 1000 之间。
 # node.val 为 0 或 1 。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

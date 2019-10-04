@@ -56,6 +56,10 @@
 #   - 输入面板不会是游戏结束的状态（即有地雷已被挖出）。
 #   - 简单起见，未提及的规则在这个问题中可被忽略。例如，当游戏结束时你不需要挖出所有地雷，考虑所有你可能赢得游戏或标记方块的情况。
 
+
+from typing import *
+
+
 class Solution:
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
         "put solution here"

@@ -17,16 +17,9 @@
  */
 
 /**
- * Definition for an interval.
- * function Interval(start, end) {
- *     this.start = start;
- *     this.end = end;
- * }
- */
-/**
- * @param {Interval[]} intervals
- * @param {Interval} newInterval
- * @return {Interval[]}
+ * @param {number[][]} intervals
+ * @param {number[]} newInterval
+ * @return {number[][]}
  */
 var insert = function(intervals, newInterval) {
     
@@ -36,8 +29,8 @@ var insert = function(intervals, newInterval) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(insert("param"), "expect", "caseName");
-assert.deepEqual(insert("param"), "expect", "caseName");
+assert.deepEqual(insert("param"), "expect", "Case 1");
+assert.deepEqual(insert("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

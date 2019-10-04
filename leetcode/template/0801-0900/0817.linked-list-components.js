@@ -50,8 +50,8 @@ var numComponents = function(head, G) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(numComponents("param"), "expect", "caseName");
-assert.deepEqual(numComponents("param"), "expect", "caseName");
+assert.deepEqual(numComponents("param"), "expect", "Case 1");
+assert.deepEqual(numComponents("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

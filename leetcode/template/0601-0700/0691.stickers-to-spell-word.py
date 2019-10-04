@@ -34,6 +34,10 @@
 #   - 在所有的测试案例中，所有的单词都是从 1000 个最常见的美国英语单词中随机选取的，目标是两个随机单词的串联。
 #   - 时间限制可能比平时更具挑战性。预计 50 个贴纸的测试案例平均可在35ms内解决。
 
+
+from typing import *
+
+
 class Solution:
     def minStickers(self, stickers: List[str], target: str) -> int:
         "put solution here"

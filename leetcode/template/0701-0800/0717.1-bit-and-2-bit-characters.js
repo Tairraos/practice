@@ -37,8 +37,8 @@ var isOneBitCharacter = function(bits) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(isOneBitCharacter("param"), "expect", "caseName");
-assert.deepEqual(isOneBitCharacter("param"), "expect", "caseName");
+assert.deepEqual(isOneBitCharacter("param"), "expect", "Case 1");
+assert.deepEqual(isOneBitCharacter("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

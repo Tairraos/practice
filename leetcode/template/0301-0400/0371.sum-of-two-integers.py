@@ -12,6 +12,7 @@
 # 输入: a = -2, b = 3
 # 输出: 1
 
+
 class Solution:
     def getSum(self, a: int, b: int) -> int:
         "put solution here"

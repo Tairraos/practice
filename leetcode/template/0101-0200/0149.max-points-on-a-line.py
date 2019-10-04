@@ -29,6 +29,10 @@
 # +------------------->
 # 0  1  2  3  4  5  6
 
+
+from typing import *
+
+
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
         "put solution here"

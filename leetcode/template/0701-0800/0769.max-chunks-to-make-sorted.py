@@ -24,6 +24,10 @@
 #   - arr 的长度在 [1, 10] 之间。
 #   - arr[i]是 [0, 1, ..., arr.length - 1]的一种排列。
 
+
+from typing import *
+
+
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
         "put solution here"

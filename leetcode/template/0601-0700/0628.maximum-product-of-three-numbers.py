@@ -16,6 +16,10 @@
 #   - 给定的整型数组长度范围是[3,10^4]，数组中所有的元素范围是[-1000, 1000]。
 #   - 输入的数组中任意三个数的乘积不会超出32位有符号整数的范围。
 
+
+from typing import *
+
+
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
         "put solution here"

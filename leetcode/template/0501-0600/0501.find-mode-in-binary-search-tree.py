@@ -21,6 +21,17 @@
 # 
 # 进阶：你可以不使用额外的空间吗？（假设由递归产生的隐式调用栈的开销不被计算在内）
 
+
+from typing import *
+
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

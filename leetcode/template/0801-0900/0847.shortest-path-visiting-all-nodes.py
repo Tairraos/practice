@@ -20,6 +20,10 @@
 #   - 1 <= graph.length <= 12
 #   - 0 <= graph[i].length < graph.length
 
+
+from typing import *
+
+
 class Solution:
     def shortestPathLength(self, graph: List[List[int]]) -> int:
         "put solution here"

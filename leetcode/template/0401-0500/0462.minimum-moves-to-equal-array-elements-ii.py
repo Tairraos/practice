@@ -16,6 +16,10 @@
 # 
 # [1,2,3]  =>  [2,2,3]  =>  [2,2,2]
 
+
+from typing import *
+
+
 class Solution:
     def minMoves2(self, nums: List[int]) -> int:
         "put solution here"

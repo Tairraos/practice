@@ -18,6 +18,10 @@
 # 说明：
 # 你可以假设 k 的值永远是有效的, 1 ≤ k ≤ n^2 。
 
+
+from typing import *
+
+
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
         "put solution here"

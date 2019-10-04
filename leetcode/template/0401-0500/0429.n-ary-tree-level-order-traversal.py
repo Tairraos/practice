@@ -19,6 +19,10 @@
 #   - 树的深度不会超过 1000。
 #   - 树的节点总数不会超过 5000。
 
+
+from typing import *
+
+
 """
 # Definition for a Node.
 class Node:

@@ -66,8 +66,8 @@ var evaluate = function(expression) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(evaluate("param"), "expect", "caseName");
-assert.deepEqual(evaluate("param"), "expect", "caseName");
+assert.deepEqual(evaluate("param"), "expect", "Case 1");
+assert.deepEqual(evaluate("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

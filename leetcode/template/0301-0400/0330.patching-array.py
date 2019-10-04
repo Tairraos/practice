@@ -22,6 +22,10 @@
 # 输入: nums = [1,2,2], n = 5
 # 输出: 0
 
+
+from typing import *
+
+
 class Solution:
     def minPatches(self, nums: List[int], n: int) -> int:
         "put solution here"

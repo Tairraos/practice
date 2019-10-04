@@ -51,7 +51,7 @@ RLEIterator.prototype.next = function(n) {
 
 /** 
  * Your RLEIterator object will be instantiated and called as such:
- * var obj = Object.create(RLEIterator).createNew(A)
+ * var obj = new RLEIterator(A)
  * var param_1 = obj.next(n)
  */
 
@@ -59,8 +59,8 @@ RLEIterator.prototype.next = function(n) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(RLEIterator("param"), "expect", "caseName");
-assert.deepEqual(RLEIterator("param"), "expect", "caseName");
+assert.deepEqual(RLEIterator("param"), "expect", "Case 1");
+assert.deepEqual(RLEIterator("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

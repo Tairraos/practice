@@ -35,6 +35,10 @@
 # 
 # 返回值: 3
 
+
+from typing import *
+
+
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
         "put solution here"

@@ -20,6 +20,10 @@
 #   - 0 <= B.length <= 200
 #   - A 和 B 都只包含空格和小写字母。
 
+
+from typing import *
+
+
 class Solution:
     def uncommonFromSentences(self, A: str, B: str) -> List[str]:
         "put solution here"

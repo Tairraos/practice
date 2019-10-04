@@ -24,6 +24,10 @@
 #   - 0 <= A.length <= 10000
 #   - 0 <= A[i] <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def longestMountain(self, A: List[int]) -> int:
         "put solution here"

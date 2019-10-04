@@ -27,6 +27,7 @@
 # 0 <= snap_id < 我们调用 snap() 的总次数
 # 0 <= val <= 10^9
 
+
 class SnapshotArray:
 
     def __init__(self, length: int):
@@ -46,7 +47,8 @@ class SnapshotArray:
 # obj = SnapshotArray(length)
 # obj.set(index,val)
 # param_2 = obj.snap()
-# param_3 = obj.get(index,snap_id)"put solution here"
+# param_3 = obj.get(index,snap_id)
+        "put solution here"
 
 
 # Local test

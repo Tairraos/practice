@@ -15,6 +15,10 @@
 # 解释：
 # 两个回旋镖为 [[1,0],[0,0],[2,0]] 和 [[1,0],[2,0],[0,0]]
 
+
+from typing import *
+
+
 class Solution:
     def numberOfBoomerangs(self, points: List[List[int]]) -> int:
         "put solution here"

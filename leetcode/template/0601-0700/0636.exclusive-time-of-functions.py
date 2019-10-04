@@ -30,6 +30,10 @@
 #   - 函数允许被递归调用，直到运行结束。
 #   - 1 <= n <= 100
 
+
+from typing import *
+
+
 class Solution:
     def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
         "put solution here"

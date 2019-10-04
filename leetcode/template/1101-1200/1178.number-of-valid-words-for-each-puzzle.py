@@ -33,6 +33,10 @@
 # words[i][j], puzzles[i][j] 都是小写英文字母。
 # 每个 puzzles[i] 所包含的字符都不重复。
 
+
+from typing import *
+
+
 class Solution:
     def findNumOfValidWords(self, words: List[str], puzzles: List[str]) -> List[int]:
         "put solution here"

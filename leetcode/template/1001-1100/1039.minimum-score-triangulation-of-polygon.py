@@ -27,6 +27,10 @@
 # 3 <= A.length <= 50
 # 1 <= A[i] <= 100
 
+
+from typing import *
+
+
 class Solution:
     def minScoreTriangulation(self, A: List[int]) -> int:
         "put solution here"

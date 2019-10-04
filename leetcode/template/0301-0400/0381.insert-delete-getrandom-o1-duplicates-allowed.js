@@ -68,7 +68,7 @@ RandomizedCollection.prototype.getRandom = function() {
 
 /** 
  * Your RandomizedCollection object will be instantiated and called as such:
- * var obj = Object.create(RandomizedCollection).createNew()
+ * var obj = new RandomizedCollection()
  * var param_1 = obj.insert(val)
  * var param_2 = obj.remove(val)
  * var param_3 = obj.getRandom()
@@ -78,8 +78,8 @@ RandomizedCollection.prototype.getRandom = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(RandomizedCollection("param"), "expect", "caseName");
-assert.deepEqual(RandomizedCollection("param"), "expect", "caseName");
+assert.deepEqual(RandomizedCollection("param"), "expect", "Case 1");
+assert.deepEqual(RandomizedCollection("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

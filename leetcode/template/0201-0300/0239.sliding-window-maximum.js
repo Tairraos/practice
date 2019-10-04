@@ -40,8 +40,8 @@ var maxSlidingWindow = function(nums, k) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(maxSlidingWindow("param"), "expect", "caseName");
-assert.deepEqual(maxSlidingWindow("param"), "expect", "caseName");
+assert.deepEqual(maxSlidingWindow("param"), "expect", "Case 1");
+assert.deepEqual(maxSlidingWindow("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -15,6 +15,10 @@
 # 输入: [4,5,6,7,0,1,2]
 # 输出: 0
 
+
+from typing import *
+
+
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         "put solution here"

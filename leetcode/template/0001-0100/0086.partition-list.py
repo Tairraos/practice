@@ -9,6 +9,16 @@
 # 输入: head = 1->4->3->2->5->2, x = 3
 # 输出: 1->2->2->4->3->5
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

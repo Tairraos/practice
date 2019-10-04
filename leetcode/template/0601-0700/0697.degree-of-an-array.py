@@ -22,6 +22,10 @@
 #   - nums.length 在1到50,000区间范围内。
 #   - nums[i] 是一个在0到49,999范围内的整数。
 
+
+from typing import *
+
+
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
         "put solution here"

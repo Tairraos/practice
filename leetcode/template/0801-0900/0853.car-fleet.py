@@ -27,6 +27,10 @@
 #   - 0 <= position[i] < target
 #   - 所有车的初始位置各不相同。
 
+
+from typing import *
+
+
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
         "put solution here"

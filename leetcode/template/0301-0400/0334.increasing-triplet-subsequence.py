@@ -18,6 +18,10 @@
 # 输入: [5,4,3,2,1]
 # 输出: false
 
+
+from typing import *
+
+
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
         "put solution here"

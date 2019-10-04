@@ -26,6 +26,7 @@
 # E C   I H   N
 # T     S     G
 
+
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         "put solution here"

@@ -21,6 +21,10 @@
 # 说明：
 # 你的解法应该是 O(logN) 时间复杂度的。
 
+
+from typing import *
+
+
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         "put solution here"

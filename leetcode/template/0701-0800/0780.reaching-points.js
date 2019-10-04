@@ -39,8 +39,8 @@ var reachingPoints = function(sx, sy, tx, ty) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(reachingPoints("param"), "expect", "caseName");
-assert.deepEqual(reachingPoints("param"), "expect", "caseName");
+assert.deepEqual(reachingPoints("param"), "expect", "Case 1");
+assert.deepEqual(reachingPoints("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

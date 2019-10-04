@@ -29,6 +29,10 @@
 #   - 1 <= A.length <= 1000
 #   - 0 <= A[i] < 2048
 
+
+from typing import *
+
+
 class Solution:
     def countTriplets(self, A: List[int]) -> int:
         "put solution here"

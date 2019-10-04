@@ -20,6 +20,10 @@
 # 2 <= arr1.length == arr2.length <= 40000
 # -10^6 <= arr1[i], arr2[i] <= 10^6
 
+
+from typing import *
+
+
 class Solution:
     def maxAbsValExpr(self, arr1: List[int], arr2: List[int]) -> int:
         "put solution here"

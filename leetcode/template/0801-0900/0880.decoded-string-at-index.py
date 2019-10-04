@@ -34,6 +34,7 @@
 #   - 1 <= K <= 10^9
 #   - 解码后的字符串保证少于 2^63 个字母。
 
+
 class Solution:
     def decodeAtIndex(self, S: str, K: int) -> str:
         "put solution here"

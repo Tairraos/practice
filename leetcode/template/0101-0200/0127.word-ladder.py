@@ -34,6 +34,10 @@
 # 
 # 解释: endWord "cog" 不在字典中，所以无法进行转换。
 
+
+from typing import *
+
+
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         "put solution here"

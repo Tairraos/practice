@@ -34,6 +34,10 @@
 # 1 <= A.length <= 10000
 # 1 <= A[i] <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def prevPermOpt1(self, A: List[int]) -> List[int]:
         "put solution here"

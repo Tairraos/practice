@@ -27,6 +27,10 @@
 #   - 0 < indexes[i] < S.length <= 1000
 #   - 给定输入中的所有字符都是小写字母。
 
+
+from typing import *
+
+
 class Solution:
     def findReplaceString(self, S: str, indexes: List[int], sources: List[str], targets: List[str]) -> str:
         "put solution here"

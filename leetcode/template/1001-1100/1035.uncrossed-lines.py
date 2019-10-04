@@ -28,6 +28,10 @@
 # 1 <= B.length <= 500
 # 1 <= A[i], B[i] <= 2000
 
+
+from typing import *
+
+
 class Solution:
     def maxUncrossedLines(self, A: List[int], B: List[int]) -> int:
         "put solution here"

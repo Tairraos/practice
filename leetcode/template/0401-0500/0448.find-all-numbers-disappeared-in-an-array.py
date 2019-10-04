@@ -13,6 +13,10 @@
 # 输出：
 # [5,6]
 
+
+from typing import *
+
+
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         "put solution here"

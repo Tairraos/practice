@@ -12,6 +12,7 @@
 # 进阶：
 # 你可以不使用循环或者递归，且在 O(1) 时间复杂度内解决这个问题吗？
 
+
 class Solution:
     def addDigits(self, num: int) -> int:
         "put solution here"

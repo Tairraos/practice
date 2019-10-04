@@ -16,6 +16,10 @@
 # 解释: 你可以先偷窃 1 号房屋（金额 = 1），然后偷窃 3 号房屋（金额 = 3）。
 #      偷窃到的最高金额 = 1 + 3 = 4 。
 
+
+from typing import *
+
+
 class Solution:
     def rob(self, nums: List[int]) -> int:
         "put solution here"

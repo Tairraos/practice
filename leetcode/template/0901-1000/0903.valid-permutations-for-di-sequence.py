@@ -24,6 +24,7 @@
 #   - 1 <= S.length <= 200
 #   - S 仅由集合 {'D', 'I'} 中的字符组成。
 
+
 class Solution:
     def numPermsDISequence(self, S: str) -> int:
         "put solution here"

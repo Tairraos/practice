@@ -30,6 +30,14 @@
 # n 为奇数。
 # 1 <= x <= n <= 100
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

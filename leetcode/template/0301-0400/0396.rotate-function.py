@@ -20,6 +20,10 @@
 # 
 # 所以 F(0), F(1), F(2), F(3) 中的最大值是 F(3) = 26 。
 
+
+from typing import *
+
+
 class Solution:
     def maxRotateFunction(self, A: List[int]) -> int:
         "put solution here"

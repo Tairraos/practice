@@ -18,6 +18,10 @@
 #   - 每个运算符对两个数进行运算。特别是我们不能用 - 作为一元运算符。例如，[1, 1, 1, 1] 作为输入时，表达式 -1 - 1 - 1 - 1 是不允许的。
 #   - 你不能将数字连接在一起。例如，输入为 [1, 2, 1, 2] 时，不能写成 12 + 12 。
 
+
+from typing import *
+
+
 class Solution:
     def judgePoint24(self, nums: List[int]) -> bool:
         "put solution here"

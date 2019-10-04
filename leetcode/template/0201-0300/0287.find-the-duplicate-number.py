@@ -18,6 +18,10 @@
 #   - 时间复杂度小于 O(n^2) 。
 #   - 数组中只有一个重复的数字，但它可能不止重复出现一次。
 
+
+from typing import *
+
+
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         "put solution here"

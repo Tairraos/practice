@@ -27,6 +27,7 @@
 # 输入: "x=x+2"
 # 输出: "No solution"
 
+
 class Solution:
     def solveEquation(self, equation: str) -> str:
         "put solution here"

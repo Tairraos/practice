@@ -16,6 +16,7 @@
 # 
 # 说明: 你算法的时间复杂度应为 O(log n) 。
 
+
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         "put solution here"

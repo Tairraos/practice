@@ -18,6 +18,10 @@
 # 进阶：
 # 你能用 O(n) 时间复杂度和 / 或原地 O(1) 额外空间来实现吗？
 
+
+from typing import *
+
+
 class Solution:
     def wiggleSort(self, nums: List[int]) -> None:
         """

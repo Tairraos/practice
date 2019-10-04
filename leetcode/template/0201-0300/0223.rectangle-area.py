@@ -12,6 +12,7 @@
 # 
 # 说明: 假设矩形面积不会超出 int 的范围。
 
+
 class Solution:
     def computeArea(self, A: int, B: int, C: int, D: int, E: int, F: int, G: int, H: int) -> int:
         "put solution here"

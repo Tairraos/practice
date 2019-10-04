@@ -18,6 +18,7 @@
 # 致谢：
 # 特别感谢 [@pbrother ](https://leetcode.com/pbrother/)添加此问题并且创建所有测试用例。
 
+
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         "put solution here"

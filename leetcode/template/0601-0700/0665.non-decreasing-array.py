@@ -17,6 +17,10 @@
 # 
 # 说明:  n 的范围为 [1, 10,000]。
 
+
+from typing import *
+
+
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
         "put solution here"

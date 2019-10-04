@@ -17,6 +17,10 @@
 #   - nums[i]的范围在[1, 65535]之间。
 #   - k的范围在[1, floor(nums.length / 3)]之间。
 
+
+from typing import *
+
+
 class Solution:
     def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:
         "put solution here"

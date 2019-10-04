@@ -15,6 +15,7 @@
 # 更新于 2015-02-10：
 # C++函数的形式已经更新了。如果你仍然看见你的函数接收 const char * 类型的参数，请点击重载按钮重置你的代码。
 
+
 class Solution:
     def isNumber(self, s: str) -> bool:
         "put solution here"

@@ -34,6 +34,10 @@
 #   - cells[i] 的值为 0 或 1
 #   - 1 <= N <= 10^9
 
+
+from typing import *
+
+
 class Solution:
     def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:
         "put solution here"

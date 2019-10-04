@@ -30,6 +30,10 @@
 # 解释:对于区间[1,4]和[3,4]，没有满足条件的“右侧”区间。
 # 对于[2,3]，区间[3,4]有最小的“右”起点。
 
+
+from typing import *
+
+
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
         "put solution here"

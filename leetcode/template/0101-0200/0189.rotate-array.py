@@ -23,6 +23,10 @@
 #   - 尽可能想出更多的解决方案，至少有三种不同的方法可以解决这个问题。
 #   - 要求使用空间复杂度为 O(1) 的原地算法。
 
+
+from typing import *
+
+
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """

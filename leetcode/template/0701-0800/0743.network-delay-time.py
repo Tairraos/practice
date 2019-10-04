@@ -12,6 +12,10 @@
 #   - times 的长度在 [1, 6000] 之间。
 #   - 所有的边 times[i] = (u, v, w) 都有 1 <= u, v <= N 且 0 <= w <= 100。
 
+
+from typing import *
+
+
 class Solution:
     def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
         "put solution here"

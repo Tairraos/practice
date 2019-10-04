@@ -15,6 +15,10 @@
 #   - 任务的总个数为 [1, 10000]。
 #   - n 的取值范围为 [0, 100]。
 
+
+from typing import *
+
+
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         "put solution here"

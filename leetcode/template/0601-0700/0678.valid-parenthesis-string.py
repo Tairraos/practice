@@ -24,6 +24,7 @@
 # 注意：
 #   - 字符串大小将在 [1，100] 范围内。
 
+
 class Solution:
     def checkValidString(self, s: str) -> bool:
         "put solution here"

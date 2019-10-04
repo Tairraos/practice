@@ -21,6 +21,10 @@
 #   - nums 的长度范围在[1, 50].
 #   - 每个 nums[i] 的整数范围在 [0, 99].
 
+
+from typing import *
+
+
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
         "put solution here"

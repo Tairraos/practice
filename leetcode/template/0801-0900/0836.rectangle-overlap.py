@@ -18,6 +18,10 @@
 #   - 两个矩形 rec1 和 rec2 都以含有四个整数的列表的形式给出。
 #   - 矩形中的所有坐标都处于 -10^9 和 10^9 之间。
 
+
+from typing import *
+
+
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         "put solution here"

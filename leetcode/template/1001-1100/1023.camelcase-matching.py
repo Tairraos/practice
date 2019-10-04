@@ -33,6 +33,10 @@
 # 1 <= pattern.length <= 100
 # 所有字符串都仅由大写和小写英文字母组成。
 
+
+from typing import *
+
+
 class Solution:
     def camelMatch(self, queries: List[str], pattern: str) -> List[bool]:
         "put solution here"

@@ -23,6 +23,10 @@
 #   - 字典的大小不会超过 1000。
 #   - 所有输入的字符串长度不会超过 1000。
 
+
+from typing import *
+
+
 class Solution:
     def findLongestWord(self, s: str, d: List[str]) -> str:
         "put solution here"

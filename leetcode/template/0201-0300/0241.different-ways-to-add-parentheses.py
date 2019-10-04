@@ -21,6 +21,10 @@
 # (2*((3-4)*5)) = -10
 # (((2*3)-4)*5) = 10
 
+
+from typing import *
+
+
 class Solution:
     def diffWaysToCompute(self, input: str) -> List[int]:
         "put solution here"

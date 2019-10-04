@@ -37,6 +37,10 @@
 #   - 如果矩阵存储在磁盘上，并且磁盘内存是有限的，因此一次最多只能将一行矩阵加载到内存中，该怎么办？
 #   - 如果矩阵太大以至于只能一次将部分行加载到内存中，该怎么办？
 
+
+from typing import *
+
+
 class Solution:
     def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:
         "put solution here"

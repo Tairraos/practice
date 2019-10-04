@@ -37,8 +37,8 @@ var numPairsDivisibleBy60 = function(time) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(numPairsDivisibleBy60("param"), "expect", "caseName");
-assert.deepEqual(numPairsDivisibleBy60("param"), "expect", "caseName");
+assert.deepEqual(numPairsDivisibleBy60("param"), "expect", "Case 1");
+assert.deepEqual(numPairsDivisibleBy60("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

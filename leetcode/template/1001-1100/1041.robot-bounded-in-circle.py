@@ -35,6 +35,7 @@
 # 1 <= instructions.length <= 100
 # instructions[i] 在 {&#39;G&#39;, &#39;L&#39;, &#39;R&#39;} 中
 
+
 class Solution:
     def isRobotBounded(self, instructions: str) -> bool:
         "put solution here"

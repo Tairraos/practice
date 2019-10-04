@@ -36,6 +36,10 @@
 # 0 <= values[i], labels[i] <= 20000
 # 1 <= num_wanted, use_limit <= values.length
 
+
+from typing import *
+
+
 class Solution:
     def largestValsFromLabels(self, values: List[int], labels: List[int], num_wanted: int, use_limit: int) -> int:
         "put solution here"

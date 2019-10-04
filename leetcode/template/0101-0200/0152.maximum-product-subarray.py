@@ -14,6 +14,10 @@
 # 输出: 0
 # 解释: 结果不能为 2, 因为 [-2,-1] 不是子数组。
 
+
+from typing import *
+
+
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         "put solution here"

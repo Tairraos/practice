@@ -32,6 +32,10 @@
 #   - 给定矩阵中至少有一个元素是 0。
 #   - 矩阵中的元素只在四个方向上相邻: 上、下、左、右。
 
+
+from typing import *
+
+
 class Solution:
     def updateMatrix(self, matrix: List[List[int]]) -> List[List[int]]:
         "put solution here"

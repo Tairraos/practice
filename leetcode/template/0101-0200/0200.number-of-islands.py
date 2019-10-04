@@ -22,6 +22,10 @@
 # 
 # 输出: 3
 
+
+from typing import *
+
+
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         "put solution here"

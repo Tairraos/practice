@@ -14,6 +14,10 @@
 # 
 # 输出: 4
 
+
+from typing import *
+
+
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         "put solution here"

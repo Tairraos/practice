@@ -31,8 +31,8 @@ var queryString = function(S, N) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(queryString("param"), "expect", "caseName");
-assert.deepEqual(queryString("param"), "expect", "caseName");
+assert.deepEqual(queryString("param"), "expect", "Case 1");
+assert.deepEqual(queryString("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

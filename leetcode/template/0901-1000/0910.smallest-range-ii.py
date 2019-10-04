@@ -26,6 +26,10 @@
 #   - 0 <= A[i] <= 10000
 #   - 0 <= K <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def smallestRangeII(self, A: List[int], K: int) -> int:
         "put solution here"

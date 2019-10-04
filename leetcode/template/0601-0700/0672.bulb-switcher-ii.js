@@ -44,8 +44,8 @@ var flipLights = function(n, m) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(flipLights("param"), "expect", "caseName");
-assert.deepEqual(flipLights("param"), "expect", "caseName");
+assert.deepEqual(flipLights("param"), "expect", "Case 1");
+assert.deepEqual(flipLights("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -41,8 +41,8 @@ var minScoreTriangulation = function(A) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(minScoreTriangulation("param"), "expect", "caseName");
-assert.deepEqual(minScoreTriangulation("param"), "expect", "caseName");
+assert.deepEqual(minScoreTriangulation("param"), "expect", "Case 1");
+assert.deepEqual(minScoreTriangulation("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

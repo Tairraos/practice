@@ -35,6 +35,10 @@
 #   - letters 仅由小写字母组成，最少包含两个不同的字母。
 #   - 目标字母target 是一个小写字母。
 
+
+from typing import *
+
+
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         "put solution here"

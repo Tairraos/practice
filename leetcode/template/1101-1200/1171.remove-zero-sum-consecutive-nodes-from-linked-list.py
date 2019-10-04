@@ -27,6 +27,16 @@
 # 给你的链表中可能有 1 到 1000 个节点。
 # 对于链表中的每个节点，节点的值：-1000 <= node.val <= 1000.
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

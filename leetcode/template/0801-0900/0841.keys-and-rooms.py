@@ -28,6 +28,10 @@
 #   - 0 <= rooms[i].length <= 1000
 #   - 所有房间中的钥匙数量总计不超过 3000。
 
+
+from typing import *
+
+
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         "put solution here"

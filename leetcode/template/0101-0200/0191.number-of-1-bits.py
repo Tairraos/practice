@@ -26,6 +26,7 @@
 # 进阶：
 # 如果多次调用这个函数，你将如何优化你的算法？
 
+
 #Python 2
 
 class Solution(object):

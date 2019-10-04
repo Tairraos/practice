@@ -22,6 +22,10 @@
 #   - 给定矩阵中的整数范围为 [0, 255]。
 #   - 矩阵的长和宽的范围均为 [1, 150]。
 
+
+from typing import *
+
+
 class Solution:
     def imageSmoother(self, M: List[List[int]]) -> List[List[int]]:
         "put solution here"

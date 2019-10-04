@@ -26,6 +26,14 @@
 # 给你的树中将有 1 到 1000 个节点。
 # 树中每个节点的值都在 1 到 1000 之间。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

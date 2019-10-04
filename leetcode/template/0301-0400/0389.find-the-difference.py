@@ -16,6 +16,7 @@
 # 解释：
 # 'e' 是那个被添加的字母。
 
+
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         "put solution here"

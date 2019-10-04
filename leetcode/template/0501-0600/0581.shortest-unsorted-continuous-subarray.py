@@ -14,6 +14,10 @@
 #   - 输入的数组长度范围在 [1, 10,000]。
 #   - 输入的数组可能包含重复元素 ，所以升序的意思是<=。
 
+
+from typing import *
+
+
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
         "put solution here"

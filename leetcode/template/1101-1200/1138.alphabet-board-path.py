@@ -28,6 +28,7 @@
 # 1 <= target.length <= 100
 # target 仅含有小写英文字母。
 
+
 class Solution:
     def alphabetBoardPath(self, target: str) -> str:
         "put solution here"

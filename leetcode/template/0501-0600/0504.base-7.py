@@ -14,6 +14,7 @@
 # 
 # 注意: 输入范围是 [-1e7, 1e7] 。
 
+
 class Solution:
     def convertToBase7(self, num: int) -> str:
         "put solution here"

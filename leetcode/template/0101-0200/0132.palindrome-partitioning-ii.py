@@ -10,6 +10,7 @@
 # 输出: 1
 # 解释: 进行一次分割就可将 s 分割成 ["aa","b"] 这样两个回文子串。
 
+
 class Solution:
     def minCut(self, s: str) -> int:
         "put solution here"

@@ -14,6 +14,10 @@
 #   [-1, -1, 2]
 # ]
 
+
+from typing import *
+
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         "put solution here"

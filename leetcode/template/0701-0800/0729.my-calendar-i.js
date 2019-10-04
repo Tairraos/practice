@@ -39,7 +39,7 @@ MyCalendar.prototype.book = function(start, end) {
 
 /** 
  * Your MyCalendar object will be instantiated and called as such:
- * var obj = Object.create(MyCalendar).createNew()
+ * var obj = new MyCalendar()
  * var param_1 = obj.book(start,end)
  */
 
@@ -47,8 +47,8 @@ MyCalendar.prototype.book = function(start, end) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MyCalendar("param"), "expect", "caseName");
-assert.deepEqual(MyCalendar("param"), "expect", "caseName");
+assert.deepEqual(MyCalendar("param"), "expect", "Case 1");
+assert.deepEqual(MyCalendar("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

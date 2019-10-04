@@ -7,6 +7,10 @@
 # 例如，给定一个列表 temperatures = [73, 74, 75, 71, 69, 72, 76, 73]，你的输出应该是 [1, 1, 4, 2, 1, 1, 0, 0]。
 # 提示：气温 列表长度的范围是 [1, 30000]。每个气温的值的都是 [30, 100] 范围内的整数。
 
+
+from typing import *
+
+
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         "put solution here"

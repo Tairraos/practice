@@ -21,6 +21,7 @@
 # 说明：
 #   -  n 的范围是 [1, 1000] 并且 k 的范围是 [0, 1000]。
 
+
 class Solution:
     def kInversePairs(self, n: int, k: int) -> int:
         "put solution here"

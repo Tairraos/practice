@@ -65,6 +65,10 @@
 #   - mines[i] 是长度为2的由2个 [0, N-1] 中的数组成.
 #   - (另外,使用 C, C++, 或者 C# 编程将以稍小的时间限制进行​​判断.)
 
+
+from typing import *
+
+
 class Solution:
     def orderOfLargestPlusSign(self, N: int, mines: List[List[int]]) -> int:
         "put solution here"

@@ -23,6 +23,10 @@
 # 输出: [1,3],[2,3]
 # 解释: 也可能序列中所有的数对都被返回:[1,3],[2,3]
 
+
+from typing import *
+
+
 class Solution:
     def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
         "put solution here"

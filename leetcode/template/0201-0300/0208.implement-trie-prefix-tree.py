@@ -18,6 +18,7 @@
 #   - 你可以假设所有的输入都是由小写字母 a-z 构成的。
 #   - 保证所有输入均为非空字符串。
 
+
 class Trie:
 
     def __init__(self):
@@ -50,13 +51,14 @@ class Trie:
 # obj.insert(word)
 # param_2 = obj.search(word)
 # param_3 = obj.startsWith(prefix)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Trie()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

@@ -43,6 +43,10 @@
 # 0 <= grid[i][j] <= 1
 # 蛇保证从空单元格开始出发。
 
+
+from typing import *
+
+
 class Solution:
     def minimumMoves(self, grid: List[List[int]]) -> int:
         "put solution here"

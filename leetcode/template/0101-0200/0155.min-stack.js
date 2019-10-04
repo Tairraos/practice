@@ -58,7 +58,7 @@ MinStack.prototype.getMin = function() {
 
 /** 
  * Your MinStack object will be instantiated and called as such:
- * var obj = Object.create(MinStack).createNew()
+ * var obj = new MinStack()
  * obj.push(x)
  * obj.pop()
  * var param_3 = obj.top()
@@ -69,8 +69,8 @@ MinStack.prototype.getMin = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MinStack("param"), "expect", "caseName");
-assert.deepEqual(MinStack("param"), "expect", "caseName");
+assert.deepEqual(MinStack("param"), "expect", "Case 1");
+assert.deepEqual(MinStack("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

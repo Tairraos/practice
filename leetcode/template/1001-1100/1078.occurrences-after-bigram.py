@@ -20,6 +20,10 @@
 # 1 <= first.length, second.length <= 10
 # first 和 second 由小写英文字母组成
 
+
+from typing import *
+
+
 class Solution:
     def findOcurrences(self, text: str, first: str, second: str) -> List[str]:
         "put solution here"

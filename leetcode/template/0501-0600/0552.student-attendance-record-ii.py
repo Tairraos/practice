@@ -20,6 +20,7 @@
 # 
 # 注意：n 的值不会超过100000。
 
+
 class Solution:
     def checkRecord(self, n: int) -> int:
         "put solution here"

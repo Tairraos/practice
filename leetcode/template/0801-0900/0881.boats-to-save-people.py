@@ -24,6 +24,10 @@
 #   - 1 <= people.length <= 50000
 #   - 1 <= people[i] <= limit <= 30000
 
+
+from typing import *
+
+
 class Solution:
     def numRescueBoats(self, people: List[int], limit: int) -> int:
         "put solution here"

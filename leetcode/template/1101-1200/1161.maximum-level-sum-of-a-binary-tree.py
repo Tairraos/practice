@@ -19,6 +19,14 @@
 # 树中的节点数介于 1 和 10^4 之间
 # -10^5 <= node.val <= 10^5
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

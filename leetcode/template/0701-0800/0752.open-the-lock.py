@@ -37,6 +37,10 @@
 #   - 目标数字 target 不会在 deadends 之中。
 #   - 每个 deadends 和 target 中的字符串的数字会在 10,000 个可能的情况 '0000' 到 '9999' 中产生。
 
+
+from typing import *
+
+
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
         "put solution here"

@@ -24,6 +24,10 @@
 #   - 1 <= stones.length <= 1000
 #   - 0 <= stones[i][j] < 10000
 
+
+from typing import *
+
+
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
         "put solution here"

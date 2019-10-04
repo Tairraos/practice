@@ -30,8 +30,8 @@ var trailingZeroes = function(n) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(trailingZeroes("param"), "expect", "caseName");
-assert.deepEqual(trailingZeroes("param"), "expect", "caseName");
+assert.deepEqual(trailingZeroes("param"), "expect", "Case 1");
+assert.deepEqual(trailingZeroes("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

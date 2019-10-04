@@ -38,6 +38,7 @@
 # text 仅由小写英文字符组成。
 # 1 <= text.length <= 1000
 
+
 class Solution:
     def longestDecomposition(self, text: str) -> int:
         "put solution here"

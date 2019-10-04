@@ -21,6 +21,10 @@
 #   - 2 <= A.length <= 50000
 #   - 0 <= A[i] <= 50000
 
+
+from typing import *
+
+
 class Solution:
     def maxWidthRamp(self, A: List[int]) -> int:
         "put solution here"

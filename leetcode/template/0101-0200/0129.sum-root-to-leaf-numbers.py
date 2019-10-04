@@ -34,6 +34,14 @@
 # 从根到叶子节点路径 4->0 代表数字 40.
 # 因此，数字总和 = 495 + 491 + 40 = 1026.
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

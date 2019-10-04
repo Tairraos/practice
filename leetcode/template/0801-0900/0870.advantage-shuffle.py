@@ -18,6 +18,10 @@
 #   - 0 <= A[i] <= 10^9
 #   - 0 <= B[i] <= 10^9
 
+
+from typing import *
+
+
 class Solution:
     def advantageCount(self, A: List[int], B: List[int]) -> List[int]:
         "put solution here"

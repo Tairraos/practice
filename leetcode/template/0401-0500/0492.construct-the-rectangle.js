@@ -35,8 +35,8 @@ var constructRectangle = function(area) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(constructRectangle("param"), "expect", "caseName");
-assert.deepEqual(constructRectangle("param"), "expect", "caseName");
+assert.deepEqual(constructRectangle("param"), "expect", "Case 1");
+assert.deepEqual(constructRectangle("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

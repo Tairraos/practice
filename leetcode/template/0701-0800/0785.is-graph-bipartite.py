@@ -34,6 +34,10 @@
 #   - graph[i] 不会包含 i 或者有重复的值。
 #   - 图是无向的: 如果j 在 graph[i]里边, 那么 i 也会在 graph[j]里边。
 
+
+from typing import *
+
+
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         "put solution here"

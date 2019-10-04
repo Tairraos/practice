@@ -25,6 +25,10 @@
 #   - 下标从0开始，到列表的长度减1。
 #   - 两个列表都没有重复的元素。
 
+
+from typing import *
+
+
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
         "put solution here"

@@ -25,6 +25,10 @@
 #   - 单词列表（words）长度在区间 [10, 1000] 中。
 #   - 每一个单词 words[i] 都是小写，并且长度在区间 [1, 15] 中。
 
+
+from typing import *
+
+
 class Solution:
     def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
         "put solution here"

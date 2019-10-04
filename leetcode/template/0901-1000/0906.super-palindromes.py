@@ -19,6 +19,7 @@
 #   - L 和 R 是表示 [1, 10^18) 范围的整数的字符串。
 #   - int(L) <= int(R)
 
+
 class Solution:
     def superpalindromesInRange(self, L: str, R: str) -> int:
         "put solution here"

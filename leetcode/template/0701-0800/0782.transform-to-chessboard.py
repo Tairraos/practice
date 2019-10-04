@@ -38,6 +38,10 @@
 #   - board 是方阵，且行列数的范围是[2, 30]。
 #   - board[i][j] 将只包含 0或 1。
 
+
+from typing import *
+
+
 class Solution:
     def movesToChessboard(self, board: List[List[int]]) -> int:
         "put solution here"

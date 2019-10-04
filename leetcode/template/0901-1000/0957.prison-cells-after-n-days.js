@@ -49,8 +49,8 @@ var prisonAfterNDays = function(cells, N) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(prisonAfterNDays("param"), "expect", "caseName");
-assert.deepEqual(prisonAfterNDays("param"), "expect", "caseName");
+assert.deepEqual(prisonAfterNDays("param"), "expect", "Case 1");
+assert.deepEqual(prisonAfterNDays("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

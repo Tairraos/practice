@@ -36,8 +36,8 @@ var twoCitySchedCost = function(costs) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(twoCitySchedCost("param"), "expect", "caseName");
-assert.deepEqual(twoCitySchedCost("param"), "expect", "caseName");
+assert.deepEqual(twoCitySchedCost("param"), "expect", "Case 1");
+assert.deepEqual(twoCitySchedCost("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

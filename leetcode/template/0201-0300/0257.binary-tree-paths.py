@@ -19,6 +19,17 @@
 # 
 # 解释: 所有根节点到叶子节点的路径为: 1->2->5, 1->3
 
+
+from typing import *
+
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

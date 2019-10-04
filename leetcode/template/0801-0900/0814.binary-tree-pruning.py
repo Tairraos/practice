@@ -31,6 +31,14 @@
 #   - 给定的二叉树最多有 100 个节点。
 #   - 每个节点的值只会为 0 或 1 。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

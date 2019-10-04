@@ -16,6 +16,7 @@
 # 注意：
 #   - N 的取值范围是 [1, 10000]。
 
+
 class Solution:
     def rotatedDigits(self, N: int) -> int:
         "put solution here"

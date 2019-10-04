@@ -12,6 +12,10 @@
 # 
 # 说明: 递归法很简单，你可以使用迭代法完成此题吗?
 
+
+from typing import *
+
+
 """
 # Definition for a Node.
 class Node:

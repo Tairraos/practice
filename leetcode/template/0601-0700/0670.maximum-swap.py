@@ -17,6 +17,7 @@
 # 注意：
 #   - 给定数字的范围是 [0, 10^8]
 
+
 class Solution:
     def maximumSwap(self, num: int) -> int:
         "put solution here"

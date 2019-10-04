@@ -39,6 +39,7 @@
 #   - 操作数将在 1 至 1000 的范围内；
 #   - 请不要使用内置的队列库。
 
+
 class MyCircularQueue:
 
     def __init__(self, k: int):
@@ -92,13 +93,14 @@ class MyCircularQueue:
 # param_4 = obj.Rear()
 # param_5 = obj.isEmpty()
 # param_6 = obj.isFull()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MyCircularQueue()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

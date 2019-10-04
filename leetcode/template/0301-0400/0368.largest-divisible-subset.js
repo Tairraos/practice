@@ -27,8 +27,8 @@ var largestDivisibleSubset = function(nums) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(largestDivisibleSubset("param"), "expect", "caseName");
-assert.deepEqual(largestDivisibleSubset("param"), "expect", "caseName");
+assert.deepEqual(largestDivisibleSubset("param"), "expect", "Case 1");
+assert.deepEqual(largestDivisibleSubset("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

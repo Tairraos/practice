@@ -26,6 +26,10 @@
 # 0 <= A[i][j] <= 1
 # 所有行的大小都相同
 
+
+from typing import *
+
+
 class Solution:
     def numEnclaves(self, A: List[List[int]]) -> int:
         "put solution here"

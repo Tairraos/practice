@@ -17,6 +17,14 @@
 #   - 树中的结点数量最多为 10000 个。
 #   - 最终的答案保证小于 2^31。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

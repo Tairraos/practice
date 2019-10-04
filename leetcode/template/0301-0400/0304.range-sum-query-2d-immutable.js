@@ -46,7 +46,7 @@ NumMatrix.prototype.sumRegion = function(row1, col1, row2, col2) {
 
 /** 
  * Your NumMatrix object will be instantiated and called as such:
- * var obj = Object.create(NumMatrix).createNew(matrix)
+ * var obj = new NumMatrix(matrix)
  * var param_1 = obj.sumRegion(row1,col1,row2,col2)
  */
 
@@ -54,8 +54,8 @@ NumMatrix.prototype.sumRegion = function(row1, col1, row2, col2) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(NumMatrix("param"), "expect", "caseName");
-assert.deepEqual(NumMatrix("param"), "expect", "caseName");
+assert.deepEqual(NumMatrix("param"), "expect", "Case 1");
+assert.deepEqual(NumMatrix("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

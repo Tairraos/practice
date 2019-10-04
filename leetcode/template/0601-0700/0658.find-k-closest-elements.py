@@ -20,6 +20,10 @@
 # 更新(2017/9/19)：
 # 这个参数 arr 已经被改变为一个整数数组（而不是整数列表）。 请重新加载代码定义以获取最新更改。
 
+
+from typing import *
+
+
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
         "put solution here"

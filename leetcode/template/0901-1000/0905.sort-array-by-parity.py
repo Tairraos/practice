@@ -14,6 +14,10 @@
 #   - 1 <= A.length <= 5000
 #   - 0 <= A[i] <= 5000
 
+
+from typing import *
+
+
 class Solution:
     def sortArrayByParity(self, A: List[int]) -> List[int]:
         "put solution here"

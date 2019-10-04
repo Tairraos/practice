@@ -22,6 +22,10 @@
 # 
 # 说明: 1 <= N <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def sumOfDistancesInTree(self, N: int, edges: List[List[int]]) -> List[int]:
         "put solution here"

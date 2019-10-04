@@ -40,8 +40,8 @@ var findRestaurant = function(list1, list2) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(findRestaurant("param"), "expect", "caseName");
-assert.deepEqual(findRestaurant("param"), "expect", "caseName");
+assert.deepEqual(findRestaurant("param"), "expect", "Case 1");
+assert.deepEqual(findRestaurant("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

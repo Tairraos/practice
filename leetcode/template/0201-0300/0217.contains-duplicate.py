@@ -17,6 +17,10 @@
 # 输入: [1,1,1,3,3,4,3,2,4,2]
 # 输出: true
 
+
+from typing import *
+
+
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         "put solution here"

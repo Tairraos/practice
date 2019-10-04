@@ -22,6 +22,14 @@
 # 
 # 在上述示例中，如果要找的值是 5，但因为没有节点值为 5，我们应该返回 NULL。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

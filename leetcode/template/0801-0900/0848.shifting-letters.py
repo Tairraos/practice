@@ -22,6 +22,10 @@
 #   - 1 <= S.length = shifts.length <= 20000
 #   - 0 <= shifts[i] <= 10 ^ 9
 
+
+from typing import *
+
+
 class Solution:
     def shiftingLetters(self, S: str, shifts: List[int]) -> str:
         "put solution here"

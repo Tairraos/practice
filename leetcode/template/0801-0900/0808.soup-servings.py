@@ -23,6 +23,7 @@
 #   - 0 <= N <= 10^9。
 #   - 返回值在 10^-6 的范围将被认为是正确的。
 
+
 class Solution:
     def soupServings(self, N: int) -> float:
         "put solution here"

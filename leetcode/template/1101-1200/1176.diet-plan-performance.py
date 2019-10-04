@@ -36,6 +36,10 @@
 # 0 <= calories[i] <= 20000
 # 0 <= lower <= upper
 
+
+from typing import *
+
+
 class Solution:
     def dietPlanPerformance(self, calories: List[int], k: int, lower: int, upper: int) -> int:
         "put solution here"

@@ -27,6 +27,7 @@
 # 
 # 因为第四行不完整，所以返回3.
 
+
 class Solution:
     def arrangeCoins(self, n: int) -> int:
         "put solution here"

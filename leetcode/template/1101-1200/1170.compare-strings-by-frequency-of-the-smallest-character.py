@@ -24,6 +24,10 @@
 # 1 <= queries[i].length, words[i].length <= 10
 # queries[i][j], words[i][j] 都是小写英文字母
 
+
+from typing import *
+
+
 class Solution:
     def numSmallerByFrequency(self, queries: List[str], words: List[str]) -> List[int]:
         "put solution here"

@@ -21,6 +21,10 @@
 #   - 1 <= A.length <= 1000.
 #   - 2 <= A[i] <= 10 ^ 9.
 
+
+from typing import *
+
+
 class Solution:
     def numFactoredBinaryTrees(self, A: List[int]) -> int:
         "put solution here"

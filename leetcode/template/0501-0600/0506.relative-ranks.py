@@ -14,6 +14,10 @@
 #   - N 是一个正整数并且不会超过 10000。
 #   - 所有运动员的成绩都不相同。
 
+
+from typing import *
+
+
 class Solution:
     def findRelativeRanks(self, nums: List[int]) -> List[str]:
         "put solution here"

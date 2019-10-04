@@ -15,6 +15,7 @@
 # 进阶：
 # 你能不使用循环或者递归来完成本题吗？
 
+
 class Solution:
     def isPowerOfFour(self, num: int) -> bool:
         "put solution here"

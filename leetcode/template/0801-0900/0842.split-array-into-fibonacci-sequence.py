@@ -38,6 +38,10 @@
 #   - 1 <= S.length <= 200
 #   - 字符串 S 中只含有数字。
 
+
+from typing import *
+
+
 class Solution:
     def splitIntoFibonacci(self, S: str) -> List[int]:
         "put solution here"

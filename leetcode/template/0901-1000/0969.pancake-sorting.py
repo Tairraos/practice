@@ -27,6 +27,10 @@
 #   - 1 <= A.length <= 100
 #   - A[i] 是 [1, 2, ..., A.length] 的排列
 
+
+from typing import *
+
+
 class Solution:
     def pancakeSort(self, A: List[int]) -> List[int]:
         "put solution here"

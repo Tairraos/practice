@@ -25,6 +25,10 @@
 # 说明：
 # 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
 
+
+from typing import *
+
+
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         "put solution here"

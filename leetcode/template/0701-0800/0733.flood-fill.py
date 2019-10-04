@@ -24,6 +24,10 @@
 #   - 给出的初始点将满足 0 <= sr < image.length 和 0 <= sc < image[0].length。
 #   - image[i][j] 和 newColor 表示的颜色值在范围 [0, 65535]内。
 
+
+from typing import *
+
+
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
         "put solution here"

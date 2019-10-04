@@ -27,6 +27,7 @@
 #   - S 是平衡括号字符串，且只含有 ( 和 ) 。
 #   - 2 <= S.length <= 50
 
+
 class Solution:
     def scoreOfParentheses(self, S: str) -> int:
         "put solution here"

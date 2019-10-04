@@ -16,6 +16,7 @@
 #   - 1 <= p <= 1000
 #   - 0 <= q <= p
 
+
 class Solution:
     def mirrorReflection(self, p: int, q: int) -> int:
         "put solution here"

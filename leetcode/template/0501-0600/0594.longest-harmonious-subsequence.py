@@ -12,6 +12,10 @@
 # 
 # 说明: 输入的数组长度最大不超过20,000.
 
+
+from typing import *
+
+
 class Solution:
     def findLHS(self, nums: List[int]) -> int:
         "put solution here"

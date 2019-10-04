@@ -24,6 +24,10 @@
 # 1 <= nums.length <= 1000
 # 1 <= nums[i] <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def movesToMakeZigzag(self, nums: List[int]) -> int:
         "put solution here"

@@ -16,6 +16,10 @@
 #   - 1 <= A <= 30000
 #   - 1 <= A[i] <= 30000
 
+
+from typing import *
+
+
 class Solution:
     def sumSubarrayMins(self, A: List[int]) -> int:
         "put solution here"

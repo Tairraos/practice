@@ -18,6 +18,7 @@
 # 输入: 218
 # 输出: false
 
+
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         "put solution here"

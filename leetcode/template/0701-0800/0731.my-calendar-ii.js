@@ -29,7 +29,6 @@
  *   - 调用函数 MyCalendar.book(start, end)时， start 和 end 的取值范围为 [0, 10^9]。
  */
 
-
 var MyCalendarTwo = function() {
     
 };
@@ -45,7 +44,7 @@ MyCalendarTwo.prototype.book = function(start, end) {
 
 /** 
  * Your MyCalendarTwo object will be instantiated and called as such:
- * var obj = Object.create(MyCalendarTwo).createNew()
+ * var obj = new MyCalendarTwo()
  * var param_1 = obj.book(start,end)
  */
 
@@ -53,8 +52,8 @@ MyCalendarTwo.prototype.book = function(start, end) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MyCalendarTwo("param"), "expect", "caseName");
-assert.deepEqual(MyCalendarTwo("param"), "expect", "caseName");
+assert.deepEqual(MyCalendarTwo("param"), "expect", "Case 1");
+assert.deepEqual(MyCalendarTwo("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

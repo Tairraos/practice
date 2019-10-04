@@ -50,7 +50,7 @@ Solution.prototype.reset = function() {
 
 /** 
  * Your Solution object will be instantiated and called as such:
- * var obj = Object.create(Solution).createNew(n_rows, n_cols)
+ * var obj = new Solution(n_rows, n_cols)
  * var param_1 = obj.flip()
  * obj.reset()
  */
@@ -59,8 +59,8 @@ Solution.prototype.reset = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(Solution("param"), "expect", "caseName");
-assert.deepEqual(Solution("param"), "expect", "caseName");
+assert.deepEqual(Solution("param"), "expect", "Case 1");
+assert.deepEqual(Solution("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

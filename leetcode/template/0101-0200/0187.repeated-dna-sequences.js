@@ -23,8 +23,8 @@ var findRepeatedDnaSequences = function(s) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(findRepeatedDnaSequences("param"), "expect", "caseName");
-assert.deepEqual(findRepeatedDnaSequences("param"), "expect", "caseName");
+assert.deepEqual(findRepeatedDnaSequences("param"), "expect", "Case 1");
+assert.deepEqual(findRepeatedDnaSequences("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

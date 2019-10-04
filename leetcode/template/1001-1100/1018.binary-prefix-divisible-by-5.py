@@ -28,6 +28,10 @@
 # 1 <= A.length <= 30000
 # A[i] 为 0 或 1
 
+
+from typing import *
+
+
 class Solution:
     def prefixesDivBy5(self, A: List[int]) -> List[bool]:
         "put solution here"

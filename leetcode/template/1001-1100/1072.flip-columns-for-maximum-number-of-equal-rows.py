@@ -27,6 +27,10 @@
 # 所有 matrix[i].length 都相等
 # matrix[i][j] 为 0 或 1
 
+
+from typing import *
+
+
 class Solution:
     def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:
         "put solution here"

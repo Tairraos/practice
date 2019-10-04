@@ -20,6 +20,10 @@
 # 1 <= words[i].length <= 16
 # words[i] 仅由小写英文字母组成。
 
+
+from typing import *
+
+
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:
         "put solution here"

@@ -18,6 +18,10 @@
 #   - 1 <= routes[i].length <= 500.
 #   - 0 <= routes[i][j] < 10 ^ 6.
 
+
+from typing import *
+
+
 class Solution:
     def numBusesToDestination(self, routes: List[List[int]], S: int, T: int) -> int:
         "put solution here"

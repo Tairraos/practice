@@ -39,8 +39,8 @@ var maxProfit = function(prices) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(maxProfit("param"), "expect", "caseName");
-assert.deepEqual(maxProfit("param"), "expect", "caseName");
+assert.deepEqual(maxProfit("param"), "expect", "Case 1");
+assert.deepEqual(maxProfit("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

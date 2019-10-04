@@ -18,28 +18,33 @@
 # 说明：
 # 你可以假设 nums 的长度≥ k-1 且k ≥ 1。
 
+
+from typing import *
+
+
 class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):
-        "put solution here"
+        
 
     def add(self, val: int) -> int:
-        "put solution here"
+        
 
 
 # Your KthLargest object will be instantiated and called as such:
 # obj = KthLargest(k, nums)
 # param_1 = obj.add(val)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = KthLargest()
+    unit = Solution()
 
-    assert unit.add('param') == 'expect', 'Case 1'
-    assert unit.add('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

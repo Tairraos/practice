@@ -22,6 +22,10 @@
 #   - 1 <= A.length = A[0].length <= 100
 #   - A[i][j] == 0 或 A[i][j] == 1
 
+
+from typing import *
+
+
 class Solution:
     def shortestBridge(self, A: List[List[int]]) -> int:
         "put solution here"

@@ -13,6 +13,10 @@
 # 
 # 解释: 最大的结果是 5 ^ 25 = 28.
 
+
+from typing import *
+
+
 class Solution:
     def findMaximumXOR(self, nums: List[int]) -> int:
         "put solution here"

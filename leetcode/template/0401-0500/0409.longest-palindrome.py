@@ -17,6 +17,7 @@
 # 解释：
 # 我们可以构造的最长的回文串是"dccaccd", 它的长度是 7。
 
+
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         "put solution here"

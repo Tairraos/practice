@@ -25,6 +25,7 @@
 #   - rand7()调用次数的 [期望值](https://zh.wikipedia.org/wiki/%E6%9C%9F%E6%9C%9B%E5%80%BC) 是多少 ?
 #   - 你能否尽量少调用 rand7() ?
 
+
 # The rand7() API is already defined for you.
 # def rand7():
 # @return a random integer in the range 1 to 7

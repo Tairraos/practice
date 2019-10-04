@@ -51,8 +51,8 @@ var longestUnivaluePath = function(root) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(longestUnivaluePath("param"), "expect", "caseName");
-assert.deepEqual(longestUnivaluePath("param"), "expect", "caseName");
+assert.deepEqual(longestUnivaluePath("param"), "expect", "Case 1");
+assert.deepEqual(longestUnivaluePath("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

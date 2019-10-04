@@ -11,7 +11,7 @@
  */
 
 let x = require("xtool.js"),
-    data = require("./data");
+    data = require("./oldData");
 
 data.forEach(item => {
     let numMod = !!item.questionId.match(/^\d+$/),
@@ -54,7 +54,7 @@ data.forEach(item => {
         x.saveFile("./leetcode/template/" + dir + "/" + jsname, jsout.join("\n"));
         console.log("\033[32m", jsname, "\033[0m已经生成。");
     }
-    
+
     if (pycode !== "N/A") {
         var pyFuncName = pycode.match(/\n +def (\w*)\(self/)[1];
 
@@ -64,7 +64,30 @@ data.forEach(item => {
         pyout.push("# ");
         pyout.push(desc.map(line => "# " + line).join("\n"));
         pyout.push("");
-        pyout.push(pycode + "\"put solution here\"");
+        pyout.push("");
+        if (pycode.match(/-> List|: List/)) {
+            pyout.push("from typing import *");
+            pyout.push("");
+            pyout.push("");
+        }
+        if (pycode.match(/: TreeNode|-> TreeNode/)) {
+            pyout.push("class TreeNode:");
+            pyout.push("    def __init__(self, x):");
+            pyout.push("        self.val = x");
+            pyout.push("        self.left = None");
+            pyout.push("        self.right = None");
+            pyout.push("");
+            pyout.push("");
+        }
+        if (pycode.match(/: ListNode|-> ListNode/)) {
+            pyout.push("class ListNode:");
+            pyout.push("    def __init__(self, x):");
+            pyout.push("        self.val = x");
+            pyout.push("        self.next = None");
+            pyout.push("");
+            pyout.push("");
+        }
+        pyout.push(pycode + (pycode.match(/    $/) ? "" : "\n        ") + "\"put solution here\"");
         pyout.push("");
         pyout.push("");
         pyout.push("# Local test");

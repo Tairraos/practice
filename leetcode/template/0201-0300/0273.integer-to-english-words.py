@@ -20,6 +20,7 @@
 # 输入: 1234567891
 # 输出: "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One"
 
+
 class Solution:
     def numberToWords(self, num: int) -> str:
         "put solution here"

@@ -36,6 +36,7 @@
 # S[i] 为 "(" 或 ")"
 # S 是一个有效括号字符串
 
+
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         "put solution here"

@@ -60,7 +60,7 @@ MyHashSet.prototype.contains = function(key) {
 
 /** 
  * Your MyHashSet object will be instantiated and called as such:
- * var obj = Object.create(MyHashSet).createNew()
+ * var obj = new MyHashSet()
  * obj.add(key)
  * obj.remove(key)
  * var param_3 = obj.contains(key)
@@ -70,8 +70,8 @@ MyHashSet.prototype.contains = function(key) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MyHashSet("param"), "expect", "caseName");
-assert.deepEqual(MyHashSet("param"), "expect", "caseName");
+assert.deepEqual(MyHashSet("param"), "expect", "Case 1");
+assert.deepEqual(MyHashSet("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

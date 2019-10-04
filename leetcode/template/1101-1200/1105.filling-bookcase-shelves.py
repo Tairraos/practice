@@ -28,6 +28,10 @@
 # 1 <= books[i][0] <= shelf_width <= 1000
 # 1 <= books[i][1] <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def minHeightShelves(self, books: List[List[int]], shelf_width: int) -> int:
         "put solution here"

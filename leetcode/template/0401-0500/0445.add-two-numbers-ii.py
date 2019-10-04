@@ -13,6 +13,16 @@
 # 输入: (7 -> 2 -> 4 -> 3) + (5 -> 6 -> 4)
 # 输出: 7 -> 8 -> 0 -> 7
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

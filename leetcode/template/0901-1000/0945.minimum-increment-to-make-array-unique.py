@@ -20,6 +20,10 @@
 #   - 0 <= A.length <= 40000
 #   - 0 <= A[i] < 40000
 
+
+from typing import *
+
+
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         "put solution here"

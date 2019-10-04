@@ -18,6 +18,10 @@
 #   - 数组的长度不会超过10,000。
 #   - 你可以认为所有数字总和在 32 位有符号整数范围内。
 
+
+from typing import *
+
+
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
         "put solution here"

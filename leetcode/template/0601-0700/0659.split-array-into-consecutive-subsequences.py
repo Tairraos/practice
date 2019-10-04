@@ -27,6 +27,10 @@
 # 提示：
 #   - 输入的数组长度范围为 [1, 10000]
 
+
+from typing import *
+
+
 class Solution:
     def isPossible(self, nums: List[int]) -> bool:
         "put solution here"

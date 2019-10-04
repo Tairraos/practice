@@ -32,6 +32,10 @@
 #   - richer[i] 都是不同的。
 #   - 对 richer 的观察在逻辑上是一致的。
 
+
+from typing import *
+
+
 class Solution:
     def loudAndRich(self, richer: List[List[int]], quiet: List[int]) -> List[int]:
         "put solution here"

@@ -35,6 +35,7 @@
 #   - formula的长度在[1, 1000]之间。
 #   - formula只包含字母、数字和圆括号，并且题目中给定的是合法的化学式。
 
+
 class Solution:
     def countOfAtoms(self, formula: str) -> str:
         "put solution here"

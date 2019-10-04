@@ -25,6 +25,10 @@
 #   - -10000 < points[i][0] < 10000
 #   - -10000 < points[i][1] < 10000
 
+
+from typing import *
+
+
 class Solution:
     def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
         "put solution here"

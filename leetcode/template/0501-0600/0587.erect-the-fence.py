@@ -24,6 +24,10 @@
 #   - 所有树的坐标都是不同的。
 #   - 输入的点没有顺序。输出顺序也没有要求。
 
+
+from typing import *
+
+
 class Solution:
     def outerTrees(self, points: List[List[int]]) -> List[List[int]]:
         "put solution here"

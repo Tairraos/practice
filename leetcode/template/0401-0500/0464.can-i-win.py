@@ -24,6 +24,7 @@
 # 第二个玩家可以通过选择整数 10（那么累积和为 11 >= desiredTotal），从而取得胜利.
 # 同样地，第一个玩家选择任意其他整数，第二个玩家都会赢。
 
+
 class Solution:
     def canIWin(self, maxChoosableInteger: int, desiredTotal: int) -> bool:
         "put solution here"

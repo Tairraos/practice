@@ -26,6 +26,10 @@
 #   - 1 <= rods[i] <= 1000
 #   - 钢筋的长度总和最多为 5000
 
+
+from typing import *
+
+
 class Solution:
     def tallestBillboard(self, rods: List[int]) -> int:
         "put solution here"

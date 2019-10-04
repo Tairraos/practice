@@ -52,8 +52,8 @@ var findCheapestPrice = function(n, flights, src, dst, K) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(findCheapestPrice("param"), "expect", "caseName");
-assert.deepEqual(findCheapestPrice("param"), "expect", "caseName");
+assert.deepEqual(findCheapestPrice("param"), "expect", "Case 1");
+assert.deepEqual(findCheapestPrice("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

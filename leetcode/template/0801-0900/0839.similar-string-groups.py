@@ -22,6 +22,10 @@
 # 备注：
 #       字母异位词[anagram]，一种把某个字符串的字母的位置（顺序）加以改换所形成的新词。
 
+
+from typing import *
+
+
 class Solution:
     def numSimilarGroups(self, A: List[str]) -> int:
         "put solution here"

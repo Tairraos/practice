@@ -24,6 +24,10 @@
 #   - answers 的长度最大为1000。
 #   - answers[i] 是在 [0, 999] 范围内的整数。
 
+
+from typing import *
+
+
 class Solution:
     def numRabbits(self, answers: List[int]) -> int:
         "put solution here"

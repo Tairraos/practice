@@ -26,6 +26,10 @@
 #   - 1 <= A.length <= 40000
 #   - 0 <= A[i] <= 10^9
 
+
+from typing import *
+
+
 class Solution:
     def maxTurbulenceSize(self, A: List[int]) -> int:
         "put solution here"

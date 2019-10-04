@@ -17,6 +17,10 @@
 #   - 这是 [H指数](/problems/h-index/description/) 的延伸题目，本题中的 citations 数组是保证有序的。
 #   - 你可以优化你的算法到对数时间复杂度吗？
 
+
+from typing import *
+
+
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
         "put solution here"

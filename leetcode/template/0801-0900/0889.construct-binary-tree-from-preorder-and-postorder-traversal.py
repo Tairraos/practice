@@ -14,6 +14,17 @@
 #   - pre[] 和 post[] 都是 1, 2, ..., pre.length 的排列
 #   - 每个输入保证至少有一个答案。如果有多个答案，可以返回其中一个。
 
+
+from typing import *
+
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

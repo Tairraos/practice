@@ -12,6 +12,10 @@
 #   - 数组的长度为 [1, 20,000]。
 #   - 数组中元素的范围是 [-1000, 1000] ，且整数 k 的范围是 [-1e7, 1e7]。
 
+
+from typing import *
+
+
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         "put solution here"

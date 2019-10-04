@@ -14,6 +14,10 @@
 # 输出: ["0","2->4","6","8->9"]
 # 解释: 2,3,4 可组成一个连续的区间; 8,9 可组成一个连续的区间。
 
+
+from typing import *
+
+
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         "put solution here"

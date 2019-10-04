@@ -42,8 +42,8 @@ var numMusicPlaylists = function(N, L, K) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(numMusicPlaylists("param"), "expect", "caseName");
-assert.deepEqual(numMusicPlaylists("param"), "expect", "caseName");
+assert.deepEqual(numMusicPlaylists("param"), "expect", "Case 1");
+assert.deepEqual(numMusicPlaylists("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

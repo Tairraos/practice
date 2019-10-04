@@ -19,6 +19,10 @@
 #   - 1 <= A[0].length <= 20
 #   - A[i][j] 是 0 或 1
 
+
+from typing import *
+
+
 class Solution:
     def matrixScore(self, A: List[List[int]]) -> int:
         "put solution here"

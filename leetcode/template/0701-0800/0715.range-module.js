@@ -23,7 +23,6 @@
  *   - 在单个测试用例中，对 removeRange 的调用总数不超过 1000 次。
  */
 
-
 var RangeModule = function() {
     
 };
@@ -57,7 +56,7 @@ RangeModule.prototype.removeRange = function(left, right) {
 
 /** 
  * Your RangeModule object will be instantiated and called as such:
- * var obj = Object.create(RangeModule).createNew()
+ * var obj = new RangeModule()
  * obj.addRange(left,right)
  * var param_2 = obj.queryRange(left,right)
  * obj.removeRange(left,right)
@@ -67,8 +66,8 @@ RangeModule.prototype.removeRange = function(left, right) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(RangeModule("param"), "expect", "caseName");
-assert.deepEqual(RangeModule("param"), "expect", "caseName");
+assert.deepEqual(RangeModule("param"), "expect", "Case 1");
+assert.deepEqual(RangeModule("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -20,6 +20,10 @@
 #   - 0 <= len(words[i]) <= 100。
 #   - S 和所有在 words 中的单词都只由小写字母组成。
 
+
+from typing import *
+
+
 class Solution:
     def expressiveWords(self, S: str, words: List[str]) -> int:
         "put solution here"

@@ -11,7 +11,7 @@
  * 你是否可以在 O(1) 时间复杂度内完成这两种操作？
  * 
  * 示例：
- * LRUCache cache = new LRUCache(2);// 缓存容量
+ * LRUCache cache = new LRUCache( 2 /* 缓存容量 */ );
  * 
  * cache.put(1, 1);
  * cache.put(2, 2);
@@ -50,7 +50,7 @@ LRUCache.prototype.put = function(key, value) {
 
 /** 
  * Your LRUCache object will be instantiated and called as such:
- * var obj = Object.create(LRUCache).createNew(capacity)
+ * var obj = new LRUCache(capacity)
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
@@ -59,8 +59,8 @@ LRUCache.prototype.put = function(key, value) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(LRUCache("param"), "expect", "caseName");
-assert.deepEqual(LRUCache("param"), "expect", "caseName");
+assert.deepEqual(LRUCache("param"), "expect", "Case 1");
+assert.deepEqual(LRUCache("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

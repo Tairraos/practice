@@ -19,6 +19,10 @@
 # 
 # [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0463.png)
 
+
+from typing import *
+
+
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         "put solution here"

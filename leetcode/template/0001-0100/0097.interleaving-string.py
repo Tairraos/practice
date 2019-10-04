@@ -12,6 +12,7 @@
 # 输入: s1 = "aabcc", s2 = "dbbca", s3 = "aadbbbaccc"
 # 输出: false
 
+
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
         "put solution here"

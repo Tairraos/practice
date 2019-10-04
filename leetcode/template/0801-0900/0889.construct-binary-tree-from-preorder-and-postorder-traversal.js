@@ -36,8 +36,8 @@ var constructFromPrePost = function(pre, post) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(constructFromPrePost("param"), "expect", "caseName");
-assert.deepEqual(constructFromPrePost("param"), "expect", "caseName");
+assert.deepEqual(constructFromPrePost("param"), "expect", "Case 1");
+assert.deepEqual(constructFromPrePost("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

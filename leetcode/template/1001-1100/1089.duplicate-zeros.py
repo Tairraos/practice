@@ -22,6 +22,10 @@
 # 1 <= arr.length <= 10000
 # 0 <= arr[i] <= 9
 
+
+from typing import *
+
+
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         """

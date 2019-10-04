@@ -28,6 +28,7 @@
 # 解释：
 # 10的二进制数是: 1010
 
+
 class Solution:
     def hasAlternatingBits(self, n: int) -> bool:
         "put solution here"

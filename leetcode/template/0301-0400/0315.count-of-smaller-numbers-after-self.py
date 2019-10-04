@@ -13,6 +13,10 @@
 # 6 的右侧有 1 个更小的元素 (1).
 # 1 的右侧有 0 个更小的元素.
 
+
+from typing import *
+
+
 class Solution:
     def countSmaller(self, nums: List[int]) -> List[int]:
         "put solution here"

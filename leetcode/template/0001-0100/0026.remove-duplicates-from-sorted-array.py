@@ -32,6 +32,10 @@
 #     print(nums[i]);
 # }
 
+
+from typing import *
+
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         "put solution here"

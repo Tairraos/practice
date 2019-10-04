@@ -21,6 +21,14 @@
 #   - 每个测试用例最多调用 CBTInserter.insert  操作 10000 次。
 #   - 给定结点或插入结点的每个值都在 0 到 5000 之间。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,30 +39,30 @@
 class CBTInserter:
 
     def __init__(self, root: TreeNode):
-        "put solution here"
+        
 
     def insert(self, v: int) -> int:
-        "put solution here"
+        
 
     def get_root(self) -> TreeNode:
-        "put solution here"
+        
 
 
 # Your CBTInserter object will be instantiated and called as such:
 # obj = CBTInserter(root)
 # param_1 = obj.insert(v)
 # param_2 = obj.get_root()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-class CBTInserter:
-    unit = CBTInserter()
+    unit = Solution()
 
-    assert unit.insert('param') == 'expect', 'Case 1'
-    assert unit.get_root('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

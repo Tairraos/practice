@@ -15,6 +15,7 @@
 #   - 两个字符串长度均小于100。
 #   - 字符串中的字符仅含有 'a'~'z'。
 
+
 class Solution:
     def findLUSlength(self, a: str, b: str) -> int:
         "put solution here"

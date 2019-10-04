@@ -29,6 +29,7 @@
 # 说明：
 #   - 1 <= target（目标位置） <= 10000。
 
+
 class Solution:
     def racecar(self, target: int) -> int:
         "put solution here"

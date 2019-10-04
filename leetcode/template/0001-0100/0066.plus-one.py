@@ -16,6 +16,10 @@
 # 输出: [4,3,2,2]
 # 解释: 输入数组表示数字 4321。
 
+
+from typing import *
+
+
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         "put solution here"

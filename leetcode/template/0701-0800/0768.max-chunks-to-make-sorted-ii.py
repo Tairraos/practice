@@ -25,6 +25,10 @@
 #   - arr的长度在[1, 2000]之间。
 #   - arr[i]的大小在[0, 10**8]之间。
 
+
+from typing import *
+
+
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
         "put solution here"

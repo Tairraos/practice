@@ -16,6 +16,14 @@
 # 
 # 注意：两结点之间的路径长度是以它们之间边的数目表示。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

@@ -7,6 +7,10 @@
 # 例如，给定数组 nums = [-1，2，1，-4], 和 target = 1.
 # 与 target 最接近的三个数的和为 2. (-1 + 2 + 1 = 2).
 
+
+from typing import *
+
+
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         "put solution here"

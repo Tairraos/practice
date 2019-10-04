@@ -33,6 +33,7 @@
 # expression[i] 由 {&#39;(&#39;, &#39;)&#39;, &#39;&amp;&#39;, &#39;|&#39;, &#39;!&#39;, &#39;t&#39;, &#39;f&#39;, &#39;,&#39;} 中的字符组成。
 # expression 是以上述形式给出的有效表达式，表示一个布尔值。
 
+
 class Solution:
     def parseBoolExpr(self, expression: str) -> bool:
         "put solution here"

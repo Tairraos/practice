@@ -27,6 +27,10 @@
 # 1 <= arr[i] <= 15
 # 答案保证是一个 32 位带符号整数，即小于 2^31。
 
+
+from typing import *
+
+
 class Solution:
     def mctFromLeafValues(self, arr: List[int]) -> int:
         "put solution here"

@@ -31,6 +31,16 @@
 #   - 输入的每个节点的大小范围：[0, 999].
 #   - k 的取值范围： [1, 50].
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

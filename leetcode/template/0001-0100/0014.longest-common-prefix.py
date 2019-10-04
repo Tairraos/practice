@@ -17,6 +17,10 @@
 # 说明：
 # 所有输入只包含小写字母 a-z 。
 
+
+from typing import *
+
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         "put solution here"

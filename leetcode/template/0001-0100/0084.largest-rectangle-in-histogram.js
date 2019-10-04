@@ -29,8 +29,8 @@ var largestRectangleArea = function(heights) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(largestRectangleArea("param"), "expect", "caseName");
-assert.deepEqual(largestRectangleArea("param"), "expect", "caseName");
+assert.deepEqual(largestRectangleArea("param"), "expect", "Case 1");
+assert.deepEqual(largestRectangleArea("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -14,6 +14,10 @@
 #   - 一个有效的正方形有四个等长的正长和四个等角（90度角）。
 #   - 输入点没有顺序。
 
+
+from typing import *
+
+
 class Solution:
     def validSquare(self, p1: List[int], p2: List[int], p3: List[int], p4: List[int]) -> bool:
         "put solution here"

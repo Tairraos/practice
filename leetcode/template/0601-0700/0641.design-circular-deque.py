@@ -31,6 +31,7 @@
 #   - 操作次数的范围为 [1, 1000]
 #   - 请不要使用内置的双端队列库。
 
+
 class MyCircularDeque:
 
     def __init__(self, k: int):
@@ -98,13 +99,14 @@ class MyCircularDeque:
 # param_6 = obj.getRear()
 # param_7 = obj.isEmpty()
 # param_8 = obj.isFull()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MyCircularDeque()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

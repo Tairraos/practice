@@ -36,6 +36,10 @@
 #   - 1 <= grid.length = grid[0].length <= 50
 #   - 0 <= grid[i][j] <= 50
 
+
+from typing import *
+
+
 class Solution:
     def projectionArea(self, grid: List[List[int]]) -> int:
         "put solution here"

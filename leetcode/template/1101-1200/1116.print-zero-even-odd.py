@@ -28,6 +28,7 @@
 # 输入：n = 5
 # 输出："0102030405"
 
+
 class ZeroEvenOdd:
     def __init__(self, n):
         self.n = n
@@ -35,11 +36,11 @@ class ZeroEvenOdd:
         
 	# printNumber(x) outputs "x", where x is an integer.
     def zero(self, printNumber: 'Callable[[int], None]') -> None:
-        "put solution here"
+        
         
         
     def even(self, printNumber: 'Callable[[int], None]') -> None:
-        "put solution here"
+        
         
         
     def odd(self, printNumber: 'Callable[[int], None]') -> None:
@@ -50,11 +51,10 @@ class ZeroEvenOdd:
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = ZeroEvenOdd()
+    unit = Solution()
 
-    assert unit.zero('param') == 'expect', 'Case 1'
-    assert unit.even('param') == 'expect', 'Case 2'
-    assert unit.odd('param') == 'expect', 'Case 3'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

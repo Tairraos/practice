@@ -66,7 +66,7 @@ MyQueue.prototype.empty = function() {
 
 /** 
  * Your MyQueue object will be instantiated and called as such:
- * var obj = Object.create(MyQueue).createNew()
+ * var obj = new MyQueue()
  * obj.push(x)
  * var param_2 = obj.pop()
  * var param_3 = obj.peek()
@@ -77,8 +77,8 @@ MyQueue.prototype.empty = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MyQueue("param"), "expect", "caseName");
-assert.deepEqual(MyQueue("param"), "expect", "caseName");
+assert.deepEqual(MyQueue("param"), "expect", "Case 1");
+assert.deepEqual(MyQueue("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

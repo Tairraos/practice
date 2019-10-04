@@ -33,6 +33,10 @@
 # [2,4,6,8,10]
 # [2,6,10]
 
+
+from typing import *
+
+
 class Solution:
     def numberOfArithmeticSlices(self, A: List[int]) -> int:
         "put solution here"

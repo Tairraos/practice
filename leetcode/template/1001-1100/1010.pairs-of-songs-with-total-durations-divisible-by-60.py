@@ -23,6 +23,10 @@
 # 1 <= time.length <= 60000
 # 1 <= time[i] <= 500
 
+
+from typing import *
+
+
 class Solution:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:
         "put solution here"

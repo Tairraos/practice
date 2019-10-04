@@ -25,6 +25,10 @@
 #   - nums的长度最大为20000。
 #   - 每个整数nums[i]的大小都在[1, 10000]范围内。
 
+
+from typing import *
+
+
 class Solution:
     def deleteAndEarn(self, nums: List[int]) -> int:
         "put solution here"

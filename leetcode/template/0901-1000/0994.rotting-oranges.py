@@ -30,6 +30,10 @@
 #   - 1 <= grid[0].length <= 10
 #   - grid[i][j] 仅为 0、1 或 2
 
+
+from typing import *
+
+
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         "put solution here"

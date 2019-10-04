@@ -22,6 +22,10 @@
 #   - -10 ^ 5 <= A[i] <= 10 ^ 5
 #   - 1 <= K <= 10 ^ 9
 
+
+from typing import *
+
+
 class Solution:
     def shortestSubarray(self, A: List[int], K: int) -> int:
         "put solution here"

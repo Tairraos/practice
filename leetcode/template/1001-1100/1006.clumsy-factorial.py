@@ -23,6 +23,7 @@
 #   - 1 <= N <= 10000
 #   - -2^31 <= answer <= 2^31 - 1  （答案保证符合 32 位整数。）
 
+
 class Solution:
     def clumsy(self, N: int) -> int:
         "put solution here"

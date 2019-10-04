@@ -20,6 +20,10 @@
 #   - 1 <= fronts[i] <= 2000
 #   - 1 <= backs[i] <= 2000
 
+
+from typing import *
+
+
 class Solution:
     def flipgame(self, fronts: List[int], backs: List[int]) -> int:
         "put solution here"

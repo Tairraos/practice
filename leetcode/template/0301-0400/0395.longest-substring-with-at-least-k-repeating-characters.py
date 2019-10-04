@@ -22,6 +22,7 @@
 # 
 # 最长子串为 "ababb" ，其中 'a' 重复了 2 次， 'b' 重复了 3 次。
 
+
 class Solution:
     def longestSubstring(self, s: str, k: int) -> int:
         "put solution here"

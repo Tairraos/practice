@@ -16,6 +16,10 @@
 # 提示：
 #   - 1 <= N <= 20
 
+
+from typing import *
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

@@ -16,6 +16,17 @@
 # 
 # 进阶: 递归算法很简单，你可以通过迭代算法完成吗？
 
+
+from typing import *
+
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

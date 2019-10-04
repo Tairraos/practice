@@ -38,8 +38,8 @@ var lastStoneWeightII = function(stones) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(lastStoneWeightII("param"), "expect", "caseName");
-assert.deepEqual(lastStoneWeightII("param"), "expect", "caseName");
+assert.deepEqual(lastStoneWeightII("param"), "expect", "Case 1");
+assert.deepEqual(lastStoneWeightII("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

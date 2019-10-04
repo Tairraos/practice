@@ -44,8 +44,8 @@ var robotSim = function(commands, obstacles) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(robotSim("param"), "expect", "caseName");
-assert.deepEqual(robotSim("param"), "expect", "caseName");
+assert.deepEqual(robotSim("param"), "expect", "Case 1");
+assert.deepEqual(robotSim("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

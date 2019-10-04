@@ -24,6 +24,10 @@
 #   - 数组里所有分数都为非负数且不会大于10000000。
 #   - 如果最终两个玩家的分数相等，那么玩家1仍为赢家。
 
+
+from typing import *
+
+
 class Solution:
     def PredictTheWinner(self, nums: List[int]) -> bool:
         "put solution here"

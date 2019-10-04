@@ -30,6 +30,10 @@
 #   - 4 <= S.length <= 12.
 #   - S[0] = "(", S[S.length - 1] = ")", 且字符串 S 中的其他元素都是数字。
 
+
+from typing import *
+
+
 class Solution:
     def ambiguousCoordinates(self, S: str) -> List[str]:
         "put solution here"

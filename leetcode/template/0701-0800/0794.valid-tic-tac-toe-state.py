@@ -34,6 +34,10 @@
 #   - 游戏板 board 是长度为 3 的字符串数组，其中每个字符串 board[i] 的长度为 3。
 #   -  board[i][j] 是集合 {" ", "X", "O"} 中的一个字符。
 
+
+from typing import *
+
+
 class Solution:
     def validTicTacToe(self, board: List[str]) -> bool:
         "put solution here"

@@ -14,6 +14,7 @@
 #   - 小猪喝完水后，必须有 m 分钟的冷却时间。在这段时间里，只允许观察，而不允许继续饮水。
 #   - 任何给定的桶都可以无限次采样（无限数量的猪）。
 
+
 class Solution:
     def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:
         "put solution here"

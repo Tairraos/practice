@@ -24,18 +24,23 @@
 # 输入语法说明：
 # 输入是两个列表：调用成员函数名和调用的参数。Solution 的构造函数有三个参数，圆的半径、圆心的 x 坐标、圆心的 y 坐标。randPoint 没有参数。输入参数是一个列表，即使参数为空，也会输入一个 [] 空列表。
 
+
+from typing import *
+
+
 class Solution:
 
     def __init__(self, radius: float, x_center: float, y_center: float):
-        "put solution here"
+        
 
     def randPoint(self) -> List[float]:
-        "put solution here"
+        
 
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(radius, x_center, y_center)
 # param_1 = obj.randPoint()
+        "put solution here"
 
 
 # Local test
@@ -44,8 +49,8 @@ if __name__ == '__main__':
     launch_start = time.time()
     unit = Solution()
 
-    assert unit.randPoint('param') == 'expect', 'Case 1'
-    assert unit.randPoint('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

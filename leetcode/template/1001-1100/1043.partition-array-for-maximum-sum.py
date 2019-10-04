@@ -15,6 +15,10 @@
 # 1 <= K <= A.length <= 500
 # 0 <= A[i] <= 10^6
 
+
+from typing import *
+
+
 class Solution:
     def maxSumAfterPartitioning(self, A: List[int], K: int) -> int:
         "put solution here"

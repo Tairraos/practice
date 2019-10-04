@@ -20,6 +20,10 @@
 #   - 1 <= words.length <= 50
 #   - 1 <= pattern.length = words[i].length <= 20
 
+
+from typing import *
+
+
 class Solution:
     def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:
         "put solution here"

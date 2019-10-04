@@ -23,6 +23,7 @@
 #   - poured 的范围[0, 10 ^ 9]。
 #   - query_glass 和query_row 的范围 [0, 99]。
 
+
 class Solution:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
         "put solution here"

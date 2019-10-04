@@ -35,6 +35,10 @@
 #   -  根据[树的定义](https://baike.baidu.com/item/%E6%A0%91)，树是一个无向图，其中任何两个顶点只通过一条路径连接。 换句话说，一个任何没有简单环路的连通图都是一棵树。
 #   - 树的高度是指根节点和叶子节点之间最长向下路径上边的数量。
 
+
+from typing import *
+
+
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         "put solution here"

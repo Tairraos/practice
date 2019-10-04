@@ -47,7 +47,7 @@ MagicDictionary.prototype.search = function(word) {
 
 /** 
  * Your MagicDictionary object will be instantiated and called as such:
- * var obj = Object.create(MagicDictionary).createNew()
+ * var obj = new MagicDictionary()
  * obj.buildDict(dict)
  * var param_2 = obj.search(word)
  */
@@ -56,8 +56,8 @@ MagicDictionary.prototype.search = function(word) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MagicDictionary("param"), "expect", "caseName");
-assert.deepEqual(MagicDictionary("param"), "expect", "caseName");
+assert.deepEqual(MagicDictionary("param"), "expect", "Case 1");
+assert.deepEqual(MagicDictionary("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

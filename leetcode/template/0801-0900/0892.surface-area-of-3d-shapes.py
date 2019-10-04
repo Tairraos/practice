@@ -30,6 +30,10 @@
 #   - 1 <= N <= 50
 #   - 0 <= grid[i][j] <= 50
 
+
+from typing import *
+
+
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         "put solution here"

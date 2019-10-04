@@ -23,6 +23,10 @@
 #   - 1 <= len(bits) <= 1000.
 #   - bits[i] 总是0 或 1.
 
+
+from typing import *
+
+
 class Solution:
     def isOneBitCharacter(self, bits: List[int]) -> bool:
         "put solution here"

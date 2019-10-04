@@ -22,6 +22,10 @@
 # 其中最好的方式是将其分为[7,2,5] 和 [10,8]，
 # 因为此时这两个子数组各自的和的最大值为18，在所有情况中最小。
 
+
+from typing import *
+
+
 class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:
         "put solution here"

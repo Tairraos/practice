@@ -29,6 +29,10 @@
 #   - -30000 <= obstacle[i][1] <= 30000
 #   - 答案保证小于 2 ^ 31
 
+
+from typing import *
+
+
 class Solution:
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
         "put solution here"

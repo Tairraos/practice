@@ -46,7 +46,7 @@ StockSpanner.prototype.next = function(price) {
 
 /** 
  * Your StockSpanner object will be instantiated and called as such:
- * var obj = Object.create(StockSpanner).createNew()
+ * var obj = new StockSpanner()
  * var param_1 = obj.next(price)
  */
 
@@ -54,8 +54,8 @@ StockSpanner.prototype.next = function(price) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(StockSpanner("param"), "expect", "caseName");
-assert.deepEqual(StockSpanner("param"), "expect", "caseName");
+assert.deepEqual(StockSpanner("param"), "expect", "Case 1");
+assert.deepEqual(StockSpanner("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

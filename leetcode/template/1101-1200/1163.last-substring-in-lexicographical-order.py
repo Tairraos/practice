@@ -17,6 +17,7 @@
 # 1 <= s.length <= 10^5
 # s 仅含有小写英文字符。
 
+
 class Solution:
     def lastSubstring(self, s: str) -> str:
         "put solution here"

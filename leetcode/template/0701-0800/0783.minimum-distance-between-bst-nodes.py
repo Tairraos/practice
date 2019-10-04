@@ -25,6 +25,14 @@
 #   - 二叉树的大小范围在 2 到 100。
 #   - 二叉树总是有效的，每个节点的值都是整数，且不重复。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

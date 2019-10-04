@@ -17,6 +17,7 @@
 # 1 <= tiles.length <= 7
 # tiles 由大写英文字母组成
 
+
 class Solution:
     def numTilePossibilities(self, tiles: str) -> int:
         "put solution here"

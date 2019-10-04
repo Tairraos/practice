@@ -19,6 +19,7 @@
 #   - 1 <= len(start) = len(end) <= 10000。
 #   - start和end中的字符串仅限于'L', 'R'和'X'。
 
+
 class Solution:
     def canTransform(self, start: str, end: str) -> bool:
         "put solution here"

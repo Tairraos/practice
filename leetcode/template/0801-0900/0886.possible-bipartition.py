@@ -27,6 +27,10 @@
 #   - dislikes[i][0] < dislikes[i][1]
 #   - 对于 dislikes[i] == dislikes[j] 不存在 i != j
 
+
+from typing import *
+
+
 class Solution:
     def possibleBipartition(self, N: int, dislikes: List[List[int]]) -> bool:
         "put solution here"

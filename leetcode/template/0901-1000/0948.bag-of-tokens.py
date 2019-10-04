@@ -26,6 +26,10 @@
 #   - 0 <= tokens[i] < 10000
 #   - 0 <= P < 10000
 
+
+from typing import *
+
+
 class Solution:
     def bagOfTokensScore(self, tokens: List[int], P: int) -> int:
         "put solution here"

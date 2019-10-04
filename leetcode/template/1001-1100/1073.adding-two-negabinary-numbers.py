@@ -20,6 +20,10 @@
 # arr1[i] 为 0 或 1
 # arr2[i] 为 0 或 1
 
+
+from typing import *
+
+
 class Solution:
     def addNegabinary(self, arr1: List[int], arr2: List[int]) -> List[int]:
         "put solution here"

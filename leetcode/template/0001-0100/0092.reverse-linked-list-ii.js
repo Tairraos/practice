@@ -34,8 +34,8 @@ var reverseBetween = function(head, m, n) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(reverseBetween("param"), "expect", "caseName");
-assert.deepEqual(reverseBetween("param"), "expect", "caseName");
+assert.deepEqual(reverseBetween("param"), "expect", "Case 1");
+assert.deepEqual(reverseBetween("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

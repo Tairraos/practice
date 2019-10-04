@@ -12,6 +12,10 @@
 # 输出: 3
 # 解释: 对应的交易状态为: [买入, 卖出, 冷冻期, 买入, 卖出]
 
+
+from typing import *
+
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         "put solution here"

@@ -30,6 +30,7 @@
 #   - S.length <= 1000
 #   - S 只包含 '(' 和 ')' 字符。
 
+
 class Solution:
     def minAddToMakeValid(self, S: str) -> int:
         "put solution here"

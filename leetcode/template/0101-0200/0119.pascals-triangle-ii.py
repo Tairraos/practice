@@ -13,6 +13,10 @@
 # 进阶：
 # 你可以优化你的算法到 O(k) 空间复杂度吗？
 
+
+from typing import *
+
+
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         "put solution here"

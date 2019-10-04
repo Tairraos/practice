@@ -22,6 +22,10 @@
 #   - 1 <= A.length = A[0].length <= 20
 #   - 0 <= A[i][j] <= 1
 
+
+from typing import *
+
+
 class Solution:
     def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
         "put solution here"

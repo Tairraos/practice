@@ -17,6 +17,16 @@
 # // getRandom()方法应随机返回1,2,3中的一个，保证每个元素被返回的概率相等。
 # solution.getRandom();
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,6 +52,7 @@ class Solution:
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(head)
 # param_1 = obj.getRandom()
+        "put solution here"
 
 
 # Local test

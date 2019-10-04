@@ -24,6 +24,7 @@
 # 输入: 4
 # 输出: "1211"
 
+
 class Solution:
     def countAndSay(self, n: int) -> str:
         "put solution here"

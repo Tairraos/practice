@@ -21,6 +21,10 @@
 #   - 0 <= pushed[i], popped[i] < 1000
 #   - pushed 是 popped 的排列。
 
+
+from typing import *
+
+
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         "put solution here"

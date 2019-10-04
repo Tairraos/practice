@@ -14,6 +14,7 @@
 # 输入: "race a car"
 # 输出: false
 
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         "put solution here"

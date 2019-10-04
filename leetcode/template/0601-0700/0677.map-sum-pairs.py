@@ -12,6 +12,7 @@
 # 输入: insert("app", 2), 输出: Null
 # 输入: sum("ap"), 输出: 5
 
+
 class MapSum:
 
     def __init__(self):
@@ -21,26 +22,27 @@ class MapSum:
         
 
     def insert(self, key: str, val: int) -> None:
-        "put solution here"
+        
 
     def sum(self, prefix: str) -> int:
-        "put solution here"
+        
 
 
 # Your MapSum object will be instantiated and called as such:
 # obj = MapSum()
 # obj.insert(key,val)
 # param_2 = obj.sum(prefix)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MapSum()
+    unit = Solution()
 
-    assert unit.insert('param') == 'expect', 'Case 1'
-    assert unit.sum('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

@@ -24,6 +24,10 @@
 #   - 数组中每个元素的大小都在 [2, 1000] 之间。
 #   - 每个测试用例只有一个最优除法解。
 
+
+from typing import *
+
+
 class Solution:
     def optimalDivision(self, nums: List[int]) -> str:
         "put solution here"

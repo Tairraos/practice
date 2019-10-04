@@ -24,6 +24,7 @@
 # 说明：
 #   - N 是一个正整数，并且不会超过15。
 
+
 class Solution:
     def countArrangement(self, N: int) -> int:
         "put solution here"

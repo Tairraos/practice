@@ -24,6 +24,10 @@
 #   - -10000 <= queries[i][0] <= 10000
 #   - 0 <= queries[i][1] < A.length
 
+
+from typing import *
+
+
 class Solution:
     def sumEvenAfterQueries(self, A: List[int], queries: List[List[int]]) -> List[int]:
         "put solution here"

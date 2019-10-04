@@ -24,6 +24,10 @@
 # 进阶：
 # 你能否用 O(n) 时间复杂度完成此题?
 
+
+from typing import *
+
+
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
         "put solution here"

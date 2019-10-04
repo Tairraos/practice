@@ -24,6 +24,7 @@
 # 说明：
 # 你可以假设 pattern 只包含小写字母， str 包含了由单个空格分隔的小写字母。
 
+
 class Solution:
     def wordPattern(self, pattern: str, str: str) -> bool:
         "put solution here"

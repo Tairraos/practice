@@ -41,6 +41,10 @@
 #   - expression 的长度在 [1, 250] 范围内。
 #   - evalvars, evalints 在范围 [0, 100] 内，且长度相同。
 
+
+from typing import *
+
+
 class Solution:
     def basicCalculatorIV(self, expression: str, evalvars: List[str], evalints: List[int]) -> List[str]:
         "put solution here"

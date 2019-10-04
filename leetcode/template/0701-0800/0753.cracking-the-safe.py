@@ -24,6 +24,7 @@
 #   - k 的范围是 [1, 10]。
 #   - k^n 最大可能为 4096。
 
+
 class Solution:
     def crackSafe(self, n: int, k: int) -> str:
         "put solution here"

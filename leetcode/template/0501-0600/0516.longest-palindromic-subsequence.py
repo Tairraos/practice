@@ -20,6 +20,7 @@
 # 
 # 一个可能的最长回文子序列为 "bb"。
 
+
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
         "put solution here"

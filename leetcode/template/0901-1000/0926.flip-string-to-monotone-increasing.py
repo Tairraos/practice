@@ -25,6 +25,7 @@
 #   - 1 <= S.length <= 20000
 #   - S 中只包含字符 '0' 和 '1'
 
+
 class Solution:
     def minFlipsMonoIncr(self, S: str) -> int:
         "put solution here"

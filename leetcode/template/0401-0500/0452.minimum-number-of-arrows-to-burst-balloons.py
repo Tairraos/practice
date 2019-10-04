@@ -14,6 +14,10 @@
 # 解释：
 # 对于该样例，我们可以在x = 6（射爆[2,8],[1,6]两个气球）和 x = 11（射爆另外两个气球）。
 
+
+from typing import *
+
+
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
         "put solution here"

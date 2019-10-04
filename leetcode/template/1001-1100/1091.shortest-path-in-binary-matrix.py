@@ -27,6 +27,10 @@
 # 1 <= grid.length == grid[0].length <= 100
 # grid[i][j] 为 0 或 1
 
+
+from typing import *
+
+
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         "put solution here"

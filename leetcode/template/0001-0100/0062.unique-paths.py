@@ -24,6 +24,7 @@
 # 输入: m = 7, n = 3
 # 输出: 28
 
+
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         "put solution here"

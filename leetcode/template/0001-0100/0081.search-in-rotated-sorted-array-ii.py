@@ -18,6 +18,10 @@
 #   - 这是 [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/description/) 的延伸题目，本题中的 nums  可能包含重复元素。
 #   - 这会影响到程序的时间复杂度吗？会有怎样的影响，为什么？
 
+
+from typing import *
+
+
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
         "put solution here"

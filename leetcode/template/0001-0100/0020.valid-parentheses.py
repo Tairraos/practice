@@ -29,6 +29,7 @@
 # 输入: "{[]}"
 # 输出: true
 
+
 class Solution:
     def isValid(self, s: str) -> bool:
         "put solution here"

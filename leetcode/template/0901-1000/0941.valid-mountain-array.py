@@ -25,6 +25,10 @@
 #   - 0 <= A.length <= 10000
 #   - 0 <= A[i] <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def validMountainArray(self, A: List[int]) -> bool:
         "put solution here"

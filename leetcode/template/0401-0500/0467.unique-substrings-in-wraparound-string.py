@@ -22,6 +22,7 @@
 # 输出: 6
 # 解释: 在字符串 S 中有六个子串“z”、“a”、“b”、“za”、“ab”、“zab”。.
 
+
 class Solution:
     def findSubstringInWraproundString(self, p: str) -> int:
         "put solution here"

@@ -8,6 +8,14 @@
 # 
 # 注意：不要使用类成员/全局/静态变量来存储状态。 你的序列化和反序列化算法应该是无状态的。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 #Python 2
 
 # Definition for a binary tree node.
@@ -38,13 +46,14 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.deserialize(codec.serialize(root))
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Codec()
+    unit = Solution()
 
     assert unit.serialize('param') == 'expect', 'Case 1'
     assert unit.serialize('param') == 'expect', 'Case 2'

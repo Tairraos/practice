@@ -26,6 +26,7 @@
 # 输出: "Neither"
 # 解释: 这个地址既不是 IPv4 也不是 IPv6 地址。
 
+
 class Solution:
     def validIPAddress(self, IP: str) -> str:
         "put solution here"

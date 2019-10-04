@@ -25,6 +25,7 @@
 #   - 1 <= A.length == B.length <= 20
 #   - A 和 B 只包含集合 {'a', 'b', 'c', 'd', 'e', 'f'} 中的小写字母。
 
+
 class Solution:
     def kSimilarity(self, A: str, B: str) -> int:
         "put solution here"

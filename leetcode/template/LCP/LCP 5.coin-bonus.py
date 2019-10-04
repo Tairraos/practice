@@ -42,8 +42,13 @@
 # 1 <= Q <= 50000
 # operations[i][0] != 3 时，1 <= operations[i][2] <= 5000
 
+
+from typing import *
+
+
 class Solution:
-    def bonus(self, n: int, leadership: List[List[int]], operations: List[List[int]]) -> List[int]:"put solution here"
+    def bonus(self, n: int, leadership: List[List[int]], operations: List[List[int]]) -> List[int]:
+        "put solution here"
 
 
 # Local test

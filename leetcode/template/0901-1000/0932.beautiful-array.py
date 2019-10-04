@@ -19,6 +19,10 @@
 # 提示：
 #   - 1 <= N <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def beautifulArray(self, N: int) -> List[int]:
         "put solution here"

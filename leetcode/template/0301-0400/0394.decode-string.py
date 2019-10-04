@@ -12,6 +12,7 @@
 # s = "3[a2[c]]", 返回 "accaccacc".
 # s = "2[abc]3[cd]ef", 返回 "abcabccdcdcdef".
 
+
 class Solution:
     def decodeString(self, s: str) -> str:
         "put solution here"

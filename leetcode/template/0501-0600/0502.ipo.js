@@ -40,8 +40,8 @@ var findMaximizedCapital = function(k, W, Profits, Capital) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(findMaximizedCapital("param"), "expect", "caseName");
-assert.deepEqual(findMaximizedCapital("param"), "expect", "caseName");
+assert.deepEqual(findMaximizedCapital("param"), "expect", "Case 1");
+assert.deepEqual(findMaximizedCapital("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -17,6 +17,10 @@
 # 2 <= A.length <= 50000
 # 1 <= A[i] <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def maxScoreSightseeingPair(self, A: List[int]) -> int:
         "put solution here"

@@ -20,6 +20,7 @@
 # 
 # 给定 n ≥ 1，计算你至少需要拥有多少现金才能确保你能赢得这个游戏。
 
+
 class Solution:
     def getMoneyAmount(self, n: int) -> int:
         "put solution here"

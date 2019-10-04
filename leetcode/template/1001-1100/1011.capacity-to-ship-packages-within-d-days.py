@@ -43,6 +43,10 @@
 # 1 <= D <= weights.length <= 50000
 # 1 <= weights[i] <= 500
 
+
+from typing import *
+
+
 class Solution:
     def shipWithinDays(self, weights: List[int], D: int) -> int:
         "put solution here"

@@ -28,6 +28,10 @@
 # 致谢：
 # 特别感谢 [@pbrother](https://leetcode.com/pbrother/) 添加此问题并创建所有测试用例。
 
+
+from typing import *
+
+
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
         "put solution here"

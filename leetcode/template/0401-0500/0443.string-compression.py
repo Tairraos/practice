@@ -46,6 +46,10 @@
 #   - 所有字符都有一个ASCII值在[35, 126]区间内。
 #   - 1 <= len(chars) <= 1000。
 
+
+from typing import *
+
+
 class Solution:
     def compress(self, chars: List[str]) -> int:
         "put solution here"

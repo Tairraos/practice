@@ -36,6 +36,10 @@
 #   - 所有 A[i] 都具有相同的长度。
 #   - 所有 A[i] 都只由小写字母组成。
 
+
+from typing import *
+
+
 class Solution:
     def numSpecialEquivGroups(self, A: List[str]) -> int:
         "put solution here"

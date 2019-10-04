@@ -29,6 +29,10 @@
 #   - 硬币种类不超过 500 种
 #   - 结果符合 32 位符号整数
 
+
+from typing import *
+
+
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
         "put solution here"

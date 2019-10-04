@@ -36,6 +36,10 @@
 # 1 <= candies <= 10^9
 # 1 <= num_people <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         "put solution here"

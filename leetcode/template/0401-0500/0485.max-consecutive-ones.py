@@ -13,6 +13,10 @@
 #   - 输入的数组只包含 0 和1。
 #   - 输入数组的长度是正整数，且不超过 10,000。
 
+
+from typing import *
+
+
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         "put solution here"

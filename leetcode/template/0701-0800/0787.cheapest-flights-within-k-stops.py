@@ -34,6 +34,10 @@
 #   - k 范围是 [0, n - 1].
 #   - 航班没有重复，且不存在环路
 
+
+from typing import *
+
+
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
         "put solution here"

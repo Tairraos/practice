@@ -17,6 +17,10 @@
 #   - 图的边数不会超过 32000.
 #   - 每个 graph[i] 被排序为不同的整数列表， 在区间 [0, graph.length - 1] 中选取。
 
+
+from typing import *
+
+
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
         "put solution here"

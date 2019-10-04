@@ -15,6 +15,10 @@
 # 说明：
 # 你可以假设 k 总是有效的，且 1 ≤ k ≤ 数组的长度。
 
+
+from typing import *
+
+
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         "put solution here"

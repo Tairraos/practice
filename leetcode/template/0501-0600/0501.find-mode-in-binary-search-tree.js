@@ -42,8 +42,8 @@ var findMode = function(root) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(findMode("param"), "expect", "caseName");
-assert.deepEqual(findMode("param"), "expect", "caseName");
+assert.deepEqual(findMode("param"), "expect", "Case 1");
+assert.deepEqual(findMode("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

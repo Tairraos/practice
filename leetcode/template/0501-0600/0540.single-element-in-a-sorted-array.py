@@ -14,6 +14,10 @@
 # 
 # 注意: 您的方案应该在 O(log n)时间复杂度和 O(1)空间复杂度中运行。
 
+
+from typing import *
+
+
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
         "put solution here"

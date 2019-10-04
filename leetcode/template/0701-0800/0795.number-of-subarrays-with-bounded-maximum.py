@@ -17,6 +17,10 @@
 #   - L, R  和 A[i] 都是整数，范围在 [0, 10^9]。
 #   - 数组 A 的长度范围在[1, 50000]。
 
+
+from typing import *
+
+
 class Solution:
     def numSubarrayBoundedMax(self, A: List[int], L: int, R: int) -> int:
         "put solution here"

@@ -21,6 +21,10 @@
 #   - 1 <= A[i] <= A.length
 #   - 1 <= K <= A.length
 
+
+from typing import *
+
+
 class Solution:
     def subarraysWithKDistinct(self, A: List[int], K: int) -> int:
         "put solution here"

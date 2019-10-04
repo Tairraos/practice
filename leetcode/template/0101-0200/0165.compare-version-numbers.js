@@ -51,8 +51,8 @@ var compareVersion = function(version1, version2) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(compareVersion("param"), "expect", "caseName");
-assert.deepEqual(compareVersion("param"), "expect", "caseName");
+assert.deepEqual(compareVersion("param"), "expect", "Case 1");
+assert.deepEqual(compareVersion("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

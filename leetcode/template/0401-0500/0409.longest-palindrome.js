@@ -31,8 +31,8 @@ var longestPalindrome = function(s) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(longestPalindrome("param"), "expect", "caseName");
-assert.deepEqual(longestPalindrome("param"), "expect", "caseName");
+assert.deepEqual(longestPalindrome("param"), "expect", "Case 1");
+assert.deepEqual(longestPalindrome("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

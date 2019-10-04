@@ -18,6 +18,10 @@
 #   - 1 <= A[i].length <= 100
 #   - A[i][j] 是小写字母
 
+
+from typing import *
+
+
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         "put solution here"

@@ -22,6 +22,10 @@
 # 
 # 解释: 你可以拼出 "10"，但之后就没有剩余数字了。更好的选择是拼出 "0" 和 "1" 。
 
+
+from typing import *
+
+
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         "put solution here"

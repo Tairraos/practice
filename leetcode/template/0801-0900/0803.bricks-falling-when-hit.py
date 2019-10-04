@@ -28,6 +28,10 @@
 #   - 可以保证每次的消除都不相同，并且位于网格的内部。
 #   - 一个消除的位置可能没有砖块，如果这样的话，就不会有砖块落下。
 
+
+from typing import *
+
+
 class Solution:
     def hitBricks(self, grid: List[List[int]], hits: List[List[int]]) -> List[int]:
         "put solution here"

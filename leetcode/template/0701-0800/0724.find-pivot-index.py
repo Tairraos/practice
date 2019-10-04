@@ -25,6 +25,10 @@
 #   - nums 的长度范围为 [0, 10000]。
 #   - 任何一个 nums[i] 将会是一个范围在 [-1000, 1000]的整数。
 
+
+from typing import *
+
+
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
         "put solution here"

@@ -24,6 +24,7 @@
 #   - n的取值范围是 [3, 10^18]。
 #   - 输入总是有效且没有前导 0。
 
+
 class Solution:
     def smallestGoodBase(self, n: str) -> str:
         "put solution here"

@@ -30,6 +30,10 @@
 # 0 <= c0 < grid[0].length
 # 1 <= color <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def colorBorder(self, grid: List[List[int]], r0: int, c0: int, color: int) -> List[List[int]]:
         "put solution here"

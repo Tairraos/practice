@@ -62,6 +62,10 @@
 #   - 1 <= grid.length == grid[0].length <= 30
 #   - grid[i][j] 是 '/'、'\'、或 ' '。
 
+
+from typing import *
+
+
 class Solution:
     def regionsBySlashes(self, grid: List[str]) -> int:
         "put solution here"

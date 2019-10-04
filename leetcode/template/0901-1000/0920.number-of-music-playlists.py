@@ -26,6 +26,7 @@
 # 提示：
 #   - 0 <= K < N <= L <= 100
 
+
 class Solution:
     def numMusicPlaylists(self, N: int, L: int, K: int) -> int:
         "put solution here"

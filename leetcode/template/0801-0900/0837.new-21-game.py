@@ -28,6 +28,7 @@
 #   - 如果答案与正确答案的误差不超过 10^-5，则该答案将被视为正确答案通过。
 #   - 此问题的判断限制时间已经减少。
 
+
 class Solution:
     def new21Game(self, N: int, K: int, W: int) -> float:
         "put solution here"

@@ -18,6 +18,17 @@
 # 注意：
 #   - 节点值的范围在32位有符号整数范围内。
 
+
+from typing import *
+
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

@@ -17,6 +17,10 @@
 # [1,4,6,4,1]
 # ]
 
+
+from typing import *
+
+
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         "put solution here"

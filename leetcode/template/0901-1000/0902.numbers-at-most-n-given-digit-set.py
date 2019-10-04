@@ -26,6 +26,10 @@
 #   - D 是按排序顺序的数字 '1'-'9' 的子集。
 #   - 1 <= N <= 10^9
 
+
+from typing import *
+
+
 class Solution:
     def atMostNGivenDigitSet(self, D: List[str], N: int) -> int:
         "put solution here"

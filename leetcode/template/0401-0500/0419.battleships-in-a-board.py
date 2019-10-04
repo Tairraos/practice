@@ -23,6 +23,10 @@
 # 进阶：
 # 你可以用一次扫描算法，只使用O(1)额外空间，并且不修改甲板的值来解决这个问题吗？
 
+
+from typing import *
+
+
 class Solution:
     def countBattleships(self, board: List[List[str]]) -> int:
         "put solution here"

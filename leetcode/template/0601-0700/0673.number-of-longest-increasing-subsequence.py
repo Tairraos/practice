@@ -16,6 +16,10 @@
 # 
 # 注意: 给定的数组长度不超过 2000 并且结果一定是32位有符号整数。
 
+
+from typing import *
+
+
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:
         "put solution here"

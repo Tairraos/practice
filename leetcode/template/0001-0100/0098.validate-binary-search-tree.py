@@ -26,6 +26,14 @@
 # 解释: 输入为: [5,1,4,null,null,3,6]。
 #      根节点的值为 5 ，但是其右子节点值为 4 。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

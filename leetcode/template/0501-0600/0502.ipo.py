@@ -23,6 +23,10 @@
 #   - 表示利润和资本的数组的长度不超过 50000。
 #   - 答案保证在 32 位有符号整数范围内。
 
+
+from typing import *
+
+
 class Solution:
     def findMaximizedCapital(self, k: int, W: int, Profits: List[int], Capital: List[int]) -> int:
         "put solution here"

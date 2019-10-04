@@ -43,6 +43,14 @@
 #   - 使用 O(n) 空间复杂度的解法很容易实现。
 #   - 你能想出一个只使用常数空间的解决方案吗？
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

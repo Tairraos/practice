@@ -22,6 +22,7 @@
 #   - 你所使用的语言也许不支持栈。你可以使用 list 或者 deque（双端队列）来模拟一个栈，只要是标准的栈操作即可。
 #   - 假设所有操作都是有效的 （例如，一个空的队列不会调用 pop 或者 peek 操作）。
 
+
 class MyQueue:
 
     def __init__(self):
@@ -61,18 +62,17 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MyQueue()
+    unit = Solution()
 
-    assert unit.push('param') == 'expect', 'Case 1'
-    assert unit.pop('param') == 'expect', 'Case 2'
-    assert unit.peek('param') == 'expect', 'Case 3'
-    assert unit.empty('param') == 'expect', 'Case 4'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

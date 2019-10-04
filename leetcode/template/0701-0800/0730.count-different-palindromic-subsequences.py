@@ -27,6 +27,7 @@
 #   - 字符串 S 的长度将在[1, 1000]范围内。
 #   - 每个字符 S[i] 将会是集合 {'a', 'b', 'c', 'd'} 中的某一个。
 
+
 class Solution:
     def countPalindromicSubsequences(self, S: str) -> int:
         "put solution here"

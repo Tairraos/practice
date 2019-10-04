@@ -42,6 +42,10 @@
 # 你无法返回 2 号加油站，因为返程需要消耗 4 升汽油，但是你的油箱只有 3 升汽油。
 # 因此，无论怎样，你都不可能绕环路行驶一周。
 
+
+from typing import *
+
+
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         "put solution here"

@@ -16,6 +16,10 @@
 #   - 输出结果中的每个元素一定是唯一的。
 #   - 我们可以不考虑输出结果的顺序。
 
+
+from typing import *
+
+
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         "put solution here"

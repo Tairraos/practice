@@ -24,6 +24,7 @@
 # 输入: n = 4, k = 9
 # 输出: "2314"
 
+
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         "put solution here"

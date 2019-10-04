@@ -20,6 +20,7 @@
 # 
 # 解释: 可由子字符串 "abc" 重复四次构成。 (或者子字符串 "abcabc" 重复两次构成。)
 
+
 class Solution:
     def repeatedSubstringPattern(self, s: str) -> bool:
         "put solution here"

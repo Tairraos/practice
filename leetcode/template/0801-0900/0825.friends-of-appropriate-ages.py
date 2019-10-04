@@ -32,6 +32,10 @@
 #   - 1 <= ages.length <= 20000.
 #   - 1 <= ages[i] <= 120.
 
+
+from typing import *
+
+
 class Solution:
     def numFriendRequests(self, ages: List[int]) -> int:
         "put solution here"

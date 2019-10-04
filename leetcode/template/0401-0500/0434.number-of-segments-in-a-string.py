@@ -9,6 +9,7 @@
 # 输入: "Hello, my name is John"
 # 输出: 5
 
+
 class Solution:
     def countSegments(self, s: str) -> int:
         "put solution here"

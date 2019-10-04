@@ -19,6 +19,10 @@
 # 输出: 0
 # 解释: 不存在这样的两个单词。
 
+
+from typing import *
+
+
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
         "put solution here"

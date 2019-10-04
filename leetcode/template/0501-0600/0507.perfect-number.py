@@ -13,6 +13,7 @@
 # 注意：
 # 输入的数字 n 不会超过 100,000,000. (1e8)
 
+
 class Solution:
     def checkPerfectNumber(self, num: int) -> bool:
         "put solution here"

@@ -16,6 +16,7 @@
 #   - 一个员工最多有一个直系领导，但是可以有多个直系下属
 #   - 员工数量不超过2000。
 
+
 """
 # Employee info
 class Employee:
@@ -35,6 +36,7 @@ class Solution:
         :type id: int
         :rtype: int
         """
+        "put solution here"
 
 
 # Local test

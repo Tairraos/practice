@@ -13,6 +13,10 @@
 #   - 1 <= k <= n <= 30,000。
 #   - 所给数据范围 [-10,000，10,000]。
 
+
+from typing import *
+
+
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
         "put solution here"

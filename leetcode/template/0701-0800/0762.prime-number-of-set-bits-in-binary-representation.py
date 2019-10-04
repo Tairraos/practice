@@ -29,6 +29,7 @@
 #   - L, R 是 L <= R 且在 [1, 10^6] 中的整数。
 #   - R - L 的最大值为 10000。
 
+
 class Solution:
     def countPrimeSetBits(self, L: int, R: int) -> int:
         "put solution here"

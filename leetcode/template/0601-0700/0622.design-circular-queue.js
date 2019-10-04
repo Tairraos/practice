@@ -100,7 +100,7 @@ MyCircularQueue.prototype.isFull = function() {
 
 /** 
  * Your MyCircularQueue object will be instantiated and called as such:
- * var obj = Object.create(MyCircularQueue).createNew(k)
+ * var obj = new MyCircularQueue(k)
  * var param_1 = obj.enQueue(value)
  * var param_2 = obj.deQueue()
  * var param_3 = obj.Front()
@@ -113,8 +113,8 @@ MyCircularQueue.prototype.isFull = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MyCircularQueue("param"), "expect", "caseName");
-assert.deepEqual(MyCircularQueue("param"), "expect", "caseName");
+assert.deepEqual(MyCircularQueue("param"), "expect", "Case 1");
+assert.deepEqual(MyCircularQueue("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

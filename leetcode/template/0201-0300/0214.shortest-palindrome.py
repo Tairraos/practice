@@ -12,6 +12,7 @@
 # 输入: "abcd"
 # 输出: "dcbabcd"
 
+
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
         "put solution here"

@@ -17,6 +17,16 @@
 #   - 应当保持奇数节点和偶数节点的相对顺序。
 #   - 链表的第一个节点视为奇数节点，第二个节点视为偶数节点，以此类推。
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

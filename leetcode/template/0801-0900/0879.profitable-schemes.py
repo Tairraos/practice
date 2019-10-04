@@ -28,6 +28,10 @@
 #   - 0 <= profit[i] <= 100
 #   - 1 <= group.length = profit.length <= 100
 
+
+from typing import *
+
+
 class Solution:
     def profitableSchemes(self, G: int, P: int, group: List[int], profit: List[int]) -> int:
         "put solution here"

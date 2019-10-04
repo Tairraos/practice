@@ -23,6 +23,10 @@
 #   - 1 <= piles[i] <= 500
 #   - sum(piles) 是奇数。
 
+
+from typing import *
+
+
 class Solution:
     def stoneGame(self, piles: List[int]) -> bool:
         "put solution here"

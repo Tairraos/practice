@@ -27,8 +27,13 @@
 # 1 <= words[i].length, chars.length <= 100
 # 所有字符串中都仅包含小写英文字母
 
+
+from typing import *
+
+
 class Solution:
-    def countCharacters(self, words: List[str], chars: str) -> int:"put solution here"
+    def countCharacters(self, words: List[str], chars: str) -> int:
+        "put solution here"
 
 
 # Local test

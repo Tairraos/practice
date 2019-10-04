@@ -17,6 +17,10 @@
 #   - 0 <= N <= 1000
 #   - 0 <= nums[i] <= 2^16
 
+
+from typing import *
+
+
 class Solution:
     def xorGame(self, nums: List[int]) -> bool:
         "put solution here"

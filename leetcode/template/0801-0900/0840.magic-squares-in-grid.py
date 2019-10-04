@@ -28,6 +28,10 @@
 #   - 1 <= grid[0].length <= 10
 #   - 0 <= grid[i][j] <= 15
 
+
+from typing import *
+
+
 class Solution:
     def numMagicSquaresInside(self, grid: List[List[int]]) -> int:
         "put solution here"

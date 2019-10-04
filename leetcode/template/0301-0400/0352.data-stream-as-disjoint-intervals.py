@@ -16,6 +16,10 @@
 # 提示：
 # 特别感谢 [@yunhong](https://discuss.leetcode.com/user/yunhong) 提供了本问题和其测试用例。
 
+
+from typing import *
+
+
 class SummaryRanges:
 
     def __init__(self):
@@ -25,27 +29,27 @@ class SummaryRanges:
         
 
     def addNum(self, val: int) -> None:
-        "put solution here"
-
+        
 
     def getIntervals(self) -> List[List[int]]:
-        "put solution here"
-
+        
 
 
 # Your SummaryRanges object will be instantiated and called as such:
 # obj = SummaryRanges()
 # obj.addNum(val)
 # param_2 = obj.getIntervals()
+        "put solution here"
+
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = SummaryRanges()
+    unit = Solution()
 
-    assert unit.addNum('param') == 'expect', 'Case 1'
-    assert unit.getIntervals('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

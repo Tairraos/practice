@@ -36,8 +36,8 @@ var searchInsert = function(nums, target) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(searchInsert("param"), "expect", "caseName");
-assert.deepEqual(searchInsert("param"), "expect", "caseName");
+assert.deepEqual(searchInsert("param"), "expect", "Case 1");
+assert.deepEqual(searchInsert("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

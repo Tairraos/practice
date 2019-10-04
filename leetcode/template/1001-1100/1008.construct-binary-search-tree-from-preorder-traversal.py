@@ -14,6 +14,17 @@
 #   - 1 <= preorder.length <= 100
 #   - 先序 preorder 中的值是不同的。
 
+
+from typing import *
+
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

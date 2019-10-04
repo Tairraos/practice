@@ -44,8 +44,8 @@ var generateTrees = function(n) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(generateTrees("param"), "expect", "caseName");
-assert.deepEqual(generateTrees("param"), "expect", "caseName");
+assert.deepEqual(generateTrees("param"), "expect", "Case 1");
+assert.deepEqual(generateTrees("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

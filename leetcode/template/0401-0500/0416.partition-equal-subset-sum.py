@@ -22,6 +22,10 @@
 # 
 # 解释: 数组不能分割成两个元素和相等的子集.
 
+
+from typing import *
+
+
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         "put solution here"

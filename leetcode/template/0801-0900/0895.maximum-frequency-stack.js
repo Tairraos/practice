@@ -59,7 +59,7 @@ FreqStack.prototype.pop = function() {
 
 /** 
  * Your FreqStack object will be instantiated and called as such:
- * var obj = Object.create(FreqStack).createNew()
+ * var obj = new FreqStack()
  * obj.push(x)
  * var param_2 = obj.pop()
  */
@@ -68,8 +68,8 @@ FreqStack.prototype.pop = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(FreqStack("param"), "expect", "caseName");
-assert.deepEqual(FreqStack("param"), "expect", "caseName");
+assert.deepEqual(FreqStack("param"), "expect", "Case 1");
+assert.deepEqual(FreqStack("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

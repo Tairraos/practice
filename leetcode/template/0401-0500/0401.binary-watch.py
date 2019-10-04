@@ -17,6 +17,10 @@
 #   - 小时不会以零开头，比如 “01:00” 是不允许的，应为 “1:00”。
 #   - 分钟必须由两位数组成，可能会以零开头，比如 “10:2” 是无效的，应为 “10:02”。
 
+
+from typing import *
+
+
 class Solution:
     def readBinaryWatch(self, num: int) -> List[str]:
         "put solution here"

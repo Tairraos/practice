@@ -19,6 +19,10 @@
 #   - 0 <= S <= A.length
 #   - A[i] 为 0 或 1
 
+
+from typing import *
+
+
 class Solution:
     def numSubarraysWithSum(self, A: List[int], S: int) -> int:
         "put solution here"

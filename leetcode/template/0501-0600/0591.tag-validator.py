@@ -66,6 +66,7 @@
 # 注意：
 #   - 为简明起见，你可以假设输入的代码（包括提到的任意字符）只包含数字, 字母, '<','>','/','!','[',']'和' '。
 
+
 class Solution:
     def isValid(self, code: str) -> bool:
         "put solution here"

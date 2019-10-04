@@ -29,6 +29,10 @@
 #   - 二维数组大小的在3到1000范围内。
 #   - 二维数组中的每个整数在1到N之间，其中 N 是二维数组的大小。
 
+
+from typing import *
+
+
 class Solution:
     def findRedundantDirectedConnection(self, edges: List[List[int]]) -> List[int]:
         "put solution here"

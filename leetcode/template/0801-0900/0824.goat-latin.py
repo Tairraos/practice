@@ -31,6 +31,7 @@
 #   - S 中仅包含大小写字母和空格。单词间有且仅有一个空格。
 #   - 1 <= S.length <= 150。
 
+
 class Solution:
     def toGoatLatin(self, S: str) -> str:
         "put solution here"

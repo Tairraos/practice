@@ -28,6 +28,10 @@
 # 2 <= A.length <= 2000
 # 0 <= A[i] <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def longestArithSeqLength(self, A: List[int]) -> int:
         "put solution here"

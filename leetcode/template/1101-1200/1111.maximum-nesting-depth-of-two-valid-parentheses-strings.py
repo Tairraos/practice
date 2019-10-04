@@ -33,6 +33,10 @@
 # 提示：
 # 1 <= text.size <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         "put solution here"

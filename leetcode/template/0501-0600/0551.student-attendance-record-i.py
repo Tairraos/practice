@@ -18,6 +18,7 @@
 # 输入: "PPALLL"
 # 输出: False
 
+
 class Solution:
     def checkRecord(self, s: str) -> bool:
         "put solution here"

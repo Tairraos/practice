@@ -19,6 +19,7 @@
 # 解释: 首先打印 "aaa" 然后在第二个位置打印 "b" 覆盖掉原来的字符 'a'。
 # 提示: 输入字符串的长度不会超过 100。
 
+
 class Solution:
     def strangePrinter(self, s: str) -> int:
         "put solution here"

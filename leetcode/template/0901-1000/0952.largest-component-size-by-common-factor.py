@@ -27,6 +27,10 @@
 #   - 1 <= A.length <= 20000
 #   - 1 <= A[i] <= 100000
 
+
+from typing import *
+
+
 class Solution:
     def largestComponentSize(self, A: List[int]) -> int:
         "put solution here"

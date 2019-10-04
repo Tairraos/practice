@@ -29,6 +29,10 @@
 #   - 骑士的健康点数没有上限。
 #   - 任何房间都可能对骑士的健康点数造成威胁，也可能增加骑士的健康点数，包括骑士进入的左上角房间以及公主被监禁的右下角房间。
 
+
+from typing import *
+
+
 class Solution:
     def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
         "put solution here"

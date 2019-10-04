@@ -14,6 +14,10 @@
 # 输出: [[0,1],[1,0]]
 # 解释: 可拼接成的回文串为 ["battab","tabbat"]
 
+
+from typing import *
+
+
 class Solution:
     def palindromePairs(self, words: List[str]) -> List[List[int]]:
         "put solution here"

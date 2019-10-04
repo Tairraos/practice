@@ -34,6 +34,10 @@
 # // 因为用户1已经不再关注用户2.
 # twitter.getNewsFeed(1);
 
+
+from typing import *
+
+
 class Twitter:
 
     def __init__(self):
@@ -73,16 +77,17 @@ class Twitter:
 # param_2 = obj.getNewsFeed(userId)
 # obj.follow(followerId,followeeId)
 # obj.unfollow(followerId,followeeId)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Twitter()
+    unit = Solution()
 
-    assert unit.postTweet('param') == 'expect', 'Case 1'
-    assert unit.postTweet('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

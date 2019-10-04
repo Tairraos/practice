@@ -18,6 +18,7 @@
 #   - num1 和 num2 均不以零开头，除非是数字 0 本身。
 #   - 不能使用任何标准库的大数类型（比如 BigInteger）或直接将输入转换为整数来处理。
 
+
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         "put solution here"

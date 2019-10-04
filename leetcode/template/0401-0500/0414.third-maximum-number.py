@@ -26,6 +26,10 @@
 # 解释: 注意，要求返回第三大的数，是指第三大且唯一出现的数。
 # 存在两个值为2的数，它们都排第二。
 
+
+from typing import *
+
+
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         "put solution here"

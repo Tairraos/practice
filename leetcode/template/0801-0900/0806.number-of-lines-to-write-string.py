@@ -30,6 +30,10 @@
 #   - widths 是长度为 26的数组。
 #   - widths[i] 值的范围在 [2, 10]。
 
+
+from typing import *
+
+
 class Solution:
     def numberOfLines(self, widths: List[int], S: str) -> List[int]:
         "put solution here"

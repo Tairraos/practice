@@ -19,6 +19,10 @@
 #   - 1 <= words[i].length <= 7
 #   - 每个单词都是小写字母 。
 
+
+from typing import *
+
+
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         "put solution here"

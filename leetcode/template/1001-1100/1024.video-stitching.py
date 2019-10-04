@@ -40,6 +40,10 @@
 # 0 <= clips[i][0], clips[i][1] <= 100
 # 0 <= T <= 100
 
+
+from typing import *
+
+
 class Solution:
     def videoStitching(self, clips: List[List[int]], T: int) -> int:
         "put solution here"

@@ -34,6 +34,10 @@
 #   - allowed 的长度范围在[0, 200]。
 #   - 方块的标记字母范围为{'A', 'B', 'C', 'D', 'E', 'F', 'G'}。
 
+
+from typing import *
+
+
 class Solution:
     def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
         "put solution here"

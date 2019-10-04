@@ -24,6 +24,7 @@
 # 说明：
 # 第11个数字在序列 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... 里是0，它是10的一部分。
 
+
 class Solution:
     def findNthDigit(self, n: int) -> int:
         "put solution here"

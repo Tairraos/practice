@@ -25,6 +25,7 @@
 # 
 # 说明: 0 <= S.length <= 10000。
 
+
 class Solution:
     def uniqueLetterString(self, S: str) -> int:
         "put solution here"

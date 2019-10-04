@@ -20,6 +20,10 @@
 #   - 每个 A[i] 的值在 1 ——30000.
 #   - K 取值范围为 1 ——A.length * (A.length - 1) / 2
 
+
+from typing import *
+
+
 class Solution:
     def kthSmallestPrimeFraction(self, A: List[int], K: int) -> List[int]:
         "put solution here"

@@ -14,6 +14,16 @@
 #   - 你的算法只能使用常数的额外空间。
 #   - 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

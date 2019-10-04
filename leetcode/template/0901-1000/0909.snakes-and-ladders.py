@@ -38,6 +38,10 @@
 #   - 编号为 1 的方格上没有蛇或梯子。
 #   - 编号为 N*N 的方格上没有蛇或梯子。
 
+
+from typing import *
+
+
 class Solution:
     def snakesAndLadders(self, board: List[List[int]]) -> int:
         "put solution here"

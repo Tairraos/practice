@@ -20,6 +20,7 @@
 # 
 # 注意: 输入是由大写和小写拉丁字母组成的非空单词。
 
+
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         "put solution here"

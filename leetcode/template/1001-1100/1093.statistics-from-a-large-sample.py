@@ -25,6 +25,10 @@
 # 计数表示的众数是唯一的
 # 答案与真实值误差在 10^-5 以内就会被视为正确答案
 
+
+from typing import *
+
+
 class Solution:
     def sampleStats(self, count: List[int]) -> List[float]:
         "put solution here"

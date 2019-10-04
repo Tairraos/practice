@@ -15,6 +15,10 @@
 # 输入: [4,1,2,1,2]
 # 输出: 4
 
+
+from typing import *
+
+
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         "put solution here"

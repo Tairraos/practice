@@ -63,7 +63,7 @@ MyHashMap.prototype.remove = function(key) {
 
 /** 
  * Your MyHashMap object will be instantiated and called as such:
- * var obj = Object.create(MyHashMap).createNew()
+ * var obj = new MyHashMap()
  * obj.put(key,value)
  * var param_2 = obj.get(key)
  * obj.remove(key)
@@ -73,8 +73,8 @@ MyHashMap.prototype.remove = function(key) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MyHashMap("param"), "expect", "caseName");
-assert.deepEqual(MyHashMap("param"), "expect", "caseName");
+assert.deepEqual(MyHashMap("param"), "expect", "Case 1");
+assert.deepEqual(MyHashMap("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

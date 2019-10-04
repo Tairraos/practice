@@ -53,8 +53,8 @@ var detectCycle = function(head) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(detectCycle("param"), "expect", "caseName");
-assert.deepEqual(detectCycle("param"), "expect", "caseName");
+assert.deepEqual(detectCycle("param"), "expect", "Case 1");
+assert.deepEqual(detectCycle("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

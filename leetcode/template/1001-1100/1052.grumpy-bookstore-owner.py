@@ -22,6 +22,10 @@
 # 0 <= customers[i] <= 1000
 # 0 <= grumpy[i] <= 1
 
+
+from typing import *
+
+
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], X: int) -> int:
         "put solution here"

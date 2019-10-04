@@ -21,6 +21,16 @@
 # 提示：
 #   - 给定链表的结点数介于 1 和 100 之间。
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

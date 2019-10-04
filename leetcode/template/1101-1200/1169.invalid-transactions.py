@@ -31,6 +31,10 @@
 # 每个交易时间 {time} 由一些数字组成，表示一个 0 到 1000 之间的整数
 # 每笔交易金额 {amount} 由一些数字组成，表示一个 0 到 2000 之间的整数
 
+
+from typing import *
+
+
 class Solution:
     def invalidTransactions(self, transactions: List[str]) -> List[str]:
         "put solution here"

@@ -19,6 +19,10 @@
 #   - 整数 1 <= d, t, n <= 10,000 。
 #   - 你不能同时修两门课程。
 
+
+from typing import *
+
+
 class Solution:
     def scheduleCourse(self, courses: List[List[int]]) -> int:
         "put solution here"

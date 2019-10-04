@@ -29,6 +29,7 @@
 #   - 0 <= B.length <= 20000
 #   - A 和 B 仅由小写字母构成。
 
+
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:
         "put solution here"

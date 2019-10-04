@@ -38,6 +38,10 @@
 # 0 <= trips[i][1] < trips[i][2] <= 1000
 # 1 <= capacity <= 100000
 
+
+from typing import *
+
+
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
         "put solution here"

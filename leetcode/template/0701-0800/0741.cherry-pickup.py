@@ -30,6 +30,10 @@
 #   - 每一个 grid[i][j] 都是集合 {-1, 0, 1}其中的一个数。
 #   - 可以保证起点 grid[0][0] 和终点 grid[N-1][N-1] 的值都不会是 -1。
 
+
+from typing import *
+
+
 class Solution:
     def cherryPickup(self, grid: List[List[int]]) -> int:
         "put solution here"

@@ -22,6 +22,14 @@
 #   - 给定树的节点数的范围是 [1, 1000]。
 #   - 每个节点的值都是 0。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

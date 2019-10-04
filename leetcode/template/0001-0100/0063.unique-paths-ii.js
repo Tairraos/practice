@@ -38,8 +38,8 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(uniquePathsWithObstacles("param"), "expect", "caseName");
-assert.deepEqual(uniquePathsWithObstacles("param"), "expect", "caseName");
+assert.deepEqual(uniquePathsWithObstacles("param"), "expect", "Case 1");
+assert.deepEqual(uniquePathsWithObstacles("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

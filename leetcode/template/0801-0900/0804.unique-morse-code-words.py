@@ -24,6 +24,10 @@
 #   - 每个单词 words[i]的长度范围为 [1, 12]。
 #   - 每个单词 words[i]只包含小写字母。
 
+
+from typing import *
+
+
 class Solution:
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
         "put solution here"

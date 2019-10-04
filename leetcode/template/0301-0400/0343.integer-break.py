@@ -16,6 +16,7 @@
 # 
 # 说明: 你可以假设 n 不小于 2 且不大于 58。
 
+
 class Solution:
     def integerBreak(self, n: int) -> int:
         "put solution here"

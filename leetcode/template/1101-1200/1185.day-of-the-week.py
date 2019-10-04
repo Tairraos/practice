@@ -23,8 +23,10 @@
 # 提示：
 # 给出的日期一定是在 1971 到 2100 年之间的有效日期。
 
+
 class Solution:
-    def dayOfTheWeek(self, day: int, month: int, year: int) -> str:"put solution here"
+    def dayOfTheWeek(self, day: int, month: int, year: int) -> str:
+        "put solution here"
 
 
 # Local test

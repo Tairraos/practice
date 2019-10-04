@@ -12,6 +12,10 @@
 #   - 必须在原数组上操作，不能拷贝额外的数组。
 #   - 尽量减少操作次数。
 
+
+from typing import *
+
+
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """

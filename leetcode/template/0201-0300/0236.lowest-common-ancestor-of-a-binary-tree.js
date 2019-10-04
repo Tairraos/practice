@@ -45,8 +45,8 @@ var lowestCommonAncestor = function(root, p, q) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(lowestCommonAncestor("param"), "expect", "caseName");
-assert.deepEqual(lowestCommonAncestor("param"), "expect", "caseName");
+assert.deepEqual(lowestCommonAncestor("param"), "expect", "Case 1");
+assert.deepEqual(lowestCommonAncestor("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

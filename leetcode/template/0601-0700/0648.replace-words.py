@@ -17,6 +17,10 @@
 #   - 1 <= 词根长度 <= 100
 #   - 1 <= 句中词语长度 <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def replaceWords(self, dict: List[str], sentence: str) -> str:
         "put solution here"

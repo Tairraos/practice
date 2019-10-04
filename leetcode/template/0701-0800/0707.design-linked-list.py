@@ -24,6 +24,7 @@
 #   - 操作次数将在  [1, 1000] 之内。
 #   - 请不要使用内置的 LinkedList 库。
 
+
 class MyLinkedList:
 
     def __init__(self):
@@ -70,13 +71,14 @@ class MyLinkedList:
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MyLinkedList()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

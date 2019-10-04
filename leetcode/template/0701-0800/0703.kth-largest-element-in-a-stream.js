@@ -38,7 +38,7 @@ KthLargest.prototype.add = function(val) {
 
 /** 
  * Your KthLargest object will be instantiated and called as such:
- * var obj = Object.create(KthLargest).createNew(k, nums)
+ * var obj = new KthLargest(k, nums)
  * var param_1 = obj.add(val)
  */
 
@@ -46,8 +46,8 @@ KthLargest.prototype.add = function(val) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(KthLargest("param"), "expect", "caseName");
-assert.deepEqual(KthLargest("param"), "expect", "caseName");
+assert.deepEqual(KthLargest("param"), "expect", "Case 1");
+assert.deepEqual(KthLargest("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

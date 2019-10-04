@@ -24,6 +24,7 @@
 #   - 操作的总数目在[1, 10000]范围内。
 #   - 不要使用内建的哈希集合库。
 
+
 class MyHashSet:
 
     def __init__(self):
@@ -33,10 +34,10 @@ class MyHashSet:
         
 
     def add(self, key: int) -> None:
-        "put solution here"
+        
 
     def remove(self, key: int) -> None:
-        "put solution here"
+        
 
     def contains(self, key: int) -> bool:
         """
@@ -50,16 +51,17 @@ class MyHashSet:
 # obj.add(key)
 # obj.remove(key)
 # param_3 = obj.contains(key)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MyHashSet()
+    unit = Solution()
 
-    assert unit.contains('param') == 'expect', 'Case 1'
-    assert unit.contains('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

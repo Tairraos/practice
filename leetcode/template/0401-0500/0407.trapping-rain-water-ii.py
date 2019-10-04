@@ -23,6 +23,10 @@
 # [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0408-2.png)
 # 下雨后，雨水将会被存储在这些方块中。总的接雨水量是4。
 
+
+from typing import *
+
+
 class Solution:
     def trapRainWater(self, heightMap: List[List[int]]) -> int:
         "put solution here"

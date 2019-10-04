@@ -28,6 +28,16 @@
 #   - 1 <= G.length <= 10000
 #   - G 是链表中所有结点的值的一个子集.
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

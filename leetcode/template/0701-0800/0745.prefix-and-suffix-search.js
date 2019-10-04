@@ -37,7 +37,7 @@ WordFilter.prototype.f = function(prefix, suffix) {
 
 /** 
  * Your WordFilter object will be instantiated and called as such:
- * var obj = Object.create(WordFilter).createNew(words)
+ * var obj = new WordFilter(words)
  * var param_1 = obj.f(prefix,suffix)
  */
 
@@ -45,8 +45,8 @@ WordFilter.prototype.f = function(prefix, suffix) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(WordFilter("param"), "expect", "caseName");
-assert.deepEqual(WordFilter("param"), "expect", "caseName");
+assert.deepEqual(WordFilter("param"), "expect", "Case 1");
+assert.deepEqual(WordFilter("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

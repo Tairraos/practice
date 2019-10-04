@@ -38,6 +38,10 @@
 #   - 1 <= deck.length <= 10000
 #   - 0 <= deck[i] < 10000
 
+
+from typing import *
+
+
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         "put solution here"

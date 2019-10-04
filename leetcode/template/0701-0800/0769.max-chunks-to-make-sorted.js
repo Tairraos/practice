@@ -38,8 +38,8 @@ var maxChunksToSorted = function(arr) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(maxChunksToSorted("param"), "expect", "caseName");
-assert.deepEqual(maxChunksToSorted("param"), "expect", "caseName");
+assert.deepEqual(maxChunksToSorted("param"), "expect", "Case 1");
+assert.deepEqual(maxChunksToSorted("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

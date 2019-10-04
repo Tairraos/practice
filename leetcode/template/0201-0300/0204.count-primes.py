@@ -9,6 +9,7 @@
 # 输出: 4
 # 解释: 小于 10 的质数一共有 4 个, 它们是 2, 3, 5, 7 。
 
+
 class Solution:
     def countPrimes(self, n: int) -> int:
         "put solution here"

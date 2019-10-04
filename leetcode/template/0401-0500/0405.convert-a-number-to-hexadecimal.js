@@ -38,8 +38,8 @@ var toHex = function(num) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(toHex("param"), "expect", "caseName");
-assert.deepEqual(toHex("param"), "expect", "caseName");
+assert.deepEqual(toHex("param"), "expect", "Case 1");
+assert.deepEqual(toHex("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

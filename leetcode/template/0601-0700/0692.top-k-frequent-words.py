@@ -24,6 +24,10 @@
 # 扩展练习：
 #   - 尝试以 O(n log k) 时间复杂度和 O(n) 空间复杂度解决。
 
+
+from typing import *
+
+
 class Solution:
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
         "put solution here"

@@ -22,6 +22,7 @@
 # 注意：
 #   - sx, sy, tx, ty 是范围在 [1, 10^9] 的整数。
 
+
 class Solution:
     def reachingPoints(self, sx: int, sy: int, tx: int, ty: int) -> bool:
         "put solution here"

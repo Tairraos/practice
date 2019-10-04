@@ -37,8 +37,8 @@ var sortedArrayToBST = function(nums) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(sortedArrayToBST("param"), "expect", "caseName");
-assert.deepEqual(sortedArrayToBST("param"), "expect", "caseName");
+assert.deepEqual(sortedArrayToBST("param"), "expect", "Case 1");
+assert.deepEqual(sortedArrayToBST("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

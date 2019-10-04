@@ -17,6 +17,10 @@
 #   - 要求算法的空间复杂度为O(n)。
 #   - 你能进一步完善解法吗？要求在C++或任何其他语言中不使用任何内置函数（如 C++ 中的 __builtin_popcount）来执行此操作。
 
+
+from typing import *
+
+
 class Solution:
     def countBits(self, num: int) -> List[int]:
         "put solution here"

@@ -29,6 +29,7 @@
 #   - 1 <= T.length <= 200
 #   - S 和 T 只含有小写字母以及字符 '#'。
 
+
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         "put solution here"

@@ -18,6 +18,10 @@
 #   - 数组中元素的范围为从 0到 10^9。
 #   - 数组的长度不超过 10^4。
 
+
+from typing import *
+
+
 class Solution:
     def totalHammingDistance(self, nums: List[int]) -> int:
         "put solution here"

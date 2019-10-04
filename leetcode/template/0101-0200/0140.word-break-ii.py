@@ -37,6 +37,10 @@
 # 输出：
 # []
 
+
+from typing import *
+
+
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         "put solution here"

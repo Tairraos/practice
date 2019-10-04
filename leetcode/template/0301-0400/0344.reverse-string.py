@@ -14,6 +14,10 @@
 # 输入：["H","a","n","n","a","h"]
 # 输出：["h","a","n","n","a","H"]
 
+
+from typing import *
+
+
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """

@@ -42,6 +42,10 @@
 # 
 # 提示: 矩阵大小不会超过 50x50 。
 
+
+from typing import *
+
+
 class Solution:
     def cutOffTree(self, forest: List[List[int]]) -> int:
         "put solution here"

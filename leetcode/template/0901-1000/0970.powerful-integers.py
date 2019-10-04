@@ -27,6 +27,10 @@
 #   - 1 <= y <= 100
 #   - 0 <= bound <= 10^6
 
+
+from typing import *
+
+
 class Solution:
     def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:
         "put solution here"

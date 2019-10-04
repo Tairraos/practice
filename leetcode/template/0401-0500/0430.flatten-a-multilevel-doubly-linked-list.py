@@ -23,6 +23,7 @@
 # 我们应该返回如下所示的扁平双向链表：
 # [示意图](https://github.com/Tairraos/practice/blob/master/leetcode/figs/0430-2.png)
 
+
 """
 # Definition for a Node.
 class Node:

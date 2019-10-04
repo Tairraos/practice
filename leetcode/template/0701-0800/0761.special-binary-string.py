@@ -20,6 +20,7 @@
 #   - S 的长度不超过 50。
 #   - S 保证为一个满足上述定义的特殊 的二进制序列。
 
+
 class Solution:
     def makeLargestSpecial(self, S: str) -> str:
         "put solution here"

@@ -24,6 +24,7 @@
 # 提示：
 # 0 <= N <= 10^9
 
+
 class Solution:
     def baseNeg2(self, N: int) -> str:
         "put solution here"

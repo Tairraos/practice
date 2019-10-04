@@ -24,6 +24,7 @@
 #   - 1 是丑数。
 #   - 输入不会超过 32 位有符号整数的范围: [-2^31,  2^31 - 1]。
 
+
 class Solution:
     def isUgly(self, num: int) -> bool:
         "put solution here"

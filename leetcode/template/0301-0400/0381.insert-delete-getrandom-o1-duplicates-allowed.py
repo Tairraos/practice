@@ -31,6 +31,7 @@
 # // getRandom 应有相同概率返回 1 和 2 。
 # collection.getRandom();
 
+
 class RandomizedCollection:
 
     def __init__(self):
@@ -63,13 +64,14 @@ class RandomizedCollection:
 # param_1 = obj.insert(val)
 # param_2 = obj.remove(val)
 # param_3 = obj.getRandom()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = RandomizedCollection()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

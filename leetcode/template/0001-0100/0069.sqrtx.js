@@ -31,8 +31,8 @@ var mySqrt = function(x) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(mySqrt("param"), "expect", "caseName");
-assert.deepEqual(mySqrt("param"), "expect", "caseName");
+assert.deepEqual(mySqrt("param"), "expect", "Case 1");
+assert.deepEqual(mySqrt("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

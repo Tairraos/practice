@@ -33,8 +33,8 @@ var multiply = function(num1, num2) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(multiply("param"), "expect", "caseName");
-assert.deepEqual(multiply("param"), "expect", "caseName");
+assert.deepEqual(multiply("param"), "expect", "Case 1");
+assert.deepEqual(multiply("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

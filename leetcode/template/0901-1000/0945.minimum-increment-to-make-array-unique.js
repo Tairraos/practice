@@ -34,8 +34,8 @@ var minIncrementForUnique = function(A) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(minIncrementForUnique("param"), "expect", "caseName");
-assert.deepEqual(minIncrementForUnique("param"), "expect", "caseName");
+assert.deepEqual(minIncrementForUnique("param"), "expect", "Case 1");
+assert.deepEqual(minIncrementForUnique("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

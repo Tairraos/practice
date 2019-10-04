@@ -12,6 +12,7 @@
 # 输入: [0,1]
 # 输出: 0
 
+
 class Solution:
     def rangeBitwiseAnd(self, m: int, n: int) -> int:
         "put solution here"

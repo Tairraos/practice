@@ -22,6 +22,7 @@
 #   - 如果数据流中所有整数都在 0 到 100 范围内，你将如何优化你的算法？
 #   - 如果数据流中 99% 的整数都在 0 到 100 范围内，你将如何优化你的算法？
 
+
 class MedianFinder:
 
     def __init__(self):
@@ -31,11 +32,9 @@ class MedianFinder:
         
 
     def addNum(self, num: int) -> None:
-        "put solution here"
         
 
     def findMedian(self) -> float:
-        "put solution here"
         
 
 
@@ -43,16 +42,17 @@ class MedianFinder:
 # obj = MedianFinder()
 # obj.addNum(num)
 # param_2 = obj.findMedian()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MedianFinder()
+    unit = Solution()
 
-    assert unit.addNum('param') == 'expect', 'Case 1'
-    assert unit.findMedian('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

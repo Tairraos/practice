@@ -14,6 +14,10 @@
 # 注意：
 #   - 给出数对的个数在 [1, 1000] 范围内。
 
+
+from typing import *
+
+
 class Solution:
     def findLongestChain(self, pairs: List[List[int]]) -> int:
         "put solution here"

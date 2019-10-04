@@ -44,8 +44,8 @@ var new21Game = function(N, K, W) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(new21Game("param"), "expect", "caseName");
-assert.deepEqual(new21Game("param"), "expect", "caseName");
+assert.deepEqual(new21Game("param"), "expect", "Case 1");
+assert.deepEqual(new21Game("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

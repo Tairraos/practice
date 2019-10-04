@@ -32,6 +32,7 @@
 # 1 <= d, f <= 30
 # 1 <= target <= 1000
 
+
 class Solution:
     def numRollsToTarget(self, d: int, f: int, target: int) -> int:
         "put solution here"

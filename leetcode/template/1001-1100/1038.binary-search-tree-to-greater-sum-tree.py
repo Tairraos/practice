@@ -19,6 +19,14 @@
 # 每个节点的值介于 0 和 100 之间。
 # 给定的树为二叉搜索树。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

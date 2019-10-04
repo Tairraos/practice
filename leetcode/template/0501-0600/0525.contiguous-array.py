@@ -18,6 +18,10 @@
 # 
 # 注意: 给定的二进制数组的长度不会超过50000。
 
+
+from typing import *
+
+
 class Solution:
     def findMaxLength(self, nums: List[int]) -> int:
         "put solution here"

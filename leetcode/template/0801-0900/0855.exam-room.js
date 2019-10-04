@@ -49,7 +49,7 @@ ExamRoom.prototype.leave = function(p) {
 
 /** 
  * Your ExamRoom object will be instantiated and called as such:
- * var obj = Object.create(ExamRoom).createNew(N)
+ * var obj = new ExamRoom(N)
  * var param_1 = obj.seat()
  * obj.leave(p)
  */
@@ -58,8 +58,8 @@ ExamRoom.prototype.leave = function(p) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(ExamRoom("param"), "expect", "caseName");
-assert.deepEqual(ExamRoom("param"), "expect", "caseName");
+assert.deepEqual(ExamRoom("param"), "expect", "Case 1");
+assert.deepEqual(ExamRoom("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

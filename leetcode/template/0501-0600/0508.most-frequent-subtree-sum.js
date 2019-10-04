@@ -7,16 +7,16 @@
  * 
  * 示例 1
  * 输入：
- *    5
- *  /  \
+ *   5
+ * /  \
  * 2   -3
  * 
  * 返回 [2, -3, 4]，所有的值均只出现一次，以任意顺序返回所有值。
  * 
  * 示例 2
  * 输入：
- *    5
- *  /  \
+ *   5
+ * /  \
  * 2   -5
  * 
  * 返回 [2]，只有 2 出现两次，-5 只出现 1 次。
@@ -43,8 +43,8 @@ var findFrequentTreeSum = function(root) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(findFrequentTreeSum("param"), "expect", "caseName");
-assert.deepEqual(findFrequentTreeSum("param"), "expect", "caseName");
+assert.deepEqual(findFrequentTreeSum("param"), "expect", "Case 1");
+assert.deepEqual(findFrequentTreeSum("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -30,6 +30,10 @@
 #   - 1 <= A.length <= 50000
 #   - 0 <= A[i] <= 10^9
 
+
+from typing import *
+
+
 class Solution:
     def subarrayBitwiseORs(self, A: List[int]) -> int:
         "put solution here"

@@ -35,6 +35,10 @@
 # 
 # 解释: endWord "cog" 不在字典中，所以不存在符合要求的转换序列。
 
+
+from typing import *
+
+
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
         "put solution here"

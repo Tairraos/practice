@@ -19,6 +19,7 @@
 #   - T的最大长度为200。
 #   - S和T只包含小写字符。
 
+
 class Solution:
     def customSortString(self, S: str, T: str) -> str:
         "put solution here"

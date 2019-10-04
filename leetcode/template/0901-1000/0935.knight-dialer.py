@@ -26,6 +26,7 @@
 # 提示：
 #   - 1 <= N <= 5000
 
+
 class Solution:
     def knightDialer(self, N: int) -> int:
         "put solution here"

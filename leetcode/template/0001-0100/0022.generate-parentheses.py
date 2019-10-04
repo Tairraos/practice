@@ -13,6 +13,10 @@
 #   "()()()"
 # ]
 
+
+from typing import *
+
+
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         "put solution here"

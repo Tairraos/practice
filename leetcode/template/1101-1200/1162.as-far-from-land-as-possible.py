@@ -24,6 +24,10 @@
 # 1 <= grid.length == grid[0].length <= 100
 # grid[i][j] 不是 0 就是 1
 
+
+from typing import *
+
+
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         "put solution here"

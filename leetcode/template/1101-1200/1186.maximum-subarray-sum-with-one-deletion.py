@@ -30,8 +30,13 @@
 # 1 <= arr.length <= 10^5
 # -10^4 <= arr[i] <= 10^4
 
+
+from typing import *
+
+
 class Solution:
-    def maximumSum(self, arr: List[int]) -> int:"put solution here"
+    def maximumSum(self, arr: List[int]) -> int:
+        "put solution here"
 
 
 # Local test

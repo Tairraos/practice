@@ -23,6 +23,10 @@
 # ]
 # 解释: 4 皇后问题存在两个不同的解法。
 
+
+from typing import *
+
+
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         "put solution here"

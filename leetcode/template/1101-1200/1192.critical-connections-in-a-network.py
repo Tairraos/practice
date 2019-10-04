@@ -23,6 +23,10 @@
 # connections[i][0] != connections[i][1]
 # 不存在重复的连接
 
+
+from typing import *
+
+
 class Solution:
     def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List[int]]:
         "put solution here"

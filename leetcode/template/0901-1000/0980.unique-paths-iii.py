@@ -36,6 +36,10 @@
 # 提示：
 #   - 1 <= grid.length * grid[0].length <= 20
 
+
+from typing import *
+
+
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
         "put solution here"

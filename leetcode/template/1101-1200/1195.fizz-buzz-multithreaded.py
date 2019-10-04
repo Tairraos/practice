@@ -27,6 +27,7 @@
 # 线程C将调用 fizzbuzz() 来判断是否同时能被 3 和 5 整除，如果可以，则输出 fizzbuzz。
 # 线程D将调用 number() 来实现输出既不能被 3 整除也不能被 5 整除的数字。
 
+
 class FizzBuzz:
     def __init__(self, n: int):
         self.n = n
@@ -45,7 +46,8 @@ class FizzBuzz:
 
     # printNumber(x) outputs "x", where x is an integer.
     def number(self, printNumber: 'Callable[[int], None]') -> None:
-		"put solution here"
+		
+        "put solution here"
 
 
 # Local test

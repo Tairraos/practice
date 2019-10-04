@@ -39,6 +39,10 @@
 #   - 输入列表的大小将介于1和1000之间。
 #   - 列表中的每个整数都将介于-30000和30000之间。
 
+
+from typing import *
+
+
 class Solution:
     def calPoints(self, ops: List[str]) -> int:
         "put solution here"

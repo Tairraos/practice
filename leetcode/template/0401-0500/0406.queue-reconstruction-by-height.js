@@ -28,8 +28,8 @@ var reconstructQueue = function(people) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(reconstructQueue("param"), "expect", "caseName");
-assert.deepEqual(reconstructQueue("param"), "expect", "caseName");
+assert.deepEqual(reconstructQueue("param"), "expect", "Case 1");
+assert.deepEqual(reconstructQueue("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

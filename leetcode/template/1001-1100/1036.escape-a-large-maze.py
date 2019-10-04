@@ -28,6 +28,10 @@
 # 0 <= source[i][j], target[i][j] < 10^6
 # source != target
 
+
+from typing import *
+
+
 class Solution:
     def isEscapePossible(self, blocked: List[List[int]], source: List[int], target: List[int]) -> bool:
         "put solution here"

@@ -17,6 +17,10 @@
 #   - -10000 <= A[i] <= 10000
 #   - A 已按非递减顺序排序。
 
+
+from typing import *
+
+
 class Solution:
     def sortedSquares(self, A: List[int]) -> List[int]:
         "put solution here"

@@ -34,6 +34,10 @@
 #   - equations[i][1] 要么是 '='，要么是 '!'
 #   - equations[i][2] 是 '='
 
+
+from typing import *
+
+
 class Solution:
     def equationsPossible(self, equations: List[str]) -> bool:
         "put solution here"

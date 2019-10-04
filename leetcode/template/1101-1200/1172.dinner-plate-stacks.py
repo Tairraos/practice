@@ -58,6 +58,7 @@
 # 0 <= index <= 100000
 # 最多会对 push，pop，和 popAtStack 进行 200000 次调用。
 
+
 class DinnerPlates:
 
     def __init__(self, capacity: int):
@@ -77,7 +78,8 @@ class DinnerPlates:
 # obj = DinnerPlates(capacity)
 # obj.push(val)
 # param_2 = obj.pop()
-# param_3 = obj.popAtStack(index)"put solution here"
+# param_3 = obj.popAtStack(index)
+        "put solution here"
 
 
 # Local test

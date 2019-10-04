@@ -34,7 +34,7 @@ RecentCounter.prototype.ping = function(t) {
 
 /** 
  * Your RecentCounter object will be instantiated and called as such:
- * var obj = Object.create(RecentCounter).createNew()
+ * var obj = new RecentCounter()
  * var param_1 = obj.ping(t)
  */
 
@@ -42,8 +42,8 @@ RecentCounter.prototype.ping = function(t) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(RecentCounter("param"), "expect", "caseName");
-assert.deepEqual(RecentCounter("param"), "expect", "caseName");
+assert.deepEqual(RecentCounter("param"), "expect", "Case 1");
+assert.deepEqual(RecentCounter("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

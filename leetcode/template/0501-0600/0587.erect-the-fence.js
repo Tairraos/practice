@@ -27,15 +27,8 @@
  */
 
 /**
- * Definition for a point.
- * function Point(x, y) {
- *     this.x = x;
- *     this.y = y;
- * }
- */
-/**
- * @param {Point[]} points
- * @return {Point[]}
+ * @param {number[][]} points
+ * @return {number[][]}
  */
 var outerTrees = function(points) {
     
@@ -45,8 +38,8 @@ var outerTrees = function(points) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(outerTrees("param"), "expect", "caseName");
-assert.deepEqual(outerTrees("param"), "expect", "caseName");
+assert.deepEqual(outerTrees("param"), "expect", "Case 1");
+assert.deepEqual(outerTrees("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

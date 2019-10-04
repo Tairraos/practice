@@ -31,6 +31,16 @@
 # 进阶：
 # 你是否可以不用额外空间解决此题？
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 #Python 2
 
 # Definition for singly-linked list.

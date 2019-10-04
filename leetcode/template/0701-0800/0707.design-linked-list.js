@@ -81,7 +81,7 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
 
 /** 
  * Your MyLinkedList object will be instantiated and called as such:
- * var obj = Object.create(MyLinkedList).createNew()
+ * var obj = new MyLinkedList()
  * var param_1 = obj.get(index)
  * obj.addAtHead(val)
  * obj.addAtTail(val)
@@ -93,8 +93,8 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MyLinkedList("param"), "expect", "caseName");
-assert.deepEqual(MyLinkedList("param"), "expect", "caseName");
+assert.deepEqual(MyLinkedList("param"), "expect", "Case 1");
+assert.deepEqual(MyLinkedList("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

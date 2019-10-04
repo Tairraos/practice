@@ -35,6 +35,10 @@
 #   - 0 <= stations.length <= 500
 #   - 0 < stations[0][0] < stations[1][0] < ... < stations[stations.length-1][0] < target
 
+
+from typing import *
+
+
 class Solution:
     def minRefuelStops(self, target: int, startFuel: int, stations: List[List[int]]) -> int:
         "put solution here"

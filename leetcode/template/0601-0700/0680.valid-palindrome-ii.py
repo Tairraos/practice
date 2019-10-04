@@ -16,6 +16,7 @@
 # 注意：
 #   - 字符串只包含从 a-z 的小写字母。字符串的最大长度是50000。
 
+
 class Solution:
     def validPalindrome(self, s: str) -> bool:
         "put solution here"

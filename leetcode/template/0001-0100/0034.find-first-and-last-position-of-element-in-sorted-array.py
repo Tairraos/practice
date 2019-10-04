@@ -14,6 +14,10 @@
 # 输入: nums = [5,7,7,8,8,10], target = 6
 # 输出: [-1,-1]
 
+
+from typing import *
+
+
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         "put solution here"

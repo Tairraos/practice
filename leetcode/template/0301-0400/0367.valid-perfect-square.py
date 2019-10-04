@@ -14,6 +14,7 @@
 # 输入：14
 # 输出：False
 
+
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
         "put solution here"

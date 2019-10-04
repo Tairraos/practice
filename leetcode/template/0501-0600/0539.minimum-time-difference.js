@@ -26,8 +26,8 @@ var findMinDifference = function(timePoints) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(findMinDifference("param"), "expect", "caseName");
-assert.deepEqual(findMinDifference("param"), "expect", "caseName");
+assert.deepEqual(findMinDifference("param"), "expect", "Case 1");
+assert.deepEqual(findMinDifference("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

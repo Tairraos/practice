@@ -14,6 +14,7 @@
 # 6^2 + 8^2 = 100
 # 1^2 + 0^2 + 0^2 = 1
 
+
 class Solution:
     def isHappy(self, n: int) -> bool:
         "put solution here"

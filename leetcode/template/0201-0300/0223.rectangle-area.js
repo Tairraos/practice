@@ -33,8 +33,8 @@ var computeArea = function(A, B, C, D, E, F, G, H) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(computeArea("param"), "expect", "caseName");
-assert.deepEqual(computeArea("param"), "expect", "caseName");
+assert.deepEqual(computeArea("param"), "expect", "Case 1");
+assert.deepEqual(computeArea("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

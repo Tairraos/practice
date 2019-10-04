@@ -16,6 +16,10 @@
 #   - S的长度在[1, 500]之间。
 #   - S只包含小写字母'a'到'z'。
 
+
+from typing import *
+
+
 class Solution:
     def partitionLabels(self, S: str) -> List[int]:
         "put solution here"

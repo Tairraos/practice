@@ -11,6 +11,16 @@
 # 进阶：
 # 你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

@@ -13,6 +13,7 @@
 #   - 你所使用的语言也许不支持队列。 你可以使用 list 或者 deque（双端队列）来模拟一个队列 , 只要是标准的队列操作即可。
 #   - 你可以假设所有操作都是有效的（例如, 对一个空的栈不会调用 pop 或者 top 操作）。
 
+
 class MyStack:
 
     def __init__(self):
@@ -52,18 +53,17 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MyStack()
+    unit = Solution()
 
-    assert unit.push('param') == 'expect', 'Case 1'
-    assert unit.pop('param') == 'expect', 'Case 2'
-    assert unit.top('param') == 'expect', 'Case 3'
-    assert unit.empty('param') == 'expect', 'Case 4'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

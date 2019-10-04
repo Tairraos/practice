@@ -20,6 +20,10 @@
 #   - A 的长度在 [1, 5000]之间
 #   - 这个问题的时间限制已经减少了。
 
+
+from typing import *
+
+
 class Solution:
     def isIdealPermutation(self, A: List[int]) -> bool:
         "put solution here"

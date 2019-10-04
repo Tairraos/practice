@@ -32,6 +32,10 @@
 #   - board[i][j] 可以是 'R'，'.'，'B' 或 'p'
 #   - 只有一个格子上存在 board[i][j] == 'R'
 
+
+from typing import *
+
+
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         "put solution here"

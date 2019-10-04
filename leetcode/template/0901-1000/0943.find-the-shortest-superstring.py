@@ -17,6 +17,10 @@
 #   - 1 <= A.length <= 12
 #   - 1 <= A[i].length <= 20
 
+
+from typing import *
+
+
 class Solution:
     def shortestSuperstring(self, A: List[str]) -> str:
         "put solution here"

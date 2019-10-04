@@ -17,6 +17,7 @@
 #   - S 和 J 最多含有50个字母。
 #   -  J 中的字符不重复。
 
+
 class Solution:
     def numJewelsInStones(self, J: str, S: str) -> int:
         "put solution here"

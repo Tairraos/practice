@@ -34,6 +34,7 @@
 #   - 1 <= S.length <= 20000
 #   - S[i] 为 'a'、'b'、或 'c'
 
+
 class Solution:
     def isValid(self, S: str) -> bool:
         "put solution here"

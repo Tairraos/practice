@@ -21,6 +21,10 @@
 #   - 1 <= emails.length <= 100
 #   - 每封 emails[i] 都包含有且仅有一个 '@' 字符。
 
+
+from typing import *
+
+
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
         "put solution here"

@@ -36,6 +36,7 @@
 #   - 版本字符串由以点 （.） 分隔的数字字符串组成。这个数字字符串可能有前导零。
 #   - 版本字符串不以点开始或结束，并且其中不会有两个连续的点。
 
+
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
         "put solution here"

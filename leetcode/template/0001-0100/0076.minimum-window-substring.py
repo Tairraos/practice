@@ -12,6 +12,7 @@
 #   - 如果 S 中不存这样的子串，则返回空字符串 ""。
 #   - 如果 S 中存在这样的子串，我们保证它是唯一的答案。
 
+
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         "put solution here"

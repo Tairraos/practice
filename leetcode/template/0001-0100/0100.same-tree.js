@@ -54,8 +54,8 @@ var isSameTree = function(p, q) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(isSameTree("param"), "expect", "caseName");
-assert.deepEqual(isSameTree("param"), "expect", "caseName");
+assert.deepEqual(isSameTree("param"), "expect", "Case 1");
+assert.deepEqual(isSameTree("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

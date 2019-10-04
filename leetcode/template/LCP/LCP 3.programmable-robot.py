@@ -34,8 +34,13 @@
 # 0 <= obstacles的长度 <= 1000
 # obstacles[i]不为原点或者终点
 
+
+from typing import *
+
+
 class Solution:
-    def robot(self, command: str, obstacles: List[List[int]], x: int, y: int) -> bool:"put solution here"
+    def robot(self, command: str, obstacles: List[List[int]], x: int, y: int) -> bool:
+        "put solution here"
 
 
 # Local test

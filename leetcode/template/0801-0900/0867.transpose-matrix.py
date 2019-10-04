@@ -17,6 +17,10 @@
 #   - 1 <= A.length <= 1000
 #   - 1 <= A[0].length <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def transpose(self, A: List[List[int]]) -> List[List[int]]:
         "put solution here"

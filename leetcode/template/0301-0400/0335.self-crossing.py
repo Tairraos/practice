@@ -32,6 +32,10 @@
 # 输入: [1,1,1,1]
 # 输出: true
 
+
+from typing import *
+
+
 class Solution:
     def isSelfCrossing(self, x: List[int]) -> bool:
         "put solution here"

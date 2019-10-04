@@ -18,6 +18,10 @@
 # 输入: ")("
 # 输出: [""]
 
+
+from typing import *
+
+
 class Solution:
     def removeInvalidParentheses(self, s: str) -> List[str]:
         "put solution here"

@@ -31,8 +31,8 @@ var maxScoreSightseeingPair = function(A) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(maxScoreSightseeingPair("param"), "expect", "caseName");
-assert.deepEqual(maxScoreSightseeingPair("param"), "expect", "caseName");
+assert.deepEqual(maxScoreSightseeingPair("param"), "expect", "Case 1");
+assert.deepEqual(maxScoreSightseeingPair("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

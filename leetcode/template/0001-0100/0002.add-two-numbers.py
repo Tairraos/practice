@@ -11,6 +11,16 @@
 # 输出：7 -> 0 -> 8
 # 原因：342 + 465 = 807
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

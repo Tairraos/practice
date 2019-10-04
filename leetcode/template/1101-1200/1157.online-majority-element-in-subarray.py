@@ -25,6 +25,10 @@
 # 对于每次查询，2 * threshold > right - left + 1
 # 查询次数最多为 10000
 
+
+from typing import *
+
+
 class MajorityChecker:
 
     def __init__(self, arr: List[int]):
@@ -36,7 +40,8 @@ class MajorityChecker:
 
 # Your MajorityChecker object will be instantiated and called as such:
 # obj = MajorityChecker(arr)
-# param_1 = obj.query(left,right,threshold)"put solution here"
+# param_1 = obj.query(left,right,threshold)
+        "put solution here"
 
 
 # Local test

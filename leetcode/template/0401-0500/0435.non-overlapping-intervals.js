@@ -32,14 +32,7 @@
  */
 
 /**
- * Definition for an interval.
- * function Interval(start, end) {
- *     this.start = start;
- *     this.end = end;
- * }
- */
-/**
- * @param {Interval[]} intervals
+ * @param {number[][]} intervals
  * @return {number}
  */
 var eraseOverlapIntervals = function(intervals) {
@@ -50,8 +43,8 @@ var eraseOverlapIntervals = function(intervals) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(eraseOverlapIntervals("param"), "expect", "caseName");
-assert.deepEqual(eraseOverlapIntervals("param"), "expect", "caseName");
+assert.deepEqual(eraseOverlapIntervals("param"), "expect", "Case 1");
+assert.deepEqual(eraseOverlapIntervals("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -21,6 +21,10 @@
 #   - 给定的火柴长度和在 0 到 10^9之间。
 #   - 火柴数组的长度不超过15。
 
+
+from typing import *
+
+
 class Solution:
     def makesquare(self, nums: List[int]) -> bool:
         "put solution here"

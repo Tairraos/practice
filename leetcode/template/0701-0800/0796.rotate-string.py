@@ -16,6 +16,7 @@
 # 注意：
 #   - A 和 B 长度不超过 100。
 
+
 class Solution:
     def rotateString(self, A: str, B: str) -> bool:
         "put solution here"

@@ -29,6 +29,7 @@
 # 
 # 注意： n 和 m 都属于 [0, 1000].
 
+
 class Solution:
     def flipLights(self, n: int, m: int) -> int:
         "put solution here"

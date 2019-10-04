@@ -35,6 +35,10 @@
 #   - 2 <= K <= 30
 #   - 1 <= stones[i] <= 100
 
+
+from typing import *
+
+
 class Solution:
     def mergeStones(self, stones: List[int], K: int) -> int:
         "put solution here"

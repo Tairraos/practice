@@ -17,6 +17,10 @@
 #   - 给定数组的长度不会超过50000。
 #   - 输入数组中的所有数字都在32位整数的表示范围内。
 
+
+from typing import *
+
+
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         "put solution here"

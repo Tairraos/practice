@@ -44,8 +44,8 @@ var countPrimeSetBits = function(L, R) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(countPrimeSetBits("param"), "expect", "caseName");
-assert.deepEqual(countPrimeSetBits("param"), "expect", "caseName");
+assert.deepEqual(countPrimeSetBits("param"), "expect", "Case 1");
+assert.deepEqual(countPrimeSetBits("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -17,28 +17,33 @@
 #   - prefix, suffix的长度在[0, 10]之前。
 #   - words[i]和prefix, suffix只包含小写字母。
 
+
+from typing import *
+
+
 class WordFilter:
 
     def __init__(self, words: List[str]):
-        "put solution here"
+        
 
     def f(self, prefix: str, suffix: str) -> int:
-        "put solution here"
+        
 
 
 # Your WordFilter object will be instantiated and called as such:
 # obj = WordFilter(words)
 # param_1 = obj.f(prefix,suffix)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = WordFilter()
+    unit = Solution()
 
-    assert unit.f('param') == 'expect', 'Case 1'
-    assert unit.f('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

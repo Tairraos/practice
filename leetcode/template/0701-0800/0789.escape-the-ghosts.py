@@ -35,6 +35,10 @@
 #   - 所有的点的坐标值的绝对值 <= 10000。
 #   - 阻碍者的数量不会超过 100。
 
+
+from typing import *
+
+
 class Solution:
     def escapeGhosts(self, ghosts: List[List[int]], target: List[int]) -> bool:
         "put solution here"

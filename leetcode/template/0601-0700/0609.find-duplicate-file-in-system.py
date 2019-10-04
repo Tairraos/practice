@@ -29,6 +29,10 @@
 #   - 修改后的解决方案的时间复杂度是多少？其中最耗时的部分和消耗内存的部分是什么？如何优化？
 #   - 如何确保您发现的重复文件不是误报？
 
+
+from typing import *
+
+
 class Solution:
     def findDuplicate(self, paths: List[str]) -> List[List[str]]:
         "put solution here"

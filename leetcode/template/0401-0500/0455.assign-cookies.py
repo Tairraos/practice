@@ -28,6 +28,10 @@
 # 你拥有的饼干数量和尺寸都足以让所有孩子满足。
 # 所以你应该输出2.
 
+
+from typing import *
+
+
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
         "put solution here"

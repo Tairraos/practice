@@ -43,8 +43,8 @@ var invertTree = function(root) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(invertTree("param"), "expect", "caseName");
-assert.deepEqual(invertTree("param"), "expect", "caseName");
+assert.deepEqual(invertTree("param"), "expect", "Case 1");
+assert.deepEqual(invertTree("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

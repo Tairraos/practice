@@ -13,6 +13,10 @@
 #   - 数组中的整数范围是 [-100,100]。
 #   - 给定数组中可能包含重复数字，相等的数字应该被视为递增的一种情况。
 
+
+from typing import *
+
+
 class Solution:
     def findSubsequences(self, nums: List[int]) -> List[List[int]]:
         "put solution here"

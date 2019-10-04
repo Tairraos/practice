@@ -30,6 +30,7 @@
 #   - 1 <= K <= 100
 #   - 1 <= N <= 10000
 
+
 class Solution:
     def superEggDrop(self, K: int, N: int) -> int:
         "put solution here"

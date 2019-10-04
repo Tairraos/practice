@@ -20,6 +20,7 @@
 # 说明：
 #   - n 的取值范围是 [1, 1000] 。
 
+
 class Solution:
     def minSteps(self, n: int) -> int:
         "put solution here"

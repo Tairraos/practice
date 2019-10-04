@@ -9,6 +9,7 @@
 # 注意：
 # A 与 B 字符串的长度在1和10000区间范围内。
 
+
 class Solution:
     def repeatedStringMatch(self, A: str, B: str) -> int:
         "put solution here"

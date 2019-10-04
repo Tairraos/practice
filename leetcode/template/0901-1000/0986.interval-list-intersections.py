@@ -18,6 +18,10 @@
 #   - 0 <= B.length < 1000
 #   - 0 <= A[i].start, A[i].end, B[i].start, B[i].end < 10^9
 
+
+from typing import *
+
+
 class Solution:
     def intervalIntersection(self, A: List[List[int]], B: List[List[int]]) -> List[List[int]]:
         "put solution here"

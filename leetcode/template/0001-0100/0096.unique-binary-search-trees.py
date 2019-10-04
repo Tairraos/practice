@@ -16,6 +16,7 @@
 #     /     /       \                 \
 #    2     1         2                 3
 
+
 class Solution:
     def numTrees(self, n: int) -> int:
         "put solution here"

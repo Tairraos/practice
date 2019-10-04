@@ -39,6 +39,7 @@
 # 
 # 你看到的输入格式主要是为了确保测试的全面性。
 
+
 class Foo:
     def __init__(self):
         pass
@@ -60,17 +61,17 @@ class Foo:
         
         # printThird() outputs "third". Do not change or remove this line.
         printThird()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = Foo()
+    unit = Solution()
 
-    assert unit.first('param') == 'expect', 'Case 1'
-    assert unit.second('param') == 'expect', 'Case 2'
-    assert unit.third('param') == 'expect', 'Case 3'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

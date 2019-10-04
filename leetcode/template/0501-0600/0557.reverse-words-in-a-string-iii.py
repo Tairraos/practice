@@ -10,6 +10,7 @@
 # 
 # 注意：在字符串中，每个单词由单个空格分隔，并且字符串中不会有任何额外的空格。
 
+
 class Solution:
     def reverseWords(self, s: str) -> str:
         "put solution here"

@@ -30,6 +30,10 @@
 # 不存在花园有 4 条或者更多路径可以进入或离开。
 # 保证存在答案。
 
+
+from typing import *
+
+
 class Solution:
     def gardenNoAdj(self, N: int, paths: List[List[int]]) -> List[int]:
         "put solution here"

@@ -27,6 +27,10 @@
 # 
 # 解释: 序列中有 3 个132模式的的子序列: [-1, 3, 2], [-1, 3, 0] 和 [-1, 2, 0].
 
+
+from typing import *
+
+
 class Solution:
     def find132pattern(self, nums: List[int]) -> bool:
         "put solution here"

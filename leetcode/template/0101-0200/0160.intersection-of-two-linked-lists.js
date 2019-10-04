@@ -55,8 +55,8 @@ var getIntersectionNode = function(headA, headB) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(getIntersectionNode("param"), "expect", "caseName");
-assert.deepEqual(getIntersectionNode("param"), "expect", "caseName");
+assert.deepEqual(getIntersectionNode("param"), "expect", "Case 1");
+assert.deepEqual(getIntersectionNode("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

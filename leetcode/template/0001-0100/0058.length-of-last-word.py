@@ -11,6 +11,7 @@
 # 输入: "Hello World"
 # 输出: 5
 
+
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         "put solution here"

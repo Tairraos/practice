@@ -24,6 +24,10 @@
 #   - nums1和nums2中所有元素是唯一的。
 #   - nums1和nums2 的数组大小都不超过1000。
 
+
+from typing import *
+
+
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
         "put solution here"

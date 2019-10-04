@@ -12,6 +12,7 @@
 # 输入: 21
 # 输出: -1
 
+
 class Solution:
     def nextGreaterElement(self, n: int) -> int:
         "put solution here"

@@ -24,6 +24,10 @@
 #   - 1 <= stamp.length <= target.length <= 1000
 #   - stamp 和 target 只包含小写字母。
 
+
+from typing import *
+
+
 class Solution:
     def movesToStamp(self, stamp: str, target: str) -> List[int]:
         "put solution here"

@@ -36,18 +36,23 @@
 # 输入语法说明：
 # 输入是两个列表：调用成员函数名和调用的参数。Solution的构造函数有两个参数，N 和黑名单 B。pick 没有参数，输入参数是一个列表，即使参数为空，也会输入一个 [] 空列表。
 
+
+from typing import *
+
+
 class Solution:
 
     def __init__(self, N: int, blacklist: List[int]):
-        "put solution here"
+        
 
     def pick(self) -> int:
-        "put solution here"
+        
 
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(N, blacklist)
 # param_1 = obj.pick()
+        "put solution here"
 
 
 # Local test
@@ -56,8 +61,8 @@ if __name__ == '__main__':
     launch_start = time.time()
     unit = Solution()
 
-    assert unit.pick('param') == 'expect', 'Case 1'
-    assert unit.pick('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

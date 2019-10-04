@@ -23,6 +23,7 @@
 # 0 <= n <= 37
 # 答案保证是一个 32 位整数，即 answer <= 2^31 - 1。
 
+
 class Solution:
     def tribonacci(self, n: int) -> int:
         "put solution here"

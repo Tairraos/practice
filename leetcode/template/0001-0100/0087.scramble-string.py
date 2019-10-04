@@ -44,6 +44,7 @@
 # 输入: s1 = "abcde", s2 = "caebd"
 # 输出: false
 
+
 class Solution:
     def isScramble(self, s1: str, s2: str) -> bool:
         "put solution here"

@@ -16,6 +16,10 @@
 # 输入: nums = [4,5,6,7,0,1,2], target = 3
 # 输出: -1
 
+
+from typing import *
+
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         "put solution here"

@@ -28,8 +28,8 @@ var convertToBase7 = function(num) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(convertToBase7("param"), "expect", "caseName");
-assert.deepEqual(convertToBase7("param"), "expect", "caseName");
+assert.deepEqual(convertToBase7("param"), "expect", "Case 1");
+assert.deepEqual(convertToBase7("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

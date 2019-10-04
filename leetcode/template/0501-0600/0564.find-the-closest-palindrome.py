@@ -13,6 +13,7 @@
 #   - n 是由字符串表示的正整数，其长度不超过18。
 #   - 如果有多个结果，返回最小的那个。
 
+
 class Solution:
     def nearestPalindromic(self, n: str) -> str:
         "put solution here"

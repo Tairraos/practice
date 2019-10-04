@@ -19,6 +19,7 @@
 # 注意：
 #   - 输入的字符串长度不会超过1000。
 
+
 class Solution:
     def countSubstrings(self, s: str) -> int:
         "put solution here"

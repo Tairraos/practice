@@ -30,6 +30,10 @@
 #   -  grid[i][j] 的高度范围是： [0, 100]。
 #   - 一座建筑物占据一个grid[i][j]：换言之，它们是 1 x 1 x grid[i][j] 的长方体。
 
+
+from typing import *
+
+
 class Solution:
     def maxIncreaseKeepingSkyline(self, grid: List[List[int]]) -> int:
         "put solution here"

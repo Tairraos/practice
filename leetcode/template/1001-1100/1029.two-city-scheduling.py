@@ -22,6 +22,10 @@
 # costs.length 为偶数
 # 1 <= costs[i][0], costs[i][1] <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def twoCitySchedCost(self, costs: List[List[int]]) -> int:
         "put solution here"

@@ -13,6 +13,10 @@
 #   - 给定数组的长度范围是 [2, 10000]。
 #   - 给定的数组是无序的。
 
+
+from typing import *
+
+
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         "put solution here"

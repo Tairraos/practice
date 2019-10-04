@@ -29,6 +29,10 @@
 #   - 保证 graph[1] 非空。
 #   - 保证 graph[2] 包含非零元素。
 
+
+from typing import *
+
+
 class Solution:
     def catMouseGame(self, graph: List[List[int]]) -> int:
         "put solution here"

@@ -17,6 +17,10 @@
 #     首先，迭代计算出0、1 和 2 元素的个数，然后按照0、1、2的排序，重写当前数组。
 #   - 你能想出一个仅使用常数空间的一趟扫描算法吗？
 
+
+from typing import *
+
+
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """

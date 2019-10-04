@@ -19,6 +19,10 @@
 #   - A中不含有重复的元素。
 #   - A中的元素大小在[0, N-1]之间。
 
+
+from typing import *
+
+
 class Solution:
     def arrayNesting(self, nums: List[int]) -> int:
         "put solution here"

@@ -21,6 +21,10 @@
 #   - 0 <= hand[i] <= 10^9
 #   - 1 <= W <= hand.length
 
+
+from typing import *
+
+
 class Solution:
     def isNStraightHand(self, hand: List[int], W: int) -> bool:
         "put solution here"

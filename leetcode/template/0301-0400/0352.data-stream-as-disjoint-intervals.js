@@ -19,13 +19,6 @@
  */
 
 /**
- * Definition for an interval.
- * function Interval(start, end) {
- *     this.start = start;
- *     this.end = end;
- * }
- */
-/**
  * Initialize your data structure here.
  */
 var SummaryRanges = function() {
@@ -41,7 +34,7 @@ SummaryRanges.prototype.addNum = function(val) {
 };
 
 /**
- * @return {Interval[]}
+ * @return {number[][]}
  */
 SummaryRanges.prototype.getIntervals = function() {
     
@@ -49,7 +42,7 @@ SummaryRanges.prototype.getIntervals = function() {
 
 /** 
  * Your SummaryRanges object will be instantiated and called as such:
- * var obj = Object.create(SummaryRanges).createNew()
+ * var obj = new SummaryRanges()
  * obj.addNum(val)
  * var param_2 = obj.getIntervals()
  */
@@ -58,8 +51,8 @@ SummaryRanges.prototype.getIntervals = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(SummaryRanges("param"), "expect", "caseName");
-assert.deepEqual(SummaryRanges("param"), "expect", "caseName");
+assert.deepEqual(SummaryRanges("param"), "expect", "Case 1");
+assert.deepEqual(SummaryRanges("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

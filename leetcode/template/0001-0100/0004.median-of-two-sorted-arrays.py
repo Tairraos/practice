@@ -16,6 +16,10 @@
 # nums2 = [3, 4]
 # 则中位数是 (2 + 3)/2 = 2.5
 
+
+from typing import *
+
+
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         "put solution here"

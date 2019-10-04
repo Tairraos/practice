@@ -20,6 +20,7 @@
 # 说明：
 # 你可以假设所有单词都是由小写字母 a-z 组成的。
 
+
 class WordDictionary:
 
     def __init__(self):
@@ -45,16 +46,17 @@ class WordDictionary:
 # obj = WordDictionary()
 # obj.addWord(word)
 # param_2 = obj.search(word)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = WordDictionary()
+    unit = Solution()
 
-    assert unit.addWord('param') == 'expect', 'Case 1'
-    assert unit.search('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

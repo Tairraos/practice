@@ -28,6 +28,7 @@
 #   - N 的范围 [1, 30].
 #   - K 的范围 [1, 2^(N-1)].
 
+
 class Solution:
     def kthGrammar(self, N: int, K: int) -> int:
         "put solution here"

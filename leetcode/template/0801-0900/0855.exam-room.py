@@ -23,32 +23,34 @@
 #   - 在所有的测试样例中 ExamRoom.seat() 和 ExamRoom.leave() 最多被调用 10^4 次。
 #   - 调用 ExamRoom.leave(p) 时需要确保当前有学生坐在座位 p 上。
 
+
 class ExamRoom:
 
     def __init__(self, N: int):
-        "put solution here"
+        
 
     def seat(self) -> int:
-        "put solution here"
+        
 
     def leave(self, p: int) -> None:
-        "put solution here"
+        
 
 
 # Your ExamRoom object will be instantiated and called as such:
 # obj = ExamRoom(N)
 # param_1 = obj.seat()
 # obj.leave(p)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = ExamRoom()
+    unit = Solution()
 
-    assert unit.seat('param') == 'expect', 'Case 1'
-    assert unit.leave('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

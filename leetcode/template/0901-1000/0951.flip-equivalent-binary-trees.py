@@ -16,6 +16,14 @@
 #   - 每棵树最多有 100 个节点。
 #   - 每棵树中的每个值都是唯一的、在 [0, 99] 范围内的整数。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

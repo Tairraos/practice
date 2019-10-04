@@ -24,6 +24,10 @@
 # 1 <= stones.length <= 30
 # 1 <= stones[i] <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def lastStoneWeightII(self, stones: List[int]) -> int:
         "put solution here"

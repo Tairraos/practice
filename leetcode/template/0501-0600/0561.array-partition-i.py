@@ -14,6 +14,10 @@
 #   - n 是正整数,范围在 [1, 10000].
 #   - 数组中的元素范围在 [-10000, 10000].
 
+
+from typing import *
+
+
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         "put solution here"

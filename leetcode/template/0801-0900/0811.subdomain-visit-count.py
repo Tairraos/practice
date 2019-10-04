@@ -31,6 +31,10 @@
 #   - 每个域名地址包含一个或两个"."符号。
 #   - 输入中任意一个域名的访问次数都小于10000。
 
+
+from typing import *
+
+
 class Solution:
     def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
         "put solution here"

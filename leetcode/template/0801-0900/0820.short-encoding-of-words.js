@@ -33,8 +33,8 @@ var minimumLengthEncoding = function(words) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(minimumLengthEncoding("param"), "expect", "caseName");
-assert.deepEqual(minimumLengthEncoding("param"), "expect", "caseName");
+assert.deepEqual(minimumLengthEncoding("param"), "expect", "Case 1");
+assert.deepEqual(minimumLengthEncoding("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

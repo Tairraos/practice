@@ -25,6 +25,17 @@
 #   - 目标结点 target 是树上的结点。
 #   - 0 <= K <= 1000.
 
+
+from typing import *
+
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

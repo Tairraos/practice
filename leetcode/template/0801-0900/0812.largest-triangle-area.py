@@ -17,6 +17,10 @@
 #   -  -50 <= points[i][j] <= 50.
 #   - 结果误差值在 10^-6 以内都认为是正确答案。
 
+
+from typing import *
+
+
 class Solution:
     def largestTriangleArea(self, points: List[List[int]]) -> float:
         "put solution here"

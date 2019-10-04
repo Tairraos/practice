@@ -29,6 +29,10 @@
 # 
 # 解释: 你不需要移除任何区间，因为它们已经是无重叠的了。
 
+
+from typing import *
+
+
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
         "put solution here"

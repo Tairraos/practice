@@ -24,6 +24,7 @@
 #   - 1 <= K <= S.length <= 1000
 #   - S 只由小写字母组成。
 
+
 class Solution:
     def orderlyQueue(self, S: str, K: int) -> str:
         "put solution here"

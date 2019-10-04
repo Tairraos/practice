@@ -13,6 +13,7 @@
 # 输入: 3
 # 输出: False
 
+
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
         "put solution here"

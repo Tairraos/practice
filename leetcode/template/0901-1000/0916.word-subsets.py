@@ -33,6 +33,10 @@
 #   - A[i] 和 B[i] 只由小写字母组成。
 #   - A[i] 中所有的单词都是独一无二的，也就是说不存在 i != j 使得 A[i] == A[j]。
 
+
+from typing import *
+
+
 class Solution:
     def wordSubsets(self, A: List[str], B: List[str]) -> List[str]:
         "put solution here"

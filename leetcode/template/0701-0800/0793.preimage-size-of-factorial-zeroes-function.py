@@ -19,6 +19,7 @@
 # 注意：
 #   - K是范围在 [0, 10^9] 的整数。
 
+
 class Solution:
     def preimageSizeFZF(self, K: int) -> int:
         "put solution here"

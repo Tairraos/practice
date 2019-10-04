@@ -34,6 +34,10 @@
 #   - a 的范围是 [1,m]，b 的范围是 [1,n]。
 #   - 操作数目不超过 10000。
 
+
+from typing import *
+
+
 class Solution:
     def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:
         "put solution here"

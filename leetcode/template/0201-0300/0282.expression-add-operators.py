@@ -24,6 +24,10 @@
 # 输入: num = "3456237490", target = 9191
 # 输出: []
 
+
+from typing import *
+
+
 class Solution:
     def addOperators(self, num: str, target: int) -> List[str]:
         "put solution here"

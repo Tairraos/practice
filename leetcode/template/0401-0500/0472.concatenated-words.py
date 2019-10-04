@@ -20,6 +20,10 @@
 #   - 所有输入字符串只包含小写字母。
 #   - 不需要考虑答案输出的顺序。
 
+
+from typing import *
+
+
 class Solution:
     def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
         "put solution here"

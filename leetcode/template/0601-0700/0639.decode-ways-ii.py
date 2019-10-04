@@ -25,6 +25,7 @@
 #   - 输入的字符串长度范围是 [1, 10^5]。
 #   - 输入的字符串只会包含字符 '*' 和 数字'0' - '9'。
 
+
 class Solution:
     def numDecodings(self, s: str) -> int:
         "put solution here"

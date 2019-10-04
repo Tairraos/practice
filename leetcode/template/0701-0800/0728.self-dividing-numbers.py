@@ -16,6 +16,10 @@
 # 注意：
 #   - 每个输入参数的边界满足 1 <= left <= right <= 10000。
 
+
+from typing import *
+
+
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         "put solution here"

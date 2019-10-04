@@ -21,6 +21,10 @@
 #   - 给定的面积不大于 10,000,000 且为正整数。
 #   - 你设计的页面的长度和宽度必须都是正整数。
 
+
+from typing import *
+
+
 class Solution:
     def constructRectangle(self, area: int) -> List[int]:
         "put solution here"

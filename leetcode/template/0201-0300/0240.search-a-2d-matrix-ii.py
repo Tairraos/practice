@@ -19,6 +19,10 @@
 # 给定 target = 5，返回 true。
 # 给定 target = 20，返回 false。
 
+
+from typing import *
+
+
 class Solution:
     def searchMatrix(self, matrix, target):
         """

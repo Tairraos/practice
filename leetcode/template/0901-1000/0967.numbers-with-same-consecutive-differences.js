@@ -34,8 +34,8 @@ var numsSameConsecDiff = function(N, K) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(numsSameConsecDiff("param"), "expect", "caseName");
-assert.deepEqual(numsSameConsecDiff("param"), "expect", "caseName");
+assert.deepEqual(numsSameConsecDiff("param"), "expect", "Case 1");
+assert.deepEqual(numsSameConsecDiff("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

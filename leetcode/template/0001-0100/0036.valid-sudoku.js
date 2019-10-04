@@ -63,8 +63,8 @@ var isValidSudoku = function(board) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(isValidSudoku("param"), "expect", "caseName");
-assert.deepEqual(isValidSudoku("param"), "expect", "caseName");
+assert.deepEqual(isValidSudoku("param"), "expect", "Case 1");
+assert.deepEqual(isValidSudoku("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

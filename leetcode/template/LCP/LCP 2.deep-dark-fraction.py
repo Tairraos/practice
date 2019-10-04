@@ -25,8 +25,13 @@
 # cont最后一个元素不等于0
 # 答案的n, m的取值都能被32位int整型存下（即不超过2 ^ 31 - 1）。
 
+
+from typing import *
+
+
 class Solution:
-    def fraction(self, cont: List[int]) -> List[int]:"put solution here"
+    def fraction(self, cont: List[int]) -> List[int]:
+        "put solution here"
 
 
 # Local test

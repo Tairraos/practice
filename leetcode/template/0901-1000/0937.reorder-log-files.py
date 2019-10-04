@@ -20,6 +20,10 @@
 #   - 3 <= logs[i].length <= 100
 #   - logs[i] 保证有一个标识符，并且标识符后面有一个字。
 
+
+from typing import *
+
+
 class Solution:
     def reorderLogFiles(self, logs: List[str]) -> List[str]:
         "put solution here"

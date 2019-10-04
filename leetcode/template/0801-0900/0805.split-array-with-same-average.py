@@ -14,6 +14,10 @@
 #   - A 数组的长度范围为 [1, 30].
 #   - A[i] 的数据范围为 [0, 10000].
 
+
+from typing import *
+
+
 class Solution:
     def splitArraySameAverage(self, A: List[int]) -> bool:
         "put solution here"

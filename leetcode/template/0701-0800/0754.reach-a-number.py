@@ -24,6 +24,7 @@
 # 注意：
 #   - target是在[-10^9, 10^9]范围中的非零整数。
 
+
 class Solution:
     def reachNumber(self, target: int) -> int:
         "put solution here"

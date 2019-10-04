@@ -26,6 +26,10 @@
 # 1 <= c <= 100
 # a != b, b != c, c != a
 
+
+from typing import *
+
+
 class Solution:
     def numMovesStones(self, a: int, b: int, c: int) -> List[int]:
         "put solution here"

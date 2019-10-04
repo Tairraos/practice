@@ -28,6 +28,10 @@
 # 进阶：
 # 你能写出时间时间复杂度为 O(n) 和额外空间复杂度为 O(1) 的算法吗？
 
+
+from typing import *
+
+
 class Solution:
     def circularArrayLoop(self, nums: List[int]) -> bool:
         "put solution here"

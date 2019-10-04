@@ -26,6 +26,7 @@
 #   - 2 <= A <= 40000
 #   - 2 <= B <= 40000
 
+
 class Solution:
     def nthMagicalNumber(self, N: int, A: int, B: int) -> int:
         "put solution here"

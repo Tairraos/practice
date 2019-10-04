@@ -40,8 +40,8 @@ var rangeSumBST = function(root, L, R) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(rangeSumBST("param"), "expect", "caseName");
-assert.deepEqual(rangeSumBST("param"), "expect", "caseName");
+assert.deepEqual(rangeSumBST("param"), "expect", "Case 1");
+assert.deepEqual(rangeSumBST("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

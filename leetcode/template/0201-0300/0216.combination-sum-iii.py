@@ -16,6 +16,10 @@
 # 输入: k = 3, n = 9
 # 输出: [[1,2,6], [1,3,5], [2,3,4]]
 
+
+from typing import *
+
+
 class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         "put solution here"

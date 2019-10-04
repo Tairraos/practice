@@ -25,6 +25,10 @@
 #   - 数组的长度不超过10,000。
 #   - 所有输入的整数的范围在 [-1e7, 1e7]。
 
+
+from typing import *
+
+
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:
         "put solution here"

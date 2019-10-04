@@ -35,6 +35,10 @@
 # red_edges[i].length == blue_edges[i].length == 2
 # 0 <= red_edges[i][j], blue_edges[i][j] < n
 
+
+from typing import *
+
+
 class Solution:
     def shortestAlternatingPaths(self, n: int, red_edges: List[List[int]], blue_edges: List[List[int]]) -> List[int]:
         "put solution here"

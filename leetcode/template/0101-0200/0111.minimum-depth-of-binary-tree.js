@@ -37,8 +37,8 @@ var minDepth = function(root) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(minDepth("param"), "expect", "caseName");
-assert.deepEqual(minDepth("param"), "expect", "caseName");
+assert.deepEqual(minDepth("param"), "expect", "Case 1");
+assert.deepEqual(minDepth("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

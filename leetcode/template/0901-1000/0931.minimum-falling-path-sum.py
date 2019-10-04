@@ -21,6 +21,10 @@
 #   - 1 <= A.length == A[0].length <= 100
 #   - -100 <= A[i][j] <= 100
 
+
+from typing import *
+
+
 class Solution:
     def minFallingPathSum(self, A: List[List[int]]) -> int:
         "put solution here"

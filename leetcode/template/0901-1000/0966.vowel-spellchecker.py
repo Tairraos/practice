@@ -32,6 +32,10 @@
 #   - 1 <= queries[i].length <= 7
 #   - wordlist 和 queries 中的所有字符串仅由英文字母组成。
 
+
+from typing import *
+
+
 class Solution:
     def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
         "put solution here"

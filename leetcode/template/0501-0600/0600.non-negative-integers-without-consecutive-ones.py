@@ -19,6 +19,7 @@
 # 
 # 说明: 1 <= n <= 10^9
 
+
 class Solution:
     def findIntegers(self, num: int) -> int:
         "put solution here"

@@ -50,6 +50,7 @@
 #   - 邮箱的长度至少是 8。
 #   - 电话号码的长度至少是 10。
 
+
 class Solution:
     def maskPII(self, S: str) -> str:
         "put solution here"

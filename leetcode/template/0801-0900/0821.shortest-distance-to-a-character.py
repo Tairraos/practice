@@ -13,6 +13,10 @@
 #   - C 是一个单字符，且保证是字符串 S 里的字符。
 #   - S 和 C 中的所有字母均为小写字母。
 
+
+from typing import *
+
+
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         "put solution here"

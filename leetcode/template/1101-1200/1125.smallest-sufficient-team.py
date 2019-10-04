@@ -26,6 +26,10 @@
 # req_skills[i][j], people[i][j][k] 都由小写英文字母组成
 # 本题保证「必要团队」一定存在
 
+
+from typing import *
+
+
 class Solution:
     def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:
         "put solution here"

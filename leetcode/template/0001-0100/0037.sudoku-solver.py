@@ -21,6 +21,10 @@
 #   - 你可以假设给定的数独只有唯一解。
 #   - 给定数独永远是 9x9 形式的。
 
+
+from typing import *
+
+
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """

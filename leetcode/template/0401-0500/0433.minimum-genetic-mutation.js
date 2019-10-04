@@ -51,8 +51,8 @@ var minMutation = function(start, end, bank) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(minMutation("param"), "expect", "caseName");
-assert.deepEqual(minMutation("param"), "expect", "caseName");
+assert.deepEqual(minMutation("param"), "expect", "Case 1");
+assert.deepEqual(minMutation("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

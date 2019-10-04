@@ -26,6 +26,16 @@
 # 对于链表中的每个节点，1 <= node.val <= 10^9
 # 给定列表的长度在 [0, 10000] 范围内
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

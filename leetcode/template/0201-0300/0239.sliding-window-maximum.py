@@ -25,6 +25,10 @@
 # 进阶：
 # 你能在线性时间复杂度内解决此题吗？
 
+
+from typing import *
+
+
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         "put solution here"

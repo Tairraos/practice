@@ -21,6 +21,10 @@
 #   - 0 <= A[i] <= 10^6
 #   - A 是如上定义的山脉
 
+
+from typing import *
+
+
 class Solution:
     def peakIndexInMountainArray(self, A: List[int]) -> int:
         "put solution here"

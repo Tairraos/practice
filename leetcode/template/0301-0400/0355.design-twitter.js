@@ -84,7 +84,7 @@ Twitter.prototype.unfollow = function(followerId, followeeId) {
 
 /** 
  * Your Twitter object will be instantiated and called as such:
- * var obj = Object.create(Twitter).createNew()
+ * var obj = new Twitter()
  * obj.postTweet(userId,tweetId)
  * var param_2 = obj.getNewsFeed(userId)
  * obj.follow(followerId,followeeId)
@@ -95,8 +95,8 @@ Twitter.prototype.unfollow = function(followerId, followeeId) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(Twitter("param"), "expect", "caseName");
-assert.deepEqual(Twitter("param"), "expect", "caseName");
+assert.deepEqual(Twitter("param"), "expect", "Case 1");
+assert.deepEqual(Twitter("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

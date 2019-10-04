@@ -69,7 +69,7 @@ RandomizedSet.prototype.getRandom = function() {
 
 /** 
  * Your RandomizedSet object will be instantiated and called as such:
- * var obj = Object.create(RandomizedSet).createNew()
+ * var obj = new RandomizedSet()
  * var param_1 = obj.insert(val)
  * var param_2 = obj.remove(val)
  * var param_3 = obj.getRandom()
@@ -79,8 +79,8 @@ RandomizedSet.prototype.getRandom = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(RandomizedSet("param"), "expect", "caseName");
-assert.deepEqual(RandomizedSet("param"), "expect", "caseName");
+assert.deepEqual(RandomizedSet("param"), "expect", "Case 1");
+assert.deepEqual(RandomizedSet("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

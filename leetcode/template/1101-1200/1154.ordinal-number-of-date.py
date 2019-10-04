@@ -27,6 +27,7 @@
 # date[4] == date[7] == &#39;-&#39;，其他的 date[i] 都是数字。
 # date 表示的范围从 1900 年 1 月 1 日至 2019 年 12 月 31 日。
 
+
 class Solution:
     def dayOfYear(self, date: str) -> int:
         "put solution here"

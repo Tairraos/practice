@@ -26,6 +26,7 @@
 # 输入: 701
 # 输出: "ZY"
 
+
 class Solution:
     def convertToTitle(self, n: int) -> str:
         "put solution here"

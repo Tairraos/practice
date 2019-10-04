@@ -39,6 +39,10 @@
 #   - 数组 asteroids 的长度不超过 10000。
 #   - 每一颗行星的大小都是非零整数，范围是 [-1000, 1000] 。
 
+
+from typing import *
+
+
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         "put solution here"

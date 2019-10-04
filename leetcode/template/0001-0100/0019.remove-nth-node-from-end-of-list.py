@@ -15,6 +15,16 @@
 # 进阶：
 # 你能尝试使用一趟扫描实现吗？
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

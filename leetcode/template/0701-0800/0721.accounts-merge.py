@@ -20,6 +20,10 @@
 #   - accounts[i]的长度将在[1，10]的范围内。
 #   - accounts[i][j]的长度将在[1，30]的范围内。
 
+
+from typing import *
+
+
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
         "put solution here"

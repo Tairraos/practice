@@ -14,6 +14,7 @@
 # 输入: n = 10, pick = 6
 # 输出: 6
 
+
 #Python 2
 
 # The guess API is already defined for you.

@@ -31,6 +31,10 @@
 #   - 保证爱丽丝与鲍勃的糖果总量不同。
 #   - 答案肯定存在。
 
+
+from typing import *
+
+
 class Solution:
     def fairCandySwap(self, A: List[int], B: List[int]) -> List[int]:
         "put solution here"

@@ -17,6 +17,7 @@
 # 输入: numerator = 2, denominator = 3
 # 输出: "0.(6)"
 
+
 class Solution:
     def fractionToDecimal(self, numerator: int, denominator: int) -> str:
         "put solution here"

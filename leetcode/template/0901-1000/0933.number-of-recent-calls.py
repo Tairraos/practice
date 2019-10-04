@@ -17,28 +17,30 @@
 #   - 每个测试用例会使用严格递增的 t 值来调用 ping。
 #   - 每次调用 ping 都有 1 <= t <= 10^9。
 
+
 class RecentCounter:
 
     def __init__(self):
-        "put solution here"
+        
 
     def ping(self, t: int) -> int:
-        "put solution here"
+        
 
 
 # Your RecentCounter object will be instantiated and called as such:
 # obj = RecentCounter()
 # param_1 = obj.ping(t)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = RecentCounter()
+    unit = Solution()
 
-    assert unit.ping('param') == 'expect', 'Case 1'
-    assert unit.ping('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

@@ -24,6 +24,10 @@
 #   - 0 <= K <= A.length
 #   - A[i] 为 0 或 1
 
+
+from typing import *
+
+
 class Solution:
     def longestOnes(self, A: List[int], K: int) -> int:
         "put solution here"

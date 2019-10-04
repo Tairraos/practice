@@ -28,6 +28,7 @@
 # 将中间的一个'A'替换为'B',字符串变为 "AABBBBA"。
 # 子串 "BBBB" 有最长重复字母, 答案为 4。
 
+
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         "put solution here"

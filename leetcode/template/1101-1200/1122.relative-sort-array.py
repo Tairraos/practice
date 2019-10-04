@@ -19,6 +19,10 @@
 # arr2 中的元素 arr2[i] 各不相同
 # arr2 中的每个元素 arr2[i] 都出现在 arr1 中
 
+
+from typing import *
+
+
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
         "put solution here"

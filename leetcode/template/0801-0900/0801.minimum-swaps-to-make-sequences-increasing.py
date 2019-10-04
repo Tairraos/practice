@@ -18,6 +18,10 @@
 #   - A, B 两个数组的长度总是相等的，且长度的范围为 [1, 1000]。
 #   - A[i], B[i] 均为 [0, 2000]区间内的整数。
 
+
+from typing import *
+
+
 class Solution:
     def minSwap(self, A: List[int], B: List[int]) -> int:
         "put solution here"

@@ -19,6 +19,10 @@
 #   - 1 <= N <= 9
 #   - 0 <= K <= 9
 
+
+from typing import *
+
+
 class Solution:
     def numsSameConsecDiff(self, N, K):
         """

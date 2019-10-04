@@ -39,6 +39,14 @@
 #   - 给定树中的结点数介于 1 和 100 之间。
 #   - 每个结点都有一个从 0 到 1000 范围内的唯一整数值。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

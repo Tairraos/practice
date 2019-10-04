@@ -22,6 +22,14 @@
 #   - next() 和 hasNext() 操作的时间复杂度是 O(1)，并使用 O(h) 内存，其中 h 是树的高度。
 #   - 你可以假设 next() 调用总是有效的，也就是说，当调用 next() 时，BST 中至少存在一个下一个最小的数。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,7 +40,7 @@
 class BSTIterator:
 
     def __init__(self, root: TreeNode):
-        "put solution here"
+        
 
     def next(self) -> int:
         """
@@ -51,16 +59,17 @@ class BSTIterator:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = BSTIterator()
+    unit = Solution()
 
-    assert unit.next('param') == 'expect', 'Case 1'
-    assert unit.next('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

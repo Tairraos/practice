@@ -18,6 +18,17 @@
 # to_delete.length <= 1000
 # to_delete 包含一些从 1 到 1000、各不相同的值。
 
+
+from typing import *
+
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

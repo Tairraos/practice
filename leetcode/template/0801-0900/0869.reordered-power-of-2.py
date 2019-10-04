@@ -28,6 +28,7 @@
 # 提示：
 #   - 1 <= N <= 10^9
 
+
 class Solution:
     def reorderedPowerOf2(self, N: int) -> bool:
         "put solution here"

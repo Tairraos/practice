@@ -23,6 +23,7 @@
 # 输出: "0"
 # 解释: 从原数字移除所有的数字，剩余为空就是0。
 
+
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
         "put solution here"

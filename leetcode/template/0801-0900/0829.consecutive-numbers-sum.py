@@ -21,6 +21,7 @@
 # 
 # 说明: 1 <= N <= 10 ^ 9
 
+
 class Solution:
     def consecutiveNumbersSum(self, N: int) -> int:
         "put solution here"

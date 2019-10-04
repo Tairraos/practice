@@ -21,6 +21,10 @@
 #   - 1 <= A.length = A[0].length = B.length = B[0].length <= 30
 #   - 0 <= A[i][j], B[i][j] <= 1
 
+
+from typing import *
+
+
 class Solution:
     def largestOverlap(self, A: List[List[int]], B: List[List[int]]) -> int:
         "put solution here"

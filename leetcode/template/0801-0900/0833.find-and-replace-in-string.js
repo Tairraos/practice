@@ -44,8 +44,8 @@ var findReplaceString = function(S, indexes, sources, targets) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(findReplaceString("param"), "expect", "caseName");
-assert.deepEqual(findReplaceString("param"), "expect", "caseName");
+assert.deepEqual(findReplaceString("param"), "expect", "Case 1");
+assert.deepEqual(findReplaceString("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

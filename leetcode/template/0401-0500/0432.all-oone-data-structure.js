@@ -55,7 +55,7 @@ AllOne.prototype.getMinKey = function() {
 
 /** 
  * Your AllOne object will be instantiated and called as such:
- * var obj = Object.create(AllOne).createNew()
+ * var obj = new AllOne()
  * obj.inc(key)
  * obj.dec(key)
  * var param_3 = obj.getMaxKey()
@@ -66,8 +66,8 @@ AllOne.prototype.getMinKey = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(AllOne("param"), "expect", "caseName");
-assert.deepEqual(AllOne("param"), "expect", "caseName");
+assert.deepEqual(AllOne("param"), "expect", "Case 1");
+assert.deepEqual(AllOne("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

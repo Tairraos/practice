@@ -24,6 +24,10 @@
 # 1. 向右 -> 向右 -> 向下 -> 向下
 # 2. 向下 -> 向下 -> 向右 -> 向右
 
+
+from typing import *
+
+
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         "put solution here"

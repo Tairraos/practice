@@ -34,6 +34,10 @@
 # 下一个字节是开头为 10 的延续字节，这是正确的。
 # 但第二个延续字节不以 10 开头，所以是不符合规则的。
 
+
+from typing import *
+
+
 class Solution:
     def validUtf8(self, data: List[int]) -> bool:
         "put solution here"

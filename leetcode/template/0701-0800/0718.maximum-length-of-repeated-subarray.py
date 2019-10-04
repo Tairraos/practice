@@ -16,6 +16,10 @@
 #   - 1 <= len(A), len(B) <= 1000
 #   - 0 <= A[i], B[i] < 100
 
+
+from typing import *
+
+
 class Solution:
     def findLength(self, A: List[int], B: List[int]) -> int:
         "put solution here"

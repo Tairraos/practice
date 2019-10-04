@@ -30,6 +30,14 @@
 # 解释: 和第一个示例相似，
 # 除了我们不能省略第一个对括号来中断输入和输出之间的一对一映射关系。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

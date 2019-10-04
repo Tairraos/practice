@@ -20,6 +20,7 @@
 # 提示：
 # 1 <= n <= 100
 
+
 class Solution:
     def numPrimeArrangements(self, n: int) -> int:
         "put solution here"

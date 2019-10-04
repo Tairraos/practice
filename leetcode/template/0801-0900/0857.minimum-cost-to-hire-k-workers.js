@@ -41,8 +41,8 @@ var mincostToHireWorkers = function(quality, wage, K) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(mincostToHireWorkers("param"), "expect", "caseName");
-assert.deepEqual(mincostToHireWorkers("param"), "expect", "caseName");
+assert.deepEqual(mincostToHireWorkers("param"), "expect", "Case 1");
+assert.deepEqual(mincostToHireWorkers("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

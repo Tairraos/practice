@@ -25,6 +25,10 @@
 #   - 1 <= A[i], B[i] <= 6
 #   - 2 <= A.length == B.length <= 20000
 
+
+from typing import *
+
+
 class Solution:
     def minDominoRotations(self, A: List[int], B: List[int]) -> int:
         "put solution here"

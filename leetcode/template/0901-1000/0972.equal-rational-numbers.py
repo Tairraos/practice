@@ -35,6 +35,7 @@
 #   - 0 <= <NonRepeatingPart>.length <= 4
 #   - 1 <= <RepeatingPart>.length <= 4
 
+
 class Solution:
     def isRationalEqual(self, S: str, T: str) -> bool:
         "put solution here"

@@ -24,6 +24,10 @@
 # 3 <= A.length <= 50000
 # -10000 <= A[i] <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         "put solution here"

@@ -20,6 +20,16 @@
 # 向右旋转 3 步: 0->1->2->NULL
 # 向右旋转 4 步: 2->0->1->NULL
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

@@ -24,6 +24,10 @@
 # -1000 <= matrix[i] <= 1000
 # -10^8 <= target <= 10^8
 
+
+from typing import *
+
+
 class Solution:
     def numSubmatrixSumTarget(self, matrix: List[List[int]], target: int) -> int:
         "put solution here"

@@ -28,6 +28,10 @@
 #   - 0 <= A[i] <= 100
 #   - 0 <= target <= 300
 
+
+from typing import *
+
+
 class Solution:
     def threeSumMulti(self, A: List[int], target: int) -> int:
         "put solution here"

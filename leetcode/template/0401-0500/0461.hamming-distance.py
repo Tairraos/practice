@@ -20,6 +20,7 @@
 # 
 # 上面的箭头指出了对应二进制位不同的位置。
 
+
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
         "put solution here"

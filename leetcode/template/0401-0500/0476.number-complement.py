@@ -18,6 +18,7 @@
 # 输出: 0
 # 解释: 1的二进制表示为1（没有前导零位），其补数为0。所以你需要输出0。
 
+
 class Solution:
     def findComplement(self, num: int) -> int:
         "put solution here"

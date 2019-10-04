@@ -35,6 +35,7 @@
 # 输入字符串中的 &ldquo;H&rdquo; 总数将会是 2n；
 # 输入字符串中的 &ldquo;O&rdquo; 总数将会是 n。
 
+
 class H2O:
     def __init__(self):
         pass
@@ -50,16 +51,17 @@ class H2O:
         
         # releaseOxygen() outputs "O". Do not change or remove this line.
         releaseOxygen()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = H2O()
+    unit = Solution()
 
-    assert unit.hydrogen('param') == 'expect', 'Case 1'
-    assert unit.oxygen('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

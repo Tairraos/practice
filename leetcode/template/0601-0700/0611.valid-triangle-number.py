@@ -17,6 +17,10 @@
 #   - 数组长度不超过1000。
 #   - 数组里整数的范围为 [0, 1000]。
 
+
+from typing import *
+
+
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:
         "put solution here"

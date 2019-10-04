@@ -18,6 +18,10 @@
 # 解释: 在第 2 天 (股票价格 = 2) 的时候买入，在第 3 天 (股票价格 = 6) 的时候卖出, 这笔交易所能获得利润 = 6-2 = 4 。
 #      随后，在第 5 天 (股票价格 = 0) 的时候买入，在第 6 天 (股票价格 = 3) 的时候卖出, 这笔交易所能获得利润 = 3-0 = 3 。
 
+
+from typing import *
+
+
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         "put solution here"

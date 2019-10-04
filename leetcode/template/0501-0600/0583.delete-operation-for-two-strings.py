@@ -13,6 +13,7 @@
 #   - 给定单词的长度不超过500。
 #   - 给定单词中的字符只含有小写字母。
 
+
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         "put solution here"

@@ -28,6 +28,7 @@
 #   - 你手中的球不会超过5个，输入的数据中代表这些球的字符串的名字是 "hand"。
 #   - 输入的两个字符串均为非空字符串，且只包含字符 'R','Y','B','G','W'。
 
+
 class Solution:
     def findMinStep(self, board: str, hand: str) -> int:
         "put solution here"

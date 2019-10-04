@@ -55,6 +55,14 @@
 #   - 输入的深度值 d 的范围是：[1，二叉树最大深度 + 1]。
 #   - 输入的二叉树至少有一个节点。
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

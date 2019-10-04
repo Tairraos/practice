@@ -49,7 +49,7 @@ WordDictionary.prototype.search = function(word) {
 
 /** 
  * Your WordDictionary object will be instantiated and called as such:
- * var obj = Object.create(WordDictionary).createNew()
+ * var obj = new WordDictionary()
  * obj.addWord(word)
  * var param_2 = obj.search(word)
  */
@@ -58,8 +58,8 @@ WordDictionary.prototype.search = function(word) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(WordDictionary("param"), "expect", "caseName");
-assert.deepEqual(WordDictionary("param"), "expect", "caseName");
+assert.deepEqual(WordDictionary("param"), "expect", "Case 1");
+assert.deepEqual(WordDictionary("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

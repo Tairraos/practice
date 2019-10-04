@@ -19,6 +19,10 @@
 # points[i].length == 2
 # 0 <= points[i][j] <= 100
 
+
+from typing import *
+
+
 class Solution:
     def isBoomerang(self, points: List[List[int]]) -> bool:
         "put solution here"

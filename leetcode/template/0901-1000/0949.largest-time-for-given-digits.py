@@ -17,6 +17,10 @@
 #   - A.length == 4
 #   - 0 <= A[i] <= 9
 
+
+from typing import *
+
+
 class Solution:
     def largestTimeFromDigits(self, A: List[int]) -> str:
         "put solution here"

@@ -43,6 +43,7 @@
 # 0 <= target <= 10^9
 # 0 <= mountain_arr.get(index) <= 10^9
 
+
 # """
 # This is MountainArray's API interface.
 # You should not implement it, or speculate about its implementation

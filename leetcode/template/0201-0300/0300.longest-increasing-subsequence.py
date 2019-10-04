@@ -15,6 +15,10 @@
 # 
 # 进阶: 你能将算法的时间复杂度降低到 O(n log n) 吗?
 
+
+from typing import *
+
+
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         "put solution here"

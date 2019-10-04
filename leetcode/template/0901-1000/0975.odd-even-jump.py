@@ -52,6 +52,10 @@
 #   - 1 <= A.length <= 20000
 #   - 0 <= A[i] < 100000
 
+
+from typing import *
+
+
 class Solution:
     def oddEvenJumps(self, A: List[int]) -> int:
         "put solution here"

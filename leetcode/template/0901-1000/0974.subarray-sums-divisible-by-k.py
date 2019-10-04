@@ -16,6 +16,10 @@
 #   - -10000 <= A[i] <= 10000
 #   - 2 <= K <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def subarraysDivByK(self, A: List[int], K: int) -> int:
         "put solution here"

@@ -41,8 +41,8 @@ var mostCommonWord = function(paragraph, banned) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(mostCommonWord("param"), "expect", "caseName");
-assert.deepEqual(mostCommonWord("param"), "expect", "caseName");
+assert.deepEqual(mostCommonWord("param"), "expect", "Case 1");
+assert.deepEqual(mostCommonWord("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

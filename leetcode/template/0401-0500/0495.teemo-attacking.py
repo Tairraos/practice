@@ -24,6 +24,10 @@
 #   - 你可以假定时间序列数组的总长度不超过 10000。
 #   - 你可以假定提莫攻击时间序列中的数字和提莫攻击的中毒持续时间都是非负整数，并且不超过 10,000,000。
 
+
+from typing import *
+
+
 class Solution:
     def findPoisonedDuration(self, timeSeries: List[int], duration: int) -> int:
         "put solution here"

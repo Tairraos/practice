@@ -16,6 +16,10 @@
 # 1 <= heights.length <= 100
 # 1 <= heights[i] <= 100
 
+
+from typing import *
+
+
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:
         "put solution here"

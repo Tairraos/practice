@@ -53,6 +53,10 @@
 # 
 # 返回 false。因为中间有相交区域，虽然形成了矩形，但不是精确覆盖。
 
+
+from typing import *
+
+
 class Solution:
     def isRectangleCover(self, rectangles: List[List[int]]) -> bool:
         "put solution here"

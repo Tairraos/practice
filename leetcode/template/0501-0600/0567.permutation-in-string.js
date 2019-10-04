@@ -33,8 +33,8 @@ var checkInclusion = function(s1, s2) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(checkInclusion("param"), "expect", "caseName");
-assert.deepEqual(checkInclusion("param"), "expect", "caseName");
+assert.deepEqual(checkInclusion("param"), "expect", "Case 1");
+assert.deepEqual(checkInclusion("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

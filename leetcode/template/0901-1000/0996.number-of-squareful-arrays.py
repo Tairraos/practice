@@ -19,6 +19,10 @@
 #   - 1 <= A.length <= 12
 #   - 0 <= A[i] <= 1e9
 
+
+from typing import *
+
+
 class Solution:
     def numSquarefulPerms(self, A: List[int]) -> int:
         "put solution here"

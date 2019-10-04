@@ -64,7 +64,7 @@ TimeMap.prototype.get = function(key, timestamp) {
 
 /** 
  * Your TimeMap object will be instantiated and called as such:
- * var obj = Object.create(TimeMap).createNew()
+ * var obj = new TimeMap()
  * obj.set(key,value,timestamp)
  * var param_2 = obj.get(key,timestamp)
  */
@@ -73,8 +73,8 @@ TimeMap.prototype.get = function(key, timestamp) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(TimeMap("param"), "expect", "caseName");
-assert.deepEqual(TimeMap("param"), "expect", "caseName");
+assert.deepEqual(TimeMap("param"), "expect", "Case 1");
+assert.deepEqual(TimeMap("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

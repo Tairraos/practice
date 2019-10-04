@@ -22,6 +22,10 @@
 #   - 0 <= A[i] < 10000
 #   - A.length 为偶数
 
+
+from typing import *
+
+
 class Solution:
     def repeatedNTimes(self, A: List[int]) -> int:
         "put solution here"

@@ -32,6 +32,7 @@
 # 输出: "foobarfoobar"
 # 解释: "foobar" 将被输出两次。
 
+
 class FooBar:
     def __init__(self, n):
         self.n = n
@@ -51,16 +52,17 @@ class FooBar:
             
             # printBar() outputs "bar". Do not change or remove this line.
         	printBar()
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = FooBar()
+    unit = Solution()
 
-    assert unit.foo('param') == 'expect', 'Case 1'
-    assert unit.bar('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

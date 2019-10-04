@@ -22,6 +22,10 @@
 # ]
 # 输出: [1,2,3,4,8,12,11,10,9,5,6,7]
 
+
+from typing import *
+
+
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         "put solution here"

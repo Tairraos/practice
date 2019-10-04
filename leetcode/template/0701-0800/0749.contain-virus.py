@@ -51,6 +51,10 @@
 #   -  grid[i][j] 只包含 0 或 1 。
 #   - 题目保证每次选取感染区域进行隔离时，一定存在唯一一个对未感染区域的威胁最大的区域。
 
+
+from typing import *
+
+
 class Solution:
     def containVirus(self, grid: List[List[int]]) -> int:
         "put solution here"

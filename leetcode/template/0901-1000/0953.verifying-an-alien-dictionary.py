@@ -26,6 +26,10 @@
 #   - order.length == 26
 #   - 在 words[i] 和 order 中的所有字符都是英文小写字母。
 
+
+from typing import *
+
+
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
         "put solution here"

@@ -23,6 +23,7 @@
 #   - s.length 在1到50,000之间。
 #   - s 只包含“0”或“1”字符。
 
+
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:
         "put solution here"

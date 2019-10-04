@@ -15,6 +15,16 @@
 # 进阶：
 # 你能否用 O(n) 时间复杂度和 O(1) 空间复杂度解决此题？
 
+
+from typing import *
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

@@ -12,6 +12,10 @@
 #   - 列表中时间数在 2~20000 之间。
 #   - 每个时间取值在 00:00~23:59 之间。
 
+
+from typing import *
+
+
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
         "put solution here"

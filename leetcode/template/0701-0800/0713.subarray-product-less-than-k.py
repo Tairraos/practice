@@ -16,6 +16,10 @@
 #   - 0 < nums[i] < 1000
 #   - 0 <= k < 10^6
 
+
+from typing import *
+
+
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
         "put solution here"

@@ -22,6 +22,10 @@
 #   - 0 <= rectangles[i][j] <= 10^9
 #   - 矩形叠加覆盖后的总面积不会超越 2^63 - 1 ，这意味着可以用一个 64 位有符号整数来保存面积结果。
 
+
+from typing import *
+
+
 class Solution:
     def rectangleArea(self, rectangles: List[List[int]]) -> int:
         "put solution here"

@@ -29,8 +29,13 @@
 # 0 <= start, destination < n
 # 0 <= distance[i] <= 10^4
 
+
+from typing import *
+
+
 class Solution:
-    def distanceBetweenBusStops(self, distance: List[int], start: int, destination: int) -> int:"put solution here"
+    def distanceBetweenBusStops(self, distance: List[int], start: int, destination: int) -> int:
+        "put solution here"
 
 
 # Local test

@@ -13,6 +13,10 @@
 # 
 # 进阶：你将如何拓展你的设计？使之变得通用化，从而适应所有的类型，而不只是整数型？
 
+
+from typing import *
+
+
 # Below is the interface for Iterator, which is already defined for you.
 #
 # class Iterator:
@@ -66,16 +70,17 @@ class PeekingIterator:
 # while iter.hasNext():
 #     val = iter.peek()   # Get the next element but not advance the iterator.
 #     iter.next()         # Should return the same value as [val].
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = PeekingIterator()
+    unit = Solution()
 
-    assert unit.next('param') == 'expect', 'Case 1'
-    assert unit.next('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

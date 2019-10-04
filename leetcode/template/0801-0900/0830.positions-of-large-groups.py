@@ -24,6 +24,10 @@
 # 
 # 说明:  1 <= S.length <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:
         "put solution here"

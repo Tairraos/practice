@@ -12,6 +12,7 @@
 # 
 # 注意事项：您可以假定该字符串只包含小写字母。
 
+
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         "put solution here"

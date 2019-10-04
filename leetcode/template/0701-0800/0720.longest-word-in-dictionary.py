@@ -24,6 +24,10 @@
 #   - words数组长度范围为[1,1000]。
 #   - words[i]的长度范围为[1,30]。
 
+
+from typing import *
+
+
 class Solution:
     def longestWord(self, words: List[str]) -> str:
         "put solution here"

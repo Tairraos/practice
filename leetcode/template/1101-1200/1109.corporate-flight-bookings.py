@@ -17,6 +17,10 @@
 # 1 <= bookings[i][0] <= bookings[i][1] <= n <= 20000
 # 1 <= bookings[i][2] <= 10000
 
+
+from typing import *
+
+
 class Solution:
     def corpFlightBookings(self, bookings: List[List[int]], n: int) -> List[int]:
         "put solution here"

@@ -38,8 +38,8 @@ var removeKdigits = function(num, k) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(removeKdigits("param"), "expect", "caseName");
-assert.deepEqual(removeKdigits("param"), "expect", "caseName");
+assert.deepEqual(removeKdigits("param"), "expect", "Case 1");
+assert.deepEqual(removeKdigits("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

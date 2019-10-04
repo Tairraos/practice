@@ -17,6 +17,10 @@
 # 给定 word = "SEE", 返回 true.
 # 给定 word = "ABCB", 返回 false.
 
+
+from typing import *
+
+
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         "put solution here"

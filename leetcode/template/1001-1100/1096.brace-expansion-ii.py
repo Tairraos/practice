@@ -43,6 +43,10 @@
 # expression[i] 由 &#39;{&#39;，&#39;}&#39;，&#39;,&#39; 或小写英文字母组成
 # 给出的表达式 expression 用以表示一组基于题目描述中语法构造的字符串
 
+
+from typing import *
+
+
 class Solution:
     def braceExpansionII(self, expression: str) -> List[str]:
         "put solution here"

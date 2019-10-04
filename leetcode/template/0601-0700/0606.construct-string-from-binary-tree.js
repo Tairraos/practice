@@ -51,8 +51,8 @@ var tree2str = function(t) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(tree2str("param"), "expect", "caseName");
-assert.deepEqual(tree2str("param"), "expect", "caseName");
+assert.deepEqual(tree2str("param"), "expect", "Case 1");
+assert.deepEqual(tree2str("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

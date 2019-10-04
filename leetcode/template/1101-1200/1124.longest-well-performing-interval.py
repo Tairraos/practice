@@ -19,6 +19,10 @@
 # 1 <= hours.length <= 10000
 # 0 <= hours[i] <= 16
 
+
+from typing import *
+
+
 class Solution:
     def longestWPI(self, hours: List[int]) -> int:
         "put solution here"

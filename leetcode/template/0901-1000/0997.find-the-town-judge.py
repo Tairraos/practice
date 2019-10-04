@@ -38,6 +38,10 @@
 #   - trust[i][0] != trust[i][1]
 #   - 1 <= trust[i][0], trust[i][1] <= N
 
+
+from typing import *
+
+
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
         "put solution here"

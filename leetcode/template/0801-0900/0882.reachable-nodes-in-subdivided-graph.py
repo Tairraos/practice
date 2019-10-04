@@ -30,6 +30,10 @@
 #   - 0 <= M <= 10^9
 #   - 1 <= N <= 3000
 
+
+from typing import *
+
+
 class Solution:
     def reachableNodes(self, edges: List[List[int]], M: int, N: int) -> int:
         "put solution here"

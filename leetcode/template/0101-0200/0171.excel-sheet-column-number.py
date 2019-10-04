@@ -28,6 +28,7 @@
 # 致谢：
 # 特别感谢 [@ts](http://leetcode.com/discuss/user/ts) 添加此问题并创建所有测试用例。
 
+
 class Solution:
     def titleToNumber(self, s: str) -> int:
         "put solution here"

@@ -18,6 +18,10 @@
 #   - 输入的数组长度范围为 [1, 20000]。
 #   - n 是非负整数，且不会超过输入数组的大小。
 
+
+from typing import *
+
+
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         "put solution here"

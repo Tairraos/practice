@@ -19,6 +19,10 @@
 #   - 数组的长度为[2, 10,000]，并且确定为偶数。
 #   - 数组中数字的大小在范围[-100,000, 100,000]内。
 
+
+from typing import *
+
+
 class Solution:
     def distributeCandies(self, candies: List[int]) -> int:
         "put solution here"

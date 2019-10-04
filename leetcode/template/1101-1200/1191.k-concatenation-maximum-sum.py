@@ -31,6 +31,10 @@
 # 1 <= k <= 10^5
 # -10^4 <= arr[i] <= 10^4
 
+
+from typing import *
+
+
 class Solution:
     def kConcatenationMaxSum(self, arr: List[int], k: int) -> int:
         "put solution here"

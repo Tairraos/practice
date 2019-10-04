@@ -14,6 +14,7 @@
 # 输出: 2
 # 解释: 13 = 4 + 9.
 
+
 class Solution:
     def numSquares(self, n: int) -> int:
         "put solution here"

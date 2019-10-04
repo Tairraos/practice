@@ -13,6 +13,10 @@
 # 
 # 说明: 如果 h 有多种可能的值，h 指数是其中最大的那个。
 
+
+from typing import *
+
+
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
         "put solution here"

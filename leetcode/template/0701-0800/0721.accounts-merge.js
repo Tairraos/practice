@@ -34,8 +34,8 @@ var accountsMerge = function(accounts) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(accountsMerge("param"), "expect", "caseName");
-assert.deepEqual(accountsMerge("param"), "expect", "caseName");
+assert.deepEqual(accountsMerge("param"), "expect", "Case 1");
+assert.deepEqual(accountsMerge("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

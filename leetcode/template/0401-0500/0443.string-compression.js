@@ -60,8 +60,8 @@ var compress = function(chars) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(compress("param"), "expect", "caseName");
-assert.deepEqual(compress("param"), "expect", "caseName");
+assert.deepEqual(compress("param"), "expect", "Case 1");
+assert.deepEqual(compress("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

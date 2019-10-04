@@ -20,6 +20,10 @@
 #   - cost 的长度将会在 [2, 1000]。
 #   - 每一个 cost[i] 将会是一个Integer类型，范围为 [0, 999]。
 
+
+from typing import *
+
+
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         "put solution here"

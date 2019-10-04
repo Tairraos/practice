@@ -16,6 +16,10 @@
 # 1 <= A.length <= 10000
 # -50000 <= A[i] <= 50000
 
+
+from typing import *
+
+
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         "put solution here"

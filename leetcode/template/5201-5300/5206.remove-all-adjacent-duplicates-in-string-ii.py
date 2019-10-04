@@ -32,6 +32,7 @@
 # 2 <= k <= 10^4
 # s 中只含有小写英文字母。
 
+
 class Solution:
     def removeDuplicates(self, s: str, k: int) -> str:
         "put solution here"

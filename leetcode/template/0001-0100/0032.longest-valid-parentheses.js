@@ -28,8 +28,8 @@ var longestValidParentheses = function(s) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(longestValidParentheses("param"), "expect", "caseName");
-assert.deepEqual(longestValidParentheses("param"), "expect", "caseName");
+assert.deepEqual(longestValidParentheses("param"), "expect", "Case 1");
+assert.deepEqual(longestValidParentheses("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

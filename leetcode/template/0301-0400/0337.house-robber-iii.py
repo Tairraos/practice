@@ -29,6 +29,14 @@
 # 输出: 9
 # 解释: 小偷一晚能够盗取的最高金额 = 4 + 5 = 9.
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

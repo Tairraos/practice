@@ -33,6 +33,7 @@
 # 输入："/a//b////c/d//././/.."
 # 输出："/a/b/c"
 
+
 class Solution:
     def simplifyPath(self, path: str) -> str:
         "put solution here"

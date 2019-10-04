@@ -32,6 +32,10 @@
 #   - 1 <= A[i] <= 10^6
 #   - 对于所有的 i != j，A[i] != A[j]
 
+
+from typing import *
+
+
 class Solution:
     def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:
         "put solution here"

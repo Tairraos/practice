@@ -21,6 +21,7 @@
 # 进阶：
 # 你如何处理一个溢出的过大的整数输入?
 
+
 class Solution:
     def isAdditiveNumber(self, num: str) -> bool:
         "put solution here"

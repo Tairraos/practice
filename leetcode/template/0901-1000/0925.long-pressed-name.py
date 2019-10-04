@@ -29,6 +29,7 @@
 #   - typed.length <= 1000
 #   - name 和 typed 的字符都是小写字母。
 
+
 class Solution:
     def isLongPressedName(self, name: str, typed: str) -> bool:
         "put solution here"

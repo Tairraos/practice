@@ -58,8 +58,8 @@ var deserialize = function(data) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(serialize("param"), "expect", "caseName");
-assert.deepEqual(serialize("param"), "expect", "caseName");
+assert.deepEqual(serialize("param"), "expect", "Case 1");
+assert.deepEqual(serialize("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

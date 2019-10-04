@@ -24,6 +24,10 @@
 # 
 # 提示：任何试图绕过评判的解决方案都将导致比赛资格被取消。
 
+
+from typing import *
+
+
 # """
 # This is Master's API interface.
 # You should not implement it, or speculate about its implementation

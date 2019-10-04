@@ -17,6 +17,7 @@
 # 说明: 8 的平方根是 2.82842...,
 #      由于返回类型是整数，小数部分将被舍去。
 
+
 class Solution:
     def mySqrt(self, x: int) -> int:
         "put solution here"

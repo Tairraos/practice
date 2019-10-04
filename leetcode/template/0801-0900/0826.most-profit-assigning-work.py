@@ -17,6 +17,10 @@
 #   - 1 <= worker.length <= 10000
 #   - difficulty[i], profit[i], worker[i]  的范围是 [1, 10^5]
 
+
+from typing import *
+
+
 class Solution:
     def maxProfitAssignment(self, difficulty: List[int], profit: List[int], worker: List[int]) -> int:
         "put solution here"

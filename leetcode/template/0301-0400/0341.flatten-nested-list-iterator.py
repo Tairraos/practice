@@ -15,6 +15,10 @@
 # 输出: [1,4,6]
 # 解释: 通过重复调用 next 直到 hasNext 返回false，next 返回的元素的顺序应该是: [1,4,6]。
 
+
+from typing import *
+
+
 #Python 2
 
 # """
@@ -66,16 +70,17 @@ class NestedIterator(object):
 # Your NestedIterator object will be instantiated and called as such:
 # i, v = NestedIterator(nestedList), []
 # while i.hasNext(): v.append(i.next())
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = NestedIterator()
+    unit = Solution()
 
-    assert unit.next('param') == 'expect', 'Case 1'
-    assert unit.next('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

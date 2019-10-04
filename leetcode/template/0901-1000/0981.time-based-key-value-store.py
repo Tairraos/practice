@@ -34,6 +34,7 @@
 #   - 1 <= timestamp <= 10^7
 #   - TimeMap.set 和 TimeMap.get 函数在每个测试用例中将（组合）调用总计 120000 次。
 
+
 class TimeMap:
 
     def __init__(self):
@@ -43,26 +44,27 @@ class TimeMap:
         
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        "put solution here"
+        
 
     def get(self, key: str, timestamp: int) -> str:
-        "put solution here"
+        
 
 
 # Your TimeMap object will be instantiated and called as such:
 # obj = TimeMap()
 # obj.set(key,value,timestamp)
 # param_2 = obj.get(key,timestamp)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = TimeMap()
+    unit = Solution()
 
-    assert unit.set('param') == 'expect', 'Case 1'
-    assert unit.get('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

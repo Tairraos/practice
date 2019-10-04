@@ -29,6 +29,10 @@
 #   - 对于所有学生，有M[i][i] = 1。
 #   - 如果有M[i][j] = 1，则有M[j][i] = 1。
 
+
+from typing import *
+
+
 class Solution:
     def findCircleNum(self, M: List[List[int]]) -> int:
         "put solution here"

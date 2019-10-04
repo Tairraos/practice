@@ -57,7 +57,7 @@ MyStack.prototype.empty = function() {
 
 /** 
  * Your MyStack object will be instantiated and called as such:
- * var obj = Object.create(MyStack).createNew()
+ * var obj = new MyStack()
  * obj.push(x)
  * var param_2 = obj.pop()
  * var param_3 = obj.top()
@@ -68,8 +68,8 @@ MyStack.prototype.empty = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(MyStack("param"), "expect", "caseName");
-assert.deepEqual(MyStack("param"), "expect", "caseName");
+assert.deepEqual(MyStack("param"), "expect", "Case 1");
+assert.deepEqual(MyStack("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

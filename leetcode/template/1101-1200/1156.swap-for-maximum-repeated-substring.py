@@ -30,6 +30,7 @@
 # 1 <= text.length <= 20000
 # text 仅由小写英文字母组成。
 
+
 class Solution:
     def maxRepOpt1(self, text: str) -> int:
         "put solution here"

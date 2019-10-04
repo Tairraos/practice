@@ -23,6 +23,7 @@
 # 进阶：
 # 你能不使用循环或者递归来完成本题吗？
 
+
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         "put solution here"

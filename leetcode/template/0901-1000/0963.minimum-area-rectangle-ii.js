@@ -50,8 +50,8 @@ var minAreaFreeRect = function(points) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(minAreaFreeRect("param"), "expect", "caseName");
-assert.deepEqual(minAreaFreeRect("param"), "expect", "caseName");
+assert.deepEqual(minAreaFreeRect("param"), "expect", "Case 1");
+assert.deepEqual(minAreaFreeRect("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

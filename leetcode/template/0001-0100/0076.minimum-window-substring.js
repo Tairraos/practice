@@ -27,8 +27,8 @@ var minWindow = function(s, t) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(minWindow("param"), "expect", "caseName");
-assert.deepEqual(minWindow("param"), "expect", "caseName");
+assert.deepEqual(minWindow("param"), "expect", "Case 1");
+assert.deepEqual(minWindow("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

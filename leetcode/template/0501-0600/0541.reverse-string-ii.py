@@ -11,6 +11,7 @@
 #   - 该字符串只包含小写的英文字母。
 #   - 给定字符串的长度和 k 在[1, 10000]范围内。
 
+
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
         "put solution here"

@@ -27,6 +27,10 @@
 #   - 1 <= A[0] < A[1] < ... < A[A.length - 1] <= 10^9
 #   - （对于以 Java，C，C++，以及 C# 的提交，时间限制被减少了 50%）
 
+
+from typing import *
+
+
 class Solution:
     def lenLongestFibSubseq(self, A: List[int]) -> int:
         "put solution here"

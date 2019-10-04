@@ -33,6 +33,10 @@
 #   - 0 <= queries.length <= 20000
 #   - lamps[i].length == queries[i].length == 2
 
+
+from typing import *
+
+
 class Solution:
     def gridIllumination(self, N: int, lamps: List[List[int]], queries: List[List[int]]) -> List[int]:
         "put solution here"

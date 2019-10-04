@@ -23,6 +23,10 @@
 # 输入: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 # 输出: false
 
+
+from typing import *
+
+
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         "put solution here"

@@ -16,6 +16,10 @@
 #   - words 的长度在 [1, 5000]。
 #   - words[i]的长度在[1, 50]。
 
+
+from typing import *
+
+
 class Solution:
     def numMatchingSubseq(self, S: str, words: List[str]) -> int:
         "put solution here"

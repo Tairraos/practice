@@ -26,6 +26,7 @@
 #   - 1 <= N <= 10^8
 #   - 答案肯定存在，且小于 2 * 10^8。
 
+
 class Solution:
     def primePalindrome(self, N: int) -> int:
         "put solution here"

@@ -17,6 +17,10 @@
 #   - S 的长度不超过12。
 #   - S 仅由数字和字母组成。
 
+
+from typing import *
+
+
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         "put solution here"

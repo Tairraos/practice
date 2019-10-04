@@ -23,6 +23,10 @@
 # 
 # 注意: 给定的矩阵grid 的长度和宽度都不超过 50。
 
+
+from typing import *
+
+
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         "put solution here"

@@ -29,6 +29,7 @@
 # 1 <= text2.length <= 1000
 # 输入的字符串只含有小写英文字符。
 
+
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         "put solution here"

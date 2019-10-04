@@ -26,6 +26,10 @@
 # target = 13
 # 输出: false
 
+
+from typing import *
+
+
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         "put solution here"

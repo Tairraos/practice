@@ -20,6 +20,10 @@
 # 说明：
 #   - 给定矩阵中的元素总数不会超过 100000 。
 
+
+from typing import *
+
+
 class Solution:
     def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:
         "put solution here"

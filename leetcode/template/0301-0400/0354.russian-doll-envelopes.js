@@ -27,8 +27,8 @@ var maxEnvelopes = function(envelopes) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(maxEnvelopes("param"), "expect", "caseName");
-assert.deepEqual(maxEnvelopes("param"), "expect", "caseName");
+assert.deepEqual(maxEnvelopes("param"), "expect", "Case 1");
+assert.deepEqual(maxEnvelopes("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

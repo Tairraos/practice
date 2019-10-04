@@ -30,6 +30,10 @@
 # 起始索引等于 1 的子串是 "ba", 它是 "ab" 的字母异位词。
 # 起始索引等于 2 的子串是 "ab", 它是 "ab" 的字母异位词。
 
+
+from typing import *
+
+
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         "put solution here"

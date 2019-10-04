@@ -54,7 +54,7 @@ CBTInserter.prototype.get_root = function() {
 
 /** 
  * Your CBTInserter object will be instantiated and called as such:
- * var obj = Object.create(CBTInserter).createNew(root)
+ * var obj = new CBTInserter(root)
  * var param_1 = obj.insert(v)
  * var param_2 = obj.get_root()
  */
@@ -63,8 +63,8 @@ CBTInserter.prototype.get_root = function() {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(CBTInserter("param"), "expect", "caseName");
-assert.deepEqual(CBTInserter("param"), "expect", "caseName");
+assert.deepEqual(CBTInserter("param"), "expect", "Case 1");
+assert.deepEqual(CBTInserter("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

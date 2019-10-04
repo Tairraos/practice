@@ -20,6 +20,10 @@
 # 解释: 你可以分别给这三个孩子分发 1、2、1 颗糖果。
 #      第三个孩子只得到 1 颗糖果，这已满足上述两个条件。
 
+
+from typing import *
+
+
 class Solution:
     def candy(self, ratings: List[int]) -> int:
         "put solution here"

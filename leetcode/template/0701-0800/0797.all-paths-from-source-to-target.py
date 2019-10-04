@@ -18,6 +18,10 @@
 #   - 结点的数量会在范围 [2, 15] 内。
 #   - 你可以把路径以任意顺序输出，但在路径内的结点的顺序必须保证。
 
+
+from typing import *
+
+
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
         "put solution here"

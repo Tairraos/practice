@@ -15,6 +15,10 @@
 # 说明：
 # 你的算法应具有线性时间复杂度。你能否仅使用额外常数空间来实现?
 
+
+from typing import *
+
+
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         "put solution here"

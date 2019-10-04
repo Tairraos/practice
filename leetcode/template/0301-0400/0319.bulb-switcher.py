@@ -15,6 +15,7 @@
 # 
 # 你应该返回 1，因为只有一个灯泡还亮着。
 
+
 class Solution:
     def bulbSwitch(self, n: int) -> int:
         "put solution here"

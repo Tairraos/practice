@@ -23,6 +23,10 @@
 #   - 初始的数组的和不会超过1000。
 #   - 保证返回的最终结果为32位整数。
 
+
+from typing import *
+
+
 class Solution:
     def findTargetSumWays(self, nums: List[int], S: int) -> int:
         "put solution here"

@@ -14,6 +14,10 @@
 # 输入: [1,1,1,3,3,2,2,2]
 # 输出: [1,2]
 
+
+from typing import *
+
+
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         "put solution here"

@@ -18,6 +18,10 @@
 # 1 <= dominoes.length <= 40000
 # 1 <= dominoes[i][j] <= 9
 
+
+from typing import *
+
+
 class Solution:
     def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
         "put solution here"

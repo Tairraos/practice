@@ -17,15 +17,8 @@
  */
 
 /**
- * Definition for an interval.
- * function Interval(start, end) {
- *     this.start = start;
- *     this.end = end;
- * }
- */
-/**
- * @param {Interval[]} intervals
- * @return {Interval[]}
+ * @param {number[][]} intervals
+ * @return {number[][]}
  */
 var merge = function(intervals) {
     
@@ -35,8 +28,8 @@ var merge = function(intervals) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(merge("param"), "expect", "caseName");
-assert.deepEqual(merge("param"), "expect", "caseName");
+assert.deepEqual(merge("param"), "expect", "Case 1");
+assert.deepEqual(merge("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

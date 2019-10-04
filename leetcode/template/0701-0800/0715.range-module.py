@@ -21,19 +21,20 @@
 #   - 在单个测试用例中，对  queryRange 的调用总数不超过 5000 次。
 #   - 在单个测试用例中，对 removeRange 的调用总数不超过 1000 次。
 
+
 class RangeModule:
 
     def __init__(self):
-        "put solution here"
+        
 
     def addRange(self, left: int, right: int) -> None:
-        "put solution here"
+        
 
     def queryRange(self, left: int, right: int) -> bool:
-        "put solution here"
+        
 
     def removeRange(self, left: int, right: int) -> None:
-        "put solution here"
+        
 
 
 # Your RangeModule object will be instantiated and called as such:
@@ -41,13 +42,14 @@ class RangeModule:
 # obj.addRange(left,right)
 # param_2 = obj.queryRange(left,right)
 # obj.removeRange(left,right)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = RangeModule()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

@@ -16,6 +16,7 @@
 # 输入: "LOVELY"
 # 输出: "lovely"
 
+
 class Solution:
     def toLowerCase(self, str: str) -> str:
         "put solution here"

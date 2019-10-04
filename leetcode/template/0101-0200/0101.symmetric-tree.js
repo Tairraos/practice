@@ -6,11 +6,11 @@
  * 给定一个二叉树，检查它是否是镜像对称的。
  * 
  * 例如，二叉树 [1,2,2,3,4,4,3] 是对称的。
- *      1
- *    /   \
- *   2     2
- *  / \   / \
- * 3   4 4   3
+ *     1
+ *    / \
+ *   2   2
+ * / \ / \
+ * 3  4 4  3
  * 
  * 但是下面这个 [1,2,2,null,3,null,3] 则不是镜像对称的：
  *     1
@@ -42,8 +42,8 @@ var isSymmetric = function(root) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(isSymmetric("param"), "expect", "caseName");
-assert.deepEqual(isSymmetric("param"), "expect", "caseName");
+assert.deepEqual(isSymmetric("param"), "expect", "Case 1");
+assert.deepEqual(isSymmetric("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

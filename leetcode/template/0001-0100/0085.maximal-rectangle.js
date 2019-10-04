@@ -28,8 +28,8 @@ var maximalRectangle = function(matrix) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(maximalRectangle("param"), "expect", "caseName");
-assert.deepEqual(maximalRectangle("param"), "expect", "caseName");
+assert.deepEqual(maximalRectangle("param"), "expect", "Case 1");
+assert.deepEqual(maximalRectangle("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

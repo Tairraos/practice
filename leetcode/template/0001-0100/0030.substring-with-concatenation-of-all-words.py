@@ -21,6 +21,10 @@
 #   words = ["word","good","best","word"]
 # 输出：[]
 
+
+from typing import *
+
+
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         "put solution here"

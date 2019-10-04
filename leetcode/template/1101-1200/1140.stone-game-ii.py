@@ -24,6 +24,10 @@
 # 1 <= piles.length <= 100
 # 1 <= piles[i] <= 10 ^ 4
 
+
+from typing import *
+
+
 class Solution:
     def stoneGameII(self, piles: List[int]) -> int:
         "put solution here"

@@ -19,6 +19,7 @@
 #   - 输入字符串不包含额外的空格。
 #   - 输入字符串将以 a+bi 的形式给出，其中整数 a 和 b 的范围均在 [-100, 100] 之间。输出也应当符合这种形式。
 
+
 class Solution:
     def complexNumberMultiply(self, a: str, b: str) -> str:
         "put solution here"

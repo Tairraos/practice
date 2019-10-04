@@ -32,6 +32,10 @@
 #   - 2 <= N <= 50.
 #   - grid[i][j] 位于区间 [0, ..., N*N - 1] 内。
 
+
+from typing import *
+
+
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:
         "put solution here"

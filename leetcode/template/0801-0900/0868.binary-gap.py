@@ -37,6 +37,7 @@
 # 提示：
 #   - 1 <= N <= 10^9
 
+
 class Solution:
     def binaryGap(self, N: int) -> int:
         "put solution here"

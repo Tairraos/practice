@@ -14,6 +14,7 @@
 # 输出: 4
 # 解释: 最长有效括号子串为 "()()"
 
+
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         "put solution here"

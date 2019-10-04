@@ -21,6 +21,10 @@
 # 
 # 返回: 3, A 中有三个子等差数组: [1, 2, 3], [2, 3, 4] 以及自身 [1, 2, 3, 4]。
 
+
+from typing import *
+
+
 class Solution:
     def numberOfArithmeticSlices(self, A: List[int]) -> int:
         "put solution here"

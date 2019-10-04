@@ -36,6 +36,10 @@
 # 1 <= stones[i] <= 10^9
 # stones[i] 的值各不相同。
 
+
+from typing import *
+
+
 class Solution:
     def numMovesStonesII(self, stones: List[int]) -> List[int]:
         "put solution here"

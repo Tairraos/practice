@@ -23,6 +23,7 @@
 #   - S 只包含字母数字（a-z，A-Z，0-9）以及破折号'-'
 #   - S 非空
 
+
 class Solution:
     def licenseKeyFormatting(self, S: str, K: int) -> str:
         "put solution here"

@@ -45,7 +45,7 @@ NumArray.prototype.sumRange = function(i, j) {
 
 /** 
  * Your NumArray object will be instantiated and called as such:
- * var obj = Object.create(NumArray).createNew(nums)
+ * var obj = new NumArray(nums)
  * obj.update(i,val)
  * var param_2 = obj.sumRange(i,j)
  */
@@ -54,8 +54,8 @@ NumArray.prototype.sumRange = function(i, j) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(NumArray("param"), "expect", "caseName");
-assert.deepEqual(NumArray("param"), "expect", "caseName");
+assert.deepEqual(NumArray("param"), "expect", "Case 1");
+assert.deepEqual(NumArray("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

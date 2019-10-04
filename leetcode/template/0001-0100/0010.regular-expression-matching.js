@@ -53,42 +53,16 @@
  * @param {string} p
  * @return {boolean}
  */
-var isMatch = function (s, p) {
-    //特例
-    if (p === s) return true;
-    //如果p是*开头，或包含 ** 正则语法错误，直接返回false
-    if (p[0] === "*" || p.includes("**")) return false;
-    //处理正则，拆成四种情形，[字串]，[字符*], [.], [.*]
-    let r = [""];
-    p.split("").forEach(c =>
-        c === "*" ?
-        r.push(r.slice(-1)[0].slice(0, -1), r.pop().slice(-1) + "*") :
-        c === "." ? r.push(c) : r.push(r.pop() + c));
-
-    console.log(r);
-    // let ignore = "",
-    //     cur = r.shift();
-    // s.split.forEach((c, i) => {
-    //     if (c = r) {}
-    //     // switch
-
-    // });
-
+var isMatch = function(s, p) {
+    
 };
-isMatch("", "aa.*dd.ddb*sss.*");
-// // Local test
-// let assert = require("assert");
-// console.time("Time cost");
 
-// assert.deepEqual(isMatch("a", "."), true);
-// assert.deepEqual(isMatch("aa", "a"), false);
-// assert.deepEqual(isMatch("ab", ".*"), true);
-// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*"), true);
-// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*bb.*"), true);
-// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa...bb.*"), true);
-// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd.*"), true);
-// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd.dd.*"), true);
-// assert.deepEqual(isMatch("aaaabbbbccccdddd", "aa.*dd"), true);
+// Local test
+let assert = require("assert");
+console.time("Time cost");
 
-// console.log("Good job! We have passed all test case.");
-// console.timeEnd("Time cost");
+assert.deepEqual(isMatch("param"), "expect", "Case 1");
+assert.deepEqual(isMatch("param"), "expect", "Case 2");
+
+console.log("Good job! We have passed all test case.");
+console.timeEnd("Time cost");

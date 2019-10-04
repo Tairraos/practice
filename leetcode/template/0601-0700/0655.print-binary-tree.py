@@ -47,6 +47,17 @@
 # 
 # 注意: 二叉树的高度在范围 [1, 10] 中。
 
+
+from typing import *
+
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

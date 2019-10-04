@@ -18,6 +18,10 @@
 #   - 为了便于竞赛，测试所用的数据量很小。你可以在竞赛结束后，考虑更高效的算法。
 #   - 请记住重置MagicDictionary类中声明的类变量，因为静态/类变量会在多个测试用例中保留。 请参阅[这里](http://leetcode.com/faq/#different-output)了解更多详情。
 
+
+from typing import *
+
+
 class MagicDictionary:
 
     def __init__(self):
@@ -43,13 +47,14 @@ class MagicDictionary:
 # obj = MagicDictionary()
 # obj.buildDict(dict)
 # param_2 = obj.search(word)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MagicDictionary()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

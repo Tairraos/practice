@@ -38,6 +38,10 @@
 #   - 1 <= tree.length <= 40000
 #   - 0 <= tree[i] < tree.length
 
+
+from typing import *
+
+
 class Solution:
     def totalFruit(self, tree: List[int]) -> int:
         "put solution here"

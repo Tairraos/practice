@@ -27,6 +27,10 @@
 #   - 1 <= A.length <= 30000
 #   - 1 <= K <= A.length
 
+
+from typing import *
+
+
 class Solution:
     def minKBitFlips(self, A: List[int], K: int) -> int:
         "put solution here"

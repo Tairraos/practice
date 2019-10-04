@@ -24,8 +24,13 @@
 # 1 <= m <= 8
 # 0 <= b <= n * m
 
+
+from typing import *
+
+
 class Solution:
-    def domino(self, n: int, m: int, broken: List[List[int]]) -> int:"put solution here"
+    def domino(self, n: int, m: int, broken: List[List[int]]) -> int:
+        "put solution here"
 
 
 # Local test

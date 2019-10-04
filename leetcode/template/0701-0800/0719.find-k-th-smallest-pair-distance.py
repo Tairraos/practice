@@ -21,6 +21,10 @@
 #   - 0 <= nums[i] < 1000000.
 #   - 1 <= k <= len(nums) * (len(nums) - 1) / 2.
 
+
+from typing import *
+
+
 class Solution:
     def smallestDistancePair(self, nums: List[int], k: int) -> int:
         "put solution here"

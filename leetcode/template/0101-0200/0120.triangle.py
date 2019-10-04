@@ -17,6 +17,10 @@
 # 说明：
 # 如果你可以只使用 O(n) 的额外空间（n 为三角形的总行数）来解决这个问题，那么你的算法会很加分。
 
+
+from typing import *
+
+
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         "put solution here"

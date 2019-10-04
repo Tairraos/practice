@@ -21,6 +21,10 @@
 #   - grid[i][j] 只含有 '.', '#', '@', 'a'-'f' 以及 'A'-'F'
 #   - 钥匙的数目范围是 [1, 6]，每个钥匙都对应一个不同的字母，正好打开一个对应的锁。
 
+
+from typing import *
+
+
 class Solution:
     def shortestPathAllKeys(self, grid: List[str]) -> int:
         "put solution here"

@@ -37,8 +37,8 @@ var findRadius = function(houses, heaters) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(findRadius("param"), "expect", "caseName");
-assert.deepEqual(findRadius("param"), "expect", "caseName");
+assert.deepEqual(findRadius("param"), "expect", "Case 1");
+assert.deepEqual(findRadius("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

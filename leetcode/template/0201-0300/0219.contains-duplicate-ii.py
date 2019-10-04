@@ -16,6 +16,10 @@
 # 输入: nums = [1,2,3,1,2,3], k = 2
 # 输出: false
 
+
+from typing import *
+
+
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         "put solution here"

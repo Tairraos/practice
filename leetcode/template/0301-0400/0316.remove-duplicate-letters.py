@@ -12,6 +12,7 @@
 # 输入: "cbacdcbc"
 # 输出: "acdb"
 
+
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
         "put solution here"

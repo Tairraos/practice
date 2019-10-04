@@ -24,6 +24,7 @@
 #   - 操作的总数目在[1, 10000]范围内。
 #   - 不要使用内建的哈希库。
 
+
 class MyHashMap:
 
     def __init__(self):
@@ -56,13 +57,14 @@ class MyHashMap:
 # obj.put(key,value)
 # param_2 = obj.get(key)
 # obj.remove(key)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MyHashMap()
+    unit = Solution()
 
     assert unit.__init__('param') == 'expect', 'Case 1'
     assert unit.__init__('param') == 'expect', 'Case 2'

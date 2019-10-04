@@ -37,6 +37,10 @@
 #   - 一个简单的改进方案是使用 O(m + n) 的额外空间，但这仍然不是最好的解决方案。
 #   - 你能想出一个常数空间的解决方案吗？
 
+
+from typing import *
+
+
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """

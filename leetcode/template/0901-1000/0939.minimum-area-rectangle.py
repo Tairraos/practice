@@ -19,6 +19,10 @@
 #   - 0 <= points[i][1] <= 40000
 #   - 所有的点都是不同的。
 
+
+from typing import *
+
+
 class Solution:
     def minAreaRect(self, points: List[List[int]]) -> int:
         "put solution here"

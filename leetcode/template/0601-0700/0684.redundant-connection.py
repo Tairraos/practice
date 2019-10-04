@@ -30,6 +30,10 @@
 # 更新(2017-09-26)：
 # 我们已经重新检查了问题描述及测试用例，明确图是无向 图。对于有向图详见[冗余连接II](https://leetcodechina.com/problems/redundant-connection-ii/description/)。对于造成任何不便，我们深感歉意。
 
+
+from typing import *
+
+
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         "put solution here"

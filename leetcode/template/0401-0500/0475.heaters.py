@@ -22,6 +22,10 @@
 # 输出: 1
 # 解释: 在位置1, 4上有两个供暖器。我们需要将加热半径设为1，这样所有房屋就都能得到供暖。
 
+
+from typing import *
+
+
 class Solution:
     def findRadius(self, houses: List[int], heaters: List[int]) -> int:
         "put solution here"

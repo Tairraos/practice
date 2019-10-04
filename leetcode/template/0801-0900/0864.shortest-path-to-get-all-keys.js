@@ -35,8 +35,8 @@ var shortestPathAllKeys = function(grid) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(shortestPathAllKeys("param"), "expect", "caseName");
-assert.deepEqual(shortestPathAllKeys("param"), "expect", "caseName");
+assert.deepEqual(shortestPathAllKeys("param"), "expect", "Case 1");
+assert.deepEqual(shortestPathAllKeys("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

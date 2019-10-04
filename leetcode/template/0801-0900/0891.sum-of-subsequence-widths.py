@@ -19,6 +19,10 @@
 #   - 1 <= A.length <= 20000
 #   - 1 <= A[i] <= 20000
 
+
+from typing import *
+
+
 class Solution:
     def sumSubseqWidths(self, A: List[int]) -> int:
         "put solution here"

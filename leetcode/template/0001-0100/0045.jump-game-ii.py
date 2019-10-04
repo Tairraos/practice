@@ -15,6 +15,10 @@
 # 说明：
 # 假设你总是可以到达数组的最后一个位置。
 
+
+from typing import *
+
+
 class Solution:
     def jump(self, nums: List[int]) -> int:
         "put solution here"

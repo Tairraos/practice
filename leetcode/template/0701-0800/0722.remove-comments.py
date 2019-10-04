@@ -58,6 +58,10 @@
 #   - 每个块注释都会被闭合。
 #   - 给定的源码中不会有单引号、双引号或其他控制字符。
 
+
+from typing import *
+
+
 class Solution:
     def removeComments(self, source: List[str]) -> List[str]:
         "put solution here"

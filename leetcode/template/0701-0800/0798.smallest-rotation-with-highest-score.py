@@ -30,6 +30,10 @@
 #   - A 的长度最大为 20000。
 #   - A[i] 的取值范围是 [0, A.length]。
 
+
+from typing import *
+
+
 class Solution:
     def bestRotation(self, A: List[int]) -> int:
         "put solution here"

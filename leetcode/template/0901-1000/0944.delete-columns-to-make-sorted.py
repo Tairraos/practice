@@ -28,6 +28,10 @@
 #   - 1 <= A.length <= 100
 #   - 1 <= A[i].length <= 1000
 
+
+from typing import *
+
+
 class Solution:
     def minDeletionSize(self, A: List[str]) -> int:
         "put solution here"

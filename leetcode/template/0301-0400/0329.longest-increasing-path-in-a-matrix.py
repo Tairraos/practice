@@ -25,6 +25,10 @@
 # 输出: 4
 # 解释: 最长递增路径是 [3, 4, 5, 6]。注意不允许在对角线方向上移动。
 
+
+from typing import *
+
+
 class Solution:
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
         "put solution here"

@@ -14,6 +14,10 @@
 #   - 所有给定的字符串长度不会超过 10 。
 #   - 给定字符串列表的长度将在 [2, 50 ] 之间。
 
+
+from typing import *
+
+
 class Solution:
     def findLUSlength(self, strs: List[str]) -> int:
         "put solution here"

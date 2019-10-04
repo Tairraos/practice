@@ -14,6 +14,10 @@
 # 输出: [[1,2],[3,10],[12,16]]
 # 解释: 这是因为新的区间 [4,8] 与 [3,5],[6,7],[8,10] 重叠。
 
+
+from typing import *
+
+
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         "put solution here"

@@ -26,6 +26,10 @@
 # 
 # [[0, 4], [1, 3], [1, 4], [2, 2], [3, 0], [3, 1], [4, 0]] (上图中带括号的单元).
 
+
+from typing import *
+
+
 class Solution:
     def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
         "put solution here"

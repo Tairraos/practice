@@ -51,6 +51,10 @@
 #   - 1 <= positions[i][0] <= 10^8.
 #   - 1 <= positions[i][1] <= 10^6.
 
+
+from typing import *
+
+
 class Solution:
     def fallingSquares(self, positions: List[List[int]]) -> List[int]:
         "put solution here"

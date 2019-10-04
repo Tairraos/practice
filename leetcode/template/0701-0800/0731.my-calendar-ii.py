@@ -27,28 +27,30 @@
 #   - 每个测试用例，调用 MyCalendar.book 函数最多不超过 100次。
 #   - 调用函数 MyCalendar.book(start, end)时， start 和 end 的取值范围为 [0, 10^9]。
 
+
 class MyCalendarTwo:
 
     def __init__(self):
-        "put solution here"
+        
 
     def book(self, start: int, end: int) -> bool:
-        "put solution here"
+        
 
 
 # Your MyCalendarTwo object will be instantiated and called as such:
 # obj = MyCalendarTwo()
 # param_1 = obj.book(start,end)
+        "put solution here"
 
 
 # Local test
 if __name__ == '__main__':
     import time
     launch_start = time.time()
-    unit = MyCalendarTwo()
+    unit = Solution()
 
-    assert unit.book('param') == 'expect', 'Case 1'
-    assert unit.book('param') == 'expect', 'Case 2'
+    assert unit.__init__('param') == 'expect', 'Case 1'
+    assert unit.__init__('param') == 'expect', 'Case 2'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')

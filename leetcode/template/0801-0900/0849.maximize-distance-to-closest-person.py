@@ -26,6 +26,10 @@
 #   - 1 <= seats.length <= 20000
 #   - seats 中只含有 0 和 1，至少有一个 0，且至少有一个 1。
 
+
+from typing import *
+
+
 class Solution:
     def maxDistToClosest(self, seats: List[int]) -> int:
         "put solution here"

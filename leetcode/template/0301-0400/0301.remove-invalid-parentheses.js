@@ -32,8 +32,8 @@ var removeInvalidParentheses = function(s) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(removeInvalidParentheses("param"), "expect", "caseName");
-assert.deepEqual(removeInvalidParentheses("param"), "expect", "caseName");
+assert.deepEqual(removeInvalidParentheses("param"), "expect", "Case 1");
+assert.deepEqual(removeInvalidParentheses("param"), "expect", "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

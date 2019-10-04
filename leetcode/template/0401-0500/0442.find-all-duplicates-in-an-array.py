@@ -13,6 +13,10 @@
 # 输出：
 # [2,3]
 
+
+from typing import *
+
+
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
         "put solution here"

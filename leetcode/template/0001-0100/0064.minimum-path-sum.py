@@ -16,6 +16,10 @@
 # 输出: 7
 # 解释: 因为路径 1→3→1→1→1 的总和最小。
 
+
+from typing import *
+
+
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         "put solution here"

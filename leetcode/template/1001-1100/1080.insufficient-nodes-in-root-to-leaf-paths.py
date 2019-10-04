@@ -27,6 +27,14 @@
 # -10^5 <= node.val <= 10^5
 # -10^9 <= limit <= 10^9
 
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
