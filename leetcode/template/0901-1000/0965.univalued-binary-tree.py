@@ -20,19 +20,12 @@
 #   - 每个节点的值都是整数，范围为 [0, 99] 。
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def isUnivalTree(self, root: TreeNode) -> bool:

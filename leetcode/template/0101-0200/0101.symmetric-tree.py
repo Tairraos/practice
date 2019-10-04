@@ -22,19 +22,12 @@
 # 如果你可以运用递归和迭代两种方法解决这个问题，会很加分。
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:

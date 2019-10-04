@@ -22,19 +22,12 @@
 #   - 给定结点或插入结点的每个值都在 0 到 5000 之间。
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class CBTInserter:
 

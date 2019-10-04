@@ -31,19 +31,12 @@
 # 注意: 给定的二叉树不超过10000个结点。 树的高度不超过1000。
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def longestUnivaluePath(self, root: TreeNode) -> int:

@@ -23,19 +23,12 @@
 #   - 每个结点的值都是独一无二的。
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def subtreeWithAllDeepest(self, root: TreeNode) -> TreeNode:

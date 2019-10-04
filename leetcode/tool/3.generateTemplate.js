@@ -11,7 +11,7 @@
  */
 
 let x = require("xtool.js"),
-    data = require("./oldData");
+    data = require("./data");
 
 data.forEach(item => {
     let numMod = !!item.questionId.match(/^\d+$/),
@@ -70,23 +70,7 @@ data.forEach(item => {
             pyout.push("");
             pyout.push("");
         }
-        if (pycode.match(/: TreeNode|-> TreeNode/)) {
-            pyout.push("class TreeNode:");
-            pyout.push("    def __init__(self, x):");
-            pyout.push("        self.val = x");
-            pyout.push("        self.left = None");
-            pyout.push("        self.right = None");
-            pyout.push("");
-            pyout.push("");
-        }
-        if (pycode.match(/: ListNode|-> ListNode/)) {
-            pyout.push("class ListNode:");
-            pyout.push("    def __init__(self, x):");
-            pyout.push("        self.val = x");
-            pyout.push("        self.next = None");
-            pyout.push("");
-            pyout.push("");
-        }
+        pycode = pycode.replace(/#     /g, "    ").replace(/# class/g, "class");
         pyout.push(pycode + (pycode.match(/    $/) ? "" : "\n        ") + "\"put solution here\"");
         pyout.push("");
         pyout.push("");

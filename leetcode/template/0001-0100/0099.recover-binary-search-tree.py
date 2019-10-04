@@ -44,19 +44,12 @@
 #   - 你能想出一个只使用常数空间的解决方案吗？
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def recoverTree(self, root: TreeNode) -> None:

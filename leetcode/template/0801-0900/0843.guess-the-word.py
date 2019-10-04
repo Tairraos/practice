@@ -34,10 +34,10 @@ from typing import *
 # """
 #class Master:
 #    def guess(self, word):
-#        """
-#        :type word: str
-#        :rtype int
-#        """
+       """
+       :type word: str
+       :rtype int
+       """
 
 class Solution:
     def findSecretWord(self, wordlist, master):

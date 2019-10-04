@@ -35,19 +35,12 @@
 # 因此，数字总和 = 495 + 491 + 40 = 1026.
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def sumNumbers(self, root: TreeNode) -> int:

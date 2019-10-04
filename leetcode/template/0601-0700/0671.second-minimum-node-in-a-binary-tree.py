@@ -28,19 +28,12 @@
 # 说明: 最小的值是 2, 但是不存在第二小的值。
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def findSecondMinimumValue(self, root: TreeNode) -> int:

@@ -57,19 +57,12 @@
 # 注意: 答案在32位有符号整数的表示范围内。
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def widthOfBinaryTree(self, root: TreeNode) -> int:

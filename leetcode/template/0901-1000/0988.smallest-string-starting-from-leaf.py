@@ -25,19 +25,12 @@
 #   - 树中的每个结点都有一个介于 0 和 25 之间的值。
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 class Solution:
     def smallestFromLeaf(self, root: TreeNode) -> str:
