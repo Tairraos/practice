@@ -31,15 +31,15 @@
  * @return {number}
  */
 var game = function(guess, answer) {
-    
+    return guess.filter((v, i) => v === answer[i]).length;
 };
 
 // Local test
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(game("param"), "expect", "Case 1");
-assert.deepEqual(game("param"), "expect", "Case 2");
+assert.deepEqual(game([1, 2, 3], [1, 2, 3]), 3, "Case 1");
+assert.deepEqual(game([2, 2, 3], [3, 2, 1]), 1, "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

@@ -1,5 +1,5 @@
 ### Leetcode Javascript 已完成题目列表
-完成度：58/933 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
+完成度：59/933 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
 - [0001 - 两数之和](done/0001-0100/0001.two-sum.js) 难度：容易 [源](https://leetcode-cn.com/problems/two-sum/)
 - [0002 - 两数相加](done/0001-0100/0002.add-two-numbers.js) 难度：中等 [源](https://leetcode-cn.com/problems/add-two-numbers/)
 - [0003 - 无重复字符的最长子串](done/0001-0100/0003.longest-substring-without-repeating-characters.js) 难度：中等 [源](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
@@ -58,7 +58,9 @@
 - [0866 - 回文素数](done/0801-0900/0866.prime-palindrome.js) 难度：中等 [源](https://leetcode-cn.com/problems/prime-palindrome/)
 - [1009 - 十进制整数的反码](done/1001-1100/1009.complement-of-base-10-integer.js) 难度：容易 [源](https://leetcode-cn.com/problems/complement-of-base-10-integer/)
 - [1108 - IP 地址无效化](done/1101-1200/1108.defanging-an-ip-address.js) 难度：容易 [源](https://leetcode-cn.com/problems/defanging-an-ip-address/)
+- [LCP 1 - 猜数字](done/LCP/LCP 1.guess-numbers.js) 难度：容易 [源](https://leetcode-cn.com/problems/guess-numbers/)
 
 ### Leetcode Python 已完成题目列表
-完成度：1/941 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
+完成度：2/941 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
 - [1108 - IP 地址无效化](done/1101-1200/1108.defanging-an-ip-address.py) 难度：容易 [源](https://leetcode-cn.com/problems/defanging-an-ip-address/)
+- [LCP 1 - 猜数字](done/LCP/LCP 1.guess-numbers.py) 难度：容易 [源](https://leetcode-cn.com/problems/guess-numbers/)
