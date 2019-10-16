@@ -1,6 +1,6 @@
 # https://leetcode-cn.com/problems/building-h2o/
 # 1117.H2O 生成
-# 难度：困难
+# 难度：中等
 # 
 # 现在有两种线程，氢 oxygen 和氧 hydrogen，你的目标是组织这两种线程来产生水分子。
 # 

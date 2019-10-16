@@ -44,6 +44,7 @@ class ZeroEvenOdd:
         
         
     def odd(self, printNumber: 'Callable[[int], None]') -> None:
+        
         "put solution here"
 
 
