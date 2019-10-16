@@ -18,13 +18,13 @@ x.readDir(path.resolve(__dirname, ".."), {
     find: ["coding/*.js", "done/*.js", "template/*.js"],
     recursive: true
 }).forEach(
-    item => existDataList[item.replace(/.*(\d\d\d\d)\.(.*)\.js/, "$1")] = RegExp.$2
+    item => existDataList[item.replace(/.*\/([^.]+)\.(.*)\.js/, "$1")] = RegExp.$2
 );
 
 request("https://leetcode-cn.com/api/problems/all/", function(error, response, body) {
     let respData = JSON.parse(body),
         operateList = respData.stat_status_pairs.map(item => ({
-            "qid": ("000" + item.stat.frontend_question_id).slice(-4),
+            "qid": +item.stat.frontend_question_id ? ("000" + item.stat.frontend_question_id).slice(-4) : item.stat.frontend_question_id,
             "paid": item.paid_only,
             "titleSlug": item.stat.question__title_slug
         })).filter(item =>

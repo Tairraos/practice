@@ -90,7 +90,7 @@ function getQues(name) {
             var question = data.data.question,
                 codejs = "N/A",
                 codepy = "N/A";
-            if (question.questionFrontendId.match(/^\d+$/)){
+            if (question.questionFrontendId.match(/^\d+$/)) {
                 question.questionFrontendId = ("000" + question.questionFrontendId).slice(-4);
             }
             //抓回来所有语言的题目，只保留JS和PY的，如果有PY3就保留PY3
@@ -106,7 +106,9 @@ function getQues(name) {
                 };
                 question.difficulty = dictDiffculty[question.difficulty];
                 question.translatedContent = html2txt(question.translatedContent);
-                leetCodeData.push(question);
+                if (codejs !== "N/A" || codepy !== "N/A") {
+                    leetCodeData.push(question);
+                }
             }
         }
     });

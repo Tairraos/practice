@@ -3035,8 +3035,8 @@ module.exports = [{
     "titleEn": "Bulls and Cows",
     "titleCn": "猜数字游戏",
     "titleSlug": "bulls-and-cows",
-    "difficulty": "Medium",
-    "level": 2,
+    "difficulty": "Easy",
+    "level": 1,
     "isPaidOnly": false
 }, {
     "rawId": 300,
@@ -4045,8 +4045,8 @@ module.exports = [{
     "titleEn": "Nth Digit",
     "titleCn": "第N个数字",
     "titleSlug": "nth-digit",
-    "difficulty": "Easy",
-    "level": 1,
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": false
 }, {
     "rawId": 401,
@@ -4425,8 +4425,8 @@ module.exports = [{
     "titleEn": "Find All Anagrams in a String",
     "titleCn": "找到字符串中所有字母异位词",
     "titleSlug": "find-all-anagrams-in-a-string",
-    "difficulty": "Easy",
-    "level": 1,
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": false
 }, {
     "rawId": 439,
@@ -6362,9 +6362,9 @@ module.exports = [{
     "rawId": 632,
     "questionId": "632",
     "qid": "0632",
-    "titleEn": "Smallest Range",
+    "titleEn": "Smallest Range Covering Elements from K Lists",
     "titleCn": "最小区间",
-    "titleSlug": "smallest-range",
+    "titleSlug": "smallest-range-covering-elements-from-k-lists",
     "difficulty": "Hard",
     "level": 3,
     "isPaidOnly": false
@@ -7115,8 +7115,8 @@ module.exports = [{
     "titleEn": "Design Linked List",
     "titleCn": "设计链表",
     "titleSlug": "design-linked-list",
-    "difficulty": "Easy",
-    "level": 1,
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": false
 }, {
     "rawId": 850,
@@ -9412,9 +9412,9 @@ module.exports = [{
     "rawId": 974,
     "questionId": "937",
     "qid": "0937",
-    "titleEn": "Reorder Log Files",
+    "titleEn": "Reorder Data in Log Files",
     "titleCn": "重新排列日志文件",
-    "titleSlug": "reorder-log-files",
+    "titleSlug": "reorder-data-in-log-files",
     "difficulty": "Easy",
     "level": 1,
     "isPaidOnly": false
@@ -10455,8 +10455,8 @@ module.exports = [{
     "titleEn": "Robot Bounded In Circle",
     "titleCn": "困于环中的机器人",
     "titleSlug": "robot-bounded-in-circle",
-    "difficulty": "Easy",
-    "level": 1,
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": false
 }, {
     "rawId": 1120,
@@ -10962,7 +10962,7 @@ module.exports = [{
     "rawId": 1170,
     "questionId": "1092",
     "qid": "1092",
-    "titleEn": "Shortest Common Supersequence",
+    "titleEn": "Shortest Common Supersequence ",
     "titleCn": "最短公共超序列",
     "titleSlug": "shortest-common-supersequence",
     "difficulty": "Hard",
@@ -11013,6 +11013,7 @@ module.exports = [{
     "questionId": "1097",
     "qid": "1097",
     "titleEn": "Game Play Analysis V",
+    "titleCn": "游戏玩法分析 V",
     "titleSlug": "game-play-analysis-v",
     "difficulty": "Hard",
     "level": 3,
@@ -11108,6 +11109,15 @@ module.exports = [{
     "level": 3,
     "isPaidOnly": false
 }, {
+    "rawId": 1204,
+    "questionId": "1107",
+    "qid": "1107",
+    "titleEn": "New Users Daily Count",
+    "titleSlug": "new-users-daily-count",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
     "rawId": 1205,
     "questionId": "1108",
     "qid": "1108",
@@ -11148,6 +11158,24 @@ module.exports = [{
     "level": 2,
     "isPaidOnly": false
 }, {
+    "rawId": 1214,
+    "questionId": "1112",
+    "qid": "1112",
+    "titleEn": "Highest Grade For Each Student",
+    "titleSlug": "highest-grade-for-each-student",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1215,
+    "questionId": "1113",
+    "qid": "1113",
+    "titleEn": "Reported Posts",
+    "titleSlug": "reported-posts",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
     "rawId": 1203,
     "questionId": "1114",
     "qid": "1114",
@@ -11184,8 +11212,8 @@ module.exports = [{
     "titleEn": "Building H2O",
     "titleCn": "H2O 生成",
     "titleSlug": "building-h2o",
-    "difficulty": "Hard",
-    "level": 3,
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": false
 }, {
     "rawId": 1088,
@@ -11268,6 +11296,24 @@ module.exports = [{
     "level": 3,
     "isPaidOnly": false
 }, {
+    "rawId": 1225,
+    "questionId": "1126",
+    "qid": "1126",
+    "titleEn": "Active Businesses",
+    "titleSlug": "active-businesses",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1226,
+    "questionId": "1127",
+    "qid": "1127",
+    "titleEn": "User Purchase Platform",
+    "titleSlug": "user-purchase-platform",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": true
+}, {
     "rawId": 1227,
     "questionId": "1128",
     "qid": "1128",
@@ -11307,6 +11353,15 @@ module.exports = [{
     "difficulty": "Medium",
     "level": 2,
     "isPaidOnly": false
+}, {
+    "rawId": 1237,
+    "questionId": "1132",
+    "qid": "1132",
+    "titleEn": "Reported Posts II",
+    "titleSlug": "reported-posts-ii",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
 }, {
     "rawId": 1098,
     "questionId": "1133",
@@ -11388,6 +11443,24 @@ module.exports = [{
     "level": 2,
     "isPaidOnly": false
 }, {
+    "rawId": 1245,
+    "questionId": "1141",
+    "qid": "1141",
+    "titleEn": "User Activity for the Past 30 Days I",
+    "titleSlug": "user-activity-for-the-past-30-days-i",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1246,
+    "questionId": "1142",
+    "qid": "1142",
+    "titleEn": "User Activity for the Past 30 Days II",
+    "titleSlug": "user-activity-for-the-past-30-days-ii",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
     "rawId": 1250,
     "questionId": "1143",
     "qid": "1143",
@@ -11438,6 +11511,24 @@ module.exports = [{
     "level": 3,
     "isPaidOnly": false
 }, {
+    "rawId": 1258,
+    "questionId": "1148",
+    "qid": "1148",
+    "titleEn": "Article Views I",
+    "titleSlug": "article-views-i",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1259,
+    "questionId": "1149",
+    "qid": "1149",
+    "titleEn": "Article Views II",
+    "titleSlug": "article-views-ii",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
     "rawId": 1102,
     "questionId": "1150",
     "qid": "1150",
@@ -11483,7 +11574,7 @@ module.exports = [{
     "qid": "1154",
     "titleEn": "Day of the Year",
     "titleCn": "一年中的第几天",
-    "titleSlug": "ordinal-number-of-date",
+    "titleSlug": "day-of-the-year",
     "difficulty": "Easy",
     "level": 1,
     "isPaidOnly": false
@@ -11503,7 +11594,7 @@ module.exports = [{
     "qid": "1156",
     "titleEn": "Swap For Longest Repeated Character Substring",
     "titleCn": "单字符重复子串的最大长度",
-    "titleSlug": "swap-for-maximum-repeated-substring",
+    "titleSlug": "swap-for-longest-repeated-character-substring",
     "difficulty": "Medium",
     "level": 2,
     "isPaidOnly": false
@@ -11517,6 +11608,24 @@ module.exports = [{
     "difficulty": "Hard",
     "level": 3,
     "isPaidOnly": false
+}, {
+    "rawId": 1268,
+    "questionId": "1158",
+    "qid": "1158",
+    "titleEn": "Market Analysis I",
+    "titleSlug": "market-analysis-i",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1269,
+    "questionId": "1159",
+    "qid": "1159",
+    "titleEn": "Market Analysis II",
+    "titleSlug": "market-analysis-ii",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": true
 }, {
     "rawId": 1112,
     "questionId": "1160",
@@ -11557,6 +11666,15 @@ module.exports = [{
     "difficulty": "Hard",
     "level": 3,
     "isPaidOnly": false
+}, {
+    "rawId": 1278,
+    "questionId": "1164",
+    "qid": "1164",
+    "titleEn": "Product Price at a Given Date",
+    "titleSlug": "product-price-at-a-given-date",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
 }, {
     "rawId": 1123,
     "questionId": "1165",
@@ -11604,8 +11722,8 @@ module.exports = [{
     "titleEn": "Invalid Transactions",
     "titleCn": "查询无效交易",
     "titleSlug": "invalid-transactions",
-    "difficulty": "Easy",
-    "level": 1,
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": false
 }, {
     "rawId": 1273,
@@ -11638,6 +11756,24 @@ module.exports = [{
     "level": 3,
     "isPaidOnly": false
 }, {
+    "rawId": 1291,
+    "questionId": "1173",
+    "qid": "1173",
+    "titleEn": "Immediate Food Delivery I",
+    "titleSlug": "immediate-food-delivery-i",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1292,
+    "questionId": "1174",
+    "qid": "1174",
+    "titleEn": "Immediate Food Delivery II",
+    "titleSlug": "immediate-food-delivery-ii",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
     "rawId": 1279,
     "questionId": "1175",
     "qid": "1175",
@@ -11656,7 +11792,7 @@ module.exports = [{
     "titleSlug": "diet-plan-performance",
     "difficulty": "Easy",
     "level": 1,
-    "isPaidOnly": false
+    "isPaidOnly": true
 }, {
     "rawId": 1281,
     "questionId": "1177",
@@ -11676,6 +11812,16 @@ module.exports = [{
     "titleSlug": "number-of-valid-words-for-each-puzzle",
     "difficulty": "Hard",
     "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1301,
+    "questionId": "1179",
+    "qid": "1179",
+    "titleEn": "Reformat Department Table",
+    "titleCn": "重新格式化部门表",
+    "titleSlug": "reformat-department-table",
+    "difficulty": "Easy",
+    "level": 1,
     "isPaidOnly": false
 }, {
     "rawId": 1131,
@@ -11758,6 +11904,15 @@ module.exports = [{
     "level": 3,
     "isPaidOnly": false
 }, {
+    "rawId": 1209,
+    "questionId": "1188",
+    "qid": "1188",
+    "titleEn": "Design Bounded Blocking Queue",
+    "titleSlug": "design-bounded-blocking-queue",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
     "rawId": 1297,
     "questionId": "1189",
     "qid": "1189",
@@ -11812,6 +11967,7 @@ module.exports = [{
     "questionId": "1194",
     "qid": "1194",
     "titleEn": "Tournament Winners",
+    "titleCn": "锦标赛优胜者",
     "titleSlug": "tournament-winners",
     "difficulty": "Hard",
     "level": 3,
@@ -11827,18 +11983,118 @@ module.exports = [{
     "level": 2,
     "isPaidOnly": false
 }, {
+    "rawId": 1141,
+    "questionId": "1196",
+    "qid": "1196",
+    "titleEn": "How Many Apples Can You Put into the Basket",
+    "titleCn": "最多可以买到的苹果数量",
+    "titleSlug": "how-many-apples-can-you-put-into-the-basket",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1142,
+    "questionId": "1197",
+    "qid": "1197",
+    "titleEn": "Minimum Knight Moves",
+    "titleCn": "进击的骑士",
+    "titleSlug": "minimum-knight-moves",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1143,
+    "questionId": "1198",
+    "qid": "1198",
+    "titleEn": "Find Smallest Common Element in All Rows",
+    "titleCn": "找出所有行中最小公共元素",
+    "titleSlug": "find-smallest-common-element-in-all-rows",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1167,
+    "questionId": "1199",
+    "qid": "1199",
+    "titleEn": "Minimum Time to Build Blocks",
+    "titleCn": "建造街区的最短时间",
+    "titleSlug": "minimum-time-to-build-blocks",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": true
+}, {
+    "rawId": 1306,
+    "questionId": "1200",
+    "qid": "1200",
+    "titleEn": "Minimum Absolute Difference",
+    "titleCn": "最小绝对差",
+    "titleSlug": "minimum-absolute-difference",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1307,
+    "questionId": "1201",
+    "qid": "1201",
+    "titleEn": "Ugly Number III",
+    "titleCn": "丑数 III",
+    "titleSlug": "ugly-number-iii",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1308,
+    "questionId": "1202",
+    "qid": "1202",
+    "titleEn": "Smallest String With Swaps",
+    "titleCn": "交换字符串中的元素",
+    "titleSlug": "smallest-string-with-swaps",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1309,
+    "questionId": "1203",
+    "qid": "1203",
+    "titleEn": "Sort Items by Groups Respecting Dependencies",
+    "titleCn": "项目管理",
+    "titleSlug": "sort-items-by-groups-respecting-dependencies",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1327,
+    "questionId": "1204",
+    "qid": "1204",
+    "titleEn": "Last Person to Fit in the Elevator",
+    "titleSlug": "last-person-to-fit-in-the-elevator",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
     "rawId": 1328,
     "questionId": "1205",
     "qid": "1205",
     "titleEn": "Monthly Transactions II",
+    "titleCn": "每月交易II",
     "titleSlug": "monthly-transactions-ii",
     "difficulty": "Medium",
     "level": 2,
     "isPaidOnly": true
 }, {
+    "rawId": 1337,
+    "questionId": "1206",
+    "qid": "1206",
+    "titleEn": "Design Skiplist",
+    "titleCn": "设计跳表",
+    "titleSlug": "design-skiplist",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
     "rawId": 1319,
-    "questionId": "5205",
-    "qid": "5205",
+    "questionId": "1207",
+    "qid": "1207",
     "titleEn": "Unique Number of Occurrences",
     "titleCn": "独一无二的出现次数",
     "titleSlug": "unique-number-of-occurrences",
@@ -11846,19 +12102,9 @@ module.exports = [{
     "level": 1,
     "isPaidOnly": false
 }, {
-    "rawId": 1320,
-    "questionId": "5206",
-    "qid": "5206",
-    "titleEn": "Remove All Adjacent Duplicates in String II",
-    "titleCn": "删除字符串中的所有相邻重复项 II",
-    "titleSlug": "remove-all-adjacent-duplicates-in-string-ii",
-    "difficulty": "Medium",
-    "level": 2,
-    "isPaidOnly": false
-}, {
     "rawId": 1321,
-    "questionId": "5207",
-    "qid": "5207",
+    "questionId": "1208",
+    "qid": "1208",
     "titleEn": "Get Equal Substrings Within Budget",
     "titleCn": "尽可能使字符串相等",
     "titleSlug": "get-equal-substrings-within-budget",
@@ -11866,12 +12112,160 @@ module.exports = [{
     "level": 2,
     "isPaidOnly": false
 }, {
+    "rawId": 1320,
+    "questionId": "1209",
+    "qid": "1209",
+    "titleEn": "Remove All Adjacent Duplicates in String II",
+    "titleCn": "删除字符串中的所有相邻重复项 II",
+    "titleSlug": "remove-all-adjacent-duplicates-in-string-ii",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
     "rawId": 1322,
-    "questionId": "5208",
-    "qid": "5208",
+    "questionId": "1210",
+    "qid": "1210",
     "titleEn": "Minimum Moves to Reach Target with Rotations",
     "titleCn": "穿过迷宫的最少移动次数",
     "titleSlug": "minimum-moves-to-reach-target-with-rotations",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1338,
+    "questionId": "1211",
+    "qid": "1211",
+    "titleEn": "Queries Quality and Percentage",
+    "titleSlug": "queries-quality-and-percentage",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1339,
+    "questionId": "1212",
+    "qid": "1212",
+    "titleEn": "Team Scores in Football Tournament",
+    "titleSlug": "team-scores-in-football-tournament",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1149,
+    "questionId": "1213",
+    "qid": "1213",
+    "titleEn": "Intersection of Three Sorted Arrays",
+    "titleCn": "三个有序数组的交集",
+    "titleSlug": "intersection-of-three-sorted-arrays",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1150,
+    "questionId": "1214",
+    "qid": "1214",
+    "titleEn": "Two Sum BSTs",
+    "titleCn": "查找两棵二叉搜索树之和",
+    "titleSlug": "two-sum-bsts",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1151,
+    "questionId": "1215",
+    "qid": "1215",
+    "titleEn": "Stepping Numbers",
+    "titleCn": "步进数",
+    "titleSlug": "stepping-numbers",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1178,
+    "questionId": "1216",
+    "qid": "1216",
+    "titleEn": "Valid Palindrome III",
+    "titleCn": "验证回文字符串 III",
+    "titleSlug": "valid-palindrome-iii",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": true
+}, {
+    "rawId": 1329,
+    "questionId": "1217",
+    "qid": "1217",
+    "titleEn": "Play with Chips",
+    "titleCn": "玩筹码",
+    "titleSlug": "play-with-chips",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1330,
+    "questionId": "1218",
+    "qid": "1218",
+    "titleEn": "Longest Arithmetic Subsequence of Given Difference",
+    "titleCn": "最长定差子序列",
+    "titleSlug": "longest-arithmetic-subsequence-of-given-difference",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1331,
+    "questionId": "1219",
+    "qid": "1219",
+    "titleEn": "Path with Maximum Gold",
+    "titleCn": "黄金矿工",
+    "titleSlug": "path-with-maximum-gold",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1332,
+    "questionId": "1220",
+    "qid": "1220",
+    "titleEn": "Count Vowels Permutation",
+    "titleCn": "统计元音字母序列的数目",
+    "titleSlug": "count-vowels-permutation",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1341,
+    "questionId": "1221",
+    "qid": "1221",
+    "titleEn": "Split a String in Balanced Strings",
+    "titleCn": "分割平衡字符串",
+    "titleSlug": "split-a-string-in-balanced-strings",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1342,
+    "questionId": "1222",
+    "qid": "1222",
+    "titleEn": "Queens That Can Attack the King",
+    "titleCn": "可以攻击国王的皇后",
+    "titleSlug": "queens-that-can-attack-the-king",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1343,
+    "questionId": "1223",
+    "qid": "1223",
+    "titleEn": "Dice Roll Simulation",
+    "titleCn": "掷骰子模拟",
+    "titleSlug": "dice-roll-simulation",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1344,
+    "questionId": "1224",
+    "qid": "1224",
+    "titleEn": "Maximum Equal Frequency",
+    "titleCn": "最大相等频率",
+    "titleSlug": "maximum-equal-frequency",
     "difficulty": "Hard",
     "level": 3,
     "isPaidOnly": false

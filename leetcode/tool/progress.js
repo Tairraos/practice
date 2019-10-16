@@ -44,7 +44,9 @@ if (args[1] === "readme") {
     questionData.forEach(item => quesDict[item.questionId.length < 4 ? ("0000" + item.questionId).slice(-4) : item.questionId] = Object.assign(item, {
         codeSnippets: {}
     }));
-    oldData.forEach(item => quesDict[item.questionId].codeSnippets = item.codeSnippets);
+    oldData.forEach(item => {
+        quesDict[item.questionId].codeSnippets = item.codeSnippets
+    });
 
     readme.push("### Leetcode Javascript 已完成题目列表");
     readme.push(`完成度：${quesNum.doneJs}/${quesNum.js} (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))`);

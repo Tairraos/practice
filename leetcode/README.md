@@ -61,6 +61,6 @@
 - [LCP 1 - 猜数字](done/LCP/LCP 1.guess-numbers.js) 难度：容易 [源](https://leetcode-cn.com/problems/guess-numbers/)
 
 ### Leetcode Python 已完成题目列表
-完成度：2/941 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
+完成度：2/949 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
 - [1108 - IP 地址无效化](done/1101-1200/1108.defanging-an-ip-address.py) 难度：容易 [源](https://leetcode-cn.com/problems/defanging-an-ip-address/)
 - [LCP 1 - 猜数字](done/LCP/LCP 1.guess-numbers.py) 难度：容易 [源](https://leetcode-cn.com/problems/guess-numbers/)
