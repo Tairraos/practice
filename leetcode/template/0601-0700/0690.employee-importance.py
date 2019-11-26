@@ -20,10 +20,13 @@
 # 员工数量不超过2000。
 
 
+from typing import *
+
+
 """
 # Employee info
 class Employee:
-    def __init__(self, id, importance, subordinates):
+    def __init__(self, id: int, importance: int, subordinates: List[int]):
         # It's the unique id of each node.
         # unique id of this employee
         self.id = id
@@ -33,12 +36,7 @@ class Employee:
         self.subordinates = subordinates
 """
 class Solution:
-    def getImportance(self, employees, id):
-        """
-        :type employees: Employee
-        :type id: int
-        :rtype: int
-        """
+    def getImportance(self, employees: List['Employee'], id: int) -> int:
         "put solution here"
 
 

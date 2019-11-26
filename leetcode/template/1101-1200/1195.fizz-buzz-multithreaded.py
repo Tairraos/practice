@@ -42,11 +42,10 @@ class FizzBuzz:
 
     # printFizzBuzz() outputs "fizzbuzz"
     def fizzbuzz(self, printFizzBuzz: 'Callable[[], None]') -> None:
-		
+        
 
     # printNumber(x) outputs "x", where x is an integer.
     def number(self, printNumber: 'Callable[[int], None]') -> None:
-		
         "put solution here"
 
 
