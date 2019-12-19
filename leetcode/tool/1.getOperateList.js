@@ -15,10 +15,10 @@ let x = require("xtool.js"),
 
 //已经存在的模板是 coding / done ／template 里的 js 集合
 x.readDir(path.resolve(__dirname, ".."), {
-    find: ["coding/*.js", "done/*.js", "template/*.js"],
+    find: ["coding/*.js", "done/*.js", "template/*.js", "coding/*.py", "done/*.py", "template/*.py"],
     recursive: true
 }).forEach(
-    item => existDataList[item.replace(/.*\/([^.]+)\.(.*)\.js/, "$1")] = RegExp.$2
+    item => existDataList[item.replace(/.*\/([^.]+)\.(.*)\.(js|py)/, "$1")] = RegExp.$2
 );
 
 request("https://leetcode-cn.com/api/problems/all/", function(error, response, body) {
@@ -27,9 +27,13 @@ request("https://leetcode-cn.com/api/problems/all/", function(error, response, b
             "qid": +item.stat.frontend_question_id ? ("000" + item.stat.frontend_question_id).slice(-4) : item.stat.frontend_question_id,
             "paid": item.paid_only,
             "titleSlug": item.stat.question__title_slug
-        })).filter(item =>
-            !item.paid && existDataList[item.qid] !== item.titleSlug
-        ).map(item => item.titleSlug);
+        })).filter(item => {
+            if (!item.paid && existDataList[item.qid] !== item.titleSlug) {
+                return true;
+            } else {
+                return false;
+            }
+        }).map(item => item.titleSlug);
 
     if (operateList.length) {
         let ignoreLine = false,
