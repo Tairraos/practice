@@ -27,13 +27,9 @@ request("https://leetcode-cn.com/api/problems/all/", function(error, response, b
             "qid": +item.stat.frontend_question_id ? ("000" + item.stat.frontend_question_id).slice(-4) : item.stat.frontend_question_id,
             "paid": item.paid_only,
             "titleSlug": item.stat.question__title_slug
-        })).filter(item => {
-            if (!item.paid && existDataList[item.qid] !== item.titleSlug) {
-                return true;
-            } else {
-                return false;
-            }
-        }).map(item => item.titleSlug);
+        })).filter(item =>
+            !item.paid && existDataList[item.qid] !== item.titleSlug
+        ).map(item => item.titleSlug);
 
     if (operateList.length) {
         let ignoreLine = false,
