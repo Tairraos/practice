@@ -1,5 +1,5 @@
 ### Leetcode 题目清单
-总题数：1298 / 免费题：1019（其中JS题 979 题，PY题 1004 题） / 付费题：279
+总题数：1298 / 免费题：1019（其中JS题 995 题，PY题 1020 题） / 付费题：279
 - [LCP 1 - 猜数字](https://leetcode-cn.com/problems/guess-numbers/) 难度：容易 / JS题 / PY题
 - [LCP 3 - 机器人大冒险](https://leetcode-cn.com/problems/programmable-robot/) 难度：中等 / JS题 / PY题
 - [LCP 5 - 发 LeetCoin](https://leetcode-cn.com/problems/coin-bonus/) 难度：困难 / JS题 / PY题
