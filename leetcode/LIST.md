@@ -1,5 +1,5 @@
 ### Leetcode 题目清单
-总题数：1274 / 免费题：1003（其中JS题 933 题，PY题 949 题） / 付费题：271
+总题数：1298 / 免费题：1019（其中JS题 979 题，PY题 1004 题） / 付费题：279
 - [LCP 1 - 猜数字](https://leetcode-cn.com/problems/guess-numbers/) 难度：容易 / JS题 / PY题
 - [LCP 3 - 机器人大冒险](https://leetcode-cn.com/problems/programmable-robot/) 难度：中等 / JS题 / PY题
 - [LCP 5 - 发 LeetCoin](https://leetcode-cn.com/problems/coin-bonus/) 难度：困难 / JS题 / PY题
@@ -163,7 +163,7 @@
 - [156 - 上下翻转二叉树](https://leetcode-cn.com/problems/binary-tree-upside-down/) 难度：中等 / 付费题 / JS题 / PY题
 - [157 - 用 Read4 读取 N 个字符](https://leetcode-cn.com/problems/read-n-characters-given-read4/) 难度：容易 / 付费题 / JS题 / PY题
 - [158 - 用 Read4 读取 N 个字符 II](https://leetcode-cn.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) 难度：困难 / 付费题 / JS题 / PY题
-- [159 - 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/) 难度：困难 / 付费题 / JS题 / PY题
+- [159 - 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/) 难度：中等 / 付费题 / JS题 / PY题
 - [160 - 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) 难度：容易 / JS题 / PY题
 - [161 - 相隔为 1 的编辑距离](https://leetcode-cn.com/problems/one-edit-distance/) 难度：中等 / 付费题 / JS题 / PY题
 - [162 - 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) 难度：中等 / JS题 / PY题
@@ -758,7 +758,7 @@
 - [751 - IP 到 CIDR](https://leetcode-cn.com/problems/ip-to-cidr/) 难度：容易 / 付费题 / JS题 / PY题
 - [752 - 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/) 难度：中等 / JS题 / PY题
 - [753 - 破解保险箱](https://leetcode-cn.com/problems/cracking-the-safe/) 难度：困难 / JS题 / PY题
-- [754 - 到达终点数字](https://leetcode-cn.com/problems/reach-a-number/) 难度：容易 / JS题 / PY题
+- [754 - 到达终点数字](https://leetcode-cn.com/problems/reach-a-number/) 难度：中等 / JS题 / PY题
 - [755 - 倒水](https://leetcode-cn.com/problems/pour-water/) 难度：中等 / 付费题 / JS题 / PY题
 - [756 - 金字塔转换矩阵](https://leetcode-cn.com/problems/pyramid-transition-matrix/) 难度：中等 / JS题 / PY题
 - [757 -  设置交集大小至少为2](https://leetcode-cn.com/problems/set-intersection-size-at-least-two/) 难度：困难 / JS题 / PY题
@@ -1230,7 +1230,7 @@
 - [1223 - 掷骰子模拟](https://leetcode-cn.com/problems/dice-roll-simulation/) 难度：中等 / JS题 / PY题
 - [1224 - 最大相等频率](https://leetcode-cn.com/problems/maximum-equal-frequency/) 难度：困难 / JS题 / PY题
 - [1225 - 报告系统状态的连续日期](https://leetcode-cn.com/problems/report-contiguous-dates/) 难度：困难 / 付费题 / JS题 / PY题
-- [1226 - 哲学家进餐](https://leetcode-cn.com/problems/the-dining-philosophers/) 难度：中等 / JS题 / PY题
+- [1226 - 哲学家进餐](https://leetcode-cn.com/problems/the-dining-philosophers/) 难度：中等 / PY题
 - [1227 - 飞机座位分配概率](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/) 难度：中等 / JS题 / PY题
 - [1228 - 等差数列中缺失的数字](https://leetcode-cn.com/problems/missing-number-in-arithmetic-progression/) 难度：容易 / 付费题 / JS题 / PY题
 - [1229 - 安排会议日程](https://leetcode-cn.com/problems/meeting-scheduler/) 难度：中等 / 付费题 / JS题 / PY题
@@ -1274,3 +1274,27 @@
 - [1267 - 统计参与通信的服务器](https://leetcode-cn.com/problems/count-servers-that-communicate/) 难度：中等 / JS题 / PY题
 - [1268 - 搜索推荐系统](https://leetcode-cn.com/problems/search-suggestions-system/) 难度：中等 / JS题 / PY题
 - [1269 - 停在原地的方案数](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/) 难度：困难 / JS题 / PY题
+- [1270 - All People Report to the Given Manager](https://leetcode-cn.com/problems/all-people-report-to-the-given-manager/) 难度：中等 / 付费题 / JS题 / PY题
+- [1271 - 十六进制魔术数字](https://leetcode-cn.com/problems/hexspeak/) 难度：容易 / 付费题 / JS题 / PY题
+- [1272 - 删除区间](https://leetcode-cn.com/problems/remove-interval/) 难度：中等 / 付费题 / JS题 / PY题
+- [1273 - 删除树节点](https://leetcode-cn.com/problems/delete-tree-nodes/) 难度：中等 / 付费题 / JS题 / PY题
+- [1274 - 矩形内船只的数目](https://leetcode-cn.com/problems/number-of-ships-in-a-rectangle/) 难度：困难 / 付费题 / JS题 / PY题
+- [1275 - 找出井字棋的获胜者](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/) 难度：容易 / JS题 / PY题
+- [1276 - 不浪费原料的汉堡制作方案](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/) 难度：中等 / JS题 / PY题
+- [1277 - 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/) 难度：中等 / JS题 / PY题
+- [1278 - 分割回文串 III](https://leetcode-cn.com/problems/palindrome-partitioning-iii/) 难度：困难 / JS题 / PY题
+- [1279 - Traffic Light Controlled Intersection](https://leetcode-cn.com/problems/traffic-light-controlled-intersection/) 难度：容易 / 付费题 / JS题 / PY题
+- [1280 - Students and Examinations](https://leetcode-cn.com/problems/students-and-examinations/) 难度：容易 / 付费题 / JS题 / PY题
+- [1281 - 整数的各位积和之差](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) 难度：容易 / JS题 / PY题
+- [1282 - 用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) 难度：中等 / JS题 / PY题
+- [1283 - 使结果不超过阈值的最小除数](https://leetcode-cn.com/problems/find-the-smallest-divisor-given-a-threshold/) 难度：中等 / JS题 / PY题
+- [1284 - 转化为全零矩阵的最少反转次数](https://leetcode-cn.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/) 难度：困难 / JS题 / PY题
+- [1285 - Find the Start and End Number of Continuous Ranges](https://leetcode-cn.com/problems/find-the-start-and-end-number-of-continuous-ranges/) 难度：中等 / 付费题 / JS题 / PY题
+- [1286 - 字母组合迭代器](https://leetcode-cn.com/problems/iterator-for-combination/) 难度：中等 / JS题 / PY题
+- [1287 - 有序数组中出现次数超过25%的元素](https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/) 难度：容易 / JS题 / PY题
+- [1288 - 删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals/) 难度：中等 / JS题 / PY题
+- [1289 - 下降路径最小和  II](https://leetcode-cn.com/problems/minimum-falling-path-sum-ii/) 难度：困难 / JS题 / PY题
+- [1290 - 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/) 难度：容易 / JS题 / PY题
+- [1291 - 顺次数](https://leetcode-cn.com/problems/sequential-digits/) 难度：中等 / JS题 / PY题
+- [1292 - 元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) 难度：中等 / JS题 / PY题
+- [1293 - 网格中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) 难度：困难 / JS题 / PY题

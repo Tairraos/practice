@@ -1635,8 +1635,8 @@ module.exports = [{
     "titleEn": "Longest Substring with At Most Two Distinct Characters",
     "titleCn": "至多包含两个不同字符的最长子串",
     "titleSlug": "longest-substring-with-at-most-two-distinct-characters",
-    "difficulty": "Hard",
-    "level": 3,
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": true
 }, {
     "rawId": 160,
@@ -7585,8 +7585,8 @@ module.exports = [{
     "titleEn": "Reach a Number",
     "titleCn": "到达终点数字",
     "titleSlug": "reach-a-number",
-    "difficulty": "Easy",
-    "level": 1,
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": false
 }, {
     "rawId": 756,
@@ -12717,6 +12717,242 @@ module.exports = [{
     "titleEn": "Number of Ways to Stay in the Same Place After Some Steps",
     "titleCn": "停在原地的方案数",
     "titleSlug": "number-of-ways-to-stay-in-the-same-place-after-some-steps",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1405,
+    "questionId": "1270",
+    "qid": "1270",
+    "titleEn": "All People Report to the Given Manager",
+    "titleSlug": "all-people-report-to-the-given-manager",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1199,
+    "questionId": "1271",
+    "qid": "1271",
+    "titleEn": "Hexspeak",
+    "titleCn": "十六进制魔术数字",
+    "titleSlug": "hexspeak",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1200,
+    "questionId": "1272",
+    "qid": "1272",
+    "titleEn": "Remove Interval",
+    "titleCn": "删除区间",
+    "titleSlug": "remove-interval",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1201,
+    "questionId": "1273",
+    "qid": "1273",
+    "titleEn": "Delete Tree Nodes",
+    "titleCn": "删除树节点",
+    "titleSlug": "delete-tree-nodes",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1233,
+    "questionId": "1274",
+    "qid": "1274",
+    "titleEn": "Number of Ships in a Rectangle",
+    "titleCn": "矩形内船只的数目",
+    "titleSlug": "number-of-ships-in-a-rectangle",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": true
+}, {
+    "rawId": 1400,
+    "questionId": "1275",
+    "qid": "1275",
+    "titleEn": "Find Winner on a Tic Tac Toe Game",
+    "titleCn": "找出井字棋的获胜者",
+    "titleSlug": "find-winner-on-a-tic-tac-toe-game",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1401,
+    "questionId": "1276",
+    "qid": "1276",
+    "titleEn": "Number of Burgers with No Waste of Ingredients",
+    "titleCn": "不浪费原料的汉堡制作方案",
+    "titleSlug": "number-of-burgers-with-no-waste-of-ingredients",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1402,
+    "questionId": "1277",
+    "qid": "1277",
+    "titleEn": "Count Square Submatrices with All Ones",
+    "titleCn": "统计全为 1 的正方形子矩阵",
+    "titleSlug": "count-square-submatrices-with-all-ones",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1403,
+    "questionId": "1278",
+    "qid": "1278",
+    "titleEn": "Palindrome Partitioning III",
+    "titleCn": "分割回文串 III",
+    "titleSlug": "palindrome-partitioning-iii",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1410,
+    "questionId": "1279",
+    "qid": "1279",
+    "titleEn": "Traffic Light Controlled Intersection",
+    "titleSlug": "traffic-light-controlled-intersection",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1415,
+    "questionId": "1280",
+    "qid": "1280",
+    "titleEn": "Students and Examinations",
+    "titleSlug": "students-and-examinations",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1406,
+    "questionId": "1281",
+    "qid": "1281",
+    "titleEn": "Subtract the Product and Sum of Digits of an Integer",
+    "titleCn": "整数的各位积和之差",
+    "titleSlug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1407,
+    "questionId": "1282",
+    "qid": "1282",
+    "titleEn": "Group the People Given the Group Size They Belong To",
+    "titleCn": "用户分组",
+    "titleSlug": "group-the-people-given-the-group-size-they-belong-to",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1408,
+    "questionId": "1283",
+    "qid": "1283",
+    "titleEn": "Find the Smallest Divisor Given a Threshold",
+    "titleCn": "使结果不超过阈值的最小除数",
+    "titleSlug": "find-the-smallest-divisor-given-a-threshold",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1409,
+    "questionId": "1284",
+    "qid": "1284",
+    "titleEn": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+    "titleCn": "转化为全零矩阵的最少反转次数",
+    "titleSlug": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1420,
+    "questionId": "1285",
+    "qid": "1285",
+    "titleEn": "Find the Start and End Number of Continuous Ranges",
+    "titleSlug": "find-the-start-and-end-number-of-continuous-ranges",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1211,
+    "questionId": "1286",
+    "qid": "1286",
+    "titleEn": "Iterator for Combination",
+    "titleCn": "字母组合迭代器",
+    "titleSlug": "iterator-for-combination",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1221,
+    "questionId": "1287",
+    "qid": "1287",
+    "titleEn": "Element Appearing More Than 25% In Sorted Array",
+    "titleCn": "有序数组中出现次数超过25%的元素",
+    "titleSlug": "element-appearing-more-than-25-in-sorted-array",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1222,
+    "questionId": "1288",
+    "qid": "1288",
+    "titleEn": "Remove Covered Intervals",
+    "titleCn": "删除被覆盖区间",
+    "titleSlug": "remove-covered-intervals",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1224,
+    "questionId": "1289",
+    "qid": "1289",
+    "titleEn": "Minimum Falling Path Sum II",
+    "titleCn": "下降路径最小和  II",
+    "titleSlug": "minimum-falling-path-sum-ii",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1411,
+    "questionId": "1290",
+    "qid": "1290",
+    "titleEn": "Convert Binary Number in a Linked List to Integer",
+    "titleCn": "二进制链表转整数",
+    "titleSlug": "convert-binary-number-in-a-linked-list-to-integer",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1212,
+    "questionId": "1291",
+    "qid": "1291",
+    "titleEn": "Sequential Digits",
+    "titleCn": "顺次数",
+    "titleSlug": "sequential-digits",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1413,
+    "questionId": "1292",
+    "qid": "1292",
+    "titleEn": "Maximum Side Length of a Square with Sum Less than or Equal to Threshold",
+    "titleCn": "元素和小于等于阈值的正方形的最大边长",
+    "titleSlug": "maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1414,
+    "questionId": "1293",
+    "qid": "1293",
+    "titleEn": "Shortest Path in a Grid with Obstacles Elimination",
+    "titleCn": "网格中的最短路径",
+    "titleSlug": "shortest-path-in-a-grid-with-obstacles-elimination",
     "difficulty": "Hard",
     "level": 3,
     "isPaidOnly": false
