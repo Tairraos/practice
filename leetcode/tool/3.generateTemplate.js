@@ -30,7 +30,7 @@ data.forEach(item => {
         jsout = [],
         pyout = [];
     if (jscode !== "N/A") {
-        var jsFuncName = jscode.match(/var (\w*) = function/)[1];
+        var jsFuncName = jscode.match(/var (\w*) += +function/)[1];
         jsout.push("/**");
         jsout.push(" * " + url);
         jsout.push(" * " + title);
@@ -56,7 +56,7 @@ data.forEach(item => {
     }
 
     if (pycode !== "N/A") {
-        var pyFuncName = pycode.match(/\n +def (\w*)\(self/)[1];
+        var pyFuncName = pycode.match(/\n +def (\w*) *\(self/)[1];
 
         pyout.push("# " + url);
         pyout.push("# " + title);

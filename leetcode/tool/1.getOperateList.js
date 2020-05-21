@@ -11,14 +11,17 @@
 let x = require("xtool.js"),
     path = require("path"),
     request = require("request"),
-    existDataList = {};
+    outputFile = path.resolve(__dirname, "2.getPageData.js"),
+    jsDataList = {}, pyDataList = {}, existDataList = {}
 
 //已经存在的模板是 coding / done ／template 里的 js 集合
 x.readDir(path.resolve(__dirname, ".."), {
     find: ["coding/*.js", "done/*.js", "template/*.js", "coding/*.py", "done/*.py", "template/*.py"],
     recursive: true
 }).forEach(
-    item => existDataList[item.replace(/.*\/([^.]+)\.(.*)\.(js|py)/, "$1")] = RegExp.$2
+    item => item.match(/\.js$/)?
+        jsDataList[item.replace(/.*\/([^.]+)\.(.*)\.js$/, "$1")] = RegExp.$2 : //本地的JS文件集
+        pyDataList[item.replace(/.*\/([^.]+)\.(.*)\.py$/, "$1")] = RegExp.$2   //本地的PY文件集
 );
 
 request("https://leetcode-cn.com/api/problems/all/", function(error, response, body) {
@@ -28,16 +31,16 @@ request("https://leetcode-cn.com/api/problems/all/", function(error, response, b
             "paid": item.paid_only,
             "titleSlug": item.stat.question__title_slug
         })).filter(item =>
-            !item.paid && existDataList[item.qid] !== item.titleSlug
+            !item.paid && 
+            (jsDataList[item.qid] !== item.titleSlug || pyDataList[item.qid] !== item.titleSlug) //本地没有对应的JS或PY文件
         ).map(item => item.titleSlug);
 
     if (operateList.length) {
         let ignoreLine = false,
             newContent = [],
-            newOperateList = "var operateList = " + JSON.stringify(operateList) + ";",
-            file = path.resolve(__dirname, "2.getPageData.js");
+            newOperateList = "var operateList = " + JSON.stringify(operateList) + ";";
 
-        x.scanFile(file, (line, index) => {
+        x.scanFile(outputFile, (line, index) => {
             if (line.includes("//::End refill")) {
                 ignoreLine = false;
             }
@@ -48,11 +51,9 @@ request("https://leetcode-cn.com/api/problems/all/", function(error, response, b
                 ignoreLine = true;
                 newContent.push(newOperateList);
             }
-
-
         });
 
-        x.saveFile(file, newContent.join("\n"));
+        x.saveFile(outputFile, newContent.join("\n"));
         // console.log("\033[31m把下面这行代码拷贝到 getPageData.js 第 15 行:");
         // console.log("\033[32m");
         // console.log("var operateList = " + JSON.stringify(operateList) + ";");
