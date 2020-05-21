@@ -1,4 +1,114 @@
 module.exports = [{
+    "rawId": 1000093,
+    "questionId": "LCP 13",
+    "qid": "P 13",
+    "titleEn": "寻宝",
+    "titleCn": "寻宝",
+    "titleSlug": "xun-bao",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000090,
+    "questionId": "LCP 09",
+    "qid": "P 09",
+    "titleEn": "最小跳跃次数",
+    "titleCn": "最小跳跃次数",
+    "titleSlug": "zui-xiao-tiao-yue-ci-shu",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000088,
+    "questionId": "LCP 15",
+    "qid": "P 15",
+    "titleEn": "游乐园的迷宫",
+    "titleCn": "游乐园的迷宫",
+    "titleSlug": "you-le-yuan-de-mi-gong",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000087,
+    "questionId": "LCP 12",
+    "qid": "P 12",
+    "titleEn": "小张刷题计划",
+    "titleCn": "小张刷题计划",
+    "titleSlug": "xiao-zhang-shua-ti-ji-hua",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000086,
+    "questionId": "LCP 11",
+    "qid": "P 11",
+    "titleEn": "期望个数统计",
+    "titleCn": "期望个数统计",
+    "titleSlug": "qi-wang-ge-shu-tong-ji",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000085,
+    "questionId": "LCP 16",
+    "qid": "P 16",
+    "titleEn": "游乐园的游览计划",
+    "titleCn": "游乐园的游览计划",
+    "titleSlug": "you-le-yuan-de-you-lan-ji-hua",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000063,
+    "questionId": "LCP 07",
+    "qid": "P 07",
+    "titleEn": "传递信息",
+    "titleCn": "传递信息",
+    "titleSlug": "chuan-di-xin-xi",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000062,
+    "questionId": "LCP 10",
+    "qid": "P 10",
+    "titleEn": "二叉树任务调度",
+    "titleCn": "二叉树任务调度",
+    "titleSlug": "er-cha-shu-ren-wu-diao-du",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000059,
+    "questionId": "LCP 14",
+    "qid": "P 14",
+    "titleEn": "切分数组",
+    "titleCn": "切分数组",
+    "titleSlug": "qie-fen-shu-zu",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000057,
+    "questionId": "LCP 08",
+    "qid": "P 08",
+    "titleEn": "剧情触发时间",
+    "titleCn": "剧情触发时间",
+    "titleSlug": "ju-qing-hong-fa-shi-jian",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1000056,
+    "questionId": "LCP 06",
+    "qid": "P 06",
+    "titleEn": "拿硬币",
+    "titleCn": "拿硬币",
+    "titleSlug": "na-ying-bi",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
     "rawId": 1000051,
     "questionId": "面试题 17.26",
     "qid": "7.26",
@@ -1840,8 +1950,8 @@ module.exports = [{
     "isPaidOnly": false
 }, {
     "rawId": 100107,
-    "questionId": "LCP 1",
-    "qid": "CP 1",
+    "questionId": "LCP 01",
+    "qid": "P 01",
     "titleEn": "Guess Numbers",
     "titleCn": "猜数字",
     "titleSlug": "guess-numbers",
@@ -1850,8 +1960,8 @@ module.exports = [{
     "isPaidOnly": false
 }, {
     "rawId": 100096,
-    "questionId": "LCP 3",
-    "qid": "CP 3",
+    "questionId": "LCP 03",
+    "qid": "P 03",
     "titleEn": "Programmable Robot",
     "titleCn": "机器人大冒险",
     "titleSlug": "programmable-robot",
@@ -1860,8 +1970,8 @@ module.exports = [{
     "isPaidOnly": false
 }, {
     "rawId": 100094,
-    "questionId": "LCP 5",
-    "qid": "CP 5",
+    "questionId": "LCP 05",
+    "qid": "P 05",
     "titleEn": "Coin Bonus",
     "titleCn": "发 LeetCoin",
     "titleSlug": "coin-bonus",
@@ -1870,8 +1980,8 @@ module.exports = [{
     "isPaidOnly": false
 }, {
     "rawId": 100093,
-    "questionId": "LCP 4",
-    "qid": "CP 4",
+    "questionId": "LCP 04",
+    "qid": "P 04",
     "titleEn": "Broken Board Dominoes",
     "titleCn": "覆盖",
     "titleSlug": "broken-board-dominoes",
@@ -1880,8 +1990,8 @@ module.exports = [{
     "isPaidOnly": false
 }, {
     "rawId": 100092,
-    "questionId": "LCP 2",
-    "qid": "CP 2",
+    "questionId": "LCP 02",
+    "qid": "P 02",
     "titleEn": "Deep Dark Fraction",
     "titleCn": "分式化简",
     "titleSlug": "deep-dark-fraction",
@@ -1923,7 +2033,7 @@ module.exports = [{
     "questionId": "4",
     "qid": "0004",
     "titleEn": "Median of Two Sorted Arrays",
-    "titleCn": "寻找两个有序数组的中位数",
+    "titleCn": "寻找两个正序数组的中位数",
     "titleSlug": "median-of-two-sorted-arrays",
     "difficulty": "Hard",
     "level": 3,
@@ -2903,7 +3013,7 @@ module.exports = [{
     "questionId": "102",
     "qid": "0102",
     "titleEn": "Binary Tree Level Order Traversal",
-    "titleCn": "二叉树的层次遍历",
+    "titleCn": "二叉树的层序遍历",
     "titleSlug": "binary-tree-level-order-traversal",
     "difficulty": "Medium",
     "level": 2,
@@ -3403,7 +3513,7 @@ module.exports = [{
     "questionId": "152",
     "qid": "0152",
     "titleEn": "Maximum Product Subarray",
-    "titleCn": "乘积最大子序列",
+    "titleCn": "乘积最大子数组",
     "titleSlug": "maximum-product-subarray",
     "difficulty": "Medium",
     "level": 2,
@@ -4623,7 +4733,7 @@ module.exports = [{
     "questionId": "274",
     "qid": "0274",
     "titleEn": "H-Index",
-    "titleCn": "H指数",
+    "titleCn": "H 指数",
     "titleSlug": "h-index",
     "difficulty": "Medium",
     "level": 2,
@@ -9713,7 +9823,7 @@ module.exports = [{
     "questionId": "783",
     "qid": "0783",
     "titleEn": "Minimum Distance Between BST Nodes",
-    "titleCn": "二叉搜索树结点最小距离",
+    "titleCn": "二叉搜索树节点最小距离",
     "titleSlug": "minimum-distance-between-bst-nodes",
     "difficulty": "Easy",
     "level": 1,
@@ -11825,8 +11935,8 @@ module.exports = [{
     "titleEn": "Rotting Oranges",
     "titleCn": "腐烂的橘子",
     "titleSlug": "rotting-oranges",
-    "difficulty": "Easy",
-    "level": 1,
+    "difficulty": "Medium",
+    "level": 2,
     "isPaidOnly": false
 }, {
     "rawId": 1037,
@@ -11873,7 +11983,7 @@ module.exports = [{
     "questionId": "999",
     "qid": "0999",
     "titleEn": "Available Captures for Rook",
-    "titleCn": "车的可用捕获量",
+    "titleCn": "可以被一步捕获的棋子数",
     "titleSlug": "available-captures-for-rook",
     "difficulty": "Easy",
     "level": 1,
@@ -15805,6 +15915,609 @@ module.exports = [{
     "titleEn": "Longest Happy Prefix",
     "titleCn": "最长快乐前缀",
     "titleSlug": "longest-happy-prefix",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1523,
+    "questionId": "1393",
+    "qid": "1393",
+    "titleEn": "Capital Gain/Loss",
+    "titleCn": "股票的资本损益",
+    "titleSlug": "capital-gainloss",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1510,
+    "questionId": "1394",
+    "qid": "1394",
+    "titleEn": "Find Lucky Integer in an Array",
+    "titleCn": "找出数组中的幸运数",
+    "titleSlug": "find-lucky-integer-in-an-array",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1511,
+    "questionId": "1395",
+    "qid": "1395",
+    "titleEn": "Count Number of Teams",
+    "titleCn": "统计作战单位数",
+    "titleSlug": "count-number-of-teams",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1512,
+    "questionId": "1396",
+    "qid": "1396",
+    "titleEn": "Design Underground System",
+    "titleCn": "设计地铁系统",
+    "titleSlug": "design-underground-system",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1513,
+    "questionId": "1397",
+    "qid": "1397",
+    "titleEn": "Find All Good Strings",
+    "titleCn": "找到所有好字符串",
+    "titleSlug": "find-all-good-strings",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1536,
+    "questionId": "1398",
+    "qid": "1398",
+    "titleEn": "Customers Who Bought Products A and B but Not C",
+    "titleCn": "购买了产品A和产品B却没有购买产品C的顾客",
+    "titleSlug": "customers-who-bought-products-a-and-b-but-not-c",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1500,
+    "questionId": "1399",
+    "qid": "1399",
+    "titleEn": "Count Largest Group",
+    "titleCn": "统计最大组的数目",
+    "titleSlug": "count-largest-group",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1502,
+    "questionId": "1400",
+    "qid": "1400",
+    "titleEn": "Construct K Palindrome Strings",
+    "titleCn": "构造 K 个回文字符串",
+    "titleSlug": "construct-k-palindrome-strings",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1501,
+    "questionId": "1401",
+    "qid": "1401",
+    "titleEn": "Circle and Rectangle Overlapping",
+    "titleCn": "圆和矩形是否有重叠",
+    "titleSlug": "circle-and-rectangle-overlapping",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1503,
+    "questionId": "1402",
+    "qid": "1402",
+    "titleEn": "Reducing Dishes",
+    "titleCn": "做菜顺序",
+    "titleSlug": "reducing-dishes",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1519,
+    "questionId": "1403",
+    "qid": "1403",
+    "titleEn": "Minimum Subsequence in Non-Increasing Order",
+    "titleCn": "非递增顺序的最小子序列",
+    "titleSlug": "minimum-subsequence-in-non-increasing-order",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1520,
+    "questionId": "1404",
+    "qid": "1404",
+    "titleEn": "Number of Steps to Reduce a Number in Binary Representation to One",
+    "titleCn": "将二进制表示减到 1 的步骤数",
+    "titleSlug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1304,
+    "questionId": "1405",
+    "qid": "1405",
+    "titleEn": "Longest Happy String",
+    "titleCn": "最长快乐字符串",
+    "titleSlug": "longest-happy-string",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1522,
+    "questionId": "1406",
+    "qid": "1406",
+    "titleEn": "Stone Game III",
+    "titleCn": "石子游戏 III",
+    "titleSlug": "stone-game-iii",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1541,
+    "questionId": "1407",
+    "qid": "1407",
+    "titleEn": "Top Travellers",
+    "titleCn": "排名靠前的旅行者",
+    "titleSlug": "top-travellers",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1524,
+    "questionId": "1408",
+    "qid": "1408",
+    "titleEn": "String Matching in an Array",
+    "titleCn": "数组中的字符串匹配",
+    "titleSlug": "string-matching-in-an-array",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1525,
+    "questionId": "1409",
+    "qid": "1409",
+    "titleEn": "Queries on a Permutation With Key",
+    "titleCn": "查询带键的排列",
+    "titleSlug": "queries-on-a-permutation-with-key",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1526,
+    "questionId": "1410",
+    "qid": "1410",
+    "titleEn": "HTML Entity Parser",
+    "titleCn": "HTML 实体解析器",
+    "titleSlug": "html-entity-parser",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1527,
+    "questionId": "1411",
+    "qid": "1411",
+    "titleEn": "Number of Ways to Paint N × 3 Grid",
+    "titleCn": "给 N x 3 网格图涂色的方案数",
+    "titleSlug": "number-of-ways-to-paint-n-x-3-grid",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1546,
+    "questionId": "1412",
+    "qid": "1412",
+    "titleEn": "Find the Quiet Students in All Exams",
+    "titleCn": "查找成绩处于中游的的学生",
+    "titleSlug": "find-the-quiet-students-in-all-exams",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": true
+}, {
+    "rawId": 1514,
+    "questionId": "1413",
+    "qid": "1413",
+    "titleEn": "Minimum Value to Get Positive Step by Step Sum",
+    "titleCn": "逐步求和得到正数的最小值",
+    "titleSlug": "minimum-value-to-get-positive-step-by-step-sum",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1515,
+    "questionId": "1414",
+    "qid": "1414",
+    "titleEn": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K",
+    "titleCn": "和为 K 的最少斐波那契数字数目",
+    "titleSlug": "find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1516,
+    "questionId": "1415",
+    "qid": "1415",
+    "titleEn": "The k-th Lexicographical String of All Happy Strings of Length n",
+    "titleCn": "长度为 n 的开心字符串中字典序第 k 小的字符串",
+    "titleSlug": "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1517,
+    "questionId": "1416",
+    "qid": "1416",
+    "titleEn": "Restore The Array",
+    "titleCn": "恢复数组",
+    "titleSlug": "restore-the-array",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1532,
+    "questionId": "1417",
+    "qid": "1417",
+    "titleEn": "Reformat The String",
+    "titleCn": "重新格式化字符串",
+    "titleSlug": "reformat-the-string",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1533,
+    "questionId": "1418",
+    "qid": "1418",
+    "titleEn": "Display Table of Food Orders in a Restaurant",
+    "titleCn": "点菜展示表",
+    "titleSlug": "display-table-of-food-orders-in-a-restaurant",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1534,
+    "questionId": "1419",
+    "qid": "1419",
+    "titleEn": "Minimum Number of Frogs Croaking",
+    "titleCn": "数青蛙",
+    "titleSlug": "minimum-number-of-frogs-croaking",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1535,
+    "questionId": "1420",
+    "qid": "1420",
+    "titleEn": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+    "titleCn": "生成数组",
+    "titleSlug": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1551,
+    "questionId": "1421",
+    "qid": "1421",
+    "titleEn": "NPV Queries",
+    "titleCn": "净现值查询",
+    "titleSlug": "npv-queries",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1537,
+    "questionId": "1422",
+    "qid": "1422",
+    "titleEn": "Maximum Score After Splitting a String",
+    "titleCn": "分割字符串的最大得分",
+    "titleSlug": "maximum-score-after-splitting-a-string",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1538,
+    "questionId": "1423",
+    "qid": "1423",
+    "titleEn": "Maximum Points You Can Obtain from Cards",
+    "titleCn": "可获得的最大点数",
+    "titleSlug": "maximum-points-you-can-obtain-from-cards",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1539,
+    "questionId": "1424",
+    "qid": "1424",
+    "titleEn": "Diagonal Traverse II",
+    "titleCn": "对角线遍历 II",
+    "titleSlug": "diagonal-traverse-ii",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1286,
+    "questionId": "1425",
+    "qid": "1425",
+    "titleEn": "Constrained Subsequence Sum",
+    "titleCn": "带限制的子序列和",
+    "titleSlug": "constrained-subsequence-sum",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1391,
+    "questionId": "1426",
+    "qid": "1426",
+    "titleEn": "Counting Elements",
+    "titleCn": "数元素",
+    "titleSlug": "counting-elements",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1345,
+    "questionId": "1427",
+    "qid": "1427",
+    "titleEn": "Perform String Shifts",
+    "titleSlug": "perform-string-shifts",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1374,
+    "questionId": "1428",
+    "qid": "1428",
+    "titleEn": "Leftmost Column with at Least a One",
+    "titleSlug": "leftmost-column-with-at-least-a-one",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1366,
+    "questionId": "1429",
+    "qid": "1429",
+    "titleEn": "First Unique Number",
+    "titleSlug": "first-unique-number",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1432,
+    "questionId": "1430",
+    "qid": "1430",
+    "titleEn": "Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree",
+    "titleSlug": "check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1528,
+    "questionId": "1431",
+    "qid": "1431",
+    "titleEn": "Kids With the Greatest Number of Candies",
+    "titleCn": "拥有最多糖果的孩子",
+    "titleSlug": "kids-with-the-greatest-number-of-candies",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1529,
+    "questionId": "1432",
+    "qid": "1432",
+    "titleEn": "Max Difference You Can Get From Changing an Integer",
+    "titleCn": "改变一个整数能得到的最大差值",
+    "titleSlug": "max-difference-you-can-get-from-changing-an-integer",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1530,
+    "questionId": "1433",
+    "qid": "1433",
+    "titleEn": "Check If a String Can Break Another String",
+    "titleCn": "检查一个字符串是否可以打破另一个字符串",
+    "titleSlug": "check-if-a-string-can-break-another-string",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1531,
+    "questionId": "1434",
+    "qid": "1434",
+    "titleEn": "Number of Ways to Wear Different Hats to Each Other",
+    "titleCn": "每个人戴不同帽子的方案数",
+    "titleSlug": "number-of-ways-to-wear-different-hats-to-each-other",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1564,
+    "questionId": "1435",
+    "qid": "1435",
+    "titleEn": "Create a Session Bar Chart",
+    "titleSlug": "create-a-session-bar-chart",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": true
+}, {
+    "rawId": 1547,
+    "questionId": "1436",
+    "qid": "1436",
+    "titleEn": "Destination City",
+    "titleCn": "旅行终点站",
+    "titleSlug": "destination-city",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1548,
+    "questionId": "1437",
+    "qid": "1437",
+    "titleEn": "Check If All 1's Are at Least Length K Places Away",
+    "titleCn": "是否所有 1 都至少相隔 k 个元素",
+    "titleSlug": "check-if-all-1s-are-at-least-length-k-places-away",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1549,
+    "questionId": "1438",
+    "qid": "1438",
+    "titleEn": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+    "titleCn": "绝对差不超过限制的最长连续子数组",
+    "titleSlug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1550,
+    "questionId": "1439",
+    "qid": "1439",
+    "titleEn": "Find the Kth Smallest Sum of a Matrix With Sorted Rows",
+    "titleCn": "有序矩阵中的第 k 个最小数组和",
+    "titleSlug": "find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1565,
+    "questionId": "1440",
+    "qid": "1440",
+    "titleEn": "Evaluate Boolean Expression",
+    "titleSlug": "evaluate-boolean-expression",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1552,
+    "questionId": "1441",
+    "qid": "1441",
+    "titleEn": "Build an Array With Stack Operations",
+    "titleCn": "用栈操作构建数组",
+    "titleSlug": "build-an-array-with-stack-operations",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1553,
+    "questionId": "1442",
+    "qid": "1442",
+    "titleEn": "Count Triplets That Can Form Two Arrays of Equal XOR",
+    "titleCn": "形成两个异或相等数组的三元组数目",
+    "titleSlug": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1554,
+    "questionId": "1443",
+    "qid": "1443",
+    "titleEn": "Minimum Time to Collect All Apples in a Tree",
+    "titleCn": "收集树上所有苹果的最少时间",
+    "titleSlug": "minimum-time-to-collect-all-apples-in-a-tree",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1555,
+    "questionId": "1444",
+    "qid": "1444",
+    "titleEn": "Number of Ways of Cutting a Pizza",
+    "titleCn": "切披萨的方案数",
+    "titleSlug": "number-of-ways-of-cutting-a-pizza",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1578,
+    "questionId": "1445",
+    "qid": "1445",
+    "titleEn": "Apples & Oranges",
+    "titleSlug": "apples-oranges",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1542,
+    "questionId": "1446",
+    "qid": "1446",
+    "titleEn": "Consecutive Characters",
+    "titleCn": "连续字符",
+    "titleSlug": "consecutive-characters",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1543,
+    "questionId": "1447",
+    "qid": "1447",
+    "titleEn": "Simplified Fractions",
+    "titleCn": "最简分数",
+    "titleSlug": "simplified-fractions",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1544,
+    "questionId": "1448",
+    "qid": "1448",
+    "titleEn": "Count Good Nodes in Binary Tree",
+    "titleCn": "统计二叉树中好节点的数目",
+    "titleSlug": "count-good-nodes-in-binary-tree",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1545,
+    "questionId": "1449",
+    "qid": "1449",
+    "titleEn": "Form Largest Integer With Digits That Add up to Target",
+    "titleCn": "数位成本和为目标值的最大数字",
+    "titleSlug": "form-largest-integer-with-digits-that-add-up-to-target",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1560,
+    "questionId": "1450",
+    "qid": "1450",
+    "titleEn": "Number of Students Doing Homework at a Given Time",
+    "titleCn": "在既定时间做作业的学生人数",
+    "titleSlug": "number-of-students-doing-homework-at-a-given-time",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1561,
+    "questionId": "1451",
+    "qid": "1451",
+    "titleEn": "Rearrange Words in a Sentence",
+    "titleCn": "重新排列句子中的单词",
+    "titleSlug": "rearrange-words-in-a-sentence",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1562,
+    "questionId": "1452",
+    "qid": "1452",
+    "titleEn": "People Whose List of Favorite Companies Is Not a Subset of Another List",
+    "titleCn": "收藏清单",
+    "titleSlug": "people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1563,
+    "questionId": "1453",
+    "qid": "1453",
+    "titleEn": "Maximum Number of Darts Inside of a Circular Dartboard",
+    "titleCn": "圆形靶内的最大飞镖数量",
+    "titleSlug": "maximum-number-of-darts-inside-of-a-circular-dartboard",
     "difficulty": "Hard",
     "level": 3,
     "isPaidOnly": false
