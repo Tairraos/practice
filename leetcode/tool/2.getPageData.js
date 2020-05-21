@@ -13,8 +13,7 @@
 //需要处理的slugTitle, 有可能是新题，也有可能是没有能用JS或PY解答的题。
 //没有能用JS或PY解答的题也需要下载题目内容回来才知道有没有更新。
 //::Start refill operateList
-var operateList = [
-    "er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof", "er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof", "the-dining-philosophers",
+var operateList = ["er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof", "er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof", "the-dining-philosophers",
     "fizz-buzz-multithreaded", "reformat-department-table", "print-zero-even-odd", "print-in-order", "print-foobar-alternately", "building-h2o",
     "count-unique-characters-of-all-substrings-of-a-given-string", "logical-or-of-two-binary-grids-represented-as-quad-trees", "swap-salary",
     "exchange-seats", "not-boring-movies", "human-traffic-of-stadium", "classes-more-than-5-students", "big-countries", "trips-and-users",
@@ -44,7 +43,7 @@ function goFetch() {
 
     getQuesInfo();
     console.info("module.exports = " + JSON.stringify(quesInfo).replace(/[\n\r]+/g, "\n") + ";");
-    quesInfo.sort((a,b)=>a.rawId-b.rawId);
+    quesInfo.sort((a, b) => a.rawId - b.rawId);
     console.info("把上面代码拷贝到 quesionData.js:");
 
     console.info("");

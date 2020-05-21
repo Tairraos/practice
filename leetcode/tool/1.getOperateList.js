@@ -22,10 +22,9 @@ x.readDir(path.resolve(__dirname, ".."), {
     recursive: true
 }).forEach(
     item => item.match(/\.js$/) ?
-    jsDataList[item.replace(/.*\/(.*)\.([^.]+)\.py$/, "$1")] = RegExp.$2 : //本地的JS文件集
+    jsDataList[item.replace(/.*\/(.*)\.([^.]+)\.js$/, "$1")] = RegExp.$2 : //本地的JS文件集
     pyDataList[item.replace(/.*\/(.*)\.([^.]+)\.py$/, "$1")] = RegExp.$2 //本地的PY文件集
 );
-
 request("https://leetcode-cn.com/api/problems/all/", function(error, response, body) {
     let respData = JSON.parse(body),
         operateList = respData.stat_status_pairs.map(item => ({
@@ -33,10 +32,14 @@ request("https://leetcode-cn.com/api/problems/all/", function(error, response, b
                 .replace(/(\d+|-)/g, " $1 ").replace(/ +/g, " ").replace(/^ | $| (?=[.-])|(?<=[.-]) /g, ""),
             "paid": item.paid_only,
             "titleSlug": item.stat.question__title_slug
-        })).filter(item =>
-            !item.paid &&
+        })).filter(item =>{
+            var tes = !item.paid &&
             (jsDataList[item.qid] !== item.titleSlug || pyDataList[item.qid] !== item.titleSlug) //本地没有对应的JS或PY文件
-        ).map(item => item.titleSlug);
+            if (tes){
+                console.log(item, jsDataList[item.qid], pyDataList[item.qid] )
+            }
+            return tes;
+        }).map(item => item.titleSlug);
 
     if (operateList.length) {
         let ignoreLine = false,
