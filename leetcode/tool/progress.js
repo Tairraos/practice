@@ -4,7 +4,7 @@ let x = require("xtool.js"),
     path = require("path"),
     questionData = require("./questionData"),
     backupData = require("./backupData");
-args[1] = "readme";
+
 if (args[1] !== "readme" && (!+args[2] || !["coding", "done"].includes(args[1]))) {
     console.log("\033[32m用法：");
     console.log("  npm run coding 题目编号");
