@@ -59,7 +59,7 @@ if (args[1] === "readme") {
         item => {
             let qid = item.replace(/.*\/([^\.]+)\.[\w-]+\.js/, "$1"),
                 title = `${qid} - ${quesDict[qid].titleCn}`,
-                url = `done/${item}`,
+                url = `done/${item}`.replace(/ /g, "%20"),
                 remote = `https://leetcode-cn.com/problems/${quesDict[qid].titleSlug}/`,
                 difficulty = difficultyDict[quesDict[qid].level];
             readme.push(`- [${title}](${url}) 难度：${difficulty} [源](${remote})`);
@@ -72,7 +72,7 @@ if (args[1] === "readme") {
         item => {
             let qid = item.replace(/.*\/([^\.]+)\.[\w-]+\.py/, "$1"),
                 title = `${qid} - ${quesDict[qid].titleCn}`,
-                url = `done/${item}`,
+                url = `done/${item}`.replace(/ /g, "%20"),
                 remote = `https://leetcode-cn.com/problems/${quesDict[qid].titleSlug}/`,
                 difficulty = difficultyDict[quesDict[qid].level];
             readme.push(`- [${title}](${url}) 难度：${difficulty} [源](${remote})`);

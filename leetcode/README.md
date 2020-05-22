@@ -58,7 +58,7 @@
 - [0866 - 回文素数](done/0801-0900/0866.prime-palindrome.js) 难度：中等 [源](https://leetcode-cn.com/problems/prime-palindrome/)
 - [1009 - 十进制整数的反码](done/1001-1100/1009.complement-of-base-10-integer.js) 难度：容易 [源](https://leetcode-cn.com/problems/complement-of-base-10-integer/)
 - [1108 - IP 地址无效化](done/1101-1200/1108.defanging-an-ip-address.js) 难度：容易 [源](https://leetcode-cn.com/problems/defanging-an-ip-address/)
-- [LCP 01 - 猜数字](done/LCP/LCP 01.guess-numbers.js) 难度：容易 [源](https://leetcode-cn.com/problems/guess-numbers/)
+- [LCP 01 - 猜数字](done/LCP/LCP%2001.guess-numbers.js) 难度：容易 [源](https://leetcode-cn.com/problems/guess-numbers/)
 
 ### Leetcode Python 已完成题目列表
 完成度：2/1324 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
