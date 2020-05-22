@@ -12,18 +12,17 @@ let x = require("xtool.js"),
     path = require("path"),
     request = require("request"),
     outputFile = path.resolve(__dirname, "2.getPageData.js"),
-    jsDataList = {},
-    pyDataList = {},
-    existDataList = {}
+    dataList = {
+        js: {},
+        py: {}
+    };
 
 //已经存在的模板是 coding / done ／template 里的 js 集合
 x.readDir(path.resolve(__dirname, ".."), {
     find: ["coding/*.js", "done/*.js", "template/*.js", "coding/*.py", "done/*.py", "template/*.py"],
     recursive: true
-}).forEach(
-    item => item.match(/\.js$/) ?
-    jsDataList[item.replace(/.*\/(.*)\.([^.]+)\.js$/, "$1")] = RegExp.$2 : //本地的JS文件集
-    pyDataList[item.replace(/.*\/(.*)\.([^.]+)\.py$/, "$1")] = RegExp.$2 //本地的PY文件集
+}).forEach(item =>
+    dataList[item.replace(/.*\/(.*)\.([^.]+)\.(js|py)$/, "$3")][RegExp.$1] = RegExp.$2 //本地的JS/PY文件集
 );
 request("https://leetcode-cn.com/api/problems/all/", function(error, response, body) {
     let respData = JSON.parse(body),
@@ -32,11 +31,11 @@ request("https://leetcode-cn.com/api/problems/all/", function(error, response, b
                 .replace(/(\d+|-)/g, " $1 ").replace(/ +/g, " ").replace(/^ | $| (?=[.-])|(?<=[.-]) /g, ""),
             "paid": item.paid_only,
             "titleSlug": item.stat.question__title_slug
-        })).filter(item =>{
+        })).filter(item => {
             var tes = !item.paid &&
-            (jsDataList[item.qid] !== item.titleSlug || pyDataList[item.qid] !== item.titleSlug) //本地没有对应的JS或PY文件
-            if (tes){
-                console.log(item, jsDataList[item.qid], pyDataList[item.qid] )
+                (dataList.js[item.qid] !== item.titleSlug || dataList.py[item.qid] !== item.titleSlug); //本地没有对应的js或py文件
+            if (tes) {
+                console.log(item, dataList.js[item.qid], dataList.py[item.qid])
             }
             return tes;
         }).map(item => item.titleSlug);
