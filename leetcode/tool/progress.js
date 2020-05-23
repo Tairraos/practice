@@ -5,10 +5,14 @@ let x = require("xtool.js"),
     questionData = require("./questionData"),
     backupData = require("./backupData");
 
-if (args[1] !== "readme" && (!+args[2] || !["coding", "done"].includes(args[1]))) {
+if (args[1] === undefined) {
+    args[1] = "readme";
+}
+
+if (args[1] !== "readme" && (!args[2] || !["coding", "done"].includes(args[1]))) {
     console.log("\033[32m用法：");
-    console.log("  npm run coding 题目编号");
-    console.log("  npm run done 题目编号");
+    console.log("  npm run coding 题目编号 <js|py>");
+    console.log("  npm run done 题目编号 <js|py>");
     console.log("  npm run readme\033[0m");
     process.exit();
 }
@@ -101,19 +105,22 @@ if (args[1] === "readme") {
     process.exit();
 }
 
-let id = +args[2],
-    ext = args[3] || "js",
+let ext = args[3] || "*",
+    numMod = !!args[2].match(/^\d+$/),
+    id = numMod ? +args[2] : args[2],
     ord = id - 1,
-    dir = (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)),
-    questionId = ("000" + id).slice(-4);
+    dir = numMod ? (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)) : id.replace(/ .*$/, ""),
+    questionId = numMod ? ("000" + id).slice(-4) : id;
 
 if (args[1] === "coding") {
     file = x.readDir(path.resolve(__dirname, "..", "template", dir), questionId + "*." + ext);
     if (file.length) {
-        fs.renameSync(
-            path.resolve(__dirname, "..", "template", dir, file[0]),
-            path.resolve(__dirname, "..", "coding", file[0])
-        );
+        file.forEach(filename => {
+            fs.renameSync(
+                path.resolve(__dirname, "..", "template", dir, filename),
+                path.resolve(__dirname, "..", "coding", filename)
+            );
+        });
         console.log("\033[32m编号为 " + questionId + " 的模板已经移到到 coding 目录。\033[0m");
     } else {
         console.log("\033[31m编号为 " + questionId + " 的模板不存在。\033[0m");
@@ -121,10 +128,12 @@ if (args[1] === "coding") {
 } else if (args[1] === "done") {
     file = x.readDir(path.resolve(__dirname, "..", "coding"), questionId + "*." + ext);
     if (file.length) {
-        fs.renameSync(
-            path.resolve(__dirname, "..", "coding", file[0]),
-            path.resolve(__dirname, "..", "done", dir, file[0])
-        );
+        file.forEach(filename => {
+            fs.renameSync(
+                path.resolve(__dirname, "..", "coding", filename),
+                path.resolve(__dirname, "..", "done", dir, filename)
+            );
+        });
         console.log("\033[32m编号为 " + questionId + " 的模板已经移到到 done 目录。\033[0m");
     } else {
         console.log("\033[31m编号为 " + questionId + " 的模板不存在。\033[0m");

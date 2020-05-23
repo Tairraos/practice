@@ -26,7 +26,7 @@ data.forEach(item => {
         pyname = fid + "." + item.titleSlug + ".py",
         url = "https://leetcode-cn.com/problems/" + item.titleSlug + "/",
         ord = id - 1,
-        dir = numMod ? (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)) : fid.replace(/ .*$/, ""),
+        dir = numMod ? (("000" + (ord - ord % 100 + 1)).slice(-4) + "-" + ("000" + (ord - ord % 100 + 100)).slice(-4)) : id.replace(/ .*$/, ""),
         jsout = [],
         pyout = [];
     if (jscode !== "N/A") {
