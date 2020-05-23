@@ -18,7 +18,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function (nums, target) {
+var twoSum = function(nums, target) {
     //暴力解，全组合 C(nums.length, 2)
     for (var i = 0; i <= nums.length; i++) {
         for (var j = i + 1; j <= nums.length; j++) {
@@ -29,5 +29,11 @@ var twoSum = function (nums, target) {
     }
 };
 
+// Local test
+let assert = require("assert");
+console.time("Time cost");
 
+assert.deepEqual(twoSum([2, 7, 11, 15], 9), [0, 1], "Case 1");
 
+console.log("Good job! We have passed all test case.");
+console.timeEnd("Time cost");

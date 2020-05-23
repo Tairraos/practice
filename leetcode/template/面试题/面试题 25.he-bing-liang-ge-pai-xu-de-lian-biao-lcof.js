@@ -36,8 +36,12 @@ var mergeTwoLists = function(l1, l2) {
 let assert = require("assert");
 console.time("Time cost");
 
-assert.deepEqual(mergeTwoLists("param"), "expect", "Case 1");
-assert.deepEqual(mergeTwoLists("param"), "expect", "Case 2");
+// Tool: Linked list to Array & Array to Linked list
+let toArray = a => a ? a.next ? [a.val].concat(toArray(a.next)) : [a.val] : [],
+    toLinked = a => a.length ? ({val: +a[0], next: a.slice(1).length ? toLinked(a.slice(1)) : null}) : null;
+
+assert.deepEqual(toArray(mergeTwoLists(toLinked([1,2,3]))), [1,2,3], "Case 1");
+assert.deepEqual(toArray(mergeTwoLists(toLinked([1,2,3]))), [1,2,3], "Case 2");
 
 console.log("Good job! We have passed all test case.");
 console.timeEnd("Time cost");

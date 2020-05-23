@@ -45,8 +45,17 @@ data.forEach(item => {
         jsout.push("let assert = require(\"assert\");");
         jsout.push("console.time(\"Time cost\");");
         jsout.push("");
-        jsout.push("assert.deepEqual(" + jsFuncName + "(\"param\"), \"expect\", \"Case 1\");");
-        jsout.push("assert.deepEqual(" + jsFuncName + "(\"param\"), \"expect\", \"Case 2\");");
+        if (jscode.match(/function ListNode/)) {
+            jsout.push("// Tool: Linked list to Array & Array to Linked list");
+            jsout.push("let toArray = a => a ? a.next ? [a.val].concat(toArray(a.next)) : [a.val] : [],");
+            jsout.push("    toLinked = a => a.length ? ({val: +a[0], next: a.slice(1).length ? toLinked(a.slice(1)) : null}) : null;");
+            jsout.push("");
+            jsout.push("assert.deepEqual(toArray(" + jsFuncName + "(toLinked([1,2,3]))), [1,2,3], \"Case 1\");");
+            jsout.push("assert.deepEqual(toArray(" + jsFuncName + "(toLinked([1,2,3]))), [1,2,3], \"Case 2\");");
+        } else {
+            jsout.push("assert.deepEqual(" + jsFuncName + "(\"param\"), \"expect\", \"Case 1\");");
+            jsout.push("assert.deepEqual(" + jsFuncName + "(\"param\"), \"expect\", \"Case 2\");");
+        }
         jsout.push("");
         jsout.push("console.log(\"Good job! We have passed all test case.\");");
         jsout.push("console.timeEnd(\"Time cost\");");
@@ -70,6 +79,11 @@ data.forEach(item => {
             pyout.push("");
             pyout.push("");
         }
+
+        pycode = pycode.replace(
+            "# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None",
+            "class ListNode:\n    def __init__(self, x, y = None):\n        self.val = x\n        self.next = y"
+        );
         pycode = pycode.replace(/#     /g, "    ").replace(/# class/g, "class");
         pyout.push(pycode + (pycode.match(/    $/) ? "" : "\n        ") + "\"put solution here\"");
         pyout.push("");
@@ -80,8 +94,16 @@ data.forEach(item => {
         pyout.push("    launch_start = time.time()");
         pyout.push("    unit = Solution()");
         pyout.push("");
-        pyout.push("    assert unit." + pyFuncName + "('param') == 'expect', 'Case 1'");
-        pyout.push("    assert unit." + pyFuncName + "('param') == 'expect', 'Case 2'");
+        if (pycode.match(/class ListNode/)) {
+            pyout.push("    def toArray(a: ListNode): return ([a.val] + toArray(a.next) if a.next else [a.val]) if a else []");
+            pyout.push("    def toLinked(a): return ListNode(a[0], toLinked(a[1:]) if len(a[1:]) else None) if len(a) else None");
+            pyout.push("");
+            pyout.push("    assert toArray(unit." + pyFuncName + "(toLinked([1,2,3]))) == [1,2,3], 'Case 1'");
+            pyout.push("    assert toArray(unit." + pyFuncName + "(toLinked([1,2,3]))) == [1,2,3], 'Case 2'");
+        } else {
+            pyout.push("    assert unit." + pyFuncName + "('param') == 'expect', 'Case 1'");
+            pyout.push("    assert unit." + pyFuncName + "('param') == 'expect', 'Case 2'");
+        }
         pyout.push("");
         pyout.push("    print('Good job! We have passed all test case.')");
         pyout.push("    print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')");
