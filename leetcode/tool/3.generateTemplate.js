@@ -39,6 +39,10 @@ data.forEach(item => {
         jsout.push(desc.map(line => " * " + line).join("\n"));
         jsout.push(" */");
         jsout.push("");
+        jscode = jscode.replace(
+            "* function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */",
+            "*/\nfunction ListNode(val) {\n     this.val = val;\n     this.next = null;\n }\n"
+        );
         jsout.push(jscode);
         jsout.push("");
         jsout.push("// Local test");

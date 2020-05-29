@@ -4772,6 +4772,7 @@ module.exports = [{
     "questionId": "1428",
     "qid": "1428",
     "titleEn": "Leftmost Column with at Least a One",
+    "titleCn": "至少有一个 1 的最左端列",
     "titleSlug": "leftmost-column-with-at-least-a-one",
     "difficulty": "Medium",
     "level": 2,
@@ -4908,6 +4909,7 @@ module.exports = [{
     "questionId": "1440",
     "qid": "1440",
     "titleEn": "Evaluate Boolean Expression",
+    "titleCn": "计算布尔表达式的值",
     "titleSlug": "evaluate-boolean-expression",
     "difficulty": "Medium",
     "level": 2,
@@ -4957,6 +4959,7 @@ module.exports = [{
     "questionId": "1445",
     "qid": "1445",
     "titleEn": "Apples & Oranges",
+    "titleCn": "苹果和桔子",
     "titleSlug": "apples-oranges",
     "difficulty": "Medium",
     "level": 2,
@@ -5051,6 +5054,64 @@ module.exports = [{
     "difficulty": "Hard",
     "level": 3,
     "isPaidOnly": false
+}, {
+    "rawId": 1579,
+    "questionId": "1454",
+    "qid": "1454",
+    "titleEn": "Active Users",
+    "titleSlug": "active-users",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
+}, {
+    "rawId": 1566,
+    "questionId": "1455",
+    "qid": "1455",
+    "titleEn": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "titleCn": "检查单词是否为句中其他单词的前缀",
+    "titleSlug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+    "difficulty": "Easy",
+    "level": 1,
+    "isPaidOnly": false
+}, {
+    "rawId": 1567,
+    "questionId": "1456",
+    "qid": "1456",
+    "titleEn": "Maximum Number of Vowels in a Substring of Given Length",
+    "titleCn": "定长子串中元音的最大数目",
+    "titleSlug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1568,
+    "questionId": "1457",
+    "qid": "1457",
+    "titleEn": "Pseudo-Palindromic Paths in a Binary Tree",
+    "titleCn": "二叉树中的伪回文路径",
+    "titleSlug": "pseudo-palindromic-paths-in-a-binary-tree",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": false
+}, {
+    "rawId": 1569,
+    "questionId": "1458",
+    "qid": "1458",
+    "titleEn": "Max Dot Product of Two Subsequences",
+    "titleCn": "两个子序列的最大点积",
+    "titleSlug": "max-dot-product-of-two-subsequences",
+    "difficulty": "Hard",
+    "level": 3,
+    "isPaidOnly": false
+}, {
+    "rawId": 1607,
+    "questionId": "1459",
+    "qid": "1459",
+    "titleEn": "Rectangles Area",
+    "titleSlug": "rectangles-area",
+    "difficulty": "Medium",
+    "level": 2,
+    "isPaidOnly": true
 }, {
     "rawId": 146,
     "questionId": "146",
@@ -11546,7 +11607,7 @@ module.exports = [{
     "questionId": "730",
     "qid": "0730",
     "titleEn": "Count Different Palindromic Subsequences",
-    "titleCn": "统计不同回文子字符串",
+    "titleCn": "统计不同回文子序列",
     "titleSlug": "count-different-palindromic-subsequences",
     "difficulty": "Hard",
     "level": 3,
