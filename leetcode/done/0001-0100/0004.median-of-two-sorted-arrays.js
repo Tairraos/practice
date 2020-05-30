@@ -23,12 +23,19 @@
  * @param {number[]} nums2
  * @return {number}
  */
-var findMedianSortedArrays = function (nums1, nums2) {
-    //排序，从两头各取一个中间值，加起来除2
-    let a = [...nums1, ...nums2].sort((a, b) => a - b);
-    //奇数长度两次都会取到中间值，偶数长度会取到中间两个值
+var findMedianSortedArrays = function(nums1, nums2) {
+    let a = [...nums1, ...nums2].sort((a, b) => a - b); // 排序
+    // 从两头各取一个中间值，加起来除2
+    // 奇数长度两次都会取到中间值，偶数长度会取到中间两个值
     return (a[a.length / 2 | 0] + a[a.length - (a.length / 2 | 0) - 1]) / 2;
 };
 
+// Local test
+let assert = require("assert");
+console.time("Time cost");
 
+assert.deepEqual(findMedianSortedArrays([1, 3], [2]), 2, "Case 1");
+assert.deepEqual(findMedianSortedArrays([1, 2], [3, 4]), 2.5, "Case 2");
 
+console.log("Good job! We have passed all test case.");
+console.timeEnd("Time cost");
