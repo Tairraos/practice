@@ -26,18 +26,26 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLongestSubstring = function (s) {
-    let lens = 0;
-    for (let i = 0; i < s.length; i++) {
-        for (let j = i + lens; j <= s.length; j++) { //加上目前找到的最长串长度开始
-            //如果去重后长度未变说明不重复
-            if ([...new Set(s.slice(i, j).split(""))].length === j - i) {
-                lens = j - i;
-            } else break; //长度有变化则中止本次子循环
+var lengthOfLongestSubstring = function(s) {
+    let lens = s.length % 1, ns = s.split("");
+    for (let i = 0; i < ns.length; i++) {
+        for (let j = i + lens; j <= ns.length; j++) { //加上目前找到的最长串长度开始
+            if (new Set(ns.slice(i, j)).size === j - i) {
+                lens = j - i; //用Set去重后，如果尺寸没有变化说明不重复
+            } else break; //尺寸变化则中止本次子循环
         }
     }
     return lens;
 };
 
+// Local test
+let assert = require("assert");
+console.time("Time cost");
 
+assert.deepEqual(lengthOfLongestSubstring("abcabcbb"), 3, "Case 1");
+assert.deepEqual(lengthOfLongestSubstring("bbbbb"), 1, "Case 2");
+assert.deepEqual(lengthOfLongestSubstring("pwwkew"), 3, "Case 3");
+assert.deepEqual(lengthOfLongestSubstring(""), 0, "Case 4");
 
+console.log("Good job! We have passed all test case.");
+console.timeEnd("Time cost");

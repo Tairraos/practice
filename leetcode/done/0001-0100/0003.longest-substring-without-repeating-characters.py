@@ -23,7 +23,14 @@
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        "put solution here"
+        lens = 0
+        for i in range(len(s)):
+            for j in range(i + lens, len(s) + 1):
+                if len(set(s[i:j])) == j - i: # 用Set去重后，如果尺寸没有变化说明不重复
+                    lens = j - i
+                else:
+                    break
+        return lens
 
 
 # Local test
@@ -32,8 +39,12 @@ if __name__ == '__main__':
     launch_start = time.time()
     unit = Solution()
 
-    assert unit.lengthOfLongestSubstring('param') == 'expect', 'Case 1'
-    assert unit.lengthOfLongestSubstring('param') == 'expect', 'Case 2'
+    assert unit.lengthOfLongestSubstring('abcabcbb') == 3, 'Case 1'
+    assert unit.lengthOfLongestSubstring('bbbbb') == 1, 'Case 2'
+    assert unit.lengthOfLongestSubstring('pwwkew') == 3, 'Case 3'
+    assert unit.lengthOfLongestSubstring('') == 0, 'Case 4'
+    assert unit.lengthOfLongestSubstring('au') == 2, 'Case 5'
+    assert unit.lengthOfLongestSubstring('uqinntq') == 4, 'Case 6'
 
     print('Good job! We have passed all test case.')
     print('Time cast: ' + str(int((time.time() - launch_start) * 1000000)/1000) + 'ms')
