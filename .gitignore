@@ -30,3 +30,4 @@ node_modules
 _tmp*.*
 .history
 playground
+cypress

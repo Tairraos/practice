@@ -8,8 +8,9 @@
   "private": true,
   "devDependencies": {
     "assert": "^1.4.1",
-    "xtool.js": "^1.1.4",
-    "request": "^2.88.0"
+    "cypress": "^5.5.0",
+    "request": "^2.88.0",
+    "xtool.js": "^1.1.4"
   },
   "dependencies": {},
   "scripts": {
