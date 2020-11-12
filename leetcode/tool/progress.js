@@ -44,8 +44,8 @@ if (args[1] === "readme") {
             doneJs: doneListJS.length,
             donePy: doneListPY.length
         };
-    console.log(doneListJS);
-    console.log(doneListPY);
+    console.log("JS已完成：", doneListJS);
+    console.log("PY已完成：", doneListPY);
     questionData.forEach(item => {
         item.questionId = item.questionId.match(/^\d+$/) ? ("000" + item.questionId).slice(-4) :
             item.questionId.replace(/(\d+|-)/g, " $1 ").replace(/ +/g, " ").replace(/^ | $| (?=[.-])|(?<=[.-]) /g, "");
