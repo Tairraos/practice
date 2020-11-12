@@ -3,7 +3,7 @@
  * 2 把 "2.getPageData.js" 代码帖到 https://leetcode-cn.com/problemset/all/ 页面的 console 里跑
  * 3 从 console 得到输出后，把它更新到 "data.js" 和 "questionData.js" 里
  * 4 用 node 执行 "3.generateTemplate.js" 生成模板
- * 5 生成完后把 "data.js" 里的数据移动到 oldData.js 里备份。
+ * 5 用 node 执行 "4.mergeData" 合并数据文件
  * 
  * 本工具会生成leetcode答题模板
  * 按题目编号每100题一个目录

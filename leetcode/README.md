@@ -1,5 +1,5 @@
 ### Leetcode Javascript 已完成题目列表
-完成度：59/1320 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
+完成度：59/1475 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
 - [0001 - 两数之和](done/0001-0100/0001.two-sum.js) 难度：容易 [源](https://leetcode-cn.com/problems/two-sum/)
 - [0002 - 两数相加](done/0001-0100/0002.add-two-numbers.js) 难度：中等 [源](https://leetcode-cn.com/problems/add-two-numbers/)
 - [0003 - 无重复字符的最长子串](done/0001-0100/0003.longest-substring-without-repeating-characters.js) 难度：中等 [源](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
@@ -37,7 +37,7 @@
 - [0149 - 直线上最多的点数](done/0101-0200/0149.max-points-on-a-line.js) 难度：困难 [源](https://leetcode-cn.com/problems/max-points-on-a-line/)
 - [0151 - 翻转字符串里的单词](done/0101-0200/0151.reverse-words-in-a-string.js) 难度：中等 [源](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 - [0167 - 两数之和 II - 输入有序数组](done/0101-0200/0167.two-sum-ii-input-array-is-sorted.js) 难度：容易 [源](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
-- [0189 - 旋转数组](done/0101-0200/0189.rotate-array.js) 难度：容易 [源](https://leetcode-cn.com/problems/rotate-array/)
+- [0189 - 旋转数组](done/0101-0200/0189.rotate-array.js) 难度：中等 [源](https://leetcode-cn.com/problems/rotate-array/)
 - [0206 - 反转链表](done/0201-0300/0206.reverse-linked-list.js) 难度：容易 [源](https://leetcode-cn.com/problems/reverse-linked-list/)
 - [0209 - 长度最小的子数组](done/0201-0300/0209.minimum-size-subarray-sum.js) 难度：中等 [源](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
 - [0215 - 数组中的第K个最大元素](done/0201-0300/0215.kth-largest-element-in-an-array.js) 难度：中等 [源](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
@@ -61,7 +61,7 @@
 - [LCP 01 - 猜数字](done/LCP/LCP%2001.guess-numbers.js) 难度：容易 [源](https://leetcode-cn.com/problems/guess-numbers/)
 
 ### Leetcode Python 已完成题目列表
-完成度：6/1328 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
+完成度：6/1483 (付费题和非JS题未计算在内, 附[所有题目清单](LIST.md))
 - [0001 - 两数之和](done/0001-0100/0001.two-sum.py) 难度：容易 [源](https://leetcode-cn.com/problems/two-sum/)
 - [0002 - 两数相加](done/0001-0100/0002.add-two-numbers.py) 难度：中等 [源](https://leetcode-cn.com/problems/add-two-numbers/)
 - [0003 - 无重复字符的最长子串](done/0001-0100/0003.longest-substring-without-repeating-characters.py) 难度：中等 [源](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)

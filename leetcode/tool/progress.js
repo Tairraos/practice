@@ -54,7 +54,11 @@ if (args[1] === "readme") {
         })
     });
     backupData.forEach(item => {
-        quesDict[item.questionId].codeSnippets = item.codeSnippets
+        if(quesDict[item.questionId]){
+            quesDict[item.questionId].codeSnippets = item.codeSnippets;
+        } else {
+            console.log("有问题：",item.questionId+"."+item.titleSlug+".js");
+        }
     });
 
     readme.push("### Leetcode Javascript 已完成题目列表");

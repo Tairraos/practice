@@ -32,12 +32,8 @@ request("https://leetcode-cn.com/api/problems/all/", function(error, response, b
             "paid": item.paid_only,
             "titleSlug": item.stat.question__title_slug
         })).filter(item => {
-            var tes = !item.paid &&
+            return !item.paid &&
                 (dataList.js[item.qid] !== item.titleSlug || dataList.py[item.qid] !== item.titleSlug); //本地没有对应的js或py文件
-            if (tes) {
-                console.log(item, dataList.js[item.qid], dataList.py[item.qid])
-            }
-            return tes;
         }).map(item => item.titleSlug);
 
     if (operateList.length) {

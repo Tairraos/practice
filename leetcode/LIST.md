@@ -1,5 +1,5 @@
 ### Leetcode 题目清单
-总题数：1659 / 免费题：1351（其中JS题 1320 题，PY题 1328 题） / 付费题：308
+总题数：1861 / 免费题：1507（其中JS题 1475 题，PY题 1483 题） / 付费题：354
 - [0001 - 两数之和](https://leetcode-cn.com/problems/two-sum/) 难度：容易 / JS题 / PY题
 - [0002 - 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) 难度：中等 / JS题 / PY题
 - [0003 - 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 难度：中等 / JS题 / PY题
@@ -22,7 +22,7 @@
 - [0020 - 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) 难度：容易 / JS题 / PY题
 - [0021 - 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 难度：容易 / JS题 / PY题
 - [0022 - 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) 难度：中等 / JS题 / PY题
-- [0023 - 合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) 难度：困难 / JS题 / PY题
+- [0023 - 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) 难度：困难 / JS题 / PY题
 - [0024 - 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) 难度：中等 / JS题 / PY题
 - [0025 - K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 难度：困难 / JS题 / PY题
 - [0026 - 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) 难度：容易 / JS题 / PY题
@@ -50,7 +50,7 @@
 - [0048 - 旋转图像](https://leetcode-cn.com/problems/rotate-image/) 难度：中等 / JS题 / PY题
 - [0049 - 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) 难度：中等 / JS题 / PY题
 - [0050 - Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) 难度：中等 / JS题 / PY题
-- [0051 - N皇后](https://leetcode-cn.com/problems/n-queens/) 难度：困难 / JS题 / PY题
+- [0051 - N 皇后](https://leetcode-cn.com/problems/n-queens/) 难度：困难 / JS题 / PY题
 - [0052 - N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/) 难度：困难 / JS题 / PY题
 - [0053 - 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) 难度：容易 / JS题 / PY题
 - [0054 - 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) 难度：中等 / JS题 / PY题
@@ -59,7 +59,7 @@
 - [0057 - 插入区间](https://leetcode-cn.com/problems/insert-interval/) 难度：困难 / JS题 / PY题
 - [0058 - 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) 难度：容易 / JS题 / PY题
 - [0059 - 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/) 难度：中等 / JS题 / PY题
-- [0060 - 第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) 难度：中等 / JS题 / PY题
+- [0060 - 排列序列](https://leetcode-cn.com/problems/permutation-sequence/) 难度：困难 / JS题 / PY题
 - [0061 - 旋转链表](https://leetcode-cn.com/problems/rotate-list/) 难度：中等 / JS题 / PY题
 - [0062 - 不同路径](https://leetcode-cn.com/problems/unique-paths/) 难度：中等 / JS题 / PY题
 - [0063 - 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) 难度：中等 / JS题 / PY题
@@ -144,7 +144,7 @@
 - [0142 - 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) 难度：中等 / JS题 / PY题
 - [0143 - 重排链表](https://leetcode-cn.com/problems/reorder-list/) 难度：中等 / JS题 / PY题
 - [0144 - 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) 难度：中等 / JS题 / PY题
-- [0145 - 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) 难度：困难 / JS题 / PY题
+- [0145 - 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) 难度：中等 / JS题 / PY题
 - [0146 - LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/) 难度：中等 / JS题 / PY题
 - [0147 - 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) 难度：中等 / JS题 / PY题
 - [0148 - 排序链表](https://leetcode-cn.com/problems/sort-list/) 难度：中等 / JS题 / PY题
@@ -188,7 +188,7 @@
 - [0186 - 翻转字符串里的单词 II](https://leetcode-cn.com/problems/reverse-words-in-a-string-ii/) 难度：中等 / 付费题 / JS题 / PY题
 - [0187 - 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/) 难度：中等 / JS题 / PY题
 - [0188 - 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) 难度：困难 / JS题 / PY题
-- [0189 - 旋转数组](https://leetcode-cn.com/problems/rotate-array/) 难度：容易 / JS题 / PY题
+- [0189 - 旋转数组](https://leetcode-cn.com/problems/rotate-array/) 难度：中等 / JS题 / PY题
 - [0190 - 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) 难度：容易 / JS题 / PY题
 - [0191 - 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) 难度：容易 / JS题 / PY题
 - [0192 - 统计词频](https://leetcode-cn.com/problems/word-frequency/) 难度：中等
@@ -210,7 +210,7 @@
 - [0208 - 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) 难度：中等 / JS题 / PY题
 - [0209 - 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) 难度：中等 / JS题 / PY题
 - [0210 - 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/) 难度：中等 / JS题 / PY题
-- [0211 - 添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/) 难度：中等 / JS题 / PY题
+- [0211 - 添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) 难度：中等 / JS题 / PY题
 - [0212 - 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/) 难度：困难 / JS题 / PY题
 - [0213 - 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) 难度：中等 / JS题 / PY题
 - [0214 - 最短回文串](https://leetcode-cn.com/problems/shortest-palindrome/) 难度：困难 / JS题 / PY题
@@ -227,7 +227,7 @@
 - [0225 - 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) 难度：容易 / JS题 / PY题
 - [0226 - 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) 难度：容易 / JS题 / PY题
 - [0227 - 基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii/) 难度：中等 / JS题 / PY题
-- [0228 - 汇总区间](https://leetcode-cn.com/problems/summary-ranges/) 难度：中等 / JS题 / PY题
+- [0228 - 汇总区间](https://leetcode-cn.com/problems/summary-ranges/) 难度：容易 / JS题 / PY题
 - [0229 - 求众数 II](https://leetcode-cn.com/problems/majority-element-ii/) 难度：中等 / JS题 / PY题
 - [0230 - 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) 难度：中等 / JS题 / PY题
 - [0231 - 2的幂](https://leetcode-cn.com/problems/power-of-two/) 难度：容易 / JS题 / PY题
@@ -255,7 +255,7 @@
 - [0253 - 会议室 II](https://leetcode-cn.com/problems/meeting-rooms-ii/) 难度：中等 / 付费题 / JS题 / PY题
 - [0254 - 因子的组合](https://leetcode-cn.com/problems/factor-combinations/) 难度：中等 / 付费题 / JS题 / PY题
 - [0255 - 验证前序遍历序列二叉搜索树](https://leetcode-cn.com/problems/verify-preorder-sequence-in-binary-search-tree/) 难度：中等 / 付费题 / JS题 / PY题
-- [0256 - 粉刷房子](https://leetcode-cn.com/problems/paint-house/) 难度：容易 / 付费题 / JS题 / PY题
+- [0256 - 粉刷房子](https://leetcode-cn.com/problems/paint-house/) 难度：中等 / 付费题 / JS题 / PY题
 - [0257 - 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/) 难度：容易 / JS题 / PY题
 - [0258 - 各位相加](https://leetcode-cn.com/problems/add-digits/) 难度：容易 / JS题 / PY题
 - [0259 - 较小的三数之和](https://leetcode-cn.com/problems/3sum-smaller/) 难度：中等 / 付费题 / JS题 / PY题
@@ -267,14 +267,14 @@
 - [0265 - 粉刷房子 II](https://leetcode-cn.com/problems/paint-house-ii/) 难度：困难 / 付费题 / JS题 / PY题
 - [0266 - 回文排列](https://leetcode-cn.com/problems/palindrome-permutation/) 难度：容易 / 付费题 / JS题 / PY题
 - [0267 - 回文排列 II](https://leetcode-cn.com/problems/palindrome-permutation-ii/) 难度：中等 / 付费题 / JS题 / PY题
-- [0268 - 缺失数字](https://leetcode-cn.com/problems/missing-number/) 难度：容易 / JS题 / PY题
+- [0268 - 丢失的数字](https://leetcode-cn.com/problems/missing-number/) 难度：容易 / JS题 / PY题
 - [0269 - 火星词典](https://leetcode-cn.com/problems/alien-dictionary/) 难度：困难 / 付费题 / JS题 / PY题
 - [0270 - 最接近的二叉搜索树值](https://leetcode-cn.com/problems/closest-binary-search-tree-value/) 难度：容易 / 付费题 / JS题 / PY题
 - [0271 - 字符串的编码与解码](https://leetcode-cn.com/problems/encode-and-decode-strings/) 难度：中等 / 付费题 / JS题 / PY题
 - [0272 - 最接近的二叉搜索树值 II](https://leetcode-cn.com/problems/closest-binary-search-tree-value-ii/) 难度：困难 / 付费题 / JS题 / PY题
 - [0273 - 整数转换英文表示](https://leetcode-cn.com/problems/integer-to-english-words/) 难度：困难 / JS题 / PY题
 - [0274 - H 指数](https://leetcode-cn.com/problems/h-index/) 难度：中等 / JS题 / PY题
-- [0275 - H指数 II](https://leetcode-cn.com/problems/h-index-ii/) 难度：中等 / JS题 / PY题
+- [0275 - H 指数 II](https://leetcode-cn.com/problems/h-index-ii/) 难度：中等 / JS题 / PY题
 - [0276 - 栅栏涂色](https://leetcode-cn.com/problems/paint-fence/) 难度：容易 / 付费题 / JS题 / PY题
 - [0277 - 搜寻名人](https://leetcode-cn.com/problems/find-the-celebrity/) 难度：中等 / 付费题 / JS题 / PY题
 - [0278 - 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) 难度：容易 / JS题 / PY题
@@ -298,7 +298,7 @@
 - [0296 - 最佳的碰头地点](https://leetcode-cn.com/problems/best-meeting-point/) 难度：困难 / 付费题 / JS题 / PY题
 - [0297 - 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) 难度：困难 / JS题 / PY题
 - [0298 - 二叉树最长连续序列](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence/) 难度：中等 / 付费题 / JS题 / PY题
-- [0299 - 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/) 难度：容易 / JS题 / PY题
+- [0299 - 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/) 难度：中等 / JS题 / PY题
 - [0300 - 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 难度：中等 / JS题 / PY题
 - [0301 - 删除无效的括号](https://leetcode-cn.com/problems/remove-invalid-parentheses/) 难度：困难 / JS题 / PY题
 - [0302 - 包含全部黑色像素的最小矩形](https://leetcode-cn.com/problems/smallest-rectangle-enclosing-black-pixels/) 难度：困难 / 付费题 / JS题 / PY题
@@ -315,7 +315,7 @@
 - [0313 - 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/) 难度：中等 / JS题 / PY题
 - [0314 - 二叉树的垂直遍历](https://leetcode-cn.com/problems/binary-tree-vertical-order-traversal/) 难度：中等 / 付费题 / JS题 / PY题
 - [0315 - 计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) 难度：困难 / JS题 / PY题
-- [0316 - 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/) 难度：困难 / JS题 / PY题
+- [0316 - 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/) 难度：中等 / JS题 / PY题
 - [0317 - 离建筑物最近的距离](https://leetcode-cn.com/problems/shortest-distance-from-all-buildings/) 难度：困难 / 付费题 / JS题 / PY题
 - [0318 - 最大单词长度乘积](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/) 难度：中等 / JS题 / PY题
 - [0319 - 灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/) 难度：中等 / JS题 / PY题
@@ -436,17 +436,17 @@
 - [0434 - 字符串中的单词数](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) 难度：容易 / JS题 / PY题
 - [0435 - 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) 难度：中等 / JS题 / PY题
 - [0436 - 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/) 难度：中等 / JS题 / PY题
-- [0437 - 路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/) 难度：容易 / JS题 / PY题
+- [0437 - 路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/) 难度：中等 / JS题 / PY题
 - [0438 - 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) 难度：中等 / JS题 / PY题
 - [0439 - 三元表达式解析器](https://leetcode-cn.com/problems/ternary-expression-parser/) 难度：中等 / 付费题 / JS题 / PY题
 - [0440 - 字典序的第K小数字](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/) 难度：困难 / JS题 / PY题
 - [0441 - 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) 难度：容易 / JS题 / PY题
 - [0442 - 数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) 难度：中等 / JS题 / PY题
-- [0443 - 压缩字符串](https://leetcode-cn.com/problems/string-compression/) 难度：容易 / JS题 / PY题
+- [0443 - 压缩字符串](https://leetcode-cn.com/problems/string-compression/) 难度：中等 / JS题 / PY题
 - [0444 - 序列重建](https://leetcode-cn.com/problems/sequence-reconstruction/) 难度：中等 / 付费题 / JS题 / PY题
 - [0445 - 两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii/) 难度：中等 / JS题 / PY题
 - [0446 - 等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/) 难度：困难 / JS题 / PY题
-- [0447 - 回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/) 难度：容易 / JS题 / PY题
+- [0447 - 回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/) 难度：中等 / JS题 / PY题
 - [0448 - 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) 难度：容易 / JS题 / PY题
 - [0449 - 序列化和反序列化二叉搜索树](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/) 难度：中等 / JS题 / PY题
 - [0450 - 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) 难度：中等 / JS题 / PY题
@@ -459,7 +459,7 @@
 - [0457 - 环形数组循环](https://leetcode-cn.com/problems/circular-array-loop/) 难度：中等 / JS题 / PY题
 - [0458 - 可怜的小猪](https://leetcode-cn.com/problems/poor-pigs/) 难度：困难 / JS题 / PY题
 - [0459 - 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/) 难度：容易 / JS题 / PY题
-- [0460 - LFU缓存](https://leetcode-cn.com/problems/lfu-cache/) 难度：困难 / JS题 / PY题
+- [0460 - LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/) 难度：困难 / JS题 / PY题
 - [0461 - 汉明距离](https://leetcode-cn.com/problems/hamming-distance/) 难度：容易 / JS题 / PY题
 - [0462 - 最少移动次数使数组元素相等 II](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii/) 难度：中等 / JS题 / PY题
 - [0463 - 岛屿的周长](https://leetcode-cn.com/problems/island-perimeter/) 难度：容易 / JS题 / PY题
@@ -474,7 +474,7 @@
 - [0472 - 连接词](https://leetcode-cn.com/problems/concatenated-words/) 难度：困难 / JS题 / PY题
 - [0473 - 火柴拼正方形](https://leetcode-cn.com/problems/matchsticks-to-square/) 难度：中等 / JS题 / PY题
 - [0474 - 一和零](https://leetcode-cn.com/problems/ones-and-zeroes/) 难度：中等 / JS题 / PY题
-- [0475 - 供暖器](https://leetcode-cn.com/problems/heaters/) 难度：容易 / JS题 / PY题
+- [0475 - 供暖器](https://leetcode-cn.com/problems/heaters/) 难度：中等 / JS题 / PY题
 - [0476 - 数字的补数](https://leetcode-cn.com/problems/number-complement/) 难度：容易 / JS题 / PY题
 - [0477 - 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/) 难度：中等 / JS题 / PY题
 - [0478 - 在圆内随机生成点](https://leetcode-cn.com/problems/generate-random-point-in-a-circle/) 难度：中等 / JS题 / PY题
@@ -531,13 +531,13 @@
 - [0529 - 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/) 难度：中等 / JS题 / PY题
 - [0530 - 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) 难度：容易 / JS题 / PY题
 - [0531 - 孤独像素 I](https://leetcode-cn.com/problems/lonely-pixel-i/) 难度：中等 / 付费题 / JS题 / PY题
-- [0532 - 数组中的K-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) 难度：容易 / JS题 / PY题
+- [0532 - 数组中的 k-diff 数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) 难度：中等 / JS题 / PY题
 - [0533 - 孤独像素 II](https://leetcode-cn.com/problems/lonely-pixel-ii/) 难度：中等 / 付费题 / JS题 / PY题
 - [0534 - 游戏玩法分析 III](https://leetcode-cn.com/problems/game-play-analysis-iii/) 难度：中等 / 付费题 / JS题 / PY题
 - [0535 - TinyURL 的加密与解密](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) 难度：中等 / JS题 / PY题
 - [0536 - 从字符串生成二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-string/) 难度：中等 / 付费题 / JS题 / PY题
 - [0537 - 复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/) 难度：中等 / JS题 / PY题
-- [0538 - 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) 难度：容易 / JS题 / PY题
+- [0538 - 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) 难度：中等 / JS题 / PY题
 - [0539 - 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/) 难度：中等 / JS题 / PY题
 - [0540 - 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) 难度：中等 / JS题 / PY题
 - [0541 - 反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/) 难度：容易 / JS题 / PY题
@@ -580,7 +580,7 @@
 - [0578 - 查询回答率最高的问题](https://leetcode-cn.com/problems/get-highest-answer-rate-question/) 难度：中等 / 付费题 / JS题 / PY题
 - [0579 - 查询员工的累计薪水](https://leetcode-cn.com/problems/find-cumulative-salary-of-an-employee/) 难度：困难 / 付费题 / JS题 / PY题
 - [0580 - 统计各专业学生人数](https://leetcode-cn.com/problems/count-student-number-in-departments/) 难度：中等 / 付费题 / JS题 / PY题
-- [0581 - 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/) 难度：容易 / JS题 / PY题
+- [0581 - 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/) 难度：中等 / JS题 / PY题
 - [0582 - 杀死进程](https://leetcode-cn.com/problems/kill-process/) 难度：中等 / 付费题 / JS题 / PY题
 - [0583 - 两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/) 难度：中等 / JS题 / PY题
 - [0584 - 寻找用户推荐人](https://leetcode-cn.com/problems/find-customer-referee/) 难度：容易 / 付费题 / JS题 / PY题
@@ -623,16 +623,16 @@
 - [0621 - 任务调度器](https://leetcode-cn.com/problems/task-scheduler/) 难度：中等 / JS题 / PY题
 - [0622 - 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) 难度：中等 / JS题 / PY题
 - [0623 - 在二叉树中增加一行](https://leetcode-cn.com/problems/add-one-row-to-tree/) 难度：中等 / JS题 / PY题
-- [0624 - 数组列表中的最大距离](https://leetcode-cn.com/problems/maximum-distance-in-arrays/) 难度：容易 / 付费题 / JS题 / PY题
+- [0624 - 数组列表中的最大距离](https://leetcode-cn.com/problems/maximum-distance-in-arrays/) 难度：中等 / 付费题 / JS题 / PY题
 - [0625 - 最小因式分解](https://leetcode-cn.com/problems/minimum-factorization/) 难度：中等 / 付费题 / JS题 / PY题
 - [0626 - 换座位](https://leetcode-cn.com/problems/exchange-seats/) 难度：中等
-- [0627 - 交换工资](https://leetcode-cn.com/problems/swap-salary/) 难度：容易
+- [0627 - 变更性别](https://leetcode-cn.com/problems/swap-salary/) 难度：容易
 - [0628 - 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) 难度：容易 / JS题 / PY题
 - [0629 - K个逆序对数组](https://leetcode-cn.com/problems/k-inverse-pairs-array/) 难度：困难 / JS题 / PY题
 - [0630 - 课程表 III](https://leetcode-cn.com/problems/course-schedule-iii/) 难度：困难 / JS题 / PY题
 - [0631 - 设计 Excel 求和公式](https://leetcode-cn.com/problems/design-excel-sum-formula/) 难度：困难 / 付费题 / JS题 / PY题
 - [0632 - 最小区间](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/) 难度：困难 / JS题 / PY题
-- [0633 - 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/) 难度：容易 / JS题 / PY题
+- [0633 - 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/) 难度：中等 / JS题 / PY题
 - [0634 - 寻找数组的错位排列](https://leetcode-cn.com/problems/find-the-derangement-of-an-array/) 难度：中等 / 付费题 / JS题 / PY题
 - [0635 - 设计日志存储系统](https://leetcode-cn.com/problems/design-log-storage-system/) 难度：中等 / 付费题 / JS题 / PY题
 - [0636 - 函数的独占时间](https://leetcode-cn.com/problems/exclusive-time-of-functions/) 难度：中等 / JS题 / PY题
@@ -682,11 +682,11 @@
 - [0680 - 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) 难度：容易 / JS题 / PY题
 - [0681 - 最近时刻](https://leetcode-cn.com/problems/next-closest-time/) 难度：中等 / 付费题 / JS题 / PY题
 - [0682 - 棒球比赛](https://leetcode-cn.com/problems/baseball-game/) 难度：容易 / JS题 / PY题
-- [0683 - K 个空花盆](https://leetcode-cn.com/problems/k-empty-slots/) 难度：困难 / 付费题 / JS题 / PY题
+- [0683 - K 个关闭的灯泡](https://leetcode-cn.com/problems/k-empty-slots/) 难度：困难 / 付费题 / JS题 / PY题
 - [0684 - 冗余连接](https://leetcode-cn.com/problems/redundant-connection/) 难度：中等 / JS题 / PY题
 - [0685 - 冗余连接 II](https://leetcode-cn.com/problems/redundant-connection-ii/) 难度：困难 / JS题 / PY题
-- [0686 - 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/) 难度：容易 / JS题 / PY题
-- [0687 - 最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/) 难度：容易 / JS题 / PY题
+- [0686 - 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/) 难度：中等 / JS题 / PY题
+- [0687 - 最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/) 难度：中等 / JS题 / PY题
 - [0688 - “马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/) 难度：中等 / JS题 / PY题
 - [0689 - 三个无重叠子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) 难度：困难 / JS题 / PY题
 - [0690 - 员工的重要性](https://leetcode-cn.com/problems/employee-importance/) 难度：容易 / JS题 / PY题
@@ -702,7 +702,7 @@
 - [0700 - 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) 难度：容易 / JS题 / PY题
 - [0701 - 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) 难度：中等 / JS题 / PY题
 - [0702 - 搜索长度未知的有序数组](https://leetcode-cn.com/problems/search-in-a-sorted-array-of-unknown-size/) 难度：中等 / 付费题 / JS题 / PY题
-- [0703 - 数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) 难度：容易 / JS题 / PY题
+- [0703 - 数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) 难度：容易 / JS题 / PY题
 - [0704 - 二分查找](https://leetcode-cn.com/problems/binary-search/) 难度：容易 / JS题 / PY题
 - [0705 - 设计哈希集合](https://leetcode-cn.com/problems/design-hashset/) 难度：容易 / JS题 / PY题
 - [0706 - 设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/) 难度：容易 / JS题 / PY题
@@ -747,7 +747,7 @@
 - [0745 - 前缀和后缀搜索](https://leetcode-cn.com/problems/prefix-and-suffix-search/) 难度：困难 / JS题 / PY题
 - [0746 - 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) 难度：容易 / JS题 / PY题
 - [0747 - 至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/) 难度：容易 / JS题 / PY题
-- [0748 - 最短完整词](https://leetcode-cn.com/problems/shortest-completing-word/) 难度：容易 / JS题 / PY题
+- [0748 - 最短补全词](https://leetcode-cn.com/problems/shortest-completing-word/) 难度：容易 / JS题 / PY题
 - [0749 - 隔离病毒](https://leetcode-cn.com/problems/contain-virus/) 难度：困难 / JS题 / PY题
 - [0750 - 角矩形的数量](https://leetcode-cn.com/problems/number-of-corner-rectangles/) 难度：中等 / 付费题 / JS题 / PY题
 - [0751 - IP 到 CIDR](https://leetcode-cn.com/problems/ip-to-cidr/) 难度：容易 / 付费题 / JS题 / PY题
@@ -756,7 +756,7 @@
 - [0754 - 到达终点数字](https://leetcode-cn.com/problems/reach-a-number/) 难度：中等 / JS题 / PY题
 - [0755 - 倒水](https://leetcode-cn.com/problems/pour-water/) 难度：中等 / 付费题 / JS题 / PY题
 - [0756 - 金字塔转换矩阵](https://leetcode-cn.com/problems/pyramid-transition-matrix/) 难度：中等 / JS题 / PY题
-- [0757 -  设置交集大小至少为2](https://leetcode-cn.com/problems/set-intersection-size-at-least-two/) 难度：困难 / JS题 / PY题
+- [0757 - 设置交集大小至少为2](https://leetcode-cn.com/problems/set-intersection-size-at-least-two/) 难度：困难 / JS题 / PY题
 - [0758 - 字符串中的加粗单词](https://leetcode-cn.com/problems/bold-words-in-string/) 难度：容易 / 付费题 / JS题 / PY题
 - [0759 - 员工空闲时间](https://leetcode-cn.com/problems/employee-free-time/) 难度：困难 / 付费题 / JS题 / PY题
 - [0760 - 找出变位映射](https://leetcode-cn.com/problems/find-anagram-mappings/) 难度：容易 / 付费题 / JS题 / PY题
@@ -783,7 +783,7 @@
 - [0781 - 森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/) 难度：中等 / JS题 / PY题
 - [0782 - 变为棋盘](https://leetcode-cn.com/problems/transform-to-chessboard/) 难度：困难 / JS题 / PY题
 - [0783 - 二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) 难度：容易 / JS题 / PY题
-- [0784 - 字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) 难度：容易 / JS题 / PY题
+- [0784 - 字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) 难度：中等 / JS题 / PY题
 - [0785 - 判断二分图](https://leetcode-cn.com/problems/is-graph-bipartite/) 难度：中等 / JS题 / PY题
 - [0786 - 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/) 难度：困难 / JS题 / PY题
 - [0787 - K 站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/) 难度：中等 / JS题 / PY题
@@ -839,7 +839,7 @@
 - [0837 - 新21点](https://leetcode-cn.com/problems/new-21-game/) 难度：中等 / JS题 / PY题
 - [0838 - 推多米诺](https://leetcode-cn.com/problems/push-dominoes/) 难度：中等 / JS题 / PY题
 - [0839 - 相似字符串组](https://leetcode-cn.com/problems/similar-string-groups/) 难度：困难 / JS题 / PY题
-- [0840 - 矩阵中的幻方](https://leetcode-cn.com/problems/magic-squares-in-grid/) 难度：容易 / JS题 / PY题
+- [0840 - 矩阵中的幻方](https://leetcode-cn.com/problems/magic-squares-in-grid/) 难度：中等 / JS题 / PY题
 - [0841 - 钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/) 难度：中等 / JS题 / PY题
 - [0842 - 将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/) 难度：中等 / JS题 / PY题
 - [0843 - 猜猜这个单词](https://leetcode-cn.com/problems/guess-the-word/) 难度：困难 / JS题 / PY题
@@ -848,7 +848,7 @@
 - [0846 - 一手顺子](https://leetcode-cn.com/problems/hand-of-straights/) 难度：中等 / JS题 / PY题
 - [0847 - 访问所有节点的最短路径](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/) 难度：困难 / JS题 / PY题
 - [0848 - 字母移位](https://leetcode-cn.com/problems/shifting-letters/) 难度：中等 / JS题 / PY题
-- [0849 - 到最近的人的最大距离](https://leetcode-cn.com/problems/maximize-distance-to-closest-person/) 难度：容易 / JS题 / PY题
+- [0849 - 到最近的人的最大距离](https://leetcode-cn.com/problems/maximize-distance-to-closest-person/) 难度：中等 / JS题 / PY题
 - [0850 - 矩形面积 II](https://leetcode-cn.com/problems/rectangle-area-ii/) 难度：困难 / JS题 / PY题
 - [0851 - 喧闹和富有](https://leetcode-cn.com/problems/loud-and-rich/) 难度：中等 / JS题 / PY题
 - [0852 - 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/) 难度：容易 / JS题 / PY题
@@ -864,7 +864,7 @@
 - [0862 - 和至少为 K 的最短子数组](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) 难度：困难 / JS题 / PY题
 - [0863 - 二叉树中所有距离为 K 的结点](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/) 难度：中等 / JS题 / PY题
 - [0864 - 获取所有钥匙的最短路径](https://leetcode-cn.com/problems/shortest-path-to-get-all-keys/) 难度：困难 / JS题 / PY题
-- [0865 - 具有所有最深结点的最小子树](https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepest-nodes/) 难度：中等 / JS题 / PY题
+- [0865 - 具有所有最深节点的最小子树](https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepest-nodes/) 难度：中等 / JS题 / PY题
 - [0866 - 回文素数](https://leetcode-cn.com/problems/prime-palindrome/) 难度：中等 / JS题 / PY题
 - [0867 - 转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/) 难度：容易 / JS题 / PY题
 - [0868 - 二进制间距](https://leetcode-cn.com/problems/binary-gap/) 难度：容易 / JS题 / PY题
@@ -948,7 +948,7 @@
 - [0946 - 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/) 难度：中等 / JS题 / PY题
 - [0947 - 移除最多的同行或同列石头](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column/) 难度：中等 / JS题 / PY题
 - [0948 - 令牌放置](https://leetcode-cn.com/problems/bag-of-tokens/) 难度：中等 / JS题 / PY题
-- [0949 - 给定数字能组成的最大时间](https://leetcode-cn.com/problems/largest-time-for-given-digits/) 难度：容易 / JS题 / PY题
+- [0949 - 给定数字能组成的最大时间](https://leetcode-cn.com/problems/largest-time-for-given-digits/) 难度：中等 / JS题 / PY题
 - [0950 - 按递增顺序显示卡牌](https://leetcode-cn.com/problems/reveal-cards-in-increasing-order/) 难度：中等 / JS题 / PY题
 - [0951 - 翻转等价二叉树](https://leetcode-cn.com/problems/flip-equivalent-binary-trees/) 难度：中等 / JS题 / PY题
 - [0952 - 按公因数计算最大组件大小](https://leetcode-cn.com/problems/largest-component-size-by-common-factor/) 难度：困难 / JS题 / PY题
@@ -1007,7 +1007,7 @@
 - [1005 - K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/) 难度：容易 / JS题 / PY题
 - [1006 - 笨阶乘](https://leetcode-cn.com/problems/clumsy-factorial/) 难度：中等 / JS题 / PY题
 - [1007 - 行相等的最少多米诺旋转](https://leetcode-cn.com/problems/minimum-domino-rotations-for-equal-row/) 难度：中等 / JS题 / PY题
-- [1008 - 先序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) 难度：中等 / JS题 / PY题
+- [1008 - 前序遍历构造二叉搜索树](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) 难度：中等 / JS题 / PY题
 - [1009 - 十进制整数的反码](https://leetcode-cn.com/problems/complement-of-base-10-integer/) 难度：容易 / JS题 / PY题
 - [1010 - 总持续时间可被 60 整除的歌曲](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) 难度：容易 / JS题 / PY题
 - [1011 - 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/) 难度：中等 / JS题 / PY题
@@ -1026,9 +1026,9 @@
 - [1024 - 视频拼接](https://leetcode-cn.com/problems/video-stitching/) 难度：中等 / JS题 / PY题
 - [1025 - 除数博弈](https://leetcode-cn.com/problems/divisor-game/) 难度：容易 / JS题 / PY题
 - [1026 - 节点与其祖先之间的最大差值](https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/) 难度：中等 / JS题 / PY题
-- [1027 - 最长等差数列](https://leetcode-cn.com/problems/longest-arithmetic-sequence/) 难度：中等 / JS题 / PY题
+- [1027 - 最长等差数列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence/) 难度：中等 / JS题 / PY题
 - [1028 - 从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/) 难度：困难 / JS题 / PY题
-- [1029 - 两地调度](https://leetcode-cn.com/problems/two-city-scheduling/) 难度：容易 / JS题 / PY题
+- [1029 - 两地调度](https://leetcode-cn.com/problems/two-city-scheduling/) 难度：中等 / JS题 / PY题
 - [1030 - 距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) 难度：容易 / JS题 / PY题
 - [1031 - 两个非重叠子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-of-two-non-overlapping-subarrays/) 难度：中等 / JS题 / PY题
 - [1032 - 字符流](https://leetcode-cn.com/problems/stream-of-characters/) 难度：困难 / JS题 / PY题
@@ -1037,11 +1037,11 @@
 - [1035 - 不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/) 难度：中等 / JS题 / PY题
 - [1036 - 逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/) 难度：困难 / JS题 / PY题
 - [1037 - 有效的回旋镖](https://leetcode-cn.com/problems/valid-boomerang/) 难度：容易 / JS题 / PY题
-- [1038 - 从二叉搜索树到更大和树](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) 难度：中等 / JS题 / PY题
+- [1038 - 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) 难度：中等 / JS题 / PY题
 - [1039 - 多边形三角剖分的最低得分](https://leetcode-cn.com/problems/minimum-score-triangulation-of-polygon/) 难度：中等 / JS题 / PY题
 - [1040 - 移动石子直到连续 II](https://leetcode-cn.com/problems/moving-stones-until-consecutive-ii/) 难度：中等 / JS题 / PY题
 - [1041 - 困于环中的机器人](https://leetcode-cn.com/problems/robot-bounded-in-circle/) 难度：中等 / JS题 / PY题
-- [1042 - 不邻接植花](https://leetcode-cn.com/problems/flower-planting-with-no-adjacent/) 难度：容易 / JS题 / PY题
+- [1042 - 不邻接植花](https://leetcode-cn.com/problems/flower-planting-with-no-adjacent/) 难度：中等 / JS题 / PY题
 - [1043 - 分隔数组以得到最大和](https://leetcode-cn.com/problems/partition-array-for-maximum-sum/) 难度：中等 / JS题 / PY题
 - [1044 - 最长重复子串](https://leetcode-cn.com/problems/longest-duplicate-substring/) 难度：困难 / JS题 / PY题
 - [1045 - 买下所有产品的客户](https://leetcode-cn.com/problems/customers-who-bought-all-products/) 难度：中等 / 付费题 / JS题 / PY题
@@ -1086,7 +1086,7 @@
 - [1084 - 销售分析III](https://leetcode-cn.com/problems/sales-analysis-iii/) 难度：容易 / 付费题 / JS题 / PY题
 - [1085 - 最小元素各数位之和](https://leetcode-cn.com/problems/sum-of-digits-in-the-minimum-number/) 难度：容易 / 付费题 / JS题 / PY题
 - [1086 - 前五科的均分](https://leetcode-cn.com/problems/high-five/) 难度：容易 / 付费题 / JS题 / PY题
-- [1087 - 字母切换](https://leetcode-cn.com/problems/brace-expansion/) 难度：中等 / 付费题 / JS题 / PY题
+- [1087 - 花括号展开](https://leetcode-cn.com/problems/brace-expansion/) 难度：中等 / 付费题 / JS题 / PY题
 - [1088 - 易混淆数 II](https://leetcode-cn.com/problems/confusing-number-ii/) 难度：困难 / 付费题 / JS题 / PY题
 - [1089 - 复写零](https://leetcode-cn.com/problems/duplicate-zeros/) 难度：容易 / JS题 / PY题
 - [1090 - 受标签影响的最大值](https://leetcode-cn.com/problems/largest-values-from-labels/) 难度：中等 / JS题 / PY题
@@ -1216,7 +1216,7 @@
 - [1214 - 查找两棵二叉搜索树之和](https://leetcode-cn.com/problems/two-sum-bsts/) 难度：中等 / 付费题 / JS题 / PY题
 - [1215 - 步进数](https://leetcode-cn.com/problems/stepping-numbers/) 难度：中等 / 付费题 / JS题 / PY题
 - [1216 - 验证回文字符串 III](https://leetcode-cn.com/problems/valid-palindrome-iii/) 难度：困难 / 付费题 / JS题 / PY题
-- [1217 - 玩筹码](https://leetcode-cn.com/problems/play-with-chips/) 难度：容易 / JS题 / PY题
+- [1217 - 玩筹码](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/) 难度：容易 / JS题 / PY题
 - [1218 - 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/) 难度：中等 / JS题 / PY题
 - [1219 - 黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/) 难度：中等 / JS题 / PY题
 - [1220 - 统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/) 难度：困难 / JS题 / PY题
@@ -1411,7 +1411,7 @@
 - [1409 - 查询带键的排列](https://leetcode-cn.com/problems/queries-on-a-permutation-with-key/) 难度：中等 / JS题 / PY题
 - [1410 - HTML 实体解析器](https://leetcode-cn.com/problems/html-entity-parser/) 难度：中等 / JS题 / PY题
 - [1411 - 给 N x 3 网格图涂色的方案数](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-x-3-grid/) 难度：困难 / JS题 / PY题
-- [1412 - 查找成绩处于中游的的学生](https://leetcode-cn.com/problems/find-the-quiet-students-in-all-exams/) 难度：困难 / 付费题 / JS题 / PY题
+- [1412 - 查找成绩处于中游的学生](https://leetcode-cn.com/problems/find-the-quiet-students-in-all-exams/) 难度：困难 / 付费题 / JS题 / PY题
 - [1413 - 逐步求和得到正数的最小值](https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum/) 难度：容易 / JS题 / PY题
 - [1414 - 和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) 难度：中等 / JS题 / PY题
 - [1415 - 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) 难度：中等 / JS题 / PY题
@@ -1426,15 +1426,15 @@
 - [1424 - 对角线遍历 II](https://leetcode-cn.com/problems/diagonal-traverse-ii/) 难度：中等 / JS题 / PY题
 - [1425 - 带限制的子序列和](https://leetcode-cn.com/problems/constrained-subsequence-sum/) 难度：困难 / JS题 / PY题
 - [1426 - 数元素](https://leetcode-cn.com/problems/counting-elements/) 难度：容易 / 付费题 / JS题 / PY题
-- [1427 - Perform String Shifts](https://leetcode-cn.com/problems/perform-string-shifts/) 难度：容易 / 付费题 / JS题 / PY题
+- [1427 - 字符串的左右移](https://leetcode-cn.com/problems/perform-string-shifts/) 难度：容易 / 付费题 / JS题 / PY题
 - [1428 - 至少有一个 1 的最左端列](https://leetcode-cn.com/problems/leftmost-column-with-at-least-a-one/) 难度：中等 / 付费题 / JS题 / PY题
-- [1429 - First Unique Number](https://leetcode-cn.com/problems/first-unique-number/) 难度：中等 / 付费题 / JS题 / PY题
-- [1430 - Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode-cn.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) 难度：中等 / 付费题 / JS题 / PY题
+- [1429 - 第一个唯一数字](https://leetcode-cn.com/problems/first-unique-number/) 难度：中等 / 付费题 / JS题 / PY题
+- [1430 - 判断给定的序列是否是二叉树从根到叶的路径](https://leetcode-cn.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) 难度：中等 / 付费题 / JS题 / PY题
 - [1431 - 拥有最多糖果的孩子](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/) 难度：容易 / JS题 / PY题
 - [1432 - 改变一个整数能得到的最大差值](https://leetcode-cn.com/problems/max-difference-you-can-get-from-changing-an-integer/) 难度：中等 / JS题 / PY题
 - [1433 - 检查一个字符串是否可以打破另一个字符串](https://leetcode-cn.com/problems/check-if-a-string-can-break-another-string/) 难度：中等 / JS题 / PY题
 - [1434 - 每个人戴不同帽子的方案数](https://leetcode-cn.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) 难度：困难 / JS题 / PY题
-- [1435 - Create a Session Bar Chart](https://leetcode-cn.com/problems/create-a-session-bar-chart/) 难度：容易 / 付费题 / JS题 / PY题
+- [1435 - 制作会话柱状图](https://leetcode-cn.com/problems/create-a-session-bar-chart/) 难度：容易 / 付费题 / JS题 / PY题
 - [1436 - 旅行终点站](https://leetcode-cn.com/problems/destination-city/) 难度：容易 / JS题 / PY题
 - [1437 - 是否所有 1 都至少相隔 k 个元素](https://leetcode-cn.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) 难度：中等 / JS题 / PY题
 - [1438 - 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) 难度：中等 / JS题 / PY题
@@ -1453,12 +1453,203 @@
 - [1451 - 重新排列句子中的单词](https://leetcode-cn.com/problems/rearrange-words-in-a-sentence/) 难度：中等 / JS题 / PY题
 - [1452 - 收藏清单](https://leetcode-cn.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/) 难度：中等 / JS题 / PY题
 - [1453 - 圆形靶内的最大飞镖数量](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/) 难度：困难 / JS题 / PY题
-- [1454 - Active Users](https://leetcode-cn.com/problems/active-users/) 难度：中等 / 付费题 / JS题 / PY题
+- [1454 - 活跃用户](https://leetcode-cn.com/problems/active-users/) 难度：中等 / 付费题 / JS题 / PY题
 - [1455 - 检查单词是否为句中其他单词的前缀](https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) 难度：容易 / JS题 / PY题
 - [1456 - 定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) 难度：中等 / JS题 / PY题
 - [1457 - 二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) 难度：中等 / JS题 / PY题
 - [1458 - 两个子序列的最大点积](https://leetcode-cn.com/problems/max-dot-product-of-two-subsequences/) 难度：困难 / JS题 / PY题
-- [1459 - Rectangles Area](https://leetcode-cn.com/problems/rectangles-area/) 难度：中等 / 付费题 / JS题 / PY题
+- [1459 - 矩形面积](https://leetcode-cn.com/problems/rectangles-area/) 难度：中等 / 付费题 / JS题 / PY题
+- [1460 - 通过翻转子数组使两个数组相等](https://leetcode-cn.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/) 难度：容易 / JS题 / PY题
+- [1461 - 检查一个字符串是否包含所有长度为 K 的二进制子串](https://leetcode-cn.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) 难度：中等 / JS题 / PY题
+- [1462 - 课程安排 IV](https://leetcode-cn.com/problems/course-schedule-iv/) 难度：中等 / JS题 / PY题
+- [1463 - 摘樱桃 II](https://leetcode-cn.com/problems/cherry-pickup-ii/) 难度：困难 / JS题 / PY题
+- [1464 - 数组中两元素的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-two-elements-in-an-array/) 难度：容易 / JS题 / PY题
+- [1465 - 切割后面积最大的蛋糕](https://leetcode-cn.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) 难度：中等 / JS题 / PY题
+- [1466 - 重新规划路线](https://leetcode-cn.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) 难度：中等 / JS题 / PY题
+- [1467 - 两个盒子中球的颜色数相同的概率](https://leetcode-cn.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) 难度：困难 / JS题 / PY题
+- [1468 - 计算税后工资](https://leetcode-cn.com/problems/calculate-salaries/) 难度：中等 / 付费题 / JS题 / PY题
+- [1469 - 寻找所有的独生节点](https://leetcode-cn.com/problems/find-all-the-lonely-nodes/) 难度：容易 / 付费题 / JS题 / PY题
+- [1470 - 重新排列数组](https://leetcode-cn.com/problems/shuffle-the-array/) 难度：容易 / JS题 / PY题
+- [1471 - 数组中的 k 个最强值](https://leetcode-cn.com/problems/the-k-strongest-values-in-an-array/) 难度：中等 / JS题 / PY题
+- [1472 - 设计浏览器历史记录](https://leetcode-cn.com/problems/design-browser-history/) 难度：中等 / JS题 / PY题
+- [1473 - 给房子涂色 III](https://leetcode-cn.com/problems/paint-house-iii/) 难度：困难 / JS题 / PY题
+- [1474 - 删除链表 M 个节点之后的 N 个节点](https://leetcode-cn.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) 难度：容易 / 付费题 / JS题 / PY题
+- [1475 - 商品折扣后的最终价格](https://leetcode-cn.com/problems/final-prices-with-a-special-discount-in-a-shop/) 难度：容易 / JS题 / PY题
+- [1476 - 子矩形查询](https://leetcode-cn.com/problems/subrectangle-queries/) 难度：中等 / JS题 / PY题
+- [1477 - 找两个和为目标值且不重叠的子数组](https://leetcode-cn.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) 难度：中等 / JS题 / PY题
+- [1478 - 安排邮筒](https://leetcode-cn.com/problems/allocate-mailboxes/) 难度：困难 / JS题 / PY题
+- [1479 - 周内每天的销售情况](https://leetcode-cn.com/problems/sales-by-day-of-the-week/) 难度：困难 / 付费题 / JS题 / PY题
+- [1480 - 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/) 难度：容易 / JS题 / PY题
+- [1481 - 不同整数的最少数目](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/) 难度：中等 / JS题 / PY题
+- [1482 - 制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/) 难度：中等 / JS题 / PY题
+- [1483 - 树节点的第 K 个祖先](https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/) 难度：困难 / JS题 / PY题
+- [1484 - 克隆含随机指针的二叉树](https://leetcode-cn.com/problems/clone-binary-tree-with-random-pointer/) 难度：中等 / 付费题 / JS题 / PY题
+- [1485 - 按日期分组销售产品](https://leetcode-cn.com/problems/group-sold-products-by-the-date/) 难度：容易 / 付费题 / JS题 / PY题
+- [1486 - 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/) 难度：容易 / JS题 / PY题
+- [1487 - 保证文件名唯一](https://leetcode-cn.com/problems/making-file-names-unique/) 难度：中等 / JS题 / PY题
+- [1488 - 避免洪水泛滥](https://leetcode-cn.com/problems/avoid-flood-in-the-city/) 难度：中等 / JS题 / PY题
+- [1489 - 找到最小生成树里的关键边和伪关键边](https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) 难度：困难 / JS题 / PY题
+- [1490 - 克隆 N 叉树](https://leetcode-cn.com/problems/clone-n-ary-tree/) 难度：中等 / 付费题 / JS题 / PY题
+- [1491 - 去掉最低工资和最高工资后的工资平均值](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) 难度：容易 / JS题 / PY题
+- [1492 - n 的第 k 个因子](https://leetcode-cn.com/problems/the-kth-factor-of-n/) 难度：中等 / JS题 / PY题
+- [1493 - 删掉一个元素以后全为 1 的最长子数组](https://leetcode-cn.com/problems/longest-subarray-of-1s-after-deleting-one-element/) 难度：中等 / JS题 / PY题
+- [1494 - 并行课程 II](https://leetcode-cn.com/problems/parallel-courses-ii/) 难度：困难 / JS题 / PY题
+- [1495 - 上月播放的儿童适宜电影](https://leetcode-cn.com/problems/friendly-movies-streamed-last-month/) 难度：容易 / 付费题 / JS题 / PY题
+- [1496 - 判断路径是否相交](https://leetcode-cn.com/problems/path-crossing/) 难度：容易 / JS题 / PY题
+- [1497 - 检查数组对是否可以被 k 整除](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/) 难度：中等 / JS题 / PY题
+- [1498 - 满足条件的子序列数目](https://leetcode-cn.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) 难度：中等 / JS题 / PY题
+- [1499 - 满足不等式的最大值](https://leetcode-cn.com/problems/max-value-of-equation/) 难度：困难 / JS题 / PY题
+- [1500 - 设计文件分享系统](https://leetcode-cn.com/problems/design-a-file-sharing-system/) 难度：中等 / 付费题 / JS题 / PY题
+- [1501 - 可以放心投资的国家](https://leetcode-cn.com/problems/countries-you-can-safely-invest-in/) 难度：中等 / 付费题 / JS题 / PY题
+- [1502 - 判断能否形成等差数列](https://leetcode-cn.com/problems/can-make-arithmetic-progression-from-sequence/) 难度：容易 / JS题 / PY题
+- [1503 - 所有蚂蚁掉下来前的最后一刻](https://leetcode-cn.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/) 难度：中等 / JS题 / PY题
+- [1504 - 统计全 1 子矩形](https://leetcode-cn.com/problems/count-submatrices-with-all-ones/) 难度：中等 / JS题 / PY题
+- [1505 - 最多 K 次交换相邻数位后得到的最小整数](https://leetcode-cn.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) 难度：困难 / JS题 / PY题
+- [1506 - 找到 N 叉树的根节点](https://leetcode-cn.com/problems/find-root-of-n-ary-tree/) 难度：中等 / 付费题 / JS题 / PY题
+- [1507 - 转变日期格式](https://leetcode-cn.com/problems/reformat-date/) 难度：容易 / JS题 / PY题
+- [1508 - 子数组和排序后的区间和](https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/) 难度：中等 / JS题 / PY题
+- [1509 - 三次操作后最大值与最小值的最小差](https://leetcode-cn.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) 难度：中等 / JS题 / PY题
+- [1510 - 石子游戏 IV](https://leetcode-cn.com/problems/stone-game-iv/) 难度：困难 / JS题 / PY题
+- [1511 - 消费者下单频率](https://leetcode-cn.com/problems/customer-order-frequency/) 难度：容易 / 付费题 / JS题 / PY题
+- [1512 - 好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/) 难度：容易 / JS题 / PY题
+- [1513 - 仅含 1 的子串数](https://leetcode-cn.com/problems/number-of-substrings-with-only-1s/) 难度：中等 / JS题 / PY题
+- [1514 - 概率最大的路径](https://leetcode-cn.com/problems/path-with-maximum-probability/) 难度：中等 / JS题 / PY题
+- [1515 - 服务中心的最佳位置](https://leetcode-cn.com/problems/best-position-for-a-service-centre/) 难度：困难 / JS题 / PY题
+- [1516 - 移动 N 叉树的子树](https://leetcode-cn.com/problems/move-sub-tree-of-n-ary-tree/) 难度：困难 / 付费题 / JS题 / PY题
+- [1517 - 查找拥有有效邮箱的用户](https://leetcode-cn.com/problems/find-users-with-valid-e-mails/) 难度：容易 / 付费题 / JS题 / PY题
+- [1518 - 换酒问题](https://leetcode-cn.com/problems/water-bottles/) 难度：容易 / JS题 / PY题
+- [1519 - 子树中标签相同的节点数](https://leetcode-cn.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) 难度：中等 / JS题 / PY题
+- [1520 - 最多的不重叠子字符串](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-substrings/) 难度：困难 / JS题 / PY题
+- [1521 - 找到最接近目标值的函数值](https://leetcode-cn.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/) 难度：困难 / JS题 / PY题
+- [1522 - N 叉树的直径](https://leetcode-cn.com/problems/diameter-of-n-ary-tree/) 难度：中等 / 付费题 / JS题 / PY题
+- [1523 - 在区间范围内统计奇数数目](https://leetcode-cn.com/problems/count-odd-numbers-in-an-interval-range/) 难度：容易 / JS题 / PY题
+- [1524 - 和为奇数的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-with-odd-sum/) 难度：中等 / JS题 / PY题
+- [1525 - 字符串的好分割数目](https://leetcode-cn.com/problems/number-of-good-ways-to-split-a-string/) 难度：中等 / JS题 / PY题
+- [1526 - 形成目标数组的子数组最少增加次数](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) 难度：困难 / JS题 / PY题
+- [1527 - 患某种疾病的患者](https://leetcode-cn.com/problems/patients-with-a-condition/) 难度：容易 / 付费题 / JS题 / PY题
+- [1528 - 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/) 难度：容易 / JS题 / PY题
+- [1529 - 灯泡开关 IV](https://leetcode-cn.com/problems/bulb-switcher-iv/) 难度：中等 / JS题 / PY题
+- [1530 - 好叶子节点对的数量](https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/) 难度：中等 / JS题 / PY题
+- [1531 - 压缩字符串 II](https://leetcode-cn.com/problems/string-compression-ii/) 难度：困难 / JS题 / PY题
+- [1532 - 最近的三笔订单](https://leetcode-cn.com/problems/the-most-recent-three-orders/) 难度：中等 / 付费题 / JS题 / PY题
+- [1533 - 找到最大整数的索引](https://leetcode-cn.com/problems/find-the-index-of-the-large-integer/) 难度：中等 / 付费题 / JS题 / PY题
+- [1534 - 统计好三元组](https://leetcode-cn.com/problems/count-good-triplets/) 难度：容易 / JS题 / PY题
+- [1535 - 找出数组游戏的赢家](https://leetcode-cn.com/problems/find-the-winner-of-an-array-game/) 难度：中等 / JS题 / PY题
+- [1536 - 排布二进制网格的最少交换次数](https://leetcode-cn.com/problems/minimum-swaps-to-arrange-a-binary-grid/) 难度：中等 / JS题 / PY题
+- [1537 - 最大得分](https://leetcode-cn.com/problems/get-the-maximum-score/) 难度：困难 / JS题 / PY题
+- [1538 - 找出隐藏数组中出现次数最多的元素](https://leetcode-cn.com/problems/guess-the-majority-in-a-hidden-array/) 难度：中等 / 付费题 / JS题 / PY题
+- [1539 - 第 k 个缺失的正整数](https://leetcode-cn.com/problems/kth-missing-positive-number/) 难度：容易 / JS题 / PY题
+- [1540 - K 次操作转变字符串](https://leetcode-cn.com/problems/can-convert-string-in-k-moves/) 难度：中等 / JS题 / PY题
+- [1541 - 平衡括号字符串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertions-to-balance-a-parentheses-string/) 难度：中等 / JS题 / PY题
+- [1542 - 找出最长的超赞子字符串](https://leetcode-cn.com/problems/find-longest-awesome-substring/) 难度：困难 / JS题 / PY题
+- [1543 - 产品名称格式修复](https://leetcode-cn.com/problems/fix-product-name-format/) 难度：容易 / 付费题 / JS题 / PY题
+- [1544 - 整理字符串](https://leetcode-cn.com/problems/make-the-string-great/) 难度：容易 / JS题 / PY题
+- [1545 - 找出第 N 个二进制字符串中的第 K 位](https://leetcode-cn.com/problems/find-kth-bit-in-nth-binary-string/) 难度：中等 / JS题 / PY题
+- [1546 - 和为目标值的最大数目不重叠非空子数组数目](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/) 难度：中等 / JS题 / PY题
+- [1547 - 切棍子的最小成本](https://leetcode-cn.com/problems/minimum-cost-to-cut-a-stick/) 难度：困难 / JS题 / PY题
+- [1548 - 图中最相似的路径](https://leetcode-cn.com/problems/the-most-similar-path-in-a-graph/) 难度：困难 / 付费题 / JS题 / PY题
+- [1549 - 每件商品的最新订单](https://leetcode-cn.com/problems/the-most-recent-orders-for-each-product/) 难度：中等 / 付费题 / JS题 / PY题
+- [1550 - 存在连续三个奇数的数组](https://leetcode-cn.com/problems/three-consecutive-odds/) 难度：容易 / JS题 / PY题
+- [1551 - 使数组中所有元素相等的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-make-array-equal/) 难度：中等 / JS题 / PY题
+- [1552 - 两球之间的磁力](https://leetcode-cn.com/problems/magnetic-force-between-two-balls/) 难度：中等 / JS题 / PY题
+- [1553 - 吃掉 N 个橘子的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-eat-n-oranges/) 难度：困难 / JS题 / PY题
+- [1554 - 只有一个不同字符的字符串](https://leetcode-cn.com/problems/strings-differ-by-one-character/) 难度：中等 / 付费题 / JS题 / PY题
+- [1555 - 银行账户概要](https://leetcode-cn.com/problems/bank-account-summary/) 难度：中等 / 付费题 / JS题 / PY题
+- [1556 - 千位分隔数](https://leetcode-cn.com/problems/thousand-separator/) 难度：容易 / JS题 / PY题
+- [1557 - 可以到达所有点的最少点数目](https://leetcode-cn.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) 难度：中等 / JS题 / PY题
+- [1558 - 得到目标数组的最少函数调用次数](https://leetcode-cn.com/problems/minimum-numbers-of-function-calls-to-make-target-array/) 难度：中等 / JS题 / PY题
+- [1559 - 二维网格图中探测环](https://leetcode-cn.com/problems/detect-cycles-in-2d-grid/) 难度：困难 / JS题 / PY题
+- [1560 - 圆形赛道上经过次数最多的扇区](https://leetcode-cn.com/problems/most-visited-sector-in-a-circular-track/) 难度：容易 / JS题 / PY题
+- [1561 - 你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) 难度：中等 / JS题 / PY题
+- [1562 - 查找大小为 M 的最新分组](https://leetcode-cn.com/problems/find-latest-group-of-size-m/) 难度：中等 / JS题 / PY题
+- [1563 - 石子游戏 V](https://leetcode-cn.com/problems/stone-game-v/) 难度：困难 / JS题 / PY题
+- [1564 - 把箱子放进仓库里 I](https://leetcode-cn.com/problems/put-boxes-into-the-warehouse-i/) 难度：中等 / 付费题 / JS题 / PY题
+- [1565 - 按月统计订单数与顾客数](https://leetcode-cn.com/problems/unique-orders-and-customers-per-month/) 难度：容易 / 付费题 / JS题 / PY题
+- [1566 - 重复至少 K 次且长度为 M 的模式](https://leetcode-cn.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/) 难度：容易 / JS题 / PY题
+- [1567 - 乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/) 难度：中等 / JS题 / PY题
+- [1568 - 使陆地分离的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-disconnect-island/) 难度：困难 / JS题 / PY题
+- [1569 - 将子数组重新排序得到同一个二叉查找树的方案数](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) 难度：困难 / JS题 / PY题
+- [1570 - 两个稀疏向量的点积](https://leetcode-cn.com/problems/dot-product-of-two-sparse-vectors/) 难度：中等 / 付费题 / JS题 / PY题
+- [1571 - 仓库经理](https://leetcode-cn.com/problems/warehouse-manager/) 难度：容易 / 付费题 / JS题 / PY题
+- [1572 - 矩阵对角线元素的和](https://leetcode-cn.com/problems/matrix-diagonal-sum/) 难度：容易 / JS题 / PY题
+- [1573 - 分割字符串的方案数](https://leetcode-cn.com/problems/number-of-ways-to-split-a-string/) 难度：中等 / JS题 / PY题
+- [1574 - 删除最短的子数组使剩余数组有序](https://leetcode-cn.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) 难度：中等 / JS题 / PY题
+- [1575 - 统计所有可行路径](https://leetcode-cn.com/problems/count-all-possible-routes/) 难度：困难 / JS题 / PY题
+- [1576 - 替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) 难度：容易 / JS题 / PY题
+- [1577 - 数的平方等于两数乘积的方法数](https://leetcode-cn.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/) 难度：中等 / JS题 / PY题
+- [1578 - 避免重复字母的最小删除成本](https://leetcode-cn.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/) 难度：中等 / JS题 / PY题
+- [1579 - 保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) 难度：困难 / JS题 / PY题
+- [1580 - Put Boxes Into the Warehouse II](https://leetcode-cn.com/problems/put-boxes-into-the-warehouse-ii/) 难度：中等 / 付费题 / JS题 / PY题
+- [1581 - 进店却未进行过交易的顾客](https://leetcode-cn.com/problems/customer-who-visited-but-did-not-make-any-transactions/) 难度：容易 / 付费题 / JS题 / PY题
+- [1582 - 二进制矩阵中的特殊位置](https://leetcode-cn.com/problems/special-positions-in-a-binary-matrix/) 难度：容易 / JS题 / PY题
+- [1583 - 统计不开心的朋友](https://leetcode-cn.com/problems/count-unhappy-friends/) 难度：中等 / JS题 / PY题
+- [1584 - 连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/) 难度：中等 / JS题 / PY题
+- [1585 - 检查字符串是否可以通过排序子字符串得到另一个字符串](https://leetcode-cn.com/problems/check-if-string-is-transformable-with-substring-sort-operations/) 难度：困难 / JS题 / PY题
+- [1586 - 二叉搜索树迭代器 II](https://leetcode-cn.com/problems/binary-search-tree-iterator-ii/) 难度：中等 / 付费题 / JS题 / PY题
+- [1587 - 银行账户概要 II](https://leetcode-cn.com/problems/bank-account-summary-ii/) 难度：容易 / 付费题 / JS题 / PY题
+- [1588 - 所有奇数长度子数组的和](https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/) 难度：容易 / JS题 / PY题
+- [1589 - 所有排列中的最大和](https://leetcode-cn.com/problems/maximum-sum-obtained-of-any-permutation/) 难度：中等 / JS题 / PY题
+- [1590 - 使数组和能被 P 整除](https://leetcode-cn.com/problems/make-sum-divisible-by-p/) 难度：中等 / JS题 / PY题
+- [1591 - 奇怪的打印机 II](https://leetcode-cn.com/problems/strange-printer-ii/) 难度：困难 / JS题 / PY题
+- [1592 - 重新排列单词间的空格](https://leetcode-cn.com/problems/rearrange-spaces-between-words/) 难度：容易 / JS题 / PY题
+- [1593 - 拆分字符串使唯一子字符串的数目最大](https://leetcode-cn.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) 难度：中等 / JS题 / PY题
+- [1594 - 矩阵的最大非负积](https://leetcode-cn.com/problems/maximum-non-negative-product-in-a-matrix/) 难度：中等 / JS题 / PY题
+- [1595 - 连通两组点的最小成本](https://leetcode-cn.com/problems/minimum-cost-to-connect-two-groups-of-points/) 难度：困难 / JS题 / PY题
+- [1596 - 每位顾客最经常订购的商品](https://leetcode-cn.com/problems/the-most-frequently-ordered-products-for-each-customer/) 难度：中等 / 付费题 / JS题 / PY题
+- [1597 - 根据中缀表达式构造二叉表达式树](https://leetcode-cn.com/problems/build-binary-expression-tree-from-infix-expression/) 难度：困难 / 付费题 / JS题 / PY题
+- [1598 - 文件夹操作日志搜集器](https://leetcode-cn.com/problems/crawler-log-folder/) 难度：容易 / JS题 / PY题
+- [1599 - 经营摩天轮的最大利润](https://leetcode-cn.com/problems/maximum-profit-of-operating-a-centennial-wheel/) 难度：中等 / JS题 / PY题
+- [1600 - 皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance/) 难度：中等 / JS题 / PY题
+- [1601 - 最多可达成的换楼请求数目](https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/) 难度：困难 / JS题 / PY题
+- [1602 - 找到二叉树中最近的右侧节点](https://leetcode-cn.com/problems/find-nearest-right-node-in-binary-tree/) 难度：中等 / 付费题 / JS题 / PY题
+- [1603 - 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/) 难度：容易 / JS题 / PY题
+- [1604 - 警告一小时内使用相同员工卡大于等于三次的人](https://leetcode-cn.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) 难度：中等 / JS题 / PY题
+- [1605 - 给定行和列的和求可行矩阵](https://leetcode-cn.com/problems/find-valid-matrix-given-row-and-column-sums/) 难度：中等 / JS题 / PY题
+- [1606 - 找到处理最多请求的服务器](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/) 难度：困难 / JS题 / PY题
+- [1607 - 没有卖出的卖家](https://leetcode-cn.com/problems/sellers-with-no-sales/) 难度：容易 / 付费题 / JS题 / PY题
+- [1608 - 特殊数组的特征值](https://leetcode-cn.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) 难度：容易 / JS题 / PY题
+- [1609 - 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/) 难度：中等 / JS题 / PY题
+- [1610 - 可见点的最大数目](https://leetcode-cn.com/problems/maximum-number-of-visible-points/) 难度：困难 / JS题 / PY题
+- [1611 - 使整数变为 0 的最少操作次数](https://leetcode-cn.com/problems/minimum-one-bit-operations-to-make-integers-zero/) 难度：困难 / JS题 / PY题
+- [1612 - 检查两棵二叉表达式树是否等价](https://leetcode-cn.com/problems/check-if-two-expression-trees-are-equivalent/) 难度：中等 / 付费题 / JS题 / PY题
+- [1613 - 找到遗失的ID](https://leetcode-cn.com/problems/find-the-missing-ids/) 难度：中等 / 付费题 / JS题 / PY题
+- [1614 - 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/) 难度：容易 / JS题 / PY题
+- [1615 - 最大网络秩](https://leetcode-cn.com/problems/maximal-network-rank/) 难度：中等 / JS题 / PY题
+- [1616 - 分割两个字符串得到回文串](https://leetcode-cn.com/problems/split-two-strings-to-make-palindrome/) 难度：中等 / JS题 / PY题
+- [1617 - 统计子树中城市之间最大距离](https://leetcode-cn.com/problems/count-subtrees-with-max-distance-between-cities/) 难度：困难 / JS题 / PY题
+- [1618 - 找出适应屏幕的最大字号](https://leetcode-cn.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/) 难度：中等 / 付费题 / JS题 / PY题
+- [1619 - 删除某些元素后的数组均值](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/) 难度：容易 / JS题 / PY题
+- [1620 - 网络信号最好的坐标](https://leetcode-cn.com/problems/coordinate-with-maximum-network-quality/) 难度：中等 / JS题 / PY题
+- [1621 - 大小为 K 的不重叠线段的数目](https://leetcode-cn.com/problems/number-of-sets-of-k-non-overlapping-line-segments/) 难度：中等 / JS题 / PY题
+- [1622 - 奇妙序列](https://leetcode-cn.com/problems/fancy-sequence/) 难度：困难 / JS题 / PY题
+- [1623 - 三人国家代表队](https://leetcode-cn.com/problems/all-valid-triplets-that-can-represent-a-country/) 难度：容易 / 付费题 / JS题 / PY题
+- [1624 - 两个相同字符之间的最长子字符串](https://leetcode-cn.com/problems/largest-substring-between-two-equal-characters/) 难度：容易 / JS题 / PY题
+- [1625 - 执行操作后字典序最小的字符串](https://leetcode-cn.com/problems/lexicographically-smallest-string-after-applying-operations/) 难度：中等 / JS题 / PY题
+- [1626 - 无矛盾的最佳球队](https://leetcode-cn.com/problems/best-team-with-no-conflicts/) 难度：中等 / JS题 / PY题
+- [1627 - 带阈值的图连通性](https://leetcode-cn.com/problems/graph-connectivity-with-threshold/) 难度：困难 / JS题 / PY题
+- [1628 - 设计带解析函数的表达式树](https://leetcode-cn.com/problems/design-an-expression-tree-with-evaluate-function/) 难度：中等 / JS题 / PY题
+- [1629 - 按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/) 难度：容易 / JS题 / PY题
+- [1630 - 等差子数组](https://leetcode-cn.com/problems/arithmetic-subarrays/) 难度：中等 / JS题 / PY题
+- [1631 - 最小体力消耗路径](https://leetcode-cn.com/problems/path-with-minimum-effort/) 难度：中等 / JS题 / PY题
+- [1632 - 矩阵转换后的秩](https://leetcode-cn.com/problems/rank-transform-of-a-matrix/) 难度：困难 / JS题 / PY题
+- [1633 - 各赛事的用户注册率](https://leetcode-cn.com/problems/percentage-of-users-attended-a-contest/) 难度：容易 / 付费题 / JS题 / PY题
+- [1634 - Add Two Polynomials Represented as Linked Lists](https://leetcode-cn.com/problems/add-two-polynomials-represented-as-linked-lists/) 难度：中等 / 付费题 / JS题 / PY题
+- [1635 - Hopper Company Queries I](https://leetcode-cn.com/problems/hopper-company-queries-i/) 难度：困难 / 付费题 / JS题 / PY题
+- [1636 - 按照频率将数组升序排序](https://leetcode-cn.com/problems/sort-array-by-increasing-frequency/) 难度：容易 / JS题 / PY题
+- [1637 - 两点之间不包含任何点的最宽垂直面积](https://leetcode-cn.com/problems/widest-vertical-area-between-two-points-containing-no-points/) 难度：中等 / JS题 / PY题
+- [1638 - 统计只差一个字符的子串数目](https://leetcode-cn.com/problems/count-substrings-that-differ-by-one-character/) 难度：中等 / JS题 / PY题
+- [1639 - 通过给定词典构造目标字符串的方案数](https://leetcode-cn.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/) 难度：困难 / JS题 / PY题
+- [1640 - 能否连接形成数组](https://leetcode-cn.com/problems/check-array-formation-through-concatenation/) 难度：容易 / JS题 / PY题
+- [1641 - 统计字典序元音字符串的数目](https://leetcode-cn.com/problems/count-sorted-vowel-strings/) 难度：中等 / JS题 / PY题
+- [1642 - 可以到达的最远建筑](https://leetcode-cn.com/problems/furthest-building-you-can-reach/) 难度：中等 / JS题 / PY题
+- [1643 - 第 K 条最小指令](https://leetcode-cn.com/problems/kth-smallest-instructions/) 难度：困难 / JS题 / PY题
+- [1644 - Lowest Common Ancestor of a Binary Tree II](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/) 难度：中等 / 付费题 / JS题 / PY题
+- [1645 - Hopper Company Queries II](https://leetcode-cn.com/problems/hopper-company-queries-ii/) 难度：困难 / 付费题 / JS题 / PY题
+- [1646 - 获取生成数组中的最大值](https://leetcode-cn.com/problems/get-maximum-in-generated-array/) 难度：容易 / JS题 / PY题
+- [1647 - 字符频次唯一的最小删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-character-frequencies-unique/) 难度：中等 / JS题 / PY题
+- [1648 - 销售价值减少的颜色球](https://leetcode-cn.com/problems/sell-diminishing-valued-colored-balls/) 难度：中等 / JS题 / PY题
+- [1649 - 通过指令创建有序数组](https://leetcode-cn.com/problems/create-sorted-array-through-instructions/) 难度：困难 / JS题 / PY题
+- [1650 - Lowest Common Ancestor of a Binary Tree III](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) 难度：中等 / 付费题 / JS题 / PY题
 - [LCP 01 - 猜数字](https://leetcode-cn.com/problems/guess-numbers/) 难度：容易 / JS题 / PY题
 - [LCP 02 - 分式化简](https://leetcode-cn.com/problems/deep-dark-fraction/) 难度：容易 / JS题 / PY题
 - [LCP 03 - 机器人大冒险](https://leetcode-cn.com/problems/programmable-robot/) 难度：中等 / JS题 / PY题
@@ -1475,6 +1666,90 @@
 - [LCP 14 - 切分数组](https://leetcode-cn.com/problems/qie-fen-shu-zu/) 难度：困难 / JS题 / PY题
 - [LCP 15 - 游乐园的迷宫](https://leetcode-cn.com/problems/you-le-yuan-de-mi-gong/) 难度：困难 / JS题 / PY题
 - [LCP 16 - 游乐园的游览计划](https://leetcode-cn.com/problems/you-le-yuan-de-you-lan-ji-hua/) 难度：困难 / JS题 / PY题
+- [LCP 17 - 速算机器人](https://leetcode-cn.com/problems/nGK0Fy/) 难度：容易 / JS题 / PY题
+- [LCP 18 - 早餐组合](https://leetcode-cn.com/problems/2vYnGI/) 难度：容易 / JS题 / PY题
+- [LCP 19 - 秋叶收藏集](https://leetcode-cn.com/problems/UlBDOe/) 难度：中等 / JS题 / PY题
+- [LCP 20 - 快速公交](https://leetcode-cn.com/problems/meChtZ/) 难度：困难 / JS题 / PY题
+- [LCP 21 - 追逐游戏](https://leetcode-cn.com/problems/Za25hA/) 难度：困难 / JS题 / PY题
+- [LCP 22 - 黑白方格画](https://leetcode-cn.com/problems/ccw6C7/) 难度：容易 / JS题 / PY题
+- [LCP 23 - 魔术排列](https://leetcode-cn.com/problems/er94lq/) 难度：中等 / JS题 / PY题
+- [LCP 24 - 数字游戏](https://leetcode-cn.com/problems/5TxKeK/) 难度：困难 / JS题 / PY题
+- [LCP 25 - 古董键盘](https://leetcode-cn.com/problems/Uh984O/) 难度：困难 / JS题 / PY题
+- [LCP 26 - 导航装置](https://leetcode-cn.com/problems/hSRGyL/) 难度：困难 / JS题 / PY题
+- [LCP 27 - 黑盒光线反射](https://leetcode-cn.com/problems/IQvJ9i/) 难度：困难 / JS题 / PY题
+- [剑指 Offer 03 - 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 05 - 替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 06 - 从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 07 - 重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 09 - 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 10-I - 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 10-II - 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 11 - 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 12 - 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 13 - 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 14-I - 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 14-II - 剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 15 - 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 16 - 数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 17 - 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 18 - 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 19 - 正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/) 难度：困难 / JS题 / PY题
+- [剑指 Offer 20 - 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 21 - 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 22 - 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 24 - 反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 25 - 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 26 - 树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 27 - 二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 28 - 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 29 - 顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 30 - 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 31 - 栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 32-I - 从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 32-II - 从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 32-III - 从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 33 - 二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 34 - 二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 35 - 复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 36 - 二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 37 - 序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/) 难度：困难 / JS题 / PY题
+- [剑指 Offer 38 - 字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 39 - 数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 40 - 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 41 - 数据流中的中位数](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) 难度：困难 / JS题 / PY题
+- [剑指 Offer 42 - 连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 43 - 1～n 整数中 1 出现的次数](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/) 难度：困难 / JS题 / PY题
+- [剑指 Offer 44 - 数字序列中某一位的数字](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 45 - 把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 46 - 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 47 - 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 48 - 最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 49 - 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 50 - 第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 51 - 数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) 难度：困难 / JS题 / PY题
+- [剑指 Offer 52 - 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 53-I - 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 53-II - 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 54 - 二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 55-I - 二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 55-II - 平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 56-I - 数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 56-II - 数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 57 - 和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 57-II - 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 58-I - 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 58-II - 左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 59-I - 滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 59-II - 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 61 - 扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 62 - 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 63 - 股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 64 - 求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 65 - 不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) 难度：容易 / JS题 / PY题
+- [剑指 Offer 66 - 构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 67 - 把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/) 难度：中等 / JS题 / PY题
+- [剑指 Offer 68-I - 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/) 难度：容易 / PY题
+- [剑指 Offer 68-II - 二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) 难度：容易 / PY题
 - [面试题 01.01 - 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 01.02 - 判定是否互为字符重排](https://leetcode-cn.com/problems/check-permutation-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 01.03 - URL化](https://leetcode-cn.com/problems/string-to-url-lcci/) 难度：容易 / JS题 / PY题
@@ -1492,14 +1767,12 @@
 - [面试题 02.06 - 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 02.07 - 链表相交](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 02.08 - 环路检测](https://leetcode-cn.com/problems/linked-list-cycle-lcci/) 难度：中等 / JS题 / PY题
-- [面试题 03 - 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) 难度：容易 / JS题 / PY题
 - [面试题 03.01 - 三合一](https://leetcode-cn.com/problems/three-in-one-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 03.02 - 栈的最小值](https://leetcode-cn.com/problems/min-stack-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 03.03 - 堆盘子](https://leetcode-cn.com/problems/stack-of-plates-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 03.04 - 化栈为队](https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 03.05 - 栈排序](https://leetcode-cn.com/problems/sort-of-stacks-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 03.06 - 动物收容所](https://leetcode-cn.com/problems/animal-shelter-lcci/) 难度：容易 / JS题 / PY题
-- [面试题 04 - 二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) 难度：容易 / JS题 / PY题
 - [面试题 04.01 - 节点间通路](https://leetcode-cn.com/problems/route-between-nodes-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 04.02 - 最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 04.03 - 特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci/) 难度：中等 / JS题 / PY题
@@ -1510,7 +1783,6 @@
 - [面试题 04.09 - 二叉搜索树序列](https://leetcode-cn.com/problems/bst-sequences-lcci/) 难度：困难 / JS题 / PY题
 - [面试题 04.10 - 检查子树](https://leetcode-cn.com/problems/check-subtree-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 04.12 - 求和路径](https://leetcode-cn.com/problems/paths-with-sum-lcci/) 难度：中等 / JS题 / PY题
-- [面试题 05 - 替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) 难度：容易 / JS题 / PY题
 - [面试题 05.01 - 插入](https://leetcode-cn.com/problems/insert-into-bits-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 05.02 - 二进制数转字符串](https://leetcode-cn.com/problems/bianry-number-to-string-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 05.03 - 翻转数位](https://leetcode-cn.com/problems/reverse-bits-lcci/) 难度：容易 / JS题 / PY题
@@ -1518,8 +1790,6 @@
 - [面试题 05.06 - 整数转换](https://leetcode-cn.com/problems/convert-integer-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 05.07 - 配对交换](https://leetcode-cn.com/problems/exchange-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 05.08 - 绘制直线](https://leetcode-cn.com/problems/draw-line-lcci/) 难度：中等 / JS题 / PY题
-- [面试题 06 - 从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 07 - 重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) 难度：中等 / JS题 / PY题
 - [面试题 08.01 - 三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 08.02 - 迷路的机器人](https://leetcode-cn.com/problems/robot-in-a-grid-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 08.03 - 魔术索引](https://leetcode-cn.com/problems/magic-index-lcci/) 难度：容易 / JS题 / PY题
@@ -1534,9 +1804,6 @@
 - [面试题 08.12 - 八皇后](https://leetcode-cn.com/problems/eight-queens-lcci/) 难度：困难 / JS题 / PY题
 - [面试题 08.13 - 堆箱子](https://leetcode-cn.com/problems/pile-box-lcci/) 难度：困难 / JS题 / PY题
 - [面试题 08.14 - 布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/) 难度：中等 / JS题 / PY题
-- [面试题 09 - 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 10-I - 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 10-II - 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) 难度：容易 / JS题 / PY题
 - [面试题 10.01 - 合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 10.02 - 变位词组](https://leetcode-cn.com/problems/group-anagrams-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 10.03 - 搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/) 难度：中等 / JS题 / PY题
@@ -1544,13 +1811,6 @@
 - [面试题 10.09 - 排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 10.10 - 数字流的秩](https://leetcode-cn.com/problems/rank-from-stream-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 10.11 - 峰与谷](https://leetcode-cn.com/problems/peaks-and-valleys-lcci/) 难度：中等 / JS题 / PY题
-- [面试题 11 - 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 12 - 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 13 - 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 14-I - 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 14-II - 剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 15 - 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 16 - 数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) 难度：中等 / JS题 / PY题
 - [面试题 16.01 - 交换数字](https://leetcode-cn.com/problems/swap-numbers-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 16.02 - 单词频率](https://leetcode-cn.com/problems/words-frequency-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 16.03 - 交点](https://leetcode-cn.com/problems/intersection-lcci/) 难度：困难 / JS题 / PY题
@@ -1575,11 +1835,10 @@
 - [面试题 16.24 - 数对和](https://leetcode-cn.com/problems/pairs-with-sum-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 16.25 - LRU缓存](https://leetcode-cn.com/problems/lru-cache-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 16.26 - 计算器](https://leetcode-cn.com/problems/calculator-lcci/) 难度：中等 / JS题 / PY题
-- [面试题 17 - 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) 难度：容易 / JS题 / PY题
 - [面试题 17.01 - 不用加号的加法](https://leetcode-cn.com/problems/add-without-plus-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 17.04 - 消失的数字](https://leetcode-cn.com/problems/missing-number-lcci/) 难度：容易 / JS题 / PY题
 - [面试题 17.05 -  字母与数字](https://leetcode-cn.com/problems/find-longest-subarray-lcci/) 难度：中等 / JS题 / PY题
-- [面试题 17.06 - 2出现的次数](https://leetcode-cn.com/problems/number-of-2s-in-range-lcci/) 难度：中等 / JS题 / PY题
+- [面试题 17.06 - 2出现的次数](https://leetcode-cn.com/problems/number-of-2s-in-range-lcci/) 难度：困难 / JS题 / PY题
 - [面试题 17.07 - 婴儿名字](https://leetcode-cn.com/problems/baby-names-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 17.08 - 马戏团人塔](https://leetcode-cn.com/problems/circus-tower-lcci/) 难度：中等 / JS题 / PY题
 - [面试题 17.09 - 第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/) 难度：中等 / JS题 / PY题
@@ -1600,62 +1859,5 @@
 - [面试题 17.24 - 最大子矩阵](https://leetcode-cn.com/problems/max-submatrix-lcci/) 难度：困难 / JS题 / PY题
 - [面试题 17.25 - 单词矩阵](https://leetcode-cn.com/problems/word-rectangle-lcci/) 难度：困难 / JS题 / PY题
 - [面试题 17.26 - 稀疏相似度](https://leetcode-cn.com/problems/sparse-similarity-lcci/) 难度：困难 / JS题 / PY题
-- [面试题 18 - 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 19 - 正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/) 难度：困难 / JS题 / PY题
-- [面试题 20 - 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 21 - 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 22 - 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 24 - 反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 25 - 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 26 - 树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 27 - 二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 28 - 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 29 - 顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 30 - 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 31 - 栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 32-I - 从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 32-II - 从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 32-III - 从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 33 - 二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 34 - 二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 35 - 复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 36 - 二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 37 - 序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/) 难度：困难 / JS题 / PY题
-- [面试题 38 - 字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 39 - 数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 40 - 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 41 - 数据流中的中位数](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) 难度：困难 / JS题 / PY题
-- [面试题 42 - 连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 43 - 1～n整数中1出现的次数](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 44 - 数字序列中某一位的数字](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 45 - 把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 46 - 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 47 - 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 48 - 最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 49 - 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 50 - 第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 51 - 数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) 难度：困难 / JS题 / PY题
-- [面试题 52 - 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 53-I - 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 53-II - 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 54 - 二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 55-I - 二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 55-II - 平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 56-I - 数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 56-II - 数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 57 - 和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 57-II - 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 58-I - 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 58-II - 左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 59-I - 滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 59-II - 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 60 - n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 61 - 扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 62 - 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 63 - 股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 64 - 求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 65 - 不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 66 - 构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/) 难度：容易 / JS题 / PY题
-- [面试题 67 - 把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/) 难度：中等 / JS题 / PY题
-- [面试题 68-I - 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/) 难度：容易 / PY题
-- [面试题 68-II - 二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) 难度：容易 / PY题
+- [面试题 4 - 二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) 难度：中等 / JS题 / PY题
+- [面试题 60 - n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/) 难度：中等 / JS题 / PY题
